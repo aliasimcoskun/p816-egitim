@@ -1,0 +1,478 @@
+[
+ {
+  "id": "2-30.F1",
+  "page": "2-30",
+  "kind": "sekil-icerik",
+  "sec": "Figure 2-10",
+  "text": "[Figure 2-10] Chart title: BINGO; configuration label: GEAR UP - FLAPS UP (the label GEAR UP - FLAPS UP is repeated below the table, above the NOTES)."
+ },
+ {
+  "id": "2-30.F2",
+  "page": "2-30",
+  "kind": "sekil-icerik",
+  "sec": "Figure 2-10",
+  "text": "[Figure 2-10] Column headings: DIST TO BASE (NM); MAXIMUM RANGE CRUISE group: FUEL REQD - NO WIND (LB) and 100 KT HEAD WIND (LB), CLIMB SPEED (KCAS), CRUISE - ALT (FEET) and SPEED (KCAS), DESCEND - SPEED (KCAS) and DIST - NO WIND (NM) and 100 KT HEAD WIND (NM); SEA LEVEL CRUISE group: FUEL REQD - NO WIND (LB) and 100 KT HEAD WIND (LB), CRUISE SPEED (KCAS). Rows are grouped by DRAG INDEX = 0, 50 and 100, each with DIST TO BASE 25, 50, 75, 100, 125, 150, 175, 200, 225 and 250 NM."
+ },
+ {
+  "id": "2-30.F3",
+  "page": "2-30",
+  "kind": "sekil-icerik",
+  "sec": "Figure 2-10",
+  "text": "[Figure 2-10] DRAG INDEX = 0 block: CLIMB SPEED 300/0.75 and DESCEND SPEED 180 KCAS (a single value printed for all distances of the block)."
+ },
+ {
+  "id": "2-30.F4",
+  "page": "2-30",
+  "kind": "sekil-icerik",
+  "sec": "Figure 2-10",
+  "text": "[Figure 2-10] DRAG INDEX = 0, DIST TO BASE 25 NM: FUEL REQD 420 LB (NO WIND) / 515 LB (100 KT HEAD WIND); CRUISE ALT 5,000 FEET, CRUISE SPEED 221 KCAS; DESCEND DIST 14 NM (NO WIND) / 6 NM (100 KT HEAD WIND); SEA LEVEL CRUISE FUEL REQD 429 LB (NO WIND) / 535 LB (100 KT HEAD WIND), SEA LEVEL CRUISE SPEED 220 KCAS."
+ },
+ {
+  "id": "2-30.F5",
+  "page": "2-30",
+  "kind": "sekil-icerik",
+  "sec": "Figure 2-10",
+  "text": "[Figure 2-10] DRAG INDEX = 0, DIST TO BASE 50 NM: FUEL REQD 528 LB (NO WIND) / 682 LB (100 KT HEAD WIND); CRUISE ALT 10,000 FEET, CRUISE SPEED 222 KCAS; DESCEND DIST 27 NM (NO WIND) / 13 NM (100 KT HEAD WIND); SEA LEVEL CRUISE FUEL REQD 559 LB (NO WIND) / 771 LB (100 KT HEAD WIND), SEA LEVEL CRUISE SPEED 221 KCAS."
+ },
+ {
+  "id": "2-30.F6",
+  "page": "2-30",
+  "kind": "sekil-icerik",
+  "sec": "Figure 2-10",
+  "text": "[Figure 2-10] DRAG INDEX = 0, DIST TO BASE 75 NM: FUEL REQD 625 LB (NO WIND) / 815 LB (100 KT HEAD WIND); CRUISE ALT 15,000 FEET, CRUISE SPEED 219 KCAS; DESCEND DIST 41 NM (NO WIND) / 21 NM (100 KT HEAD WIND); SEA LEVEL CRUISE FUEL REQD 690 LB (NO WIND) / 1,006 LB (100 KT HEAD WIND), SEA LEVEL CRUISE SPEED 221 KCAS."
+ },
+ {
+  "id": "2-30.F7",
+  "page": "2-30",
+  "kind": "sekil-icerik",
+  "sec": "Figure 2-10",
+  "text": "[Figure 2-10] DRAG INDEX = 0, DIST TO BASE 100 NM: FUEL REQD 712 LB (NO WIND) / 921 LB (100 KT HEAD WIND); CRUISE ALT 20,000 FEET, CRUISE SPEED 218 KCAS; DESCEND DIST 55 NM (NO WIND) / 29 NM (100 KT HEAD WIND); SEA LEVEL CRUISE FUEL REQD 820 LB (NO WIND) / 1,240 LB (100 KT HEAD WIND), SEA LEVEL CRUISE SPEED 222 KCAS."
+ },
+ {
+  "id": "2-30.F8",
+  "page": "2-30",
+  "kind": "sekil-icerik",
+  "sec": "Figure 2-10",
+  "text": "[Figure 2-10] DRAG INDEX = 0, DIST TO BASE 125 NM: FUEL REQD 795 LB (NO WIND) / 1,006 LB (100 KT HEAD WIND); CRUISE ALT 25,000 FEET, CRUISE SPEED 225 KCAS; DESCEND DIST 69 NM (NO WIND) / 37 NM (100 KT HEAD WIND); SEA LEVEL CRUISE FUEL REQD 952 LB (NO WIND) / 1,474 LB (100 KT HEAD WIND), SEA LEVEL CRUISE SPEED 222 KCAS."
+ },
+ {
+  "id": "2-30.F9",
+  "page": "2-30",
+  "kind": "sekil-icerik",
+  "sec": "Figure 2-10",
+  "text": "[Figure 2-10] DRAG INDEX = 0, DIST TO BASE 150 NM: FUEL REQD 869 LB (NO WIND) / 1,081 LB (100 KT HEAD WIND); CRUISE ALT 30,000 FEET, CRUISE SPEED 224 KCAS; DESCEND DIST 83 NM (NO WIND) / 46 NM (100 KT HEAD WIND); SEA LEVEL CRUISE FUEL REQD 1,083 LB (NO WIND) / 1,707 LB (100 KT HEAD WIND), SEA LEVEL CRUISE SPEED 223 KCAS."
+ },
+ {
+  "id": "2-30.F10",
+  "page": "2-30",
+  "kind": "sekil-icerik",
+  "sec": "Figure 2-10",
+  "text": "[Figure 2-10] DRAG INDEX = 0, DIST TO BASE 175 NM: FUEL REQD 935 LB (NO WIND) / 1,150 LB (100 KT HEAD WIND); CRUISE ALT 35,000 FEET, CRUISE SPEED 215 KCAS; DESCEND DIST 97 NM (NO WIND) / 55 NM (100 KT HEAD WIND); SEA LEVEL CRUISE FUEL REQD 1,216 LB (NO WIND) / 1,940 LB (100 KT HEAD WIND), SEA LEVEL CRUISE SPEED 224 KCAS."
+ },
+ {
+  "id": "2-30.F11",
+  "page": "2-30",
+  "kind": "sekil-icerik",
+  "sec": "Figure 2-10",
+  "text": "[Figure 2-10] DRAG INDEX = 0, DIST TO BASE 200 NM: FUEL REQD 999 LB (NO WIND) / 1,238 LB (100 KT HEAD WIND); CRUISE ALT 35,000 FEET, CRUISE SPEED 216 KCAS; DESCEND DIST 97 NM (NO WIND) / 55 NM (100 KT HEAD WIND); SEA LEVEL CRUISE FUEL REQD 1,349 LB (NO WIND) / 2,172 LB (100 KT HEAD WIND), SEA LEVEL CRUISE SPEED 224 KCAS."
+ },
+ {
+  "id": "2-30.F12",
+  "page": "2-30",
+  "kind": "sekil-icerik",
+  "sec": "Figure 2-10",
+  "text": "[Figure 2-10] DRAG INDEX = 0, DIST TO BASE 225 NM: FUEL REQD 1,063 LB (NO WIND) / 1,327 LB (100 KT HEAD WIND); CRUISE ALT 35,000 FEET, CRUISE SPEED 216 KCAS; DESCEND DIST 97 NM (NO WIND) / 55 NM (100 KT HEAD WIND); SEA LEVEL CRUISE FUEL REQD 1,482 LB (NO WIND) / 2,404 LB (100 KT HEAD WIND), SEA LEVEL CRUISE SPEED 225 KCAS."
+ },
+ {
+  "id": "2-30.F13",
+  "page": "2-30",
+  "kind": "sekil-icerik",
+  "sec": "Figure 2-10",
+  "text": "[Figure 2-10] DRAG INDEX = 0, DIST TO BASE 250 NM: FUEL REQD 1,127 LB (NO WIND) / 1,392 LB (100 KT HEAD WIND); CRUISE ALT 40,000 FEET, CRUISE SPEED 213 KCAS; DESCEND DIST 111 NM (NO WIND) / 65 NM (100 KT HEAD WIND); SEA LEVEL CRUISE FUEL REQD 1,616 LB (NO WIND) / 2,635 LB (100 KT HEAD WIND), SEA LEVEL CRUISE SPEED 226 KCAS."
+ },
+ {
+  "id": "2-30.F14",
+  "page": "2-30",
+  "kind": "sekil-icerik",
+  "sec": "Figure 2-10",
+  "text": "[Figure 2-10] DRAG INDEX = 50 block: CLIMB SPEED 265/0.70 and DESCEND SPEED 170 KCAS (a single value printed for all distances of the block)."
+ },
+ {
+  "id": "2-30.F15",
+  "page": "2-30",
+  "kind": "sekil-icerik",
+  "sec": "Figure 2-10",
+  "text": "[Figure 2-10] DRAG INDEX = 50, DIST TO BASE 25 NM: FUEL REQD 433 LB (NO WIND) / 542 LB (100 KT HEAD WIND); CRUISE ALT 5,000 FEET, CRUISE SPEED 214 KCAS; DESCEND DIST 12 NM (NO WIND) / 5 NM (100 KT HEAD WIND); SEA LEVEL CRUISE FUEL REQD 441 LB (NO WIND) / 562 LB (100 KT HEAD WIND), SEA LEVEL CRUISE SPEED 214 KCAS."
+ },
+ {
+  "id": "2-30.F16",
+  "page": "2-30",
+  "kind": "sekil-icerik",
+  "sec": "Figure 2-10",
+  "text": "[Figure 2-10] DRAG INDEX = 50, DIST TO BASE 50 NM: FUEL REQD 551 LB (NO WIND) / 731 LB (100 KT HEAD WIND); CRUISE ALT 10,000 FEET, CRUISE SPEED 214 KCAS; DESCEND DIST 24 NM (NO WIND) / 11 NM (100 KT HEAD WIND); SEA LEVEL CRUISE FUEL REQD 582 LB (NO WIND) / 823 LB (100 KT HEAD WIND), SEA LEVEL CRUISE SPEED 215 KCAS."
+ },
+ {
+  "id": "2-30.F17",
+  "page": "2-30",
+  "kind": "sekil-icerik",
+  "sec": "Figure 2-10",
+  "text": "[Figure 2-10] DRAG INDEX = 50, DIST TO BASE 75 NM: FUEL REQD 656 LB (NO WIND) / 875 LB (100 KT HEAD WIND); CRUISE ALT 15,000 FEET, CRUISE SPEED 214 KCAS; DESCEND DIST 37 NM (NO WIND) / 17 NM (100 KT HEAD WIND); SEA LEVEL CRUISE FUEL REQD 724 LB (NO WIND) / 1,085 LB (100 KT HEAD WIND), SEA LEVEL CRUISE SPEED 216 KCAS."
+ },
+ {
+  "id": "2-30.F18",
+  "page": "2-30",
+  "kind": "sekil-icerik",
+  "sec": "Figure 2-10",
+  "text": "[Figure 2-10] DRAG INDEX = 50, DIST TO BASE 100 NM: FUEL REQD 752 LB (NO WIND) / 993 LB (100 KT HEAD WIND); CRUISE ALT 20,000 FEET, CRUISE SPEED 213 KCAS; DESCEND DIST 49 NM (NO WIND) / 24 NM (100 KT HEAD WIND); SEA LEVEL CRUISE FUEL REQD 867 LB (NO WIND) / 1,348 LB (100 KT HEAD WIND), SEA LEVEL CRUISE SPEED 216 KCAS."
+ },
+ {
+  "id": "2-30.F19",
+  "page": "2-30",
+  "kind": "sekil-icerik",
+  "sec": "Figure 2-10",
+  "text": "[Figure 2-10] DRAG INDEX = 50, DIST TO BASE 125 NM: FUEL REQD 840 LB (NO WIND) / 1,089 LB (100 KT HEAD WIND); CRUISE ALT 25,000 FEET, CRUISE SPEED 215 KCAS; DESCEND DIST 61 NM (NO WIND) / 31 NM (100 KT HEAD WIND); SEA LEVEL CRUISE FUEL REQD 1,010 LB (NO WIND) / 1,610 LB (100 KT HEAD WIND), SEA LEVEL CRUISE SPEED 216 KCAS."
+ },
+ {
+  "id": "2-30.F20",
+  "page": "2-30",
+  "kind": "sekil-icerik",
+  "sec": "Figure 2-10",
+  "text": "[Figure 2-10] DRAG INDEX = 50, DIST TO BASE 150 NM: FUEL REQD 924 LB (NO WIND) / 1,175 LB (100 KT HEAD WIND); CRUISE ALT 30,000 FEET, CRUISE SPEED 214 KCAS; DESCEND DIST 74 NM (NO WIND) / 39 NM (100 KT HEAD WIND); SEA LEVEL CRUISE FUEL REQD 1,153 LB (NO WIND) / 1,872 LB (100 KT HEAD WIND), SEA LEVEL CRUISE SPEED 217 KCAS."
+ },
+ {
+  "id": "2-30.F21",
+  "page": "2-30",
+  "kind": "sekil-icerik",
+  "sec": "Figure 2-10",
+  "text": "[Figure 2-10] DRAG INDEX = 50, DIST TO BASE 175 NM: FUEL REQD 1,000 LB (NO WIND) / 1,259 LB (100 KT HEAD WIND); CRUISE ALT 35,000 FEET, CRUISE SPEED 208 KCAS; DESCEND DIST 86 NM (NO WIND) / 47 NM (100 KT HEAD WIND); SEA LEVEL CRUISE FUEL REQD 1,297 LB (NO WIND) / 2,135 LB (100 KT HEAD WIND), SEA LEVEL CRUISE SPEED 217 KCAS."
+ },
+ {
+  "id": "2-30.F22",
+  "page": "2-30",
+  "kind": "sekil-icerik",
+  "sec": "Figure 2-10",
+  "text": "[Figure 2-10] DRAG INDEX = 50, DIST TO BASE 200 NM: FUEL REQD 1,074 LB (NO WIND) / 1,361 LB (100 KT HEAD WIND); CRUISE ALT 35,000 FEET, CRUISE SPEED 208 KCAS; DESCEND DIST 86 NM (NO WIND) / 47 NM (100 KT HEAD WIND); SEA LEVEL CRUISE FUEL REQD 1,442 LB (NO WIND) / 2,398 LB (100 KT HEAD WIND), SEA LEVEL CRUISE SPEED 218 KCAS."
+ },
+ {
+  "id": "2-30.F23",
+  "page": "2-30",
+  "kind": "sekil-icerik",
+  "sec": "Figure 2-10",
+  "text": "[Figure 2-10] DRAG INDEX = 50, DIST TO BASE 225 NM: FUEL REQD 1,147 LB (NO WIND) / 1,464 LB (100 KT HEAD WIND); CRUISE ALT 35,000 FEET, CRUISE SPEED 208 KCAS; DESCEND DIST 86 NM (NO WIND) / 47 NM (100 KT HEAD WIND); SEA LEVEL CRUISE FUEL REQD 1,587 LB (NO WIND) / 2,661 LB (100 KT HEAD WIND), SEA LEVEL CRUISE SPEED 218 KCAS."
+ },
+ {
+  "id": "2-30.F24",
+  "page": "2-30",
+  "kind": "sekil-icerik",
+  "sec": "Figure 2-10",
+  "text": "[Figure 2-10] DRAG INDEX = 50, DIST TO BASE 250 NM: FUEL REQD 1,221 LB (NO WIND) / 1,568 LB (100 KT HEAD WIND); CRUISE ALT 35,000 FEET, CRUISE SPEED 209 KCAS; DESCEND DIST 86 NM (NO WIND) / 47 NM (100 KT HEAD WIND); SEA LEVEL CRUISE FUEL REQD 1,733 LB (NO WIND) / - (100 KT HEAD WIND), SEA LEVEL CRUISE SPEED 219 KCAS."
+ },
+ {
+  "id": "2-30.F25",
+  "page": "2-30",
+  "kind": "sekil-icerik",
+  "sec": "Figure 2-10",
+  "text": "[Figure 2-10] DRAG INDEX = 100 block: CLIMB SPEED 245/0.60 and DESCEND SPEED 165 KCAS (a single value printed for all distances of the block)."
+ },
+ {
+  "id": "2-30.F26",
+  "page": "2-30",
+  "kind": "sekil-icerik",
+  "sec": "Figure 2-10",
+  "text": "[Figure 2-10] DRAG INDEX = 100, DIST TO BASE 25 NM: FUEL REQD 444 LB (NO WIND) / 566 LB (100 KT HEAD WIND); CRUISE ALT 5,000 FEET, CRUISE SPEED 210 KCAS; DESCEND DIST 11 NM (NO WIND) / 5 NM (100 KT HEAD WIND); SEA LEVEL CRUISE FUEL REQD 452 LB (NO WIND) / 589 LB (100 KT HEAD WIND), SEA LEVEL CRUISE SPEED 209 KCAS."
+ },
+ {
+  "id": "2-30.F27",
+  "page": "2-30",
+  "kind": "sekil-icerik",
+  "sec": "Figure 2-10",
+  "text": "[Figure 2-10] DRAG INDEX = 100, DIST TO BASE 50 NM: FUEL REQD 572 LB (NO WIND) / 773 LB (100 KT HEAD WIND); CRUISE ALT 10,000 FEET, CRUISE SPEED 208 KCAS; DESCEND DIST 22 NM (NO WIND) / 10 NM (100 KT HEAD WIND); SEA LEVEL CRUISE FUEL REQD 604 LB (NO WIND) / 877 LB (100 KT HEAD WIND), SEA LEVEL CRUISE SPEED 209 KCAS."
+ },
+ {
+  "id": "2-30.F28",
+  "page": "2-30",
+  "kind": "sekil-icerik",
+  "sec": "Figure 2-10",
+  "text": "[Figure 2-10] DRAG INDEX = 100, DIST TO BASE 75 NM: FUEL REQD 685 LB (NO WIND) / 993 LB (100 KT HEAD WIND); CRUISE ALT 15,000 FEET, CRUISE SPEED 207 KCAS; DESCEND DIST 33 NM (NO WIND) / 15 NM (100 KT HEAD WIND); SEA LEVEL CRUISE FUEL REQD 757 LB (NO WIND) / 1,165 LB (100 KT HEAD WIND), SEA LEVEL CRUISE SPEED 210 KCAS."
+ },
+ {
+  "id": "2-30.F29",
+  "page": "2-30",
+  "kind": "sekil-icerik",
+  "sec": "Figure 2-10",
+  "text": "[Figure 2-10] DRAG INDEX = 100, DIST TO BASE 100 NM: FUEL REQD 788 LB (NO WIND) / 1,060 LB (100 KT HEAD WIND); CRUISE ALT 20,000 FEET, CRUISE SPEED 207 KCAS; DESCEND DIST 44 NM (NO WIND) / 21 NM (100 KT HEAD WIND); SEA LEVEL CRUISE FUEL REQD 911 LB (NO WIND) / 1,454 LB (100 KT HEAD WIND), SEA LEVEL CRUISE SPEED 211 KCAS."
+ },
+ {
+  "id": "2-30.F30",
+  "page": "2-30",
+  "kind": "sekil-icerik",
+  "sec": "Figure 2-10",
+  "text": "[Figure 2-10] DRAG INDEX = 100, DIST TO BASE 125 NM: FUEL REQD 880 LB (NO WIND) / 1,132 LB (100 KT HEAD WIND); CRUISE ALT 30,000 FEET, CRUISE SPEED 201 KCAS; DESCEND DIST 66 NM (NO WIND) / 34 NM (100 KT HEAD WIND); SEA LEVEL CRUISE FUEL REQD 1,066 LB (NO WIND) / 1,742 LB (100 KT HEAD WIND), SEA LEVEL CRUISE SPEED 211 KCAS."
+ },
+ {
+  "id": "2-30.F31",
+  "page": "2-30",
+  "kind": "sekil-icerik",
+  "sec": "Figure 2-10",
+  "text": "[Figure 2-10] DRAG INDEX = 100, DIST TO BASE 150 NM: FUEL REQD 965 LB (NO WIND) / 1,257 LB (100 KT HEAD WIND); CRUISE ALT 30,000 FEET, CRUISE SPEED 201 KCAS; DESCEND DIST 66 NM (NO WIND) / 34 NM (100 KT HEAD WIND); SEA LEVEL CRUISE FUEL REQD 1,221 LB (NO WIND) / 2,030 LB (100 KT HEAD WIND), SEA LEVEL CRUISE SPEED 212 KCAS."
+ },
+ {
+  "id": "2-30.F32",
+  "page": "2-30",
+  "kind": "sekil-icerik",
+  "sec": "Figure 2-10",
+  "text": "[Figure 2-10] DRAG INDEX = 100, DIST TO BASE 175 NM: FUEL REQD 1,051 LB (NO WIND) / 1,358 LB (100 KT HEAD WIND); CRUISE ALT 35,000 FEET, CRUISE SPEED 195 KCAS; DESCEND DIST 77 NM (NO WIND) / 41 NM (100 KT HEAD WIND); SEA LEVEL CRUISE FUEL REQD 1,377 LB (NO WIND) / 2,318 LB (100 KT HEAD WIND), SEA LEVEL CRUISE SPEED 212 KCAS."
+ },
+ {
+  "id": "2-30.F33",
+  "page": "2-30",
+  "kind": "sekil-icerik",
+  "sec": "Figure 2-10",
+  "text": "[Figure 2-10] DRAG INDEX = 100, DIST TO BASE 200 NM: FUEL REQD 1,133 LB (NO WIND) / 1,477 LB (100 KT HEAD WIND); CRUISE ALT 35,000 FEET, CRUISE SPEED 195 KCAS; DESCEND DIST 77 NM (NO WIND) / 41 NM (100 KT HEAD WIND); SEA LEVEL CRUISE FUEL REQD 1,533 LB (NO WIND) / 2,606 LB (100 KT HEAD WIND), SEA LEVEL CRUISE SPEED 213 KCAS."
+ },
+ {
+  "id": "2-30.F34",
+  "page": "2-30",
+  "kind": "sekil-icerik",
+  "sec": "Figure 2-10",
+  "text": "[Figure 2-10] DRAG INDEX = 100, DIST TO BASE 225 NM: FUEL REQD 1,216 LB (NO WIND) / 1,597 LB (100 KT HEAD WIND); CRUISE ALT 35,000 FEET, CRUISE SPEED 196 KCAS; DESCEND DIST 77 NM (NO WIND) / 41 NM (100 KT HEAD WIND); SEA LEVEL CRUISE FUEL REQD 1,690 LB (NO WIND) / 2,893 LB (100 KT HEAD WIND), SEA LEVEL CRUISE SPEED 213 KCAS."
+ },
+ {
+  "id": "2-30.F35",
+  "page": "2-30",
+  "kind": "sekil-icerik",
+  "sec": "Figure 2-10",
+  "text": "[Figure 2-10] DRAG INDEX = 100, DIST TO BASE 250 NM: FUEL REQD 1,299 LB (NO WIND) / 1,717 LB (100 KT HEAD WIND); CRUISE ALT 35,000 FEET, CRUISE SPEED 196 KCAS; DESCEND DIST 77 NM (NO WIND) / 41 NM (100 KT HEAD WIND); SEA LEVEL CRUISE FUEL REQD 1,848 LB (NO WIND) / - (100 KT HEAD WIND), SEA LEVEL CRUISE SPEED 214 KCAS."
+ },
+ {
+  "id": "2-30.F36",
+  "page": "2-30",
+  "kind": "sekil-icerik",
+  "sec": "Figure 2-10",
+  "text": "[Figure 2-10] NOTES: 1. FUEL REQUIRED INCLUDES 300 LB RESERVE FUEL"
+ },
+ {
+  "id": "2-30.F37",
+  "page": "2-30",
+  "kind": "sekil-icerik",
+  "sec": "Figure 2-10",
+  "text": "[Figure 2-10] NOTES: 2. INITIAL ALTITUDE IS SEA LEVEL"
+ },
+ {
+  "id": "2-30.F38",
+  "page": "2-30",
+  "kind": "sekil-icerik",
+  "sec": "Figure 2-10",
+  "text": "[Figure 2-10] NOTES: 3. MAXIMUM THRUST CLIMB TO CRUISE ALTITUDE"
+ },
+ {
+  "id": "2-30.F39",
+  "page": "2-30",
+  "kind": "sekil-icerik",
+  "sec": "Figure 2-10",
+  "text": "[Figure 2-10] NOTES: 4. IDLE THRUST MAXIMUM RANGE DESCENT TO SEA LEVEL (SPEEDBRAKES RETRACTED)"
+ },
+ {
+  "id": "2-33.F1",
+  "page": "2-33",
+  "kind": "sekil-icerik",
+  "sec": "Figure 2-11",
+  "text": "[Figure 2-11] Chart title: BINGO; configuration label: GEAR DOWN - FULL FLAPS (the label GEAR DOWN - FULL FLAPS is repeated below the table, above the NOTES)."
+ },
+ {
+  "id": "2-33.F2",
+  "page": "2-33",
+  "kind": "sekil-icerik",
+  "sec": "Figure 2-11",
+  "text": "[Figure 2-11] Column headings: DIST TO BASE (NM); MAXIMUM RANGE CRUISE group: FUEL REQD - NO WIND (LB) and 50 KT HEAD WIND (LB), CLIMB SPEED (KCAS), CRUISE - ALT (FEET) and SPEED (KCAS), DESCEND - SPEED (KCAS) and DIST - NO WIND (NM) and 50 KT HEAD WIND (NM); SEA LEVEL CRUISE group: FUEL REQD - NO WIND (LB) and 50 KT HEAD WIND (LB), CRUISE SPEED (KCAS). Rows are grouped by DRAG INDEX = 0, 50 and 100, each with DIST TO BASE 25, 50, 75, 100, 125, 150, 175, 200, 225 and 250 NM."
+ },
+ {
+  "id": "2-33.F3",
+  "page": "2-33",
+  "kind": "sekil-icerik",
+  "sec": "Figure 2-11",
+  "text": "[Figure 2-11] DRAG INDEX = 0 block: CLIMB SPEED 120 and DESCEND SPEED 110 KCAS (a single value printed for all distances of the block)."
+ },
+ {
+  "id": "2-33.F4",
+  "page": "2-33",
+  "kind": "sekil-icerik",
+  "sec": "Figure 2-11",
+  "text": "[Figure 2-11] DRAG INDEX = 0, DIST TO BASE 25 NM: FUEL REQD 743 LB (NO WIND) / 1,001 LB (50 KT HEAD WIND); CRUISE ALT 8,000 FEET, CRUISE SPEED 122 KCAS; DESCEND DIST 8 NM (NO WIND) / 4 NM (50 KT HEAD WIND); SEA LEVEL CRUISE FUEL REQD 758 LB (NO WIND) / 1,074 LB (50 KT HEAD WIND), SEA LEVEL CRUISE SPEED 123 KCAS."
+ },
+ {
+  "id": "2-33.F5",
+  "page": "2-33",
+  "kind": "sekil-icerik",
+  "sec": "Figure 2-11",
+  "text": "[Figure 2-11] DRAG INDEX = 0, DIST TO BASE 50 NM: FUEL REQD 1,142 LB (NO WIND) / 1,598 LB (50 KT HEAD WIND); CRUISE ALT 12,500 FEET, CRUISE SPEED 118 KCAS; DESCEND DIST 12 NM (NO WIND) / 7 NM (50 KT HEAD WIND); SEA LEVEL CRUISE FUEL REQD 1,226 LB (NO WIND) / 1,858 LB (50 KT HEAD WIND), SEA LEVEL CRUISE SPEED 124 KCAS."
+ },
+ {
+  "id": "2-33.F6",
+  "page": "2-33",
+  "kind": "sekil-icerik",
+  "sec": "Figure 2-11",
+  "text": "[Figure 2-11] DRAG INDEX = 0, DIST TO BASE 75 NM: FUEL REQD 1,541 LB (NO WIND) / 2,187 LB (50 KT HEAD WIND); CRUISE ALT 15,000 FEET, CRUISE SPEED 117 KCAS; DESCEND DIST 15 NM (NO WIND) / 9 NM (50 KT HEAD WIND); SEA LEVEL CRUISE FUEL REQD 1,704 LB (NO WIND) / 2,652 LB (50 KT HEAD WIND), SEA LEVEL CRUISE SPEED 126 KCAS."
+ },
+ {
+  "id": "2-33.F7",
+  "page": "2-33",
+  "kind": "sekil-icerik",
+  "sec": "Figure 2-11",
+  "text": "[Figure 2-11] DRAG INDEX = 0, DIST TO BASE 100 NM: FUEL REQD 1,950 LB (NO WIND) / 2,809 LB (50 KT HEAD WIND); CRUISE ALT 15,000 FEET, CRUISE SPEED 118 KCAS; DESCEND DIST 15 NM (NO WIND) / 9 NM (50 KT HEAD WIND); SEA LEVEL CRUISE FUEL REQD 2,195 LB (NO WIND) / - (50 KT HEAD WIND), SEA LEVEL CRUISE SPEED 127 KCAS."
+ },
+ {
+  "id": "2-33.F8",
+  "page": "2-33",
+  "kind": "sekil-icerik",
+  "sec": "Figure 2-11",
+  "text": "[Figure 2-11] DRAG INDEX = 0, DIST TO BASE 125 NM: FUEL REQD 2,369 LB (NO WIND) / - (50 KT HEAD WIND); CRUISE ALT 15,000 FEET, CRUISE SPEED 119 KCAS; DESCEND DIST 15 NM (NO WIND) / - (50 KT HEAD WIND); SEA LEVEL CRUISE FUEL REQD 2,697 LB (NO WIND) / - (50 KT HEAD WIND), SEA LEVEL CRUISE SPEED 129 KCAS."
+ },
+ {
+  "id": "2-33.F9",
+  "page": "2-33",
+  "kind": "sekil-icerik",
+  "sec": "Figure 2-11",
+  "text": "[Figure 2-11] DRAG INDEX = 0, DIST TO BASE 150 NM: FUEL REQD 2,819 LB (NO WIND) / - (50 KT HEAD WIND); CRUISE ALT 12,500 FEET, CRUISE SPEED 120 KCAS; DESCEND DIST 12 NM (NO WIND) / - (50 KT HEAD WIND); SEA LEVEL CRUISE FUEL REQD - (NO WIND) / - (50 KT HEAD WIND), SEA LEVEL CRUISE SPEED -."
+ },
+ {
+  "id": "2-33.F10",
+  "page": "2-33",
+  "kind": "sekil-icerik",
+  "sec": "Figure 2-11",
+  "text": "[Figure 2-11] DRAG INDEX = 0, DIST TO BASE 175, 200, 225 and 250 NM: every column shows '-' (no values given)."
+ },
+ {
+  "id": "2-33.F11",
+  "page": "2-33",
+  "kind": "sekil-icerik",
+  "sec": "Figure 2-11",
+  "text": "[Figure 2-11] DRAG INDEX = 50 block: CLIMB SPEED 120 and DESCEND SPEED 110 KCAS (a single value printed for all distances of the block)."
+ },
+ {
+  "id": "2-33.F12",
+  "page": "2-33",
+  "kind": "sekil-icerik",
+  "sec": "Figure 2-11",
+  "text": "[Figure 2-11] DRAG INDEX = 50, DIST TO BASE 25 NM: FUEL REQD 749 LB (NO WIND) / 1,011 LB (50 KT HEAD WIND); CRUISE ALT 8,000 FEET, CRUISE SPEED 121 KCAS; DESCEND DIST 8 NM (NO WIND) / 4 NM (50 KT HEAD WIND); SEA LEVEL CRUISE FUEL REQD 764 LB (NO WIND) / 1,087 LB (50 KT HEAD WIND), SEA LEVEL CRUISE SPEED 122 KCAS."
+ },
+ {
+  "id": "2-33.F13",
+  "page": "2-33",
+  "kind": "sekil-icerik",
+  "sec": "Figure 2-11",
+  "text": "[Figure 2-11] DRAG INDEX = 50, DIST TO BASE 50 NM: FUEL REQD 1,155 LB (NO WIND) / 1,620 LB (50 KT HEAD WIND); CRUISE ALT 12,500 FEET, CRUISE SPEED 117 KCAS; DESCEND DIST 12 NM (NO WIND) / 7 NM (50 KT HEAD WIND); SEA LEVEL CRUISE FUEL REQD 1,239 LB (NO WIND) / 1,885 LB (50 KT HEAD WIND), SEA LEVEL CRUISE SPEED 124 KCAS."
+ },
+ {
+  "id": "2-33.F14",
+  "page": "2-33",
+  "kind": "sekil-icerik",
+  "sec": "Figure 2-11",
+  "text": "[Figure 2-11] DRAG INDEX = 50, DIST TO BASE 75 NM: FUEL REQD 1,562 LB (NO WIND) / 2,221 LB (50 KT HEAD WIND); CRUISE ALT 15,000 FEET, CRUISE SPEED 116 KCAS; DESCEND DIST 14 NM (NO WIND) / 9 NM (50 KT HEAD WIND); SEA LEVEL CRUISE FUEL REQD 1,725 LB (NO WIND) / 2,694 LB (50 KT HEAD WIND), SEA LEVEL CRUISE SPEED 125 KCAS."
+ },
+ {
+  "id": "2-33.F15",
+  "page": "2-33",
+  "kind": "sekil-icerik",
+  "sec": "Figure 2-11",
+  "text": "[Figure 2-11] DRAG INDEX = 50, DIST TO BASE 100 NM: FUEL REQD 1,979 LB (NO WIND) / 2,854 LB (50 KT HEAD WIND); CRUISE ALT 15,000 FEET, CRUISE SPEED 117 KCAS; DESCEND DIST 14 NM (NO WIND) / 9 NM (50 KT HEAD WIND); SEA LEVEL CRUISE FUEL REQD 2,222 LB (NO WIND) / - (50 KT HEAD WIND), SEA LEVEL CRUISE SPEED 127 KCAS."
+ },
+ {
+  "id": "2-33.F16",
+  "page": "2-33",
+  "kind": "sekil-icerik",
+  "sec": "Figure 2-11",
+  "text": "[Figure 2-11] DRAG INDEX = 50, DIST TO BASE 125 NM: FUEL REQD 2,406 LB (NO WIND) / - (50 KT HEAD WIND); CRUISE ALT 15,000 FEET, CRUISE SPEED 118 KCAS; DESCEND DIST 14 NM (NO WIND) / - (50 KT HEAD WIND); SEA LEVEL CRUISE FUEL REQD 2,732 LB (NO WIND) / - (50 KT HEAD WIND), SEA LEVEL CRUISE SPEED 128 KCAS."
+ },
+ {
+  "id": "2-33.F17",
+  "page": "2-33",
+  "kind": "sekil-icerik",
+  "sec": "Figure 2-11",
+  "text": "[Figure 2-11] DRAG INDEX = 50, DIST TO BASE 150 NM: FUEL REQD 2,866 LB (NO WIND) / - (50 KT HEAD WIND); CRUISE ALT 12,500 FEET, CRUISE SPEED 120 KCAS; DESCEND DIST 12 NM (NO WIND) / - (50 KT HEAD WIND); SEA LEVEL CRUISE FUEL REQD - (NO WIND) / - (50 KT HEAD WIND), SEA LEVEL CRUISE SPEED -."
+ },
+ {
+  "id": "2-33.F18",
+  "page": "2-33",
+  "kind": "sekil-icerik",
+  "sec": "Figure 2-11",
+  "text": "[Figure 2-11] DRAG INDEX = 50, DIST TO BASE 175, 200, 225 and 250 NM: every column shows '-' (no values given)."
+ },
+ {
+  "id": "2-33.F19",
+  "page": "2-33",
+  "kind": "sekil-icerik",
+  "sec": "Figure 2-11",
+  "text": "[Figure 2-11] DRAG INDEX = 100 block: CLIMB SPEED 120 and DESCEND SPEED 110 KCAS (a single value printed for all distances of the block)."
+ },
+ {
+  "id": "2-33.F20",
+  "page": "2-33",
+  "kind": "sekil-icerik",
+  "sec": "Figure 2-11",
+  "text": "[Figure 2-11] DRAG INDEX = 100, DIST TO BASE 25 NM: FUEL REQD 754 LB (NO WIND) / 1,022 LB (50 KT HEAD WIND); CRUISE ALT 8,000 FEET, CRUISE SPEED 121 KCAS; DESCEND DIST 8 NM (NO WIND) / 4 NM (50 KT HEAD WIND); SEA LEVEL CRUISE FUEL REQD 771 LB (NO WIND) / 1,100 LB (50 KT HEAD WIND), SEA LEVEL CRUISE SPEED 122 KCAS."
+ },
+ {
+  "id": "2-33.F21",
+  "page": "2-33",
+  "kind": "sekil-icerik",
+  "sec": "Figure 2-11",
+  "text": "[Figure 2-11] DRAG INDEX = 100, DIST TO BASE 50 NM: FUEL REQD 1,169 LB (NO WIND) / 1,643 LB (50 KT HEAD WIND); CRUISE ALT 12,500 FEET, CRUISE SPEED 116 KCAS; DESCEND DIST 12 NM (NO WIND) / 7 NM (50 KT HEAD WIND); SEA LEVEL CRUISE FUEL REQD 1,252 LB (NO WIND) / 1,912 LB (50 KT HEAD WIND), SEA LEVEL CRUISE SPEED 123 KCAS."
+ },
+ {
+  "id": "2-33.F22",
+  "page": "2-33",
+  "kind": "sekil-icerik",
+  "sec": "Figure 2-11",
+  "text": "[Figure 2-11] DRAG INDEX = 100, DIST TO BASE 75 NM: FUEL REQD 1,583 LB (NO WIND) / 2,257 LB (50 KT HEAD WIND); CRUISE ALT 15,000 FEET, CRUISE SPEED 116 KCAS; DESCEND DIST 14 NM (NO WIND) / 8 NM (50 KT HEAD WIND); SEA LEVEL CRUISE FUEL REQD 1,745 LB (NO WIND) / 2,737 LB (50 KT HEAD WIND), SEA LEVEL CRUISE SPEED 125 KCAS."
+ },
+ {
+  "id": "2-33.F23",
+  "page": "2-33",
+  "kind": "sekil-icerik",
+  "sec": "Figure 2-11",
+  "text": "[Figure 2-11] DRAG INDEX = 100, DIST TO BASE 100 NM: FUEL REQD 2,007 LB (NO WIND) / - (50 KT HEAD WIND); CRUISE ALT 15,000 FEET, CRUISE SPEED 117 KCAS; DESCEND DIST 14 NM (NO WIND) / - (50 KT HEAD WIND); SEA LEVEL CRUISE FUEL REQD 2,250 LB (NO WIND) / - (50 KT HEAD WIND), SEA LEVEL CRUISE SPEED 126 KCAS."
+ },
+ {
+  "id": "2-33.F24",
+  "page": "2-33",
+  "kind": "sekil-icerik",
+  "sec": "Figure 2-11",
+  "text": "[Figure 2-11] DRAG INDEX = 100, DIST TO BASE 125 NM: FUEL REQD 2,442 LB (NO WIND) / - (50 KT HEAD WIND); CRUISE ALT 15,000 FEET, CRUISE SPEED 118 KCAS; DESCEND DIST 14 NM (NO WIND) / - (50 KT HEAD WIND); SEA LEVEL CRUISE FUEL REQD 2,766 LB (NO WIND) / - (50 KT HEAD WIND), SEA LEVEL CRUISE SPEED 127 KCAS."
+ },
+ {
+  "id": "2-33.F25",
+  "page": "2-33",
+  "kind": "sekil-icerik",
+  "sec": "Figure 2-11",
+  "text": "[Figure 2-11] DRAG INDEX = 100, DIST TO BASE 150, 175, 200, 225 and 250 NM: every column shows '-' (no values given)."
+ },
+ {
+  "id": "2-33.F26",
+  "page": "2-33",
+  "kind": "sekil-icerik",
+  "sec": "Figure 2-11",
+  "text": "[Figure 2-11] NOTES: 1. FUEL REQUIRED INCLUDES 300 LB RESERVE FUEL"
+ },
+ {
+  "id": "2-33.F27",
+  "page": "2-33",
+  "kind": "sekil-icerik",
+  "sec": "Figure 2-11",
+  "text": "[Figure 2-11] NOTES: 2. INITIAL ALTITUDE IS SEA LEVEL"
+ },
+ {
+  "id": "2-33.F28",
+  "page": "2-33",
+  "kind": "sekil-icerik",
+  "sec": "Figure 2-11",
+  "text": "[Figure 2-11] NOTES: 3. MAXIMUM THRUST CLIMB TO CRUISE ALTITUDE"
+ },
+ {
+  "id": "2-33.F29",
+  "page": "2-33",
+  "kind": "sekil-icerik",
+  "sec": "Figure 2-11",
+  "text": "[Figure 2-11] NOTES: 4. IDLE THRUST MAXIMUM RANGE DESCENT TO SEA LEVEL (SPEEDBRAKES RETRACTED)"
+ }
+]

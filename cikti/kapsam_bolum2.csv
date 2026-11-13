@@ -1,0 +1,816 @@
+﻿kimlik;sayfa;tur;orijinal_metin;ders_bloklari;soru_kart;durum
+2-1.02;2-1;metin;The catapult launch and arrested landing separate the Naval Aviator from all other aviators.;#1;K001;Tam
+2-1.03;2-1;metin;The nature of shipboard operations demands extreme vigilance and standardization.;#1;K001;Tam
+2-1.04;2-1;metin;There is no margin for error when operating around the ship.;#1;S001 K001;Tam
+2-1.05;2-1;metin;You must be thoroughly familiar with all procedures prior to your first flight to the carrier.;#1;S001 K001;Tam
+2-1.06;2-1;metin;“In looking back over everything that I’ve done in the Navy and in the Space Program, I think absolutely nothing matched night carrier aviation.;#2;;Derste · bağlam
+2-1.07;2-1;metin;I still think that separates the men from the boys.;#2;;Derste · bağlam
+2-1.08;2-1;metin;It’s more difficult than any of the other things I did, including landing on the moon.”;#2;;Derste · bağlam
+2-1.09;2-1;metin;Charles “Pete” Conrad, Captain, USN;#2;;Derste · bağlam
+2-1.11;2-1;metin;In order to obtain maximum efficiency from personnel and equipment, flight operations on the carrier must be precisely scheduled in every respect.;#3;S002 K002;Tam
+2-1.12;2-1;metin;The two divisions, within the Operations Department, on the carrier that are responsible for providing this scheduling are Air Operations and Strike Operations.;#3;S002 K002;Tam
+2-1.13;2-1;metin;These two divisions coordinate closely in the preparation of the daily Air Plan.;#3;S002 K002;Tam
+2-1.14;2-1;metin;An Air Plan is used to organize the operations of the carrier air wing (CVW) within the Carrier Strike Group (CSG).;#3;K003;Tam
+2-1.15;2-1;metin;The Air Plan provides the daily scheduling for all air operations, ordnance loading, and EMCON condition.;#3;K003;Tam
+2-1.16;2-1;metin;In theater, the Air Plan is largely driven by the Air Tasking Order (ATO), which is handed down from the Joint Force Air Component Commander (JFACC).;#4 #6;S003 K004;Tam
+2-1.17;2-1;metin;The ATO is the master document created by the theater Air Operations Center (AOC) that coordinates all air assets within a specific theater of operations.;#4 #6;S003 K004;Tam
+2-1.18;2-1;metin;The ATO delineates all required sorties for each 24-hour period and assigns them by mission and aircraft type.;#4;S004 K005;Tam
+2-1.19;2-1;metin;The AOC personnel identify specific targets and missions and then assign them to individual components and subordinate units.;#4;S004 K005;Tam
+2-1.20;2-1;metin;The ATO typically provides specific tasking, including call signs, targets, and controlling agencies.;#4;S004 K006;Tam
+2-1.21;2-1;metin;The ATO will also include general instructions pertinent to theater flight operations.;#4;S004 K006;Tam
+2-1.22;2-1;metin;Strike Operations will review the ATO and collect all necessary information for the preparation of the Air Plan.;#5 #6;S005 K007;Tam
+2-1.23;2-1;metin;The Air Plan will then be submitted to the Operations Officer, via the Air Operations Officer, for approval and signature.;#5 #6;S005 K007;Tam
+2-1.24;2-1;metin;"Once signed, the Air Plan will normally be distributed the evening before scheduled operations; however, due to the fluid nature of contingency operations, the Air Plan may not be promulgated until very late in the evening or early the next morning.";#5 #6;S006 K008;Tam
+2-2.01;2-2;metin;The Air Plan will include the following information:;#7;;Derste · bağlam
+2-2.02;2-2;metin;(a) Event numbers;#7;K009;Tam
+2-2.03;2-2;metin;(b) Launch times;#7;K009;Tam
+2-2.04;2-2;metin;(c) Recovery times;#7;K009;Tam
+2-2.05;2-2;metin;(d) Mission;#7;K009;Tam
+2-2.06;2-2;metin;(e) Number and model of aircraft, including spares;#7;S007 K009;Tam
+2-2.07;2-2;metin;(f) Total sorties;#7;K009;Tam
+2-2.08;2-2;metin;(g) Sunrise, sunset, moonrise, moonset, moon phase;#7;S007 K010;Tam
+2-2.09;2-2;metin;(h) Date;#7;K010;Tam
+2-2.10;2-2;metin;(i) Fuel;#7;K010;Tam
+2-2.11;2-2;metin;(j) Alert aircraft;#7;K010;Tam
+2-2.12;2-2;metin;(k) Logistics aircraft;#7;K010;Tam
+2-2.13;2-2;metin;(l) Tactical frequencies;#7;S007 K010;Tam
+2-2.14;2-2;metin;(m) Ordnance loading;#7;K010;Tam
+2-2.15;2-2;metin;(n) Daily Air Plan Cartoon;#7;K010;Tam
+2-2.16;2-2;metin;(o) Notes as required. Notes shall include the following:;#7;S008 K011;Tam
+2-2.17;2-2;metin;(i) EMCON/Zip Lip conditions;#7;S008 K011;Tam
+2-2.18;2-2;metin;(ii) Ready deck schedule;#7;S008 K011;Tam
+2-2.19;2-2;metin;(iii) Any other hazards/restrictions to flight or other pertinent information;#7;S008 K011;Tam
+2-2.20;2-2;metin;Upon receipt of the daily air plan, each squadron will prepare and distribute its daily flight schedule.;#6 #8;K012;Tam
+2-2.21;2-2;metin;Individual squadron or unit requirements should be requested far enough in advance so that they are reflected on the Air Plan and can then be published on the schedule.;#8;K012;Tam
+2-3.02;2-3;metin;Flight deck operations are very complicated and extremely hazardous.;#9;K013;Tam
+2-3.03;2-3;metin;This FTI only supplements more important, primary sources of information regarding carrier operations.;#9;K013;Tam
+2-3.04;2-3;metin;A thorough knowledge and understanding of these operations cannot be overemphasized.;#9;;Derste · bağlam
+2-3.06;2-3;metin;Your aircraft Naval Air Training and Operating Procedures Standardization (NATOPS) manual contains sections specifically dedicated to carrier operations.;#10 #11;K014;Tam
+2-3.07;2-3;metin;You should also familiarize yourself with both the CV NATOPS and LSO NATOPS manuals.;#10;K014;Tam
+2-3.08;2-3;metin;These manuals govern aircraft operations around the ship, including launch, recovery and flight deck procedures.;#10;K014;Tam
+2-3.09;2-3;metin;The CV NATOPS provides information regarding procedures and practices for operating around the carrier.;#11;S009 K015;Tam
+2-3.10;2-3;metin;The LSO NATOPS is the primary reference used by LSOs and provides technical information and guidance.;#11 #12;S009 K015 K016;Tam
+2-3.11;2-3;metin;The primary focus of this manual is the recovery phase of operations.;#11 #12;K016;Tam
+2-3.13;2-3;metin;Cyclic Operations refers to the continuous process of launching and recovering aircraft.;#13;S010 K017;Tam
+2-3.14;2-3;metin;"In order to maximize efficiency, aircraft are launched and recovered in groups or ""cycles.";#13;S010 K017;Tam
+2-3.15;2-3;metin;Each cycle is approximately one hour and thirty minutes long (1+30 cycle).;#13 #17;S010 K017;Tam
+2-3.16;2-3;metin;ATO requirements may necessitate longer or shorter cycles.;#13;S011 K018;Tam
+2-3.17;2-3;metin;Longer cycles can accommodate more launches and recoveries, while shorter cycles limit the number of aircraft that can be launched or recovered.;#13;S011 K018;Tam
+2-3.18;2-3;metin;The cycle time also has an impact on fuel for airborne aircraft.;#13;S011 K018;Tam
+2-3.19;2-3;metin;Longer cycles may necessitate additional tanking.;#13;S011 K018;Tam
+2-3.20;2-3;metin;Each cycle, or event, is usually made up of 12-20 aircraft.;#14 #17;S012 K019;Tam
+2-3.21;2-3;metin;These events are sequentially numbered and correspond to the respective cycle in the 24-hour fly day.;#14;S012 K019;Tam
+2-3.22;2-3;metin;Event 1 corresponds to the first cycle, Event 2 to the second cycle, and so on.;#14;K019;Tam
+2-3.23;2-3;metin;"Prior to flight operations, the aircraft on the flight deck are arranged (""spotted"") so that Event 1 aircraft can easily be taxied to the catapults once they have been started and inspected.";#15 #17;K020;Tam
+2-3.24;2-3;metin;Once the Event 1 aircraft are launched, which generally takes about 15 minutes, Event 2 aircraft are readied for the next cyclic launch.;#15 #17;S013 K021;Tam
+2-3.25;2-3;metin;The launching of aircraft makes room on the flight deck to land aircraft.;#15 #17;S014 K021;Tam
+2-3.26;2-3;metin;Once Event 2 aircraft are launched, Event 1 aircraft are recovered, fueled, re-armed, re-spotted and readied to be used for Event 3.;#15 #17;S014 K021;Tam
+2-3.27;2-3;metin;Event 3 aircraft are launched, followed by the recovery of Event 2 aircraft (and so on throughout the fly day/night).;#15 #17;S014 K021;Tam
+2-3.28;2-3;metin;After the last launch of the night, all of the aircraft are generally stored up on the bow in order to keep the landing area clear until the last aircraft lands.;#16 #17;S015 K022;Tam
+2-3.29;2-3;metin;They are then re-spotted about the flight deck and secured until the next morning's first launch.;#16 #17;S015 K022;Tam
+2-3.31;2-3;metin;In order to standardize flight operations in all weather conditions, day or night, carrier aviation utilizes three specific cases of operations.;#18;S016 K023;Tam
+2-3.32;2-3;metin;These are known as Case I, Case II and Case III.;#18;S016 K023;Tam
+2-3.33;2-3;metin;Each of these cases is dependent on existing weather conditions.;#18;S016 K023;Tam
+2-3.34;2-3;metin;The Air Boss is responsible for determining the case of launch and recovery operations.;#18 #21;S016 K023;Tam
+2-4.01;2-4;metin;(a) Case I departures and recoveries are utilized during daytime operations (day ops) when weather conditions are VMC.;#19 #20 #21;S017 K024;Tam
+2-4.02;2-4;metin;Case I weather requires the ceiling to be no lower than 3,000 feet and not less than 5 NM visibility.;#19 #20 #21;S017 S019 K024;Tam
+2-4.03;2-4;metin;(b) Case II operations are utilized during day ops when it is anticipated the aircraft may enter IMC.;#19 #20 #21;S018 K025;Tam
+2-4.04;2-4;metin;Case II weather requires the lowest ceiling to be 1,000 feet or above and 5 NM visibility.;#19 #20 #21;S018 S019 K025;Tam
+2-4.05;2-4;metin;Case II is normally called for when an overcast layer is present.;#19 #20 #21;S018 K025;Tam
+2-4.06;2-4;metin;(c) Case III weather is any ceiling below 1,000 feet or a visibility less than 5NM.;#19 #20 #21;S020 K026;Tam
+2-4.07;2-4;metin;All night operations are conducted under Case III.;#19 #20 #21;S021 K026;Tam
+2-4.08;2-4;metin;For the purpose of determining Case III operations, night is defined as 30 minutes prior to sunset until 30 minutes after sunrise.;#19 #20 #21;S021 K026;Tam
+2-4.11;2-4;metin;As with shore operations, all carrier flight operations begin with a thorough briefing.;#22;S022 K027;Tam
+2-4.12;2-4;metin;Each mission will begin with a briefing that typically commences one-hour and forty-five minutes (1+45) prior to scheduled launch time.;#22 #28;S022 K027;Tam
+2-4.13;2-4;metin;The briefing process usually progresses from a generalized overview down to aircraft and aircrew specific items.;#22;S022 K027;Tam
+2-4.14;2-4;metin;The preflight briefing will include a briefing from the Carrier Intelligence Center (CVIC), which will be broadcast over the ship’s TV.;#23;S023 K028;Tam
+2-4.15;2-4;metin;The CVIC briefing will usually be five to ten minutes in duration, and will cover any information that is pertinent to all flight operations.;#23 #28;S023 K028;Tam
+2-4.16;2-4;metin;This includes, but is not limited to, current and forecasted weather, the ship’s current and forecasted position, significant operations in the area, recent intelligence analysis, SAR (or Combat Search and Rescue (CSAR)) specifics, divert airfield information and current operating conditions in the region.;#23;S024 K029;Tam
+2-4.17;2-4;metin;For missions involving multiple aircraft and assets, the overall strike lead will then brief the mission.;#24;S025 K030;Tam
+2-4.18;2-4;metin;"Individual elements will separate and brief those items specific to their element; lastly, aircrew will brief aircraft-specific items.";#24;S025 K030;Tam
+2-4.19;2-4;metin;Complex missions may require more time to accomplish the briefing due to the complexity of the tasking and the coordination of multiple assets.;#24;S025 K030;Tam
+2-4.20;2-4;metin;In these cases, the mission lead will notify all players of any adjustments to the briefing time.;#24;S025 K030;Tam
+2-4.22;2-4;metin;Following the briefing, aircrew will proceed to maintenance control to review the Aircraft Discrepancy Book (ADB).;#25;S026 K031;Tam
+2-4.23;2-4;metin;Aircrew should pay particular attention to the A-sheet’s basic weight, fuel and store loads to ensure the gross weight calculation is correct.;#25;S026 K031;Tam
+2-4.24;2-4;metin;This is particularly important when launching from the boat because the catapult needs to be set correctly.;#25;S026 K031;Tam
+2-4.25;2-4;metin;Once the ADB is reviewed and the weight is verified, the crew will deliver the weight sheet (weight chit) to flight deck control prior to aircraft preflight.;#26;S027 K032;Tam
+2-4.26;2-4;metin;Some squadrons use an automated computer program by which the squadron SDO can send each jet’s weight chit down to flight deck control for each launch.;#26;S027 K032;Tam
+2-4.27;2-4;metin;The weight annotated on the weight chit must match the weight you see on the weight board as you taxi up to the catapult.;#26;S028 K033;Tam
+2-4.28;2-4;metin;After reviewing the ADB, aircrew will proceed to the paraloft to suit up.;#27;S029 K034;Tam
+2-4.29;2-4;metin;The aircrew will ensure that they arrive on the flight deck, in full flight gear with gloves on and visors down, no later than 45 minutes prior to the scheduled launch time.;#27 #28;S029 K034;Tam
+2-4.30;2-4;metin;Your knowledge of the ship’s layout will help you select the flight deck entrance nearest your aircraft.;#27;K035;Tam
+2-5.01;2-5;metin;Once at the aircraft, conduct a normal preflight in accordance with NATOPS.;#29;K036;Tam
+2-5.02;2-5;metin;Begin the preflight by checking the area around the aircraft for FOD, leaking or pooling fluid (oil, hydraulic fluid, fuel, etc.) and the general condition of the aircraft.;#29;K036;Tam
+2-5.03;2-5;metin;Take note of any intake/exhaust covers on the aircraft.;#29;K037;Tam
+2-5.04;2-5;metin;Make sure tie down chains are not rubbing against any brake lines or hydraulic lines.;#29;K037;Tam
+2-5.05;2-5;metin;Observe whether a tow bar is connected and that the nose wheel is centered.;#29;K038;Tam
+2-5.06;2-5;metin;Check the landing gear struts, tire pressure and integrity, launch bar, and holdback.;#29;K038;Tam
+2-5.07;2-5;metin;Inspect the tailhook and ensure the hook point is greased.;#29;S032 K039;Tam
+2-5.08;2-5;metin;If the tail of the aircraft is over water, do not attempt to preflight that portion of the aircraft.;#30;S031 K039;Tam
+2-5.09;2-5;metin;The plane captains will check your tailhook during the hook check after taxiing clear of the edge.;#30;S031 K039;Tam
+2-5.10;2-5;metin;During the preflight, remain vigilant of jet exhaust and other hazards.;#30;S031 K040;Tam
+2-5.11;2-5;metin;After manning up, conduct normal cockpit inspection and checks, ensuring both ANTI-SKID switches are set to OFF.;#31 #34;S033 K041;Tam
+2-5.12;2-5;metin;Check that the cockpit panels, gauges and instruments are secure.;#31;K041;Tam
+2-5.13;2-5;metin;Loose gauges or instruments can be dangerous during a catapult launch.;#31;K041;Tam
+2-5.14;2-5;metin;All crews must be strapped in and ready to start no later than 30 minutes prior to scheduled launch.;#28 #31;S030 K042;Tam
+2-5.15;2-5;metin;The Air Boss will make a “start engines” call over the flight deck announcing system (5 MC), and the start signal will be given by the yellow shirts.;#32;S034 K043;Tam
+2-5.16;2-5;metin;At that time, and not before, crews will run through the normal start sequence adhering to any plane captain signals.;#32;S034 K043;Tam
+2-5.17;2-5;metin;The normal sequence for engine start is:;#32;;Derste · bağlam
+2-5.18;2-5;metin;(a) Perform the prestart checklist.;#32;K044;Tam
+2-5.19;2-5;metin;(b) Start engine when authorized by the Air Boss via the 5MC.;#32;S034 K044;Tam
+2-5.20;2-5;metin;A plane captain (brown shirt) and squadron Flight Deck Chief will monitor engine start.;#32;S035 K044;Tam
+2-5.21;2-5;metin;(c) Close the canopy when appropriate.;#32;K044;Tam
+2-5.22;2-5;metin;(d) Complete the post-start checklist.;#32;K045;Tam
+2-5.23;2-5;metin;(e) Complete the plane captain’s checks.;#32;K045;Tam
+2-5.24;2-5;metin;(f) Complete the taxi/takeoff checklist prior to taxiing.;#32;K045;Tam
+2-5.26;2-5;metin;The takeoff checklist is the same as for shore-based procedures with emphasis placed on the following:;#33;S037 K046;Tam
+2-5.27;2-5;metin;(1) Position the ANTI-SKID switch to OFF.;#33 #34;S033 K046;Tam
+2-5.28;2-5;metin;(2) Ensure the stabilator trim is set to 3-1/2 degrees nose up.;#33;S036 K046;Tam
+2-6.01;2-6;metin;(3) Check the HOOK BYP switch to CARRIER.;#33;S037 K046;Tam
+2-6.02;2-6;metin;(g) When ready to taxi, give the “up and ready” call to tower with aircraft gross weight.;#35;S038 K045;Tam
+2-6.03;2-6;metin;Ensure no one is landing (referred to as “on the ball”) prior to making the “up and ready” call.;#35;S038 K047;Tam
+2-6.05;2-6;metin;Oxygen masks must be on whenever the aircraft is not chocked and chained.;#36;S039 K048;Tam
+2-6.06;2-6;metin;Following the start, the aircraft will be “broken down” and chocks/chains removed.;#37;S040 K049;Tam
+2-6.07;2-6;metin;Taxiing up to the catapult, a green shirt will hold up the weight board.;#37;S040 K049;Tam
+2-6.08;2-6;metin;If the weight on the board matches the weight on the weight chit, acknowledge with thumbs up (daylight) or circling flashlight (night).;#37 #38;S041 K050;Tam
+2-6.09;2-6;metin;If the weight needs to be adjusted up or down, pass hand signals to the green shirt as follows:;#37;S042 K051;Tam
+2-6.10;2-6;metin;(a) During the day:;#38;;Derste · bağlam
+2-6.11;2-6;metin;(i) To raise the gross weight, hold hand flat with palm up and move in a vertical direction, emphasizing the upward motion.;#38;S042 K051;Tam
+2-6.12;2-6;metin;(ii) To lower the gross weight, hold hand with palm down and move in a horizontal direction.;#38;S042 K051;Tam
+2-6.13;2-6;metin;(b) At night:;#38;;Derste · bağlam
+2-6.14;2-6;metin;(i) To raise the gross weight, move flashlight in a vertical direction, emphasizing the upward motion.;#38;S043 K052;Tam
+2-6.15;2-6;metin;(ii) To lower the gross weight, move flashlight in a horizontal direction.;#38;S043 K052;Tam
+2-6.16;2-6;metin;The weight will be adjusted in 500 or 1000 increments in accordance with applicable launch bulletins.;#39;S044 K053;Tam
+2-6.17;2-6;metin;If the weight on the board is off by more than two weight increments, or there is confusion regarding adjustments, a radio call stating “Callsign, Gross weight is XX thousand X hundred” shall be made.;#39;S045 K053;Tam
+2-6.19;2-6;metin;Ensure the takeoff checklist is completed and trim set to 3.5 degrees nose-up with flaps/slats set to FULL prior to crossing the JBD.;#40;S036 S046 K054;Tam
+2-6.20;2-6;metin;Roger the weight board.;#40;S046 K054;Tam
+2-6.22;2-6;metin;To ensure proper spotting on the catapult, aircrew must precisely follow the signals from the taxi director.;#41;S047 K055;Tam
+2-6.23;2-6;metin;Signals given above the director’s waist are for aircrew while signals given below the waist are for deck crew.;#41;S047 K056;Tam
+2-6.24;2-6;metin;The normal sequence of visual signals for catapult operations is as follows:;#41;S048 K057;Tam
+2-7.01;2-7;metin;(a) Extend launch bar: Director rests right elbow in left palm at waist level with right hand held up vertically and then brings right hand down to horizontal position.;#42 #44;S049 K057 K058;Tam
+2-7.02;2-7;metin;(b) Disengage nose wheel steering: Director points right index finger to his nose and presents a lateral wave with open palm of the left hand at shoulder height.;#42 #44;K057 K059;Tam
+2-7.03;2-7;metin;(c) Taxi ahead: Director extends arms forward at shoulder level with hands up at eye level, palms facing backward and makes beckoning arm motion, speed of arm movement indicates desired speed.;#42 #44;S050 K057 K060;Tam
+2-7.04;2-7;metin;(d) Slight turn left/right: Director will nod head in direction of turn while giving taxi ahead signal.;#42 #44;S050 K057 K061;Tam
+2-7.05;2-7;metin;(e) Brakes on (when in holdback): Director extends arms above head with open palms toward aircraft and then closes fists.;#42 #44;S048 K057 K062;Tam
+2-7.06;2-7;metin;"(f) Tension: Director extends arms slightly overhead with fists closed and then opened with palms forward (indication to release brakes); then hand toward bow is swept down to a 45-degree position toward deck, while other hand is swept up 45 degrees toward sky.";#42 #44;S048 S051 K057 K063;Tam
+2-7.07;2-7;metin;Pilot releases brakes, heels to deck, stays at idle awaiting runup signal.;#42 #44;S051 K057 K064;Tam
+2-7.08;2-7;metin;(g) Retract launch bar: Director rests right elbow in left palm with right arm extended horizontally at waist level and then raised to vertical.;#42 #44;S048 S049 K057 K065;Tam
+2-7.09;2-7;metin;(h) Engine runup: Catapult Officer/Catapult Safety Petty Officer (CSPO) makes circular motion with index and middle finger at head level.;#43 #44 #56;S048 S052 S066 K057 K066 K067 K086;Tam
+2-7.10;2-7;metin;Pilot advances throttle to MRT and executes Control Check “wipeout” and engine instrument check.;#43 #44 #56;S052 K057 K066;Tam
+2-7.11;2-7;metin;(i) Acknowledge salute: Catapult Officer/CSPO returns salute.;#43 #44;S054 K057 K068;Tam
+2-7.12;2-7;metin;(j) Launch signal: Catapult Officer/CSPO squats, touches the deck and returns the hand to horizontal in the direction of the launch.;#43 #44;S054 K057 K069;Tam
+2-7.13;2-7;metin;(k) Hang fire: Catapult Officer/CSPO extends right-hand index finger overhead and points horizontally at left palm extended vertically.;#43 #44;S053 K057 K070;Tam
+2-7.14;2-7;metin;(l) Suspend: Catapult Officer/CSPO raises arms above head with wrists crossed (indicating the launch is to be suspended).;#43 #44;S053 K057 K071;Tam
+2-7.15;2-7;metin;(m) Throttle back: Catapult Officer/CSPO extends arm in front of body at waist level and thumb extended up, then grasps thumb with other hand and rocks as if pulling throttle back.;#43 #44;S055 K057 K072;Tam
+2-8.02;2-8;metin;Do not throttle back until the catapult officer walks in front of the aircraft and gives the throttle back signal during suspended launches.;#45;S055 K073;Tam
+2-8.04;2-8;metin;When directed by the catapult director (yellow shirt), the launch bar switch is placed to EXTEND.;#46;S056 K074;Tam
+2-8.05;2-8;metin;The nose wheel steering (NWS) is automatically disengaged with the launch bar extended.;#46;S056 K074;Tam
+2-8.06;2-8;metin;The yellow shirt may signal to reengage NWS to get the launch bar seated properly into the catapult track.;#46;S056 K075;Tam
+2-8.08;2-8;metin;Never operate the parking brake beyond the JBD to prevent blowing tires if the catapult is fired with parking brake engaged.;#47;S057 K076;Tam
+2-8.09;2-8;metin;Following the taxi director’s signals, taxi forward slowly to position the launch bar over the shuttle (significant power may be required).;#48;S058 K077;Tam
+2-8.10;2-8;metin;When the launch bar drops over the shuttle, the aircraft will be stopped as the holdback engages the catapult buffer.;#48;S058 K077;Tam
+2-8.12;2-8;metin;To prevent the possibility of breaking the holdback link, taxi speed must be kept to a crawl.;#49;S059 K078;Tam
+2-8.13;2-8;metin;The pilot will apply and hold the brakes when signaled.;#50;K079;Tam
+2-8.14;2-8;metin;When the take tension signal is given by the catapult director, the brakes are released.;#50;S051 K079;Tam
+2-8.15;2-8;metin;As tension is taken, the aircraft will squat.;#50;S051 K079;Tam
+2-8.16;2-8;metin;When engine Runup Signal is given by the catapult director, power is advanced to MRT and the controls are wiped out (INCLUDING RUDDER!).;#50 #56;S064 S066 K080 K086;Tam
+2-8.17;2-8;metin;The launch bar switch is placed to RETRACT once engine RPM reaches 95 percent.;#50;S060 K081;Tam
+2-8.18;2-8;metin;The launch bar will be held down by shuttle tension.;#50;S060 K081;Tam
+2-8.19;2-8;metin;Place your heels on the deck and assume the correct body position for launch.;#50;S060 S065 K081;Tam
+2-8.21;2-8;metin;Selecting launch bar RETRACT before receiving the retract signal from the aircraft director may raise the launch bar before it is properly seated in the shuttle spreader assembly, resulting in a mis- positioned launch bar.;#51;S061 K082;Tam
+2-8.23;2-8;metin;(1) If launch bar is retracted below max RPM, an ACCEL light may illumina;#52 #53;S062 K083;Tam
+2-9.01;2-9;metin;(2) Failing to use the catapult grip could result in power settings less than MRT during the cat stroke.;#52;S062 K083;Tam
+2-9.02;2-9;metin;The catapult director will pass control to the Catapult Officer or Topside Safety Petty Officer, who will signal engine run-up to MIL/MAX as appropriate.;#54 #56;S066 K084 K086;Tam
+2-9.03;2-9;metin;Check the engine instruments (EGT, rpm, fuel flow) and monitor the central warning system (CWS) indicators and advisory lights.;#54;S063 K085;Tam
+2-9.04;2-9;metin;Observe the cockpit wipeout and verify the full throw of the stick and rudder in all directions.;#54;S063 S064 K085;Tam
+2-9.06;2-9;metin;Brakes may inadvertently be applied during a catapult launch, resulting in a blown tire, even with heels placed on the deck.;#55;S065 K087;Tam
+2-9.08;2-9;metin;When ready for launch, the pilot will crisply give a right-handed salute to the Catapult Officer/CSPO (at night aircraft external lights are turned on meaning the same as the daytime hand salute).;#57;S067 K088;Tam
+2-9.09;2-9;metin;The catapult officer will make final checks, looking fore and aft, and then touch the deck.;#57;S068 K089;Tam
+2-9.10;2-9;metin;After a delay of approximately one second, the catapult will fire and the aircraft will accelerate, reaching end speed in about two seconds.;#57;S068 K089;Tam
+2-9.11;2-9;metin;If the launch is a “bubble launch,” the CSPO will return salute.;#57;S069 K090;Tam
+2-9.12;2-9;metin;The Catapult Officer will affect the launch after clearing fore and aft.;#57 #58;S069 K090;Tam
+2-9.13;2-9;metin;The edge of the flight deck should pass under the nose at 120 KIAS minimum, or excess end airspeed, whichever is greater.;#59;S070 K091;Tam
+2-9.14;2-9;metin;Refer to the Catapult Launch Minimum Endspeed Chart in NATOPS Chapter 8.;#59;S070 K091;Tam
+2-9.15;2-9;metin;As the aircraft clears the end of the stroke, the pilot will rotate to 10-12 degrees nose up attitude and establish a positive rate of climb.;#59;S071 K092;Tam
+2-9.16;2-9;metin;Gear and flaps will be raised in accordance with NATOPS.;#59;S071 K092;Tam
+2-9.17;2-9;metin;When clearing turns are called for, they are governed by the ship’s policy.;#60;S072 K093;Tam
+2-9.18;2-9;metin;Clearing turns will be made to the right for launches off the bow catapults and to the left for launches off the waist catapults.;#60;S072 K093;Tam
+2-9.19;2-9;metin;During Carrier Qualification (CARQUAL) evolutions, clearing turns will not normally be required.;#60;S072 K093;Tam
+2-9.21;2-9;metin;Departure procedures are predicated on case operations.;#61;S073 K094;Tam
+2-9.22;2-9;metin;(a) Case I. Case I departures are flown during day VMC conditions (WX 3,000-5 or better).;#62 #70 #71;S074 K095;Tam
+2-9.23;2-9;metin;Once the aircraft clears the catapult and a positive rate of climb is established, the pilot will execute a clearing turn, climb to 500’ and parallel base recovery course (BRC).;#62 #70 #71;S075 K096;Tam
+2-9.24;2-9;metin;The Case I departure is flown at 500’ and 300 KIAS paralleling BRC until 7 DME.;#62 #70 #71;S075 K096;Tam
+2-9.25;2-9;metin;When directed, or at 7 DME, the aircraft shall climb VMC on course (Figure 2-1).;#62 #70 #71;S076 K096;Tam
+2-10.01;2-10;sekil;Figure 2-1 Case I Departure;#63;;Derste · bağlam
+2-10.02;2-10;metin;(b) Case II. Case II departures are flown when visual conditions are present at the ship, but a controlled climb is required (WX less than 3000-5, but greater than 1000-5).;#64 #69 #70 #71;S077 K098 K109;Tam
+2-10.03;2-10;metin;Departure Control frequency will be used for the launch.;#64 #70 #71;S082 K098;Tam
+2-10.04;2-10;metin;After the clearing turn, proceed straight ahead at 500 feet and 300 KIAS paralleling BRC.;#64 #70 #71;S079 K099;Tam
+2-10.05;2-10;metin;At 7 DME, turn to intercept the 10 DME arc, maintaining visual conditions until established on the departure radial (Figure 2-2).;#64 #70 #71;S078 K099;Tam
+2-10.06;2-10;metin;The 500-foot altitude restriction is lifted after 7 DME, if the climb can be continued in VMC.;#65 #70 #71;S079 K100;Tam
+2-10.07;2-10;metin;Maintain 300 KIAS until VMC on top.;#65 #70 #71;S080 K100;Tam
+2-10.08;2-10;metin;If you are still IMC passing 18,000 feet, report “Popeye” to receive instructions.;#65 #70 #71;S081 K100;Tam
+2-10.09;2-10;sekil;Figure 2-2 Case II Departure;#66;;Derste · bağlam
+2-11.01;2-11;metin;(c) Case III. Case III departures are flown at night and when weather conditions are IMC (WX below 1000-5), and a controlled climb is required.;#67 #69 #70 #71;S083 K102 K109;Tam
+2-11.02;2-11;metin;The aircraft will launch on Departure Control frequency, with a minimum launch interval of 30 seconds between aircraft.;#67 #70 #71;S082 S083 K102;Tam
+2-11.03;2-11;metin;"Following the launch, climb straight ahead at 300 kts, crossing 5 NM at 1500 AGL or above; at 7 NM, turn to intercept the 10 NM arc.";#67 #70 #71;S084 S085 K103;Tam
+2-11.04;2-11;metin;Continue climbing and join the departure radial.;#67 #70 #71;S085 K103;Tam
+2-11.05;2-11;metin;The following voice reports and examples are commonly used during Case III departures:;#68 #70 #71;S086 K104;Tam
+2-11.06;2-11;metin;(i) Airborne - “Departure, 405, airborne”;#68 #70 #71;K104 K105;Tam
+2-11.07;2-11;metin;(ii) Passing 2,500 feet - “Departure, 405, passing 2.5”;#68 #70 #71;S086 K104 K105;Tam
+2-11.08;2-11;metin;(iii) Arcing (turning onto the 10 NM arc) - “Departure, 405, Arcing”;#68 #70 #71;S087 K104 K106;Tam
+2-11.09;2-11;metin;(iv) Established outbound (on assigned radial) - “Departure, 405, Established outbound”;#68 #70 #71;S087 K104 K106;Tam
+2-11.10;2-11;metin;(v) Popeye, with altitude - “Departure, 405, Popeye, Angels eighteen”;#68 #70 #71;S081 K104 K107;Tam
+2-11.11;2-11;metin;(vi) On top, with altitude - “Departure, 405, On top, Angels twelve”;#68 #70 #71;K104 K107;Tam
+2-11.12;2-11;metin;(vii) Kilo (indicates the aircraft is mission-ready) - “Departure, 405, Kilo”;#68 #70 #71;S088 K104 K108;Tam
+2-11.14;2-11;metin;Following the mission, aircraft will proceed back to Mother to arrive at their scheduled cyclic land time.;#72;K110;Tam
+2-11.15;2-11;metin;After checking out on the mission frequency, contact the CSG air defense controller (Red Crown) with your call sign, position and altitude.;#72 #77;S090 K111;Tam
+2-11.16;2-11;metin;Red Crown will pass instructions, and then hand you off to Strike Control.;#72 #77;S090 K112;Tam
+2-11.17;2-11;metin;This hand off should occur prior to entering the 50 NM Carrier Control Area (CCA).;#72 #77;S091 K112;Tam
+2-11.18;2-11;metin;The check in with Strike will be the same as for Red Crown except you will also include the low fuel state in your flight.;#73 #77;S092 K113;Tam
+2-11.19;2-11;metin;If any aircraft in the flight have maintenance discrepancies (“alibis”), pass them to the Strike controller who will then relay them to the ready room.;#73 #77;S093 K113;Tam
+2-11.20;2-11;metin;"Time permitting; Strike will give the current weather, anticipated Case recovery and any other general information for the recovery.";#73 #77;K114;Tam
+2-11.21;2-11;metin;If flying from the ship to shore, or vice versa, it is important to ensure that the aircraft is setup for the particulars of that recovery.;#74;S094 K115;Tam
+2-11.22;2-11;metin;Go through the ship -to-shore checklist (HAIL-R) to ensure this is done.;#74;S094 K115;Tam
+2-11.23;2-11;metin;• H: Hook / Heats;#74;S095 K116;Tam
+2-11.24;2-11;metin;• A: Anti-Skid / Altimeter;#74;S095 K116;Tam
+2-11.25;2-11;metin;• I: Instruments;#74;S095 K116;Tam
+2-11.26;2-11;metin;• L: Landing Weight / Lights;#74;S095 K116;Tam
+2-12.01;2-12;metin;• R: Radios / RADALT;#74;S095 K116;Tam
+2-12.02;2-12;metin;"It is easy to see how missing an item on this checklist could result in a real problem; blown tires on the runway, landing overweight at the ship, or inadvertently taking a trap on the beach.";#74;S096 K117;Tam
+2-12.03;2-12;metin;Once inside the CCA, Strike will hand aircraft off to the Marshal controller.;#75 #77 #79;S097 K118 K127;Tam
+2-12.04;2-12;metin;Check in on Marshal Frequency with call sign, position, altitude and low state.;#75 #77;S098 K118;Tam
+2-12.05;2-12;metin;Marshal will assign case recovery holding instructions (including assigned altitude) and pass the ship’s weather, altimeter setting, BRC and bingo information.;#75 #77;S098 K119;Tam
+2-12.06;2-12;metin;BRC is the ship’s heading during the recovery.;#75 #77;S099 K120;Tam
+2-12.07;2-12;metin;For Case I recoveries, Marshal will clear aircraft to the overhead holding pattern and instruct you to call “see me” at 10NM from the ship.;#76 #77 #80;S100 K121;Tam
+2-12.08;2-12;metin;This call indicates you have visual contact with Mother.;#76 #77;S100 K121;Tam
+2-12.09;2-12;metin;For Case II and III recoveries, Marshal will give holding instructions and an expected approach time (push time).;#76 #77;S100 K122;Tam
+2-12.10;2-12;metin;Example radio calls:;#78;;Derste · bağlam
+2-12.11;2-12;metin;405 - “Red Crown, 405, Mother’s 250 for 75, Angels 17” Red Crown - “405, sweet/sweet, contact Strike” 405 - “Strike, 405, Mother’s 250 for 55, Angels 12, State 2.4.;#78 #79;K123 K124;Tam
+2-12.12;2-12;metin;No alibis” Strike - “405, sweet/sweet, Mother is VFR, Case I.;#78;K124;Tam
+2-12.13;2-12;metin;Contact Marshal” 405 - “Marshal, 405, 250 for 52, Angels 9, State 2.4” Marshal - “405, Case I.;#78 #79;K124 K125 K127;Tam
+2-12.14;2-12;metin;BRC is 015, Expected Charlie time 22.;#78 #109;K125 K180;Tam
+2-12.15;2-12;metin;Report see me” Or “405, Case II (or III).;#78;S101 K125 K126;Tam
+2-12.16;2-12;metin;BRC is 015.;#78;S101 K126;Tam
+2-12.17;2-12;metin;Marshal on the 245 radial at 25 DME, Angels 10.;#78;S101 K126;Tam
+2-12.18;2-12;metin;Expected approach time 22, Approach button 17, altimeter 29.94”;#78;S101 K126;Tam
+2-13.02;2-13;metin;Case I recoveries are used to the maximum extent possible, provided the weather is better than 3,000/5.;#81 #82;S102 K128;Tam
+2-13.03;2-13;metin;(a) Overhead (Port) Holding. After the initial check in with Marshal, proceed directly to Mother and enter overhead holding at your squadron’s holding altitude.;#83;K129;Tam
+2-13.04;2-13;metin;When in visual contact with Mother, notify Marshal with the “see you” call.;#80 #83;K129;Tam
+2-13.05;2-13;metin;Aircraft returning for Case I recoveries must be established at their respective holding altitudes no later than 10 NM.;#83;S103 K130;Tam
+2-13.06;2-13;metin;Proceed to overhead holding, and enter the pattern tangentially (Figure 2-3).;#83;S104 K130;Tam
+2-13.07;2-13;sekil;Figure 2-3 Case I Port Holding Pattern Entry;#84;;Derste · bağlam
+2-13.08;2-13;metin;The overhead holding pattern is a left-hand pattern, with Point 1 located directly overhead the carrier.;#85 #87 #92;S105 K131 K138;Tam
+2-13.09;2-13;metin;Points 2, 3 and 4 sequentially follow in 90-degree increments (Figure 2-4).;#85 #92;S105 K131;Tam
+2-13.10;2-13;metin;This holding pattern is often referred to as the “stack,” and all aircraft must remain within 5 NM and no lower than 2,000 feet AGL.;#85 #87 #92;S106 K131 K132;Tam
+2-13.11;2-13;metin;While holding, the flight will remain at max conserve fuel flow unless briefed otherwise.;#85;K132;Tam
+2-14.01;2-14;sekil;Figure 2-4 Case I Overhead Holding Pattern;#86;;Derste · bağlam
+2-14.02;2-14;metin;Each squadron has an assigned holding altitude in the stack, beginning at 2,000 feet AGL.;#88 #92;S107 K143;Tam
+2-14.03;2-14;metin;These assigned altitudes are separated vertically by a minimum of 1,000 feet and are assigned by the CVW SOP.;#88 #92;S107 K143;Tam
+2-14.04;2-14;metin;Once established in holding, any altitude changes within the pattern are accomplished as follows:;#88;S108 K144;Tam
+2-14.05;2-14;metin;(i) Climbs: Performed between points 1 and 3.;#88 #92;S108 K144;Tam
+2-14.06;2-14;metin;(ii) Descents: Performed between points 3 and 1.;#88 #92;S108 K144;Tam
+2-14.07;2-14;metin;The lowest aircraft in the stack must closely monitor the launch so as to arrive in the groove at the expected ramp time.;#89;K145;Tam
+2-14.08;2-14;metin;When the last aircraft is launching, or when given a “Signal Charlie” call from Tower, the flight will depart the holding pattern on a heading of approximately 210 degrees relative to BRC.;#89 #92;S109 K146;Tam
+2-14.09;2-14;metin;As altitudes in the stack are vacated, aircraft at the next highest altitude will descend to the next lower vacated altitude.;#89 #92;K147;Tam
+2-15.01;2-15;metin;(b) Breaking the Deck. The majority of Case I operations are conducted under Zip Lip conditions, meaning that radio communications are minimized (unless CQ, low visibility, or safety of flight).;#90;S110 K148;Tam
+2-15.02;2-15;metin;"In this situation, the Boss will not make a “99, Charlie” call on the radio; therefore, it is incumbent on aircraft holding overhead to determine when to depart holding, fly to the initial and break.";#90;S110 K149;Tam
+2-15.03;2-15;metin;The goal is to arrive in the groove just as the flight deck is made ready for recovery operations (ready deck).;#90;S111 K150;Tam
+2-15.04;2-15;metin;This is called breaking the deck and is a skill that must be mastered in order to maximize the efficiency of recovery operations.;#90;S111 K150;Tam
+2-15.05;2-15;metin;To effectively break the deck, aircraft in overhead holding will stagger their intervals to ensure equal spacing from all flights at the same altitude.;#91 #92;S112 K151;Tam
+2-15.06;2-15;metin;If there are two total flights, then they should be 180-degrees apart.;#91 #92;S112 K151;Tam
+2-15.07;2-15;metin;Three flights should be 120-degrees apart.;#91 #92;S112 K151;Tam
+2-15.08;2-15;metin;Four flights will be 90-degrees apart.;#91 #92;S112 K151;Tam
+2-15.09;2-15;metin;This ensures aircraft are crossing point 1 (Mother) at regular intervals.;#87 #91 #92;S112 K138 K151;Tam
+2-15.10;2-15;metin;Each flight will observe the departure operations and determine whether or not to depart holding for the break at point 3.;#91 #92;S113 K152;Tam
+2-15.11;2-15;metin;(c) Break. When departing holding, the flight will descend outside of point 3 to 800 feet and proceed to the initial 3NM astern of the ship.;#93 #99;S113 S114 K141 K153;Tam
+2-15.12;2-15;metin;The flight will continue inbound and fly just outboard the starboard side of the ship at 800 feet, paralleling BRC.;#93 #99;S115 K153;Tam
+2-15.13;2-15;metin;Break altitude is 800 feet, and all breaks will be level.;#93 #99;S116 K154;Tam
+2-15.14;2-15;metin;The break interval is determined by the last aircraft in the landing pattern.;#93 #99;S116 K154;Tam
+2-15.15;2-15;metin;A 15-20 second break interval will correspond to a 40- 60 second landing interval.;#93 #99;S117 K154;Tam
+2-15.16;2-15;metin;No breaks will be performed more than 4 NM ahead of the ship.;#94 #99;S118 K155;Tam
+2-15.17;2-15;metin;If you are unable to break before 4 NM, you will have to depart and reenter the pattern.;#94 #99;S119 K155;Tam
+2-15.18;2-15;metin;To accomplish this, maintain 800 feet until 5 NM, then climb to 1,200 feet and execute a left-hand arc back to the initial.;#94 #99;S119 K155;Tam
+2-15.19;2-15;metin;Tower must be notified of your intentions.;#94;S119 K155;Tam
+2-15.20;2-15;metin;(d) Spin Procedures. If the pattern is full (more than six aircraft in the pattern) when the flight arrives at the fantail, the flight will have to “spin it.;#95;S120 S136 K156;Tam
+2-15.21;2-15;metin;To perform a spin, the flight will simultaneously climb to 1,200 feet and perform a left-hand turn remaining within 3 DME.;#95;S121 K156;Tam
+2-15.22;2-15;metin;After 270 degrees of turn (aft of abeam), the flight will descend to 800 feet and proceed inbound for the break.;#95;S121 K156;Tam
+2-15.23;2-15;metin;Aircraft reentering the break from the spin pattern have priority in the break.;#95;S122 K157;Tam
+2-15.24;2-15;metin;Upwind interval is determined by “first to the bow,” whether that is break traffic, waveoff, touch-and-go, or bolter.;#96;S123 K157;Tam
+2-15.25;2-15;metin;However, caution must be exercised when reentering the initial so as to avoid conflict with other aircraft inbound for the break.;#96;S123 K157;Tam
+2-15.26;2-15;metin;(e) Carrier Landing Pattern. The carrier landing pattern is nearly identical to the landing pattern at the field.;#97;S124 K158;Tam
+2-15.27;2-15;metin;The biggest difference is that the 180 and Abeam positions are co- located at the carrier.;#97 #99;S124 K158;Tam
+2-15.28;2-15;metin;Additionally, the downwind heading at the ship is the reciprocal of the BRC vice the landing heading (which will be approximately 10 degrees less than BRC due to the angled deck).;#97 #99;S125 K158;Tam
+2-15.29;2-15;metin;When established on downwind, individual aircraft will descend to pattern altitude of 600 feet, perform landing checks and closely monitor the abeam distance.;#97 #99;S126 K159;Tam
+2-15.30;2-15;metin;The carrier landing pattern is illustrated in Figure 2-5.;#97;;Derste · bağlam
+2-16.01;2-16;sekil;Figure 2-5 Carrier Landing Pattern;#98;;Derste · bağlam
+2-16.02;2-16;metin;(f) Touch and Go/Bolter. The procedures for touch and go landings and bolters are identical.;#100;S132 K166;Tam
+2-16.03;2-16;metin;Continue to fly the ball all the way to touchdown.;#99 #100;S132 K166;Tam
+2-16.04;2-16;metin;Upon touchdown, simultaneously advance power to MRT, retract speed brakes, and rotate to optimum AOA.;#99 #100 #104;S132 K166;Tam
+2-16.05;2-16;metin;Maintain wings level and verify a positive rate of climb and maintain optimum AOA.;#99 #100 #104;S133 K166;Tam
+2-16.06;2-16;metin;Once a positive rate of climb is established and your aircraft is abeam the bow, use a shallow right turn to parallel the BRC.;#99 #100 #104;S133 K167;Tam
+2-16.07;2-16;metin;Take interval on any aircraft that reaches the bow prior to you, either entering the break or launching off the cat.;#99 #100 #104;S133 K167;Tam
+2-16.08;2-16;metin;Climb to pattern altitude (600 feet) and turn downwind with proper interval.;#99 #100 #104;S133 K167;Tam
+2-17.02;2-17;metin;To avoid interfering with aircraft off the cat or in the break, do not cross the ship’s bow.;#99 #101;S134 K168;Tam
+2-17.03;2-17;metin;(g) Waveoff. Waveoffs are MANDATORY.;#102;S135 K169;Tam
+2-17.04;2-17;metin;All waveoffs are made up the angled deck unless otherwise directed by the LSO or the tower (i.e. “waveoff starboard side”).;#102;S135 K169;Tam
+2-17.05;2-17;metin;All aircraft must comply with waveoff signals, whether they are verbal or solely with the waveoff lights on the lens.;#102;K169;Tam
+2-17.06;2-17;metin;Waveoffs may result from a fouled deck, winds out of limits, or aircraft not being set up for a safe landing.;#102;S136 K170;Tam
+2-17.07;2-17;metin;To perform a waveoff, simultaneously advance power to MRT, retract speed brakes, maintain landing attitude (not to exceed optimum AOA), level wings, and climb up the angled deck.;#99 #103 #104;S137 K171;Tam
+2-17.08;2-17;metin;Verify a positive rate of climb and maintain optimum AOA.;#103 #104;S137 K171;Tam
+2-17.09;2-17;metin;Once you have established a positive rate of climb and you are abeam the bow, use a shallow right turn to parallel the ship’s BRC.;#99 #103 #104;K171;Tam
+2-17.10;2-17;metin;Climb to 600 feet and turn downwind with proper interval.;#99 #103 #104;K171;Tam
+2-17.11;2-17;metin;(h) Delta Procedures. If a signal Delta is given by the tower while in the pattern, maintain pattern altitude and fly the same landing pattern.;#105;S138 K172;Tam
+2-17.12;2-17;metin;Fly the pattern on-speed in the landing configuration with speed brakes retracted (Delta Easy).;#105;S138 K172;Tam
+2-17.13;2-17;metin;Delta clean equals 200 KIAS and altitude as assigned.;#105;S139 K172;Tam
+2-17.14;2-17;metin;When cleared from the Delta pattern, the first aircraft to reach the 180 position resumes the normal approach.;#105;K173;Tam
+2-17.15;2-17;metin;(i) Carrier Arrestment. Execute the approach exactly as a touch and go, flying the ball all the way to touchdown.;#106;S140 K174;Tam
+2-17.16;2-17;metin;When the aircraft touches down, advance the power to MRT and retract the speed brakes.;#106;S140 K174;Tam
+2-17.17;2-17;metin;Do not anticipate an arrested landing.;#106;S140 K174;Tam
+2-17.18;2-17;metin;Maintain MRT until the aircraft comes to a complete stop and the yellow shirt located at the 1 to 2 o’clock position signals for power back.;#106;S141 K174;Tam
+2-17.19;2-17;metin;The yellow shirt will then signal for brake release and a pull-back, followed by a stop signal and hook up signal.;#106;S142 K175;Tam
+2-17.20;2-17;metin;The pull- back allows for the wire to clear the hook.;#106;S142 K175;Tam
+2-17.21;2-17;metin;If the pilot applies the brakes during the evolution, the aircraft will tilt back, potentially damaging the tail section.;#106;S143 K175;Tam
+2-17.22;2-17;metin;Follow the yellow shirt’s instructions/commands.;#106;S143 K175;Tam
+2-17.23;2-17;metin;(j) Communications. For Case I recoveries, Marshal will provide the case recovery, current BRC and expected “Charlie” time upon initial check in.;#107 #109;S144 K176 K180;Tam
+2-17.24;2-17;metin;"Charlie time is the time at which launch operations are complete and recovery operations begin; additionally, Marshal will request notification when the carrier is in sight, normally around 10 NM.";#107;S144 K176 K177;Tam
+2-17.25;2-17;metin;Sample communications are as follows:;#107;;Derste · bağlam
+2-17.26;2-17;metin;(i) 405 - “Marshal, 405, 250 for 42, Angels 9, State 2.4”;#79 #108;K127 K178;Tam
+2-17.27;2-17;metin;(ii) Marshal - “405, Case I. BRC is 015, Report, see me”;#80 #108 #109;K178 K180;Tam
+2-18.01;2-18;metin;(iii) 405 - “405, Wilco”;#108;K178;Tam
+2-18.02;2-18;metin;At 10 NM or when visual with the ship:;#108;K179;Tam
+2-18.03;2-18;metin;(iv) 405 - “405, See you at 10”;#80 #108;K179;Tam
+2-18.04;2-18;metin;(v) Marshal - “405, Switch Tower”;#108;K179;Tam
+2-18.05;2-18;metin;Once switched to Tower frequency, just monitor the frequency.;#110;S145 K181;Tam
+2-18.06;2-18;metin;The majority of Case I operations are conducted “Zip Lip.;#110;S145 K181;Tam
+2-18.07;2-18;metin;This means that radio calls in the pattern are neither required nor desired.;#110;S145 K181;Tam
+2-18.08;2-18;metin;However, in low-visibility situations, the following calls will be made:;#110;S146 K181;Tam
+2-18.09;2-18;metin;(i) Descending out of overhead holding to the initial: “405, commencing”;#111;S146 K182;Tam
+2-18.10;2-18;metin;(ii) Initial (3 NM astern): “405, initial”;#99 #111;S146 K182;Tam
+2-18.11;2-18;metin;(iii) Entering the spin pattern (when applicable): “405, spinning”;#111;K183;Tam
+2-18.12;2-18;metin;(iv) 90 degrees from initial when spinning: “405, spin 90”;#111;K183;Tam
+2-18.13;2-18;metin;(v) Departing the landing pattern to re-enter port holding: “405, Departing _____ NM, upwind”;#111;K184;Tam
+2-18.14;2-18;metin;(vi) Breaking: “405, breaking at X” where X is the DME;#99 #111;S147 K184;Tam
+2-18.15;2-18;metin;(vii) Ball call, when rolling into the groove, and the pilot sees the ball: “405, Goshawk Ball, 2.2” where 2.2 is the fuel state;#99 #111;S148 K185;Tam
+2-18.16;2-18;metin;(viii) Clara when the ball is not visible: “405, Clara”;#99 #111;S150 K185;Tam
+2-18.17;2-18;metin;During Zip Lip operations, the ball call will not be made.;#99 #112;S149 K186;Tam
+2-18.18;2-18;metin;The LSO will acknowledge an implied ball call with a momentary flash of the cut lights (same as a “roger ball” call from the LSO) as the aircraft rolls into the groove.;#99 #112;S149 K186;Tam
+2-18.19;2-18;metin;If the ball is not visible, a “clara” call will be made.;#112;S150 K186;Tam
+2-18.20;2-18;metin;At any time during Zip Lip operations, radio calls will be made for any safety of flight situations.;#112;S151 K186;Tam
+2-18.22;2-18;metin;Never transmit on the radio when another aircraft is on the ball, unless required for safety of flight.;#113;S152 K187;Tam
+2-19.02;2-19;metin;Case II recoveries will be used when weather conditions are such that a flight may encounter IMC during the descent to the VFR pattern.;#114 #138;S153 K188;Tam
+2-19.03;2-19;metin;The minimum weather requirements are 1,000 feet ceiling and 5 NM visibility.;#114 #137 #138;S154 K188;Tam
+2-19.04;2-19;metin;During Case II recoveries, formation flights are limited to two aircraft.;#114 #138;S155 K188;Tam
+2-19.05;2-19;metin;Formations larger than two aircraft will have to be separated into smaller flights.;#114 #138;S155 K188;Tam
+2-19.06;2-19;metin;During Case II, Case III procedures are used outside 10 NM and Case I procedures are used inside 10 NM, or after reporting “see you.;#115 #130 #138;S156 K189;Tam
+2-19.07;2-19;metin;This approach will be flown until the ship is in sight, at which point, the flight will contact tower and proceed inbound as if Case I.;#115;S156 K189;Tam
+2-19.08;2-19;metin;If the flight does not see the ship by 5 NM, the aircraft will be vectored into the bolter/waveoff pattern and instructions will be given for a Case III recovery.;#115;S157;Tam
+2-19.09;2-19;metin;(a) Marshal Holding. If Marshal directs a Case II recovery, the flight will proceed to Case II/III marshal pattern holding fix.;#116;K190;Tam
+2-19.10;2-19;metin;Ideally, the holding fix will be on the 180 radial relative to BRC.;#116 #124 #135;S158 K191;Tam
+2-19.11;2-19;metin;Weather and airspace considerations may not allow for this.;#116;S158 K191;Tam
+2-19.12;2-19;metin;Generally, the holding radial will be within 30 degrees of the 180 radial.;#116 #124 #135;S158 K191;Tam
+2-19.13;2-19;metin;Aircraft will hold on the assigned radial at a distance equal to 1 NM for every 1,000 feet of altitude plus 15.;#117 #122 #124;S159 K192;Tam
+2-19.14;2-19;metin;In other words, the distance of the holding fix is determined by adding 15 to the assigned holding altitude in angels.;#117 #122;S159 S175 K192;Tam
+2-19.15;2-19;metin;For example, if instructed to hold on the 220 radial at angels 8, the fix would be determined as follows:;#117;S160 K192;Tam
+2-19.16;2-19;metin;(i) Distance = Angels + 15 = 8 +15 = 23;#117;S160 K192;Tam
+2-19.17;2-19;metin;Therefore, hold on the 220 radial at 23 DME at 8,000 feet.;#117;S160 K192;Tam
+2-19.18;2-19;metin;Figure 2-6 illustrates the Case II/III Marshal pattern.;#118;;Derste · bağlam
+2-19.19;2-19;metin;The lowest altitude for assignment is 6,000 feet for turboprop and jet aircraft.;#118 #122 #124;S161 K193;Tam
+2-20.01;2-20;sekil;Figure 2-6 Case II/III Marshal Holding;#119;;Derste · bağlam
+2-20.02;2-20;metin;The holding pattern is a six-minute left-hand pattern. Unless otherwise briefed, the pattern will be flown at max conserve fuel flow or NATOPS holding airspeed.;#120 #124;S162 K196;Tam
+2-20.03;2-20;metin;Two- minute turns and one-minute legs are normally used for the pattern.;#120;S162 K196;Tam
+2-20.04;2-20;metin;Aircraft must be established at assigned holding altitudes by 10 NM from the Marshal “stack.;#120;S163 K197;Tam
+2-20.05;2-20;metin;Aircraft in the stack will be separated by 1,000 feet vertically.;#120 #122;S164 K197;Tam
+2-20.06;2-20;metin;Strict management of the holding pattern is required to arrive at the fix, at the assigned approach time (push time).;#121;S165 K198;Tam
+2-20.07;2-20;metin;For example, arriving in holding at time 16 with a push time of 27, one 6-minute pattern and one 5-minute pattern could be used.;#121;S165 K198;Tam
+2-20.08;2-20;metin;But regardless of how the pattern is managed, aircraft must arrive at the holding fix on airspeed (250 kts) and ready to commence the approach at the Expected Approach Time (EAT) plus or minus 10 seconds.;#121;S166 K199;Tam
+2-20.09;2-20;metin;If unable to do this, notify Marshal so that timing adjustments to the landing interval can be made.;#121;S166 K199;Tam
+2-20.10;2-20;metin;(b) Emergency Marshal Fixes. In the event of an emergency, fixed wing aircraft are issued an emergency marshal radial 150-degree relative to the expected final bearing at a distance of 1 mile for every 1,000 feet of altitude plus 15 miles (angels +15).;#123 #124;S167 K200;Tam
+2-20.11;2-20;metin;As with the normal Marshal pattern, the lowest altitude for assignment is 6,000 feet for turboprop and jet aircraft.;#123 #124;S161 S167 K193 K200;Tam
+2-20.12;2-20;metin;The holding sequence is jets, then turboprops.;#123 #124;S168 K200;Tam
+2-20.13;2-20;metin;The emergency holding pattern is a right-hand, 6-minute racetrack patterns.;#123 #124;S162 S168 K200;Tam
+2-21.01;2-21;metin;(c) Approach. Aircraft push times will normally be separated by one minute.;#125;S169 K201;Tam
+2-21.02;2-21;metin;Upon commencing the approach, aircraft will establish a 4,000 feet per minute rate of descent at 250 KIAS.;#125 #127 #129;S169 K201;Tam
+2-21.03;2-21;metin;At 5,000 feet (platform), the rate of descent will be reduced to 2,000 feet per minute.;#125 #127;S170 K202;Tam
+2-21.04;2-21;metin;This will be maintained until reaching the level-off altitude of 1,200 feet.;#125 #127;S170 K202;Tam
+2-21.05;2-21;metin;Aircraft will proceed inbound at 1,200 feet and report a “see me” when the ship is in sight.;#126 #127 #130;K203;Tam
+2-21.06;2-21;metin;Marshal will switch the flight to Tower frequency for a normal Case I recovery.;#126 #127;K203;Tam
+2-21.07;2-21;metin;If the ship is not in sight by 10 NM, a descent to 800 feet is authorized.;#126 #127;S157 S171 K204;Tam
+2-21.08;2-21;metin;If the ship is still not in sight at 5 NM, notify Marshal for further instructions and vectors into the bolter/waveoff pattern for an instrument approach.;#126 #127;S157 K204;Tam
+2-21.09;2-21;metin;The Case II approach profile is shown in Figure 2-7.;#126;;Derste · bağlam
+2-21.10;2-21;sekil;Figure 2-7 Case II Approach Profile;#128;;Derste · bağlam
+2-21.11;2-21;metin;(d) Communications. For Case II recoveries, Marshal will provide the following information upon check in:;#131;S173 K207;Tam
+2-21.12;2-21;metin;(i) Current weather and altimeter;#131;S173 K207;Tam
+2-21.13;2-21;metin;(ii) Case recovery;#131;S173 K207;Tam
+2-21.14;2-21;metin;(iii) Marshal instructions;#131;S173 K207;Tam
+2-21.15;2-21;metin;(iv) Expected final approach button (frequency) if required;#131 #158;S173 S198 K207;Tam
+2-21.16;2-21;metin;(v) Expected approach time (EAT);#131;S173 K207;Tam
+2-21.17;2-21;metin;(vi) Expected BRC;#131 #158;S173 S197 K207;Tam
+2-21.18;2-21;metin;(vii) Additional information such as divert field, fuel data and bingo information.;#131;S173 K207;Tam
+2-21.19;2-21;metin;Notify Marshal when established in holding. Marshal may periodically update the weather and BRC.;#132;K208;Tam
+2-21.20;2-21;metin;Notify Marshal when the approach is commenced.;#132;K208;Tam
+2-21.21;2-21;metin;When the ship is in sight, aircrew will call “see you” and Marshal will switch them to Tower.;#130 #132;S176 K208;Tam
+2-21.22;2-21;metin;To reduce radio traffic, items of general or collective interest may be transmitted as a “99” broadcast by Marshal or approach control.;#132;S174;Tam
+2-21.23;2-21;metin;Sample communications are as follows:;#133;;Derste · bağlam
+2-22.01;2-22;metin;(i) 405 - “Marshal, 405, 250 for 42, Angels 14, State 2.4”;#133;K209;Tam
+2-22.02;2-22;metin;(ii) Marshal - “405, Mother’s weather is 1,500 overcast, visibility 5 miles, altimeter 29.87.;#133;K210;Tam
+2-22.03;2-22;metin;Case II recovery.;#133;K210;Tam
+2-22.04;2-22;metin;Marshal on the 160, 22, angels 7.;#133 #135;S175 K210;Tam
+2-22.05;2-22;metin;BRC is 015, Expected approach time 22.”;#133 #135;S175 K210;Tam
+2-22.06;2-22;metin;(iii) 405 - “405, altimeter 29.87. Marshal on the 160, 22, angels 7.;#133;K211;Tam
+2-22.07;2-22;metin;Expected approach time 22.”;#133;K211;Tam
+2-22.08;2-22;metin;When established in holding:;#133;K212;Tam
+2-22.09;2-22;metin;(iv) 405 - “405, established angels 7. State 2.3”;#133;K212;Tam
+2-22.10;2-22;metin;While holding:;#133;S174 K212;Tam
+2-22.11;2-22;metin;(v) Marshal - “99, altimeter 29.88. BRC 020”;#133;S174 K212;Tam
+2-22.12;2-22;metin;When beginning the penetration:;#133;K213;Tam
+2-22.13;2-22;metin;(vi) 405 - “405 commencing, 29.88, State 2.2”;#133;K213;Tam
+2-22.14;2-22;metin;When visual with the ship:;#133;S176;Tam
+2-22.15;2-22;metin;(vii) 405 - “405, see you at 12”;#130 #133;S176;Tam
+2-22.16;2-22;metin;(viii) Marshal - “405, switch Tower”;#133;S176;Tam
+2-22.17;2-22;metin;(ix) 405 - “405, switching Tower”;#133;S176;Tam
+2-22.18;2-22;metin;Approaching the initial with nobody on the ball:;#133;S177 K214;Tam
+2-22.19;2-22;metin;(x) 405 - “Tower, 405 initial”;#133;S177 K214;Tam
+2-22.20;2-22;metin;(xi) Tower - “405, roger”;#133;S177 K214;Tam
+2-22.21;2-22;metin;Normal Case I calls will be made in the landing pattern.;#134;S177 K214;Tam
+2-22.23;2-22;metin;The Case III recovery is used for all night operations, as well as during the day when the weather is below Case II minimums (less than 1,000-3).;#136 #137 #138;S153 S178;Tam
+2-22.24;2-22;metin;Case III recoveries are limited to single aircraft only.;#136 #138;S179;Tam
+2-22.25;2-22;metin;Section approaches will be approved only when an aircraft emergency situation exists.;#136 #138;S179;Tam
+2-22.26;2-22;metin;Formation penetrations/approaches by dissimilar aircraft shall not be attempted except in extreme circumstances when no safer options are available for recovery.;#136;S179 K215;Tam
+2-23.01;2-23;metin;(a) Holding. The Case III marshal holding pattern is identical to Case II.;#139;S180;Tam
+2-23.02;2-23;metin;During Case III recoveries, aircraft will commence from the Marshal stack and fly the CV-1 Approach.;#138 #139;S180;Tam
+2-23.03;2-23;metin;(b) Approach. The CV-1 Approach is illustrated in Figure 2-8.;#140;;Derste · bağlam
+2-23.04;2-23;metin;Aircraft push times will normally be separated by one minute.;#140 #153;K216;Tam
+2-23.05;2-23;metin;Upon commencing the approach, aircraft will establish a 4,000 feet per minute rate of descent at 250 KIAS.;#129 #140 #153;K216;Tam
+2-23.06;2-23;metin;If the Marshal radial is not the reciprocal of the final bearing, a correction to final bearing will be required at 20 DME as follows:;#141;S181;Tam
+2-23.07;2-23;metin;(i) A gradual correction shall be made when the final bearing is within 10° of the reciprocal of the marshal radial.;#141 #142;S181 S182;Tam
+2-23.08;2-23;metin;(ii) A 30° correction at 20 DME will be used when the final bearing is greater than 10° from the reciprocal of the marshal radial.;#141 #142;S181 S182;Tam
+2-23.09;2-23;metin;If not established on the final bearing by 12 miles, fly the 12-mile arc until intercepting final bearing.;#141;S183;Tam
+2-23.10;2-23;metin;At 5,000 feet (platform), the rate of descent will be reduced to 2,000 feet per minute.;#143 #153;K217;Tam
+2-23.11;2-23;metin;This will be maintained until reaching the level-off altitude of 1,200 feet.;#143;K217;Tam
+2-23.12;2-23;metin;At some point during the penetration or level off, Marshal will switch the aircrew to the final approach control frequency and they will check in with altitude.;#143 #161;K218;Tam
+2-23.13;2-23;metin;Landing checks will be initiated at 10 DME, and aircraft will reduce speed to cross 6 DME at 150 kts.;#144 #153;S184 K219;Tam
+2-23.14;2-23;metin;Landing gear should be down no later than 8 DME.;#144 #153;S185 K219;Tam
+2-23.15;2-23;metin;At 6 DME, aircraft will slow to final approach speed.;#144 #153;S184 K219;Tam
+2-23.16;2-23;metin;ACLS lock-on will occur sometime between 8 DME and 4 DME.;#145 #153;S186;Tam
+2-23.17;2-23;metin;At lock-on, compare the needles with bullseye (ACLS to ICLS) to ensure a good lock.;#145 #146;S186 K220;Tam
+2-23.18;2-23;metin;Approach will ask the crew to “say needles.;#145 #146;S187;Tam
+2-23.19;2-23;metin;The pilot will reply with the relative position of both the glideslope needle and the azimuth needle, such as “fly up, fly right” or “fly up, on.;#145 #146;S187;Tam
+2-23.20;2-23;metin;If this concurs with the readout on the approach radar scope, the controller will direct, “fly the needles.;#145 #146;S188 K221;Tam
+2-23.21;2-23;metin;If there is a disagreement, the controller will break lock and attempt a new lock.;#145 #146;S188;Tam
+2-23.22;2-23;metin;In this case, he will say “fly the bullseye” (ICLS) until he acquires a new ACLS lock.;#145 #146;S188;Tam
+2-24.01;2-24;sekil;Figure 2-8 CV 1 Approach;#147;;Derste · bağlam
+2-25.01;2-25;metin;Once a good ACLS lock has been confirmed, the pilot will fly the needles.;#146 #150;S190 K221;Tam
+2-25.02;2-25;metin;As a backup, always perform a self-contained GCA, comparing actual altitude with calculated altitude as follows:;#150;S190 K222;Tam
+2-25.03;2-25;metin;(i) 3 NM 1,200 feet;#150 #153;S189 K222;Tam
+2-25.04;2-25;metin;(ii) 2 NM 800 feet;#150 #153;S189 K222;Tam
+2-25.05;2-25;metin;(iii) 1 NM 400 feet;#150 #153;S189 K222;Tam
+2-25.06;2-25;metin;(iv) 0.5 NM 200 feet;#150 #153;S189 K222;Tam
+2-25.07;2-25;metin;At 3/4-mile, the final controller will instruct aircrew to call the ball.;#151 #153;S191 K223;Tam
+2-25.08;2-25;metin;The LSOs will roger the ball call.;#151;S191 K223;Tam
+2-25.09;2-25;metin;Continue to monitor the approach as the pilot transitions from an inside to outside scan.;#151;K223;Tam
+2-25.10;2-25;sekil;Figure 2-9 Self-Contained GCA;#152;;Derste · bağlam
+2-25.11;2-25;metin;(c) Bolter/Waveoff Pattern. In the event of a waveoff or bolter, climb to 1,200 feet at 150 kts and raise the gear to save fuel, leaving flaps down.;#154;S192;Tam
+2-25.12;2-25;metin;When instructed by approach, turn downwind.;#154;S192 K225;Tam
+2-25.13;2-25;metin;Perform the landing checks on downwind, and notify approach with fuel state when abeam the ship.;#154;S193 K225;Tam
+2-25.14;2-25;metin;Expect a turn back to final 4-8 NM past abeam for another approach, lowering the landing gear as you start this turn to final.;#154 #156;S193 K226;Tam
+2-26.01;2-26;metin;If no instructions are received by 4 DME upwind, attempt to contact approach.;#155 #156;S194 K227;Tam
+2-26.02;2-26;metin;If unable to contact approach, turn downwind and perform the normal checks.;#155 #156;S194 K227;Tam
+2-26.03;2-26;metin;Make the abeam call, and if contact has not been reestablished with approach by 4 NM (2 minutes) past abeam, turn final.;#155 #156;S195 K227;Tam
+2-26.04;2-26;metin;Intercept the ICLS and fly a normal approach.;#155;S195 K227;Tam
+2-26.05;2-26;metin;Call the ball at 3/4-mile.;#155;S195 K227;Tam
+2-26.06;2-26;metin;If this call is not acknowledged, look for the cut lights.;#155;S196 K227;Tam
+2-26.07;2-26;metin;(d) Communications. For Case III recoveries, Marshal will provide the following information upon check in:;#157;S197 K228;Tam
+2-26.08;2-26;metin;(i) Current weather and altimeter;#157;K228;Tam
+2-26.09;2-26;metin;(ii) Case recovery;#157;K228;Tam
+2-26.10;2-26;metin;(iii) Marshal instructions;#157;K228;Tam
+2-26.11;2-26;metin;(iv) Expected final approach button (frequency);#157 #158;S198 K228;Tam
+2-26.12;2-26;metin;(v) Expected approach time (EAT);#157;K228;Tam
+2-26.13;2-26;metin;(vi) Expected final bearing;#157 #158;S197 K228;Tam
+2-26.14;2-26;metin;(vii) Additional information such as divert field, fuel data and bingo information.;#157;K228;Tam
+2-26.15;2-26;metin;Notify Marshal when established in holding. Marshal may periodically update the weather and BRC while in holding.;#159 #161;K229;Tam
+2-26.16;2-26;metin;Notify Marshal when the approach is commenced.;#159;K229;Tam
+2-26.17;2-26;metin;Marshal will hand aircraft off to the final controller during the penetration, ideally before reaching platform.;#159;S199;Tam
+2-26.18;2-26;metin;Sample communications are as follows:;#160;;Derste · bağlam
+2-26.19;2-26;metin;(i) 405 - “Marshal, 405, 250 for 42, Angels 14, State 2.4”;#160;K230;Tam
+2-26.20;2-26;metin;(ii) Marshal - “405, Mother’s weather is 600 overcast, visibility 3 miles, altimeter 29.87.;#160;K230;Tam
+2-26.21;2-26;metin;Case III recovery, CV-1 approach.;#160;K230;Tam
+2-26.22;2-26;metin;Marshal on the 160, 22, angels 7.;#142 #160;S182 K230;Tam
+2-26.23;2-26;metin;Expected final bearing 015, expected approach time 22.;#142 #160;S182 K230;Tam
+2-26.24;2-26;metin;Approach button 18.”;#160;S198 K230;Tam
+2-26.25;2-26;metin;(iii) 405 - “405, altimeter 29.87. Marshal on the 160, 22, angels 7.;#160;K231;Tam
+2-26.26;2-26;metin;Expected approach time 22.”;#160;K231;Tam
+2-26.27;2-26;metin;When established in holding:;#160;K231;Tam
+2-26.28;2-26;metin;(iv) 405 - “405, established angels 7. State 2.3”;#160;K231;Tam
+2-27.01;2-27;metin;While holding:;#160;K232;Tam
+2-27.02;2-27;metin;(v) Marshal - “99, altimeter 29.88. New final bearing 020”;#160 #161;K232;Tam
+2-27.03;2-27;metin;When beginning the penetration:;#160;K232;Tam
+2-27.04;2-27;metin;(vi) 405 - “405 commencing, 29.88, state 2.2”;#160 #161;K232;Tam
+2-27.05;2-27;metin;(vii) Marshal - “405, roger”;#160;K232;Tam
+2-27.06;2-27;metin;Handoff to approach:;#160;S199 K233;Tam
+2-27.07;2-27;metin;(viii) Marshal - “405, switch Approach, button 18”;#160;S199 K233;Tam
+2-27.08;2-27;metin;(ix) 405 - “405 switching button 18;#160;K233;Tam
+2-27.09;2-27;metin;Check in with Approach:;#160;K233;Tam
+2-27.10;2-27;metin;(x) 405 - “405 checking in, state 1.5”;#160 #161;K233;Tam
+2-27.11;2-27;metin;(xi) Approach - “405, final bearing 017”;#160;K233;Tam
+2-27.12;2-27;metin;At platform:;#160;S200;Tam
+2-27.13;2-27;metin;(xii) 405 - “405 platform”;#160;S200;Tam
+2-27.14;2-27;metin;At ACLS lock-on:;#160;K234;Tam
+2-27.15;2-27;metin;(xiii) Approach - “405, say needles”;#160;S187 K234;Tam
+2-27.16;2-27;metin;(xiv) 405 - “405, fly up, on”;#160;S187 K234;Tam
+2-27.17;2-27;metin;(xv) Approach - “405, fly your needles”;#160;K234;Tam
+2-27.18;2-27;metin;At ¾ mile:;#160;S191 K235;Tam
+2-27.19;2-27;metin;(xvi) Approach - “405, ¾ mile, call the ball”;#160;S191 K235;Tam
+2-27.20;2-27;metin;(xvii) 405 - “405, Goshawk ball, 2.0”;#160 #161;K235;Tam
+2-27.21;2-27;metin;(xviii) LSO - “Roger ball”;#160;K235;Tam
+2-28.03;2-28;metin;(a) Bingo. Bingo is an emergency situation.;#162;S205 K241;Tam
+2-28.04;2-28;metin;It means the aircraft is at emergency fuel level, not minimum fuel.;#162;S205 K241;Tam
+2-28.05;2-28;metin;The fuel state of every aircraft is constantly monitored by Air Ops and Tower.;#163;S206 K242;Tam
+2-28.06;2-28;metin;When the fuel state reaches hold-down, as set by Air Ops, the aircraft will be held on deck for refueling.;#163;S206 K242;Tam
+2-28.07;2-28;metin;If directed to taxi to the catapult with a fuel state at or below hold- down, make a call to Tower.;#163;S207 K243;Tam
+2-28.08;2-28;metin;(b) Computing Bingo Profile (Clean). In a clean configuration, the computation of the bingo profile will be computed as follows (refer to Figure 2-10):;#164;S210 K244;Tam
+2-28.09;2-28;metin;(i) Determine the distance to base.;#164;S210 K244;Tam
+2-28.11;2-28;metin;Aircraft will receive information on bearing/distance (pigeons) to the divert field and bingo fuel state from Marshal on initial check- in.;#165;S208 K245;Tam
+2-28.12;2-28;metin;This information is periodically updated and broadcast over Marshal and tower frequencies.;#165;S208 K245;Tam
+2-28.13;2-28;metin;Always write down bingo and pigeons information.;#165;S208 K245;Tam
+2-28.14;2-28;metin;(ii) Refer to the PCL to determine proper bingo information.;#166;S210 K244;Tam
+2-28.15;2-28;metin;(a). Fuel required;#166;K246;Tam
+2-28.16;2-28;metin;(b). Time required for bingo (total time required from start of climb to landing);#166 #171 #178;S209 K246;Tam
+2-28.17;2-28;metin;(c). Speed (KIAS) for climb;#166;K246;Tam
+2-28.18;2-28;metin;(d). Cruise altitude;#166;K246;Tam
+2-28.19;2-28;metin;(e). Cruise (KIAS/IMN) speed at cruise altitude;#166;K246;Tam
+2-28.20;2-28;metin;(f). Descent (KIAS) speed;#166;K246;Tam
+2-28.21;2-28;metin;(g). Descent point;#166;K246;Tam
+2-28.22;2-28;metin;Always verify the bingo figures passed by the ship with the bingo fuel chart based on the distance to the bingo field.;#167;S211 K247;Tam
+2-28.23;2-28;metin;Refer to the PCL or NATOPS for current charts.;#167;S211 K247;Tam
+2-28.24;2-28;metin;Example bingo profile computation problem:;#168;;Derste · bağlam
+2-28.25;2-28;metin;(i) Determine proper bingo information given the following:;#168;;Derste · bağlam
+2-29.01;2-29;metin;(a). Aircraft configuration: gear up, flaps up;#168;S212 K248;Tam
+2-29.02;2-29;metin;(b). Zero fuel weight: 10,500 lb.;#168;S212 K248;Tam
+2-29.03;2-29;metin;(c). Drag index: 0;#168;S212 K248;Tam
+2-29.04;2-29;metin;(d). Distance to bingo field: 100 NM;#168;S212 K248;Tam
+2-29.05;2-29;metin;(ii) Solution:;#169;;Derste · bağlam
+2-29.06;2-29;metin;(a). DIST TO BASE = 100 NM;#169;S212 K249;Tam
+2-29.07;2-29;metin;(b). FUEL REQD = 712 lb.;#169;S212 K249;Tam
+2-29.08;2-29;metin;(c). CLIMB SPEED = 300 KIAS/.75 IMN;#169 #171;S214 K249;Tam
+2-29.09;2-29;metin;(d). CRUISE ALT = 20,000 feet;#169;S213 K249;Tam
+2-29.10;2-29;metin;(e). CRUISE SPEED = 218 KIAS .48 IMN;#169 #171;S214 K249;Tam
+2-29.11;2-29;metin;(f). DESCENT SPEED = 180 KIAS;#169;S214 K249;Tam
+2-29.12;2-29;metin;(g). DESCENT DIST = 55 NM (from bingo field);#169;S213 K249;Tam
+2-29.14;2-29;metin;Fuel required includes 300 pounds reserve fuel, maximum thrust climb to indicated altitude, and idle thrust descent to sea level.;#170;S215 K250;Tam
+2-30.01;2-30;sekil;Figure 2-10 Clean Bingo Chart;#172;;Derste · bağlam
+2-31.01;2-31;metin;(c) Bingo Flight Procedures (Clean). Upon reaching bingo fuel status, turn to bingo heading, clean up, accelerate to 300 KIAS, and fly the bingo profile (climb at MRT).;#173;S224 K311;Tam
+2-31.02;2-31;metin;Do not delay performing the turn or climb, but be aware of the ship’s position and other aircraft in the pattern.;#173;S224 K311;Tam
+2-31.03;2-31;metin;Communicate intentions to the ship.;#173;K311;Tam
+2-31.04;2-31;metin;Do not delay in executing a bingo profile while awaiting Tower reply.;#173;S224 K311;Tam
+2-31.05;2-31;metin;Squawk 7700 and communicate to any appropriate controlling agency.;#173;S225 K311;Tam
+2-31.06;2-31;metin;At the descent point, begin idle descent to the bingo field at the descent airspeed.;#174;S226 K312;Tam
+2-31.08;2-31;metin;Always cross-check your wet compass once established on a bingo.;#175;S227 K313;Tam
+2-31.10;2-31;metin;If the Bingo Profile is properly flown, aircraft should arrive overhead the field with 300-500 lbs. of fuel.;#176;S228 K314;Tam
+2-31.11;2-31;metin;This allows enough fuel to make a turn downwind or a 360-degree turn in the event you are unable to make a safe approach on the first try.;#176;S228 K314;Tam
+2-31.12;2-31;metin;Use good headwork.;#176;K314;Tam
+2-31.13;2-31;metin;"(d) Computing Bingo Profile (Dirty). Since bingo profiles are normally flown in a clean configuration, bingo information calculated from the CV is for a clean bingo; however, if the aircraft has a gear and/or flap/slat malfunction resulting in a dirty configuration, the fuel requirements will be higher.";#177;S229 K315;Tam
+2-31.14;2-31;metin;Dirty bingo information is computed in the same manner as clean bingo except that a different chart is used (Figure 2-11).;#177;S229 K315;Tam
+2-31.15;2-31;metin;Refer to the PCL or NATOPS for current charts.;#177;K315;Tam
+2-31.16;2-31;metin;When in a dirty configuration, compute the bingo profile as follows:;#178;;Derste · bağlam
+2-31.17;2-31;metin;(i) Determine the distance to base.;#178;S210 K316;Tam
+2-31.18;2-31;metin;(ii) Refer to the PCL to determine proper bingo information.;#178;S210 K316;Tam
+2-31.19;2-31;metin;(a). Fuel required;#178;S209 K316;Tam
+2-31.20;2-31;metin;(b). Speed (KIAS) for climb;#178;S209 K316;Tam
+2-31.21;2-31;metin;(c). Cruise altitude;#178;S209 K316;Tam
+2-31.22;2-31;metin;(d). Cruise (KIAS/IMN) speed at cruise altitude;#178;S209 K316;Tam
+2-31.23;2-31;metin;(e). Descent (KIAS) speed;#178;S209 K316;Tam
+2-31.24;2-31;metin;(f). Descent point;#178;S209 K316;Tam
+2-32.01;2-32;metin;Example bingo profile computation problem:;#179;;Derste · bağlam
+2-32.02;2-32;metin;(iii) Given the following information, determine proper bingo information:;#179;;Derste · bağlam
+2-32.03;2-32;metin;(a). Aircraft configuration: gear down, flaps full;#179;S230 K317;Tam
+2-32.04;2-32;metin;(b). Zero fuel weight: 10,500 lb.;#179;S230 K317;Tam
+2-32.05;2-32;metin;(c). Drag index: 0 to calculate speed;#179;S230 K317;Tam
+2-32.06;2-32;metin;(d). Distance to bingo field: 100 NM;#179;S230 K317;Tam
+2-32.07;2-32;metin;(iv) Solution:;#180;;Derste · bağlam
+2-32.08;2-32;metin;(a). DIST TO BASE = 100 NM;#180;S230 K318;Tam
+2-32.09;2-32;metin;(b). FUEL REQD = 1,950 lb.;#180;S230 K318;Tam
+2-32.10;2-32;metin;(c). CLIMB SPEED = 120 KIAS;#180;S232 K318;Tam
+2-32.11;2-32;metin;(d). CRUISE ALT = 15,000 feet;#180;S231 K318;Tam
+2-32.12;2-32;metin;(e). CRUISE SPEED = 118 KIAS/.24 IMN;#180 #182;S232 K318;Tam
+2-32.13;2-32;metin;(f). DESCENT SPEED = 110 KIAS;#180;S232 K318;Tam
+2-32.14;2-32;metin;(g). DESCENT DIST = 15 NM (from bingo field);#180;S231 K318;Tam
+2-32.16;2-32;metin;Fuel required includes 300 pounds reserve fuel, maximum thrust climb to indicated altitude, and idle thrust descent to sea level.;#181;S215 K250;Tam
+2-32.17;2-32;metin;(e) Bingo Flight Procedures (Dirty). Upon reaching bingo fuel status, turn to the bingo heading.;#185;S235 K319;Tam
+2-32.18;2-32;metin;Do not delay performing the turn or climb, but be on the lookout for other aircraft.;#185;S235 K319;Tam
+2-32.19;2-32;metin;Fly the computed bingo profile and climb at MRT.;#185;S235 K319;Tam
+2-32.20;2-32;metin;Communicate the same information as if executing a clean bingo.;#185;S235 K319;Tam
+2-32.21;2-32;metin;(f) Blown Tire. The most common reason for a dirty bingo is a blown tire.;#186;S236 K320;Tam
+2-32.22;2-32;metin;If a wingman can visually inspect you and confirm no damage or debris in the flaps, you can raise the flaps and perform a gear down/flaps up dirty bingo to save fuel.;#186 #187;S237 K320;Tam
+2-32.23;2-32;metin;Procedures for handling a blown tire depend on the situation under which the malfunction occurs.;#188;S238 K321;Tam
+2-32.24;2-32;metin;If the tire blows during a touch and go or after a catapult launch, aircraft may trap aboard or be directed to divert.;#188;S238 K321;Tam
+2-32.25;2-32;metin;If it occurs after an arrestment, follow the yellow shirt’s signals to taxi or be towed out of the landing area.;#188;S239 K321;Tam
+2-32.26;2-32;metin;"If instructed to divert, fly the dirty profile; this will require careful fuel monitoring.";#188;S240 K322;Tam
+2-33.01;2-33;sekil;Figure 2-11 Dirty Bingo Chart;#183;;Derste · bağlam
+2-34.01;2-34;metin;Even if well above bingo fuel, still fly the dirty bingo profile (the most fuel efficient profile).;#188;S240 K322;Tam
+2-34.02;2-34;metin;Refer to the PCL or NATOPS for proper field arrestment procedures.;#189;S241 K323;Tam
+2-34.03;2-34;metin;Not following these procedures explicitly may result in a hook skip.;#189;S241 K323;Tam
+2-34.05;2-34;metin;Directional control on the runway will be extremely difficult with one or both main tires blown.;#190;S242 K324;Tam
+2-34.06;2-34;metin;"Upon touchdown, with a single blown main tire, the aircraft will begin an immediate and rapid yaw or swerve into the side of the blown tire; additionally, the aircraft will establish an Angle of Bank (AOB) of approximately 3-degrees opposite the direction of yaw (i.e., right yaw, left AOB).";#191;S242 K325;Tam
+2-34.07;2-34;metin;"During the initial swerve, and subsequent pilot inputs to correct it, cockpit lateral accelerations (side-to-side) can reach up to 0.5 g; this can be very uncomfortable.";#191;S243 K325;Tam
+2-34.08;2-34;metin;Landing area lateral deviations will vary depending on how rapidly correct control inputs (rudder inputs opposite the swerve) are applied.;#191;S243 K325;Tam
+2-34.09;2-34;metin;For a shipboard arrested landing attempt, the LSO may elect to adjust the touchdown point by targeting the 2-wire.;#192;S244 K326;Tam
+2-34.10;2-34;metin;The pilot should be prepared for the possibility of a bolter/hook skip.;#192;S244 K326;Tam
+2-34.11;2-34;metin;Should this occur, aggressive and rapid rudder pedal deflection after touchdown (requiring up to 180-pounds of force within 0.25 seconds) is required to counter the swerve of a single blown tire to stay within the lateral confines of the landing area.;#192;S245 K326;Tam
+2-34.12;2-34;metin;Once airborne, center the rudder pedals and establish a flyaway attitude.;#192;S245 K326;Tam
+2-34.13;2-34;metin;(g) Cross-Deck Pendant/Hook Point Failure. Immediately determine if the aircraft can be stopped on the deck.;#193;S246 K327;Tam
+2-34.14;2-34;metin;If the aircraft cannot be stopped on the deck, determine if there is adequate airspeed for flight.;#193;S246 K327;Tam
+2-34.15;2-34;metin;If airspeed is not adequate, eject.;#193;S246 K327;Tam
+2-34.16;2-34;metin;If airspeed is adequate, maintain MRT, check speed brakes retracted, and smoothly rotate to optimum AOA.;#193 #209;S247 K327;Tam
+2-34.17;2-34;metin;If the sink rate is not arrested, increase the AOA to 24 units, maintain wings level, and establish a positive rate of climb.;#193;S248 K327;Tam
+2-34.18;2-34;metin;(h) NWS Failure On Flight Deck. The indications of a nose wheel steering failure are as follows:;#194;S249 K328;Tam
+2-34.19;2-34;metin;(i) MSTR ALERT light flashes;#194;S249 K328;Tam
+2-34.20;2-34;metin;(ii) Caution tone sounds in headset;#194;S249 K328;Tam
+2-34.21;2-34;metin;(iii) NOSE WHEEL STR amber caution light illuminated;#194;S249 S253 K328;Tam
+2-34.22;2-34;metin;(iv) NOSE WHEEL STR green advisory light extinguished (if high gain selected);#194;S249 K328;Tam
+2-34.23;2-34;metin;(v) Rudder pedals ineffective for steering;#194;S249 K328;Tam
+2-34.24;2-34;metin;If these indications are present, stop the aircraft. Do not taxi with inoperable NWS.;#195;S250 K329;Tam
+2-34.25;2-34;metin;Inform the tower of NWS failure.;#195;S250 K329;Tam
+2-34.26;2-34;metin;Confirm the pilot has pressed the paddle switch to disengage NWS and pressed the MSTR ALERT light (to cancel the light and tone).;#195;S251 S271 K329;Tam
+2-34.27;2-34;metin;The deck crew will attach a tow bar.;#195;S250 K329;Tam
+2-34.28;2-34;metin;While being towed, follow the flight director’s signals.;#195 #197;S252 K329;Tam
+2-35.02;2-35;metin;Do not reengage NWS or use differential braking while the tow bar is attached.;#196;S252 K330;Tam
+2-35.03;2-35;metin;(i) Brake Failure. The illumination of the HYD 1 PRESS caution light, a low indication of pressure on the brake pressure gauge, or a decrease or loss of brake pedal pressure are indications of brake failure.;#198;S253 K331;Tam
+2-35.04;2-35;metin;If these indications occur, use high gain nose wheel steering and available braking to maintain directional control while stopping.;#198;S254 K331;Tam
+2-35.05;2-35;metin;If only one brake fails, use NWS and the functioning brake to stop the aircraft.;#198;S254 K331;Tam
+2-35.06;2-35;metin;Engage the parking brake if available and drop the arresting hook (to signal deck personnel that a brake failure has occurred), ensure that the ANTI-SKID switch is in the OFF position.;#199;S255 K332;Tam
+2-35.07;2-35;metin;Advise the tower of the situation. Move the throttle to OFF only if a collision is unavoidable because shutting down the engine will lose NWS and any remaining hydraulic services.;#199;S256 K332;Tam
+2-35.08;2-35;metin;Make every effort to keep the aircraft on the flight deck, even if it means running into the island or another aircraft.;#200;S257 K333;Tam
+2-35.09;2-35;metin;If the aircraft is leaving the flight deck, eject.;#200;S257 K333;Tam
+2-35.10;2-35;metin;Once a wheel is off the flight deck (i.e., aircraft is no longer level), the aircraft may be out of the ejection envelope and ejection is no longer recommended.;#200;S257 K333;Tam
+2-35.11;2-35;metin;The following water egress procedures may be necessary:;#201;;Derste · bağlam
+2-35.12;2-35;metin;(i) Pull the Mild Detonating Cord (MDC) firing handle and activate emergency oxygen.;#201;S258 K334;Tam
+2-35.13;2-35;metin;In the event of an underwater egress, it is possible to breathe under water with the oxygen equipment to a depth of 16 feet.;#201;S258 K334;Tam
+2-35.14;2-35;metin;(ii) If possible, evacuate with the survival kit, release the upper Koch fittings, pull the emergency restraint release (to release leg restraints), evacuate the aircraft with the seatpack, and inflate the life preserver unit (LPU).;#201;S259 K335;Tam
+2-35.15;2-35;metin;(iii) When evacuating without the survival kit, release the upper Koch fittings, pull the emergency restraint release, release the lower Koch fittings, disconnect oxygen/communication connectors, and inflate the LPU.;#201;S259 K336;Tam
+2-35.16;2-35;metin;(iv) If the cockpit has flooded, the LPU may have inflated due to the water-activated automatic inflation device.;#201;S260 K337;Tam
+2-35.17;2-35;metin;If so, care must be taken during exit to avoid damage to the LPU.;#201;S260 K337;Tam
+2-35.18;2-35;metin;(j) Launch Bar Malfunction (Airborne). A launch bar malfunction is indicated by the red L BAR warning light accompanied by the warning tone.;#202;S249 S261 K338;Tam
+2-35.19;2-35;metin;If these indications occur, verify that the launch bar switch is in the RETRACT position.;#202;S261 K338;Tam
+2-35.20;2-35;metin;If the launch bar fails to retract, inform the LSO/tower and refer to the Landing Gear Malfunction- Landing Guide chart in your PCL.;#202;S262 K339;Tam
+2-35.21;2-35;metin;If the launch bar is visually confirmed to be in the DOWN position, clean up, exit the pattern using standard procedures, and rendezvous overhead according to tower instructions.;#203;S263 K340;Tam
+2-35.22;2-35;metin;Expect to divert and land ashore with the short-field arresting gear de-rigged.;#203;S263 K340;Tam
+2-36.02;2-36;metin;If an aircraft emergency occurs while on the catapult, perform catapult suspend procedures:;#204;S264 K341;Tam
+2-36.03;2-36;metin; Use a head shake as a negative signal and transmit, “Suspend, suspend, suspend.”  Maintain MRT until the catapult officer steps in front of the aircraft’s wing and gives the throttle back signal.;#204;S264 S265 S281 K341;Tam
+2-36.05;2-36;metin;Keep both hands down in the cockpit and out of sight so that hand movements cannot be confused with a salute.;#205;S266 K342;Tam
+2-36.06;2-36;metin;(a) Hang Fire (Catapult Malfunction). A catapult hang fire occurs when the catapult officer has touched the deck, the button has been pushed to launch the aircraft, but the catapult does not fire.;#206;S267 K343;Tam
+2-36.07;2-36;metin;If a hang fire occurs, the catapult officer will give the suspend signal followed by the hang fire signal.;#206;S268 K343;Tam
+2-36.08;2-36;metin;Once the catapult is safe, he will step in front of the aircraft and give the throttle back signal.;#206;S268 K343;Tam
+2-36.09;2-36;metin;(b) Holdback Fitting Failure. Once the aircraft is in tension, a holdback fitting failure may occur.;#207;S269 K344;Tam
+2-36.10;2-36;metin;When a holdback fitting fails, the aircraft will begin rolling forward and feel like it is on a normal takeoff roll as opposed to a catapult stroke.;#207;S269 K344;Tam
+2-36.11;2-36;metin;If this happens, retard the throttle immediately to IDLE, extend speed brakes and apply maximum braking.;#207;S270 K345;Tam
+2-36.12;2-36;metin;If necessary, use NWS to remain on the deck.;#207;S270 K345;Tam
+2-36.13;2-36;metin;The launch bar must be retracted or the NWS button pressed to activate the NWS.;#207;S271 K345;Tam
+2-36.15;2-36;metin;Failure to perform the above procedures immediately may make it impossible to keep the aircraft on the flight deck, requiring an ejection.;#208;S272 K346;Tam
+2-36.16;2-36;metin;If unable to eject, pull the MDC handle, activate emergency oxygen, ride the aircraft into the water, and perform a water egress.;#208;S272 K346;Tam
+2-36.17;2-36;metin;(c) Catapult Malfunction (Cold/Soft Catapult). Immediately determine if the aircraft can be stopped on the deck.;#209;S273 K347;Tam
+2-36.18;2-36;metin;If the aircraft cannot be stopped on the deck, determine if there is adequate airspeed for flight.;#209;S273 K347;Tam
+2-36.19;2-36;metin;If airspeed is not adequate, eject.;#209;S273 K347;Tam
+2-36.20;2-36;metin;If airspeed is adequate, maintain MRT and smoothly rotate aircraft to optimum AOA to stop sink rate.;#209;S247 S273 K347;Tam
+2-36.21;2-36;metin;If the sink rate is not arrested, increase AOA to 24 units.;#209;S248 K347;Tam
+2-36.22;2-36;metin;Maintain wings level and establish a positive rate of climb.;#209;S248 K347;Tam
+2-37.01;2-37;metin;(d) Communication Failure. In the event of a communications failure, always troubleshoot the system by checking switches and looking for loose connections.;#210 #211;S274 K348;Tam
+2-37.02;2-37;metin;(e) Lost Comm Enroute To Ship. Using hand signals, notify the lead of your NORDO condition and fuel state.;#210 #212;S275 K349;Tam
+2-37.03;2-37;metin;The lead will contact Marshal and coordinate a recovery or a divert.;#212;S275 K349;Tam
+2-37.04;2-37;metin;(f) Lost Comm In The Pattern. Fly a normal pattern to the start and call the ball.;#210 #213;S276 K350;Tam
+2-37.05;2-37;metin;If no cut lights are received, wave off the approach and do not descend below 300 ft.;#213;S276 K350;Tam
+2-37.06;2-37;metin;Fly up the angled deck, rocking the wings.;#213;S277 K350;Tam
+2-37.07;2-37;metin;When abeam the ship’s bow, turn to parallel BRC, then climb and maintain 500 feet, and accelerate to 150 KIAS.;#213;S277 K350;Tam
+2-37.08;2-37;metin;Continue in the pattern, turning on interval.;#213;S277 K350;Tam
+2-37.10;2-37;metin;(1) When climbing, stay alert for other aircraft. Remain within 5 NM of the ship and do not lose sight of the ship.;#214;S278 K351;Tam
+2-37.11;2-37;metin;(2) If bingo fuel state is reached, or an emergency occurs that requires an immediate landing, proceed to the divert field and squawk 7700.;#214;S225 S279 K352;Tam
+2-37.12;2-37;metin;Cross-check the wet compass and HSI to ensure that heading is properly aligned.;#214;S279 K352;Tam
+2-37.13;2-37;metin;Another aircraft may join as an escort to the bingo field.;#214;S279 K352;Tam
+2-37.14;2-37;metin;(g) Lost Comm On The Flight Deck. Never taxi to a catapult for launch with a known communication malfunction.;#210 #215;S280 K353;Tam
+2-37.15;2-37;metin;Give the communication failure signal to the yellow shirt (point at ears or mask followed by a thumbs down) and follow the yellow shirt’s signals to a parking area.;#215;S280 S281 K353;Tam
+2-37.16;2-37;metin;Troubleshoot the malfunction when practicable (cycle the switches and check the mask and helmet connections).;#215;S280 K353;Tam
+2-10.F1;2-10;sekil-icerik;"[Figure 2-1] Ship symbol at the bottom of the drawing with a black arrow labeled ""BRC"" pointing straight ahead (up the page).";#63;K097;Tam
+2-10.F2;2-10;sekil-icerik;"[Figure 2-1] The departure track (orange line) runs straight ahead from the ship, parallel to the BRC arrow; this segment is labeled ""500' / 300 KIAS"".";#63;S075 K097;Tam
+2-10.F3;2-10;sekil-icerik;"[Figure 2-1] A cross-mark on the track at the end of the straight segment is labeled ""7 DME""; at this point the track turns (drawn toward the upper right).";#63;S076 K097;Tam
+2-10.F4;2-10;sekil-icerik;"[Figure 2-1] The segment after the turn at 7 DME is labeled ""Climb on course, VMC"".";#63;S076 K097;Tam
+2-10.F5;2-10;sekil-icerik;"[Figure 2-2] Ship symbol at the bottom of the drawing with a black arrow labeled ""BRC"" pointing straight ahead; the departure track (orange line) runs straight ahead from the ship parallel to BRC. No altitude, airspeed or distance label is printed on this straight segment.";#66;S089 K101;Tam
+2-10.F6;2-10;sekil-icerik;"[Figure 2-2] Two short horizontal orange lines are drawn beside (to the right of) the straight segment; they carry no label.";#66;S089 K101;Tam
+2-10.F7;2-10;sekil-icerik;"[Figure 2-2] At the end of the straight segment there is an unlabeled cross-mark; from it the track splits and curves both left and right to join a large arc labeled ""10 DME Arc"".";#66;S078 S089 K101;Tam
+2-10.F8;2-10;sekil-icerik;"[Figure 2-2] At the upper left, a line labeled ""Departure Radial"" leaves the 10 DME arc outbound.";#66;S078 S089 K101;Tam
+2-13.F1;2-13;sekil-icerik;"[Figure 2-3] Circular holding pattern (ring) with points marked 1 (right side), 2 (top, BRC side), 3 (left side) and 4 (bottom); a 'Pattern Flow' arrow shows counterclockwise (left-hand) flow.";#84;K133;Tam
+2-13.F2;2-13;sekil-icerik;"[Figure 2-3] The carrier is drawn inside the ring, bow toward the top, between the ring center and point 1; a 'BRC' arrow extends from the bow toward the top of the figure.";#84 #87;K134 K138;Tam
+2-13.F3;2-13;sekil-icerik;[Figure 2-3] A double-headed arrow drawn across the ring through its center is labelled '5 NM'.;#84 #87;K135;Tam
+2-13.F4;2-13;sekil-icerik;"[Figure 2-3] The upper half of the ring (from point 3 through 2 to 1) is shaded green and the lower half (from point 3 through 4 to 1) blue; this figure has no legend for the colors.";#84;K136;Tam
+2-13.F5;2-13;sekil-icerik;"[Figure 2-3] Two dashed entry tracks join the ring tangentially in the direction of pattern flow: one from the upper left joining at point 3, one from the left joining at the bottom near point 4; each is labelled '10 NM Establish Pattern Altitude'.";#84;S103 S104 K137;Tam
+2-14.F1;2-14;sekil-icerik;"[Figure 2-4] Same ring as Figure 2-3: points 1 (right), 2 (top), 3 (left), 4 (bottom); 'Pattern Flow' arrow counterclockwise; carrier inside the ring with a 'BRC' arrow toward the top; a '5 NM' double-headed arrow across the ring.";#86 #87;K135 K139;Tam
+2-14.F2;2-14;sekil-icerik;"[Figure 2-4] The upper (green) half of the ring, between points 1-2-3, is labelled 'Pattern Climb Area'; the lower (blue) half, between points 3-4-1, is labelled 'Pattern Descent Area'.";#86 #88 #92;S108 K136 K139;Tam
+2-14.F3;2-14;sekil-icerik;[Figure 2-4] A dashed departure track leaves the ring at point 3 toward the lower left (arrow), loops around astern of the ship and comes back inbound along the starboard side, passing point 1 and paralleling BRC.;#86 #92;S113 S115 K140;Tam
+2-14.F4;2-14;sekil-icerik;[Figure 2-4] A '3 NM' dimension on the right side measures from the level of point 1 to a point astern on the inbound track.;#86;K141;Tam
+2-14.F5;2-14;sekil-icerik;[Figure 2-4] Ahead of the ship, four unlabelled dashed arcs turn left off the inbound track at successive points.;#86;K142;Tam
+2-16.F1;2-16;sekil-icerik;"[Figure 2-5] INITIAL: 3 nm Astern; 800 ft; 300 KIAS.";#98 #99;S114 K160;Tam
+2-16.F2;2-16;sekil-icerik;"[Figure 2-5] BREAK: On Interval or No Earlier Than 1 nm; Wingman: 15 sec Interval (a large hollow arrow is drawn next to the label).";#98 #99;S131 K160;Tam
+2-16.F3;2-16;sekil-icerik;[Figure 2-5] TURN DOWNWIND: Interval's Hook Down, 7 o'clock.;#98 #99;K161;Tam
+2-16.F4;2-16;sekil-icerik;"[Figure 2-5] DOWNWIND: 600 ft On-Speed; Airspeed Check; Landing Checks; Trimmed Up.";#98 #99;K161;Tam
+2-16.F5;2-16;sekil-icerik;"[Figure 2-5] ABEAM: 600 ft; Establish VSI: 200-300 fpm, 27-30° AOB. 'ABEAM CALL' is marked at the abeam position.";#98 #99;S128 K162;Tam
+2-16.F6;2-16;sekil-icerik;[Figure 2-5] A dashed line from the abeam position to the ship is labelled '.9 - 1.1 nm'.;#98 #99;S127 K162;Tam
+2-16.F7;2-16;sekil-icerik;"[Figure 2-5] 90: 450 ft; 27-30° AOB; VSI: 500 fpm.";#98 #99;S129 K163;Tam
+2-16.F8;2-16;sekil-icerik;[Figure 2-5] 45: 325-375ft.;#98 #99;S130 K163;Tam
+2-16.F9;2-16;sekil-icerik;[Figure 2-5] BALL CALL: marked at the aircraft on final in line with the ship's landing area, with a dashed line from the aircraft to the ship's stern.;#98 #99;K164;Tam
+2-16.F10;2-16;sekil-icerik;[Figure 2-5] TOUCH AND GO/BOLTER: Climb, Turn to Parallel BRC.;#98 #99;K164;Tam
+2-16.F11;2-16;sekil-icerik;[Figure 2-5] An outer curve running from the abeam position around to the final approach carries tick marks labelled '90°' (bottom) and '45°' (right side).;#98;K165;Tam
+2-20.F1;2-20;sekil-icerik;"[Figure 2-6] Formula at the top of the figure: ""Alt (Angels) + 15 = Holding Fix Distance"".";#119 #122;K194;Tam
+2-20.F2;2-20;sekil-icerik;"[Figure 2-6] Green holding pattern labelled ""6000 ft / 21 NM"".";#119 #122;S164 K194;Tam
+2-20.F3;2-20;sekil-icerik;"[Figure 2-6] Yellow holding pattern labelled ""7000 ft / 22 NM"".";#119 #122;S164 K194;Tam
+2-20.F4;2-20;sekil-icerik;"[Figure 2-6] Red holding pattern labelled ""8000 ft / 23 NM"".";#119 #122;S164 K194;Tam
+2-20.F5;2-20;sekil-icerik;"[Figure 2-6] Drawing: ship at the left with a line extending away from it; three overlapping racetrack holding patterns along this line, each higher pattern slightly farther from the ship; a vertical arrow points to the end of each pattern nearest the ship; T-45 aircraft drawn in the patterns.";#119;K195;Tam
+2-21.F1;2-21;sekil-icerik;"[Figure 2-7] ""Hold at assigned altitude, left turns.""";#128;S172 K205;Tam
+2-21.F2;2-21;sekil-icerik;"[Figure 2-7] ""Initial approach fix DME is angels plus 15.""";#128;S172 K205;Tam
+2-21.F3;2-21;sekil-icerik;"[Figure 2-7] ""Note: Below platform, rate of descent should not exceed altitude.""";#128;S172 K205;Tam
+2-21.F4;2-21;sekil-icerik;"[Figure 2-7] First descent segment from the holding altitude labelled ""250 KIAS 4,000-6,000 ft/min"".";#128 #129;S169 K206;Tam
+2-21.F5;2-21;sekil-icerik;"[Figure 2-7] ""Platform 5,000 ft""; descent segment below platform labelled ""250 KIAS 2,000 ft/min"".";#128;S170 K206;Tam
+2-21.F6;2-21;sekil-icerik;"[Figure 2-7] Level-off point marked ""1,200 ft/10 NM"".";#128;S171 K206;Tam
+2-21.F7;2-21;sekil-icerik;"[Figure 2-7] Level segment nearer the ship marked ""800 ft"".";#128;S171 K206;Tam
+2-24.F1;2-24;sekil-icerik;"[Figure 2-8 plan view] ""Marshal as assigned"": holding pattern at the (IAF) with the inbound leg labelled FB and the outbound leg labelled 180°, drawn with left turns.";#147;K236;Tam
+2-24.F2;2-24;sekil-icerik;[Figure 2-8 plan view] From the (IAF) the track runs inbound on FB past 10 DME, 6 DME and 3 DME (3 DME marked with an X) to the ship.;#147;K236;Tam
+2-24.F3;2-24;sekil-icerik;"[Figure 2-8 plan view] Ship symbol with callout ""TACAN CH .......""; final bearing arrow beyond the ship labelled ""FB ......."" (values left blank).";#147;K237;Tam
+2-24.F4;2-24;sekil-icerik;"[Figure 2-8 plan view] Beyond the ship the FB line continues to a mark ""4 DME/2 Min""; from there a dotted 180° turn is drawn back toward the ship (on the left of the FB line in the drawing).";#147;K237;Tam
+2-24.F5;2-24;sekil-icerik;"[Figure 2-8] ""Note: Courses are relative to FB"".";#147;K238;Tam
+2-24.F6;2-24;sekil-icerik;"[Figure 2-8] ""Platform 5000"".";#147;K238;Tam
+2-24.F7;2-24;sekil-icerik;"[Figure 2-8] ""Avg deck elev 60 ft"".";#147;S204 K238;Tam
+2-24.F8;2-24;sekil-icerik;"[Figure 2-8 profile] BOLTER/WAVEOFF: ""If no instructions by 4 DME/2 Min, turn downwind, report abeam. If no COMM, commence turn to FB at 4 DME.""";#147 #156;S203;Tam
+2-24.F9;2-24;sekil-icerik;"[Figure 2-8 profile] From the (IAF) the path descends along FB to 10 DME, then is level to 3 DME; ""1200"" is shown at 10 DME and at 6 DME (altitude figures in the profile are drawn with horizontal bars above and/or below them).";#147 #153;K239;Tam
+2-24.F10;2-24;sekil-icerik;"[Figure 2-8 profile] At 3 DME (X): ""1200 PALS/ICLS"" above the path; ""1200 ASR/TAC"" with ""600"" beneath it below the path; from 3 DME the path descends along FB to the ship (TAC).";#147 #153;S202;Tam
+2-24.F11;2-24;sekil-icerik;"[Figure 2-8 profile] Past the ship a dotted climbing turn is drawn to ""4 DME/2 Min"", marked ""1200"".";#147;K239;Tam
+2-24.F12;2-24;sekil-icerik;"[Figure 2-8 minimums table] Columns CATEGORY / JET / TURBOPROP. Row ICLS: JET 360-3/4; TURBOPROP 300 (300-3/4).";#148;S201;Tam
+2-24.F13;2-24;sekil-icerik;"[Figure 2-8 minimums table] Rows ""ICLS/ILM with SPN-42/46 monitor"" and ""S—PALS"" share one undivided value area: ""(Mode 1 — As Certified)"" spanning both columns at the ICLS/ILM row; JET 260-1/2 and TURBOPROP 200 (200-1/2) at the S—PALS row.";#148 #149;S201 K240;Tam
+2-24.F14;2-24;sekil-icerik;"[Figure 2-8 minimums table] Rows ""S—ASR"" and ""S—TAC"" share one value area: JET 600-1-1/4 and 540 (600-1-1/4); TURBOPROP 400-1 and 340 (400-1); values aligned with the S—ASR row; the S—TAC row is cut off at the bottom edge of the image.";#148 #149;K240;Tam
+2-25.F1;2-25;sekil-icerik;[Figure 2-9] Straight glidepath drawn from the ship, with a distance scale marked .5, 1.0, 1.5, 2.0, 2.5, 3.0 (no unit printed).;#152;K224;Tam
+2-25.F2;2-25;sekil-icerik;"[Figure 2-9] Altitudes on the glidepath: 200' at .5; 400' at 1.0; 600' at 1.5; 800' at 2.0; 1000' at 2.5; 1200' at 3.0.";#152;S189 K224;Tam
+2-25.F3;2-25;sekil-icerik;"[Figure 2-9] ""Ball Transition"" arrow pointing to the glidepath between the .5 and 1.0 marks.";#152;K224;Tam
+2-30.F1;2-30;sekil-icerik;"[Figure 2-10] Chart title: BINGO; configuration label: GEAR UP - FLAPS UP (the label GEAR UP - FLAPS UP is repeated below the table, above the NOTES).";#172 #184 #187;K251;Tam
+2-30.F2;2-30;sekil-icerik;"[Figure 2-10] Column headings: DIST TO BASE (NM); MAXIMUM RANGE CRUISE group: FUEL REQD - NO WIND (LB) and 100 KT HEAD WIND (LB), CLIMB SPEED (KCAS), CRUISE - ALT (FEET) and SPEED (KCAS), DESCEND - SPEED (KCAS) and DIST - NO WIND (NM) and 100 KT HEAD WIND (NM); SEA LEVEL CRUISE group: FUEL REQD - NO WIND (LB) and 100 KT HEAD WIND (LB), CRUISE SPEED (KCAS). Rows are grouped by DRAG INDEX = 0, 50 and 100, each with DIST TO BASE 25, 50, 75, 100, 125, 150, 175, 200, 225 and 250 NM.";#171 #172 #184;S217 S223 K251;Tam
+2-30.F3;2-30;sekil-icerik;[Figure 2-10] DRAG INDEX = 0 block: CLIMB SPEED 300/0.75 and DESCEND SPEED 180 KCAS (a single value printed for all distances of the block).;#169 #171 #172 #184;S214 S218 K255;Tam
+2-30.F4;2-30;sekil-icerik;"[Figure 2-10] DRAG INDEX = 0, DIST TO BASE 25 NM: FUEL REQD 420 LB (NO WIND) / 515 LB (100 KT HEAD WIND); CRUISE ALT 5,000 FEET, CRUISE SPEED 221 KCAS; DESCEND DIST 14 NM (NO WIND) / 6 NM (100 KT HEAD WIND); SEA LEVEL CRUISE FUEL REQD 429 LB (NO WIND) / 535 LB (100 KT HEAD WIND), SEA LEVEL CRUISE SPEED 220 KCAS.";#172 #184;K256;Tam
+2-30.F5;2-30;sekil-icerik;"[Figure 2-10] DRAG INDEX = 0, DIST TO BASE 50 NM: FUEL REQD 528 LB (NO WIND) / 682 LB (100 KT HEAD WIND); CRUISE ALT 10,000 FEET, CRUISE SPEED 222 KCAS; DESCEND DIST 27 NM (NO WIND) / 13 NM (100 KT HEAD WIND); SEA LEVEL CRUISE FUEL REQD 559 LB (NO WIND) / 771 LB (100 KT HEAD WIND), SEA LEVEL CRUISE SPEED 221 KCAS.";#172 #184;K257;Tam
+2-30.F6;2-30;sekil-icerik;"[Figure 2-10] DRAG INDEX = 0, DIST TO BASE 75 NM: FUEL REQD 625 LB (NO WIND) / 815 LB (100 KT HEAD WIND); CRUISE ALT 15,000 FEET, CRUISE SPEED 219 KCAS; DESCEND DIST 41 NM (NO WIND) / 21 NM (100 KT HEAD WIND); SEA LEVEL CRUISE FUEL REQD 690 LB (NO WIND) / 1,006 LB (100 KT HEAD WIND), SEA LEVEL CRUISE SPEED 221 KCAS.";#172 #184;K258;Tam
+2-30.F7;2-30;sekil-icerik;"[Figure 2-10] DRAG INDEX = 0, DIST TO BASE 100 NM: FUEL REQD 712 LB (NO WIND) / 921 LB (100 KT HEAD WIND); CRUISE ALT 20,000 FEET, CRUISE SPEED 218 KCAS; DESCEND DIST 55 NM (NO WIND) / 29 NM (100 KT HEAD WIND); SEA LEVEL CRUISE FUEL REQD 820 LB (NO WIND) / 1,240 LB (100 KT HEAD WIND), SEA LEVEL CRUISE SPEED 222 KCAS.";#169 #172 #180 #184;S212 S213 K259;Tam
+2-30.F8;2-30;sekil-icerik;"[Figure 2-10] DRAG INDEX = 0, DIST TO BASE 125 NM: FUEL REQD 795 LB (NO WIND) / 1,006 LB (100 KT HEAD WIND); CRUISE ALT 25,000 FEET, CRUISE SPEED 225 KCAS; DESCEND DIST 69 NM (NO WIND) / 37 NM (100 KT HEAD WIND); SEA LEVEL CRUISE FUEL REQD 952 LB (NO WIND) / 1,474 LB (100 KT HEAD WIND), SEA LEVEL CRUISE SPEED 222 KCAS.";#172 #184;S221 K260;Tam
+2-30.F9;2-30;sekil-icerik;"[Figure 2-10] DRAG INDEX = 0, DIST TO BASE 150 NM: FUEL REQD 869 LB (NO WIND) / 1,081 LB (100 KT HEAD WIND); CRUISE ALT 30,000 FEET, CRUISE SPEED 224 KCAS; DESCEND DIST 83 NM (NO WIND) / 46 NM (100 KT HEAD WIND); SEA LEVEL CRUISE FUEL REQD 1,083 LB (NO WIND) / 1,707 LB (100 KT HEAD WIND), SEA LEVEL CRUISE SPEED 223 KCAS.";#172 #184;S222 K261;Tam
+2-30.F10;2-30;sekil-icerik;"[Figure 2-10] DRAG INDEX = 0, DIST TO BASE 175 NM: FUEL REQD 935 LB (NO WIND) / 1,150 LB (100 KT HEAD WIND); CRUISE ALT 35,000 FEET, CRUISE SPEED 215 KCAS; DESCEND DIST 97 NM (NO WIND) / 55 NM (100 KT HEAD WIND); SEA LEVEL CRUISE FUEL REQD 1,216 LB (NO WIND) / 1,940 LB (100 KT HEAD WIND), SEA LEVEL CRUISE SPEED 224 KCAS.";#172 #184;S220 K262;Tam
+2-30.F11;2-30;sekil-icerik;"[Figure 2-10] DRAG INDEX = 0, DIST TO BASE 200 NM: FUEL REQD 999 LB (NO WIND) / 1,238 LB (100 KT HEAD WIND); CRUISE ALT 35,000 FEET, CRUISE SPEED 216 KCAS; DESCEND DIST 97 NM (NO WIND) / 55 NM (100 KT HEAD WIND); SEA LEVEL CRUISE FUEL REQD 1,349 LB (NO WIND) / 2,172 LB (100 KT HEAD WIND), SEA LEVEL CRUISE SPEED 224 KCAS.";#172 #184;S220 K263;Tam
+2-30.F12;2-30;sekil-icerik;"[Figure 2-10] DRAG INDEX = 0, DIST TO BASE 225 NM: FUEL REQD 1,063 LB (NO WIND) / 1,327 LB (100 KT HEAD WIND); CRUISE ALT 35,000 FEET, CRUISE SPEED 216 KCAS; DESCEND DIST 97 NM (NO WIND) / 55 NM (100 KT HEAD WIND); SEA LEVEL CRUISE FUEL REQD 1,482 LB (NO WIND) / 2,404 LB (100 KT HEAD WIND), SEA LEVEL CRUISE SPEED 225 KCAS.";#172 #184;S220 K264;Tam
+2-30.F13;2-30;sekil-icerik;"[Figure 2-10] DRAG INDEX = 0, DIST TO BASE 250 NM: FUEL REQD 1,127 LB (NO WIND) / 1,392 LB (100 KT HEAD WIND); CRUISE ALT 40,000 FEET, CRUISE SPEED 213 KCAS; DESCEND DIST 111 NM (NO WIND) / 65 NM (100 KT HEAD WIND); SEA LEVEL CRUISE FUEL REQD 1,616 LB (NO WIND) / 2,635 LB (100 KT HEAD WIND), SEA LEVEL CRUISE SPEED 226 KCAS.";#172 #184;S219 S220 K265;Tam
+2-30.F14;2-30;sekil-icerik;[Figure 2-10] DRAG INDEX = 50 block: CLIMB SPEED 265/0.70 and DESCEND SPEED 170 KCAS (a single value printed for all distances of the block).;#172 #184;S218 K266;Tam
+2-30.F15;2-30;sekil-icerik;"[Figure 2-10] DRAG INDEX = 50, DIST TO BASE 25 NM: FUEL REQD 433 LB (NO WIND) / 542 LB (100 KT HEAD WIND); CRUISE ALT 5,000 FEET, CRUISE SPEED 214 KCAS; DESCEND DIST 12 NM (NO WIND) / 5 NM (100 KT HEAD WIND); SEA LEVEL CRUISE FUEL REQD 441 LB (NO WIND) / 562 LB (100 KT HEAD WIND), SEA LEVEL CRUISE SPEED 214 KCAS.";#172 #184;K267;Tam
+2-30.F16;2-30;sekil-icerik;"[Figure 2-10] DRAG INDEX = 50, DIST TO BASE 50 NM: FUEL REQD 551 LB (NO WIND) / 731 LB (100 KT HEAD WIND); CRUISE ALT 10,000 FEET, CRUISE SPEED 214 KCAS; DESCEND DIST 24 NM (NO WIND) / 11 NM (100 KT HEAD WIND); SEA LEVEL CRUISE FUEL REQD 582 LB (NO WIND) / 823 LB (100 KT HEAD WIND), SEA LEVEL CRUISE SPEED 215 KCAS.";#172 #184;K268;Tam
+2-30.F17;2-30;sekil-icerik;"[Figure 2-10] DRAG INDEX = 50, DIST TO BASE 75 NM: FUEL REQD 656 LB (NO WIND) / 875 LB (100 KT HEAD WIND); CRUISE ALT 15,000 FEET, CRUISE SPEED 214 KCAS; DESCEND DIST 37 NM (NO WIND) / 17 NM (100 KT HEAD WIND); SEA LEVEL CRUISE FUEL REQD 724 LB (NO WIND) / 1,085 LB (100 KT HEAD WIND), SEA LEVEL CRUISE SPEED 216 KCAS.";#172 #184;K269;Tam
+2-30.F18;2-30;sekil-icerik;"[Figure 2-10] DRAG INDEX = 50, DIST TO BASE 100 NM: FUEL REQD 752 LB (NO WIND) / 993 LB (100 KT HEAD WIND); CRUISE ALT 20,000 FEET, CRUISE SPEED 213 KCAS; DESCEND DIST 49 NM (NO WIND) / 24 NM (100 KT HEAD WIND); SEA LEVEL CRUISE FUEL REQD 867 LB (NO WIND) / 1,348 LB (100 KT HEAD WIND), SEA LEVEL CRUISE SPEED 216 KCAS.";#172 #184;K270;Tam
+2-30.F19;2-30;sekil-icerik;"[Figure 2-10] DRAG INDEX = 50, DIST TO BASE 125 NM: FUEL REQD 840 LB (NO WIND) / 1,089 LB (100 KT HEAD WIND); CRUISE ALT 25,000 FEET, CRUISE SPEED 215 KCAS; DESCEND DIST 61 NM (NO WIND) / 31 NM (100 KT HEAD WIND); SEA LEVEL CRUISE FUEL REQD 1,010 LB (NO WIND) / 1,610 LB (100 KT HEAD WIND), SEA LEVEL CRUISE SPEED 216 KCAS.";#172 #184;S221 K271;Tam
+2-30.F20;2-30;sekil-icerik;"[Figure 2-10] DRAG INDEX = 50, DIST TO BASE 150 NM: FUEL REQD 924 LB (NO WIND) / 1,175 LB (100 KT HEAD WIND); CRUISE ALT 30,000 FEET, CRUISE SPEED 214 KCAS; DESCEND DIST 74 NM (NO WIND) / 39 NM (100 KT HEAD WIND); SEA LEVEL CRUISE FUEL REQD 1,153 LB (NO WIND) / 1,872 LB (100 KT HEAD WIND), SEA LEVEL CRUISE SPEED 217 KCAS.";#172 #184;K272;Tam
+2-30.F21;2-30;sekil-icerik;"[Figure 2-10] DRAG INDEX = 50, DIST TO BASE 175 NM: FUEL REQD 1,000 LB (NO WIND) / 1,259 LB (100 KT HEAD WIND); CRUISE ALT 35,000 FEET, CRUISE SPEED 208 KCAS; DESCEND DIST 86 NM (NO WIND) / 47 NM (100 KT HEAD WIND); SEA LEVEL CRUISE FUEL REQD 1,297 LB (NO WIND) / 2,135 LB (100 KT HEAD WIND), SEA LEVEL CRUISE SPEED 217 KCAS.";#172 #184;K273;Tam
+2-30.F22;2-30;sekil-icerik;"[Figure 2-10] DRAG INDEX = 50, DIST TO BASE 200 NM: FUEL REQD 1,074 LB (NO WIND) / 1,361 LB (100 KT HEAD WIND); CRUISE ALT 35,000 FEET, CRUISE SPEED 208 KCAS; DESCEND DIST 86 NM (NO WIND) / 47 NM (100 KT HEAD WIND); SEA LEVEL CRUISE FUEL REQD 1,442 LB (NO WIND) / 2,398 LB (100 KT HEAD WIND), SEA LEVEL CRUISE SPEED 218 KCAS.";#172 #184;K274;Tam
+2-30.F23;2-30;sekil-icerik;"[Figure 2-10] DRAG INDEX = 50, DIST TO BASE 225 NM: FUEL REQD 1,147 LB (NO WIND) / 1,464 LB (100 KT HEAD WIND); CRUISE ALT 35,000 FEET, CRUISE SPEED 208 KCAS; DESCEND DIST 86 NM (NO WIND) / 47 NM (100 KT HEAD WIND); SEA LEVEL CRUISE FUEL REQD 1,587 LB (NO WIND) / 2,661 LB (100 KT HEAD WIND), SEA LEVEL CRUISE SPEED 218 KCAS.";#172 #184;K275;Tam
+2-30.F24;2-30;sekil-icerik;"[Figure 2-10] DRAG INDEX = 50, DIST TO BASE 250 NM: FUEL REQD 1,221 LB (NO WIND) / 1,568 LB (100 KT HEAD WIND); CRUISE ALT 35,000 FEET, CRUISE SPEED 209 KCAS; DESCEND DIST 86 NM (NO WIND) / 47 NM (100 KT HEAD WIND); SEA LEVEL CRUISE FUEL REQD 1,733 LB (NO WIND) / - (100 KT HEAD WIND), SEA LEVEL CRUISE SPEED 219 KCAS.";#172 #184;S219 K276;Tam
+2-30.F25;2-30;sekil-icerik;[Figure 2-10] DRAG INDEX = 100 block: CLIMB SPEED 245/0.60 and DESCEND SPEED 165 KCAS (a single value printed for all distances of the block).;#172 #184;S218 K277;Tam
+2-30.F26;2-30;sekil-icerik;"[Figure 2-10] DRAG INDEX = 100, DIST TO BASE 25 NM: FUEL REQD 444 LB (NO WIND) / 566 LB (100 KT HEAD WIND); CRUISE ALT 5,000 FEET, CRUISE SPEED 210 KCAS; DESCEND DIST 11 NM (NO WIND) / 5 NM (100 KT HEAD WIND); SEA LEVEL CRUISE FUEL REQD 452 LB (NO WIND) / 589 LB (100 KT HEAD WIND), SEA LEVEL CRUISE SPEED 209 KCAS.";#172 #184;K278;Tam
+2-30.F27;2-30;sekil-icerik;"[Figure 2-10] DRAG INDEX = 100, DIST TO BASE 50 NM: FUEL REQD 572 LB (NO WIND) / 773 LB (100 KT HEAD WIND); CRUISE ALT 10,000 FEET, CRUISE SPEED 208 KCAS; DESCEND DIST 22 NM (NO WIND) / 10 NM (100 KT HEAD WIND); SEA LEVEL CRUISE FUEL REQD 604 LB (NO WIND) / 877 LB (100 KT HEAD WIND), SEA LEVEL CRUISE SPEED 209 KCAS.";#172 #184;K279;Tam
+2-30.F28;2-30;sekil-icerik;"[Figure 2-10] DRAG INDEX = 100, DIST TO BASE 75 NM: FUEL REQD 685 LB (NO WIND) / 993 LB (100 KT HEAD WIND); CRUISE ALT 15,000 FEET, CRUISE SPEED 207 KCAS; DESCEND DIST 33 NM (NO WIND) / 15 NM (100 KT HEAD WIND); SEA LEVEL CRUISE FUEL REQD 757 LB (NO WIND) / 1,165 LB (100 KT HEAD WIND), SEA LEVEL CRUISE SPEED 210 KCAS.";#172 #184;K280;Tam
+2-30.F29;2-30;sekil-icerik;"[Figure 2-10] DRAG INDEX = 100, DIST TO BASE 100 NM: FUEL REQD 788 LB (NO WIND) / 1,060 LB (100 KT HEAD WIND); CRUISE ALT 20,000 FEET, CRUISE SPEED 207 KCAS; DESCEND DIST 44 NM (NO WIND) / 21 NM (100 KT HEAD WIND); SEA LEVEL CRUISE FUEL REQD 911 LB (NO WIND) / 1,454 LB (100 KT HEAD WIND), SEA LEVEL CRUISE SPEED 211 KCAS.";#172 #184;K281;Tam
+2-30.F30;2-30;sekil-icerik;"[Figure 2-10] DRAG INDEX = 100, DIST TO BASE 125 NM: FUEL REQD 880 LB (NO WIND) / 1,132 LB (100 KT HEAD WIND); CRUISE ALT 30,000 FEET, CRUISE SPEED 201 KCAS; DESCEND DIST 66 NM (NO WIND) / 34 NM (100 KT HEAD WIND); SEA LEVEL CRUISE FUEL REQD 1,066 LB (NO WIND) / 1,742 LB (100 KT HEAD WIND), SEA LEVEL CRUISE SPEED 211 KCAS.";#172 #184;S221 K282;Tam
+2-30.F31;2-30;sekil-icerik;"[Figure 2-10] DRAG INDEX = 100, DIST TO BASE 150 NM: FUEL REQD 965 LB (NO WIND) / 1,257 LB (100 KT HEAD WIND); CRUISE ALT 30,000 FEET, CRUISE SPEED 201 KCAS; DESCEND DIST 66 NM (NO WIND) / 34 NM (100 KT HEAD WIND); SEA LEVEL CRUISE FUEL REQD 1,221 LB (NO WIND) / 2,030 LB (100 KT HEAD WIND), SEA LEVEL CRUISE SPEED 212 KCAS.";#172 #184;K283;Tam
+2-30.F32;2-30;sekil-icerik;"[Figure 2-10] DRAG INDEX = 100, DIST TO BASE 175 NM: FUEL REQD 1,051 LB (NO WIND) / 1,358 LB (100 KT HEAD WIND); CRUISE ALT 35,000 FEET, CRUISE SPEED 195 KCAS; DESCEND DIST 77 NM (NO WIND) / 41 NM (100 KT HEAD WIND); SEA LEVEL CRUISE FUEL REQD 1,377 LB (NO WIND) / 2,318 LB (100 KT HEAD WIND), SEA LEVEL CRUISE SPEED 212 KCAS.";#172 #184;K284;Tam
+2-30.F33;2-30;sekil-icerik;"[Figure 2-10] DRAG INDEX = 100, DIST TO BASE 200 NM: FUEL REQD 1,133 LB (NO WIND) / 1,477 LB (100 KT HEAD WIND); CRUISE ALT 35,000 FEET, CRUISE SPEED 195 KCAS; DESCEND DIST 77 NM (NO WIND) / 41 NM (100 KT HEAD WIND); SEA LEVEL CRUISE FUEL REQD 1,533 LB (NO WIND) / 2,606 LB (100 KT HEAD WIND), SEA LEVEL CRUISE SPEED 213 KCAS.";#172 #184;K285;Tam
+2-30.F34;2-30;sekil-icerik;"[Figure 2-10] DRAG INDEX = 100, DIST TO BASE 225 NM: FUEL REQD 1,216 LB (NO WIND) / 1,597 LB (100 KT HEAD WIND); CRUISE ALT 35,000 FEET, CRUISE SPEED 196 KCAS; DESCEND DIST 77 NM (NO WIND) / 41 NM (100 KT HEAD WIND); SEA LEVEL CRUISE FUEL REQD 1,690 LB (NO WIND) / 2,893 LB (100 KT HEAD WIND), SEA LEVEL CRUISE SPEED 213 KCAS.";#172 #184;K286;Tam
+2-30.F35;2-30;sekil-icerik;"[Figure 2-10] DRAG INDEX = 100, DIST TO BASE 250 NM: FUEL REQD 1,299 LB (NO WIND) / 1,717 LB (100 KT HEAD WIND); CRUISE ALT 35,000 FEET, CRUISE SPEED 196 KCAS; DESCEND DIST 77 NM (NO WIND) / 41 NM (100 KT HEAD WIND); SEA LEVEL CRUISE FUEL REQD 1,848 LB (NO WIND) / - (100 KT HEAD WIND), SEA LEVEL CRUISE SPEED 214 KCAS.";#172 #184;S219 K287;Tam
+2-30.F36;2-30;sekil-icerik;[Figure 2-10] NOTES: 1. FUEL REQUIRED INCLUDES 300 LB RESERVE FUEL;#172 #184;S215 K252;Tam
+2-30.F37;2-30;sekil-icerik;[Figure 2-10] NOTES: 2. INITIAL ALTITUDE IS SEA LEVEL;#172 #184;S216 K252;Tam
+2-30.F38;2-30;sekil-icerik;[Figure 2-10] NOTES: 3. MAXIMUM THRUST CLIMB TO CRUISE ALTITUDE;#172 #184;S215 K252;Tam
+2-30.F39;2-30;sekil-icerik;[Figure 2-10] NOTES: 4. IDLE THRUST MAXIMUM RANGE DESCENT TO SEA LEVEL (SPEEDBRAKES RETRACTED);#172 #184;S215 K252;Tam
+2-33.F1;2-33;sekil-icerik;"[Figure 2-11] Chart title: BINGO; configuration label: GEAR DOWN - FULL FLAPS (the label GEAR DOWN - FULL FLAPS is repeated below the table, above the NOTES).";#183 #184 #187;K253;Tam
+2-33.F2;2-33;sekil-icerik;"[Figure 2-11] Column headings: DIST TO BASE (NM); MAXIMUM RANGE CRUISE group: FUEL REQD - NO WIND (LB) and 50 KT HEAD WIND (LB), CLIMB SPEED (KCAS), CRUISE - ALT (FEET) and SPEED (KCAS), DESCEND - SPEED (KCAS) and DIST - NO WIND (NM) and 50 KT HEAD WIND (NM); SEA LEVEL CRUISE group: FUEL REQD - NO WIND (LB) and 50 KT HEAD WIND (LB), CRUISE SPEED (KCAS). Rows are grouped by DRAG INDEX = 0, 50 and 100, each with DIST TO BASE 25, 50, 75, 100, 125, 150, 175, 200, 225 and 250 NM.";#182 #183 #184;S217 S223 K253;Tam
+2-33.F3;2-33;sekil-icerik;[Figure 2-11] DRAG INDEX = 0 block: CLIMB SPEED 120 and DESCEND SPEED 110 KCAS (a single value printed for all distances of the block).;#180 #183 #184;S232 S234 K288;Tam
+2-33.F4;2-33;sekil-icerik;"[Figure 2-11] DRAG INDEX = 0, DIST TO BASE 25 NM: FUEL REQD 743 LB (NO WIND) / 1,001 LB (50 KT HEAD WIND); CRUISE ALT 8,000 FEET, CRUISE SPEED 122 KCAS; DESCEND DIST 8 NM (NO WIND) / 4 NM (50 KT HEAD WIND); SEA LEVEL CRUISE FUEL REQD 758 LB (NO WIND) / 1,074 LB (50 KT HEAD WIND), SEA LEVEL CRUISE SPEED 123 KCAS.";#183 #184;K289;Tam
+2-33.F5;2-33;sekil-icerik;"[Figure 2-11] DRAG INDEX = 0, DIST TO BASE 50 NM: FUEL REQD 1,142 LB (NO WIND) / 1,598 LB (50 KT HEAD WIND); CRUISE ALT 12,500 FEET, CRUISE SPEED 118 KCAS; DESCEND DIST 12 NM (NO WIND) / 7 NM (50 KT HEAD WIND); SEA LEVEL CRUISE FUEL REQD 1,226 LB (NO WIND) / 1,858 LB (50 KT HEAD WIND), SEA LEVEL CRUISE SPEED 124 KCAS.";#183 #184;K290;Tam
+2-33.F6;2-33;sekil-icerik;"[Figure 2-11] DRAG INDEX = 0, DIST TO BASE 75 NM: FUEL REQD 1,541 LB (NO WIND) / 2,187 LB (50 KT HEAD WIND); CRUISE ALT 15,000 FEET, CRUISE SPEED 117 KCAS; DESCEND DIST 15 NM (NO WIND) / 9 NM (50 KT HEAD WIND); SEA LEVEL CRUISE FUEL REQD 1,704 LB (NO WIND) / 2,652 LB (50 KT HEAD WIND), SEA LEVEL CRUISE SPEED 126 KCAS.";#183 #184;K291;Tam
+2-33.F7;2-33;sekil-icerik;"[Figure 2-11] DRAG INDEX = 0, DIST TO BASE 100 NM: FUEL REQD 1,950 LB (NO WIND) / 2,809 LB (50 KT HEAD WIND); CRUISE ALT 15,000 FEET, CRUISE SPEED 118 KCAS; DESCEND DIST 15 NM (NO WIND) / 9 NM (50 KT HEAD WIND); SEA LEVEL CRUISE FUEL REQD 2,195 LB (NO WIND) / - (50 KT HEAD WIND), SEA LEVEL CRUISE SPEED 127 KCAS.";#180 #182 #183 #184;S230 S231 K292;Tam
+2-33.F8;2-33;sekil-icerik;"[Figure 2-11] DRAG INDEX = 0, DIST TO BASE 125 NM: FUEL REQD 2,369 LB (NO WIND) / - (50 KT HEAD WIND); CRUISE ALT 15,000 FEET, CRUISE SPEED 119 KCAS; DESCEND DIST 15 NM (NO WIND) / - (50 KT HEAD WIND); SEA LEVEL CRUISE FUEL REQD 2,697 LB (NO WIND) / - (50 KT HEAD WIND), SEA LEVEL CRUISE SPEED 129 KCAS.";#183 #184;K293;Tam
+2-33.F9;2-33;sekil-icerik;"[Figure 2-11] DRAG INDEX = 0, DIST TO BASE 150 NM: FUEL REQD 2,819 LB (NO WIND) / - (50 KT HEAD WIND); CRUISE ALT 12,500 FEET, CRUISE SPEED 120 KCAS; DESCEND DIST 12 NM (NO WIND) / - (50 KT HEAD WIND); SEA LEVEL CRUISE FUEL REQD - (NO WIND) / - (50 KT HEAD WIND), SEA LEVEL CRUISE SPEED -.";#183 #184;S233 K294;Tam
+2-33.F10;2-33;sekil-icerik;[Figure 2-11] DRAG INDEX = 0, DIST TO BASE 175, 200, 225 and 250 NM: every column shows '-' (no values given).;#183 #184;S233 K295;Tam
+2-33.F11;2-33;sekil-icerik;[Figure 2-11] DRAG INDEX = 50 block: CLIMB SPEED 120 and DESCEND SPEED 110 KCAS (a single value printed for all distances of the block).;#183 #184;S234 K296;Tam
+2-33.F12;2-33;sekil-icerik;"[Figure 2-11] DRAG INDEX = 50, DIST TO BASE 25 NM: FUEL REQD 749 LB (NO WIND) / 1,011 LB (50 KT HEAD WIND); CRUISE ALT 8,000 FEET, CRUISE SPEED 121 KCAS; DESCEND DIST 8 NM (NO WIND) / 4 NM (50 KT HEAD WIND); SEA LEVEL CRUISE FUEL REQD 764 LB (NO WIND) / 1,087 LB (50 KT HEAD WIND), SEA LEVEL CRUISE SPEED 122 KCAS.";#183 #184;K297;Tam
+2-33.F13;2-33;sekil-icerik;"[Figure 2-11] DRAG INDEX = 50, DIST TO BASE 50 NM: FUEL REQD 1,155 LB (NO WIND) / 1,620 LB (50 KT HEAD WIND); CRUISE ALT 12,500 FEET, CRUISE SPEED 117 KCAS; DESCEND DIST 12 NM (NO WIND) / 7 NM (50 KT HEAD WIND); SEA LEVEL CRUISE FUEL REQD 1,239 LB (NO WIND) / 1,885 LB (50 KT HEAD WIND), SEA LEVEL CRUISE SPEED 124 KCAS.";#183 #184;K298;Tam
+2-33.F14;2-33;sekil-icerik;"[Figure 2-11] DRAG INDEX = 50, DIST TO BASE 75 NM: FUEL REQD 1,562 LB (NO WIND) / 2,221 LB (50 KT HEAD WIND); CRUISE ALT 15,000 FEET, CRUISE SPEED 116 KCAS; DESCEND DIST 14 NM (NO WIND) / 9 NM (50 KT HEAD WIND); SEA LEVEL CRUISE FUEL REQD 1,725 LB (NO WIND) / 2,694 LB (50 KT HEAD WIND), SEA LEVEL CRUISE SPEED 125 KCAS.";#183 #184;K299;Tam
+2-33.F15;2-33;sekil-icerik;"[Figure 2-11] DRAG INDEX = 50, DIST TO BASE 100 NM: FUEL REQD 1,979 LB (NO WIND) / 2,854 LB (50 KT HEAD WIND); CRUISE ALT 15,000 FEET, CRUISE SPEED 117 KCAS; DESCEND DIST 14 NM (NO WIND) / 9 NM (50 KT HEAD WIND); SEA LEVEL CRUISE FUEL REQD 2,222 LB (NO WIND) / - (50 KT HEAD WIND), SEA LEVEL CRUISE SPEED 127 KCAS.";#183 #184;K300;Tam
+2-33.F16;2-33;sekil-icerik;"[Figure 2-11] DRAG INDEX = 50, DIST TO BASE 125 NM: FUEL REQD 2,406 LB (NO WIND) / - (50 KT HEAD WIND); CRUISE ALT 15,000 FEET, CRUISE SPEED 118 KCAS; DESCEND DIST 14 NM (NO WIND) / - (50 KT HEAD WIND); SEA LEVEL CRUISE FUEL REQD 2,732 LB (NO WIND) / - (50 KT HEAD WIND), SEA LEVEL CRUISE SPEED 128 KCAS.";#183 #184;K301;Tam
+2-33.F17;2-33;sekil-icerik;"[Figure 2-11] DRAG INDEX = 50, DIST TO BASE 150 NM: FUEL REQD 2,866 LB (NO WIND) / - (50 KT HEAD WIND); CRUISE ALT 12,500 FEET, CRUISE SPEED 120 KCAS; DESCEND DIST 12 NM (NO WIND) / - (50 KT HEAD WIND); SEA LEVEL CRUISE FUEL REQD - (NO WIND) / - (50 KT HEAD WIND), SEA LEVEL CRUISE SPEED -.";#183 #184;K302;Tam
+2-33.F18;2-33;sekil-icerik;[Figure 2-11] DRAG INDEX = 50, DIST TO BASE 175, 200, 225 and 250 NM: every column shows '-' (no values given).;#183 #184;S233 K303;Tam
+2-33.F19;2-33;sekil-icerik;[Figure 2-11] DRAG INDEX = 100 block: CLIMB SPEED 120 and DESCEND SPEED 110 KCAS (a single value printed for all distances of the block).;#183 #184;S234 K304;Tam
+2-33.F20;2-33;sekil-icerik;"[Figure 2-11] DRAG INDEX = 100, DIST TO BASE 25 NM: FUEL REQD 754 LB (NO WIND) / 1,022 LB (50 KT HEAD WIND); CRUISE ALT 8,000 FEET, CRUISE SPEED 121 KCAS; DESCEND DIST 8 NM (NO WIND) / 4 NM (50 KT HEAD WIND); SEA LEVEL CRUISE FUEL REQD 771 LB (NO WIND) / 1,100 LB (50 KT HEAD WIND), SEA LEVEL CRUISE SPEED 122 KCAS.";#183 #184;K305;Tam
+2-33.F21;2-33;sekil-icerik;"[Figure 2-11] DRAG INDEX = 100, DIST TO BASE 50 NM: FUEL REQD 1,169 LB (NO WIND) / 1,643 LB (50 KT HEAD WIND); CRUISE ALT 12,500 FEET, CRUISE SPEED 116 KCAS; DESCEND DIST 12 NM (NO WIND) / 7 NM (50 KT HEAD WIND); SEA LEVEL CRUISE FUEL REQD 1,252 LB (NO WIND) / 1,912 LB (50 KT HEAD WIND), SEA LEVEL CRUISE SPEED 123 KCAS.";#183 #184;K306;Tam
+2-33.F22;2-33;sekil-icerik;"[Figure 2-11] DRAG INDEX = 100, DIST TO BASE 75 NM: FUEL REQD 1,583 LB (NO WIND) / 2,257 LB (50 KT HEAD WIND); CRUISE ALT 15,000 FEET, CRUISE SPEED 116 KCAS; DESCEND DIST 14 NM (NO WIND) / 8 NM (50 KT HEAD WIND); SEA LEVEL CRUISE FUEL REQD 1,745 LB (NO WIND) / 2,737 LB (50 KT HEAD WIND), SEA LEVEL CRUISE SPEED 125 KCAS.";#183 #184;K307;Tam
+2-33.F23;2-33;sekil-icerik;"[Figure 2-11] DRAG INDEX = 100, DIST TO BASE 100 NM: FUEL REQD 2,007 LB (NO WIND) / - (50 KT HEAD WIND); CRUISE ALT 15,000 FEET, CRUISE SPEED 117 KCAS; DESCEND DIST 14 NM (NO WIND) / - (50 KT HEAD WIND); SEA LEVEL CRUISE FUEL REQD 2,250 LB (NO WIND) / - (50 KT HEAD WIND), SEA LEVEL CRUISE SPEED 126 KCAS.";#183 #184;K308;Tam
+2-33.F24;2-33;sekil-icerik;"[Figure 2-11] DRAG INDEX = 100, DIST TO BASE 125 NM: FUEL REQD 2,442 LB (NO WIND) / - (50 KT HEAD WIND); CRUISE ALT 15,000 FEET, CRUISE SPEED 118 KCAS; DESCEND DIST 14 NM (NO WIND) / - (50 KT HEAD WIND); SEA LEVEL CRUISE FUEL REQD 2,766 LB (NO WIND) / - (50 KT HEAD WIND), SEA LEVEL CRUISE SPEED 127 KCAS.";#183 #184;S233 K309;Tam
+2-33.F25;2-33;sekil-icerik;[Figure 2-11] DRAG INDEX = 100, DIST TO BASE 150, 175, 200, 225 and 250 NM: every column shows '-' (no values given).;#183 #184;S233 K310;Tam
+2-33.F26;2-33;sekil-icerik;[Figure 2-11] NOTES: 1. FUEL REQUIRED INCLUDES 300 LB RESERVE FUEL;#183 #184;S216 K254;Tam
+2-33.F27;2-33;sekil-icerik;[Figure 2-11] NOTES: 2. INITIAL ALTITUDE IS SEA LEVEL;#183 #184;S216 K254;Tam
+2-33.F28;2-33;sekil-icerik;[Figure 2-11] NOTES: 3. MAXIMUM THRUST CLIMB TO CRUISE ALTITUDE;#183 #184;S216 K254;Tam
+2-33.F29;2-33;sekil-icerik;[Figure 2-11] NOTES: 4. IDLE THRUST MAXIMUM RANGE DESCENT TO SEA LEVEL (SPEEDBRAKES RETRACTED);#183 #184;S216 K254;Tam

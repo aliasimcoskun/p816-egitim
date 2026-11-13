@@ -1,0 +1,31 @@
+<!-- Bölüm 2, parça e bileşenleri. Her biri "@@ ad" işaretiyle başlar; içerikte "@w ad" ile çağrılır. -->
+
+<!-- @@ e_bingo -->
+<div class="w w-e-bingo">
+  <div class="w-baslik">Bingo grafiği okuyucu <small>Şekil 2-10 / 2-11 değerleri · profil şematik, ölçeksiz</small></div>
+  <div class="eb-secim">
+    <div class="eb-grup" role="group" aria-label="Konfigürasyon">
+      <span class="eb-et">Konfigürasyon</span>
+      <button type="button" class="btn aktif" data-eb-konf="temiz">Temiz · GEAR UP - FLAPS UP</button>
+      <button type="button" class="btn" data-eb-konf="kirli">Kirli · GEAR DOWN - FULL FLAPS</button>
+    </div>
+    <div class="eb-grup" role="group" aria-label="Drag index">
+      <span class="eb-et">Drag index</span>
+      <button type="button" class="btn aktif" data-eb-di="0">0</button>
+      <button type="button" class="btn" data-eb-di="50">50</button>
+      <button type="button" class="btn" data-eb-di="100">100</button>
+    </div>
+    <div class="eb-grup" role="group" aria-label="Rüzgâr">
+      <span class="eb-et">Rüzgâr</span>
+      <button type="button" class="btn aktif" data-eb-ruzgar="0">Rüzgârsız</button>
+      <button type="button" class="btn" data-eb-ruzgar="1">Baş rüzgârı</button>
+    </div>
+    <label class="eb-mesafe">
+      <span class="eb-et">Üsse mesafe (DIST TO BASE): <b class="eb-mesafe-deger">100 NM</b></span>
+      <input type="range" min="25" max="250" step="25" value="100" aria-label="Üsse mesafe, NM">
+    </label>
+  </div>
+  <svg class="eb-profil" viewBox="0 0 640 250" role="img" aria-label="Şematik bingo profili: tırmanış, seyir ve alçalma"></svg>
+  <div class="eb-sonuc" aria-live="polite"></div>
+  <p class="w-not">Şematik / ölçeksiz. <b>Eğitim amaçlı, uçuşta kullanılmaz.</b> Değerler Şekil 2-10 ve 2-11'den aynen aktarılmıştır; "–" grafikte değer olmadığını gösterir. Güncel grafikler için PCL veya NATOPS'a bakılır.</p>
+</div>

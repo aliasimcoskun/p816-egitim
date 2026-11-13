@@ -1,0 +1,6 @@
+# Python
+__pycache__/
+*.pyc
+
+# derle.py'nin ses_uret.py için yazdığı ara dosyalar (her derlemede yeniden üretilir)
+cikti/anlatim_*.json

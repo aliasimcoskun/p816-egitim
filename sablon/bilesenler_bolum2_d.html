@@ -1,0 +1,97 @@
+<!-- @@ d_marshal -->
+<div class="w w-d-marshal">
+  <div class="w-baslik">Marshal holding fix hesaplayıcı <small>kural: angels + 15 · şematik, ölçeksiz</small></div>
+  <div class="dm-giris">
+    <label>Atanan radyal <input type="number" class="dm-radyal" min="0" max="359" step="1" value="220"></label>
+    <label>Holding irtifası (angels) <input type="number" class="dm-angels" min="1" max="20" step="1" value="8"></label>
+  </div>
+  <div class="dm-sonuc" aria-live="polite"></div>
+  <svg viewBox="0 0 560 230" class="dm-svg" role="img" aria-label="Marshal stack yandan görünüş: her 1.000 ft yükseklik için holding fix 1 NM daha uzakta"></svg>
+  <div class="dm-oyun">
+    <div class="w-baslik"><small>Kendini dene: Marshal'ın talimatındaki holding fix kaç DME?</small></div>
+    <p class="dm-soru"></p>
+    <div class="dm-cevap">
+      <input type="number" class="dm-tahmin" min="0" max="60" aria-label="DME tahmini">
+      <button class="btn dm-kontrol">Kontrol et</button>
+      <button class="btn dm-yeni">Yeni soru</button>
+    </div>
+    <p class="dm-geri" aria-live="polite"></p>
+  </div>
+  <p class="w-not">Kural (s. 2-19): atanan radyalde, her 1.000 ft irtifa için 1 NM artı 15. Turboprop ve jet için en düşük atanabilir irtifa 6.000 ft; stack'te 1.000 ft dikey ayrım (s. 2-20). Emergency marshal mesafesi de angels + 15'tir, ancak radyali beklenen final bearing'e göre 150°'dir. Çizim şematiktir, angels 20'ye kadar gösterir.</p>
+</div>
+
+<!-- @@ d_cv1 -->
+<div class="w w-d-cv1">
+  <div class="w-baslik">CV-1 yaklaşması adım adım <small>şematik, ölçeksiz · örnek: angels 7, 22 DME (s. 2-26 örneği)</small></div>
+  <svg viewBox="0 0 680 262" class="d1-svg" role="img" aria-label="CV-1 yaklaşma profili: holding, platform 5.000 ft, 1.200 ft'te düz uçuş, 10-8-6-3 DME, self-contained GCA noktaları ve gemi"></svg>
+  <div class="d1-adimlar"></div>
+  <div class="d1-kart" aria-live="polite"></div>
+  <div class="d1-nav"><button class="btn d1-geri">← Önceki</button><span class="d1-sayac"></span><button class="btn d1-ileri">Sonraki →</button></div>
+  <p class="w-not">Değerler s. 2-20 – 2-27 ve Şekil 2-8 / 2-9'dan alınmıştır; telsiz çağrıları belgedeki Case III örneğidir. Çizim şematiktir: platform ve 1.200 ft level-off'un hangi DME'de gerçekleşeceği holding irtifasına bağlıdır ve metinde verilmez (Şekil 2-8 profilinde 1200, 10 DME'de gösterilir). ¾ mil noktasında belge irtifa vermez.</p>
+  <script type="application/json" class="w-veri">[
+    {"ad": "Marshal holding", "dme": 22,
+     "kosul": "Marshal stack'i. Örnek: 160 radyali, 22 DME, angels 7 (7 + 15 = 22).",
+     "eylem": ["Holding paterni Case II ile aynıdır: 6 dakikalık, sola dönüşlü; normalde 2 dakikalık dönüşler, 1 dakikalık bacaklar.", "Holding'e yerleşince Marshal'a bildir.", "Paterni, fix'e 250 kts'te ve EAT ± 10 saniye içinde varacak şekilde yönet; yapamayacaksan Marshal'a bildir."],
+     "cagri": ["405 — \"405, established angels 7. State 2.3\""]},
+    {"ad": "Push (EAT)", "dme": 22,
+     "kosul": "Expected Approach Time ± 10 saniye; push time'lar normalde 1 dakika arayla.",
+     "eylem": ["Marshal stack'inden yaklaşmaya başla: 250 KIAS'te dakikada 4.000 ft alçalma.", "Yaklaşmaya başladığını Marshal'a bildir."],
+     "cagri": ["405 — \"405 commencing, 29.88, state 2.2\"", "Marshal — \"405, roger\""]},
+    {"ad": "Approach'a devir", "dme": 21.2,
+     "kosul": "Penetrasyon sırasında, ideal olarak platforma varmadan önce.",
+     "eylem": ["Marshal uçağı final kontrolörüne devreder (final approach control frekansı).", "Ekip bu frekansta check-in yapar (metne göre irtifasıyla)."],
+     "cagri": ["Marshal — \"405, switch Approach, button 18\"", "405 — \"405 switching button 18\"", "405 — \"405 checking in, state 1.5\"", "Approach — \"405, final bearing 017\""]},
+    {"ad": "Platform — 5.000 ft", "dme": 20.3,
+     "kosul": "5.000 ft (platform).",
+     "eylem": ["Alçalma oranını dakikada 2.000 ft'e düşür.", "Bu oranı 1.200 ft level-off irtifasına kadar koru."],
+     "cagri": ["405 — \"405 platform\""]},
+    {"ad": "20 DME — final bearing düzeltmesi", "dme": 20,
+     "kosul": "Marshal radyali final bearing'in karşıtı (reciprocal) değilse.",
+     "eylem": ["Final bearing, marshal radyalinin karşıtına 10° içindeyse: kademeli (gradual) düzeltme.", "10°'den fazla farklıysa: 20 DME'de 30° düzeltme."],
+     "cagri": []},
+    {"ad": "12 DME — 12 millik yay", "dme": 12,
+     "kosul": "12 mile kadar final bearing'e oturulamadıysa.",
+     "eylem": ["Final bearing'i kesene kadar 12 millik yayı (12-mile arc) uç."],
+     "cagri": []},
+    {"ad": "10 DME — 1.200 ft", "dme": 10,
+     "kosul": "1.200 ft level-off irtifası; 10 DME.",
+     "eylem": ["İniş kontrollerine (landing checks) 10 DME'de başla.", "6 DME'yi 150 kts'te geçecek şekilde yavaşla.", "Şekil 2-8 profili: 10 DME ve 6 DME'de 1200."],
+     "cagri": []},
+    {"ad": "8 DME — iniş takımı", "dme": 8,
+     "kosul": "En geç 8 DME.",
+     "eylem": ["İniş takımı en geç 8 DME'de inmiş olmalı.", "ACLS lock-on 8 DME ile 4 DME arasında bir noktada gerçekleşir."],
+     "cagri": []},
+    {"ad": "6 DME — 150 kts", "dme": 6,
+     "kosul": "6 DME.",
+     "eylem": ["6 DME'yi 150 kts'te geç.", "6 DME'de final yaklaşma hızına (final approach speed) yavaşla."],
+     "cagri": []},
+    {"ad": "ACLS lock-on (8–4 DME)", "dme": 5, "bant": [8, 4],
+     "kosul": "8 DME ile 4 DME arasında bir noktada.",
+     "eylem": ["Lock-on'da iğneleri bullseye ile karşılaştır (ACLS'e karşı ICLS).", "Pilot iki iğnenin göreli konumunu söyler (glideslope, azimut). Radar okumasıyla uyuşuyorsa kontrolör \"fly the needles\" der.", "Uyuşmazsa kontrolör kilidi bozar, yeni kilit dener ve yeni ACLS kilidine kadar \"fly the bullseye\" (ICLS) der.", "İyi kilit teyit edilince pilot iğneleri uçar."],
+     "cagri": ["Approach — \"405, say needles\"", "405 — \"405, fly up, on\"", "Approach — \"405, fly your needles\""]},
+    {"ad": "3 NM — 1.200 ft", "dme": 3,
+     "kosul": "Self-contained GCA: yedek olarak her zaman yapılır.",
+     "eylem": ["Gerçek irtifayı hesaplanan irtifayla karşılaştır: 3 NM → 1.200 ft.", "Şekil 2-8 profili: 3 DME (X) — \"1200 PALS/ICLS\"; altında \"1200 ASR/TAC\" ve \"600\"."],
+     "cagri": []},
+    {"ad": "2 NM — 800 ft", "dme": 2,
+     "kosul": "Self-contained GCA.",
+     "eylem": ["2 NM → 800 ft."],
+     "cagri": []},
+    {"ad": "1 NM — 400 ft", "dme": 1,
+     "kosul": "Self-contained GCA.",
+     "eylem": ["1 NM → 400 ft."],
+     "cagri": []},
+    {"ad": "¾ mil — ball çağrısı", "dme": 0.75,
+     "kosul": "¾ mil.",
+     "eylem": ["Final kontrolörü topu çağırmanı (call the ball) söyler; LSO'lar ball çağrısını \"roger\"lar.", "Pilot iç taramadan dış taramaya geçerken yaklaşmayı izlemeye devam et."],
+     "cagri": ["Approach — \"405, ¾ mile, call the ball\"", "405 — \"405, Goshawk ball, 2.0\"", "LSO — \"Roger ball\""]},
+    {"ad": "0,5 NM — 200 ft", "dme": 0.5,
+     "kosul": "Self-contained GCA.",
+     "eylem": ["0,5 NM → 200 ft."],
+     "cagri": []},
+    {"ad": "Bolter / waveoff", "dme": 0,
+     "kosul": "Waveoff ya da bolter.",
+     "eylem": ["150 kts'te 1.200 ft'e tırman; yakıt tasarrufu için iniş takımını topla, flapları aşağıda bırak.", "Approach talimat verince downwind'e dön; iniş kontrollerini downwind'de yap; abeam'de approach'a yakıt durumunu bildir.", "Abeam'den 4–8 NM sonra finale dönüş bekle; dönüşe başlarken iniş takımını indir.", "Upwind'de 4 DME'ye kadar talimat yoksa approach'u aramayı dene; temas yoksa downwind'e dön, normal kontrolleri yap, abeam çağrısını yap. Abeam'den 4 NM (2 dakika) sonra hâlâ temas yoksa finale dön, ICLS'i yakala, normal yaklaşma uç, topu ¾ mil'de çağır; çağrı onaylanmazsa cut ışıklarına bak."],
+     "cagri": []}
+  ]</script>
+</div>

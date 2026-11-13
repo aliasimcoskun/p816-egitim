@@ -1,0 +1,521 @@
+# Bölüm sonu soruları — biçim:
+# ## <bölüm>   S: soru   - yanlış şık   + doğru şık   A: açıklama   K: kaynak birimleri
+# Sorular boş satırla ayrılır.
+
+## 100
+
+S: Tipik bir CSG'de en az kaç muhrip ve/veya fırkateyn bulunur?
+- 1
++ 2
+- 3
+- 4
+A: Muhrip filosu "en az iki muhrip ve/veya fırkateyn"den oluşur; ayrıca en az bir kruvazör vardır.
+K: 1-1.14
+
+S: CSG içinde uçak gemisi ve hava kanadının ana rolü nedir?
+- Grubun savunması ve desteği
++ Birincil taarruz ateş gücünü sağlamak
+- Lojistik ikmal
+- Denizaltı savunması
+A: Savunma ve desteği gruptaki diğer gemiler sağlar.
+K: 1-1.15
+
+S: Aşağıdakilerden hangisi belgede sayılan altı temel kabiliyetten biri DEĞİLDİR?
+- Caydırıcılık (deterrence)
+- Deniz kontrolü (sea control)
++ Siber harp
+- İnsani yardım / afet müdahalesi
+A: Altı kabiliyet: forward presence, power projection, deterrence, maritime security, humanitarian assistance/disaster response, sea control.
+K: 1-1.08
+
+## 101
+
+S: Carrier Control Area (CCA) geminin kaç NM çevresini kapsar?
+- 5 NM
+- 10 NM
++ 50 NM
+- 100 NM
+A: CCA, geminin 50 NM çevresindeki tüm hava sahasıdır; burada kulenin kontrolünde olmayan uçakları CATCC kontrol eder.
+K: 1-3.25, 1-3.26
+
+S: Carrier Control Zone (CCZ) tanımı hangisidir?
++ 5 NM, yüzeyden 2.500 ft'e kadar
+- 50 NM, yüzeyden 2.500 ft'e kadar
+- 5 NM, yüzeyden 5.000 ft'e kadar
+- 10 NM, yüzeyden 2.500 ft'e kadar
+A: CCZ'deki uçakları Air Boss, Pri-Fly'dan yönetir.
+K: 1-4.06, 1-4.07
+
+S: Kalkış / iniş Case'ini kim belirler?
+- CATCC
+- OPSO
++ Air Boss
+- CAG
+A: "The Air Boss also determines the Case launch/recovery."
+K: 1-4.08
+
+S: Yaklaşma tipini ve gerekli kontrol derecesini kim belirler?
++ Air Ops
+- Air Boss
+- LSO
+- Strike Ops
+A: Air Ops, OPSO'ya bağlıdır ve CATCC'nin düzgün çalışmasından da sorumludur.
+K: 1-3.19
+
+S: Air Plan'ı kim hazırlar ve dağıtır?
+- CATCC
++ Strike Ops
+- CDC
+- FDC
+A: Strike Ops gelecek operasyonlardan sorumludur: ATO koordinasyonu ve Air Plan.
+K: 1-3.28, 1-3.29
+
+S: Gece ve IMC operasyonlarında filo temsilcisi (Tower Flower) nerede bulunur?
+- Pri-Fly'da
++ Air Ops'ta
+- Flight Deck Control'de
+- LSO platformunda
+A: VFR'de Pri-Fly'da bulunması zorunludur; gece ve IMC'de Air Ops'ta bulunur.
+K: 1-4.11, 1-4.14
+
+S: Ouija board üzerinde bakımda (down) olan uçağın maketine ne yapılır?
++ Ters çevrilir
+- Masadan kaldırılır
+- Kırmızıyla işaretlenir
+- Hangar katına taşınır
+A: "If an aircraft is down for maintenance, the model is turned over."
+K: 1-4.20
+
+S: Güvertede uçak hareketini kontrol etmeye yetkili TEK personel hangi formayı giyer?
++ Sarı
+- Beyaz
+- Mavi
+- Yeşil
+A: Yalnızca "Yellow Shirts" uçak hareketini kontrol edebilir.
+K: 1-5.08
+
+S: LSO'lar hangi renk forma giyer?
+- Sarı
++ Beyaz
+- Yeşil
+- Kahverengi
+A: Beyaz: emniyet, sağlık, LSO'lar, final checker'lar, QA, Air Transfer Officer.
+K: 1-5.F6
+
+S: Yakıt (fueling) personeli hangi renk forma giyer?
++ Mor
+- Kırmızı
+- Mavi
+- Kahverengi
+A: Mor yalnızca yakıt personeline aittir.
+K: 1-5.F5
+
+S: Hook runner'lar hangi renk forma giyer?
+- Sarı
+- Mavi
++ Yeşil
+- Beyaz
+A: Yeşil: bakım, katapult ve arresting gear ekipleri, helikopter LSE, kargo, GSE arıza, hook runner, fotoğrafçı.
+K: 1-5.F2
+
+S: LSO telsiz çağrıları hangi üç tipe ayrılır?
++ INFORMATIVE, ADVISORY, IMPERATIVE
+- INFORMATIVE, CAUTION, WARNING
+- ADVISORY, DIRECTIVE, EMERGENCY
+- ROUTINE, PRIORITY, IMMEDIATE
+A: LSO phraseology üç tip çağrıdan oluşur.
+K: 1-2.20
+
+S: CAG'ın executive officer'ı (XO) kimdir?
++ DCAG (Deputy CAG)
+- Mini Boss
+- BIG XO
+- OPSO
+A: BIG XO geminin XO'sudur; CAG'ın XO'su DCAG'dır.
+K: 1-2.16, 1-3.07
+
+S: "GATOR" lakabı kimi ifade eder?
+- Air Officer yardımcısını
++ Navigator'ı
+- Katapult subayını
+- Aircraft Handling Officer'ı
+A: Navigator = GATOR.
+K: 1-3.08
+
+S: Pri-Fly nerededir?
++ Uçuş güvertesinin altı kat üstünde, ana köprünün tam üzerinde
+- Uçuş güvertesinde adanın dibinde
+- Güverte altında CATCC'nin yanında
+- LSO platformunda
+A: Adanın dibinde olan Flight Deck Control'dür.
+K: 1-4.10, 1-4.15
+
+## 102.1
+
+S: Arresting gear 150 kts hızdaki bir uçağı kaç ft'te durdurur?
++ 320 ft
+- 150 ft
+- 500 ft
+- 1.000 ft
+A: "...allows an aircraft travelling at 150 kts to stop in only 320 feet."
+K: 1-7.03
+
+S: "Ace" hangi teldir?
++ 1 numaralı (en kıçtaki) tel
+- 2 numaralı tel
+- 3 numaralı tel
+- 4 numaralı tel
+A: Teller kıçtan pruvaya 1–4 numaralanır; 3 tele takılmak iyi yaklaşma göstergesidir.
+K: 1-7.08, 1-7.09
+
+S: Belgeye göre hangisinde yalnızca 3 güverte teli vardır?
+- NIMITZ sınıfının tamamında
++ GERALD R. FORD sınıfında
+- Hiçbir gemide
+- Yalnızca eğitim gemilerinde
+A: FORD sınıfı ile USS RONALD REAGAN ve USS GEORGE H.W. BUSH'ta 3 tel vardır; diğer NIMITZ'lerde 4.
+K: 1-7.07, 1-7.10
+
+S: Bir güverte teli kaç durdurmalı inişten sonra değiştirilir?
+- 50
++ 100
+- 200
+- 500
+A: "Each cross deck pendant is removed and replaced after one-hundred arrested landings."
+K: 1-7.12
+
+S: Temas anında gücü MRT'ye getirmeyen, yaklaşma gücünü koruyan uçaklar hangileridir?
++ E-2 ve C-2
+- F/A-18 ve EA-18G
+- T-45 ve E-2
+- Tüm helikopterler
+A: Diğer uçaklar temas anında MRT verir; kanca takılmazsa uçak hızla yeniden havalanabilir.
+K: 1-7.17, 1-7.18
+
+S: İnen uçaklar arasındaki optimum aralık nedir?
+- 20–30 saniye
+- 35 saniye
++ 40–60 saniye
+- 90 saniye
+A: 35 saniye, alanı boşaltıp gear'ı yeniden kurmak için gereken yaklaşık süredir (sınırlayıcı faktör).
+K: 1-7.20..1-7.22
+
+S: Barricade fiziksel olarak nerede bulunur?
+- 1 ve 2 numaralı teller arasında
+- 2 ve 3 numaralı teller arasında
++ 3 ve 4 numaralı teller arasında
+- 4 numaralı telin önünde
+A: Normalde katlıdır, yalnızca gerektiğinde kurulur.
+K: 1-7.24
+
+S: Barricade ne kadar sürede kurulmalıdır?
++ 3 dakikanın altında
+- 5 dakikada
+- 10 dakikada
+- 1 dakikanın altında
+A: Güverte personeli bunu düzenli olarak tatbik eder.
+K: 1-7.26
+
+S: Barricade ağı uçağın neresini yakalar?
+- Kancayı
+- Burun tekerleğini
++ Kanatları
+- Ana iniş takımını
+A: Enerji ağdan purchase cable üzerinden arresting engine'e aktarılır.
+K: 1-7.30
+
+S: Katapultlar nasıl numaralanır?
++ Sancaktan iskeleye 1–4
+- İskeleden sancağa 1–4
+- Kıçtan pruvaya 1–4
+- Pruvadan kıça 1–4
+A: 1 ve 2 pruvada (bow cats), 3 ve 4 açılı güvertede (waist cats).
+K: 1-8.03..1-8.05
+
+S: Gündüz çoklu katapult kalkışında waist cat'ten kalkan uçak clearing turn'ü hangi yöne yapar?
+- Sağa
++ Sola
+- Düz devam eder
+- Air Boss'un talimatına göre
+A: Waist cats sola, bow cats sağa.
+K: 1-8.17..1-8.19
+
+S: JBD ne zaman kaldırılır?
++ Uçak katapulta yerleştirilirken
+- Uçak kalktıktan sonra
+- Recovery sırasında
+- Yalnızca gece operasyonlarında
+A: Kalkan uçağın egzozu yukarı yönlenir; arkadaki uçakta personel güvenle çalışır.
+K: 1-8.28..1-8.30
+
+S: Bir asansörün kapasitesi nedir?
++ 150.000 lb'nin üzerinde, iki tam yüklü jet
+- 50.000 lb, tek jet
+- 100.000 lb, bir jet ve bir helikopter
+- 300.000 lb, dört jet
+A: Dört ana asansör yüksek hızlı ve hidroliktir.
+K: 1-9.06, 1-9.07
+
+S: EMALS'ın buharlı katapulta göre avantajı hangisidir?
++ Kademeli ivme sayesinde gövdeye daha az stres ve insansız uçaklar dahil daha çok tip
+- 0'dan 150 KIAS'a 1 saniyede çıkması
+- Water brake gerektirmemesi
+- JBD gerektirmemesi
+A: Belge EMALS için yalnızca daha az stres ve daha hassas performans kontrolünü sayar.
+K: 1-8.15, 1-8.16
+
+S: Hangar bay kaç bölgeye ayrılır?
+- 2
+- 3
++ 4
+- 6
+A: Hangar üç kat yüksekliğindedir ve dört bölgeye ayrılır; 60'tan fazla uçak alır.
+K: 1-9.02, 1-9.04
+
+## 102.2
+
+S: Belgeye göre gemiden uçmanın en tehlikeli yanlarından biri nedir?
++ Uçağa gidip gelmek, özellikle gece
+- Katapult kalkışı
+- Tele takılma anı
+- Holding
+A: "...one of the more dangerous aspects of flying from the ship is getting to and from the aircraft, particularly at night."
+K: 1-9.23
+
+S: GSE'nin güvertedeki diğer adı nedir?
++ "Yellow gear"
+- "The roof"
+- "Mother"
+- "Bubble"
+A: Ground Support Equipment uçuş operasyonlarında sürekli kullanımdadır.
+K: 1-9.18
+
+S: Hangileri özellikle gece zor görülen takılma tehlikeleri olarak sayılır?
++ Takozlar, zincirler, çeki demirleri ve durdurma telleri
+- JBD'ler ve asansör korkulukları
+- Füze kanatçıkları ve pervaneler
+- Foul lines ve katapult yarıkları
+A: Füze kanatçıkları ayrı bir madde olarak (aircraft armament) geçer.
+K: 1-9.20, 1-9.21
+
+## 102.3
+
+S: "Mark your father" denildiğinde ne bildirilir?
++ Uçağın gemi TACAN'ına göre radial ve DME'si
+- Kalan yakıt
+- İrtifa ve hız
+- Geminin rotası
+A: Father = gemi TACAN'ı, mother = gemi.
+K: 1-9.26, 1-9.28
+
+S: "Bullseye" hangi sistemi ifade eder?
++ ICLS
+- ACLS
+- TACAN
+- IFLOLS
+A: ICLS'i ACLS yaklaşmalarından ayırmak için "bullseye" denir.
+K: 1-10.08
+
+S: ICLS neden yunuslayan güverteden (pitching deck) etkilenir?
++ Gemiden uçağa tek yönlü yayın kullandığı için
+- Ring laser gyro kullanmadığı için
+- Yalnızca VFR'de çalıştığı için
+- Vericileri adanın üstünde olduğu için
+A: ACLS ise ring laser gyro ile neredeyse tüm deniz durumlarında stabilize bilgi verir.
+K: 1-10.07, 1-10.10, 1-10.11
+
+S: ICLS crosshair göstergesinde dikey iğne neyi gösterir?
++ Azimut
+- Glideslope
+- Mesafe
+- Hız
+A: Yatay iğne elevasyonu (glideslope) gösterir.
+K: 1-10.06
+
+S: IFLOLS görsel olarak yakalanınca pilotun devraldığı ACLS modu hangisidir?
+- Mode I
++ Mode I Alpha
+- Mode II
+- Mode III
+A: Mode I'de iniş dahil eller serbesttir; Mode I Alpha'da IFLOLS yakalanınca pilot devralır.
+K: 1-10.15, 1-10.17
+
+S: ACLS Mode III nedir?
++ Kontrolörün azimut ve glideslope bilgisi verdiği CCA (GCA benzeri)
+- Kumandaların ACLS'e bağlandığı otomatik iniş
+- ILS benzeri iğneli yaklaşma
+- Lazer lineup ile görsel yaklaşma
+A: Mode II ILS benzeridir; Mode I otomatik, coupled yaklaşmadır.
+K: 1-10.18..1-10.20
+
+S: AN/SPN-46 aynı anda kaç uçağı kontrol edebilir?
+- 1
++ 2
+- 3
+- 4
+A: İki çift bantlı radar sayesinde "leapfrog" düzeninde iki uçak.
+K: 1-10.12, 1-10.13
+
+## 102.4
+
+S: IFLOLS lens kutusunda kaç hücre vardır?
+- 5
+- 10
++ 12
+- 23
+A: FLOLS'ta 5 kaynak ışığı vardı; IFLOLS 7 ek hücreyle 12'ye çıktı.
+K: 1-11.03, 1-11.06, 1-12.10
+
+S: IFLOLS'un yakalama mesafesi nedir?
+- 3/4 NM
+- 1 NM
++ 1,5 NM
+- 3 NM
+A: FLOLS'ta 3/4 NM idi.
+K: 1-11.13
+
+S: Pilot IFLOLS'ta kırmızı hücre görüyorsa durum nedir?
++ Uçak tehlikeli derecede alçaktır
+- Uçak çok yüksektir
+- Uçak glideslope üzerindedir
+- LSO waveoff vermiştir
+A: Üst hücreler amber, en alttaki iki hücre kırmızıdır. Waveoff ise ayrı kırmızı ışıklarla verilir.
+K: 1-12.11, 1-12.14
+
+S: Point stabilizasyon modu ne yapar?
++ Glideslope'u lensin 2.500 ft gerisindeki bir nokta etrafında sabitler
+- Yalnızca pitch ve roll'u telafi eder
+- Pitch, roll ve heave'i telafi eder
+- Glideslope'u sonsuza stabilize eder
+A: Line ve Inertial modları glideslope'u sonsuza stabilize eder.
+K: 1-12.03..1-12.06
+
+S: Inertial stabilizasyon, Line stabilizasyona ek olarak neyi telafi eder?
+- Pitch
+- Roll
++ Heave (güvertenin aşağı-yukarı hareketi)
+- Yaw
+A: Line: pitch ve roll. Inertial: Line + heave.
+K: 1-12.03, 1-12.04
+
+S: IFLOLS normalde kaç derecelik glideslope'a ayarlanır?
+- 3,0°
++ 3,5°
+- 4,0°
+- 1,7°
+A: 3,5° glideslope 3 teli hedefler; 1,7° IFLOLS'un dikey kapsamasıdır.
+K: 1-12.07, 1-11.12
+
+S: Groove'a yaklaşırken cut ışıklarının kısa süre yanması ne anlama gelir?
++ "Roger ball"
+- "Add power"
+- Waveoff
+- Bingo
+A: Sonraki yanmalar "add power" çağrısıdır.
+K: 1-12.17, 1-12.18
+
+S: IFLOLS ile "Bingo" nasıl bildirilir?
++ Waveoff ve cut ışıkları dönüşümlü yakılarak
+- Yalnızca waveoff ışıkları yakılarak
+- Cut ışıkları sürekli yakılarak
+- Datum ışıkları söndürülerek
+A: Waveoff ışıkları yandığında derhal waveoff yapılır.
+K: 1-13.03, 1-13.05
+
+S: Zip Lip normalde hangi operasyonlarda kullanılır?
++ Gündüz Case I filo operasyonlarında
+- Gece Case III operasyonlarında
+- Yalnızca acil durumlarda
+- Yalnızca MOVLAS kullanılırken
+A: Amaç telsiz konuşmalarını azaltmaktır. EMCON'da ise tüm elektronik yayınlar en aza indirilir.
+K: 1-12.19, 1-12.20
+
+S: MOVLAS Station 2 nerededir?
++ İskele tarafında, IFLOLS'un 75–100 ft gerisinde
+- İskele tarafında, IFLOLS'un tam önünde
+- Sancak tarafında, adanın gerisinde
+- Pruvada, katapult 2'nin yanında
+A: Station 1 IFLOLS'un tam önünde, Station 3 sancakta adanın gerisindedir.
+K: 1-14.04..1-14.06
+
+S: Hangi MOVLAS istasyonunda datum box unit KULLANILMAZ?
++ Station 1
+- Station 2
+- Station 3
+- Hiçbirinde, hepsinde kullanılır
+A: Station 1'de IFLOLS'un waveoff, cut ve datum ışıkları kullanılır.
+K: 1-14.08..1-14.10
+
+S: Hem alçak hem yavaşsan önce neyi düzeltirsin?
++ Alçaklığı
+- Yavaşlığı
+- İkisini aynı anda
+- Hiçbirini, waveoff yaparsın
+A: "If low and slow, correct low then slow."
+K: 1-15.11
+
+S: Hem yüksek hem hızlıysan önce neyi düzeltirsin?
+- Yüksekliği
++ Hızı
+- İkisini aynı anda
+- Hiçbirini
+A: "If high and fast, correct fast then high."
+K: 1-15.12
+
+S: Yakında (in close) yüksek top için kural nedir?
++ Asla yeniden ortalama, ama yükselen topu durdur
+- Hemen yeniden ortala
+- Gücü idle'a çek
+- Waveoff yap
+A: Ayrıca topu teker değene kadar uç.
+K: 1-15.13, 1-15.14
+
+S: MOVLAS'ta uçak istenen glidepath'in üstündeyse LSO ne yapar?
++ Kumandayı kaldırarak high ball gösterir
+- Kumandayı indirerek low ball gösterir
+- Waveoff ışıklarını yakar
+- Cut ışıklarını yakar
+A: Alçaksa kumandayı indirerek low ball gösterir.
+K: 1-15.01..1-15.03
+
+S: MOVLAS hangi durumda kullanılmaz?
+- Birincil sistem çalışmadığında
+- IFLOLS stabilizasyon limitleri aşıldığında
+- Pilot / LSO eğitiminde
++ Gece operasyonlarında her zaman birincil sistem olarak
+A: MOVLAS bir yedek sistemdir.
+K: 1-14.02
+
+## 102.5
+
+S: Lazer lineup sisteminin lazerleri gece kaç mile kadar görülebilir?
+- 1,5 mil
+- 5 mil
++ 10 mil
+- 15 mil
+A: Düşük yoğunluklu, göz için emniyetli lazerler geminin kıçından geriye yansıtılır.
+K: 1-16.05, 1-16.06
+
+S: Şekil 1-7'ye göre merkez hattında hangi ışık görülür?
++ Sabit sarı
+- Yavaş yanıp sönen yeşil
+- Sabit kırmızı
+- Hızlı yanıp sönen sarı
+A: 0,50° sektör: "On Centerline to Touchdown".
+K: 1-16.F1
+
+S: Şekil 1-7'de en dıştaki sektörler nasıl görünür?
++ Hızlı yanıp sönen (Fast Flash), 6,0°
+- Yavaş yanıp sönen (Slow Flash), 4,0°
+- Sabit, 0,75°
+- Sabit sarı, 0,50°
+A: İçten dışa: sabit sarı → sabit yeşil/kırmızı → yavaş yanıp sönen → hızlı yanıp sönen.
+K: 1-16.F2..1-16.F4
+
+S: Açılı güverteli gemide lineup neden zordur?
++ İniş alanı uçağın burnuna göre sürekli soldan sağa kayar
+- Gemi sürekli dönüş yapar
+- Lazerler yalnızca gündüz görülür
+- ICLS azimut vermez
+A: İniş alanının küçüklüğü de hassas lineup kontrolü gerektirir.
+K: 1-16.02, 1-16.03

@@ -1,0 +1,339 @@
+# Bölüm sonu soruları — biçim:
+# ## <bölüm>   S: soru   - yanlış şık   + doğru şık   A: açıklama   K: kaynak birimleri
+# Sorular boş satırla ayrılır.
+
+## C.1
+
+S: “You’re (a little) high.” çağrısı hangi gruptadır?
++ Informative (bilgilendirici)
+- Advisory (tavsiye)
+- Imperative (emir)
+- Ek C'de grubu belirtilmemiştir
+A: Şekil C-1, INFORMATIVE CALLS: "Used to inform pilots of existing situations."
+K: C-1.F1, C-1.F2
+
+S: Uçak APC modundayken “You’re (a little) high.” çağrısına pilotun yanıtı nedir?
+- Merkez topu kurmak için batma oranını güç/burun duruşu ile ayarlar
++ Merkez topu kurmak için batma oranını burun duruşuyla ayarlar (in close kullanmaktan kaçınılır)
+- APC'yi devreden çıkarır ve güç ekler
+- Glide slope'u hemen ayarlar
+A: Manual: "power/nose attitude"; APC: "Adjust sink rate with nose attitude to establish center ball. (Avoid using in close.)"
+K: C-1.F2
+
+S: “You’re (a little) low.” çağrısına manual ve APC modlarındaki yanıt nedir?
+- Manual: güç/burun duruşu ile batma oranını ayarla; APC: burun duruşuyla ayarla
+- Manual: güç ekle; APC: APC'yi devreden çıkar
++ İki modda da: glide slope'u hemen ayarla
+- İki modda da: yanıt yok (N/A)
+A: "Adjust glide slope immediately." her iki sütunda aynıdır. "You’re going high (low)." çağrısında ise merkez top korunur (manual: güç/burun duruşu, APC: burun duruşu).
+K: C-1.F3, C-1.F4
+
+S: Uçak auto'dayken (APC) “You’re (a little fast/slow).” çağrısından sonra LSO ne der ve pilot ne yapar?
+- "Power." der; pilot afterburner seçer
++ "Go manual" der; APC uçağı optimum AOA'da tutmuyordur, pilot APC'yi devreden çıkarıp gücü/duruşu ayarlar
+- "Easy with it." der; pilot güç düzeltmesini azaltır
+- Başka çağrı yapılmaz; pilot yalnızca burun duruşunu ayarlar
+A: "(To be followed by 'Go manual' if auto.)" APC yanıtı: "APC is not maintaining aircraft at optimum AOA. Disengage APC and adjust power/attitude to maintain optimum AOA."
+K: C-1.F10, C-1.F7
+
+S: Hangi bilgilendirici çağrı APC modunda kullanılmaz?
+- “You’re drifting left/right.”
+- “Ship’s in a starboard/port turn.”
++ “You’re underpowered/overpowered.”
+- “The deck is steady.”
+A: APC sütununda "Not used." yazar; manual yanıt "Adjust attitude and power as required."
+K: C-1.F17
+
+S: “You’re lined up left/right.” çağrısı ne anlama gelir?
++ Uçak merkez hattını kısa geçmiş/aşmıştır (undershot/overshot); ortalanmış hat yeniden kurulur
+- Uçak merkez hattının soluna/sağına kaymaktadır; hat merkez hattına düzeltilir
+- Yatış açısı ayarlanmazsa merkez hattı aşılacaktır
+- Uçak düzeltilmezse sola/sağa inecektir
+A: "Aircraft has undershot/overshot centerline." → "Reestablish centered lineup." Kayma (drifting) ayrı bir çağrıdır: "Correct lineup to centerline."
+K: C-1.F8, C-1.F9
+
+S: Pilot yanıtı tabloda "N/A" olarak verilen çağrı hangisidir?
+- “Continue.”
+- “Winds are (slightly) starboard/port/axial.”
++ “You’re on glideslope/glidepath.”
+- “MOVLAS recovery.”
+A: "You’re on centerline.", "You’re on glideslope/glidepath." ve "You’re on speed." "Self-explanatory." olup iki yanıt sütunu "N/A"dır.
+K: C-1.F5, C-1.F6, C-1.F7
+
+S: “Winds are (slightly) starboard/port/axial.” ve “Ship’s in a starboard/port turn.” çağrılarında pilot ne yapar?
+- İki modda da yanıt gerekmez (N/A)
++ Rüzgâr: merkez hattını korumak için hattı izler; gemi dönüşü: hattı gerektiği gibi ayarlar
+- Rüzgâr: yatış açısını ayarlar; gemi dönüşü: kanatları düzler
+- Rüzgâr: APC'yi devreden çıkarır; gemi dönüşü: waveoff yapar
+A: "Monitor lineup to maintain centerline." / "Adjust lineup as necessary." — iki modda aynı.
+K: C-1.F16, C-1.F18
+
+S: “Roger Ball” çağrısıyla LSO neyi onaylar?
++ Pilotun meatball'u gördüğünü (meatball acquisition), hat referansını ve hücum açısını
+- Kontrolü CCA'dan devraldığını
+- CLARA çağrısını aldığını ama kontrolü devralamadığını
+- MOVLAS'ın kullanımda olduğunu
+A: "LSO acknowledges pilot has meatball acquisition, lineup reference, and angle of attack." Duruma göre "Auto"/"Coupled" eklenir.
+K: C-1.F11
+
+S: “Paddles contact.” çağrısı ne anlama gelir?
+- LSO, pilotun CLARA çağrısını onaylıyor
++ LSO kontrolü CCA'dan devralıyor
+- Pilot LSO frekansına geçtiğini bildiriyor
+- MOVLAS kullanımda
+A: "LSO assuming control from CCA." Pilot yanıtı: N/A.
+K: C-1.F12
+
+S: Pilot CLARA çağrısı yaptı; LSO kontrolü CCA'dan devralamıyor. LSO'nun çağrısı ve pilotun yanıtı nedir?
+- "Roger Ball"; normal yaklaşma
+- "Paddles contact."; yanıt yok
++ "Continue."; yaklaşmaya minimumlara kadar devam
+- "Waveoff"; model NATOPS'a göre waveoff
+A: "Continue." = "LSO acknowledges CLARA call but is not able to assume control from CCA" → "Continue approach to minimums".
+K: C-1.F13
+
+S: “MOVLAS recovery.” çağrısında pilot ne yapar?
+- Normal yaklaşma uçar
+- Patern irtifasını terk edip groove'a alçalır
++ "Roger ball" alınana kadar yayımlanmış patern irtifasını uçar
+- APC'yi devreden çıkarır
+A: "MOVLAS is in use." → "Fly published pattern altitude until 'Roger ball' received." (iki modda aynı).
+K: C-1.F19
+
+S: “The deck is moving down/up (a little).” çağrısı ne anlama gelir?
++ OLS bilgisi geçersiz olabilir; ardından advisory/imperative çağrılar gelir
+- OLS bilgisi geçerlidir; normal yaklaşma uçulur
+- Gemi sancağa/iskeleye dönmektedir
+- Güverte foul'dur; waveoff yapılır
+A: Manual yanıt: güç ve duruşu LSO'nun yönlendirmesiyle ayarla; APC: duruşu LSO'nun yönlendirmesiyle ayarla. "The deck is steady." = OLS bilgisi geçerli, normal yaklaşma.
+K: C-1.F14, C-1.F15
+
+## C.2
+
+S: Advisory çağrılar ne için kullanılır?
+- Pilotları mevcut durumlar hakkında bilgilendirmek için
++ Pilotun dikkatini olası zorluklara çekmek ve olası kumanda hatalarını önlemek için
+- Pilota belirli bir kumanda hareketi yaptırmak için; zorunlu, anında yanıt
+- LSO'nun kontrolü devraldığını bildirmek için
+A: "Used to direct pilot’s attention to potential difficulties and prevent possible control errors."
+K: C-2.F1, C-1.F1, C-3.F1
+
+S: “Check your lineup.” çağrısı yaklaşmanın hangi kısmında kullanılır?
++ Yalnızca start'ta
+- Yalnızca in close'da
+- Yalnızca MOVLAS recovery'de
+- Groove boyunca her yerde
+A: "“Check your lineup.” (Start only.)" — anlamı: hat optimum değil; hat kayması ya da konum düzeltilir.
+K: C-2.F3
+
+S: “Keep your turn in.” çağrısının anlamı ve yanıtı nedir?
+- Uçak kayıyor, kayma düzeltilmezse merkez hattı aşılacak; hat kaymasını düzelt
++ Yatış açısı ayarlanmazsa uçak merkez hattını aşacak; yatış açısını ayarla
+- Uçak yatışta; kanatları düzle
+- Uçağın hattı optimum değil; konumu düzelt
+A: "If angle of bank is not adjusted, the aircraft will overshoot the centerline." → "Adjust angle of bank." "Back to the right/left." ise kayma (drift) içindir: "Correct lineup drift to remain on centerline."
+K: C-2.F2, C-2.F4
+
+S: “Don’t settle.” / “Don’t go low.” çağrısında pilot ne yapar?
++ Glideslope'un altına çökmemek için batma oranını ve meatball'u kontrol eder
+- Topun yükselmesini durdurmak için gücü/duruşu ayarlar
+- Afterburner seçer
+- Güverte hareketini dikkate almaz
+A: "Aircraft will settle below optimum glideslope if not corrected." → "Check sink rate and meatball to avoid settling below glideslope."
+K: C-2.F5
+
+S: “Don’t climb.” / “Don’t go high.” çağrısının yanıtı nedir?
+- Batma oranını ve meatball'u kontrol et
++ Topun yükselmesini durdurmak için gücü/duruşu ayarla
+- Yüksek topu hemen yeniden ortala
+- APC'yi devreden çıkar
+A: Anlamı: uçak optimum glideslope'ta ya da glideslope'un üstünde ve alçalma oranı sabit glideslope'u korumaya yetmiyor.
+K: C-2.F6
+
+S: Uçak APC modundayken “Don’t go any lower (higher).” çağrısının yanıtı nedir?
+- Optimum glideslope'a doğru pozitif düzeltme için gücü/duruşu ayarla
++ Optimum glideslope'a doğru pozitif düzeltme için duruşu ayarla
+- Kullanılmaz
+- Mevcut alçalma oranını koru
+A: Anlamı: uçak optimum glideslope'un epey altında (üstünde) kalıyor, düzeltme yetersiz ya da yok. Manual yanıtta "power/attitude", APC'de yalnızca "attitude".
+K: C-2.F7
+
+S: “Don’t chase it” çağrısı pilota ne söyler?
++ Güverte aşağı/yukarı hareket ediyor ve tırmanma ya da alçalma yanılsaması yaratabilir; güverte hareketini dikkate alma
+- OLS bilgisi geçerli; lensi tara
+- Uçak kayıyor; hattı takip etme
+- Bir önceki güç düzeltmesi aşırı; azalt
+A: Yanıt (iki modda aynı): "Disregard deck motion and adjust power/attitude to maintain rate-of-descent and optimum airspeed."
+K: C-2.F8
+
+S: “Hold what you’ve got.” çağrısında OLS bilgisi hakkında ne söylenir?
+- OLS bilgisi geçerli; lensi tara
++ OLS bilgisi geçersiz; mevcut alçalma oranı doğru glideslope için doğru, korunur
+- OLS bilgisi geçersiz olabilir; ardından başka çağrılar gelir
+- OLS kapalı; MOVLAS kullanılıyor
+A: Manual: güç/duruş ayarla, mevcut alçalma oranını ve optimum hava hızını koru. APC: duruş ayarla, mevcut (optimum) alçalma oranını koru. "Fly the ball." ise "OLS information is valid" der.
+K: C-2.F9, C-2.F10
+
+S: Uçak APC modundayken “Easy with it.” çağrısında pilot neyi azaltır?
+- Güç düzeltmesinin büyüklüğünü
++ Burun duruşu düzeltmesinin büyüklüğünü
+- Hat düzeltmesinin büyüklüğünü
+- Hiçbir şeyi; çağrı APC'de kullanılmaz
+A: Anlamı: hemen önceki güç düzeltmesi aşırı. Manual: güç düzeltmesini azalt; APC: "Reduce magnitude of nose attitude correction to intercept and reestablish optimum glideslope and airspeed."
+K: C-2.F11
+
+S: Hangi advisory çağrı APC modunda kullanılmaz?
+- “Easy with it.”
++ “Easy with your nose.”
+- “Easy with your wings.”
+- “Fly the ball.”
+A: "Easy with your nose." (hemen önceki burun duruşu düzeltmesi aşırı) APC sütununda "Not used." "Easy with your wings." hat düzeltmesi içindir ve iki modda da kullanılır.
+K: C-2.F12, C-2.F13
+
+## C.3
+
+S: Imperative çağrılar için Ek C'de hangi yanıt kuralı yazılıdır?
+- Yanıt pilotun takdirine bırakılır
+- Yalnızca APC modunda yanıt verilir
++ MANDATORY IMMEDIATE RESPONSE (zorunlu, anında yanıt)
+- Yanıt bir sonraki LSO çağrısını bekler
+A: "Used to direct the pilot to execute a specific control action. MANDATORY IMMEDIATE RESPONSE". Tablo C-4'te "IMPERATIVE CALLS (Cont.)" olarak sürer.
+K: C-3.F1, C-4.F1
+
+S: Uçak APC modundayken “Power.” çağrısına yanıt nedir?
+- Güç ekle
++ APC'yi devreden çıkar; Not'a bakın (Refer to Note)
+- Kullanılmaz
+- Afterburner gücünü seç
+A: "Power." = uçak alçak/yavaş. Manual: "Add power." APC: "Disengage APC. Refer to Note."
+K: C-3.F4
+
+S: “A little power.” çağrısı APC modunda nasıl yanıtlanır?
+- Güçle düzelt
+- APC'yi devreden çıkar ve güç ekle
++ Kullanılmaz (Not used)
+- Burun duruşunu biraz artır
+A: Anlamı: uçak yavaşlıyor ya da çöküyor. Manual: "Correct with power."
+K: C-3.F2
+
+S: “Power back on.” çağrısı ne anlama gelir?
++ Pilot aşırı güç azaltması yaptı
+- Uçak alçak/yavaş
+- Uçağın gücü aşırı derecede yetersiz ya da uçak in extremis
+- Bir önceki güç düzeltmesi aşırı
+A: Manual: optimum glideslope/AOA için güç ekle. APC: "Disengage APC. Add power to maintain optimum glideslope/AOA."
+K: C-3.F3
+
+S: Hangi güç çağrısında APC yanıtı APC'yi devreden çıkarmayı istemez?
+- “Power back on.”
+- “Power.”
+- “Go manual.”
++ “Burner.”
+A: "Burner." (aşırı güç yetersizliği ya da in extremis) iki modda da "Select afterburner power." der.
+K: C-3.F3..C-3.F6
+
+S: “Go manual.” çağrısı uçak manual moddayken nasıl yanıtlanır?
++ Kullanılmaz (Not used)
+- APC'yi devreden çıkar
+- ACLS'i devreden çıkar
+- Güç ekle
+A: Anlamı "Disengage APC."; APC sütunu "Disengage APC. Refer to Note."
+K: C-3.F6
+
+S: “Attitude.” (“A little attitude.”) çağrısına APC modundaki yanıt nedir?
+- İniş duruşunu kurmak için burun duruşunu (biraz) artır
++ Batma oranını azaltmak ya da iniş duruşunu kurmak için burun duruşunu (biraz) artır
+- APC'yi devreden çıkar ve güç ekle
+- Burun duruşu düzeltmesinin büyüklüğünü azalt
+A: Anlamı: manual'de burun alçak; auto'da uçak alçak/"setting" ya da burun alçak. Manual yanıt yalnızca iniş duruşunu kurmayı söyler.
+K: C-3.F7
+
+S: “(A little) right/left rudder.” çağrısının APC yanıtı nedir?
+- Rudder'ı ayarla
++ Uygulanmaz (Not applicable)
+- APC'yi devreden çıkar
+- Kanatları düzle
+A: Anlamı: yeterli sağ/sol rudder yok, düzeltilmezse yaw'lı inilecek. Manual: "Adjust rudder to return aircraft to balanced flight."
+K: C-3.F8
+
+S: “(A little) Right for lineup.” / “(A little) Come left.” çağrısında doğru sıra hangisidir?
++ Önce hattı merkez hattına düzelt, sonra kanatları düzle
+- Önce kanatları düzle, sonra hattı düzelt
+- Yatış açısını artır ve dönüşü sürdür
+- Waveoff yap
+A: Anlamı: düzeltilmezse uçak sola/sağa inecek. Yanıt (iki modda aynı): "Correct lineup to centerline, then level wings." "Level your wings." çağrısı ise uçağın yatışta olduğunu bildirir: Comply.
+K: C-3.F9, C-4.F5
+
+S: “Waveoff up the starboard side.” çağrısında waveoff nerede yapılır?
+- Açılı güverte boyunca
++ Model NATOPS'a göre, iniş alanının sancağında (island tarafı)
+- İniş alanının iskelesinde
+- Pruvanın önünden sola dönerek
+A: Anlamı: "Discontinue turning attempt to overfly the landing area." "Bolter." ve "Waveoff"/"Waveoff, foul deck." çağrılarında yanıt model NATOPS el kitabına göre bolter/waveoff'tur.
+K: C-3.F10..C-3.F12
+
+S: “Cut.” çağrısında pilot ne yapar?
+- Güç MRT'ye getirir ve tırmanır
++ Barricade recovery'de güverteye emniyetle inince throttle(lar)ı idle'a çeker ve motor(lar)ı kapatır
+- Speedbrake'leri açar
+- Kancayı indirir
+A: "Cut." = "Aircraft is in a position to land." Yanıt iki modda aynıdır.
+K: C-3.F13
+
+S: “Speedbrakes.” çağrısı ne ister?
+- Speedbrake'leri aç
++ Speedbrake'ler açık; kapat
+- Speedbrake'lerin kapalı olduğunu kontrol et ve bildir
+- Kullanılmaz
+A: "Speedbrakes are extended." → "Retract speedbrakes." Açılmasını isteyen çağrı "Extend speedbrakes." (Comply).
+K: C-3.F14, C-3.F15
+
+S: “Drop your hook.”, “Drop your gear.” ve “Drop your flaps.” çağrılarının yanıtı nedir?
++ İki modda da: yerine getir (Comply)
+- Manual: comply; APC: not used
+- İki modda da: N/A
+- Önce APC'yi devreden çıkar
+A: Üçü de "Self-explanatory." ve iki yanıt sütunu "Comply."
+K: C-4.F2..C-4.F4
+
+S: “Downgrade.” çağrısından hemen sonra uçak hangi modda kabul edilir?
+- APC modunda
++ Manual modda; bundan sonra manual çağrılar/yanıtlar geçerlidir
+- ACLS Mode I'de
+- Moda göre değişir
+A: "Downgrade." = "Disengage ACLS." Not: "Aircraft is considered to be in manual mode immediately after the 'Downgrade' call. Manual calls/responses are subsequently applicable."
+K: C-4.F6, C-4.F8
+
+S: “Climb.” çağrısı ne zaman yapılır ve yanıt nedir?
+- Uçak glideslope'un altında; güç ekle
++ Uçak bolter/waveoff yaptı ama pozitif tırmanma için uygun duruş/güç kurmadı; burnu optimuma getir, kanatları düzle, MRT'yi koru (gerekirse afterburner)
+- Uçak yatışta; kanatları düzle
+- Güverte foul; açılı güverte boyunca waveoff
+A: Kaynakta iki yanıt sütunu tek hücredir: "Adjust nose attitude to optimum, level wings, and maintain MRT (afterburner if required) to establish positive rate of climb."
+K: C-4.F7
+
+## C.4
+
+S: “Downgrade.” ile “Go manual.” arasındaki fark nedir?
++ Downgrade ACLS'i, Go manual APC'yi devreden çıkarır
+- Downgrade APC'yi, Go manual ACLS'i devreden çıkarır
+- İkisi de APC'yi devreden çıkarır
+- İkisi de yalnızca bilgi verir, yanıt gerektirmez
+A: "Downgrade." = "Disengage ACLS."; "Go manual." = "Disengage APC." (manual'de "Not used").
+K: C-4.F6, C-3.F6
+
+S: Aşağıdakilerden hangisi OLS bilgisinin GEÇERLİ olduğunu bildirir?
++ “Fly the ball.”
+- “Hold what you’ve got.”
+- “The deck is moving down/up (a little).”
+- “Don’t chase it”
+A: "Fly the ball." (advisory) ve "The deck is steady." (informative) OLS bilgisinin geçerli olduğunu söyler. "Hold what you’ve got." OLS'nin geçersiz olduğunu, "The deck is moving..." geçersiz olabileceğini bildirir.
+K: C-2.F10, C-2.F9, C-1.F14, C-2.F8, C-1.F15
+
+S: APC modundaki pilot çoğu glideslope çağrısında düzeltmeyi neyle yapar?
+- Yalnızca güçle
++ Burun duruşuyla (attitude)
+- Rudder ile
+- Speedbrake ile
+A: Örnekler: "You’re (a little) high.", "You’re going high (low).", "Don’t go any lower (higher).", "Fly the ball." — manual sütununda "power/attitude", APC sütununda "attitude". APC'nin optimum AOA'yı tutması beklenir; tutmazsa "Go manual".
+K: C-1.F2, C-1.F4, C-2.F7, C-2.F10, C-1.F10

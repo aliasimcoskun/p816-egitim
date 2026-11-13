@@ -1,0 +1,29 @@
+[
+ {"id": "1-5.F1", "page": "1-5", "kind": "sekil-icerik", "sec": "Figure 1-1", "text": "Yellow: Plane Directors (Taxi Directors); Flight Deck Officers; Arresting Gear Officers; Catapult Officers (Shooters); Catapult spotters; Aircraft handling Officers"},
+ {"id": "1-5.F2", "page": "1-5", "kind": "sekil-icerik", "sec": "Figure 1-1", "text": "Green: Air Wing Maintenance personnel; Catapult and Arresting gear crews; Helicopter Landing Signal Enlisted (LSE); Cargo-handling personnel; Ground support equipment troubleshooters; Hook runners; Photographers mates"},
+ {"id": "1-5.F3", "page": "1-5", "kind": "sekil-icerik", "sec": "Figure 1-1", "text": "Brown: Air Wing plane captains; Air Wing line Petty Officers"},
+ {"id": "1-5.F4", "page": "1-5", "kind": "sekil-icerik", "sec": "Figure 1-1", "text": "Blue: Aircraft handlers (pushers, chockers, chainers, etc.); Tractor Drivers; Messengers and Phone Talkers; Elevator Operators"},
+ {"id": "1-5.F5", "page": "1-5", "kind": "sekil-icerik", "sec": "Figure 1-1", "text": "Purple: Fueling personnel"},
+ {"id": "1-5.F6", "page": "1-5", "kind": "sekil-icerik", "sec": "Figure 1-1", "text": "White: Safety personnel; Medical personnel; LSOs; Final checkers; Quality Assurance personnel; Air Transfer Officer (ATO)"},
+ {"id": "1-5.F7", "page": "1-5", "kind": "sekil-icerik", "sec": "Figure 1-1", "text": "Red: Ordnance crews; Crash and salvage crews; Explosive Ordnance Disposal (EOD)"},
+
+ {"id": "1-6.F1", "page": "1-6", "kind": "sekil-icerik", "sec": "Figure 1-2", "text": "[Figure 1-2 labels] Stern (Fantail) aft, Bow forward; Port and Starboard sides; Round Down at the aft edge of the deck."},
+ {"id": "1-6.F2", "page": "1-6", "kind": "sekil-icerik", "sec": "Figure 1-2", "text": "[Figure 1-2 labels] Arresting Gear Pendants (4) Mk 7 MOD 3, marked P1-P4 across the aft landing area; Barricade marked next to the pendants."},
+ {"id": "1-6.F3", "page": "1-6", "kind": "sekil-icerik", "sec": "Figure 1-2", "text": "[Figure 1-2 labels] Catapult No. 1 and No. 2 on the bow (No. 1 starboard); Catapult No. 3 and No. 4 on the angled deck / waist (No. 4 farthest to port)."},
+ {"id": "1-6.F4", "page": "1-6", "kind": "sekil-icerik", "sec": "Figure 1-2", "text": "[Figure 1-2 labels] No. 1, No. 2 and No. 3 Elevators on the starboard side (No. 1 and No. 2 forward of the island, No. 3 aft of it); No. 4 Elevator on the port side aft."},
+ {"id": "1-6.F5", "page": "1-6", "kind": "sekil-icerik", "sec": "Figure 1-2", "text": "[Figure 1-2 labels] Island on the starboard side; Foul Lines bounding the landing area."},
+ {"id": "1-6.F6", "page": "1-6", "kind": "sekil-icerik", "sec": "Figure 1-2", "text": "[Figure 1-2 labels] On the port side: LSO Platform (aft), Integrated Catapult Control Station and the Mk 6 MOD 3 Hinged Optical Landing System Platform (alongside the landing area)."},
+ {"id": "1-6.F7", "page": "1-6", "kind": "sekil-icerik", "sec": "Figure 1-3", "text": "[Figure 1-3 labels] Bow area spots: One Row, Two Row, Three Row, Four Row, Box and Crotch; catapults circled 1-4."},
+ {"id": "1-6.F8", "page": "1-6", "kind": "sekil-icerik", "sec": "Figure 1-3", "text": "[Figure 1-3 labels] Starboard side spots from forward to aft: Point, Corral, (island), Junkyard, Patio."},
+ {"id": "1-6.F9", "page": "1-6", "kind": "sekil-icerik", "sec": "Figure 1-3", "text": "[Figure 1-3 labels] Mid-deck spots alongside the landing area: SIXPAC and Street; Finger on the port side aft."},
+
+ {"id": "1-12.F1", "page": "1-12", "kind": "sekil-icerik", "sec": "Figure 1-4", "text": "[Figure 1-4] IFLOLS configuration: vertical lens column of amber cells with two red cells at the bottom; the orange ball appears in one cell."},
+ {"id": "1-12.F2", "page": "1-12", "kind": "sekil-icerik", "sec": "Figure 1-4", "text": "[Figure 1-4] Datum Lights: a horizontal row of 10 green lights on each side of the lens; Cut Lights: two green lights on each side above the datums; Waveoff Lights: vertical groups of red lights on each side of the lens."},
+ {"id": "1-12.F3", "page": "1-12", "kind": "sekil-icerik", "sec": "Figure 1-4", "text": "[Figure 1-4] Photos: Mk 14 Shore-Based (trailer mounted) and Mk 13 Shipboard variants."},
+ {"id": "1-13.F1", "page": "1-13", "kind": "sekil-icerik", "sec": "Figure 1-5", "text": "[Figure 1-5] The light wedge is divided into Above Optimum Glideslope (top, amber), On Optimum Glideslope (middle, green) and Below Optimum Glideslope (bottom); total wedge labelled 1.5 degrees."},
+ {"id": "1-14.F1", "page": "1-14", "kind": "sekil-icerik", "sec": "Figure 1-6", "text": "[Figure 1-6] MOVLAS components: central source light column (amber upper lamps, red lower lamps); a vertical waveoff light column on each side topped by one green cut light; five green datum lights on each outer side."},
+ {"id": "1-16.F1", "page": "1-16", "kind": "sekil-icerik", "sec": "Figure 1-7", "text": "[Figure 1-7] Center sector: Steady yellow 0.50 deg - On Centerline to Touchdown."},
+ {"id": "1-16.F2", "page": "1-16", "kind": "sekil-icerik", "sec": "Figure 1-7", "text": "[Figure 1-7] Next sectors: Steady 0.75 deg - green on one side of centerline, red on the other."},
+ {"id": "1-16.F3", "page": "1-16", "kind": "sekil-icerik", "sec": "Figure 1-7", "text": "[Figure 1-7] Next sectors: Slow Flash 4.0 deg (green / red)."},
+ {"id": "1-16.F4", "page": "1-16", "kind": "sekil-icerik", "sec": "Figure 1-7", "text": "[Figure 1-7] Outer sectors: Fast Flash 6.0 deg (green / red)."}
+]

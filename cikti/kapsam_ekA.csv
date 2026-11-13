@@ -1,0 +1,128 @@
+﻿kimlik;sayfa;tur;orijinal_metin;ders_bloklari;soru_kart;durum
+A-1.01;A-1;metin;A100. GLOSSARY OF CV PROCEDURES FOR T-45C;#1;;Derste · bağlam
+A-1.02;A-1;metin;Air Boss: Officer (located in Pri-Fly) in charge of all flight deck and tower operations within 5 nautical miles of the ship;#2 #3;S001 K001;Tam
+A-1.03;A-1;metin;Air Operations Officer: The officer who coordinates all matters pertaining to air operations including CATCC;#2 #3;K002;Tam
+A-1.04;A-1;metin;Air Plan: Schedule of carrier flight operations published daily but subject to change;#2 #3;K003;Tam
+A-1.05;A-1;metin;Angels: Altitude in thousands of feet. For example, Angels 1.5 = 1,500 feet;#2 #3;S002 K004;Tam
+A-1.06;A-1;metin;Axial Winds: Winds down the longitudinal axis of the ship created by the ship’s forward movement.;#2 #3;S003 K005;Tam
+A-1.07;A-1;metin;This causes a right-to-left crosswind across the angled deck.;#2 #3;S003 K005;Tam
+A-1.08;A-1;metin;Ball: See “Meatball.”;#2 #4;K006;Tam
+A-1.09;A-1;metin;Bingo: Refers to the minimum fuel state required to divert safely to the nearest suitable field.;#2 #4;S004 K007;Tam
+A-1.10;A-1;metin;Bingo is an emergency situation.;#2 #4;S004 K007;Tam
+A-1.11;A-1;metin;"Bingo Fuel: Aircraft fuel state in sufficient quantity necessary to fly to the bingo field with X lbs. remaining; depending on aircraft type.";#2 #4 #5;K008;Tam
+A-1.12;A-1;metin;Bolter: A touchdown on the carrier in which the arresting hook does not engage the arresting wires;#2 #4;S005 K009;Tam
+A-1.13;A-1;metin;BRC: Base recovery course, which is the ship’s magnetic course;#2 #4;K010;Tam
+A-1.14;A-1;metin;Breaking the Deck: First aircraft to land for each cycle;#2 #4;K011;Tam
+A-1.15;A-1;metin;Buster: Proceed at maximum airspeed, generally for an immediate Charlie;#2 #4;S006 K012;Tam
+A-1.16;A-1;metin;Carrier Air Traffic Control Center (CATCC): The centralized department responsible for the status-keeping of all carrier air operations and control of all airborne aircraft involved in launch and recovery;#2 #6;K013;Tam
+A-1.17;A-1;metin;Carrier Control Zone (CCZ): The airspace within a circular limit defined by a 5 mile radius around the ship surface up to and including 2,500 feet under the cognizance of the Air Boss during VFR conditions;#2 #6;S007 K014;Tam
+A-2.01;A-2;metin;Case I: Refers to departure/recovery procedures and landing patterns conducted in VMC conditions when 3,000/5 or greater exist (3,000-foot ceiling and 5-NM visibility within the carrier control zone).;#2 #7 #8;S008 K015;Tam
+A-2.02;A-2;metin;Case I recoveries will marshal overhead the ship and enter the pattern via the break.;#2 #7;S009 K015;Tam
+A-2.03;A-2;metin;Case II: Weather less than 3,000/5 but greater than 1,000/5 exist at the ship.;#2 #7 #8;S010 K016;Tam
+A-2.04;A-2;metin;Case II recovery is a controlled IMC descent to the break and the VFR pattern.;#2 #7;S011 K017;Tam
+A-2.05;A-2;metin;It is used when a VFR penetration cannot be made.;#2 #7;S011 K017;Tam
+A-2.06;A-2;metin;The approach may be via radar vectors or a TACAN or ADF approach.;#2 #7;S013 K018;Tam
+A-2.07;A-2;metin;In no case will more than a section of two aircraft execute a Case II recovery.;#2 #7;S012 K018;Tam
+A-2.08;A-2;metin;Case II departure is a procedure used to climb through IFR conditions to VMC.;#2 #7;S011 K019;Tam
+A-2.09;A-2;metin;Case III: Used for weather less than 1,000/5, or at night.;#2 #7 #8;S014 K020;Tam
+A-2.10;A-2;metin;CCA: Carrier-controlled approach similar to a GCA;#2 #9 #10;K021;Tam
+A-2.11;A-2;metin;Charlie: Refers to the time the first aircraft is expected at the ramp.;#2 #9 #11;S015 K022;Tam
+A-2.12;A-2;metin;A “Charlie” or “Charlie on arrival” call is a directive to enter the pattern now.;#2 #9;S016 K022;Tam
+A-2.13;A-2;metin;“Charlie five” means be at the ramp in five minutes.;#2 #9;S015 K022;Tam
+A-2.14;A-2;metin;Cherubs: Altitude in hundreds of feet. For example, Cherubs 3 = 300 feet (Normally used for helicopters).;#2 #9;S017 K023;Tam
+A-2.15;A-2;metin;Chicks: Wingmen in a flight;#2 #9;K024;Tam
+A-2.16;A-2;metin;Clara: Meatball is not in sight;#2 #9;S018 K025;Tam
+A-2.17;A-2;metin;Clearing Turn: Associated with a Case I or II departure.;#2 #12;S019 K026;Tam
+A-2.18;A-2;metin;Immediately after launch, aircraft from bow cats initiate a right turn then a turn to parallel the BRC.;#2 #12;S019 K026;Tam
+A-2.19;A-2;metin;Aircraft launched from the waist cats initiate a left turn then a turn to parallel the BRC.;#2 #12;S019 K026;Tam
+A-2.20;A-2;metin;The purpose of these turns is to provide aircraft lateral separation on multiple launches from the carrier.;#2 #12;S020 K026;Tam
+A-2.21;A-2;metin;C.Q.: Carrier qualification;#2 #12;K027;Tam
+A-2.22;A-2;metin;Cross-Deck Pendant (CDP): Arresting gear wire;#2 #12;K028;Tam
+A-2.23;A-2;metin;Cut Lights: Green lights mounted horizontally and centered above the IFLOLS lens box (controlled by the LSO).;#2 #12;S023 K029;Tam
+A-2.24;A-2;metin;Utilized during Zip Lip and EMCON conditions instead of UHF to give pilots clearance to land, i.e., “Roger Ball.;#2 #12;S021 K030;Tam
+A-2.25;A-2;metin;Subsequent cut lights mean “power.;#2 #12;S021 K030;Tam
+A-2.26;A-2;metin;Also, used in conjunction with waveoff lights to signal bingo.;#2 #12;S022 K030;Tam
+A-2.27;A-2;metin;Datum Lights: Green reference lights mounted horizontally on the IFLOLS, seen on each side of the centered cell;#2 #13;S024 K031;Tam
+A-2.28;A-2;metin;Delta: Enter holding pattern as directed or continue to hold;#2 #13;K032;Tam
+A-3.01;A-3;metin;Delta Clean: Signal for aircraft in the pattern to raise gear and flaps/slats and hold as directed;#2 #13;S025 K033;Tam
+A-3.02;A-3;metin;Delta Easy: Signal for aircraft to remain at pattern altitude with gear and flaps/slats down and speed brakes retracted;#2 #13;S025 K034;Tam
+A-3.03;A-3;metin;Departure Reference Radial (DRR): Preassigned radial usually passed during the brief or as standing SOP;#2 #13;K035;Tam
+A-3.04;A-3;metin;Divert: An order for an aircraft to proceed and land at the field specified.;#2 #13;S004 K036;Tam
+A-3.05;A-3;metin;This is a non- emergency situation.;#2 #13;S004 K036;Tam
+A-3.06;A-3;metin;Emergency Expected Approach Time (EEAT): The future time, assigned prior to launch, at which time an aircraft is cleared to depart inbound or penetrate from a pre-assigned fix under lost communications conditions;#2 #14;S026 K037;Tam
+A-3.07;A-3;metin;Emergency Marshal: A marshal established by CATCC and given to each pilot prior to launch with and altitude and EEAT.;#2 #14 #15;S028 K038;Tam
+A-3.08;A-3;metin;The emergency marshal radial will have a minimum of 30 degrees of separation from the primary marshal radial.;#2 #14;S028 K038;Tam
+A-3.09;A-3;metin;Emission Control Procedures (EMCON): Electronic emission control procedures are in effect at the ship to avoid detection.;#2 #14;S029 K039;Tam
+A-3.10;A-3;metin;All radio, radar, and navigation equipment transmissions are eliminated except as required for safety of flight.;#2 #14;S029 K039;Tam
+A-3.11;A-3;metin;Expected Approach Time (EAT): The future time at which an aircraft is cleared to depart inbound or penetrate from a pre-assigned fix.;#2 #14;S026 K040;Tam
+A-3.12;A-3;metin;Aircraft depart and commence approach at assigned time if no further instructions are received.;#2 #14;S027 K040;Tam
+A-3.13;A-3;metin;Father: Code name for the ship’s TACAN;#2 #16;S031 K041;Tam
+A-3.14;A-3;metin;Feet Wet or Feet Dry: Aircraft crossing the coastline enroute to or returning from the ship;#2 #16;K042;Tam
+A-3.15;A-3;metin;Field Carrier Landing Practice (FCLP): LSO-graded landings conducted at the field prior to any carrier evolution;#2 #16;K043;Tam
+A-3.16;A-3;metin;"Final Bearing (FB): The magnetic bearing assigned by CATCC for final approach (an extension of the landing area centerline); usually BRC minus the landing area angle of 10°.";#2 #16;S030 K044;Tam
+A-3.17;A-3;metin;Foul Deck: Landing area is not free of all obstructions or the flight deck is not ready to recover aircraft.;#2 #16;K045;Tam
+A-3.18;A-3;metin;Foul Line (ship only): A line painted on both sides of the landing area to define the minimum area that must be free of obstructions in order to consider the deck clear;#2 #16;K046;Tam
+A-3.19;A-3;metin;Fuel Ladder: A quick snapshot reference of total fuel breakdown and airborne time remaining used in the formulation of fuel requirement decision making;#2 #16;K047;Tam
+A-4.01;A-4;metin;Gadget: Radar;#2 #17;K048;Tam
+A-4.02;A-4;metin;Hangar Deck: Area below the flight deck used to store and repair aircraft;#2 #17;K049;Tam
+A-4.03;A-4;metin;Hawk: Term used for a lead safe. (Hawking chicks);#2 #17;K050;Tam
+A-4.04;A-4;metin;Holdback: Metal fitting designed to break or release at a preset level of force during a catapult stroke;#2 #17;S038 K051;Tam
+A-4.05;A-4;metin;Hold-Down: Fuel state at which an aircraft will be refueled on deck prior to launch;#2 #17;S032 K052;Tam
+A-4.06;A-4;metin;Hook to Eye: The vertical distance measured between the pilot’s eye and the aircraft’s hook;#2 #17;S034 K053;Tam
+A-4.07;A-4;metin;Hook to Ramp: The clearance distance between the aircraft’s hook point and the flight deck as it crosses the ramp;#2 #17;S034 K054;Tam
+A-4.08;A-4;metin;Hot Refueling: Aircraft receives fuel with engine turning;#2 #17;S033 K055;Tam
+A-4.09;A-4;metin;Hot Seat: The replacement of one pilot by another pilot while the engine is turning;#2 #17;S033 K056;Tam
+A-4.10;A-4;metin;Improved Fresnel Lens Optical Landing System (IFLOLS): Pilot’s landing aid, i.e., meatball;#2 #18;K057;Tam
+A-4.11;A-4;metin;Interval: The time between you and the aircraft you are to follow;#2 #18;K058;Tam
+A-4.12;A-4;metin;In the Middle Position: A distance on the groove that is between the “start” and the “in close” position.;#2 #18;S035 K059;Tam
+A-4.13;A-4;metin;The middle-third of the groove.;#2 #18;S035 K059;Tam
+A-4.14;A-4;metin;Jet Blast Deflector (JBD): Hydraulically lifted deck plate mounted behind each catapult;#2 #18;K060;Tam
+A-4.15;A-4;metin;Kilo Report: An aircrew coded report indicating aircraft mission readiness;#2 #18;K061;Tam
+A-4.16;A-4;metin;Landing Signals Officer (LSO). Controls all fixed-wing aircraft off the 180 to touchdown during carrier and FCLP landings;#2 #19;S036 K062;Tam
+A-4.17;A-4;metin;Launch Bar: Metal arm attached to the nose gear and used to launch the aircraft;#2 #19;K063;Tam
+A-4.18;A-4;metin;Mark your Father: State bearing and distance from ship;#2 #19;K064;Tam
+A-4.19;A-4;metin;Marshal:;#2 #19;S037 K065;Tam
+A-4.20;A-4;metin;(1) Holding pattern during Case I, II, and III recoveries;#2 #19;S037 K065;Tam
+A-4.21;A-4;metin;(2) The term used for the ship’s radar controller;#2 #19;S037 K065;Tam
+A-4.22;A-4;metin;Meatball: Light projected by source lens on the IFLOLS;#2 #19;K066;Tam
+A-5.01;A-5;metin;Mirror: Landing aid used prior to the development of the Fresnel lens;#2 #19;K067;Tam
+A-5.02;A-5;metin;Mother: Code name used to signify the carrier;#2 #19;S031 K068;Tam
+A-5.03;A-5;metin;Ninety-nine Aircraft: A collective call to all aircraft in the launch or recovery;#2 #20;K069;Tam
+A-5.04;A-5;metin;On the Ball: LSO call stating hold your transmission until aircraft in the groove has landed;#2 #20;S039 K070;Tam
+A-5.05;A-5;metin;Overhead Time: The scheduled time a flight of aircraft is expected overhead the ship for pattern entry;#2 #20;S046 K071;Tam
+A-5.06;A-5;metin;Paddles: The call sign for the LSO;#2 #21;K072;Tam
+A-5.07;A-5;metin;Parrot: IFF;#2 #21;S055 K073;Tam
+A-5.08;A-5;metin;Pigeons: The magnetic bearing and distance to the divert field named;#2 #21;S040 K074;Tam
+A-5.09;A-5;metin;Pilot Landing Assistance Television (PLAT): Video camera system used to record carrier operations;#2 #21;K075;Tam
+A-5.10;A-5;metin;PIM: Position of intended movement;#2 #21;K076;Tam
+A-5.11;A-5;metin;Plane Guard: SAR helicopter or ship assigned during aircraft launch and recovery, usually located in starboard Delta for a helicopter, three miles astern for a ship;#2 #21;S041 K077;Tam
+A-5.12;A-5;metin;Platform: A reporting point in the ship’s TACAN approach (normally at 20 NM from the ship at 5,000 feet) at which the rate of descent is decreased to 2,000 feet per minute;#2 #21;S042 K078;Tam
+A-5.13;A-5;metin;Pogo: Return to previous frequency if unable to establish communications on frequency assigned;#2 #21;S043 K079;Tam
+A-5.14;A-5;metin;Popeye: Code word used to signify that aircraft is operating IMC;#2 #21;S043 K080;Tam
+A-5.15;A-5;metin;Pri-Fly: Tower location where the Air Boss oversees the pattern and flight deck operations;#2 #21;K081;Tam
+A-5.16;A-5;metin;Primary Marshal Radial: The radial assigned by Marshal that is used as the primary if there is a requirement for more than one Marshal stack/radial (geopolitical constraints or additional battle groups operating in the same area);#2 #21;S044 K082;Tam
+A-5.17;A-5;metin;Pull Back: Action following arrestment whereby the wire is partially retracted to allow the pilot to raise the tailhook;#2 #21;S045 K083;Tam
+A-5.18;A-5;metin;Push Back: Action taken anytime the aircraft needs to be moved back by deck personnel;#2 #21;S045 K084;Tam
+A-5.19;A-5;metin;Ramp: The aft end of the flight deck.;#2 #22;K085;Tam
+A-6.01;A-6;metin;Ramp Time (Ready Deck): Anticipated time specified by the Air Boss that the flight deck will be ready to recover aircraft.;#2 #22;S046 K086;Tam
+A-6.02;A-6;metin;Time the first aircraft in Case III recovery is expected to be at ramp.;#2 #11 #22;S046 K086;Tam
+A-6.03;A-6;metin;Red Crown: Air Defense Unit generally located on a Destroyer (DDG) or CG that protects the battle group airspace, and verifies IFF checks;#2 #22;S047 K087;Tam
+A-6.04;A-6;metin;Roger Ball: The call made by the LSO that indicates you are cleared to land and the LSO has positive control (call made less than a mile prior to landing);#2 #22;S048 K088;Tam
+A-6.05;A-6;metin;Roll Angle: Movement of the lens about the roll axis (set for each type of aircraft) to maintain a constant targeted hook touchdown point;#2 #22;S049 K089;Tam
+A-6.06;A-6;metin;Round Down: The aft end of the landing area that is curved downward;#2 #22;K090;Tam
+A-6.07;A-6;metin;RTB: Signal to return to base;#2 #22;K091;Tam
+A-6.08;A-6;metin;See You: Communication used to indicate that flight lead has the ship in sight;#2 #23;K092;Tam
+A-6.09;A-6;metin;Shuttle: The portion of the catapult that attaches to the launch bar during catapult launches;#2 #23;S053 K093;Tam
+A-6.10;A-6;metin;Spin: A delaying circle at 1200’, performed at the bow when the pattern is too full to allow all members of the flight to break by 4 NM.;#2 #23 #24;S050 K094;Tam
+A-6.11;A-6;metin;Starboard Delta: Holding pattern used by the helicopters and COD aircraft flown on the starboard side of the ship and using right-hand turns at 500 feet;#2 #23;S051 K095;Tam
+A-6.12;A-6;metin;Start: The first-third of the groove length;#2 #23;S035 K096;Tam
+A-6.13;A-6;metin;Steer: A heading to an airfield for normal divert from the ship when not in bingo profile.;#2 #23;S052 K097;Tam
+A-6.14;A-6;metin;When directed, proceed to the field named.;#2 #23;S052 K097;Tam
+A-6.15;A-6;metin;Strangle Your Parrot: Turn off your IFF.;#2 #23;S055 K098;Tam
+A-6.16;A-6;metin;Suspend: Stop the catapult launch sequence.;#2 #23;S053 K099;Tam
+A-6.17;A-6;metin;Sweet Lock: Positive TACAN lock-on;#2 #23;S055 K100;Tam
+A-6.18;A-6;metin;Tension: The portion of the catapult launch sequence when the shuttle is hydraulically moved forward to remove slack;#2 #25;S053 K101;Tam
+A-6.19;A-6;metin;Tiedown: Chocks and chains used to secure aircraft on the flight deck;#2 #25;K102;Tam
+A-6.20;A-6;metin;Trick or Treat: Aircraft in pattern that has enough fuel for one more approach.;#2 #25;S054 K103;Tam
+A-6.21;A-6;metin;If the aircraft does not trap, it will have to bingo or in-flight refuel (if able).;#2 #25;S054 K103;Tam
+A-6.22;A-6;metin;Zip Lip: Condition in which radio communications are minimized;#2 #25;S029 K104;Tam

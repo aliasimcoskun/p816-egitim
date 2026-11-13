@@ -1,0 +1,59 @@
+<!-- @@ a_dongu -->
+<div class="w w-a-dongu">
+  <div class="w-baslik">Cyclic operations: event'ler nasıl döner? <small>şematik · ölçeksiz</small></div>
+  <div class="ad-adimlar"></div>
+  <div class="ad-sahne">
+    <div class="ad-bolge ad-hava"><div class="ad-etiket">Havada</div><div class="ad-yuva"></div></div>
+    <div class="ad-bolge ad-guverte"><div class="ad-etiket">Uçuş güvertesinde</div><div class="ad-yuva"></div></div>
+  </div>
+  <p class="ad-metin" aria-live="polite"></p>
+  <div class="ad-nav"><button class="btn ad-geri" type="button">← Önceki</button><span class="ad-sayac"></span><button class="btn ad-ileri" type="button">Sonraki →</button></div>
+  <p class="w-not">Şematiktir; renk, aynı uçak grubunu gösterir. Belge yalnızca şunları verir: bir cycle yaklaşık 1+30 (ATO'ya göre uzayıp kısalabilir), bir event genellikle 12–20 uçak, Event 1'in kalkışı genellikle yaklaşık 15 dakika.</p>
+  <script type="application/json" class="w-veri">[
+    {"t":"Uçuş operasyonlarından önce",
+     "hava":[],
+     "guverte":[{"g":1,"l":"Event 1","n":"katapultlara kolay taksi için dizildi (spotted)"},{"g":2,"l":"Event 2","n":""}],
+     "m":"Güvertedeki uçaklar, Event 1 uçakları çalıştırılıp muayene edildikten sonra katapultlara kolayca taksi edebilecek şekilde dizilir (\"spotted\")."},
+    {"t":"Event 1 kalkışı",
+     "hava":[{"g":1,"l":"Event 1","n":"kalkış genellikle ~15 dk"}],
+     "guverte":[{"g":2,"l":"Event 2","n":"bir sonraki cyclic kalkış için hazırlanıyor"}],
+     "m":"Event 1 kalkar; bu genellikle yaklaşık 15 dakika sürer. Ardından Event 2 uçakları bir sonraki cyclic kalkış için hazırlanır. Uçakların kaldırılması güvertede iniş için yer açar."},
+    {"t":"Sonraki cycle: Event 2 kalkar, Event 1 iner",
+     "hava":[{"g":2,"l":"Event 2","n":""}],
+     "guverte":[{"g":1,"l":"Event 1 uçakları","n":"indi → yakıt, re-arm, re-spot → Event 3 için hazır"}],
+     "m":"Event 2 uçakları kalkınca Event 1 uçakları indirilir, yakıt ikmali yapılır, yeniden silahlandırılır (re-armed), yeniden dizilir (re-spotted) ve Event 3'te kullanılmak üzere hazırlanır."},
+    {"t":"Sonraki cycle: Event 3 kalkar, Event 2 iner",
+     "hava":[{"g":1,"l":"Event 3","n":"(Event 1'in uçakları)"}],
+     "guverte":[{"g":2,"l":"Event 2 uçakları","n":"indi"}],
+     "m":"Event 3 uçakları kalkar, ardından Event 2 uçakları indirilir. Bu, uçuş günü / gecesi boyunca böyle sürer."},
+    {"t":"Gecenin son kalkışından sonra",
+     "hava":[{"g":0,"l":"Son inişler","n":"son uçak inene kadar"}],
+     "guverte":[{"g":0,"l":"Tüm uçaklar pruvada (bow)","n":"iniş alanı boş tutulur"}],
+     "m":"Gecenin son kalkışından sonra tüm uçaklar genellikle pruvada toplanır; böylece son uçak inene kadar iniş alanı boş tutulur."},
+    {"t":"Uçuş gününün sonu",
+     "hava":[],
+     "guverte":[{"g":0,"l":"Tüm uçaklar","n":"yeniden dizildi ve bağlandı (secured)"}],
+     "m":"Ardından uçaklar güverte üzerinde yeniden dizilir ve ertesi sabahın ilk kalkışına kadar bağlanır (secured)."}
+  ]</script>
+</div>
+
+<!-- @@ a_case -->
+<div class="w w-a-case">
+  <div class="w-baslik">Hangi Case? <small>belgedeki hava kriterleriyle deneyin</small></div>
+  <div class="ac-girdi">
+    <label>Tavan (ceiling): <b class="ac-tavan-d"></b>
+      <input type="range" class="ac-tavan" min="0" max="6000" step="100" value="4000" aria-label="Tavan, ft"></label>
+    <label>Görüş (visibility): <b class="ac-gorus-d"></b>
+      <input type="range" class="ac-gorus" min="0" max="10" step="0.5" value="8" aria-label="Görüş, NM"></label>
+    <label>Zaman:
+      <select class="ac-zaman">
+        <option value="gunduz">Gün doğumundan 30 dk sonra ile gün batımından 30 dk önce arası</option>
+        <option value="gece">Gün batımından önceki son 30 dakika</option>
+        <option value="gece">Gün batımı ile gün doğumu arası</option>
+        <option value="gece">Gün doğumundan sonraki ilk 30 dakika</option>
+      </select></label>
+    <label class="ac-kutu"><input type="checkbox" class="ac-imc"> Uçağın IMC'ye girebileceği öngörülüyor (ör. kapalı / overcast tabaka var)</label>
+  </div>
+  <div class="ac-sonuc" aria-live="polite"><span class="ac-case"></span><span class="ac-neden"></span></div>
+  <p class="w-not">Yalnızca belgedeki asgari değerleri uygular: Case I gündüz VMC, tavan ≥ 3.000 ft ve görüş ≥ 5 NM; Case II gündüz, IMC'ye girme öngörüsü, tavan ≥ 1.000 ft ve görüş 5 NM; Case III tavan &lt; 1.000 ft ya da görüş &lt; 5 NM ve tüm gece operasyonları. Case'i Air Boss belirler.</p>
+</div>

@@ -1,0 +1,47 @@
+# Ek B, parça b kartları (s. B-7 – B-11) — biçim:  bölüm || ön yüz || arka yüz || kaynak birimleri
+# Resimli kartlar: kırpılmış çizimde işaretin adı görünmez.
+B-7 || [img:sB-7_0_s1.png] Bu hangi işaret? || CLEAR DECK — Flight Deck Officer/Director → Arresting Gear Officer. Gündüz: kol baş üstündeki konumdan yana süpürülür ve geri getirilir. Gece: aynı, AMBER wand ile. || B-7.F1
+B-7 || [img:sB-7_0_s2.png] Bu hangi işaret? || FOUL DECK — Flight Deck Officer/Director → Arresting Gear Officer. Gündüz: kollar baş üstünde çapraz, yumruklar sıkılı. Gece: çaprazlanmış AMBER wand'lar baş üstünde tutulur. || B-7.F2
+B-7 || [img:sB-7_0_s3.png] Bu hangi işaret? || PULL BACK — ileriden geriye (fore-to-aft) süpürme. Hook Runner → Director: kollar aşağı uzatılmış, avuçlar kıça; gece RED stubby wand. Director → Pilot, Deckedge Operator: kollar uzatılmış, avuçlar ileri; gece iki AMBER wand. || B-7.F3
+B-7 || CLEAR DECK ve FOUL DECK işaretlerini kim kime verir? || Her ikisini de Flight Deck Officer/Director, Arresting Gear Officer'a verir. || B-7.F1, B-7.F2
+B-7 || PULL BACK: Hook Runner'ın ve Director'ın işaretinde avuçlar nereye bakar? || Hook Runner (→ Director): kollar aşağı doğru uzatılmış, avuçlar kıça (aft). Director (→ Pilot, Deckedge Operator): kollar uzatılmış, avuçlar ileri (forward). || B-7.F3
+B-7 || PULL BACK gece hangi wand'la verilir? || Hook Runner → Director: RED stubby wand (kısa kırmızı wand). Director → Pilot, Deckedge Operator: iki AMBER wand. || B-7.F3
+B-8 || [img:sB-8_0_s1.png] Bu hangi işaret? || CEASE PULL BACK — Director → Deckedge Operator ve Hook Runner → Director. Gündüz: kollar belin altında çapraz. Gece: wand belin altında yatay hareket ettirilir. || B-8.F1
+B-8 || [img:sB-8_0_s2.png] Bu hangi işaret? || RAISE HOOK — Director → Pilot. Gündüz: sol el yatay, avuç aşağı; sağ el yukarı hareketle uzatılmış başparmağı sol avuca getirir. Gece: sol wand yatay, sağ wand dikey: "T". || B-8.F2
+B-8 || CEASE PULL BACK'i kim kime verir? || Director → Deckedge Operator; Hook Runner → Director. (Pilota verilmez.) || B-8.F1
+B-8 || Kollar çapraz: FOUL DECK mi, CEASE PULL BACK mi? || Baş üstünde çapraz (yumruklar sıkılı) = FOUL DECK. Belin altında çapraz = CEASE PULL BACK. || B-7.F2, B-8.F1
+B-9 || [img:sB-9_0_s1.png] Bu hangi işaret? || LOWER HOOK — Director → Pilot. Gündüz: sol el yatay, avuç yukarı; sağ el aşağı hareketle uzatılmış başparmağı sol avuca getirir. Gece: sol wand yatay, sağ wand dikey: ters "T". || B-9.F1
+B-9 || [img:sB-9_0_s2.png] Bu hangi işaret? || WIRE CLEAR — Hook Runner → Director. Gündüz: taxi director'ı gösteren kolla dikey hareket. Gece: aynı, RED stubby wand ile. || B-9.F2
+B-9 || [img:sB-9_0_s3.png] Bu hangi işaret? || WIRE RETRACT — Hook Runner → Deckedge Operator. Gündüz: bir yana uzatılmış kolla büyük dairesel hareket. Gece: aynı, RED stubby wand ile. || B-9.F3
+B-9 || Gece wand'larla "T" ve ters "T" hangi işaretlerdir? || "T" (sol wand yatay, sağ wand dikey) = RAISE HOOK. Ters "T" (inverted "T") = LOWER HOOK. İkisi de Director → Pilot. || B-8.F2, B-9.F1
+B-9 || RAISE HOOK ile LOWER HOOK gündüz nasıl ayrılır? || RAISE HOOK: sol avuç aşağı, sağ el yukarı doğru hareket eder. LOWER HOOK: sol avuç yukarı, sağ el aşağı doğru hareket eder. İkisinde de uzatılmış başparmak sol avuca getirilir. || B-8.F2, B-9.F1
+B-9 || WIRE CLEAR ve WIRE RETRACT'ı kim kime verir? || İkisini de Hook Runner verir: WIRE CLEAR → Director, WIRE RETRACT → Deckedge Operator. || B-9.F2, B-9.F3
+B-10 || [img:sB-10_0_s1.png] Bu hangi işaret? || TILLER BAR IN PLACE OR ENGAGE NOSEWHEEL STEERING — Director → Pilot. Gündüz: işaret parmağıyla burnun ucuna dokun, sonra aynı elle thumbs up. Gece: burna wand'la dokun, sonra aynı wand'la "up" işareti. || B-10.F1
+B-10 || [img:sB-10_0_s2.png] Bu hangi işaret? || TILLER BAR REMOVED OR DISENGAGE NOSE WHEEL STEERING — Director → Pilot. Gündüz: işaret parmağıyla burnun ucuna dokun, sonra kolu uçağın hareket yönünde aşağı süpür. Gece: aynısı wand'la. || B-10.F2
+B-10 || [img:sB-10_0_s3.png] Bu hangi işaret? || INSTALL TIEDOWNS — Director → Pilot, Brake Rider. Gündüz: eller vücudun önünde dikey daire çizerek döndürülür. Gece: aynı, AMBER wand'larla. || B-10.F3
+B-10 || [img:sB-10_0_s4.png] Bu hangi işaret? || TIEDOWNS IN PLACE — Director → Pilot, Brake Rider. "Install Tiedowns" ile aynı, buna thumbs up eklenir. || B-10.F4
+B-10 || [img:sB-10_0_s5.png] Bu hangi işaret? || REVERSE THRUST TAXI — Director → Pilot. Gündüz: avuçlar uçağa dönük, göz hizasında, itme (pushback) hareketi; dönüşlerde director kuyruğun gideceği yönü gösterir. Gece: aynı, wand'larla. || B-10.F5
+B-10 || Tiller bar / NWS işaretlerinde burna dokunduktan sonraki hareket neyi belirler? || Thumbs up (gece "up") = tiller bar yerinde / NWS devreye al. Kolu (gece wand'ı) uçağın hareket yönünde aşağı süpürmek = tiller bar çıkarıldı / NWS'i ayır. || B-10.F1, B-10.F2
+B-10 || INSTALL TIEDOWNS ve TIEDOWNS IN PLACE kime verilir? || Pilot ve Brake Rider'a (veren: Director). || B-10.F3, B-10.F4
+B-10 || REVERSE THRUST TAXI'de dönüş nasıl işaret edilir? || Director, kuyruğun gitmesi gereken yönü gösterir. || B-10.F5
+B-11 || [img:sB-11_0_s1.png] Bu hangi yakıt ikmali işareti? || TOP OFF — başın tepesine hafifçe vurulur (pat top of head). || B-11.F1
+B-11 || [img:sB-11_0_s2.png] Bu hangi yakıt ikmali işareti? || 2. FUEL STATUS — başparmak ağza doğru hareket ettirilir: uçaktaki yakıt (fuel on board) istenir. || B-11.F2
+B-11 || [img:sB-11_0_s3.png] Bu hangi yakıt ikmali işareti? || 3. PROBE OUT — kol göğsün önünden çaprazlanır, sonra yatay olarak dışarı uzatılır. || B-11.F3
+B-11 || [img:sB-11_0_s4.png] Bu hangi yakıt ikmali işareti? || 4. PROBE IN — kol yatay olarak dışarı uzatılır, sonra içeri alınıp göğsün önünde çaprazlanır. || B-11.F4
+B-11 || [img:sB-11_0_s5.png] Bu hangi yakıt ikmali işareti? || 5. CLOSE DUMP VALVE — parmakla dirsek gösterilir. || B-11.F5
+B-11 || [img:sB-11_0_s6.png] Bu hangi yakıt ikmali işareti? || 6. CUT FUEL — parmaklar boğazı gösterir, el yana doğru hareket ettirilir. || B-11.F6
+B-11 || [img:sB-11_0_s7.png] Bu hangi yakıt ikmali işareti? || 7. FUEL WEIGHT STATUS — kollar avuçlar yukarı dönük olarak aşağı yukarı hareket ettirilir: yakıt ağırlıkları istenir. || B-11.F7
+B-11 || [img:sB-11_0_s8.png] Yakıt miktarı işaretlerinde yumruk (clenched fist) ne zaman verilir? || Yüzlerde (1.000 lbs altı): önce yumruk, sonra 100–900 işareti. 10.000 lbs ve üstünde tam binler için: "double finger"dan sonra en sona yumruk (ör. 12.000 lbs = 10.000 + 2.000 + yumruk). || B-11.F8, B-11.F11
+B-11 || [img:sB-11_0_s9.png] Yakıt miktarı: bu el şekli tek başına kaç lbs'tir? || 1.000 lbs (dikey, 1 parmak). Yumruktan sonra verilirse 100 lbs. || B-11.F8, B-11.F9
+B-11 || [img:sB-11_0_s10.png] Yakıt miktarı: bu el şekli tek başına kaç lbs'tir? || 2.000 lbs (dikey, 2 parmak). Yumruktan sonra verilirse 200 lbs. || B-11.F8, B-11.F9
+B-11 || [img:sB-11_0_s11.png] Yakıt miktarı: bu el şekli tek başına kaç lbs'tir? || 3.000 lbs (dikey, 3 parmak). Yumruktan sonra verilirse 300 lbs. || B-11.F8, B-11.F9
+B-11 || [img:sB-11_0_s12.png] Yakıt miktarı: bu el şekli tek başına kaç lbs'tir? || 4.000 lbs (dikey, 4 parmak). Yumruktan sonra verilirse 400 lbs. || B-11.F8, B-11.F9
+B-11 || [img:sB-11_0_s13.png] Yakıt miktarı: bu el şekli tek başına kaç lbs'tir? || 5.000 lbs (dikey, 5 parmak). Yumruktan sonra verilirse 500 lbs. || B-11.F8, B-11.F9
+B-11 || [img:sB-11_0_s14.png] Yakıt miktarı: bu el şekli tek başına kaç lbs'tir? || 6.000 lbs (yatay, 1 parmak). Yumruktan sonra verilirse 600 lbs. || B-11.F8, B-11.F9
+B-11 || [img:sB-11_0_s15.png] Yakıt miktarı: bu el şekli tek başına kaç lbs'tir? || 7.000 lbs (yatay, 2 parmak). Yumruktan sonra verilirse 700 lbs. || B-11.F8, B-11.F9
+B-11 || [img:sB-11_0_s16.png] Yakıt miktarı: bu el şekli tek başına kaç lbs'tir? || 8.000 lbs (yatay, 3 parmak). Yumruktan sonra verilirse 800 lbs. || B-11.F8, B-11.F9
+B-11 || [img:sB-11_0_s17.png] Yakıt miktarı: bu el şekli tek başına kaç lbs'tir? || 9.000 lbs (yatay, 4 parmak). Yumruktan sonra verilirse 900 lbs. || B-11.F8, B-11.F9
+B-11 || PROBE OUT ile PROBE IN arasındaki fark? || PROBE OUT: kol önce göğsün önünde çaprazlanır, sonra yatay olarak dışarı uzatılır. PROBE IN: yatay dışarıdaki kol içeri alınıp göğüste çaprazlanır. || B-11.F3, B-11.F4
+B-11 || 1.500 lbs ve 7.400 lbs nasıl gösterilir? || 1.500 = 1.000 lbs, ardından 500 lbs. 7.400 = 7.000 lbs, ardından 400 lbs. Belgedeki adı: "Double finger (a vertical signal followed by a horizontal one)". || B-11.F10
+B-11 || 12.000 lbs ve 12.500 lbs nasıl gösterilir? || 12.000 = 10.000 lbs, 2.000 lbs, ardından yumruk. 12.500 = 10.000 lbs, 2.000 lbs, ardından 500 lbs (yüzler için üçüncü parmak işareti). || B-11.F11
+B-11 || Sayfa B-11'deki dipnot NATO yakıt işaretleri için nereye atıf yapar, sorun ne? || "Figure 1-1 (9 of 9) p. 1-11". Bu belgede Figure 1-1 forma renk çizelgesidir ve s. 1-11 FLOLS / IFLOLS'u anlatır; NATO yakıt işaretleri orada yok (kaynak notu). || B-11.F12

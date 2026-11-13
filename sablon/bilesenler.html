@@ -1,0 +1,225 @@
+<!-- Etkileşimli bileşenler. Her biri "@@ ad" işaretiyle başlar; içerikte "@w ad" ile çağrılır. -->
+
+<!-- @@ orgsema -->
+<div class="w w-org">
+  <div class="w-baslik">Kim nerede? <small>Belgede geçen gruplar ve bağlantılar</small></div>
+  <div class="org">
+    <div class="org-kol">
+      <div class="org-bas aw">Air Wing (CVW) <small>~2.500 kişi · 7–8 filo · ~70 uçak</small></div>
+      <div class="org-dugum">CAG <small>Air Wing Commander</small>
+        <div class="org-alt">
+          <div class="org-dugum">DCAG <small>CAG'ın XO'su</small></div>
+          <div class="org-dugum">CAG LSO <small>filo LSO'ları rapor verir</small></div>
+          <div class="org-dugum">Filolar <small>4 VFA · 1 VAQ · 1 VAW · 1–2 HSC/HSM · 1 VRC müfrezesi</small></div>
+        </div>
+      </div>
+    </div>
+    <div class="org-kol">
+      <div class="org-bas sc">Ship's Company <small>~3.200 kişi · CO'ya bağlı</small></div>
+      <div class="org-dugum">CO <small>Commanding Officer · BIG XO · GATOR</small>
+        <div class="org-alt">
+          <div class="org-dugum">OPSO <small>havadaki uçaklar</small>
+            <div class="org-alt">
+              <div class="org-dugum">Air Ops <small>yaklaşma tipi, kontrol derecesi</small>
+                <div class="org-alt"><div class="org-dugum">CATCC <small>güncel ops · CCA 50 NM</small></div></div>
+              </div>
+              <div class="org-dugum">Strike Ops <small>gelecek ops · ATO · Air Plan</small></div>
+            </div>
+          </div>
+          <div class="org-dugum">CDC Officer <small>CDC · öz savunma</small></div>
+          <div class="org-dugum">Air Boss <small>Pri-Fly · CCZ · Case</small>
+            <div class="org-alt"><div class="org-dugum">Mini Boss <small>Assistant Air Officer</small></div></div>
+          </div>
+          <div class="org-dugum">Handler <small>FDC · Ouija board</small></div>
+          <div class="org-dugum">Shooters <small>ICCS ("bubble")</small></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <p class="w-not">Gruplama şemasıdır, resmî kadro şeması değildir. Yalnızca belgede açıkça geçen bağlantılar gösterilmiştir.</p>
+</div>
+
+<!-- @@ havasahasi -->
+<div class="w w-hs">
+  <div class="w-baslik">CCZ ve CCA <small>ölçeksiz şema</small></div>
+  <svg viewBox="0 0 660 272" role="img" aria-label="Üstten ve yandan görünüşte CCZ ve CCA hava sahaları">
+    <g transform="translate(140,125)">
+      <circle r="112" class="hs-cca"/>
+      <circle r="40" class="hs-ccz"/>
+      <path d="M-11,4 L7,4 L12,0 L7,-4 L-11,-4 Z" class="hs-gemi"/>
+      <text y="-90" class="hs-t">CCA · 50 NM</text>
+      <text y="-76" class="hs-k">CATCC (kule dışındaki uçaklar)</text>
+      <text y="-48" class="hs-t">CCZ · 5 NM</text>
+      <text y="60" class="hs-k">Air Boss / Pri-Fly</text>
+      <text y="136" class="hs-k">Üstten görünüş</text>
+    </g>
+    <g transform="translate(320,0)">
+      <line x1="10" y1="205" x2="330" y2="205" class="hs-deniz"/>
+      <rect x="20" y="85" width="150" height="120" class="hs-ccz"/>
+      <path d="M14,205 L30,205 L33,199 L11,199 Z" class="hs-gemi"/>
+      <line x1="170" y1="85" x2="170" y2="205" class="hs-olcu"/>
+      <text x="95" y="122" class="hs-t">CCZ</text>
+      <text x="95" y="140" class="hs-k">yüzey – 2.500 ft</text>
+      <text x="95" y="222" class="hs-k">5 NM</text>
+      <text x="250" y="150" class="hs-k">CCA 50 NM'ye</text>
+      <text x="250" y="165" class="hs-k">kadar uzanır →</text>
+      <text x="175" y="245" class="hs-k">Yandan görünüş</text>
+    </g>
+  </svg>
+</div>
+
+<!-- @@ forma -->
+<div class="w w-forma">
+  <div class="w-baslik">Şekil 1-1 — Forma (jersey) renkleri</div>
+  <div class="forma-izgara"></div>
+  <div class="forma-oyun">
+    <div class="w-baslik"><small>Kendini dene: bu görev hangi renk formayı giyer?</small></div>
+    <p class="forma-soru"></p>
+    <div class="forma-renkler"></div>
+    <p class="forma-sonuc" aria-live="polite"></p>
+  </div>
+  <script type="application/json" class="w-veri">[
+    {"r":"Sarı","c":"#f2c230","k":["Plane Directors (Taxi Directors)","Flight Deck Officers","Arresting Gear Officers","Catapult Officers (Shooters)","Catapult spotters","Aircraft handling Officers"]},
+    {"r":"Yeşil","c":"#2e9b4f","k":["Air Wing Maintenance personnel","Catapult and Arresting gear crews","Helicopter Landing Signal Enlisted (LSE)","Cargo-handling personnel","Ground support equipment troubleshooters","Hook runners","Photographers mates"]},
+    {"r":"Kahverengi","c":"#7a4b26","k":["Air Wing plane captains","Air Wing line Petty Officers"]},
+    {"r":"Mavi","c":"#2a5fbf","k":["Aircraft handlers (pushers, chockers, chainers, etc.)","Tractor Drivers","Messengers and Phone Talkers","Elevator Operators"]},
+    {"r":"Mor","c":"#7b3fb0","k":["Fueling personnel"]},
+    {"r":"Beyaz","c":"#f4f4f2","k":["Safety personnel","Medical personnel","LSOs","Final checkers","Quality Assurance personnel","Air Transfer Officer (ATO)"]},
+    {"r":"Kırmızı","c":"#c8322d","k":["Ordnance crews","Crash and salvage crews","Explosive Ordnance Disposal (EOD)"]}
+  ]</script>
+</div>
+
+<!-- @@ kablolar -->
+<div class="w w-tel">
+  <div class="w-baslik">İniş alanı: teller ve bariyer <small>ölçeksiz · NIMITZ (4 tel)</small></div>
+  <svg viewBox="0 0 640 230" role="img" aria-label="Kıçtan pruvaya 1-4 numaralı teller, 3 ve 4 arasında bariyer">
+    <rect x="40" y="40" width="560" height="120" class="tel-guverte"/>
+    <line x1="40" y1="40" x2="40" y2="160" class="tel-rd"/>
+    <text x="40" y="30" class="hs-k" text-anchor="middle">Round Down</text>
+    <text x="40" y="182" class="hs-k" text-anchor="middle">◄ kıç</text>
+    <text x="600" y="182" class="hs-k" text-anchor="middle">pruva ►</text>
+    <g class="teller">
+      <line x1="170" y1="44" x2="170" y2="156"/><line x1="230" y1="44" x2="230" y2="156"/>
+      <line x1="290" y1="44" x2="290" y2="156"/><line x1="350" y1="44" x2="350" y2="156"/>
+    </g>
+    <line x1="320" y1="44" x2="320" y2="156" class="tel-bariyer"/>
+    <text x="170" y="30" class="hs-t" text-anchor="middle">1</text><text x="230" y="30" class="hs-t" text-anchor="middle">2</text>
+    <text x="290" y="30" class="hs-t" text-anchor="middle">3</text><text x="350" y="30" class="hs-t" text-anchor="middle">4</text>
+    <text x="170" y="182" class="hs-k" text-anchor="middle">"Ace"</text>
+    <text x="290" y="182" class="hs-k" text-anchor="middle">hedef tel</text>
+    <line x1="323" y1="64" x2="384" y2="64" class="hs-olcu"/>
+    <text x="390" y="68" class="hs-k">Barricade: 3–4 arası, yalnızca gerektiğinde kurulur</text>
+    <path d="M70,100 L134,100" class="tel-ok"/><path d="M142,100 l-10,-5 v10 z" class="tel-okucu"/><text x="72" y="92" class="hs-k">iniş yönü</text>
+    <path d="M170,156 L170,214 L470,214" class="tel-pc"/><path d="M350,156 L350,214" class="tel-pc"/>
+    <rect x="470" y="200" width="118" height="26" rx="4" class="tel-motor"/>
+    <text x="529" y="217" class="hs-k" text-anchor="middle">arresting engine</text>
+    <text x="410" y="208" class="hs-k" text-anchor="middle">purchase cable</text>
+  </svg>
+  <div class="sayilar">
+    <div><b>150 kts → 320 ft</b><span>durma mesafesi</span></div>
+    <div><b>40–60 s</b><span>optimum iniş aralığı</span></div>
+    <div><b>~35 s</b><span>alanı boşaltma + gear reset</span></div>
+    <div><b>100</b><span>durdurmada tel değişir</span></div>
+    <div><b>&lt; 3 dk</b><span>bariyer kurulumu</span></div>
+    <div><b>~20 ft</b><span>bariyer ağ yüksekliği</span></div>
+  </div>
+  <p class="w-not">REAGAN, BUSH ve FORD sınıfında 3 tel vardır. Teller arası mesafe belgede çelişkili (20 ft / 40 ft) olduğundan şema ölçeksizdir.</p>
+</div>
+
+<!-- @@ katapult -->
+<div class="w w-kat">
+  <div class="w-baslik">Katapultlar ve clearing turn <small>üstten, ölçeksiz</small></div>
+  <svg viewBox="-30 -40 420 470" role="img" aria-label="Pruvada katapult 1 ve 2, açılı güvertede 3 ve 4; bow cats sağa, waist cats sola döner">
+    <path d="M150,20 L210,20 L236,130 L240,390 L130,390 L128,330 L66,262 L58,176 L118,146 L140,60 Z" class="kat-guverte"/>
+    <rect x="224" y="205" width="14" height="52" class="kat-ada"/>
+    <text x="250" y="236" class="hs-k">ada</text>
+    <g class="kat-iz">
+      <line x1="200" y1="150" x2="200" y2="40"/><line x1="168" y1="150" x2="168" y2="40"/>
+      <line x1="132" y1="262" x2="104" y2="170"/><line x1="106" y1="276" x2="76" y2="186"/>
+    </g>
+    <g class="kat-jbd">
+      <line x1="190" y1="156" x2="210" y2="156"/><line x1="158" y1="156" x2="178" y2="156"/>
+      <line x1="124" y1="270" x2="143" y2="264"/><line x1="98" y1="284" x2="117" y2="278"/>
+    </g>
+    <g class="kat-no">
+      <circle cx="200" cy="168" r="10"/><text x="200" y="172">1</text>
+      <circle cx="168" cy="168" r="10"/><text x="168" y="172">2</text>
+      <circle cx="140" cy="286" r="10"/><text x="140" y="290">3</text>
+      <circle cx="110" cy="300" r="10"/><text x="110" y="304">4</text>
+    </g>
+    <path d="M200,40 Q204,-6 262,-14" class="kat-ok"/>
+    <path d="M168,40 Q174,-22 250,-30" class="kat-ok"/>
+    <path d="M104,170 Q92,118 30,104" class="kat-ok"/>
+    <path d="M76,186 Q60,140 2,134" class="kat-ok"/>
+    <text x="322" y="-20" class="hs-t">bow cats → SAĞA</text>
+    <text x="36" y="76" class="hs-t">← SOLA</text>
+    <text x="36" y="92" class="hs-t">waist cats</text>
+    <text x="292" y="44" class="hs-k" text-anchor="middle">▲ pruva (bow)</text>
+    <text x="185" y="410" class="hs-k" text-anchor="middle">kıç (stern)</text>
+    <text x="40" y="350" class="hs-k">iskele</text>
+    <text x="250" y="350" class="hs-k">sancak</text>
+    <text x="250" y="160" class="hs-k">JBD = katapultun</text>
+    <text x="250" y="174" class="hs-k">arkasındaki çizgi</text>
+  </svg>
+  <p class="w-not">Numaralandırma sancaktan iskeleye 1–4. Clearing turn, gündüz birden fazla katapulttan kalkış yapılırken uygulanır.</p>
+</div>
+
+<!-- @@ iflols -->
+<div class="w w-iflols">
+  <div class="w-baslik">IFLOLS simülatörü <small>Şekil 1-4'e göre şematik</small></div>
+  <svg viewBox="0 0 560 300" role="img" aria-label="IFLOLS lens, datum, cut ve waveoff ışıkları">
+    <rect x="266" y="36" width="28" height="248" rx="3" class="if-kutu"/>
+    <g class="if-hucreler"></g>
+    <g class="if-datum"></g>
+    <g class="if-cut"></g>
+    <g class="if-waveoff"></g>
+  </svg>
+  <div class="if-kontrol">
+    <label for="if-konum">Uçağın glideslope'a göre konumu</label>
+    <input type="range" id="if-konum" min="0" max="11" value="6" step="1">
+    <div class="if-durum" aria-live="polite"></div>
+    <div class="if-btnler">
+      <button class="btn" data-if="roger">Roger ball</button>
+      <button class="btn" data-if="power">Add power</button>
+      <button class="btn" data-if="waveoff">Waveoff</button>
+      <button class="btn" data-if="bingo">Bingo</button>
+    </div>
+    <p class="if-mesaj" aria-live="polite">Kaydırıcıyla uçağı glideslope'un üstüne/altına taşıyın; düğmelerle LSO sinyallerini görün.</p>
+  </div>
+</div>
+
+<!-- @@ movlas -->
+<div class="w w-movlas">
+  <div class="w-baslik">MOVLAS istasyonları <small>üstten, ölçeksiz · bir istasyona tıklayın</small></div>
+  <svg viewBox="0 0 560 330" role="img" aria-label="MOVLAS istasyon 1, 2 ve 3'ün yerleri">
+    <path d="M150,20 L420,20 L430,320 L130,320 Z" class="kat-guverte"/>
+    <path d="M250,320 L160,40 L240,40 L330,320 Z" class="mv-inis"/>
+    <text x="268" y="250" class="hs-k" text-anchor="middle">iniş alanı</text>
+    <rect x="418" y="60" width="14" height="60" class="kat-ada"/><text x="440" y="94" class="hs-k">ada</text>
+    <line x1="372" y1="130" x2="372" y2="318" class="mv-spl"/>
+    <text x="378" y="312" class="hs-k">◂ safe parking line</text>
+    <rect x="136" y="126" width="20" height="20" class="mv-iflols"/><text x="64" y="122" class="hs-k">IFLOLS</text>
+    <g class="mv-ist" data-ist="1"><circle cx="166" cy="160" r="13"/><text x="166" y="165">1</text></g>
+    <g class="mv-ist" data-ist="2"><circle cx="152" cy="236" r="13"/><text x="152" y="241">2</text></g>
+    <line x1="124" y1="146" x2="124" y2="236" class="hs-olcu"/><text x="44" y="196" class="hs-k">75–100 ft</text>
+    <g class="mv-ist" data-ist="3"><circle cx="400" cy="200" r="13"/><text x="400" y="205">3</text></g>
+    <text x="150" y="340" class="hs-k">iskele</text><text x="400" y="340" class="hs-k">sancak</text>
+    <text x="280" y="12" class="hs-k" text-anchor="middle">▲ pruva</text>
+  </svg>
+  <div class="mv-bilgi" aria-live="polite"><b>Bir istasyon seçin.</b></div>
+  <script type="application/json" class="w-veri">{
+    "1": "<b>Station 1</b> — İskele tarafı, IFLOLS'un tam önü. Datum box unit kullanılmaz; ışık kutusu birincil lensin önüne takılır ve IFLOLS'un waveoff, cut ve datum ışıklarını kullanır.",
+    "2": "<b>Station 2</b> — İskele tarafı, IFLOLS'un 75–100 ft gerisi. Datum box unit ışık kutusunun iki yanına takılır.",
+    "3": "<b>Station 3</b> — Sancak: iniş alanının sancağında, adanın gerisinde, safe parking line'ın dışında. Kesin yeri Air Officer veya LSO belirler. Datum box unit iki yana takılır; güvertedeki uçakların taşınması gerekebilir."
+  }</script>
+</div>
+
+<!-- @@ lazer -->
+<div class="w w-lazer">
+  <div class="w-baslik">Şekil 1-7 — Laser lineup sektörleri <small>ölçeksiz · bir sektöre tıklayın</small></div>
+  <svg viewBox="0 0 620 420" role="img" aria-label="Merkezde sabit sarı, dışa doğru sabit, yavaş ve hızlı yanıp sönen yeşil ve kırmızı sektörler">
+    <g class="lz-sektorler" transform="translate(40,210)"></g>
+  </svg>
+  <div class="lz-bilgi" aria-live="polite">Merkezden dışa: sabit sarı → sabit → yavaş yanıp sönen → hızlı yanıp sönen.</div>
+  <p class="w-not">Açılar şekildeki etiketlerdir; çizim ölçeksizdir. Hangi tarafın yeşil, hangisinin kırmızı olduğu belgede metin olarak açıklanmaz; şekildeki yerleşim korunmuştur.</p>
+</div>

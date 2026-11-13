@@ -1,0 +1,86 @@
+<!-- Bölüm 2, parça b bileşenleri (203.2 katapult işaretleri, 203.3 kalkış profilleri). -->
+
+<!-- @@ b_isaretler -->
+<div class="w w-b-isaretler">
+  <div class="w-baslik">Katapult işaretleri <small>a–m · belgedeki sırayla</small></div>
+  <div class="bis-mod">
+    <button type="button" class="btn aktif" data-bis-mod="sira" aria-pressed="true">Sırayla incele</button>
+    <button type="button" class="btn" data-bis-mod="test" aria-pressed="false">Kendini dene</button>
+  </div>
+  <div class="bis-sira">
+    <ol class="bis-adimlar" aria-label="İşaret adımları"></ol>
+    <div class="bis-lejant"><span class="bis-dir">Director</span><span class="bis-cat">Catapult Officer / CSPO</span></div>
+    <div class="bis-kart" aria-live="polite"></div>
+    <div class="bis-nav">
+      <button type="button" class="btn" data-bis="geri">← Önceki</button>
+      <button type="button" class="btn" data-bis="ileri">Sonraki →</button>
+    </div>
+  </div>
+  <div class="bis-test" hidden>
+    <p class="bis-soru"></p>
+    <div class="bis-siklar"></div>
+    <p class="bis-sonuc" aria-live="polite"></p>
+  </div>
+  <p class="w-not">İşaretler ve pilot eylemleri s. 2-7'deki listeden; "İlgili" satırları s. 2-8 – 2-9'daki kalkış öncesi ve kalkış metninden alınmıştır. Runup işaretini kimin verdiği belgede tutarlı değildir (bkz. kaynak notu).</p>
+  <script type="application/json" class="b-veri">[
+    {"h":"a","en":"Extend launch bar","tr":"Launch bar'ı uzat","kim":"Director","nasil":"Sağ dirseğini bel hizasında sol avucuna dayar, sağ eli dikey olarak yukarıdadır; sonra sağ elini yatay konuma indirir.","pilot":"","ilgili":"Catapult director (yellow shirt) yönlendirdiğinde launch bar switch EXTEND'e alınır; launch bar uzatılınca NWS otomatik olarak ayrılır."},
+    {"h":"b","en":"Disengage nose wheel steering","tr":"Burun tekeri dümenlemesini ayır","kim":"Director","nasil":"Sağ işaret parmağıyla burnunu gösterir ve omuz hizasında sol elinin açık avucuyla yana doğru el sallar.","pilot":"","ilgili":"Yellow shirt, launch bar'ın katapult yarığına düzgün oturması için NWS'in yeniden devreye alınmasını işaret edebilir."},
+    {"h":"c","en":"Taxi ahead","tr":"İleri taksi","kim":"Director","nasil":"Kollarını omuz hizasında öne uzatır; eller göz hizasında yukarıda, avuçlar geriye dönük; \"gel\" der gibi kol hareketi yapar. Kol hareketinin hızı istenen hızı gösterir.","pilot":"","ilgili":"Launch bar'ı shuttle'ın üzerine getirmek için yavaşça taksi yapılır (ciddi güç gerekebilir). CAUTION: holdback link kırılmasın diye taksi hızı emekleme (crawl) düzeyinde tutulur."},
+    {"h":"d","en":"Slight turn left/right","tr":"Hafif sola / sağa dönüş","kim":"Director","nasil":"Taxi ahead işaretini verirken başını dönüş yönüne doğru sallar.","pilot":"","ilgili":""},
+    {"h":"e","en":"Brakes on (when in holdback)","tr":"Frenler (holdback'teyken)","kim":"Director","nasil":"Kollarını başının üstüne uzatır, açık avuçları uçağa dönüktür; sonra yumruklarını kapatır.","pilot":"","ilgili":"Launch bar shuttle'ın üzerine düşünce holdback katapult buffer'ına oturur ve uçak durur. Pilot, işaret verildiğinde frenleri uygular ve tutar."},
+    {"h":"f","en":"Tension","tr":"Gerdirme","kim":"Director","nasil":"Kollarını başının biraz üstüne uzatır, yumrukları kapalı; sonra avuçları öne dönük açar (frenleri bırakma işareti); ardından pruvaya yakın elini güverteye doğru 45°'ye aşağı, diğer elini gökyüzüne doğru 45° yukarı savurur.","pilot":"Frenleri bırakır, topuklarını güverteye koyar ve runup işaretini beklerken idle'da kalır.","ilgili":"Gerdirme alındıkça uçak çöker (squat)."},
+    {"h":"g","en":"Retract launch bar","tr":"Launch bar'ı topla","kim":"Director","nasil":"Sağ dirseğini sol avucuna dayar, bel hizasında yatay uzanan sağ kolunu dikey konuma kaldırır.","pilot":"","ilgili":"Launch bar switch, motor RPM'i %95'e ulaşınca RETRACT'a alınır. WARNING: retract işareti alınmadan RETRACT seçilirse launch bar shuttle spreader assembly'ye oturmadan kalkabilir (mis-positioned launch bar)."},
+    {"h":"h","en":"Engine runup","tr":"Motor run-up","kim":"Catapult Officer / CSPO","nasil":"Baş hizasında işaret ve orta parmağıyla dairesel hareket yapar.","pilot":"Throttle'ı MRT'ye getirir; Control Check \"wipeout\" ve motor gösterge kontrolünü yapar.","ilgili":"Wipeout'ta rudder dahil; stick ve rudder'ın her yönde tam hareketi doğrulanır. Motor göstergeleri (EGT, rpm, fuel flow), CWS göstergeleri ve advisory ışıkları izlenir."},
+    {"h":"i","en":"Acknowledge salute","tr":"Selamı karşıla","kim":"Catapult Officer / CSPO","nasil":"Selamı iade eder.","pilot":"","ilgili":"Kalkışa hazır olunca pilot sağ eliyle net bir selam verir; gece bunun yerine dış ışıklar yakılır."},
+    {"h":"j","en":"Launch signal","tr":"Kalkış işareti","kim":"Catapult Officer / CSPO","nasil":"Çömelir, güverteye dokunur ve elini kalkış yönünde yatay konuma getirir.","pilot":"","ilgili":"Catapult officer ileri ve geriye bakarak son kontrolleri yapar, güverteye dokunur; yaklaşık 1 s sonra katapult ateşlenir, end speed'e yaklaşık 2 s'de ulaşılır."},
+    {"h":"k","en":"Hang fire","tr":"Hang fire","kim":"Catapult Officer / CSPO","nasil":"Sağ elinin işaret parmağını başının üstüne uzatır ve dikey uzatılmış sol avucunu yatay olarak gösterir.","pilot":"","ilgili":""},
+    {"h":"l","en":"Suspend","tr":"Askıya al","kim":"Catapult Officer / CSPO","nasil":"Bilekleri çaprazlanmış olarak kollarını başının üstüne kaldırır (kalkış askıya alınacak).","pilot":"","ilgili":"WARNING: askıya alınan kalkışta Catapult Officer uçağın önüne yürüyüp throttle back işaretini verene kadar gazı geri almayın."},
+    {"h":"m","en":"Throttle back","tr":"Gazı geri al","kim":"Catapult Officer / CSPO","nasil":"Kolunu bel hizasında vücudunun önüne uzatır, başparmağı yukarıda; sonra diğer eliyle başparmağını kavrar ve throttle'ı geri çeker gibi sallar.","pilot":"","ilgili":"WARNING: askıya alınan kalkışta gaz, ancak Catapult Officer uçağın önüne yürüyüp bu işareti verdiğinde geri alınır."}
+  ]</script>
+</div>
+
+<!-- @@ b_kalkis -->
+<div class="w w-b-kalkis" data-case="1">
+  <div class="w-baslik">Case I / II / III kalkış profili <small>üstten görünüş, ölçeksiz şema</small></div>
+  <div class="bkl-sec">
+    <button type="button" class="btn aktif" data-bk="1" aria-pressed="true">Case I</button>
+    <button type="button" class="btn" data-bk="2" aria-pressed="false">Case II</button>
+    <button type="button" class="btn" data-bk="3" aria-pressed="false">Case III</button>
+  </div>
+  <svg viewBox="0 52 420 296" role="img" aria-label="Seçilen Case için kalkış izi: BRC'ye paralel düz bacak, 7 DME / 7 NM dönüşü, 10 DME / 10 NM arc ve departure radial">
+    <path d="M12.1,231.6 A200,200 0 0 1 387.9,231.6" class="bkl-arc" data-g="2 3"/>
+    <text x="336" y="138" class="hs-k" data-g="2">10 DME arc</text>
+    <text x="336" y="138" class="hs-k" data-g="3">10 NM arc</text>
+    <path d="M200,160 Q200,112 148.2,106.8" class="bkl-kol" data-g="2 3"/>
+    <path d="M200,160 Q200,112 251.8,106.8" class="bkl-kol" data-g="2 3"/>
+    <path d="M148.2,106.8 A200,200 0 0 0 85.3,136.2" class="bkl-ucus" data-g="2 3"/>
+    <line x1="85.3" y1="136.2" x2="45.1" y2="78.8" class="bkl-ucus" data-g="2 3"/>
+    <text x="50" y="70" class="hs-k" data-g="2 3">Departure radial</text>
+    <line x1="200" y1="160" x2="285" y2="75" class="bkl-ucus" data-g="1"/>
+    <text x="252" y="140" class="hs-k" data-g="1">Climb on course, VMC</text>
+    <line x1="200" y1="286" x2="200" y2="160" class="bkl-duz"/>
+    <line x1="190" y1="160" x2="210" y2="160" class="bkl-tik"/>
+    <text x="186" y="164" class="hs-t bkl-sag" data-g="1 2">7 DME</text>
+    <text x="186" y="164" class="hs-t bkl-sag" data-g="3">7 NM</text>
+    <line x1="192" y1="200" x2="208" y2="200" class="bkl-tik" data-g="3"/>
+    <text x="188" y="204" class="hs-k bkl-sag" data-g="3">5 NM · ≥ 1.500 ft AGL</text>
+    <text x="210" y="240" class="hs-k bkl-sol" data-g="1 2">500 ft / 300 KIAS</text>
+    <text x="210" y="240" class="hs-k bkl-sol" data-g="3">300 kts</text>
+    <line x1="182" y1="304" x2="182" y2="254" class="bkl-brc"/>
+    <path d="M182,246 l-5,10 h10 z" class="bkl-brc-uc"/>
+    <text x="176" y="282" class="hs-t bkl-sag">BRC</text>
+    <path d="M200,284 L207,294 L207,330 L193,330 L193,294 Z" class="hs-gemi"/>
+    <g class="bkl-rapor" data-g="3">
+      <circle cx="214" cy="276" r="7"/><text x="214" y="280">1</text>
+      <circle cx="148.2" cy="106.8" r="7"/><text x="148.2" y="110.8">3</text>
+      <circle cx="62.3" cy="103.4" r="7"/><text x="62.3" y="107.4">4</text>
+    </g>
+  </svg>
+  <div class="bkl-bilgi" aria-live="polite"></div>
+  <p class="w-not">Şema ölçeksizdir. Case I ve II çizimleri Şekil 2-1 ve 2-2'yi izler (clearing turn şekillerde gösterilmez). Case III için belgede şekil yoktur; çizim metne göre Case II şeklinden uyarlanmıştır. Case I'deki rota yönü ve departure radial'ın yönü yalnızca örnektir.</p>
+  <script type="application/json" class="b-veri">{
+    "1": "<b>Case I</b> — gündüz VMC (WX 3.000-5 veya daha iyi).<ul><li>Katapulttan sonra pozitif tırmanma oranı → clearing turn → 500 ft'e tırman, BRC'ye paralel uç.</li><li>7 DME'ye kadar 500 ft ve 300 KIAS, BRC'ye paralel.</li><li>Talimat verildiğinde ya da 7 DME'de: VMC olarak rotasına (on course) tırmanış.</li></ul>",
+    "2": "<b>Case II</b> — gemide görsel koşullar var ama kontrollü tırmanış gerekli (WX 3.000-5'ten az, 1.000-5'ten fazla).<ul><li>Kalkış Departure Control frekansında.</li><li>Clearing turn → düz ileri 500 ft ve 300 KIAS, BRC'ye paralel.</li><li>7 DME'de 10 DME arc'ı kesmek için dön; departure radial'a oturana kadar görsel koşulları koru.</li><li>500 ft kısıtlaması 7 DME'den sonra kalkar (tırmanış VMC'de sürdürülebiliyorsa).</li><li>VMC on top'a kadar 300 KIAS.</li><li>18.000 ft'i geçerken hâlâ IMC → \"Popeye\" bildir, talimat al.</li></ul>",
+    "3": "<b>Case III</b> — gece ve IMC'de (WX 1.000-5'in altında), kontrollü tırmanış gerekli.<ul><li>Kalkış Departure Control frekansında; uçaklar arasında en az 30 s.</li><li>Düz ileri tırmanış, 300 kts; 5 NM'yi 1.500 ft AGL veya üstünde geç.</li><li>7 NM'de 10 NM arc'ı kesmek için dön; tırmanmaya devam et ve departure radial'a katıl.</li></ul><b>Telsiz raporları</b> (şemadaki numaralar yalnızca yeri belli olanlar):<ol><li>Airborne — \"Departure, 405, airborne\"</li><li>Passing 2,500 feet — \"Departure, 405, passing 2.5\"</li><li>Arcing (10 NM arc'a dönerken) — \"Departure, 405, Arcing\"</li><li>Established outbound (atanan radial'da) — \"Departure, 405, Established outbound\"</li><li>Popeye, irtifayla — \"Departure, 405, Popeye, Angels eighteen\"</li><li>On top, irtifayla — \"Departure, 405, On top, Angels twelve\"</li><li>Kilo (uçak göreve hazır) — \"Departure, 405, Kilo\"</li></ol>"
+  }</script>
+</div>

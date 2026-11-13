@@ -1,0 +1,455 @@
+# Bölüm sonu soruları — Ek A (sözlük), parça a. Biçim:
+# ## <bölüm>   S: soru   - yanlış şık   + doğru şık   A: açıklama   K: kaynak birimleri
+# Sorular boş satırla ayrılır.
+
+## A.1
+
+S: Sözlüğe göre Air Boss, geminin ne kadar çevresindeki uçuş güvertesi ve kule operasyonlarından sorumludur?
+- 3 NM
++ 5 NM
+- 10 NM
+- 50 NM
+A: "Officer (located in Pri-Fly) in charge of all flight deck and tower operations within 5 nautical miles of the ship."
+K: A-1.02
+
+S: Telsizde "Angels 1.5" hangi irtifayı ifade eder?
+- 150 ft
+- 15.000 ft
++ 1.500 ft
+- 1.050 ft
+A: Angels = bin feet cinsinden irtifa; Angels 1.5 = 1.500 ft. (Yüz feet cinsinden irtifa "Cherubs"tır.)
+K: A-1.05
+
+S: Sözlüğe göre axial winds açılı güverte (angled deck) üzerinde nasıl bir yan rüzgâr oluşturur?
+- Soldan sağa
++ Sağdan sola
+- Kıçtan pruvaya, yan bileşen olmadan
+- Rüzgârın yönüne göre değişen
+A: Geminin ileri hareketinin oluşturduğu, boyuna eksen boyunca esen rüzgâr; "This causes a right-to-left crosswind across the angled deck."
+K: A-1.06, A-1.07
+
+S: Sözlüğe göre Bingo ve Divert için hangisi doğrudur?
++ Bingo bir acil durumdur; divert acil olmayan bir durumdur.
+- İkisi de acil durumdur.
+- Divert bir acil durumdur; bingo acil olmayan bir durumdur.
+- İkisi de acil olmayan durumlardır.
+A: Bingo, en yakın uygun meydana emniyetle divert için gereken asgari yakıt durumudur ve "an emergency situation"dır. Divert, belirtilen meydana gidip inme emridir ve "a non-emergency situation"dır.
+K: A-1.09, A-1.10, A-3.04, A-3.05
+
+S: Bolter nedir?
+- LSO'nun iniş yaklaşmasını iptal ettirmesi
+- Kancanın ilk tele takıldığı iniş
++ Gemiye teker koyulan ama arresting hook'un arresting wire'lara takılmadığı iniş
+- Kanca indirilmeden yapılan alçak geçiş
+A: "A touchdown on the carrier in which the arresting hook does not engage the arresting wires."
+K: A-1.12
+
+S: Sözlüğe göre "Buster" ne demektir?
+- Kalkış sırasını durdur
++ Azami hızla ilerle; genellikle hemen Charlie için
+- Önceki frekansa dön
+- Talimat verildiği şekilde beklemeye devam et
+A: "Proceed at maximum airspeed, generally for an immediate Charlie." (Kalkış sırasını durdurmak Suspend, önceki frekansa dönmek Pogo, beklemek Delta'dır.)
+K: A-1.15
+
+## A.2
+
+S: Sözlüğe göre Carrier Control Zone (CCZ) hangisidir?
+- Gemi çevresinde 50 mil yarıçap, yüzeyden 2.500 ft'e kadar; IFR'de CATCC'nin yetkisinde
++ Gemi çevresinde 5 mil yarıçap, yüzeyden 2.500 ft'e kadar (dahil); VFR koşullarında Air Boss'un yetkisinde
+- Gemi çevresinde 5 mil yarıçap, yüzeyden 5.000 ft'e kadar; VFR'de Air Boss'un yetkisinde
+- Gemi çevresinde 10 mil yarıçap, yüzeyden 2.500 ft'e kadar; VFR'de Marshal'ın yetkisinde
+A: "...circular limit defined by a 5 mile radius around the ship surface up to and including 2,500 feet under the cognizance of the Air Boss during VFR conditions."
+K: A-1.17
+
+S: Sözlüğe göre Case I hava şartı nedir?
+- Carrier control zone içinde 1.000 ft tavan ve 5 NM görüş
++ Carrier control zone içinde 3.000 ft tavan ve 5 NM görüş (3.000/5 veya daha iyi), VMC
+- Carrier control zone içinde 3.000 ft tavan ve 3 NM görüş
+- Carrier control zone içinde 5.000 ft tavan ve 5 NM görüş
+A: Case I: VMC'de "3,000/5 or greater" (3.000 ft tavan ve 5 NM görüş, carrier control zone içinde).
+K: A-2.01
+
+S: Sözlüğe göre Case I recovery'de uçaklar nerede marshal eder ve paterne nasıl girer?
++ Geminin üzerinde (overhead) marshal eder, paterne break ile girer.
+- Gemiye göre 180 radyalinde marshal eder, CV-1 yaklaşmasıyla girer.
+- Starboard Delta'da marshal eder, straight-in yaklaşmayla girer.
+- Emergency marshal'da bekler, radar vektörleriyle girer.
+A: "Case I recoveries will marshal overhead the ship and enter the pattern via the break."
+K: A-2.02
+
+S: Sözlüğe göre Case II havası hangisidir?
+- 3.000/5 veya daha iyi
++ 3.000/5'in altında, ama 1.000/5'in üstünde
+- 1.000/5'in altında
+- Gece, hava ne olursa olsun
+A: "Weather less than 3,000/5 but greater than 1,000/5 exist at the ship." (Bölüm 2 ile sınır farkı için A.2'deki kaynak notuna bakın.)
+K: A-2.03
+
+S: Sözlüğe göre Case II recovery nedir ve ne zaman kullanılır?
+- Overhead'den break'e yapılan görsel giriş; VMC'de her zaman kullanılır
++ Break'e ve VFR paternine kontrollü bir IMC alçalması; VFR penetration yapılamadığında kullanılır
+- Gece yapılan CV-1 yaklaşması; tavan 1.000 ft'in altındayken kullanılır
+- IFR'den VMC'ye tırmanış; kalkıştan hemen sonra kullanılır
+A: "Case II recovery is a controlled IMC descent to the break and the VFR pattern. It is used when a VFR penetration cannot be made." IFR'den VMC'ye tırmanış Case II departure'dır.
+K: A-2.04, A-2.05, A-2.08
+
+S: Sözlüğe göre Case II recovery'yi aynı anda en fazla kaç uçak birlikte yapabilir?
+- Tek uçak
++ İki uçaklık bir section
+- Dört uçaklık bir division
+- Sınır yoktur
+A: "In no case will more than a section of two aircraft execute a Case II recovery."
+K: A-2.07
+
+S: Sözlüğe göre Case II recovery'de yaklaşma hangi yollarla yapılabilir?
++ Radar vektörleriyle ya da TACAN veya ADF yaklaşmasıyla
+- Yalnızca ACLS ile
+- Yalnızca görsel (visual) yaklaşmayla
+- Yalnızca MOVLAS ile
+A: "The approach may be via radar vectors or a TACAN or ADF approach."
+K: A-2.06
+
+S: Sözlüğe göre Case III ne zaman kullanılır?
+- Hava 3.000/5'in altında olduğunda
+- Yalnızca gece
++ Hava 1.000/5'in altında olduğunda ya da gece
+- Yalnızca hava 1.000/3'ün altında olduğunda
+A: "Used for weather less than 1,000/5, or at night." (Bölüm 2'deki "1,000-3" ifadesi için A.2'deki kaynak notuna bakın.)
+K: A-2.09
+
+S: Sözlüğe göre "Charlie five" ne demektir?
+- Beş dakika daha beklemeye devam et
++ Beş dakika içinde ramp'te ol
+- Beş mil mesafede paterne gir
+- Beş uçak indikten sonra paterne gir
+A: "'Charlie five' means be at the ramp in five minutes." Charlie, ilk uçağın ramp'te olmasının beklendiği zamandır.
+K: A-2.11, A-2.13
+
+S: "Charlie" ya da "Charlie on arrival" çağrısı ne anlama gelir?
+- Talimat verildiği şekilde beklemeye devam et
+- Azami hızla ilerle
++ Paterne şimdi gir
+- Önceki frekansa dön
+A: "A 'Charlie' or 'Charlie on arrival' call is a directive to enter the pattern now."
+K: A-2.12
+
+S: "Cherubs 3" hangi irtifadır ve normalde kim için kullanılır?
++ 300 ft; helikopterler
+- 3.000 ft; jetler
+- 300 ft; COD uçakları
+- 30 ft; helikopterler
+A: Cherubs = yüz feet cinsinden irtifa; "Cherubs 3 = 300 feet (Normally used for helicopters)."
+K: A-2.14
+
+S: Pilotun "Clara" çağrısı ne anlama gelir?
+- Gemiyi görüyorum.
++ Meatball görünmüyor.
+- İnişe izinlisiniz.
+- Groove'daki uçak inene kadar yayını beklet.
+A: "Clara: Meatball is not in sight." Gemiyi görmek "See You", iniş izni "Roger Ball", yayını bekletmek "On the Ball"dur.
+K: A-2.16
+
+S: Sözlüğe göre waist cat'lerden kalkan bir uçağın clearing turn'ü nasıldır?
+- Önce sağa, sonra BRC'ye paralel
++ Önce sola, sonra BRC'ye paralel
+- Düz devam, 7 DME'de sağa
+- Önce sola, sonra final bearing'e paralel
+A: Bow cat'ler önce sağa, waist cat'ler önce sola döner; ardından ikisi de BRC'ye paralel olacak şekilde döner. Clearing turn, Case I veya II departure ile ilgilidir.
+K: A-2.17, A-2.18, A-2.19
+
+S: Sözlüğe göre clearing turn'lerin amacı nedir?
+- Jet blast'tan güverte personelini korumak
+- Gemiyi tespit edilmekten korumak
++ Gemiden çoklu kalkışlarda uçaklara yanal ayrım (lateral separation) sağlamak
+- Plane guard helikopterinden uzak durmak
+A: "The purpose of these turns is to provide aircraft lateral separation on multiple launches from the carrier."
+K: A-2.20
+
+S: Zip Lip / EMCON sırasında, iniş izni için yakılan cut lights'tan sonraki (subsequent) cut lights ne anlama gelir?
+- Waveoff
+- Bingo
++ Power
+- Roger Ball
+A: Cut lights UHF yerine iniş iznini ("Roger Ball") verir; "Subsequent cut lights mean 'power.'"
+K: A-2.24, A-2.25
+
+S: Sözlüğe göre bingo işareti hangi ışıklarla verilir?
+- Yalnızca datum lights
++ Cut lights ile waveoff lights birlikte
+- Yalnızca waveoff lights
+- Datum lights ile cut lights birlikte
+A: Cut lights "also, used in conjunction with waveoff lights to signal bingo."
+K: A-2.26
+
+S: Sözlüğe göre cut lights nerede bulunur ve kim kontrol eder?
++ IFLOLS lens kutusunun üstünde, ortalanmış ve yatay; LSO kontrol eder
+- Lensin iki yanında, yatay; Air Boss kontrol eder
+- Lensin iki yanında, dikey; LSO kontrol eder
+- Pri-Fly'ın önünde; Tower kontrol eder
+A: "Green lights mounted horizontally and centered above the IFLOLS lens box (controlled by the LSO)."
+K: A-2.23
+
+## A.3
+
+S: Sözlüğe göre datum lights nedir?
+- Lens kutusunun üstünde ortalanmış yeşil ışıklar
++ IFLOLS üzerinde yatay monte edilmiş, ortadaki hücrenin her iki yanında görülen yeşil referans ışıkları
+- Lensin iki yanında dikey monte edilmiş kırmızı ışıklar
+- Kaynak lensin yansıttığı ışık
+A: "Green reference lights mounted horizontally on the IFLOLS, seen on each side of the centered cell." Lens kutusunun üstündekiler cut lights, kaynak lensin ışığı meatball'dur.
+K: A-2.27
+
+S: Paterndeki uçağa "Delta Easy" işareti verildi. Sözlüğe göre ne yapılır?
+- İniş takımı ve flaps/slats toplanır, talimat verildiği şekilde beklenir.
++ Patern irtifasında kalınır; iniş takımı ve flaps/slats aşağıda, speed brakes içeride.
+- Starboard tarafta 500 ft'te sağ dönüşlerle beklenir.
+- Azami hızla Charlie için ilerlenir.
+A: Delta Easy: "remain at pattern altitude with gear and flaps/slats down and speed brakes retracted". İlk şık Delta Clean'dir.
+K: A-3.01, A-3.02
+
+S: EEAT'yi EAT'ten ayıran nedir?
++ Kalkıştan önce atanır ve haberleşme kaybı (lost communications) koşullarında geçerlidir.
+- Yalnızca Case I recovery'de kullanılır.
+- Air Boss tarafından ramp time olarak verilir.
+- Fix'e değil doğrudan ramp'e varış zamanıdır.
+A: İkisi de uçağın önceden atanmış bir fix'ten içeri doğru ayrılmaya ya da penetrasyona izinli olduğu ileri zamandır; EEAT "assigned prior to launch" ve "under lost communications conditions" geçerlidir.
+K: A-3.06, A-3.11
+
+S: Sözlüğe göre başka talimat alınmazsa uçak EAT'de ne yapar?
+- Marshal'da beklemeye devam eder.
+- Önceki frekansa döner.
++ Atanan zamanda ayrılır ve yaklaşmaya başlar.
+- Divert meydanına gider.
+A: "Aircraft depart and commence approach at assigned time if no further instructions are received."
+K: A-3.12
+
+S: Sözlüğe göre emergency marshal radyali, primary marshal radyalinden en az kaç derece ayrık olur?
+- 10°
+- 15°
++ 30°
+- 45°
+A: "The emergency marshal radial will have a minimum of 30 degrees of separation from the primary marshal radial." Emergency marshal'ı CATCC oluşturur ve kalkıştan önce irtifa ve EEAT ile verilir.
+K: A-3.07, A-3.08
+
+S: Sözlüğe göre EMCON sırasında hangisi doğrudur?
+- Yalnızca telsiz yayınları en aza indirilir; radar serbesttir.
++ Tespit edilmemek için, uçuş emniyeti için gerekenler dışında tüm telsiz, radar ve seyrüsefer yayınları kaldırılır.
+- Tüm yayınlar istisnasız kesilir.
+- Yalnızca IFF kapatılır.
+A: EMCON: "to avoid detection. All radio, radar, and navigation equipment transmissions are eliminated except as required for safety of flight." Telsiz haberleşmesinin en aza indirildiği koşul Zip Lip'tir.
+K: A-3.09, A-3.10, A-6.22
+
+S: BRC 015 ise, sözlükteki tanıma göre final bearing genellikle kaçtır?
++ 005
+- 015
+- 025
+- 195
+A: Final bearing genellikle "BRC minus the landing area angle of 10°": 015 − 10 = 005. Final bearing'i CATCC atar.
+K: A-3.16
+
+S: "Father" ve "Mother" kod adları neyi belirtir?
+- Father: LSO; Mother: Air Boss
++ Father: geminin TACAN'ı; Mother: uçak gemisi
+- Father: geminin radarı; Mother: Pri-Fly
+- Father: plane guard helikopteri; Mother: CATCC
+A: "Father: Code name for the ship's TACAN"; "Mother: Code name used to signify the carrier". Radarın kod adı Gadget'tır.
+K: A-3.13, A-5.02
+
+## A.4
+
+S: Sözlüğe göre Hold-Down nedir?
+- Bir yaklaşma daha yapacak kadar yakıtı olan uçak
++ Uçağa kalkıştan önce güvertede yakıt ikmali yapılacağı yakıt durumu
+- En yakın uygun meydana divert için gereken asgari yakıt
+- Motor çalışırken yakıt alma
+A: "Fuel state at which an aircraft will be refueled on deck prior to launch." Diğerleri sırasıyla Trick or Treat, Bingo ve Hot Refueling'dir.
+K: A-4.05
+
+S: Hot Refueling ile Hot Seat arasındaki fark nedir?
++ Hot Refueling: motor çalışırken yakıt alma; Hot Seat: motor çalışırken pilot değişimi
+- Hot Refueling: havada yakıt ikmali; Hot Seat: güvertede yakıt ikmali
+- İkisi de motor çalışırken yakıt almadır
+- Hot Refueling: motor dururken yakıt alma; Hot Seat: motor çalışırken pilot değişimi
+A: "Hot Refueling: Aircraft receives fuel with engine turning"; "Hot Seat: The replacement of one pilot by another pilot while the engine is turning."
+K: A-4.08, A-4.09
+
+S: Pilotun gözü ile uçağın kancası arasındaki dikey mesafeye ne denir?
+- Hook to Ramp
++ Hook to Eye
+- Roll Angle
+- Interval
+A: Hook to Eye bu dikey mesafedir; Hook to Ramp, uçak ramp'i geçerken kanca ucu ile güverte arasındaki açıklık mesafesidir.
+K: A-4.06, A-4.07
+
+S: Sözlüğe göre "In the Middle" konumu groove'un hangi bölümüdür?
+- İlk üçte biri
++ Orta üçte biri ("start" ile "in close" arası)
+- Son üçte biri
+- Ramp'in hemen üstü
+A: "A distance on the groove that is between the 'start' and the 'in close' position. The middle-third of the groove." Start, groove uzunluğunun ilk üçte biridir.
+K: A-4.12, A-4.13, A-6.12
+
+S: Sözlüğe göre LSO, gemi ve FCLP inişlerinde sabit kanatlı uçakları nereden nereye kontrol eder?
+- Marshal'dan ramp'e
+- Break'ten 180'e
++ 180'den teker koyuşa (touchdown)
+- Platform'dan teker koyuşa
+A: "Controls all fixed-wing aircraft off the 180 to touchdown during carrier and FCLP landings."
+K: A-4.16
+
+S: Sözlükte "Marshal" teriminin iki anlamı hangileridir?
++ Case I, II ve III inişlerindeki bekleme paterni; geminin radar kontrolörü
+- Kalkıştaki bekleme sırası; katapult subayı
+- Yalnızca Case III bekleme paterni; LSO
+- Divert meydanı; Air Boss
+A: "(1) Holding pattern during Case I, II, and III recoveries (2) The term used for the ship's radar controller."
+K: A-4.19, A-4.20, A-4.21
+
+S: Sözlüğe göre holdback nedir?
+- Uçağı katapulta bağlayan, burun takımındaki metal kol
+- Katapultun arkasındaki hidrolik plaka
++ Katapult darbesi sırasında önceden ayarlanmış bir kuvvet düzeyinde kırılan ya da bırakan metal bağlantı parçası
+- Uçağı güvertede bağlayan takoz ve zincirler
+A: Holdback böyle tanımlanır; diğerleri sırasıyla Launch Bar, Jet Blast Deflector (JBD) ve Tiedown'dır.
+K: A-4.04
+
+## A.5
+
+S: LSO'nun "On the Ball" çağrısı ne anlama gelir?
+- İnişe izinlisiniz.
++ Groove'daki uçak inene kadar yayınınızı bekletin.
+- Meatball görünmüyor.
+- Paterne şimdi girin.
+A: "LSO call stating hold your transmission until aircraft in the groove has landed."
+K: A-5.04
+
+S: "Pigeons" bilgisi neyi verir?
+- Gemiden kendi kerteriz ve mesafeniz
++ Adı verilen divert meydanına manyetik kerteriz ve mesafe
+- Normal divert için meydana baş (heading)
+- Final yaklaşma için manyetik kerteriz
+A: "Pigeons: The magnetic bearing and distance to the divert field named." Diğerleri sırasıyla Mark your Father, Steer ve Final Bearing'dir.
+K: A-5.08
+
+S: Sözlüğe göre plane guard genellikle nerede bulunur?
++ Helikopter starboard Delta'da, gemi 3 mil kıçta (astern)
+- Helikopter 3 mil pruvada, gemi starboard Delta'da
+- Helikopter overhead'de 1.200 ft'te, gemi 5 mil kıçta
+- Helikopter port tarafta, gemi 10 mil kıçta
+A: "SAR helicopter or ship ... usually located in starboard Delta for a helicopter, three miles astern for a ship."
+K: A-5.11
+
+S: Sözlüğe göre "Platform" rapor noktasında alçalma oranı kaça düşürülür ve bu nokta normalde nerededir?
+- Dakikada 4.000 ft; gemiden 10 NM, 1.200 ft
++ Dakikada 2.000 ft; gemiden 20 NM, 5.000 ft
+- Dakikada 1.000 ft; gemiden 20 NM, 5.000 ft
+- Dakikada 2.000 ft; gemiden 12 NM, 6.000 ft
+A: "A reporting point in the ship's TACAN approach (normally at 20 NM from the ship at 5,000 feet) at which the rate of descent is decreased to 2,000 feet per minute."
+K: A-5.12
+
+S: Atanan frekansta haberleşme kurulamazsa önceki frekansa dönmeyi ifade eden kod?
+- Popeye
++ Pogo
+- Parrot
+- Steer
+A: "Pogo: Return to previous frequency if unable to establish communications on frequency assigned." Popeye: IMC'de uçuş; Parrot: IFF.
+K: A-5.13, A-5.14
+
+S: Sözlüğe göre Primary Marshal Radial ne zaman gerekir?
+- Her Case I recovery'de
++ Birden fazla Marshal stack'i/radyali gerektiğinde (jeopolitik kısıtlamalar ya da aynı bölgede ek muharebe grupları)
+- Yalnızca haberleşme kaybında
+- Yalnızca gece operasyonlarında
+A: Marshal'ın atadığı ve "used as the primary if there is a requirement for more than one Marshal stack/radial" olan radyal.
+K: A-5.16
+
+S: Tele takılmadan sonra, pilotun kuyruk kancasını kaldırabilmesi için telin kısmen geri çekilmesine ne denir?
++ Pull Back
+- Push Back
+- Tension
+- Holdback
+A: Pull Back budur; Push Back, uçağın güverte personeli tarafından geriye itilmesi gereken her durumda yapılan işlemdir.
+K: A-5.17, A-5.18
+
+S: Sözlüğe göre Ramp Time (Ready Deck) nedir?
+- Charlie çağrısından sonraki beş dakika
++ Air Boss'un belirttiği, güvertenin uçak indirmeye hazır olacağı öngörülen zaman; Case III'te ilk uçağın ramp'te olmasının beklendiği zaman
+- Uçağın paterne girmek için geminin üzerinde olmasının beklendiği planlı zaman
+- Marshal'ın verdiği, fix'ten ayrılma zamanı
+A: Ramp Time böyle tanımlanır. Paterne giriş için overhead'de olma zamanı Overhead Time, fix'ten ayrılma zamanı EAT'dir.
+K: A-6.01, A-6.02, A-5.05
+
+S: Sözlüğe göre Red Crown nedir?
+- Geminin radar kontrolörü
++ Genellikle DDG ya da CG üzerinde bulunan, muharebe grubunun hava sahasını koruyan ve IFF kontrollerini doğrulayan hava savunma birimi
+- Gemideki kule konumu
+- SAR helikopteri
+A: "Air Defense Unit generally located on a Destroyer (DDG) or CG that protects the battle group airspace, and verifies IFF checks."
+K: A-6.03
+
+S: Sözlüğe göre "Roger Ball" çağrısı için hangisi doğrudur?
+- Pilot yapar, meatball'ı gördüğünü bildirir.
++ LSO yapar; inişe izinli olduğunuzu ve LSO'nun pozitif kontrolde olduğunu belirtir; inişten bir milden az önce yapılır.
+- Air Boss yapar; paterne şimdi girmenizi ister.
+- LSO yapar; yayınınızı bekletmenizi ister.
+A: "The call made by the LSO that indicates you are cleared to land and the LSO has positive control (call made less than a mile prior to landing)."
+K: A-6.04
+
+S: Sözlüğe göre Roll Angle neyi sağlar?
+- Uçağın final yaklaşmada kanat yatışını
++ Lensin roll ekseni etrafında hareketiyle hedeflenen kanca temas noktasının sabit tutulmasını (her uçak tipi için ayarlanır)
+- Geminin yalpasının LSO'ya bildirilmesini
+- Açılı güverte ile BRC arasındaki 10° farkı
+A: "Movement of the lens about the roll axis (set for each type of aircraft) to maintain a constant targeted hook touchdown point."
+K: A-6.05
+
+## A.6
+
+S: Sözlüğe göre spin hangi irtifada ve nerede yapılan bir oyalama dairesidir?
+- 800 ft; kıçta (fantail)
++ 1.200 ft; pruvada (at the bow)
+- 600 ft; pruvada
+- 1.200 ft; 5 NM'de
+A: "A delaying circle at 1200', performed at the bow when the pattern is too full to allow all members of the flight to break by 4 NM." Bölüm 2'deki farklı anlatım için A.6'daki kaynak notuna bakın.
+K: A-6.10
+
+S: Sözlüğe göre Starboard Delta hangisidir?
++ Helikopterler ve COD uçaklarının, geminin sancak tarafında 500 ft'te sağ dönüşlerle uçtuğu bekleme paterni
+- Jetlerin, geminin iskele tarafında 1.200 ft'te sol dönüşlerle uçtuğu bekleme paterni
+- Helikopterlerin, geminin 3 mil kıçında 300 ft'te uçtuğu patern
+- Tüm uçakların overhead'de 2.000 ft'te uçtuğu patern
+A: "Holding pattern used by the helicopters and COD aircraft flown on the starboard side of the ship and using right-hand turns at 500 feet."
+K: A-6.11
+
+S: Sözlüğe göre "Steer" nedir?
+- Bingo profilindeki uçağa verilen bingo başı
++ Uçak bingo profilinde değilken, gemiden normal divert için bir meydana verilen baş; talimat verilince o meydana gidilir
+- Divert meydanına manyetik kerteriz ve mesafe
+- Final yaklaşma için atanan manyetik kerteriz
+A: "A heading to an airfield for normal divert from the ship when not in bingo profile. When directed, proceed to the field named."
+K: A-6.13, A-6.14
+
+S: Katapult kalkış sırasında shuttle'ın boşluğu almak için hidrolikle ileri hareket ettirildiği bölüme ne denir?
+- Suspend
++ Tension
+- Pull Back
+- Holdback
+A: Tension budur. "Suspend" katapult kalkış sırasını durdur demektir; shuttle, launch bar'a bağlanan katapult parçasıdır.
+K: A-6.18, A-6.16, A-6.09
+
+S: Sözlüğe göre "Trick or Treat" uçağı trap yapmazsa ne olur?
+- Hemen bir yaklaşma daha yapar.
++ Bingo yapmak ya da (yapabiliyorsa) havada yakıt ikmali almak zorundadır.
+- Starboard Delta'da bekler.
+- Güvertede yakıt ikmali için hold-down'a alınır.
+A: Trick or Treat, paternde bir yaklaşma daha yapacak kadar yakıtı olan uçaktır; "If the aircraft does not trap, it will have to bingo or in-flight refuel (if able)."
+K: A-6.20, A-6.21
+
+S: "Strangle Your Parrot" talimatı ne ister?
++ IFF'ini kapat.
+- Radarını kapat.
+- TACAN kilidini doğrula.
+- Telsiz yayınını en aza indir.
+A: Parrot = IFF; "Strangle Your Parrot: Turn off your IFF." Pozitif TACAN kilidi Sweet Lock'tur.
+K: A-6.15, A-5.07, A-6.17

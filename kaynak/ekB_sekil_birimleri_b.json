@@ -1,0 +1,177 @@
+[
+ {
+  "id": "B-7.F1",
+  "page": "B-7",
+  "kind": "sekil-icerik",
+  "sec": "Figure B-7",
+  "text": "[Figure B-7] SIGNAL: CLEAR DECK | FROM: Flight Deck Officer/Director | TO: Arresting Gear Officer | Day: Sweep arm from overhead position to side position and return. | Night: Same as day except with AMBER wand."
+ },
+ {
+  "id": "B-7.F2",
+  "page": "B-7",
+  "kind": "sekil-icerik",
+  "sec": "Figure B-7",
+  "text": "[Figure B-7] SIGNAL: FOUL DECK | FROM: Flight Deck Officer/Director | TO: Arresting Gear Officer | Day: Cross arms overhead, fists clenched. | Night: Crossed AMBER wands held overhead"
+ },
+ {
+  "id": "B-7.F3",
+  "page": "B-7",
+  "kind": "sekil-icerik",
+  "sec": "Figure B-7",
+  "text": "[Figure B-7] SIGNAL: PULL BACK | FROM: Hook Runner | TO: Director | Day: Make fore-to-aft sweeping motion with arms extended downward, palms aft. | Night: Same motion except with RED stubby wand. || FROM: Director | TO: Pilot, Deckedge Operator | Day: Make fore-to-aft sweeping motion with arms extended, palms forward. | Night: Same motion except with two AMBER wands."
+ },
+ {
+  "id": "B-8.F1",
+  "page": "B-8",
+  "kind": "sekil-icerik",
+  "sec": "Figure B-8",
+  "text": "[Figure B-8] SIGNAL: CEASE PULL BACK | FROM: Director | TO: Deckedge Operator || FROM: Hook Runner | TO: Director | Day: Cross arms below waist | Night: Horizontal movements of wand below waist."
+ },
+ {
+  "id": "B-8.F2",
+  "page": "B-8",
+  "kind": "sekil-icerik",
+  "sec": "Figure B-8",
+  "text": "[Figure B-8] SIGNAL: RAISE HOOK | FROM: Director | TO: Pilot | Day: Position left hand horizontally in front of body, palm down. Move right hand upward, bringing extended thumb into left palm. | Night: Position left wand horizontally in front of body. Position right wand vertically to form a “T”."
+ },
+ {
+  "id": "B-9.F1",
+  "page": "B-9",
+  "kind": "sekil-icerik",
+  "sec": "Figure B-9",
+  "text": "[Figure B-9] SIGNAL: LOWER HOOK | FROM: Director | TO: Pilot | Day: Position left hand horizontally in front of body, palm up. Move right hand downward, bringing extended thumb into left palm. | Night: Position left wand horizontally in front of body. Position right wand vertically to form an inverted “T”."
+ },
+ {
+  "id": "B-9.F2",
+  "page": "B-9",
+  "kind": "sekil-icerik",
+  "sec": "Figure B-9",
+  "text": "[Figure B-9] SIGNAL: WIRE CLEAR | FROM: Hook Runner | TO: Director | Day: Make a vertical motion with arm pointed at the taxi director. | Night: Same, holding RED stubby wand."
+ },
+ {
+  "id": "B-9.F3",
+  "page": "B-9",
+  "kind": "sekil-icerik",
+  "sec": "Figure B-9",
+  "text": "[Figure B-9] SIGNAL: WIRE RETRACT | FROM: Hook Runner | TO: Deckedge Operator | Day: Make large circular motion with arm extended to one side. | Night: Same, holding RED stubby wand."
+ },
+ {
+  "id": "B-10.F1",
+  "page": "B-10",
+  "kind": "sekil-icerik",
+  "sec": "Figure B-10",
+  "text": "[Figure B-10] SIGNAL: TILLER BAR IN PLACE OR ENGAGE NOSEWHEEL STEERING | FROM: Director | TO: Pilot | Day: Touch end of nose with forefinger. Then, give thumbs up signal with same hand. | Night: Touch end of nose with wand. Then, give “up” signal with same wand."
+ },
+ {
+  "id": "B-10.F2",
+  "page": "B-10",
+  "kind": "sekil-icerik",
+  "sec": "Figure B-10",
+  "text": "[Figure B-10] SIGNAL: TILLER BAR REMOVED OR DISENGAGE NOSE WHEEL STEERING | FROM: Director | TO: Pilot | Day: Touch end of nose with forefinger. Then, sweep arm downward in direction of aircraft movement. | Night: Touch end of nose with wand. Then, sweep wand downward in direction of aircraft movement."
+ },
+ {
+  "id": "B-10.F3",
+  "page": "B-10",
+  "kind": "sekil-icerik",
+  "sec": "Figure B-10",
+  "text": "[Figure B-10] SIGNAL: INSTALL TIEDOWNS | FROM: Director | TO: Pilot, Brake Rider | Day: Rotate hands in a vertical circle in front of body. | Night: Same as day except with AMBER wands."
+ },
+ {
+  "id": "B-10.F4",
+  "page": "B-10",
+  "kind": "sekil-icerik",
+  "sec": "Figure B-10",
+  "text": "[Figure B-10] SIGNAL: TIEDOWNS IN PLACE | FROM: Director | TO: Pilot, Brake Rider | EXECUTION: Same as “Install Tiedowns” adding a thumbs up signal."
+ },
+ {
+  "id": "B-10.F5",
+  "page": "B-10",
+  "kind": "sekil-icerik",
+  "sec": "Figure B-10",
+  "text": "[Figure B-10] SIGNAL: REVERSE THRUST TAXI | FROM: Director | TO: Pilot | Day: Palms facing aircraft at eye level with a pushback motion. For turns, the director points in direction tail is to move. | Night: Same, holding wands."
+ },
+ {
+  "id": "B-11.F1",
+  "page": "B-11",
+  "kind": "sekil-icerik",
+  "sec": "Figure B-11",
+  "text": "[Figure B-11] REFUELING SIGNALS — TOP OFF (item number not printed legibly; only a faint mark precedes it, the other items are numbered 2.–7.): Pat top of head."
+ },
+ {
+  "id": "B-11.F2",
+  "page": "B-11",
+  "kind": "sekil-icerik",
+  "sec": "Figure B-11",
+  "text": "[Figure B-11] REFUELING SIGNALS — 2. FUEL STATUS: Movement of thumb to mouth for requesting fuel on board."
+ },
+ {
+  "id": "B-11.F3",
+  "page": "B-11",
+  "kind": "sekil-icerik",
+  "sec": "Figure B-11",
+  "text": "[Figure B-11] REFUELING SIGNALS — 3. PROBE OUT: Arm across chest, then extend out horizontally."
+ },
+ {
+  "id": "B-11.F4",
+  "page": "B-11",
+  "kind": "sekil-icerik",
+  "sec": "Figure B-11",
+  "text": "[Figure B-11] REFUELING SIGNALS — 4. PROBE IN: Arm extended out horizontally, then brought in to cross chest."
+ },
+ {
+  "id": "B-11.F5",
+  "page": "B-11",
+  "kind": "sekil-icerik",
+  "sec": "Figure B-11",
+  "text": "[Figure B-11] REFUELING SIGNALS — 5. CLOSE DUMP VALVE: Point finger at elbow."
+ },
+ {
+  "id": "B-11.F6",
+  "page": "B-11",
+  "kind": "sekil-icerik",
+  "sec": "Figure B-11",
+  "text": "[Figure B-11] REFUELING SIGNALS — 6. CUT FUEL: Fingers point at throat, moving hand sideways."
+ },
+ {
+  "id": "B-11.F7",
+  "page": "B-11",
+  "kind": "sekil-icerik",
+  "sec": "Figure B-11",
+  "text": "[Figure B-11] REFUELING SIGNALS — 7. FUEL WEIGHT STATUS: Movement of arms up and down, palms up for requesting fuel weights."
+ },
+ {
+  "id": "B-11.F8",
+  "page": "B-11",
+  "kind": "sekil-icerik",
+  "sec": "Figure B-11",
+  "text": "[Figure B-11] FUEL QUANTITY SIGNALS* — FOR HUNDREDS OF POUNDS: Clenched fist followed by 100, 200, 300, 400, 500, 600, 700, 800, 900 (drawings: 100–500 = one to five fingers raised vertically; 600–900 = hand held horizontally with one to four fingers extended)."
+ },
+ {
+  "id": "B-11.F9",
+  "page": "B-11",
+  "kind": "sekil-icerik",
+  "sec": "Figure B-11",
+  "text": "[Figure B-11] FUEL QUANTITY SIGNALS* — FOR EVEN THOUSANDS OF POUNDS: 1,000, 2,000, 3,000, 4,000, 5,000, 6,000, 7,000, 8,000, 9,000 (drawings: 1,000–5,000 = one to five fingers raised vertically; 6,000–9,000 = hand held horizontally with one to four fingers extended)."
+ },
+ {
+  "id": "B-11.F10",
+  "page": "B-11",
+  "kind": "sekil-icerik",
+  "sec": "Figure B-11",
+  "text": "[Figure B-11] FUEL QUANTITY SIGNALS* — FOR LOADS THAT DO NOT FALL ON EVEN THOUSANDS OF POUNDS: Example: 1,500 lbs = 1,000 lbs followed by 500 lbs. Example: 7,400 lbs = 7,000 lbs followed by 400 lbs. Double finger (a vertical signal followed by a horizontal one) (drawings: 1,000 lbs = one finger vertical, 500 lbs = five fingers vertical; 7,000 lbs = two fingers horizontal, 400 lbs = four fingers vertical)."
+ },
+ {
+  "id": "B-11.F11",
+  "page": "B-11",
+  "kind": "sekil-icerik",
+  "sec": "Figure B-11",
+  "text": "[Figure B-11] FUEL QUANTITY SIGNALS* — FOR LOADS OF TEN THOUSANDS OF POUNDS AND OVER: Example: 12,000 lbs = 10,000 lbs followed by 2,000 lbs followed by clenched fist. Example: 12,500 lbs = 10,000 lbs followed by 2,000 lbs followed by 500 lbs. Double finger (a vertical signal followed by a horizontal one) followed by a clenched fist for exact thousands, or a third finger signal for hundreds. (drawings: 10,000 lbs = one finger vertical; 2,000 lbs = two fingers vertical; 500 lbs = five fingers vertical)."
+ },
+ {
+  "id": "B-11.F12",
+  "page": "B-11",
+  "kind": "sekil-icerik",
+  "sec": "Figure B-11",
+  "text": "[Figure B-11] Footnote: *NATO fuel signals can be found in Figure 1-1 (9 of 9) p. 1-11"
+ }
+]

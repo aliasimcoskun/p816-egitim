@@ -1,0 +1,50 @@
+/* Bölüm 2, parça b: b_isaretler ve b_kalkis bileşenleri */
+.w-b-isaretler .bis-mod,.w-b-kalkis .bkl-sec{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:10px}
+.bis-adimlar{list-style:none;display:flex;flex-wrap:wrap;gap:5px;margin:0 0 6px;padding:0}
+.bis-nokta{font:inherit;font-size:13px;font-weight:700;width:32px;height:32px;border-radius:50%;cursor:pointer;
+  border:2px solid var(--cizgi);background:var(--yuzey);color:var(--metin)}
+.bis-nokta.bis-dir{border-color:var(--uyari)}
+.bis-nokta.bis-cat{border-color:var(--vurgu)}
+.bis-nokta.gecti{background:var(--yuzey2);color:var(--soluk)}
+.bis-nokta.aktif.bis-dir{background:var(--uyari);color:#fff}
+.bis-nokta.aktif.bis-cat{background:var(--vurgu);color:#fff}
+.bis-lejant{display:flex;flex-wrap:wrap;gap:12px;font-size:12.5px;color:var(--soluk);margin-bottom:8px}
+.bis-lejant span::before{content:"";display:inline-block;width:10px;height:10px;border-radius:50%;margin-right:5px;vertical-align:-1px}
+.bis-lejant .bis-dir::before{background:var(--uyari)}
+.bis-lejant .bis-cat::before{background:var(--vurgu)}
+.bis-kart{background:var(--yuzey2);border-radius:10px;padding:10px 14px;min-height:150px;font-size:14.5px}
+.bis-kart p{margin:6px 0}
+.bis-bas{display:flex;gap:12px;align-items:center;margin-bottom:4px}
+.bis-bas strong{display:block;font-size:16px}
+.bis-bas small{color:var(--soluk);font-size:13px}
+.bis-harf{flex:none;width:36px;height:36px;border-radius:8px;background:var(--metin);color:var(--yuzey);
+  display:flex;align-items:center;justify-content:center;font-weight:700;font-size:18px}
+.bis-pilot{border-left:3px solid var(--iyi);padding-left:8px}
+.bis-ilgili{color:var(--soluk);font-size:13.5px}
+.bis-nav{display:flex;justify-content:space-between;gap:8px;margin-top:8px}
+.bis-soru{background:var(--yuzey2);border-radius:10px;padding:10px 14px;font-size:14.5px;min-height:64px;margin:0 0 8px}
+.bis-siklar{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:6px}
+.bis-siklar .btn{text-align:left}
+.bis-siklar .btn.bis-dogru{background:var(--iyi-ac);border-color:var(--iyi);color:var(--iyi);font-weight:600}
+.bis-siklar .btn.bis-yanlis{background:var(--kotu-ac);border-color:var(--kotu);color:var(--kotu)}
+.bis-sonuc{font-size:14px;min-height:22px;margin:8px 0 0}
+
+.w-b-kalkis svg{max-width:460px;margin:0 auto}
+.w-b-kalkis [data-g]{display:none}
+.w-b-kalkis[data-case="1"] [data-g~="1"],
+.w-b-kalkis[data-case="2"] [data-g~="2"],
+.w-b-kalkis[data-case="3"] [data-g~="3"]{display:inline}
+.bkl-arc{fill:none;stroke:var(--uyari);stroke-width:1.5}
+.bkl-kol{fill:none;stroke:var(--uyari);stroke-width:2}
+.bkl-ucus{fill:none;stroke:var(--uyari);stroke-width:3}
+.bkl-duz{stroke:var(--uyari);stroke-width:3}
+.bkl-tik{stroke:var(--metin);stroke-width:2}
+.bkl-brc{stroke:var(--metin);stroke-width:2}
+.bkl-brc-uc{fill:var(--metin)}
+.w-b-kalkis .bkl-sag{text-anchor:end}
+.w-b-kalkis .bkl-sol{text-anchor:start}
+.bkl-rapor circle{fill:var(--vurgu)}
+.bkl-rapor text{fill:#fff;font-size:10px;font-weight:700;text-anchor:middle;font-family:var(--font)}
+.bkl-bilgi{background:var(--yuzey2);border-radius:8px;padding:8px 12px;font-size:14.5px;margin-top:8px}
+.bkl-bilgi ul,.bkl-bilgi ol{margin:4px 0 6px;padding-left:22px}
+.bkl-bilgi li{margin:2px 0}

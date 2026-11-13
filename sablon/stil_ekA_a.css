@@ -1,0 +1,41 @@
+/* Ek A, parça a: ekA_sozluk (aranabilir sözlük) */
+.w-ekA-sozluk .ekA-sz-arac{display:flex;flex-wrap:wrap;align-items:center;gap:8px 12px}
+.w-ekA-sozluk .ekA-sz-ara{flex:1 1 220px;min-width:0;font:inherit;font-size:15px;padding:8px 11px;border-radius:8px;
+  border:1px solid var(--cizgi);background:var(--yuzey);color:var(--metin)}
+.w-ekA-sozluk .ekA-sz-ara:focus{outline:2px solid var(--vurgu);outline-offset:1px;border-color:var(--vurgu)}
+.w-ekA-sozluk .ekA-sz-sayac{font-size:13px;color:var(--soluk);white-space:nowrap}
+.w-ekA-sozluk .ekA-sz-cipler{display:flex;flex-wrap:wrap;gap:6px;margin:10px 0}
+.w-ekA-sozluk .ekA-sz-cip{font:inherit;font-size:13px;padding:3px 11px;border-radius:999px;border:1px solid var(--cizgi);
+  background:var(--yuzey);color:var(--metin);cursor:pointer}
+.w-ekA-sozluk .ekA-sz-cip:hover{border-color:var(--vurgu)}
+.w-ekA-sozluk .ekA-sz-cip[aria-pressed="true"]{background:var(--vurgu);border-color:var(--vurgu);color:#fff;font-weight:600}
+.w-ekA-sozluk .ekA-sz-govde{display:flex;flex-wrap:wrap;align-items:flex-start;gap:12px}
+.w-ekA-sozluk .ekA-sz-liste{flex:1 1 230px;min-width:0;position:relative;list-style:none;margin:0;padding:0;max-height:360px;overflow:auto;
+  border:1px solid var(--cizgi);border-radius:10px;background:var(--yuzey)}
+@media (max-width:600px){.w-ekA-sozluk .ekA-sz-liste{max-height:260px}}
+.w-ekA-sozluk .ekA-sz-liste li+li{border-top:1px solid var(--cizgi)}
+.w-ekA-sozluk .ekA-sz-oge{display:block;width:100%;text-align:left;font:inherit;background:none;border:0;
+  padding:7px 11px;color:var(--metin);cursor:pointer}
+.w-ekA-sozluk .ekA-sz-oge:hover{background:var(--yuzey2)}
+.w-ekA-sozluk .ekA-sz-oge:focus-visible{outline:2px solid var(--vurgu);outline-offset:-2px}
+.w-ekA-sozluk .ekA-sz-oge.secili{background:var(--vurgu-ac,var(--yuzey2));box-shadow:inset 3px 0 0 var(--vurgu)}
+.w-ekA-sozluk .ekA-sz-t{display:block;font-weight:600;font-size:14.5px;line-height:1.35}
+.w-ekA-sozluk .ekA-sz-oz{display:block;font-size:12.5px;line-height:1.4;color:var(--soluk);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.w-ekA-sozluk .ekA-sz-isaret{color:var(--mor,var(--vurgu));font-size:11px;margin-left:5px;vertical-align:1px}
+.w-ekA-sozluk .ekA-sz-yok{padding:10px 12px;color:var(--soluk);font-size:14px}
+.w-ekA-sozluk mark{background:var(--uyari-ac,var(--yuzey2));color:inherit;border-radius:2px;padding:0 1px;box-shadow:0 1px 0 var(--uyari)}
+.w-ekA-sozluk .ekA-sz-detay{flex:1.5 1 280px;min-width:0;border:1px solid var(--cizgi);border-radius:10px;background:var(--yuzey2);padding:12px 14px;min-height:140px}
+.w-ekA-sozluk .ekA-sz-bos{margin:0;color:var(--soluk);font-size:14px}
+.w-ekA-sozluk .ekA-sz-baslik{margin:0 0 4px;font-size:18px;line-height:1.3}
+.w-ekA-sozluk .ekA-sz-meta{display:flex;flex-wrap:wrap;gap:4px 12px;font-size:12.5px;color:var(--soluk)}
+.w-ekA-sozluk .ekA-sz-uid{font-family:var(--mono);font-size:11.5px;color:var(--vurgu)}
+.w-ekA-sozluk .ekA-sz-tanim{margin:8px 0 0;font-size:15px}
+.w-ekA-sozluk .ekA-sz-not{margin-top:10px;padding:7px 10px;border-radius:8px;font-size:13.5px;
+  background:var(--mor-ac,var(--yuzey));border:1px dashed var(--mor,var(--cizgi))}
+.w-ekA-sozluk .ekA-sz-not b{color:var(--mor,var(--vurgu));margin-right:4px}
+.w-ekA-sozluk .ekA-sz-ilgili{margin-top:10px;font-size:13.5px;display:flex;flex-wrap:wrap;gap:4px 8px;align-items:baseline}
+.w-ekA-sozluk .ekA-sz-ilgili span{color:var(--soluk)}
+.w-ekA-sozluk .ekA-sz-git{font:inherit;font-size:13.5px;background:none;border:0;padding:0;color:var(--vurgu);
+  text-decoration:underline;text-underline-offset:2px;cursor:pointer;text-align:left}
+/* Ek A sözlük tabloları (yalnızca s-A.* bölümleri): terim sütunu çok daralmasın */
+section.bolum[id^="s-A."] .tablo td:first-child{min-width:8.5em}

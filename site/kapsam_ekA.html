@@ -1,0 +1,2155 @@
+<!doctype html>
+<html lang="tr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>P-816 Ek A kapsam</title><style>:root{
+  --bg:#f6f5f1;--yuzey:#ffffff;--yuzey2:#efede7;--cizgi:#dcd8cf;--metin:#1d2126;--soluk:#5d646d;
+  --vurgu:#0f5d8c;--vurgu-ac:#e3eef5;--iyi:#1f7a46;--iyi-ac:#e2f2e8;--kotu:#b3362f;--kotu-ac:#f8e3e1;
+  --uyari:#9a6200;--uyari-ac:#fbf0d9;--mor:#6b3fa0;--mor-ac:#efe7f8;
+  --amber:#f2a516;--amber-sonuk:#5c4512;--kirmizi:#e0352b;--kirmizi-sonuk:#4d1714;--yesil:#25c45a;--yesil-sonuk:#174d2a;
+  --golge:0 1px 2px rgba(0,0,0,.06),0 4px 14px rgba(0,0,0,.05);
+  --font:"Segoe UI",system-ui,-apple-system,"Noto Sans",sans-serif;--mono:"Cascadia Mono",Consolas,ui-monospace,monospace;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#14171b;--yuzey:#1c2026;--yuzey2:#232830;--cizgi:#323944;--metin:#e7e9ec;--soluk:#9aa3ad;
+  --vurgu:#5fb0e6;--vurgu-ac:#17303f;--iyi:#5ccf8a;--iyi-ac:#163324;--kotu:#f07a72;--kotu-ac:#3a1d1b;
+  --uyari:#e8b04a;--uyari-ac:#35290f;--mor:#b892e8;--mor-ac:#2a2138;--golge:0 1px 2px rgba(0,0,0,.3);}}
+:root[data-theme="dark"]{
+  --bg:#14171b;--yuzey:#1c2026;--yuzey2:#232830;--cizgi:#323944;--metin:#e7e9ec;--soluk:#9aa3ad;
+  --vurgu:#5fb0e6;--vurgu-ac:#17303f;--iyi:#5ccf8a;--iyi-ac:#163324;--kotu:#f07a72;--kotu-ac:#3a1d1b;
+  --uyari:#e8b04a;--uyari-ac:#35290f;--mor:#b892e8;--mor-ac:#2a2138;--golge:0 1px 2px rgba(0,0,0,.3);}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:70px}
+body{margin:0;background:var(--bg);color:var(--metin);font:16px/1.6 var(--font);-webkit-text-size-adjust:100%}
+a{color:var(--vurgu)}
+code{font-family:var(--mono);font-size:.88em}
+.btn{font:inherit;font-size:14px;border:1px solid var(--cizgi);background:var(--yuzey);color:var(--metin);
+  padding:6px 12px;border-radius:7px;cursor:pointer;text-decoration:none;display:inline-flex;align-items:center;gap:6px}
+.btn:hover{border-color:var(--vurgu)}
+.btn.aktif{background:var(--vurgu);color:#fff;border-color:var(--vurgu)}
+/* üst çubuk */
+.ust{position:sticky;top:0;z-index:20;display:flex;align-items:center;gap:14px;padding:10px 20px;
+  background:color-mix(in srgb,var(--bg) 88%,transparent);backdrop-filter:blur(8px);border-bottom:1px solid var(--cizgi)}
+.ust-baslik{display:flex;flex-direction:column;line-height:1.25;min-width:0}
+.ust-baslik strong{font-size:16px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.etiket{font-size:12px;color:var(--soluk);letter-spacing:.02em}
+.ust-araclar{margin-left:auto;display:flex;gap:8px;flex-shrink:0}
+a.ust-baslik{color:inherit;text-decoration:none}
+.bolum-nav{display:flex;gap:4px;margin-left:12px}
+.bolum-link{font-size:13.5px;padding:5px 10px;border-radius:7px;color:var(--soluk);text-decoration:none;white-space:nowrap}
+.bolum-link:hover{background:var(--yuzey2);color:var(--metin)}
+.bolum-link.aktif{background:var(--vurgu-ac);color:var(--vurgu);font-weight:600}
+.rapor-baslik{font-size:24px;margin:4px 0 16px}
+.bolum-izgara{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:16px;margin-top:20px}
+.bolum-kart{background:var(--yuzey);border:1px solid var(--cizgi);border-radius:14px;padding:16px 18px;box-shadow:var(--golge);display:flex;flex-direction:column;gap:10px}
+.bolum-kart h2{font-size:20px;margin:0}
+.bk-ust{display:flex;justify-content:space-between;align-items:baseline}
+.bk-ust .no{font-family:var(--mono);font-size:13px;color:var(--vurgu);background:var(--vurgu-ac);padding:2px 8px;border-radius:6px}
+.bk-ust small{color:var(--soluk)}
+.bk-sayilar{display:grid;grid-template-columns:1fr 1fr;gap:6px;font-size:13.5px;color:var(--soluk)}
+.bk-sayilar b{color:var(--metin)}
+.bk-linkler{display:flex;gap:8px;margin-top:auto}
+.menu-btn{display:none;font-size:20px;background:none;border:0;color:var(--metin);cursor:pointer}
+/* yerleşim */
+.duzen{display:grid;grid-template-columns:280px minmax(0,1fr);max-width:1240px;margin:0 auto}
+.yan{position:sticky;top:61px;height:calc(100vh - 61px);overflow:auto;padding:20px 16px;border-right:1px solid var(--cizgi)}
+.yan ol{list-style:none;padding:0;margin:14px 0}
+.yan li a{display:flex;align-items:baseline;gap:8px;padding:7px 8px;border-radius:7px;color:var(--metin);text-decoration:none;font-size:14.5px}
+.yan li a:hover{background:var(--yuzey2)}
+.yan .no{font-family:var(--mono);font-size:12px;color:var(--soluk);min-width:38px}
+.rozet{margin-left:auto;font-size:11.5px;color:var(--soluk);white-space:nowrap}
+.rozet.tamam{color:var(--iyi);font-weight:600}
+.yan-ozet{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.yan-ozet div{background:var(--yuzey);border:1px solid var(--cizgi);border-radius:9px;padding:8px 10px;display:flex;flex-direction:column}
+.yan-ozet b{font-size:18px}.yan-ozet span{font-size:12px;color:var(--soluk);line-height:1.3}
+.yan-not{font-size:12.5px;color:var(--soluk)}
+main{padding:28px 40px 80px;min-width:0}
+.giris{background:var(--vurgu-ac);border-radius:10px;padding:12px 16px;font-size:15px}
+.giris p{margin:0}
+.kutu-ornek{background:var(--mor-ac);color:var(--mor);padding:1px 6px;border-radius:4px;font-size:13px;font-weight:600}
+.bolum{margin-top:44px;max-width:860px}
+h2{font-size:26px;line-height:1.25;margin:0 0 14px;display:flex;gap:12px;align-items:baseline}
+h2 .no{font-family:var(--mono);font-size:15px;color:var(--vurgu);background:var(--vurgu-ac);padding:2px 8px;border-radius:6px}
+h3{font-size:19px;margin:30px 0 8px}h4{font-size:16px;margin:22px 0 6px}
+/* blok */
+.blok{position:relative;margin:10px 0 6px}
+.blok p{margin:0 0 10px}
+.blok ul,.blok ol{margin:0 0 10px;padding-left:22px}.blok li{margin:3px 0}
+.kaynak-bar{display:flex;justify-content:flex-end;margin-top:-2px}
+.kaynak-btn{font:inherit;font-size:12px;color:var(--soluk);background:none;border:0;cursor:pointer;padding:2px 4px;display:inline-flex;gap:6px;align-items:center}
+.kaynak-btn:hover,.kaynak-btn[aria-expanded="true"]{color:var(--vurgu)}
+.kb-ikon{font-family:var(--mono);font-size:10px;font-weight:700;border:1px solid currentColor;border-radius:4px;padding:0 4px}
+.orijinal{background:var(--yuzey2);border-left:3px solid var(--vurgu);border-radius:0 8px 8px 0;padding:8px 12px;margin:4px 0 14px;font-size:14px}
+.orijinal-liste{list-style:none;margin:0;padding:0}
+.orijinal-liste li{margin:4px 0;color:var(--metin)}
+.orijinal-liste li.fig{color:var(--soluk);font-style:italic}
+.uid{font-family:var(--mono);font-size:11.5px;color:var(--vurgu);margin-right:8px;white-space:nowrap}
+.tablo{overflow-x:auto;margin:6px 0 12px}
+table{border-collapse:collapse;width:100%;font-size:14.5px;background:var(--yuzey);border-radius:8px;overflow:hidden}
+th,td{border-bottom:1px solid var(--cizgi);padding:7px 10px;text-align:left;vertical-align:top}
+th{background:var(--yuzey2);font-size:13px;color:var(--soluk);font-weight:600}
+/* uyarı kutuları */
+.kutu{border-radius:10px;padding:10px 14px;margin:6px 0}
+.kutu-baslik{font-weight:600;margin-bottom:4px}
+.kutu-baslik span{font-size:11px;text-transform:uppercase;letter-spacing:.06em;padding:1px 6px;border-radius:4px;margin-right:6px}
+.kutu-dikkat{background:var(--uyari-ac)}.kutu-dikkat .kutu-baslik span{background:var(--uyari);color:#fff}
+.kutu-not{background:var(--vurgu-ac)}.kutu-not .kutu-baslik span{background:var(--vurgu);color:#fff}
+.kutu-uyari{background:var(--kotu-ac);border-left:4px solid var(--kotu)}.kutu-uyari .kutu-baslik span{background:var(--kotu);color:#fff}
+.kutu-kaynak{background:var(--mor-ac);border:1px dashed var(--mor)}.kutu-kaynak .kutu-baslik span{background:var(--mor);color:#fff}
+.kutu p:last-child,.kutu ul:last-child{margin-bottom:0}
+/* şekil */
+.sekil{margin:8px 0;background:var(--yuzey);border:1px solid var(--cizgi);border-radius:10px;overflow:hidden}
+.sekil img{display:block;width:100%;height:auto;background:#fff}
+.sekil figcaption{padding:10px 14px;font-size:14.5px}
+.sekil figcaption>strong{display:block;margin-bottom:4px}
+.sekil figcaption ul{margin:4px 0 0;padding-left:20px}
+/* bileşenler */
+.w{background:var(--yuzey);border:1px solid var(--cizgi);border-radius:12px;padding:14px 16px;margin:12px 0;box-shadow:var(--golge)}
+.w-baslik{font-weight:600;margin-bottom:8px}.w-baslik small{font-weight:400;color:var(--soluk);margin-left:6px}
+.w-not{font-size:13px;color:var(--soluk);margin:8px 0 0}
+.w svg{width:100%;height:auto;display:block}
+.hs-t{fill:var(--metin);font-size:13px;font-weight:600;text-anchor:middle;font-family:var(--font)}
+.hs-k{fill:var(--soluk);font-size:12px;font-family:var(--font)}
+g .hs-k{text-anchor:middle}
+.hs-cca{fill:var(--vurgu-ac);stroke:var(--vurgu);stroke-dasharray:5 4}
+.hs-ccz{fill:color-mix(in srgb,var(--uyari) 22%,transparent);stroke:var(--uyari)}
+.hs-gemi{fill:var(--metin)}.hs-deniz{stroke:var(--vurgu);stroke-width:2}
+.hs-olcu{stroke:var(--soluk);stroke-dasharray:3 3}
+/* organizasyon */
+.org{display:grid;grid-template-columns:1fr 1.4fr;gap:14px}
+.org-bas{font-weight:700;padding:6px 10px;border-radius:8px;margin-bottom:8px;font-size:14px}
+.org-bas small{display:block;font-weight:400;opacity:.85}
+.org-bas.aw{background:var(--iyi-ac);color:var(--iyi)}.org-bas.sc{background:var(--vurgu-ac);color:var(--vurgu)}
+.org-dugum{border:1px solid var(--cizgi);border-radius:8px;padding:5px 9px;margin:5px 0;font-weight:600;font-size:14px;background:var(--yuzey)}
+.org-dugum small{font-weight:400;color:var(--soluk);margin-left:4px}
+.org-alt{border-left:2px solid var(--cizgi);margin:6px 0 2px 6px;padding-left:10px}
+/* forma */
+.forma-izgara{display:grid;grid-template-columns:repeat(auto-fill,minmax(190px,1fr));gap:10px}
+.forma-kart{border:1px solid var(--cizgi);border-radius:10px;overflow:hidden;background:var(--yuzey)}
+.forma-kart .renk{padding:6px 10px;font-weight:700;font-size:14px}
+.forma-kart ul{margin:0;padding:8px 10px 10px 26px;font-size:13px}
+.forma-oyun{margin-top:12px;border-top:1px dashed var(--cizgi);padding-top:10px}
+.forma-soru{font-weight:600;font-size:17px;margin:4px 0 10px}
+.forma-renkler{display:flex;flex-wrap:wrap;gap:8px}
+.forma-renkler button{width:44px;height:44px;border-radius:50%;border:2px solid var(--cizgi);cursor:pointer}
+.forma-renkler button:hover{transform:scale(1.08)}
+.forma-sonuc{min-height:24px;margin:8px 0 0;font-size:14.5px}
+/* teller */
+.tel-guverte,.kat-guverte{fill:var(--yuzey2);stroke:var(--soluk);stroke-width:1.2}
+.tel-rd{stroke:var(--metin);stroke-width:4}
+.teller line{stroke:var(--metin);stroke-width:3}
+.tel-bariyer{stroke:var(--kotu);stroke-width:3;stroke-dasharray:6 5}
+.tel-ok{stroke:var(--vurgu);stroke-width:2.5}.tel-okucu{fill:var(--vurgu)}
+.tel-pc{fill:none;stroke:var(--soluk);stroke-dasharray:4 3}
+.tel-motor{fill:var(--vurgu-ac);stroke:var(--vurgu)}
+.sayilar{display:grid;grid-template-columns:repeat(auto-fill,minmax(140px,1fr));gap:8px;margin-top:10px}
+.sayilar div{background:var(--yuzey2);border-radius:8px;padding:8px 10px;display:flex;flex-direction:column}
+.sayilar b{font-size:17px}.sayilar span{font-size:12.5px;color:var(--soluk)}
+/* katapult */
+.kat-ada{fill:var(--soluk)}
+.kat-iz line{stroke:var(--metin);stroke-width:3}
+.kat-jbd line{stroke:var(--uyari);stroke-width:5;stroke-linecap:round}
+.kat-no circle{fill:var(--vurgu)}.kat-no text{fill:#fff;font-size:12px;font-weight:700;text-anchor:middle;font-family:var(--font)}
+.kat-ok{fill:none;stroke:var(--iyi);stroke-width:2.5;stroke-dasharray:6 4}
+.w-kat svg{max-width:440px;margin:0 auto}
+/* IFLOLS */
+.w-iflols svg{max-width:560px;margin:0 auto;background:#0d1014;border-radius:10px}
+.if-kutu{fill:#2a2f36}
+.isik{transition:fill .15s}
+.if-kontrol{margin-top:12px}
+.if-kontrol label{font-size:14px;font-weight:600}
+.if-kontrol input[type=range]{width:100%;accent-color:var(--vurgu)}
+.if-durum{font-weight:700;font-size:16px;margin:4px 0 8px;min-height:26px}
+.if-durum.yuksek{color:var(--uyari)}.if-durum.dogru{color:var(--iyi)}.if-durum.alcak{color:var(--uyari)}.if-durum.tehlike{color:var(--kotu)}
+.if-btnler{display:flex;flex-wrap:wrap;gap:8px}
+.if-mesaj{font-size:14px;color:var(--soluk);min-height:44px;margin:8px 0 0}
+/* MOVLAS */
+.mv-inis{fill:color-mix(in srgb,var(--vurgu) 14%,transparent);stroke:var(--vurgu);stroke-dasharray:5 4}
+.mv-spl{stroke:var(--uyari);stroke-width:2;stroke-dasharray:6 4}
+.mv-iflols{fill:var(--amber)}
+.mv-ist{cursor:pointer}.mv-ist circle{fill:var(--yuzey);stroke:var(--mor);stroke-width:2.5}
+.mv-ist text{font-size:13px;font-weight:700;text-anchor:middle;fill:var(--mor);font-family:var(--font)}
+.mv-ist.secili circle{fill:var(--mor)}.mv-ist.secili text{fill:#fff}
+.mv-bilgi,.lz-bilgi{background:var(--yuzey2);border-radius:8px;padding:8px 12px;font-size:14.5px;min-height:44px;margin-top:8px}
+.w-movlas svg{max-width:520px;margin:0 auto}
+/* lazer */
+.w-lazer svg{background:#0d1014;border-radius:10px}
+.lz-dilim{cursor:pointer;stroke:#0d1014;stroke-width:1}
+.lz-dilim:hover{filter:brightness(1.25)}
+.lz-yavas{animation:yanson 1.2s steps(1) infinite}.lz-hizli{animation:yanson .4s steps(1) infinite}
+@keyframes yanson{50%{opacity:.18}}
+@media (prefers-reduced-motion:reduce){.lz-yavas,.lz-hizli{animation:none;opacity:.7}}
+.lz-etiket text{fill:#cfd6de;font-family:var(--font)}
+/* soru */
+.quiz{margin-top:26px;background:var(--yuzey);border:1px solid var(--cizgi);border-radius:12px;padding:6px 18px 12px}
+.quiz-bas{display:flex;align-items:center;justify-content:space-between}
+.quiz-bas h3{margin:12px 0}
+.skor{font-family:var(--mono);font-size:14px;background:var(--yuzey2);padding:2px 10px;border-radius:20px}
+.soru{border-top:1px solid var(--cizgi);padding:12px 0}
+.soru-metin{font-weight:600;margin:0 0 8px}
+.siklar{display:grid;gap:6px}
+.sik{font:inherit;font-size:15px;text-align:left;background:var(--bg);border:1px solid var(--cizgi);border-radius:8px;padding:8px 12px;cursor:pointer;color:var(--metin)}
+.sik:hover:not(:disabled){border-color:var(--vurgu)}
+.sik:disabled{cursor:default}
+.sik.dogru{background:var(--iyi-ac);border-color:var(--iyi);color:var(--iyi);font-weight:600}
+.sik.yanlis{background:var(--kotu-ac);border-color:var(--kotu);color:var(--kotu)}
+.aciklama{font-size:14.5px;margin-top:8px;padding:8px 12px;background:var(--yuzey2);border-radius:8px}
+.aciklama p{margin:0 0 4px}.soru-kaynak{color:var(--soluk);font-size:13px}
+/* kartlar */
+.deste-arac{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:10px 0}
+.deste-arac select{font:inherit;font-size:14px;padding:6px 8px;border-radius:7px;border:1px solid var(--cizgi);background:var(--yuzey);color:var(--metin);max-width:100%}
+#deste-sayac{font-family:var(--mono);font-size:13px;color:var(--soluk)}
+.kart{perspective:1200px;height:260px;cursor:pointer;outline:none;margin:6px 0}
+.kart-ic{position:relative;width:100%;height:100%;transition:transform .45s;transform-style:preserve-3d}
+.kart.cevrik .kart-ic{transform:rotateY(180deg)}
+.kart-on,.kart-arka{position:absolute;inset:0;backface-visibility:hidden;border-radius:14px;padding:22px 26px;display:flex;flex-direction:column;justify-content:center;
+  border:1px solid var(--cizgi);box-shadow:var(--golge);overflow:auto}
+.kart-on{background:var(--yuzey);font-size:20px;font-weight:600}
+.kart-arka{background:var(--vurgu-ac);transform:rotateY(180deg);font-size:17px}
+.kart small{display:block;margin-top:12px;font-size:12.5px;color:var(--soluk);font-weight:400}
+.kart.resimli{height:400px}
+.kart-img{display:block;max-width:100%;max-height:250px;margin:0 auto 10px;background:#fff;border-radius:8px;padding:4px;object-fit:contain}
+.kart:focus-visible .kart-on,.kart:focus-visible .kart-arka{outline:2px solid var(--vurgu)}
+.deste-nav{display:flex;justify-content:space-between}
+footer{margin-top:60px;font-size:13px;color:var(--soluk);border-top:1px solid var(--cizgi);padding-top:12px}
+/* seslendirme */
+.kaynak-bar{align-items:center;gap:8px}
+.dinle-btn{font:inherit;font-size:12px;color:var(--vurgu);background:none;border:1px solid var(--cizgi);border-radius:20px;padding:1px 10px;cursor:pointer;margin-right:auto}
+.dinle-btn:hover{border-color:var(--vurgu);background:var(--vurgu-ac)}
+.blok.okunuyor{background:color-mix(in srgb,var(--uyari) 9%,transparent);border-left:3px solid var(--uyari);border-radius:6px;padding:6px 10px 2px 12px;margin-left:-15px}
+.oynatici-bar{position:fixed;left:0;right:0;bottom:0;z-index:30;background:var(--yuzey);border-top:1px solid var(--cizgi);
+  box-shadow:0 -6px 18px rgba(0,0,0,.12);padding:8px 16px;display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.oynatici-bar[hidden]{display:none}
+.ob-oynat{font-size:17px;min-width:44px;justify-content:center}
+.ob-orta{flex:1;min-width:200px;display:flex;flex-direction:column;gap:2px}
+.ob-baslik{font-size:12.5px;color:var(--soluk);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.ob-satir{display:flex;align-items:center;gap:8px}
+.ob-ilerleme{flex:1;accent-color:var(--vurgu)}
+.ob-zaman{font-family:var(--mono);font-size:12px;color:var(--soluk);white-space:nowrap}
+.ob-hiz{display:flex;align-items:center;gap:6px}
+.ob-hiz-btn{display:flex;gap:4px}.ob-hiz-btn .btn{padding:3px 7px;font-size:12.5px}
+.ob-hiz-kaydir{width:110px;accent-color:var(--vurgu)}
+.ob-hiz-deger{font-family:var(--mono);font-size:13px;min-width:46px}
+.ob-devam{font-size:12.5px;color:var(--soluk);display:flex;align-items:center;gap:4px;white-space:nowrap}
+body.oynatici-acik main{padding-bottom:140px}
+@media (max-width:1100px){.ob-hiz-btn{display:none}}
+@media (max-width:700px){
+  .oynatici-bar{padding:8px 10px;gap:6px}
+  .ob-orta{order:-1;flex-basis:100%}
+  .ob-devam{display:none}
+  .blok.okunuyor{margin-left:-8px;padding-left:6px}
+}
+/* rapor */
+.rapor-main{max-width:1240px;margin:0 auto;padding:24px 20px 80px}
+.metrikler{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px}
+.metrik{background:var(--yuzey);border:1px solid var(--cizgi);border-radius:12px;padding:14px 16px;display:flex;flex-direction:column}
+.metrik b{font-size:30px;line-height:1.1}.metrik span{font-weight:600}.metrik small{color:var(--soluk);font-size:13px}
+.aciklama-metin{font-size:14.5px;color:var(--soluk)}
+.notlar{font-size:14.5px}.notlar li{margin:6px 0}
+.filtre{display:flex;flex-wrap:wrap;gap:8px;margin:10px 0}
+.kapsam td{font-size:13.5px}.kapsam td:nth-child(3){min-width:320px}
+.durum{font-size:12px;font-weight:600;padding:2px 8px;border-radius:10px;white-space:nowrap}
+.durum.tam{background:var(--iyi-ac);color:var(--iyi)}.durum.muaf{background:var(--yuzey2);color:var(--soluk)}
+.durum.kismi{background:var(--uyari-ac);color:var(--uyari)}.durum.eksik{background:var(--kotu-ac);color:var(--kotu)}
+/* mobil */
+@media (max-width:900px){
+  .duzen{grid-template-columns:1fr}
+  .menu-btn{display:block}
+  .yan{display:none;position:fixed;top:57px;left:0;right:0;height:auto;max-height:75vh;background:var(--bg);z-index:15;border-bottom:1px solid var(--cizgi);border-right:0}
+  .yan.acik{display:block}
+  main{padding:18px 16px 60px}
+  .ust{padding:8px 16px}
+  .ust-araclar .btn{padding:5px 8px;font-size:13px}
+  #tum-kaynak{display:none}
+  .etiket{display:none}
+  .bolum-nav{display:none}
+  .org{grid-template-columns:1fr}
+  h2{font-size:22px}
+  .kart{height:300px}
+}
+
+/* Bölüm 2, parça a: a_dongu, a_case */
+.w-a-dongu .ad-adimlar{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:10px}
+.w-a-dongu .ad-nokta{font:inherit;font-size:13px;width:32px;height:32px;border-radius:50%;border:1px solid var(--cizgi);background:var(--yuzey);color:var(--metin);cursor:pointer}
+.w-a-dongu .ad-nokta:hover{border-color:var(--vurgu)}
+.w-a-dongu .ad-nokta.aktif{background:var(--vurgu);border-color:var(--vurgu);color:#fff;font-weight:600}
+.w-a-dongu .ad-sahne{display:grid;grid-template-columns:1fr;gap:8px}
+.w-a-dongu .ad-bolge{border:1px dashed var(--cizgi);border-radius:10px;padding:8px 10px;min-height:70px}
+.w-a-dongu .ad-hava{background:var(--yuzey)}
+.w-a-dongu .ad-guverte{background:var(--yuzey2);border-style:solid}
+.w-a-dongu .ad-etiket{font-size:12px;color:var(--soluk);text-transform:uppercase;letter-spacing:.05em;margin-bottom:2px}
+.w-a-dongu .ad-yuva{display:flex;flex-wrap:wrap;gap:6px}
+.w-a-dongu .ad-bos{color:var(--soluk)}
+.w-a-dongu .ad-cip{display:inline-flex;flex-direction:column;border:1px solid var(--cizgi);border-radius:8px;padding:4px 10px;font-weight:600;font-size:14px;line-height:1.35;max-width:100%}
+.w-a-dongu .ad-cip small{font-weight:400;font-size:12.5px;color:var(--soluk)}
+.w-a-dongu .ad-g1{border-color:var(--vurgu);background:var(--vurgu-ac);color:var(--vurgu)}
+.w-a-dongu .ad-g2{border-color:var(--iyi);background:var(--iyi-ac);color:var(--iyi)}
+.w-a-dongu .ad-g0{border-color:var(--uyari);background:var(--uyari-ac);color:var(--uyari)}
+.w-a-dongu .ad-metin{margin:10px 0 8px;min-height:3.2em}
+.w-a-dongu .ad-nav{display:flex;align-items:center;justify-content:space-between;gap:8px}
+.w-a-dongu .ad-nav .btn:disabled{opacity:.45;cursor:default}
+.w-a-dongu .ad-sayac{font-size:13px;color:var(--soluk)}
+
+.w-a-case .ac-girdi{display:grid;gap:10px}
+.w-a-case .ac-girdi label{display:block;font-size:14px}
+.w-a-case .ac-girdi input[type=range]{display:block;width:100%;accent-color:var(--vurgu)}
+.w-a-case .ac-girdi select{display:block;width:100%;margin-top:4px;font:inherit;font-size:14px;padding:6px 8px;border-radius:8px;border:1px solid var(--cizgi);background:var(--yuzey);color:var(--metin)}
+.w-a-case .ac-kutu{display:flex !important;gap:8px;align-items:flex-start}
+.w-a-case .ac-kutu input{margin-top:4px;accent-color:var(--vurgu)}
+.w-a-case .ac-sonuc{margin-top:12px;padding:10px 12px;border-radius:10px;display:flex;flex-wrap:wrap;gap:6px 14px;align-items:center;border:1px solid var(--cizgi)}
+.w-a-case .ac-case{font-size:22px;font-weight:700;white-space:nowrap}
+.w-a-case .ac-neden{font-size:14px;flex:1 1 220px}
+.w-a-case .ac-c1{background:var(--iyi-ac);border-color:var(--iyi)}.w-a-case .ac-c1 .ac-case{color:var(--iyi)}
+.w-a-case .ac-c2{background:var(--uyari-ac);border-color:var(--uyari)}.w-a-case .ac-c2 .ac-case{color:var(--uyari)}
+.w-a-case .ac-c3{background:var(--kotu-ac);border-color:var(--kotu)}.w-a-case .ac-c3 .ac-case{color:var(--kotu)}
+
+/* Bölüm 2, parça b: b_isaretler ve b_kalkis bileşenleri */
+.w-b-isaretler .bis-mod,.w-b-kalkis .bkl-sec{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:10px}
+.bis-adimlar{list-style:none;display:flex;flex-wrap:wrap;gap:5px;margin:0 0 6px;padding:0}
+.bis-nokta{font:inherit;font-size:13px;font-weight:700;width:32px;height:32px;border-radius:50%;cursor:pointer;
+  border:2px solid var(--cizgi);background:var(--yuzey);color:var(--metin)}
+.bis-nokta.bis-dir{border-color:var(--uyari)}
+.bis-nokta.bis-cat{border-color:var(--vurgu)}
+.bis-nokta.gecti{background:var(--yuzey2);color:var(--soluk)}
+.bis-nokta.aktif.bis-dir{background:var(--uyari);color:#fff}
+.bis-nokta.aktif.bis-cat{background:var(--vurgu);color:#fff}
+.bis-lejant{display:flex;flex-wrap:wrap;gap:12px;font-size:12.5px;color:var(--soluk);margin-bottom:8px}
+.bis-lejant span::before{content:"";display:inline-block;width:10px;height:10px;border-radius:50%;margin-right:5px;vertical-align:-1px}
+.bis-lejant .bis-dir::before{background:var(--uyari)}
+.bis-lejant .bis-cat::before{background:var(--vurgu)}
+.bis-kart{background:var(--yuzey2);border-radius:10px;padding:10px 14px;min-height:150px;font-size:14.5px}
+.bis-kart p{margin:6px 0}
+.bis-bas{display:flex;gap:12px;align-items:center;margin-bottom:4px}
+.bis-bas strong{display:block;font-size:16px}
+.bis-bas small{color:var(--soluk);font-size:13px}
+.bis-harf{flex:none;width:36px;height:36px;border-radius:8px;background:var(--metin);color:var(--yuzey);
+  display:flex;align-items:center;justify-content:center;font-weight:700;font-size:18px}
+.bis-pilot{border-left:3px solid var(--iyi);padding-left:8px}
+.bis-ilgili{color:var(--soluk);font-size:13.5px}
+.bis-nav{display:flex;justify-content:space-between;gap:8px;margin-top:8px}
+.bis-soru{background:var(--yuzey2);border-radius:10px;padding:10px 14px;font-size:14.5px;min-height:64px;margin:0 0 8px}
+.bis-siklar{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:6px}
+.bis-siklar .btn{text-align:left}
+.bis-siklar .btn.bis-dogru{background:var(--iyi-ac);border-color:var(--iyi);color:var(--iyi);font-weight:600}
+.bis-siklar .btn.bis-yanlis{background:var(--kotu-ac);border-color:var(--kotu);color:var(--kotu)}
+.bis-sonuc{font-size:14px;min-height:22px;margin:8px 0 0}
+
+.w-b-kalkis svg{max-width:460px;margin:0 auto}
+.w-b-kalkis [data-g]{display:none}
+.w-b-kalkis[data-case="1"] [data-g~="1"],
+.w-b-kalkis[data-case="2"] [data-g~="2"],
+.w-b-kalkis[data-case="3"] [data-g~="3"]{display:inline}
+.bkl-arc{fill:none;stroke:var(--uyari);stroke-width:1.5}
+.bkl-kol{fill:none;stroke:var(--uyari);stroke-width:2}
+.bkl-ucus{fill:none;stroke:var(--uyari);stroke-width:3}
+.bkl-duz{stroke:var(--uyari);stroke-width:3}
+.bkl-tik{stroke:var(--metin);stroke-width:2}
+.bkl-brc{stroke:var(--metin);stroke-width:2}
+.bkl-brc-uc{fill:var(--metin)}
+.w-b-kalkis .bkl-sag{text-anchor:end}
+.w-b-kalkis .bkl-sol{text-anchor:start}
+.bkl-rapor circle{fill:var(--vurgu)}
+.bkl-rapor text{fill:#fff;font-size:10px;font-weight:700;text-anchor:middle;font-family:var(--font)}
+.bkl-bilgi{background:var(--yuzey2);border-radius:8px;padding:8px 12px;font-size:14.5px;margin-top:8px}
+.bkl-bilgi ul,.bkl-bilgi ol{margin:4px 0 6px;padding-left:22px}
+.bkl-bilgi li{margin:2px 0}
+
+/* Bölüm 2, parça c bileşenleri: c_inispaterni, c_holding */
+.w-c-inispaterni svg{max-width:600px;margin:0 auto}
+.w-c-holding svg{max-width:560px;margin:0 auto}
+.c-ip-iz{fill:none;stroke:var(--vurgu);stroke-width:3;stroke-linecap:round}
+.c-ip-bolter{fill:none;stroke:var(--uyari);stroke-width:2;stroke-dasharray:6 5}
+.c-ip-okucu{fill:var(--metin)}
+.c-ip-gemi{fill:var(--yuzey2);stroke:var(--soluk);stroke-width:1.4}
+.c-ip-acili{stroke:var(--soluk);stroke-width:1.2;stroke-dasharray:3 2}
+.c-ip-ada{fill:var(--soluk)}
+.c-ip-brc{stroke:var(--metin);stroke-width:2}
+.c-ip-nokta{cursor:pointer}
+.c-ip-nokta circle{fill:var(--yuzey);stroke:var(--vurgu);stroke-width:2.5}
+.c-ip-nokta text{font-size:12px;font-weight:700;text-anchor:middle;fill:var(--vurgu);font-family:var(--font);pointer-events:none}
+.c-ip-nokta:hover circle,.c-ip-nokta:focus circle{stroke-width:3.5}
+.c-ip-nokta:focus{outline:none}
+.c-ip-nokta.secili circle{fill:var(--vurgu)}
+.c-ip-nokta.secili text{fill:#fff}
+.c-ip-adimlar{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px}
+.c-ip-adim{display:flex;flex-direction:column;align-items:flex-start;line-height:1.2;padding:5px 9px}
+.c-ip-adim small{font-size:11.5px;color:var(--soluk)}
+.c-ip-adim.aktif small{color:#fff;opacity:.85}
+.c-ip-bilgi,.c-ho-bilgi{background:var(--yuzey2);border-radius:8px;padding:8px 12px;font-size:14.5px;min-height:44px;margin-top:8px}
+.c-ip-nav{display:flex;gap:8px;justify-content:flex-end;margin-top:8px}
+.c-ho-tirman{fill:none;stroke:color-mix(in srgb,var(--iyi) 55%,transparent);stroke-width:22}
+.c-ho-alcal{fill:none;stroke:color-mix(in srgb,var(--vurgu) 55%,transparent);stroke-width:22}
+.c-ho-akis{fill:none;stroke:var(--metin);stroke-width:3}
+.c-ho-ayrilis{stroke:var(--uyari);stroke-width:2.5;stroke-dasharray:6 4}
+.c-ho-nokta line{stroke:var(--metin);stroke-width:2}
+.c-ho-nokta text{font-size:14px;font-weight:700;text-anchor:middle;fill:var(--metin);font-family:var(--font)}
+.c-ho-nokta text.c-ho-alt{font-size:11px;font-weight:400;fill:var(--soluk)}
+.c-ho-ucak{fill:var(--uyari);stroke:var(--yuzey);stroke-width:2}
+.c-ho-ucak-no{font-size:10px;font-weight:700;text-anchor:middle;fill:#fff;font-family:var(--font);pointer-events:none}
+.c-ho-yan line{stroke:var(--soluk);stroke-width:2}
+.c-ho-yan line.c-ho-deniz{stroke:var(--vurgu);stroke-width:2}
+.c-ho-inis{fill:none;stroke:var(--uyari);stroke-width:2}
+.c-ho-kontrol{display:flex;flex-wrap:wrap;gap:8px;justify-content:space-between;align-items:center;margin-top:10px}
+.c-ho-sec{display:flex;gap:6px}
+.c-ho-sayac{display:inline-block;margin-left:6px;color:var(--soluk);font-size:13px}
+
+/* Bölüm 2, parça d: d_marshal, d_cv1 */
+.w-d-marshal .d-t,.w-d-cv1 .d-t{fill:var(--metin);font-size:13px;font-weight:600;font-family:var(--font)}
+.w-d-marshal .d-k,.w-d-cv1 .d-k{fill:var(--soluk);font-size:12px;font-family:var(--font)}
+.w-d-marshal .dm-deniz,.w-d-cv1 .dm-deniz{stroke:var(--vurgu);stroke-width:2}
+.w-d-marshal .dm-gemi,.w-d-cv1 .dm-gemi{fill:var(--metin)}
+.w-d-marshal .dm-tik,.w-d-cv1 .dm-tik{stroke:var(--soluk)}
+/* marshal */
+.w-d-marshal .dm-giris{display:flex;flex-wrap:wrap;gap:14px;margin-bottom:8px}
+.w-d-marshal .dm-giris label{font-size:14px;font-weight:600;display:flex;align-items:center;gap:6px}
+.w-d-marshal input{width:84px;font:inherit;font-size:15px;padding:4px 6px;border:1px solid var(--cizgi);border-radius:6px;background:var(--yuzey);color:var(--metin)}
+.w-d-marshal .dm-sonuc{background:var(--yuzey2);border-radius:8px;padding:8px 12px;font-size:15px;min-height:40px;margin-bottom:8px}
+.w-d-marshal .dm-sonuc.uyari{color:var(--kotu)}
+.w-d-marshal .dm-hesap{display:block;font-family:var(--mono);font-size:13px;color:var(--soluk);margin-top:2px}
+.w-d-marshal .dm-svg{max-width:640px;margin:0 auto}
+.w-d-marshal .dm-pat{fill:none;stroke:var(--soluk);stroke-width:1.5;opacity:.65}
+.w-d-marshal .dm-pat.secili{stroke:var(--vurgu);stroke-width:3;opacity:1}
+.w-d-marshal .dm-cizgi{stroke:var(--vurgu);stroke-dasharray:4 3}
+.w-d-marshal .dm-oyun{margin-top:12px;border-top:1px dashed var(--cizgi);padding-top:10px}
+.w-d-marshal .dm-soru{font-family:var(--mono);font-size:14px;margin:4px 0 8px}
+.w-d-marshal .dm-cevap{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.w-d-marshal .dm-geri{min-height:22px;margin:8px 0 0;font-size:14.5px}
+.w-d-marshal .dm-geri.ok{color:var(--iyi)}.w-d-marshal .dm-geri.hata{color:var(--kotu)}
+/* CV-1 */
+.w-d-cv1 .d1-svg{max-width:680px;margin:0 auto}
+.w-d-cv1 .d1-yol{fill:none;stroke:var(--metin);stroke-width:2.5;stroke-linejoin:round}
+.w-d-cv1 .d1-hold{fill:none;stroke:var(--metin);stroke-width:1.5}
+.w-d-cv1 .d1-bolter{fill:none;stroke:var(--uyari);stroke-width:2;stroke-dasharray:5 4}
+.w-d-cv1 .d1-bant{fill:color-mix(in srgb,var(--vurgu) 12%,transparent);stroke:var(--vurgu);stroke-dasharray:3 3}
+.w-d-cv1 .d1-bant.aktif{fill:color-mix(in srgb,var(--vurgu) 34%,transparent)}
+.w-d-cv1 .d1-nokta{fill:var(--metin)}
+.w-d-cv1 .d1-imlec{fill:var(--kotu);stroke:var(--yuzey);stroke-width:2;transition:cx .25s,cy .25s}
+.w-d-cv1 .d1-tik-y.aktif{fill:var(--kotu);font-weight:700}
+.w-d-cv1 .d1-adimlar{display:flex;flex-wrap:wrap;gap:6px;margin:10px 0 6px}
+.w-d-cv1 .d1-adimlar button{font:inherit;font-size:13px;min-width:32px;height:32px;border-radius:16px;border:1px solid var(--cizgi);background:var(--yuzey);color:var(--metin);cursor:pointer}
+.w-d-cv1 .d1-adimlar button:hover{border-color:var(--vurgu)}
+.w-d-cv1 .d1-adimlar button.aktif{background:var(--vurgu);border-color:var(--vurgu);color:#fff}
+.w-d-cv1 .d1-kart{background:var(--yuzey2);border-radius:8px;padding:10px 14px;min-height:160px}
+.w-d-cv1 .d1-baslik{font-weight:700;font-size:16px;margin-bottom:4px}
+.w-d-cv1 .d1-no{display:inline-block;min-width:24px;padding:0 6px;border-radius:12px;background:var(--vurgu);color:#fff;text-align:center;font-size:13px}
+.w-d-cv1 .d1-kosul{margin:0 0 6px;color:var(--soluk);font-size:14px}
+.w-d-cv1 .d1-kart ul{margin:4px 0;padding-left:20px;font-size:14.5px}
+.w-d-cv1 .d1-telsiz{margin-top:8px;border-left:3px solid var(--vurgu);padding-left:10px}
+.w-d-cv1 .d1-telsiz b{font-size:13px;color:var(--soluk);font-weight:600}
+.w-d-cv1 .d1-telsiz ul{list-style:none;padding-left:0;font-family:var(--mono);font-size:13.5px}
+.w-d-cv1 .d1-nav{display:flex;justify-content:space-between;align-items:center;margin-top:8px;gap:8px}
+.w-d-cv1 .d1-sayac{font-size:13px;color:var(--soluk)}
+
+/* Bölüm 2, parça e — e_bingo bileşeni */
+.w-e-bingo .eb-secim{display:flex;flex-direction:column;gap:8px;margin-bottom:8px}
+.w-e-bingo .eb-grup{display:flex;flex-wrap:wrap;align-items:center;gap:6px}
+.w-e-bingo .eb-et{font-size:13px;color:var(--soluk);min-width:110px}
+.w-e-bingo .eb-grup .btn{padding:4px 10px;font-size:13.5px}
+.w-e-bingo .eb-mesafe{display:flex;flex-direction:column;gap:4px}
+.w-e-bingo .eb-mesafe b{color:var(--metin)}
+.w-e-bingo .eb-mesafe input[type=range]{width:100%;accent-color:var(--vurgu)}
+.w-e-bingo .eb-profil{max-width:640px;margin:4px auto 0;background:var(--yuzey2);border-radius:10px}
+.w-e-bingo .eb-deniz{stroke:var(--vurgu);stroke-width:2;opacity:.6}
+.w-e-bingo .eb-yol{fill:none;stroke:var(--vurgu);stroke-width:3;stroke-linejoin:round}
+.w-e-bingo .eb-nokta{fill:var(--metin)}
+.w-e-bingo .eb-alcalma{fill:var(--uyari)}
+.w-e-bingo .eb-olcu,.w-e-bingo .eb-olcu-uc{stroke:var(--soluk);stroke-width:1.2}
+.w-e-bingo .eb-olcu{stroke-dasharray:4 3}
+.w-e-bingo .eb-sonuc{margin-top:8px;font-size:14.5px}
+.w-e-bingo .eb-sonuc .eb-kaynak{margin:0 0 6px;color:var(--soluk);font-size:13px}
+.w-e-bingo .eb-sonuc table{font-size:14px}
+.w-e-bingo .eb-sonuc td b{color:var(--vurgu)}
+@media (max-width:520px){.w-e-bingo .eb-et{min-width:0;width:100%}}
+
+/* Ek A, parça a: ekA_sozluk (aranabilir sözlük) */
+.w-ekA-sozluk .ekA-sz-arac{display:flex;flex-wrap:wrap;align-items:center;gap:8px 12px}
+.w-ekA-sozluk .ekA-sz-ara{flex:1 1 220px;min-width:0;font:inherit;font-size:15px;padding:8px 11px;border-radius:8px;
+  border:1px solid var(--cizgi);background:var(--yuzey);color:var(--metin)}
+.w-ekA-sozluk .ekA-sz-ara:focus{outline:2px solid var(--vurgu);outline-offset:1px;border-color:var(--vurgu)}
+.w-ekA-sozluk .ekA-sz-sayac{font-size:13px;color:var(--soluk);white-space:nowrap}
+.w-ekA-sozluk .ekA-sz-cipler{display:flex;flex-wrap:wrap;gap:6px;margin:10px 0}
+.w-ekA-sozluk .ekA-sz-cip{font:inherit;font-size:13px;padding:3px 11px;border-radius:999px;border:1px solid var(--cizgi);
+  background:var(--yuzey);color:var(--metin);cursor:pointer}
+.w-ekA-sozluk .ekA-sz-cip:hover{border-color:var(--vurgu)}
+.w-ekA-sozluk .ekA-sz-cip[aria-pressed="true"]{background:var(--vurgu);border-color:var(--vurgu);color:#fff;font-weight:600}
+.w-ekA-sozluk .ekA-sz-govde{display:flex;flex-wrap:wrap;align-items:flex-start;gap:12px}
+.w-ekA-sozluk .ekA-sz-liste{flex:1 1 230px;min-width:0;position:relative;list-style:none;margin:0;padding:0;max-height:360px;overflow:auto;
+  border:1px solid var(--cizgi);border-radius:10px;background:var(--yuzey)}
+@media (max-width:600px){.w-ekA-sozluk .ekA-sz-liste{max-height:260px}}
+.w-ekA-sozluk .ekA-sz-liste li+li{border-top:1px solid var(--cizgi)}
+.w-ekA-sozluk .ekA-sz-oge{display:block;width:100%;text-align:left;font:inherit;background:none;border:0;
+  padding:7px 11px;color:var(--metin);cursor:pointer}
+.w-ekA-sozluk .ekA-sz-oge:hover{background:var(--yuzey2)}
+.w-ekA-sozluk .ekA-sz-oge:focus-visible{outline:2px solid var(--vurgu);outline-offset:-2px}
+.w-ekA-sozluk .ekA-sz-oge.secili{background:var(--vurgu-ac,var(--yuzey2));box-shadow:inset 3px 0 0 var(--vurgu)}
+.w-ekA-sozluk .ekA-sz-t{display:block;font-weight:600;font-size:14.5px;line-height:1.35}
+.w-ekA-sozluk .ekA-sz-oz{display:block;font-size:12.5px;line-height:1.4;color:var(--soluk);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.w-ekA-sozluk .ekA-sz-isaret{color:var(--mor,var(--vurgu));font-size:11px;margin-left:5px;vertical-align:1px}
+.w-ekA-sozluk .ekA-sz-yok{padding:10px 12px;color:var(--soluk);font-size:14px}
+.w-ekA-sozluk mark{background:var(--uyari-ac,var(--yuzey2));color:inherit;border-radius:2px;padding:0 1px;box-shadow:0 1px 0 var(--uyari)}
+.w-ekA-sozluk .ekA-sz-detay{flex:1.5 1 280px;min-width:0;border:1px solid var(--cizgi);border-radius:10px;background:var(--yuzey2);padding:12px 14px;min-height:140px}
+.w-ekA-sozluk .ekA-sz-bos{margin:0;color:var(--soluk);font-size:14px}
+.w-ekA-sozluk .ekA-sz-baslik{margin:0 0 4px;font-size:18px;line-height:1.3}
+.w-ekA-sozluk .ekA-sz-meta{display:flex;flex-wrap:wrap;gap:4px 12px;font-size:12.5px;color:var(--soluk)}
+.w-ekA-sozluk .ekA-sz-uid{font-family:var(--mono);font-size:11.5px;color:var(--vurgu)}
+.w-ekA-sozluk .ekA-sz-tanim{margin:8px 0 0;font-size:15px}
+.w-ekA-sozluk .ekA-sz-not{margin-top:10px;padding:7px 10px;border-radius:8px;font-size:13.5px;
+  background:var(--mor-ac,var(--yuzey));border:1px dashed var(--mor,var(--cizgi))}
+.w-ekA-sozluk .ekA-sz-not b{color:var(--mor,var(--vurgu));margin-right:4px}
+.w-ekA-sozluk .ekA-sz-ilgili{margin-top:10px;font-size:13.5px;display:flex;flex-wrap:wrap;gap:4px 8px;align-items:baseline}
+.w-ekA-sozluk .ekA-sz-ilgili span{color:var(--soluk)}
+.w-ekA-sozluk .ekA-sz-git{font:inherit;font-size:13.5px;background:none;border:0;padding:0;color:var(--vurgu);
+  text-decoration:underline;text-underline-offset:2px;cursor:pointer;text-align:left}
+/* Ek A sözlük tabloları (yalnızca s-A.* bölümleri): terim sütunu çok daralmasın */
+section.bolum[id^="s-A."] .tablo td:first-child{min-width:8.5em}
+
+/* Ek B, parça a: ekBa_tanima (işaret tanıma alıştırması) */
+.w-ekBa-tanima .ekBa-ust{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:8px;margin-bottom:10px}
+.w-ekBa-tanima .ekBa-ilerleme{font-size:13.5px;color:var(--soluk)}
+.w-ekBa-tanima .ekBa-govde{display:grid;grid-template-columns:minmax(150px,260px) 1fr;gap:14px;align-items:start}
+.w-ekBa-tanima .ekBa-cizim{margin:0;background:#fff;border:1px solid var(--cizgi);border-radius:10px;padding:10px;
+  display:flex;align-items:center;justify-content:center;min-height:200px}
+.w-ekBa-tanima .ekBa-cizim img{display:block;max-width:100%;max-height:420px;height:auto;width:auto}
+.w-ekBa-tanima .ekBa-soru{margin:0 0 8px;font-weight:600}
+.w-ekBa-tanima .ekBa-soru small{font-weight:400;color:var(--soluk);font-size:12.5px}
+.w-ekBa-tanima .ekBa-siklar{display:grid;grid-template-columns:1fr;gap:6px}
+.w-ekBa-tanima .ekBa-sik{text-align:left;display:flex;gap:8px;align-items:baseline}
+.w-ekBa-tanima .ekBa-no{flex:none;font-size:12px;font-weight:700;color:var(--soluk);min-width:1em}
+.w-ekBa-tanima .ekBa-sik.ekBa-dogru{background:var(--iyi-ac);border-color:var(--iyi);color:var(--iyi);font-weight:600}
+.w-ekBa-tanima .ekBa-sik.ekBa-yanlis{background:var(--kotu-ac);border-color:var(--kotu);color:var(--kotu)}
+.w-ekBa-tanima .ekBa-sik:disabled{cursor:default;opacity:1}
+.w-ekBa-tanima .ekBa-geri{background:var(--yuzey2);border-radius:10px;padding:8px 12px;margin-top:10px;font-size:14px}
+.w-ekBa-tanima .ekBa-geri p{margin:5px 0}
+.w-ekBa-tanima .ekBa-sonuc{font-weight:700}
+.w-ekBa-tanima .ekBa-iyi{color:var(--iyi)}
+.w-ekBa-tanima .ekBa-kotu{color:var(--kotu)}
+.w-ekBa-tanima .ekBa-ad strong{font-size:15px}
+.w-ekBa-tanima .ekBa-ad small{color:var(--soluk);margin-left:4px}
+.w-ekBa-tanima .ekBa-kim{color:var(--metin)}
+.w-ekBa-tanima .ekBa-dl{display:grid;grid-template-columns:auto 1fr;gap:4px 10px;margin:6px 0}
+.w-ekBa-tanima .ekBa-dl dt{font-weight:600;color:var(--soluk)}
+.w-ekBa-tanima .ekBa-dl dd{margin:0}
+.w-ekBa-tanima .ekBa-ek{font-size:13.5px;border-left:3px solid var(--uyari);padding-left:8px}
+.w-ekBa-tanima .ekBa-sonraki{margin-top:10px}
+@media (max-width:620px){
+  .w-ekBa-tanima .ekBa-govde{grid-template-columns:1fr}
+  .w-ekBa-tanima .ekBa-cizim img{max-height:300px}
+}
+
+/* Ek B, parça b: ekBb_tanima bileşeni */
+.w-ekBb-tanima .ekBb-mod{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:10px}
+.ekBb-sahne{display:grid;grid-template-columns:minmax(0,260px) minmax(0,1fr);gap:14px;align-items:start}
+.ekBb-resim{margin:0;background:#fff;border:1px solid var(--cizgi);border-radius:10px;padding:10px;
+  display:flex;align-items:center;justify-content:center;min-height:200px}
+.ekBb-img{display:block;max-width:100%;max-height:300px;width:auto;height:auto}
+.w-ekBb-tanima[data-ekbb-mod="yakit"] .ekBb-img{max-height:170px}
+.ekBb-soru{margin:0 0 8px;font-size:15px}
+.ekBb-siklar{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:6px}
+.ekBb-siklar .btn{text-align:left;font-size:13.5px;line-height:1.3}
+.ekBb-siklar .btn.ekBb-dogru{background:var(--iyi-ac);border-color:var(--iyi);color:var(--iyi);font-weight:600}
+.ekBb-siklar .btn.ekBb-yanlis{background:var(--kotu-ac);border-color:var(--kotu);color:var(--kotu)}
+.ekBb-geri{margin-top:8px;min-height:24px}
+.ekBb-sonuc{margin:0 0 6px;font-size:14.5px}
+.ekBb-sonuc.ekBb-ok{color:var(--iyi)}
+.ekBb-sonuc.ekBb-hata{color:var(--kotu)}
+.ekBb-ayrinti{display:grid;grid-template-columns:auto 1fr;gap:3px 10px;margin:0;background:var(--yuzey2);
+  border-radius:8px;padding:8px 12px;font-size:13.5px}
+.ekBb-ayrinti dt{color:var(--soluk);font-weight:600}
+.ekBb-ayrinti dd{margin:0;color:var(--metin)}
+.ekBb-alt{display:flex;justify-content:space-between;align-items:center;gap:8px;margin-top:10px}
+.ekBb-skor{font-size:13.5px;color:var(--soluk)}
+@media (max-width:640px){
+  .ekBb-sahne{grid-template-columns:1fr}
+  .ekBb-resim{min-height:0}
+  .ekBb-img{max-height:220px}
+}
+
+/* Ek C, parça a: ekC_cagri */
+.w-ekC-cagri .ekC-arac{display:flex;flex-wrap:wrap;gap:8px 14px;align-items:center;margin-bottom:10px}
+.w-ekC-cagri .ekC-filtre{display:flex;flex-wrap:wrap;gap:6px}
+.w-ekC-cagri .ekC-g{padding:4px 10px;font-size:13.5px}
+.w-ekC-cagri .ekC-tip-etiket{font-size:14px;display:flex;align-items:center;gap:6px}
+.w-ekC-cagri .ekC-tip{font:inherit;font-size:14px;padding:5px 8px;border-radius:8px;border:1px solid var(--cizgi);background:var(--yuzey);color:var(--metin);max-width:100%}
+.w-ekC-cagri .ekC-kart{background:var(--yuzey2);border:1px solid var(--cizgi);border-radius:10px;padding:12px 14px}
+.w-ekC-cagri .ekC-ust{display:flex;justify-content:space-between;align-items:center;gap:8px;min-height:24px}
+.w-ekC-cagri .ekC-rozet{font-size:12px;font-weight:600;letter-spacing:.05em;padding:2px 8px;border-radius:999px;background:var(--yuzey);color:var(--soluk);border:1px solid var(--cizgi)}
+.w-ekC-cagri .ekC-rI{background:var(--vurgu-ac);color:var(--vurgu);border-color:var(--vurgu)}
+.w-ekC-cagri .ekC-rA{background:var(--uyari-ac);color:var(--uyari);border-color:var(--uyari)}
+.w-ekC-cagri .ekC-rE{background:var(--kotu-ac);color:var(--kotu);border-color:var(--kotu)}
+.w-ekC-cagri .ekC-skor{font-size:13px;color:var(--soluk)}
+.w-ekC-cagri .ekC-lso{margin:10px 0 0;font-size:12px;color:var(--soluk);text-transform:uppercase;letter-spacing:.05em}
+.w-ekC-cagri .ekC-cagri{margin:2px 0 6px;font-size:21px;font-weight:700;line-height:1.35;overflow-wrap:anywhere}
+.w-ekC-cagri .ekC-soru{margin:0 0 8px;font-size:14.5px;color:var(--soluk)}
+.w-ekC-cagri .ekC-siklar{display:grid;gap:6px}
+.w-ekC-cagri .ekC-sik{font:inherit;font-size:15px;text-align:left;background:var(--yuzey);border:1px solid var(--cizgi);border-radius:8px;padding:8px 12px;cursor:pointer;color:var(--metin);line-height:1.4}
+.w-ekC-cagri .ekC-sik:hover:not(:disabled){border-color:var(--vurgu)}
+.w-ekC-cagri .ekC-sik:disabled{cursor:default}
+.w-ekC-cagri .ekC-sik.ekC-dogru{background:var(--iyi-ac);border-color:var(--iyi);color:var(--iyi);font-weight:600}
+.w-ekC-cagri .ekC-sik.ekC-yanlis{background:var(--kotu-ac);border-color:var(--kotu);color:var(--kotu)}
+.w-ekC-cagri .ekC-geri{margin-top:10px;padding-top:8px;border-top:1px dashed var(--cizgi);font-size:14.5px}
+.w-ekC-cagri .ekC-geri p{margin:3px 0}
+.w-ekC-cagri .ekC-sonuc{font-weight:700}
+.w-ekC-cagri .ekC-iyi{color:var(--iyi)}
+.w-ekC-cagri .ekC-kotu{color:var(--kotu)}
+.w-ekC-cagri .ekC-kaynak{font-size:12.5px;color:var(--soluk)}
+.w-ekC-cagri .ekC-nav{display:flex;justify-content:space-between;align-items:center;gap:8px;margin-top:10px}
+.w-ekC-cagri .ekC-kalan{font-size:13px;color:var(--soluk)}
+</style></head><body class="rapor"><header class="ust"><button class="menu-btn" aria-label="İçindekiler">☰</button><a class="ust-baslik" href="index.html"><span class="etiket">CNATRA P-816 · CV Procedures (UMFO) T-45C</span><strong>Ek A — Sözlük (Glossary of CV Procedures for T-45C)</strong></a><nav class="bolum-nav"><a class="bolum-link" href="bolum1.html">Bölüm 1</a><a class="bolum-link" href="bolum2.html">Bölüm 2</a><a class="bolum-link aktif" href="ekA.html">Ek A</a><a class="bolum-link" href="ekB.html">Ek B</a><a class="bolum-link" href="ekC.html">Ek C</a></nav><div class="ust-araclar"><a class="btn" href="ekA.html">← Derse dön</a><button class="btn" id="tema" aria-label="Tema">◐</button></div></header>
+<main class="rapor-main"><h1 class="rapor-baslik">Kapsam raporu · Ek A</h1>
+<div class="metrikler">
+<div class="metrik"><b>100%</b><span>Ders kapsamı</span><small>127 / 127 kaynak birimi en az bir ders paragrafında</small></div>
+<div class="metrik"><b>100%</b><span>Ölçme kapsamı</span><small>126 / 126 bilgi birimi en az bir soru veya kartta</small></div>
+<div class="metrik"><b>55 + 104</b><span>Soru + kart</span><small>25 ders bloğu</small></div>
+<div class="metrik"><b>6</b><span>Kaynak notu</span><small>belgede tespit edilen tutarsızlık</small></div>
+</div>
+<p class="aciklama-metin"><b>Kaynak birimi</b>: PDF metninden otomatik çıkarılan her cümle / liste maddesi ve şekillerden elle aktarılan her bilgi. Kimlik = belge sayfası + sıra (ör. 1-7.04). <b>Bağlam</b>: giriş ve geçiş cümleleri, şekil başlıkları; derste işlenir ama sınavla ölçülmez.</p>
+<h2>Belgede tespit edilen tutarsızlıklar</h2><ul class="notlar"><li><a href="ekA.html#b-5">Blok #5</a> — s. A-1: Bingo Fuel tanımında sayı yok (s. A-1)  Sözlük kalan yakıtı bir sayı vermeden yazar: "with  X lbs.  remaining; depending on aircraft type" (A-1.11). Bölüm 2'de ise bingo profili doğru uçulursa uçağın meydanın üzerine  300–500 lbs.  yakıtla varması gerektiği söylenir (2-31.10).</li><li><a href="ekA.html#b-8">Blok #8</a> — s. A-2: Case hava sınırları: sözlük ile Bölüm 2 farklı    Case I : Sözlük "3,000/5  or greater " (sınır dahil) der (A-2.01); Bölüm 2'deki Case I recovery metni ise " better than  3,000/5" der (2-13.02).   Case II : Sözlük "less than 3,000/5 but  greater than  1,000/5" der (A-2.03); Bölüm</li><li><a href="ekA.html#b-10">Blok #10</a> — s. A-2: Aynı kısaltma, iki anlam: CCA  Sözlük  CCA 'yı yalnızca " Carrier-controlled approach  similar to a GCA" olarak tanımlar (A-2.10); Bölüm 1 de ACLS Mode III'ü bu adla anar (1-10.19). Ancak Bölüm 1 ve 2'de aynı kısaltma  Carrier Control Area  (geminin  50 NM  çevresindeki hava saha</li><li><a href="ekA.html#b-11">Blok #11</a> — s. A-2, A-6: "Charlie": sözlük ile Bölüm 2 farklı tanımlıyor  Sözlük Charlie'yi "the time the first aircraft is expected  at the ramp " olarak tanımlar (A-2.11); bu, sözlüğün  Ramp Time  tanımına çok yakındır ("Time the first aircraft in Case III recovery is expected to be at ramp", A-6.02). </li><li><a href="ekA.html#b-15">Blok #15</a> — s. A-3: Bozuk ifade: Emergency Marshal (s. A-3)  Sözlükte "given to each pilot prior to launch  with and altitude and EEAT " yazar. Bu ya "with  an  altitude and EEAT" için bir yazım hatasıdır ya da bir kelime eksiktir (sonraki cümle emergency marshal  radyalinden  söz eder). Çeviri "bir</li><li><a href="ekA.html#b-24">Blok #24</a> — s. A-6: Spin: sözlük ile Bölüm 2 farklı  Sözlüğe göre spin, patern flight'ın tüm üyelerinin  4 NM'ye kadar break  yapmasına izin vermeyecek kadar dolu olduğunda " performed at the bow " (pruvada) yapılan, 1200’ (1.200 ft) irtifada bir oyalama dairesidir (A-6.10). Bölüm 2'ye göre ise pate</li></ul>
+<h2>Birim birim eşleme</h2>
+<div class="filtre"><button class="btn aktif" data-f="">Tümü (127)</button>
+<button class="btn" data-f="eksik">Derste yok (0)</button>
+<button class="btn" data-f="kismi">Ölçülmüyor (0)</button>
+<button class="btn" data-f="muaf">Bağlam</button></div>
+<div class="tablo"><table class="kapsam"><thead><tr><th>Kimlik</th><th>Sayfa</th><th>Orijinal metin</th><th>Ders bloğu</th><th>Soru / kart</th><th>Durum</th></tr></thead>
+<tbody><tr class="muaf"><td class="uid">A-1.01</td><td>A-1</td><td>A100. GLOSSARY OF CV PROCEDURES FOR T-45C</td><td><a href="ekA.html#b-1">#1</a></td><td></td><td><span class="durum muaf">Derste · bağlam</span></td></tr><tr class="tam"><td class="uid">A-1.02</td><td>A-1</td><td>Air Boss: Officer (located in Pri-Fly) in charge of all flight deck and tower operations within 5 nautical miles of the ship</td><td><a href="ekA.html#b-2">#2</a> <a href="ekA.html#b-3">#3</a></td><td>S001 K001</td><td><span class="durum tam">Tam</span></td></tr><tr class="tam"><td class="uid">A-1.03</td><td>A-1</td><td>Air Operations Officer: The officer who coordinates all matters pertaining to air operations including CATCC</td><td><a href="ekA.html#b-2">#2</a> <a href="ekA.html#b-3">#3</a></td><td>K002</td><td><span class="durum tam">Tam</span></td></tr><tr class="tam"><td class="uid">A-1.04</td><td>A-1</td><td>Air Plan: Schedule of carrier flight operations published daily but subject to change</td><td><a href="ekA.html#b-2">#2</a> <a href="ekA.html#b-3">#3</a></td><td>K003</td><td><span class="durum tam">Tam</span></td></tr><tr class="tam"><td class="uid">A-1.05</td><td>A-1</td><td>Angels: Altitude in thousands of feet. For example, Angels 1.5 = 1,500 feet</td><td><a href="ekA.html#b-2">#2</a> <a href="ekA.html#b-3">#3</a></td><td>S002 K004</td><td><span class="durum tam">Tam</span></td></tr><tr class="tam"><td class="uid">A-1.06</td><td>A-1</td><td>Axial Winds: Winds down the longitudinal axis of the ship created by the ship’s forward movement.</td><td><a href="ekA.html#b-2">#2</a> <a href="ekA.html#b-3">#3</a></td><td>S003 K005</td><td><span class="durum tam">Tam</span></td></tr><tr class="tam"><td class="uid">A-1.07</td><td>A-1</td><td>This causes a right-to-left crosswind across the angled deck.</td><td><a href="ekA.html#b-2">#2</a> <a href="ekA.html#b-3">#3</a></td><td>S003 K005</td><td><span class="durum tam">Tam</span></td></tr><tr class="tam"><td class="uid">A-1.08</td><td>A-1</td><td>Ball: See “Meatball.”</td><td><a href="ekA.html#b-2">#2</a> <a href="ekA.html#b-4">#4</a></td><td>K006</td><td><span class="durum tam">Tam</span></td></tr><tr class="tam"><td class="uid">A-1.09</td><td>A-1</td><td>Bingo: Refers to the minimum fuel state required to divert safely to the nearest suitable field.</td><td><a href="ekA.html#b-2">#2</a> <a href="ekA.html#b-4">#4</a></td><td>S004 K007</td><td><span class="durum tam">Tam</span></td></tr><tr class="tam"><td class="uid">A-1.10</td><td>A-1</td><td>Bingo is an emergency situation.</td><td><a href="ekA.html#b-2">#2</a> <a href="ekA.html#b-4">#4</a></td><td>S004 K007</td><td><span class="durum tam">Tam</span></td></tr><tr class="tam"><td class="uid">A-1.11</td><td>A-1</td><td>Bingo Fuel: Aircraft fuel state in sufficient quantity necessary to fly to the bingo field with X lbs. remaining; depending on aircraft type.</td><td><a href="ekA.html#b-2">#2</a> <a href="ekA.html#b-4">#4</a> <a href="ekA.html#b-5">#5</a></td><td>K008</td><td><span class="durum tam">Tam</span></td></tr><tr class="tam"><td class="uid">A-1.12</td><td>A-1</td><td>Bolter: A touchdown on the carrier in which the arresting hook does not engage the arresting wires</td><td><a href="ekA.html#b-2">#2</a> <a href="ekA.html#b-4">#4</a></td><td>S005 K009</td><td><span class="durum tam">Tam</span></td></tr><tr class="tam"><td class="uid">A-1.13</td><td>A-1</td><td>BRC: Base recovery course, which is the ship’s magnetic course</td><td><a href="ekA.html#b-2">#2</a> <a href="ekA.html#b-4">#4</a></td><td>K010</td><td><span class="durum tam">Tam</span></td></tr><tr class="tam"><td class="uid">A-1.14</td><td>A-1</td><td>Breaking the Deck: First aircraft to land for each cycle</td><td><a href="ekA.html#b-2">#2</a> <a href="ekA.html#b-4">#4</a></td><td>K011</td><td><span class="durum tam">Tam</span></td></tr><tr class="tam"><td class="uid">A-1.15</td><td>A-1</td><td>Buster: Proceed at maximum airspeed, generally for an immediate Charlie</td><td><a href="ekA.html#b-2">#2</a> <a href="ekA.html#b-4">#4</a></td><td>S006 K012</td><td><span class="durum tam">Tam</span></td></tr><tr class="tam"><td class="uid">A-1.16</td><td>A-1</td><td>Carrier Air Traffic Control Center (CATCC): The centralized department responsible for the status-keeping of all carrier air operations and control of all airborne aircraft involved in launch and recovery</td><td><a href="ekA.html#b-2">#2</a> <a href="ekA.html#b-6">#6</a></td><td>K013</td><td><span class="durum tam">Tam</span></td></tr><tr class="tam"><td class="uid">A-1.17</td><td>A-1</td><td>Carrier Control Zone (CCZ): The airspace within a circular limit defined by a 5 mile radius around the ship surface up to and including 2,500 feet under the cognizance of the Air Boss during VFR conditions</td><td><a href="ekA.html#b-2">#2</a> <a href="ekA.html#b-6">#6</a></td><td>S007 K014</td><td><span class="durum tam">Tam</span></td></tr><tr class="tam"><td class="uid">A-2.01</td><td>A-2</td><td>Case I: Refers to departure/recovery procedures and landing patterns conducted in VMC conditions when 3,000/5 or greater exist (3,000-foot ceiling and 5-NM visibility within the carrier control zone).</td><td><a href="ekA.html#b-2">#2</a> <a href="ekA.html#b-7">#7</a> <a href="ekA.html#b-8">#8</a></td><td>S008 K015</td><td><span class="durum tam">Tam</span></td></tr><tr class="tam"><td class="uid">A-2.02</td><td>A-2</td><td>Case I recoveries will marshal overhead the ship and enter the pattern via the break.</td><td><a href="ekA.html#b-2">#2</a> <a href="ekA.html#b-7">#7</a></td><td>S009 K015</td><td><span class="durum tam">Tam</span></td></tr><tr class="tam"><td class="uid">A-2.03</td><td>A-2</td><td>Case II: Weather less than 3,000/5 but greater than 1,000/5 exist at the ship.</td><td><a href="ekA.html#b-2">#2</a> <a href="ekA.html#b-7">#7</a> <a href="ekA.html#b-8">#8</a></td><td>S010 K016</td><td><span class="durum tam">Tam</span></td></tr><tr class="tam"><td class="uid">A-2.04</td><td>A-2</td><td>Case II recovery is a controlled IMC descent to the break and the VFR pattern.</td><td><a href="ekA.html#b-2">#2</a> <a href="ekA.html#b-7">#7</a></td><td>S011 K017</td><td><span class="durum tam">Tam</span></td></tr><tr class="tam"><td class="uid">A-2.05</td><td>A-2</td><td>It is used when a VFR penetration cannot be made.</td><td><a href="ekA.html#b-2">#2</a> <a href="ekA.html#b-7">#7</a></td><td>S011 K017</td><td><span class="durum tam">Tam</span></td></tr><tr class="tam"><td class="uid">A-2.06</td><td>A-2</td><td>The approach may be via radar vectors or a TACAN or ADF approach.</td><td><a href="ekA.html#b-2">#2</a> <a href="ekA.html#b-7">#7</a></td><td>S013 K018</td><td><span class="durum tam">Tam</span></td></tr><tr class="tam"><td class="uid">A-2.07</td><td>A-2</td><td>In no case will more than a section of two aircraft execute a Case II recovery.</td><td><a href="ekA.html#b-2">#2</a> <a href="ekA.html#b-7">#7</a></td><td>S012 K018</td><td><span class="durum tam">Tam</span></td></tr><tr class="tam"><td class="uid">A-2.08</td><td>A-2</td><td>Case II departure is a procedure used to climb through IFR conditions to VMC.</td><td><a href="ekA.html#b-2">#2</a> <a href="ekA.html#b-7">#7</a></td><td>S011 K019</td><td><span class="durum tam">Tam</span></td></tr><tr class="tam"><td class="uid">A-2.09</td><td>A-2</td><td>Case III: Used for weather less than 1,000/5, or at night.</td><td><a href="ekA.html#b-2">#2</a> <a href="ekA.html#b-7">#7</a> <a href="ekA.html#b-8">#8</a></td><td>S014 K020</td><td><span class="durum tam">Tam</span></td></tr><tr class="tam"><td class="uid">A-2.10</td><td>A-2</td><td>CCA: Carrier-controlled approach similar to a GCA</td><td><a href="ekA.html#b-2">#2</a> <a href="ekA.html#b-9">#9</a> <a href="ekA.html#b-10">#10</a></td><td>K021</td><td><span class="durum tam">Tam</span></td></tr><tr class="tam"><td class="uid">A-2.11</td><td>A-2</td><td>Charlie: Refers to the time the first aircraft is expected at the ramp.</td><td><a href="ekA.html#b-2">#2</a> <a href="ekA.html#b-9">#9</a> <a href="ekA.html#b-11">#11</a></td><td>S015 K022</td><td><span class="durum tam">Tam</span></td></tr><tr class="tam"><td class="uid">A-2.12</td><td>A-2</td><td>A “Charlie” or “Charlie on arrival” call is a directive to enter the pattern now.</td><td><a href="ekA.html#b-2">#2</a> <a href="ekA.html#b-9">#9</a></td><td>S016 K022</td><td><span class="durum tam">Tam</span></td></tr><tr class="tam"><td class="uid">A-2.13</td><td>A-2</td><td>“Charlie five” means be at the ramp in five minutes.</td><td><a href="ekA.html#b-2">#2</a> <a href="ekA.html#b-9">#9</a></td><td>S015 K022</td><td><span class="durum tam">Tam</span></td></tr><tr class="tam"><td class="uid">A-2.14</td><td>A-2</td><td>Cherubs: Altitude in hundreds of feet. For example, Cherubs 3 = 300 feet (Normally used for helicopters).</td><td><a href="ekA.html#b-2">#2</a> <a href="ekA.html#b-9">#9</a></td><td>S017 K023</td><td><span class="durum tam">Tam</span></td></tr><tr class="tam"><td class="uid">A-2.15</td><td>A-2</td><td>Chicks: Wingmen in a flight</td><td><a href="ekA.html#b-2">#2</a> <a href="ekA.html#b-9">#9</a></td><td>K024</td><td><span class="durum tam">Tam</span></td></tr><tr class="tam"><td class="uid">A-2.16</td><td>A-2</td><td>Clara: Meatball is not in sight</td><td><a href="ekA.html#b-2">#2</a> <a href="ekA.html#b-9">#9</a></td><td>S018 K025</td><td><span class="durum tam">Tam</span></td></tr><tr class="tam"><td class="uid">A-2.17</td><td>A-2</td><td>Clearing Turn: Associated with a Case I or II departure.</td><td><a href="ekA.html#b-2">#2</a> <a href="ekA.html#b-12">#12</a></td><td>S019 K026</td><td><span class="durum tam">Tam</span></td></tr><tr class="tam"><td class="uid">A-2.18</td><td>A-2</td><td>Immediately after launch, aircraft from bow cats initiate a right turn then a turn to parallel the BRC.</td><td><a href="ekA.html#b-2">#2</a> <a href="ekA.html#b-12">#12</a></td><td>S019 K026</td><td><span class="durum tam">Tam</span></td></tr><tr class="tam"><td class="uid">A-2.19</td><td>A-2</td><td>Aircraft launched from the waist cats initiate a left turn then a turn to parallel the BRC.</td><td><a href="ekA.html#b-2">#2</a> <a href="ekA.html#b-12">#12</a></td><td>S019 K026</td><td><span class="durum tam">Tam</span></td></tr><tr class="tam"><td class="uid">A-2.20</td><td>A-2</td><td>The purpose of these turns is to provide aircraft lateral separation on multiple launches from the carrier.</td><td><a href="ekA.html#b-2">#2</a> <a href="ekA.html#b-12">#12</a></td><td>S020 K026</td><td><span class="durum tam">Tam</span></td></tr><tr class="tam"><td class="uid">A-2.21</td><td>A-2</td><td>C.Q.: Carrier qualification</td><td><a href="ekA.html#b-2">#2</a> <a href="ekA.html#b-12">#12</a></td><td>K027</td><td><span class="durum tam">Tam</span></td></tr><tr class="tam"><td class="uid">A-2.22</td><td>A-2</td><td>Cross-Deck Pendant (CDP): Arresting gear wire</td><td><a href="ekA.html#b-2">#2</a> <a href="ekA.html#b-12">#12</a></td><td>K028</td><td><span class="durum tam">Tam</span></td></tr><tr class="tam"><td class="uid">A-2.23</td><td>A-2</td><td>Cut Lights: Green lights mounted horizontally and centered above the IFLOLS lens box (controlled by the LSO).</td><td><a href="ekA.html#b-2">#2</a> <a href="ekA.html#b-12">#12</a></td><td>S023 K029</td><td><span class="durum tam">Tam</span></td></tr><tr class="tam"><td class="uid">A-2.24</td><td>A-2</td><td>Utilized during Zip Lip and EMCON conditions instead of UHF to give pilots clearance to land, i.e., “Roger Ball.</td><td><a href="ekA.html#b-2">#2</a> <a href="ekA.html#b-12">#12</a></td><td>S021 K030</td><td><span class="durum tam">Tam</span></td></tr><tr class="tam"><td class="uid">A-2.25</td><td>A-2</td><td>Subsequent cut lights mean “power.</td><td><a href="ekA.html#b-2">#2</a> <a href="ekA.html#b-12">#12</a></td><td>S021 K030</td><td><span class="durum tam">Tam</span></td></tr><tr class="tam"><td class="uid">A-2.26</td><td>A-2</td><td>Also, used in conjunction with waveoff lights to signal bingo.</td><td><a href="ekA.html#b-2">#2</a> <a href="ekA.html#b-12">#12</a></td><td>S022 K030</td><td><span class="durum tam">Tam</span></td></tr><tr class="tam"><td class="uid">A-2.27</td><td>A-2</td><td>Datum Lights: Green reference lights mounted horizontally on the IFLOLS, seen on each side of the centered cell</td><td><a href="ekA.html#b-2">#2</a> <a href="ekA.html#b-13">#13</a></td><td>S024 K031</td><td><span class="durum tam">Tam</span></td></tr><tr class="tam"><td class="uid">A-2.28</td><td>A-2</td><td>Delta: Enter holding pattern as directed or continue to hold</td><td><a href="ekA.html#b-2">#2</a> <a href="ekA.html#b-13">#13</a></td><td>K032</td><td><span class="durum tam">Tam</span></td></tr><tr class="tam"><td class="uid">A-3.01</td><td>A-3</td><td>Delta Clean: Signal for aircraft in the pattern to raise gear and flaps/slats and hold as directed</td><td><a href="ekA.html#b-2">#2</a> <a href="ekA.html#b-13">#13</a></td><td>S025 K033</td><td><span class="durum tam">Tam</span></td></tr><tr class="tam"><td class="uid">A-3.02</td><td>A-3</td><td>Delta Easy: Signal for aircraft to remain at pattern altitude with gear and flaps/slats down and speed brakes retracted</td><td><a href="ekA.html#b-2">#2</a> <a href="ekA.html#b-13">#13</a></td><td>S025 K034</td><td><span class="durum tam">Tam</span></td></tr><tr class="tam"><td class="uid">A-3.03</td><td>A-3</td><td>Departure Reference Radial (DRR): Preassigned radial usually passed during the brief or as standing SOP</td><td><a href="ekA.html#b-2">#2</a> <a href="ekA.html#b-13">#13</a></td><td>K035</td><td><span class="durum tam">Tam</span></td></tr><tr class="tam"><td class="uid">A-3.04</td><td>A-3</td><td>Divert: An order for an aircraft to proceed and land at the field specified.</td><td><a href="ekA.html#b-2">#2</a> <a href="ekA.html#b-13">#13</a></td><td>S004 K036</td><td><span class="durum tam">Tam</span></td></tr><tr class="tam"><td class="uid">A-3.05</td><td>A-3</td><td>This is a non- emergency situation.</td><td><a href="ekA.html#b-2">#2</a> <a href="ekA.html#b-13">#13</a></td><td>S004 K036</td><td><span class="durum tam">Tam</span></td></tr><tr class="tam"><td class="uid">A-3.06</td><td>A-3</td><td>Emergency Expected Approach Time (EEAT): The future time, assigned prior to launch, at which time an aircraft is cleared to depart inbound or penetrate from a pre-assigned fix under lost communications conditions</td><td><a href="ekA.html#b-2">#2</a> <a href="ekA.html#b-14">#14</a></td><td>S026 K037</td><td><span class="durum tam">Tam</span></td></tr><tr class="tam"><td class="uid">A-3.07</td><td>A-3</td><td>Emergency Marshal: A marshal established by CATCC and given to each pilot prior to launch with and altitude and EEAT.</td><td><a href="ekA.html#b-2">#2</a> <a href="ekA.html#b-14">#14</a> <a href="ekA.html#b-15">#15</a></td><td>S028 K038</td><td><span class="durum tam">Tam</span></td></tr><tr class="tam"><td class="uid">A-3.08</td><td>A-3</td><td>The emergency marshal radial will have a minimum of 30 degrees of separation from the primary marshal radial.</td><td><a href="ekA.html#b-2">#2</a> <a href="ekA.html#b-14">#14</a></td><td>S028 K038</td><td><span class="durum tam">Tam</span></td></tr><tr class="tam"><td class="uid">A-3.09</td><td>A-3</td><td>Emission Control Procedures (EMCON): Electronic emission control procedures are in effect at the ship to avoid detection.</td><td><a href="ekA.html#b-2">#2</a> <a href="ekA.html#b-14">#14</a></td><td>S029 K039</td><td><span class="durum tam">Tam</span></td></tr><tr class="tam"><td class="uid">A-3.10</td><td>A-3</td><td>All radio, radar, and navigation equipment transmissions are eliminated except as required for safety of flight.</td><td><a href="ekA.html#b-2">#2</a> <a href="ekA.html#b-14">#14</a></td><td>S029 K039</td><td><span class="durum tam">Tam</span></td></tr><tr class="tam"><td class="uid">A-3.11</td><td>A-3</td><td>Expected Approach Time (EAT): The future time at which an aircraft is cleared to depart inbound or penetrate from a pre-assigned fix.</td><td><a href="ekA.html#b-2">#2</a> <a href="ekA.html#b-14">#14</a></td><td>S026 K040</td><td><span class="durum tam">Tam</span></td></tr><tr class="tam"><td class="uid">A-3.12</td><td>A-3</td><td>Aircraft depart and commence approach at assigned time if no further instructions are received.</td><td><a href="ekA.html#b-2">#2</a> <a href="ekA.html#b-14">#14</a></td><td>S027 K040</td><td><span class="durum tam">Tam</span></td></tr><tr class="tam"><td class="uid">A-3.13</td><td>A-3</td><td>Father: Code name for the ship’s TACAN</td><td><a href="ekA.html#b-2">#2</a> <a href="ekA.html#b-16">#16</a></td><td>S031 K041</td><td><span class="durum tam">Tam</span></td></tr><tr class="tam"><td class="uid">A-3.14</td><td>A-3</td><td>Feet Wet or Feet Dry: Aircraft crossing the coastline enroute to or returning from the ship</td><td><a href="ekA.html#b-2">#2</a> <a href="ekA.html#b-16">#16</a></td><td>K042</td><td><span class="durum tam">Tam</span></td></tr><tr class="tam"><td class="uid">A-3.15</td><td>A-3</td><td>Field Carrier Landing Practice (FCLP): LSO-graded landings conducted at the field prior to any carrier evolution</td><td><a href="ekA.html#b-2">#2</a> <a href="ekA.html#b-16">#16</a></td><td>K043</td><td><span class="durum tam">Tam</span></td></tr><tr class="tam"><td class="uid">A-3.16</td><td>A-3</td><td>Final Bearing (FB): The magnetic bearing assigned by CATCC for final approach (an extension of the landing area centerline); usually BRC minus the landing area angle of 10°.</td><td><a href="ekA.html#b-2">#2</a> <a href="ekA.html#b-16">#16</a></td><td>S030 K044</td><td><span class="durum tam">Tam</span></td></tr><tr class="tam"><td class="uid">A-3.17</td><td>A-3</td><td>Foul Deck: Landing area is not free of all obstructions or the flight deck is not ready to recover aircraft.</td><td><a href="ekA.html#b-2">#2</a> <a href="ekA.html#b-16">#16</a></td><td>K045</td><td><span class="durum tam">Tam</span></td></tr><tr class="tam"><td class="uid">A-3.18</td><td>A-3</td><td>Foul Line (ship only): A line painted on both sides of the landing area to define the minimum area that must be free of obstructions in order to consider the deck clear</td><td><a href="ekA.html#b-2">#2</a> <a href="ekA.html#b-16">#16</a></td><td>K046</td><td><span class="durum tam">Tam</span></td></tr><tr class="tam"><td class="uid">A-3.19</td><td>A-3</td><td>Fuel Ladder: A quick snapshot reference of total fuel breakdown and airborne time remaining used in the formulation of fuel requirement decision making</td><td><a href="ekA.html#b-2">#2</a> <a href="ekA.html#b-16">#16</a></td><td>K047</td><td><span class="durum tam">Tam</span></td></tr><tr class="tam"><td class="uid">A-4.01</td><td>A-4</td><td>Gadget: Radar</td><td><a href="ekA.html#b-2">#2</a> <a href="ekA.html#b-17">#17</a></td><td>K048</td><td><span class="durum tam">Tam</span></td></tr><tr class="tam"><td class="uid">A-4.02</td><td>A-4</td><td>Hangar Deck: Area below the flight deck used to store and repair aircraft</td><td><a href="ekA.html#b-2">#2</a> <a href="ekA.html#b-17">#17</a></td><td>K049</td><td><span class="durum tam">Tam</span></td></tr><tr class="tam"><td class="uid">A-4.03</td><td>A-4</td><td>Hawk: Term used for a lead safe. (Hawking chicks)</td><td><a href="ekA.html#b-2">#2</a> <a href="ekA.html#b-17">#17</a></td><td>K050</td><td><span class="durum tam">Tam</span></td></tr><tr class="tam"><td class="uid">A-4.04</td><td>A-4</td><td>Holdback: Metal fitting designed to break or release at a preset level of force during a catapult stroke</td><td><a href="ekA.html#b-2">#2</a> <a href="ekA.html#b-17">#17</a></td><td>S038 K051</td><td><span class="durum tam">Tam</span></td></tr><tr class="tam"><td class="uid">A-4.05</td><td>A-4</td><td>Hold-Down: Fuel state at which an aircraft will be refueled on deck prior to launch</td><td><a href="ekA.html#b-2">#2</a> <a href="ekA.html#b-17">#17</a></td><td>S032 K052</td><td><span class="durum tam">Tam</span></td></tr><tr class="tam"><td class="uid">A-4.06</td><td>A-4</td><td>Hook to Eye: The vertical distance measured between the pilot’s eye and the aircraft’s hook</td><td><a href="ekA.html#b-2">#2</a> <a href="ekA.html#b-17">#17</a></td><td>S034 K053</td><td><span class="durum tam">Tam</span></td></tr><tr class="tam"><td class="uid">A-4.07</td><td>A-4</td><td>Hook to Ramp: The clearance distance between the aircraft’s hook point and the flight deck as it crosses the ramp</td><td><a href="ekA.html#b-2">#2</a> <a href="ekA.html#b-17">#17</a></td><td>S034 K054</td><td><span class="durum tam">Tam</span></td></tr><tr class="tam"><td class="uid">A-4.08</td><td>A-4</td><td>Hot Refueling: Aircraft receives fuel with engine turning</td><td><a href="ekA.html#b-2">#2</a> <a href="ekA.html#b-17">#17</a></td><td>S033 K055</td><td><span class="durum tam">Tam</span></td></tr><tr class="tam"><td class="uid">A-4.09</td><td>A-4</td><td>Hot Seat: The replacement of one pilot by another pilot while the engine is turning</td><td><a href="ekA.html#b-2">#2</a> <a href="ekA.html#b-17">#17</a></td><td>S033 K056</td><td><span class="durum tam">Tam</span></td></tr><tr class="tam"><td class="uid">A-4.10</td><td>A-4</td><td>Improved Fresnel Lens Optical Landing System (IFLOLS): Pilot’s landing aid, i.e., meatball</td><td><a href="ekA.html#b-2">#2</a> <a href="ekA.html#b-18">#18</a></td><td>K057</td><td><span class="durum tam">Tam</span></td></tr><tr class="tam"><td class="uid">A-4.11</td><td>A-4</td><td>Interval: The time between you and the aircraft you are to follow</td><td><a href="ekA.html#b-2">#2</a> <a href="ekA.html#b-18">#18</a></td><td>K058</td><td><span class="durum tam">Tam</span></td></tr><tr class="tam"><td class="uid">A-4.12</td><td>A-4</td><td>In the Middle Position: A distance on the groove that is between the “start” and the “in close” position.</td><td><a href="ekA.html#b-2">#2</a> <a href="ekA.html#b-18">#18</a></td><td>S035 K059</td><td><span class="durum tam">Tam</span></td></tr><tr class="tam"><td class="uid">A-4.13</td><td>A-4</td><td>The middle-third of the groove.</td><td><a href="ekA.html#b-2">#2</a> <a href="ekA.html#b-18">#18</a></td><td>S035 K059</td><td><span class="durum tam">Tam</span></td></tr><tr class="tam"><td class="uid">A-4.14</td><td>A-4</td><td>Jet Blast Deflector (JBD): Hydraulically lifted deck plate mounted behind each catapult</td><td><a href="ekA.html#b-2">#2</a> <a href="ekA.html#b-18">#18</a></td><td>K060</td><td><span class="durum tam">Tam</span></td></tr><tr class="tam"><td class="uid">A-4.15</td><td>A-4</td><td>Kilo Report: An aircrew coded report indicating aircraft mission readiness</td><td><a href="ekA.html#b-2">#2</a> <a href="ekA.html#b-18">#18</a></td><td>K061</td><td><span class="durum tam">Tam</span></td></tr><tr class="tam"><td class="uid">A-4.16</td><td>A-4</td><td>Landing Signals Officer (LSO). Controls all fixed-wing aircraft off the 180 to touchdown during carrier and FCLP landings</td><td><a href="ekA.html#b-2">#2</a> <a href="ekA.html#b-19">#19</a></td><td>S036 K062</td><td><span class="durum tam">Tam</span></td></tr><tr class="tam"><td class="uid">A-4.17</td><td>A-4</td><td>Launch Bar: Metal arm attached to the nose gear and used to launch the aircraft</td><td><a href="ekA.html#b-2">#2</a> <a href="ekA.html#b-19">#19</a></td><td>K063</td><td><span class="durum tam">Tam</span></td></tr><tr class="tam"><td class="uid">A-4.18</td><td>A-4</td><td>Mark your Father: State bearing and distance from ship</td><td><a href="ekA.html#b-2">#2</a> <a href="ekA.html#b-19">#19</a></td><td>K064</td><td><span class="durum tam">Tam</span></td></tr><tr class="tam"><td class="uid">A-4.19</td><td>A-4</td><td>Marshal:</td><td><a href="ekA.html#b-2">#2</a> <a href="ekA.html#b-19">#19</a></td><td>S037 K065</td><td><span class="durum tam">Tam</span></td></tr><tr class="tam"><td class="uid">A-4.20</td><td>A-4</td><td>(1) Holding pattern during Case I, II, and III recoveries</td><td><a href="ekA.html#b-2">#2</a> <a href="ekA.html#b-19">#19</a></td><td>S037 K065</td><td><span class="durum tam">Tam</span></td></tr><tr class="tam"><td class="uid">A-4.21</td><td>A-4</td><td>(2) The term used for the ship’s radar controller</td><td><a href="ekA.html#b-2">#2</a> <a href="ekA.html#b-19">#19</a></td><td>S037 K065</td><td><span class="durum tam">Tam</span></td></tr><tr class="tam"><td class="uid">A-4.22</td><td>A-4</td><td>Meatball: Light projected by source lens on the IFLOLS</td><td><a href="ekA.html#b-2">#2</a> <a href="ekA.html#b-19">#19</a></td><td>K066</td><td><span class="durum tam">Tam</span></td></tr><tr class="tam"><td class="uid">A-5.01</td><td>A-5</td><td>Mirror: Landing aid used prior to the development of the Fresnel lens</td><td><a href="ekA.html#b-2">#2</a> <a href="ekA.html#b-19">#19</a></td><td>K067</td><td><span class="durum tam">Tam</span></td></tr><tr class="tam"><td class="uid">A-5.02</td><td>A-5</td><td>Mother: Code name used to signify the carrier</td><td><a href="ekA.html#b-2">#2</a> <a href="ekA.html#b-19">#19</a></td><td>S031 K068</td><td><span class="durum tam">Tam</span></td></tr><tr class="tam"><td class="uid">A-5.03</td><td>A-5</td><td>Ninety-nine Aircraft: A collective call to all aircraft in the launch or recovery</td><td><a href="ekA.html#b-2">#2</a> <a href="ekA.html#b-20">#20</a></td><td>K069</td><td><span class="durum tam">Tam</span></td></tr><tr class="tam"><td class="uid">A-5.04</td><td>A-5</td><td>On the Ball: LSO call stating hold your transmission until aircraft in the groove has landed</td><td><a href="ekA.html#b-2">#2</a> <a href="ekA.html#b-20">#20</a></td><td>S039 K070</td><td><span class="durum tam">Tam</span></td></tr><tr class="tam"><td class="uid">A-5.05</td><td>A-5</td><td>Overhead Time: The scheduled time a flight of aircraft is expected overhead the ship for pattern entry</td><td><a href="ekA.html#b-2">#2</a> <a href="ekA.html#b-20">#20</a></td><td>S046 K071</td><td><span class="durum tam">Tam</span></td></tr><tr class="tam"><td class="uid">A-5.06</td><td>A-5</td><td>Paddles: The call sign for the LSO</td><td><a href="ekA.html#b-2">#2</a> <a href="ekA.html#b-21">#21</a></td><td>K072</td><td><span class="durum tam">Tam</span></td></tr><tr class="tam"><td class="uid">A-5.07</td><td>A-5</td><td>Parrot: IFF</td><td><a href="ekA.html#b-2">#2</a> <a href="ekA.html#b-21">#21</a></td><td>S055 K073</td><td><span class="durum tam">Tam</span></td></tr><tr class="tam"><td class="uid">A-5.08</td><td>A-5</td><td>Pigeons: The magnetic bearing and distance to the divert field named</td><td><a href="ekA.html#b-2">#2</a> <a href="ekA.html#b-21">#21</a></td><td>S040 K074</td><td><span class="durum tam">Tam</span></td></tr><tr class="tam"><td class="uid">A-5.09</td><td>A-5</td><td>Pilot Landing Assistance Television (PLAT): Video camera system used to record carrier operations</td><td><a href="ekA.html#b-2">#2</a> <a href="ekA.html#b-21">#21</a></td><td>K075</td><td><span class="durum tam">Tam</span></td></tr><tr class="tam"><td class="uid">A-5.10</td><td>A-5</td><td>PIM: Position of intended movement</td><td><a href="ekA.html#b-2">#2</a> <a href="ekA.html#b-21">#21</a></td><td>K076</td><td><span class="durum tam">Tam</span></td></tr><tr class="tam"><td class="uid">A-5.11</td><td>A-5</td><td>Plane Guard: SAR helicopter or ship assigned during aircraft launch and recovery, usually located in starboard Delta for a helicopter, three miles astern for a ship</td><td><a href="ekA.html#b-2">#2</a> <a href="ekA.html#b-21">#21</a></td><td>S041 K077</td><td><span class="durum tam">Tam</span></td></tr><tr class="tam"><td class="uid">A-5.12</td><td>A-5</td><td>Platform: A reporting point in the ship’s TACAN approach (normally at 20 NM from the ship at 5,000 feet) at which the rate of descent is decreased to 2,000 feet per minute</td><td><a href="ekA.html#b-2">#2</a> <a href="ekA.html#b-21">#21</a></td><td>S042 K078</td><td><span class="durum tam">Tam</span></td></tr><tr class="tam"><td class="uid">A-5.13</td><td>A-5</td><td>Pogo: Return to previous frequency if unable to establish communications on frequency assigned</td><td><a href="ekA.html#b-2">#2</a> <a href="ekA.html#b-21">#21</a></td><td>S043 K079</td><td><span class="durum tam">Tam</span></td></tr><tr class="tam"><td class="uid">A-5.14</td><td>A-5</td><td>Popeye: Code word used to signify that aircraft is operating IMC</td><td><a href="ekA.html#b-2">#2</a> <a href="ekA.html#b-21">#21</a></td><td>S043 K080</td><td><span class="durum tam">Tam</span></td></tr><tr class="tam"><td class="uid">A-5.15</td><td>A-5</td><td>Pri-Fly: Tower location where the Air Boss oversees the pattern and flight deck operations</td><td><a href="ekA.html#b-2">#2</a> <a href="ekA.html#b-21">#21</a></td><td>K081</td><td><span class="durum tam">Tam</span></td></tr><tr class="tam"><td class="uid">A-5.16</td><td>A-5</td><td>Primary Marshal Radial: The radial assigned by Marshal that is used as the primary if there is a requirement for more than one Marshal stack/radial (geopolitical constraints or additional battle groups operating in the same area)</td><td><a href="ekA.html#b-2">#2</a> <a href="ekA.html#b-21">#21</a></td><td>S044 K082</td><td><span class="durum tam">Tam</span></td></tr><tr class="tam"><td class="uid">A-5.17</td><td>A-5</td><td>Pull Back: Action following arrestment whereby the wire is partially retracted to allow the pilot to raise the tailhook</td><td><a href="ekA.html#b-2">#2</a> <a href="ekA.html#b-21">#21</a></td><td>S045 K083</td><td><span class="durum tam">Tam</span></td></tr><tr class="tam"><td class="uid">A-5.18</td><td>A-5</td><td>Push Back: Action taken anytime the aircraft needs to be moved back by deck personnel</td><td><a href="ekA.html#b-2">#2</a> <a href="ekA.html#b-21">#21</a></td><td>S045 K084</td><td><span class="durum tam">Tam</span></td></tr><tr class="tam"><td class="uid">A-5.19</td><td>A-5</td><td>Ramp: The aft end of the flight deck.</td><td><a href="ekA.html#b-2">#2</a> <a href="ekA.html#b-22">#22</a></td><td>K085</td><td><span class="durum tam">Tam</span></td></tr><tr class="tam"><td class="uid">A-6.01</td><td>A-6</td><td>Ramp Time (Ready Deck): Anticipated time specified by the Air Boss that the flight deck will be ready to recover aircraft.</td><td><a href="ekA.html#b-2">#2</a> <a href="ekA.html#b-22">#22</a></td><td>S046 K086</td><td><span class="durum tam">Tam</span></td></tr><tr class="tam"><td class="uid">A-6.02</td><td>A-6</td><td>Time the first aircraft in Case III recovery is expected to be at ramp.</td><td><a href="ekA.html#b-2">#2</a> <a href="ekA.html#b-11">#11</a> <a href="ekA.html#b-22">#22</a></td><td>S046 K086</td><td><span class="durum tam">Tam</span></td></tr><tr class="tam"><td class="uid">A-6.03</td><td>A-6</td><td>Red Crown: Air Defense Unit generally located on a Destroyer (DDG) or CG that protects the battle group airspace, and verifies IFF checks</td><td><a href="ekA.html#b-2">#2</a> <a href="ekA.html#b-22">#22</a></td><td>S047 K087</td><td><span class="durum tam">Tam</span></td></tr><tr class="tam"><td class="uid">A-6.04</td><td>A-6</td><td>Roger Ball: The call made by the LSO that indicates you are cleared to land and the LSO has positive control (call made less than a mile prior to landing)</td><td><a href="ekA.html#b-2">#2</a> <a href="ekA.html#b-22">#22</a></td><td>S048 K088</td><td><span class="durum tam">Tam</span></td></tr><tr class="tam"><td class="uid">A-6.05</td><td>A-6</td><td>Roll Angle: Movement of the lens about the roll axis (set for each type of aircraft) to maintain a constant targeted hook touchdown point</td><td><a href="ekA.html#b-2">#2</a> <a href="ekA.html#b-22">#22</a></td><td>S049 K089</td><td><span class="durum tam">Tam</span></td></tr><tr class="tam"><td class="uid">A-6.06</td><td>A-6</td><td>Round Down: The aft end of the landing area that is curved downward</td><td><a href="ekA.html#b-2">#2</a> <a href="ekA.html#b-22">#22</a></td><td>K090</td><td><span class="durum tam">Tam</span></td></tr><tr class="tam"><td class="uid">A-6.07</td><td>A-6</td><td>RTB: Signal to return to base</td><td><a href="ekA.html#b-2">#2</a> <a href="ekA.html#b-22">#22</a></td><td>K091</td><td><span class="durum tam">Tam</span></td></tr><tr class="tam"><td class="uid">A-6.08</td><td>A-6</td><td>See You: Communication used to indicate that flight lead has the ship in sight</td><td><a href="ekA.html#b-2">#2</a> <a href="ekA.html#b-23">#23</a></td><td>K092</td><td><span class="durum tam">Tam</span></td></tr><tr class="tam"><td class="uid">A-6.09</td><td>A-6</td><td>Shuttle: The portion of the catapult that attaches to the launch bar during catapult launches</td><td><a href="ekA.html#b-2">#2</a> <a href="ekA.html#b-23">#23</a></td><td>S053 K093</td><td><span class="durum tam">Tam</span></td></tr><tr class="tam"><td class="uid">A-6.10</td><td>A-6</td><td>Spin: A delaying circle at 1200’, performed at the bow when the pattern is too full to allow all members of the flight to break by 4 NM.</td><td><a href="ekA.html#b-2">#2</a> <a href="ekA.html#b-23">#23</a> <a href="ekA.html#b-24">#24</a></td><td>S050 K094</td><td><span class="durum tam">Tam</span></td></tr><tr class="tam"><td class="uid">A-6.11</td><td>A-6</td><td>Starboard Delta: Holding pattern used by the helicopters and COD aircraft flown on the starboard side of the ship and using right-hand turns at 500 feet</td><td><a href="ekA.html#b-2">#2</a> <a href="ekA.html#b-23">#23</a></td><td>S051 K095</td><td><span class="durum tam">Tam</span></td></tr><tr class="tam"><td class="uid">A-6.12</td><td>A-6</td><td>Start: The first-third of the groove length</td><td><a href="ekA.html#b-2">#2</a> <a href="ekA.html#b-23">#23</a></td><td>S035 K096</td><td><span class="durum tam">Tam</span></td></tr><tr class="tam"><td class="uid">A-6.13</td><td>A-6</td><td>Steer: A heading to an airfield for normal divert from the ship when not in bingo profile.</td><td><a href="ekA.html#b-2">#2</a> <a href="ekA.html#b-23">#23</a></td><td>S052 K097</td><td><span class="durum tam">Tam</span></td></tr><tr class="tam"><td class="uid">A-6.14</td><td>A-6</td><td>When directed, proceed to the field named.</td><td><a href="ekA.html#b-2">#2</a> <a href="ekA.html#b-23">#23</a></td><td>S052 K097</td><td><span class="durum tam">Tam</span></td></tr><tr class="tam"><td class="uid">A-6.15</td><td>A-6</td><td>Strangle Your Parrot: Turn off your IFF.</td><td><a href="ekA.html#b-2">#2</a> <a href="ekA.html#b-23">#23</a></td><td>S055 K098</td><td><span class="durum tam">Tam</span></td></tr><tr class="tam"><td class="uid">A-6.16</td><td>A-6</td><td>Suspend: Stop the catapult launch sequence.</td><td><a href="ekA.html#b-2">#2</a> <a href="ekA.html#b-23">#23</a></td><td>S053 K099</td><td><span class="durum tam">Tam</span></td></tr><tr class="tam"><td class="uid">A-6.17</td><td>A-6</td><td>Sweet Lock: Positive TACAN lock-on</td><td><a href="ekA.html#b-2">#2</a> <a href="ekA.html#b-23">#23</a></td><td>S055 K100</td><td><span class="durum tam">Tam</span></td></tr><tr class="tam"><td class="uid">A-6.18</td><td>A-6</td><td>Tension: The portion of the catapult launch sequence when the shuttle is hydraulically moved forward to remove slack</td><td><a href="ekA.html#b-2">#2</a> <a href="ekA.html#b-25">#25</a></td><td>S053 K101</td><td><span class="durum tam">Tam</span></td></tr><tr class="tam"><td class="uid">A-6.19</td><td>A-6</td><td>Tiedown: Chocks and chains used to secure aircraft on the flight deck</td><td><a href="ekA.html#b-2">#2</a> <a href="ekA.html#b-25">#25</a></td><td>K102</td><td><span class="durum tam">Tam</span></td></tr><tr class="tam"><td class="uid">A-6.20</td><td>A-6</td><td>Trick or Treat: Aircraft in pattern that has enough fuel for one more approach.</td><td><a href="ekA.html#b-2">#2</a> <a href="ekA.html#b-25">#25</a></td><td>S054 K103</td><td><span class="durum tam">Tam</span></td></tr><tr class="tam"><td class="uid">A-6.21</td><td>A-6</td><td>If the aircraft does not trap, it will have to bingo or in-flight refuel (if able).</td><td><a href="ekA.html#b-2">#2</a> <a href="ekA.html#b-25">#25</a></td><td>S054 K103</td><td><span class="durum tam">Tam</span></td></tr><tr class="tam"><td class="uid">A-6.22</td><td>A-6</td><td>Zip Lip: Condition in which radio communications are minimized</td><td><a href="ekA.html#b-2">#2</a> <a href="ekA.html#b-25">#25</a></td><td>S029 K104</td><td><span class="durum tam">Tam</span></td></tr></tbody></table></div></main><script>(function () {
+  "use strict";
+  var $ = function (s, r) { return (r || document).querySelector(s); };
+  var $$ = function (s, r) { return Array.prototype.slice.call((r || document).querySelectorAll(s)); };
+  var SVGNS = "http://www.w3.org/2000/svg";
+  function svgEl(tag, attrs, parent) {
+    var e = document.createElementNS(SVGNS, tag);
+    for (var k in attrs) e.setAttribute(k, attrs[k]);
+    if (parent) parent.appendChild(e);
+    return e;
+  }
+  function shuffle(a) {
+    for (var i = a.length - 1; i > 0; i--) { var j = Math.floor(Math.random() * (i + 1)); var t = a[i]; a[i] = a[j]; a[j] = t; }
+    return a;
+  }
+  function store(k, v) { try { if (v === undefined) return localStorage.getItem(k); localStorage.setItem(k, v); } catch (e) { return null; } }
+
+  /* ---------- tema ---------- */
+  var saved = store("p816-tema");
+  if (saved) document.documentElement.setAttribute("data-theme", saved);
+  var temaBtn = $("#tema");
+  if (temaBtn) temaBtn.addEventListener("click", function () {
+    var cur = document.documentElement.getAttribute("data-theme") ||
+      (window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+    var next = cur === "dark" ? "light" : "dark";
+    document.documentElement.setAttribute("data-theme", next);
+    store("p816-tema", next);
+  });
+
+  /* ---------- menü (mobil) ---------- */
+  var menu = $(".menu-btn"), yan = $(".yan");
+  if (menu && yan) {
+    menu.addEventListener("click", function () { yan.classList.toggle("acik"); });
+    $$(".yan a").forEach(function (a) { a.addEventListener("click", function () { yan.classList.remove("acik"); }); });
+  }
+
+  /* ---------- kaynak (orijinal metin) ---------- */
+  function setKaynak(btn, open) {
+    var box = btn.parentNode.nextElementSibling;
+    btn.setAttribute("aria-expanded", open ? "true" : "false");
+    box.hidden = !open;
+  }
+  $$(".kaynak-btn").forEach(function (b) {
+    b.addEventListener("click", function () { setKaynak(b, b.getAttribute("aria-expanded") !== "true"); });
+  });
+  var tum = $("#tum-kaynak");
+  if (tum) tum.addEventListener("click", function () {
+    var open = tum.getAttribute("data-acik") !== "1";
+    $$(".kaynak-btn").forEach(function (b) { setKaynak(b, open); });
+    tum.setAttribute("data-acik", open ? "1" : "0");
+    tum.textContent = open ? "Tüm kaynakları kapat" : "Tüm kaynakları aç";
+  });
+
+  /* ---------- sorular ---------- */
+  $$(".quiz").forEach(function (quiz) {
+    var sec = quiz.getAttribute("data-sec");
+    var sorular = $$(".soru", quiz), dogru = 0, cevap = 0;
+    var skor = $('[data-skor="' + sec + '"]'), rozet = $('[data-rozet="' + sec + '"]');
+    sorular.forEach(function (s) {
+      var kap = $(".siklar", s);
+      shuffle($$(".sik", kap)).forEach(function (b) { kap.appendChild(b); });
+      $$(".sik", kap).forEach(function (b) {
+        b.addEventListener("click", function () {
+          var ok = b.getAttribute("data-ok") === "1";
+          $$(".sik", kap).forEach(function (x) {
+            x.disabled = true;
+            if (x.getAttribute("data-ok") === "1") x.classList.add("dogru");
+          });
+          if (!ok) b.classList.add("yanlis");
+          $(".aciklama", s).hidden = false;
+          cevap++; if (ok) dogru++;
+          if (skor) skor.textContent = dogru + " / " + sorular.length;
+          if (rozet) {
+            rozet.textContent = dogru + "/" + sorular.length;
+            if (cevap === sorular.length) rozet.classList.add("tamam");
+          }
+        });
+      });
+    });
+  });
+
+  /* ---------- bilgi kartları ---------- */
+  var veri = $("#kart-veri");
+  if (veri) {
+    var tumKartlar = JSON.parse(veri.textContent), liste = tumKartlar.slice(), idx = 0;
+    var kart = $("#kart"), on = $(".kart-on"), arka = $(".kart-arka"), sayac = $("#deste-sayac"), filtre = $("#deste-filtre");
+    var esc = function (t) { var d = document.createElement("div"); d.textContent = t; return d.innerHTML; };
+    var goster = function () {
+      kart.classList.remove("cevrik");
+      if (!liste.length) { on.textContent = "Kart yok"; arka.textContent = ""; sayac.textContent = ""; return; }
+      var c = liste[idx];
+      kart.classList.toggle("resimli", !!c.img);
+      on.innerHTML = (c.img ? '<img class="kart-img" alt="" src="img/' + esc(c.img) + '">' : "") +
+        esc(c.f) + "<small>" + esc(c.sec) + " · " + esc(c.src) + "</small>";
+      arka.innerHTML = esc(c.b) + "<small>P-816 " + esc(c.src) + "</small>";
+      sayac.textContent = (idx + 1) + " / " + liste.length;
+    };
+    var git = function (d) { if (!liste.length) return; idx = (idx + d + liste.length) % liste.length; goster(); };
+    kart.addEventListener("click", function () { kart.classList.toggle("cevrik"); });
+    kart.addEventListener("keydown", function (e) {
+      if (e.key === " " || e.key === "Enter") { e.preventDefault(); kart.classList.toggle("cevrik"); }
+      if (e.key === "ArrowRight") git(1);
+      if (e.key === "ArrowLeft") git(-1);
+    });
+    $("#kart-ileri").addEventListener("click", function () { git(1); });
+    $("#kart-geri").addEventListener("click", function () { git(-1); });
+    $("#deste-karistir").addEventListener("click", function () { shuffle(liste); idx = 0; goster(); });
+    filtre.addEventListener("change", function () {
+      liste = tumKartlar.filter(function (c) { return !filtre.value || c.sec === filtre.value; });
+      idx = 0; goster();
+    });
+    goster();
+  }
+
+  /* ---------- forma renkleri ---------- */
+  $$(".w-forma").forEach(function (w) {
+    var data = JSON.parse($(".w-veri", w).textContent);
+    var izgara = $(".forma-izgara", w), soruEl = $(".forma-soru", w), renkler = $(".forma-renkler", w), sonuc = $(".forma-sonuc", w);
+    data.forEach(function (d) {
+      var k = document.createElement("div"); k.className = "forma-kart";
+      var koyu = ["Sarı", "Beyaz"].indexOf(d.r) >= 0;
+      k.innerHTML = '<div class="renk" style="background:' + d.c + ';color:' + (koyu ? "#1d2126" : "#fff") + '">' + d.r + "</div><ul>" +
+        d.k.map(function (x) { return "<li>" + x + "</li>"; }).join("") + "</ul>";
+      izgara.appendChild(k);
+      var b = document.createElement("button");
+      b.style.background = d.c; b.title = d.r; b.setAttribute("aria-label", d.r); b.setAttribute("data-r", d.r);
+      renkler.appendChild(b);
+    });
+    var havuz = [], dogru = 0, toplam = 0, aktif = null, kilit = false;
+    data.forEach(function (d) { d.k.forEach(function (k) { havuz.push({ rol: k, r: d.r }); }); });
+    var yeni = function () { aktif = havuz[Math.floor(Math.random() * havuz.length)]; soruEl.textContent = aktif.rol; kilit = false; };
+    $$("button", renkler).forEach(function (b) {
+      b.addEventListener("click", function () {
+        if (kilit) return; kilit = true; toplam++;
+        var ok = b.getAttribute("data-r") === aktif.r; if (ok) dogru++;
+        sonuc.innerHTML = (ok ? "✓ Doğru: " : "✗ Hayır, doğrusu ") + "<b>" + aktif.r + "</b> · skor " + dogru + "/" + toplam;
+        setTimeout(yeni, 1300);
+      });
+    });
+    yeni();
+  });
+
+  /* ---------- IFLOLS ---------- */
+  $$(".w-iflols").forEach(function (w) {
+    var R = { amber: "#ffb020", amberS: "#4a3812", kir: "#ff3b30", kirS: "#3f1512", yes: "#2fdc68", yesS: "#163f24" };
+    var hucreG = $(".if-hucreler", w), datumG = $(".if-datum", w), cutG = $(".if-cut", w), woG = $(".if-waveoff", w);
+    var hucreler = [], cuts = [], wos = [];
+    for (var i = 0; i < 12; i++) hucreler.push(svgEl("circle", { cx: 280, cy: 50 + i * 20, r: 8, "class": "isik" }, hucreG));
+    for (var k = 0; k < 10; k++) {
+      svgEl("circle", { cx: 34 + k * 20, cy: 150, r: 7, fill: R.yes }, datumG);
+      svgEl("circle", { cx: 346 + k * 20, cy: 150, r: 7, fill: R.yes }, datumG);
+    }
+    [232, 250, 310, 328].forEach(function (x) { cuts.push(svgEl("circle", { cx: x, cy: 96, r: 7, "class": "isik" }, cutG)); });
+    [[250, 120], [250, 150], [250, 180], [250, 210], [232, 120], [232, 180], [232, 210],
+     [310, 120], [310, 150], [310, 180], [310, 210], [328, 120], [328, 180], [328, 210]].forEach(function (p) {
+      wos.push(svgEl("circle", { cx: p[0], cy: p[1], r: 7, "class": "isik" }, woG));
+    });
+    var konum = $("#if-konum", w) || $("input", w), durum = $(".if-durum", w), mesaj = $(".if-mesaj", w);
+    var cutOn = false, woOn = false, zam = [];
+    var ciz = function () {
+      var top = 11 - Number(konum.value);
+      hucreler.forEach(function (c, j) {
+        var red = j >= 10;
+        c.setAttribute("fill", j === top ? (red ? R.kir : R.amber) : (red ? R.kirS : R.amberS));
+      });
+      cuts.forEach(function (c) { c.setAttribute("fill", cutOn ? R.yes : R.yesS); });
+      wos.forEach(function (c) { c.setAttribute("fill", woOn ? R.kir : R.kirS); });
+      var t, cls;
+      if (top < 5) { t = "Yüksek (high ball): top datumların üstünde, uçak glideslope'un üstünde."; cls = "yuksek"; }
+      else if (top === 5) { t = "Glideslope üzerinde: top datumlarla yatayda hizalı."; cls = "dogru"; }
+      else if (top < 10) { t = "Alçak (low ball): top datumların altında, uçak glideslope'un altında."; cls = "alcak"; }
+      else { t = "KIRMIZI hücre: uçak tehlikeli derecede alçak!"; cls = "tehlike"; }
+      durum.textContent = t; durum.className = "if-durum " + cls;
+    };
+    var temizle = function () { zam.forEach(clearTimeout); zam = []; cutOn = woOn = false; ciz(); };
+    var sonra = function (ms, fn) { zam.push(setTimeout(function () { fn(); ciz(); }, ms)); };
+    var senaryo = {
+      roger: function () {
+        cutOn = true; sonra(700, function () { cutOn = false; });
+        return "Cut ışıkları kısa süre yandı: LSO \"Roger ball\" diyor (Zip Lip / EMCON operasyonlarında telsiz yerine).";
+      },
+      power: function () {
+        cutOn = true; sonra(450, function () { cutOn = false; }); sonra(800, function () { cutOn = true; }); sonra(1250, function () { cutOn = false; });
+        return "Cut ışıkları yeniden yandı: \"add power\" (güç ekle) çağrısı.";
+      },
+      waveoff: function () {
+        woOn = true; sonra(3000, function () { woOn = false; });
+        return "Kırmızı waveoff ışıkları yandı: derhal waveoff! (Güverte foul veya yaklaşma emniyetli parametrelerin dışında.)";
+      },
+      bingo: function () {
+        for (var n = 0; n < 10; n++) (function (n) { sonra(n * 400, function () { woOn = n % 2 === 0; cutOn = n % 2 === 1; }); })(n);
+        sonra(4000, function () { woOn = cutOn = false; });
+        return "Waveoff ve cut ışıkları dönüşümlü yanıyor: \"Bingo\".";
+      }
+    };
+    $$("[data-if]", w).forEach(function (b) {
+      b.addEventListener("click", function () { temizle(); mesaj.textContent = senaryo[b.getAttribute("data-if")](); ciz(); });
+    });
+    konum.addEventListener("input", ciz);
+    ciz();
+  });
+
+  /* ---------- MOVLAS ---------- */
+  $$(".w-movlas").forEach(function (w) {
+    var data = JSON.parse($(".w-veri", w).textContent), bilgi = $(".mv-bilgi", w);
+    $$(".mv-ist", w).forEach(function (g) {
+      g.setAttribute("tabindex", "0"); g.setAttribute("role", "button");
+      var sec = function () {
+        $$(".mv-ist", w).forEach(function (x) { x.classList.remove("secili"); });
+        g.classList.add("secili"); bilgi.innerHTML = data[g.getAttribute("data-ist")];
+      };
+      g.addEventListener("click", sec);
+      g.addEventListener("keydown", function (e) { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); sec(); } });
+    });
+  });
+
+  /* ---------- lazer lineup ---------- */
+  $$(".w-lazer").forEach(function (w) {
+    var g = $(".lz-sektorler", w), bilgi = $(".lz-bilgi", w), Rr = 530, rad = Math.PI / 180;
+    var Y = "#f2c230", G = "#25c45a", K = "#e0352b";
+    var dilimler = [
+      [-3, 3, Y, "", "Sabit sarı · 0,50° — \"On Centerline to Touchdown\": uçak merkez hattında."],
+      [-9, -3, G, "", "Sabit yeşil · 0,75° — merkez hattının bir yanındaki ilk sektör."],
+      [-16, -9, G, "lz-yavas", "Yavaş yanıp sönen yeşil (Slow Flash) · 4,0°."],
+      [-23, -16, G, "lz-hizli", "Hızlı yanıp sönen yeşil (Fast Flash) · 6,0° — en dış sektör."],
+      [3, 9, K, "", "Sabit kırmızı · 0,75° — merkez hattının diğer yanındaki ilk sektör."],
+      [9, 16, K, "lz-yavas", "Yavaş yanıp sönen kırmızı (Slow Flash) · 4,0°."],
+      [16, 23, K, "lz-hizli", "Hızlı yanıp sönen kırmızı (Fast Flash) · 6,0° — en dış sektör."]
+    ];
+    dilimler.forEach(function (d) {
+      var a1 = d[0] * rad, a2 = d[1] * rad;
+      var p = svgEl("path", {
+        d: "M0,0 L" + (Rr * Math.cos(a1)).toFixed(1) + "," + (Rr * Math.sin(a1)).toFixed(1) +
+           " A" + Rr + "," + Rr + " 0 0 1 " + (Rr * Math.cos(a2)).toFixed(1) + "," + (Rr * Math.sin(a2)).toFixed(1) + " Z",
+        fill: d[2], "class": "lz-dilim " + d[3], tabindex: "0", role: "button", "aria-label": d[4]
+      }, g);
+      var sec = function () { bilgi.textContent = d[4]; };
+      p.addEventListener("click", sec);
+      p.addEventListener("keydown", function (e) { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); sec(); } });
+    });
+    var yazi = function (x, y, t, anchor, aci) {
+      var e = svgEl("text", { x: x, y: y, fill: "#0d1014", "font-size": 13, "font-weight": 600, "text-anchor": anchor || "end",
+        "dominant-baseline": "middle", "pointer-events": "none", transform: "rotate(" + (aci || 0) + " " + x + " " + y + ")" }, g);
+      e.textContent = t;
+    };
+    yazi(240, 0, "On Centerline to Touchdown · Steady 0,50°", "start");
+    [[-6, "Steady 0,75°"], [-12.5, "Slow Flash 4,0°"], [-19.5, "Fast Flash 6,0°"], [6, "Steady 0,75°"], [12.5, "Slow Flash 4,0°"], [19.5, "Fast Flash 6,0°"]]
+      .forEach(function (l) {
+        var x = 515 * Math.cos(l[0] * rad), y = 515 * Math.sin(l[0] * rad);
+        yazi(x.toFixed(1), y.toFixed(1), l[1], "end", l[0]);
+      });
+    svgEl("circle", { cx: 0, cy: 0, r: 6, fill: "#cfd6de" }, g);
+  });
+
+  /* ---------- seslendirme oynatıcısı ---------- */
+  (function () {
+    var bloklar = $$(".blok[data-ses]"), bar = $("#oynatici");
+    if (!bloklar.length || !bar) return;
+    var a = new Audio(), sira = -1, onbellek = {}, sonUrl = null;
+    a.preload = "auto";
+    var hiz = parseFloat(store("p816-hiz")) || 1;
+    var devamKutu = $(".ob-devam input", bar);
+    devamKutu.checked = store("p816-devam") !== "0";
+    var fmt = function (t) { t = Math.max(0, t || 0); return Math.floor(t / 60) + ":" + ("0" + Math.floor(t % 60)).slice(-2); };
+
+    // Dosyayı belleğe al: sunucu kısmi yüklemeyi desteklemese de ileri/geri sarılabilsin.
+    // Çift tıklayıp açılan sayfada (file://) fetch kullanılamaz; doğrudan oynatılır.
+    function getir(u) {
+      if (location.protocol === "file:") return Promise.resolve(u);
+      if (!onbellek[u]) onbellek[u] = fetch(u).then(function (r) { if (!r.ok) throw 0; return r.blob(); })
+        .then(function (b) { return URL.createObjectURL(b); }).catch(function () { return u; });
+      return onbellek[u];
+    }
+    function hizAyarla(h) {
+      hiz = Math.min(2, Math.max(0.5, h));
+      a.defaultPlaybackRate = hiz; a.playbackRate = hiz; a.preservesPitch = true;
+      $(".ob-hiz-kaydir", bar).value = hiz;
+      $(".ob-hiz-deger", bar).textContent = hiz.toFixed(2).replace(".", ",") + "×";
+      $$(".ob-hiz-btn .btn", bar).forEach(function (b) { b.classList.toggle("aktif", Math.abs(parseFloat(b.dataset.h) - hiz) < 0.001); });
+      store("p816-hiz", String(hiz));
+    }
+    [0.75, 1, 1.25, 1.5, 1.75, 2].forEach(function (h) {
+      var b = document.createElement("button");
+      b.className = "btn"; b.dataset.h = h; b.textContent = String(h).replace(".", ",") + "×";
+      b.addEventListener("click", function () { hizAyarla(h); });
+      $(".ob-hiz-btn", bar).appendChild(b);
+    });
+    $(".ob-hiz-kaydir", bar).addEventListener("input", function () { hizAyarla(parseFloat(this.value)); });
+
+    function baslik(b) {
+      var s = b.closest("section"), h = s && s.querySelector("h2");
+      return h ? [].map.call(h.childNodes, function (n) { return n.textContent.trim(); }).filter(Boolean).join(" ") : "";
+    }
+    function dugmeler() {
+      $(".ob-oynat", bar).textContent = a.paused ? "▶" : "⏸";
+      var bas = $("#ses-baslat");
+      if (bas) bas.textContent = a.paused ? "🔊 Dinle" : "⏸ Duraklat";
+    }
+    function oynat(i) {
+      if (i < 0 || i >= bloklar.length) return;
+      sira = i;
+      var b = bloklar[i];
+      bloklar.forEach(function (x) { x.classList.remove("okunuyor"); });
+      b.classList.add("okunuyor");
+      bar.hidden = false; document.body.classList.add("oynatici-acik");
+      $(".ob-baslik", bar).textContent = (i + 1) + " / " + bloklar.length + " · " + baslik(b);
+      var r = b.getBoundingClientRect();
+      if (r.top < 70 || r.top > innerHeight - 160) b.scrollIntoView({ block: "center", behavior: "smooth" });
+      getir(b.dataset.ses).then(function (u) {
+        if (sira !== i) return;  // bu arada başka bloğa geçildi
+        if (sonUrl !== u) { a.src = u; sonUrl = u; }
+        a.currentTime = 0; hizAyarla(hiz);
+        var p = a.play(); if (p && p.catch) p.catch(function () {});
+        if (bloklar[i + 1]) getir(bloklar[i + 1].dataset.ses);  // sıradakini önceden yükle
+      });
+    }
+    function gorunenBlok() {
+      for (var i = 0; i < bloklar.length; i++) if (bloklar[i].getBoundingClientRect().bottom > 90) return i;
+      return 0;
+    }
+    a.addEventListener("ended", function () {
+      if (devamKutu.checked && sira < bloklar.length - 1) oynat(sira + 1); else dugmeler();
+    });
+    a.addEventListener("play", dugmeler); a.addEventListener("pause", dugmeler);
+    a.addEventListener("timeupdate", function () {
+      $(".ob-zaman", bar).textContent = fmt(a.currentTime) + " / " + fmt(a.duration);
+      if (a.duration) $(".ob-ilerleme", bar).value = a.currentTime / a.duration * 1000;
+    });
+    $(".ob-ilerleme", bar).addEventListener("input", function () { if (a.duration) a.currentTime = this.value / 1000 * a.duration; });
+    $(".ob-oynat", bar).addEventListener("click", function () {
+      if (sira < 0) oynat(gorunenBlok()); else if (a.paused) a.play(); else a.pause();
+    });
+    $(".ob-geri", bar).addEventListener("click", function () { if (a.currentTime > 3) a.currentTime = 0; else oynat(Math.max(0, sira - 1)); });
+    $(".ob-ileri", bar).addEventListener("click", function () { if (sira < bloklar.length - 1) oynat(sira + 1); });
+    devamKutu.addEventListener("change", function () { store("p816-devam", devamKutu.checked ? "1" : "0"); });
+    $(".ob-kapat", bar).addEventListener("click", function () {
+      a.pause(); bar.hidden = true; document.body.classList.remove("oynatici-acik");
+      bloklar.forEach(function (x) { x.classList.remove("okunuyor"); });
+    });
+    bloklar.forEach(function (b, i) {
+      var btn = $(".dinle-btn", b);
+      if (btn) btn.addEventListener("click", function () { oynat(i); });
+    });
+    var bas = $("#ses-baslat");
+    if (bas) bas.addEventListener("click", function () {
+      if (sira >= 0 && !a.paused) a.pause();
+      else if (sira >= 0 && !bar.hidden) a.play();
+      else oynat(gorunenBlok());
+    });
+    hizAyarla(hiz);
+  })();
+
+  /* ---------- kapsam raporu filtresi ---------- */
+  $$(".filtre .btn").forEach(function (b) {
+    b.addEventListener("click", function () {
+      $$(".filtre .btn").forEach(function (x) { x.classList.remove("aktif"); });
+      b.classList.add("aktif");
+      var f = b.getAttribute("data-f");
+      $$(".kapsam tbody tr").forEach(function (tr) { tr.style.display = !f || tr.classList.contains(f) ? "" : "none"; });
+    });
+  });
+})();
+
+/* Bölüm 2, parça a: a_dongu (cyclic operations adımları), a_case (Case I/II/III seçici) */
+(function () {
+  "use strict";
+  var qa = function (s, r) { return Array.prototype.slice.call((r || document).querySelectorAll(s)); };
+  var q1 = function (s, r) { return (r || document).querySelector(s); };
+  var el = function (tag, cls, text) {
+    var e = document.createElement(tag);
+    if (cls) e.className = cls;
+    if (text) e.textContent = text;
+    return e;
+  };
+
+  /* ---------- a_dongu ---------- */
+  qa(".w-a-dongu").forEach(function (w) {
+    var veri;
+    try { veri = JSON.parse(q1(".w-veri", w).textContent); } catch (e) { return; }
+    var adimlar = q1(".ad-adimlar", w), havaY = q1(".ad-hava .ad-yuva", w), guvY = q1(".ad-guverte .ad-yuva", w);
+    var metin = q1(".ad-metin", w), sayac = q1(".ad-sayac", w), geri = q1(".ad-geri", w), ileri = q1(".ad-ileri", w);
+    var i = 0, noktalar = [];
+    var cipler = function (yer, liste) {
+      yer.innerHTML = "";
+      if (!liste.length) { yer.appendChild(el("span", "ad-bos", "—")); return; }
+      liste.forEach(function (c) {
+        var cip = el("span", "ad-cip ad-g" + c.g, c.l);
+        if (c.n) cip.appendChild(el("small", "", c.n));
+        yer.appendChild(cip);
+      });
+    };
+    var ciz = function () {
+      var s = veri[i];
+      cipler(havaY, s.hava);
+      cipler(guvY, s.guverte);
+      metin.textContent = "";
+      metin.appendChild(el("b", "", s.t + ". "));
+      metin.appendChild(document.createTextNode(s.m));
+      sayac.textContent = (i + 1) + " / " + veri.length;
+      geri.disabled = i === 0;
+      ileri.disabled = i === veri.length - 1;
+      noktalar.forEach(function (n, j) { n.classList.toggle("aktif", j === i); n.setAttribute("aria-pressed", j === i ? "true" : "false"); });
+    };
+    veri.forEach(function (s, j) {
+      var b = el("button", "ad-nokta", String(j + 1));
+      b.type = "button";
+      b.title = s.t;
+      b.setAttribute("aria-label", (j + 1) + ". adım: " + s.t);
+      b.addEventListener("click", function () { i = j; ciz(); });
+      adimlar.appendChild(b);
+      noktalar.push(b);
+    });
+    geri.addEventListener("click", function () { if (i > 0) { i--; ciz(); } });
+    ileri.addEventListener("click", function () { if (i < veri.length - 1) { i++; ciz(); } });
+    ciz();
+  });
+
+  /* ---------- a_case ---------- */
+  qa(".w-a-case").forEach(function (w) {
+    var tavan = q1(".ac-tavan", w), gorus = q1(".ac-gorus", w), zaman = q1(".ac-zaman", w), imc = q1(".ac-imc", w);
+    var tavanD = q1(".ac-tavan-d", w), gorusD = q1(".ac-gorus-d", w);
+    var sonuc = q1(".ac-sonuc", w), caseE = q1(".ac-case", w), neden = q1(".ac-neden", w);
+    var sayi = function (x) { try { return x.toLocaleString("tr-TR"); } catch (e) { return String(x); } };
+    var hesap = function () {
+      var t = Number(tavan.value), g = Number(gorus.value), gece = zaman.value === "gece", ongoru = imc.checked;
+      tavanD.textContent = sayi(t) + " ft";
+      gorusD.textContent = sayi(g) + " NM";
+      var c, m;
+      if (gece) {
+        c = 3; m = "Tüm gece operasyonları Case III ile yapılır. Case III açısından gece: gün batımından 30 dakika önce – gün doğumundan 30 dakika sonra.";
+      } else if (t < 1000 || g < 5) {
+        c = 3; m = "Tavan 1.000 ft'in altında ya da görüş 5 NM'den az: bu Case III havasıdır.";
+      } else if (t < 3000) {
+        c = 2; m = "Case I için tavan 3.000 ft'ten alçak olmamalı. Tavan 1.000 ft veya üstü ve görüş 5 NM: Case II asgarisi karşılanıyor.";
+      } else if (ongoru) {
+        c = 2; m = "Gündüz, ama uçağın IMC'ye girebileceği öngörülüyor: Case II (normalde overcast tabaka varken ilan edilir).";
+      } else {
+        c = 1; m = "Gündüz, VMC; tavan 3.000 ft'ten alçak değil, görüş 5 NM'den az değil: Case I.";
+      }
+      caseE.textContent = "Case " + ["I", "II", "III"][c - 1];
+      neden.textContent = m;
+      sonuc.className = "ac-sonuc ac-c" + c;
+    };
+    [tavan, gorus, zaman, imc].forEach(function (x) {
+      x.addEventListener("input", hesap);
+      x.addEventListener("change", hesap);
+    });
+    hesap();
+  });
+})();
+
+/* Bölüm 2, parça b: b_isaretler (katapult işaret sırası) ve b_kalkis (Case I/II/III kalkış profili) */
+(function () {
+  "use strict";
+  var $ = function (s, r) { return (r || document).querySelector(s); };
+  var $$ = function (s, r) { return Array.prototype.slice.call((r || document).querySelectorAll(s)); };
+  var esc = function (t) { var d = document.createElement("div"); d.textContent = t; return d.innerHTML; };
+  var karistir = function (a) {
+    for (var i = a.length - 1; i > 0; i--) { var j = Math.floor(Math.random() * (i + 1)); var t = a[i]; a[i] = a[j]; a[j] = t; }
+    return a;
+  };
+
+  /* ---------- b_isaretler ---------- */
+  $$(".w-b-isaretler").forEach(function (w) {
+    var veri = $(".b-veri", w);
+    if (!veri) return;
+    var data = JSON.parse(veri.textContent);
+    var adimlar = $(".bis-adimlar", w), kart = $(".bis-kart", w), sira = $(".bis-sira", w), test = $(".bis-test", w);
+    var idx = 0;
+    var tur = function (d) { return d.kim.indexOf("Director") === 0 ? "bis-dir" : "bis-cat"; };
+    var satir = function (etiket, metin, cls) {
+      return metin ? '<p class="' + (cls || "") + '"><b>' + etiket + "</b> " + esc(metin) + "</p>" : "";
+    };
+    var goster = function () {
+      var d = data[idx];
+      $$(".bis-nokta", adimlar).forEach(function (b, i) {
+        b.classList.toggle("aktif", i === idx);
+        b.classList.toggle("gecti", i < idx);
+        b.setAttribute("aria-current", i === idx ? "step" : "false");
+      });
+      kart.innerHTML = '<div class="bis-bas"><span class="bis-harf">' + esc(d.h) + "</span><div><strong>" + esc(d.en) +
+        "</strong><small>" + esc(d.tr) + " · veren: " + esc(d.kim) + "</small></div></div>" +
+        satir("Nasıl:", d.nasil) + satir("Pilot:", d.pilot, "bis-pilot") + satir("İlgili:", d.ilgili, "bis-ilgili");
+    };
+    data.forEach(function (d, i) {
+      var li = document.createElement("li"), b = document.createElement("button");
+      b.type = "button";
+      b.className = "bis-nokta " + tur(d);
+      b.textContent = d.h;
+      b.title = d.en;
+      b.setAttribute("aria-label", d.h + ": " + d.en);
+      b.addEventListener("click", function () { idx = i; goster(); });
+      li.appendChild(b);
+      adimlar.appendChild(li);
+    });
+    var git = function (n) { idx = Math.max(0, Math.min(data.length - 1, idx + n)); goster(); };
+    $('[data-bis="geri"]', w).addEventListener("click", function () { git(-1); });
+    $('[data-bis="ileri"]', w).addEventListener("click", function () { git(1); });
+    kart.setAttribute("tabindex", "0");
+    kart.addEventListener("keydown", function (e) {
+      if (e.key === "ArrowRight") git(1);
+      if (e.key === "ArrowLeft") git(-1);
+    });
+
+    var soruEl = $(".bis-soru", test), siklar = $(".bis-siklar", test), sonuc = $(".bis-sonuc", test);
+    var aktif = null, dogru = 0, toplam = 0, kilit = false;
+    var yeniSoru = function () {
+      aktif = data[Math.floor(Math.random() * data.length)];
+      var diger = karistir(data.filter(function (x) { return x !== aktif; })).slice(0, 3);
+      soruEl.innerHTML = "<b>" + esc(aktif.kim) + ":</b> " + esc(aktif.nasil) + "<br><small>Bu hangi işaret?</small>";
+      siklar.innerHTML = "";
+      karistir([aktif].concat(diger)).forEach(function (s) {
+        var b = document.createElement("button");
+        b.type = "button";
+        b.className = "btn";
+        b.textContent = "(" + s.h + ") " + s.en;
+        b.addEventListener("click", function () {
+          if (kilit) return;
+          kilit = true; toplam++;
+          var ok = s === aktif;
+          if (ok) dogru++;
+          $$(".btn", siklar).forEach(function (x, k) { x.disabled = true; });
+          b.classList.add(ok ? "bis-dogru" : "bis-yanlis");
+          if (!ok) $$(".btn", siklar).forEach(function (x) {
+            if (x.textContent === "(" + aktif.h + ") " + aktif.en) x.classList.add("bis-dogru");
+          });
+          sonuc.innerHTML = (ok ? "✓ Doğru" : "✗ Doğrusu: <b>(" + esc(aktif.h) + ") " + esc(aktif.en) + "</b>") +
+            " · skor " + dogru + "/" + toplam;
+          setTimeout(function () { kilit = false; yeniSoru(); }, 1800);
+        });
+        siklar.appendChild(b);
+      });
+    };
+
+    $$("[data-bis-mod]", w).forEach(function (b) {
+      b.addEventListener("click", function () {
+        var mod = b.getAttribute("data-bis-mod");
+        $$("[data-bis-mod]", w).forEach(function (x) {
+          var on = x === b;
+          x.classList.toggle("aktif", on);
+          x.setAttribute("aria-pressed", on ? "true" : "false");
+        });
+        sira.hidden = mod !== "sira";
+        test.hidden = mod !== "test";
+        if (mod === "test" && !aktif) yeniSoru();
+      });
+    });
+    goster();
+  });
+
+  /* ---------- b_kalkis ---------- */
+  $$(".w-b-kalkis").forEach(function (w) {
+    var veri = $(".b-veri", w);
+    if (!veri) return;
+    var data = JSON.parse(veri.textContent), bilgi = $(".bkl-bilgi", w);
+    var sec = function (c) {
+      w.setAttribute("data-case", c);
+      $$("[data-bk]", w).forEach(function (b) {
+        var on = b.getAttribute("data-bk") === c;
+        b.classList.toggle("aktif", on);
+        b.setAttribute("aria-pressed", on ? "true" : "false");
+      });
+      bilgi.innerHTML = data[c];
+    };
+    $$("[data-bk]", w).forEach(function (b) {
+      b.addEventListener("click", function () { sec(b.getAttribute("data-bk")); });
+    });
+    sec(w.getAttribute("data-case") || "1");
+  });
+})();
+
+/* Bölüm 2, parça c bileşenleri: c_inispaterni (Case I iniş paterni), c_holding (overhead holding aralıkları) */
+(function () {
+  "use strict";
+  var q = function (s, r) { return (r || document).querySelector(s); };
+  var qa = function (s, r) { return Array.prototype.slice.call((r || document).querySelectorAll(s)); };
+  var SVGNS = "http://www.w3.org/2000/svg";
+
+  /* ---------- c_inispaterni ---------- */
+  qa(".w-c-inispaterni").forEach(function (w) {
+    var veri;
+    try { veri = JSON.parse(q(".w-veri", w).textContent); } catch (e) { return; }
+    var bilgi = q(".c-ip-bilgi", w), adimlar = q(".c-ip-adimlar", w);
+    var noktalar = qa(".c-ip-nokta", w), dugmeler = [], secili = -1;
+
+    veri.forEach(function (d, i) {
+      var b = document.createElement("button");
+      b.className = "btn c-ip-adim";
+      b.type = "button";
+      b.innerHTML = "<span>" + (i + 1) + " · " + d.k + "</span><small>" + d.i + "</small>";
+      b.addEventListener("click", function () { sec(i); });
+      adimlar.appendChild(b);
+      dugmeler.push(b);
+    });
+
+    function sec(i) {
+      if (i < 0 || i >= veri.length) return;
+      secili = i;
+      noktalar.forEach(function (g) { g.classList.toggle("secili", +g.getAttribute("data-n") === i + 1); });
+      dugmeler.forEach(function (b, j) {
+        b.classList.toggle("aktif", j === i);
+        b.setAttribute("aria-pressed", j === i ? "true" : "false");
+      });
+      bilgi.innerHTML = veri[i].t;
+    }
+
+    noktalar.forEach(function (g) {
+      var n = +g.getAttribute("data-n") - 1;
+      g.setAttribute("tabindex", "0");
+      g.setAttribute("role", "button");
+      g.setAttribute("aria-label", (n + 1) + ". " + (veri[n] ? veri[n].k : ""));
+      g.addEventListener("click", function () { sec(n); });
+      g.addEventListener("keydown", function (e) {
+        if (e.key === "Enter" || e.key === " ") { e.preventDefault(); sec(n); }
+      });
+    });
+
+    qa(".c-ip-nav .btn", w).forEach(function (b) {
+      b.addEventListener("click", function () {
+        var yon = +b.getAttribute("data-yon");
+        var n = secili < 0 ? 0 : (secili + yon + veri.length) % veri.length;
+        sec(n);
+      });
+    });
+  });
+
+  /* ---------- c_holding ---------- */
+  qa(".w-c-holding").forEach(function (w) {
+    var svg = q("svg", w), katman = q(".c-ho-ucaklar", w), bilgi = q(".c-ho-bilgi", w);
+    var oynatBtn = q(".c-ho-oynat", w);
+    if (!svg || !katman) return;
+    var CX = 200, CY = 190, R = 120;          /* halka merkezi ve yarıçapı (SVG birimi) */
+    var kol = 2, aci0 = 0, oynuyor = false, son = 0, gecis = 0;
+
+    /* Ekran açısı: 0° = sağ (Point 1), saat yönünün tersine artar (sol el akış). */
+    function konum(derece) {
+      var r = derece * Math.PI / 180;
+      return { x: CX + R * Math.cos(r), y: CY - R * Math.sin(r) };
+    }
+
+    function ciz() {
+      while (katman.firstChild) katman.removeChild(katman.firstChild);
+      var aralik = 360 / kol;
+      for (var i = 0; i < kol; i++) {
+        var p = konum(aci0 + i * aralik);
+        var c = document.createElementNS(SVGNS, "circle");
+        c.setAttribute("cx", p.x.toFixed(1));
+        c.setAttribute("cy", p.y.toFixed(1));
+        c.setAttribute("r", "9");
+        c.setAttribute("class", "c-ho-ucak");
+        katman.appendChild(c);
+        var t = document.createElementNS(SVGNS, "text");
+        t.setAttribute("x", p.x.toFixed(1));
+        t.setAttribute("y", (p.y + 4).toFixed(1));
+        t.setAttribute("class", "c-ho-ucak-no");
+        t.textContent = String.fromCharCode(65 + i);   /* kollar A, B, C, D */
+        katman.appendChild(t);
+      }
+    }
+
+    function yaz() {
+      var aralik = 360 / kol;
+      bilgi.innerHTML = "Aynı irtifada <b>" + kol + " kol</b> → aralarında <b>" + aralik + "°</b>. " +
+        "Kollar Point 1 (Mother) üzerinden düzenli aralıklarla geçer: her tam turda " + kol + " geçiş." +
+        (gecis ? " <span class=\"c-ho-sayac\">Point 1 geçişi: " + gecis + "</span>" : "");
+    }
+
+    function kur(n) {
+      kol = n; aci0 = 0; gecis = 0;
+      qa(".c-ho-sec .btn", w).forEach(function (b) {
+        var on = +b.getAttribute("data-kol") === n;
+        b.classList.toggle("aktif", on);
+        b.setAttribute("aria-pressed", on ? "true" : "false");
+      });
+      ciz(); yaz();
+    }
+
+    function adim(zaman) {
+      if (!oynuyor) return;
+      var dt = son ? Math.min(zaman - son, 100) : 16;
+      son = zaman;
+      var onceki = aci0;
+      aci0 = (aci0 + dt * 0.03) % 360;            /* yaklaşık 12 s'de bir tur (şematik hız) */
+      /* bir kol Point 1'i (0°) geçtiyse say */
+      var aralik = 360 / kol;
+      var a = onceki % aralik, b = aci0 % aralik;
+      if (b < a) { gecis++; yaz(); }
+      ciz();
+      requestAnimationFrame(adim);
+    }
+
+    function oynat(on) {
+      oynuyor = on;
+      oynatBtn.textContent = on ? "Durdur" : "Oynat";
+      oynatBtn.setAttribute("aria-pressed", on ? "true" : "false");
+      if (on) { son = 0; requestAnimationFrame(adim); }
+    }
+
+    qa(".c-ho-sec .btn", w).forEach(function (b) {
+      b.addEventListener("click", function () { kur(+b.getAttribute("data-kol")); });
+    });
+    oynatBtn.addEventListener("click", function () { oynat(!oynuyor); });
+    kur(2);
+  });
+})();
+
+/* Bölüm 2, parça d: d_marshal (marshal holding hesaplayıcı), d_cv1 (CV-1 yaklaşma adımları) */
+(function () {
+  "use strict";
+  var SVGNS = "http://www.w3.org/2000/svg";
+  function el(tag, attrs, parent, text) {
+    var e = document.createElementNS(SVGNS, tag);
+    for (var k in attrs) e.setAttribute(k, attrs[k]);
+    if (text !== undefined) e.textContent = text;
+    if (parent) parent.appendChild(e);
+    return e;
+  }
+  function q(s, r) { return r.querySelector(s); }
+  function qa(s, r) { return Array.prototype.slice.call(r.querySelectorAll(s)); }
+  function esc(t) { var d = document.createElement("div"); d.textContent = t; return d.innerHTML; }
+  function binlik(n) { return String(n).replace(/\B(?=(\d{3})+(?!\d))/g, "."); }
+  function rad3(r) { r = ((Math.round(r) % 360) + 360) % 360; return ("00" + r).slice(-3); }
+
+  /* ---------- d_marshal: holding fix = angels + 15 ---------- */
+  qa(".w-d-marshal", document).forEach(function (w) {
+    var rIn = q(".dm-radyal", w), aIn = q(".dm-angels", w), sonuc = q(".dm-sonuc", w), svg = q(".dm-svg", w);
+    var X = function (nm) { return 40 + nm * 13; };      /* 0–35 NM */
+    var Y = function (ang) { return 186 - ang * 7.4; };  /* angels 0–20 */
+
+    function ciz(secili) {
+      while (svg.firstChild) svg.removeChild(svg.firstChild);
+      el("line", { x1: 14, y1: 188, x2: 556, y2: 188, "class": "dm-deniz" }, svg);
+      el("path", { d: "M26,188 L54,188 L50,182 L32,182 Z", "class": "dm-gemi" }, svg);
+      el("rect", { x: 42, y: 174, width: 5, height: 8, "class": "dm-gemi" }, svg);
+      for (var nm = 0; nm <= 35; nm += 5) {
+        el("line", { x1: X(nm), y1: 188, x2: X(nm), y2: 194, "class": "dm-tik" }, svg);
+        el("text", { x: X(nm), y: 208, "text-anchor": "middle", "class": "d-k" }, svg, nm === 0 ? "gemi" : String(nm));
+      }
+      el("text", { x: 556, y: 224, "text-anchor": "end", "class": "d-k" }, svg, "DME (NM), ölçeksiz şema");
+      var ust = secili >= 6 && secili <= 20 ? secili : 9;
+      for (var a = 6; a <= ust; a++) {
+        var fx = X(a + 15), y = Y(a), on = a === secili;
+        el("rect", { x: fx, y: y - 4, width: 46, height: 8, rx: 4, "class": "dm-pat" + (on ? " secili" : "") }, svg);
+        if (on) {
+          el("text", { x: fx + 46, y: y - 9, "text-anchor": "end", "class": "d-t" }, svg,
+            "angels " + a + " · " + binlik(a * 1000) + " ft · " + (a + 15) + " DME");
+        }
+      }
+      if (secili >= 6 && secili <= 20) {
+        el("line", { x1: X(0), y1: 182, x2: X(secili + 15), y2: Y(secili), "class": "dm-cizgi" }, svg);
+        el("line", { x1: X(secili + 15), y1: Y(secili) + 4, x2: X(secili + 15), y2: 188, "class": "dm-cizgi" }, svg);
+      }
+      el("text", { x: 14, y: 20, "class": "d-k" }, svg, "Stack: 1.000 ft dikey ayrım · en düşük 6.000 ft (angels 6 → 21 DME)");
+    }
+
+    function guncelle() {
+      var a = Math.round(Number(aIn.value)), r = Number(rIn.value);
+      if (!isFinite(r) || r < 0 || r > 359) { sonuc.className = "dm-sonuc uyari"; sonuc.textContent = "Radyal 000–359 arasında olmalı."; ciz(); return; }
+      if (!isFinite(a) || a < 6) {
+        sonuc.className = "dm-sonuc uyari";
+        sonuc.textContent = "Turboprop ve jet uçaklarına atanabilecek en düşük irtifa 6.000 ft'tir (angels 6).";
+        ciz(); return;
+      }
+      if (a > 20) { sonuc.className = "dm-sonuc uyari"; sonuc.textContent = "Bu şema angels 20'ye kadar çizer."; ciz(); return; }
+      sonuc.className = "dm-sonuc";
+      sonuc.innerHTML = "<b>" + rad3(r) + " radyalinde, " + (a + 15) + " DME'de, " + binlik(a * 1000) + " ft'te</b> bekle. " +
+        "<span class=\"dm-hesap\">Distance = Angels + 15 = " + a + " + 15 = " + (a + 15) + "</span>";
+      ciz(a);
+    }
+    rIn.addEventListener("input", guncelle);
+    aIn.addEventListener("input", guncelle);
+    guncelle();
+
+    /* kendini dene */
+    var soru = q(".dm-soru", w), tahmin = q(".dm-tahmin", w), geri = q(".dm-geri", w), aktif = null;
+    function yeni() {
+      aktif = { r: Math.floor(Math.random() * 72) * 5, a: 6 + Math.floor(Math.random() * 10) };
+      soru.textContent = "Marshal — \"405, ... Marshal on the " + rad3(aktif.r) + ", ?, angels " + aktif.a + ".\"";
+      tahmin.value = ""; geri.textContent = ""; geri.className = "dm-geri";
+    }
+    function kontrol() {
+      if (!aktif) return;
+      var t = Number(tahmin.value), dogru = aktif.a + 15, ok = t === dogru;
+      geri.className = "dm-geri " + (ok ? "ok" : "hata");
+      geri.textContent = (ok ? "✓ Doğru: " : "✗ Hayır: ") + "angels " + aktif.a + " + 15 = " + dogru + " DME (" +
+        binlik(aktif.a * 1000) + " ft, " + rad3(aktif.r) + " radyali).";
+      rIn.value = aktif.r; aIn.value = aktif.a; guncelle();
+    }
+    q(".dm-kontrol", w).addEventListener("click", kontrol);
+    q(".dm-yeni", w).addEventListener("click", yeni);
+    tahmin.addEventListener("keydown", function (e) { if (e.key === "Enter") kontrol(); });
+    yeni();
+  });
+
+  /* ---------- d_cv1: CV-1 yaklaşma adımları ---------- */
+  qa(".w-d-cv1", document).forEach(function (w) {
+    var adimlar = JSON.parse(q(".w-veri", w).textContent);
+    var svg = q(".d1-svg", w), liste = q(".d1-adimlar", w), kart = q(".d1-kart", w), sayac = q(".d1-sayac", w);
+    var PL = 20.3; /* şematik platform konumu */
+    function alt(d) {
+      if (d >= PL) return 5000 + (d - PL) / (22 - PL) * 2000;
+      if (d >= 10) return 1200 + (d - 10) / (PL - 10) * 3800;
+      if (d >= 3) return 1200;
+      return 400 * d;
+    }
+    function X(d) { return d <= 10 ? 60 + d * 36 : 420 + (d - 10) * (220 / 12); }
+    function Y(a) { return a <= 1200 ? 222 - a * 0.05 : 162 - (a - 1200) * (130 / 5800); }
+    function P(d) { return X(d).toFixed(1) + "," + Y(alt(d)).toFixed(1); }
+
+    /* zemin */
+    el("line", { x1: 0, y1: 228, x2: 680, y2: 228, "class": "dm-deniz" }, svg);
+    el("path", { d: "M44,222 L78,222 L73,228 L49,228 Z", "class": "dm-gemi" }, svg);
+    el("rect", { x: 64, y: 214, width: 5, height: 8, "class": "dm-gemi" }, svg);
+    var bant = el("rect", { x: X(4), y: 150, width: X(8) - X(4), height: 24, rx: 3, "class": "d1-bant" }, svg);
+    el("text", { x: (X(4) + X(8)) / 2, y: 186, "text-anchor": "middle", "class": "d-k" }, svg, "ACLS lock-on 8–4 DME");
+    el("path", { d: "M60,222 Q34,190 14,162", "class": "d1-bolter" }, svg);
+    el("text", { x: 6, y: 152, "class": "d-k" }, svg, "bolter/waveoff: 1.200 ft");
+    /* yol */
+    el("path", { d: "M" + P(22) + " L" + P(PL) + " L" + P(10) + " L" + P(3) + " L" + P(0), "class": "d1-yol" }, svg);
+    el("ellipse", { cx: X(22) + 14, cy: Y(7000), rx: 14, ry: 4, "class": "d1-hold" }, svg);
+    el("text", { x: 676, y: 18, "text-anchor": "end", "class": "d-t" }, svg, "Holding · angels 7 · 22 DME");
+    el("text", { x: 612, y: 46, "text-anchor": "end", "class": "d-k" }, svg, "250 KIAS · 4.000 ft/dk");
+    el("circle", { cx: X(PL), cy: Y(5000), r: 3.5, "class": "d1-nokta" }, svg);
+    el("text", { x: X(PL) - 8, y: Y(5000) - 6, "text-anchor": "end", "class": "d-t" }, svg, "Platform 5.000 ft");
+    el("text", { x: 520, y: 152, "text-anchor": "middle", "class": "d-k" }, svg, "2.000 ft/dk");
+    el("text", { x: 384, y: 154, "text-anchor": "middle", "class": "d-t" }, svg, "1.200 ft");
+    [[3, "1.200"], [2, "800"], [1, "400"], [0.5, "200"]].forEach(function (g) {
+      el("circle", { cx: X(g[0]), cy: Y(alt(g[0])), r: 3, "class": "d1-nokta" }, svg);
+      el("text", { x: X(g[0]) - 5, y: Y(alt(g[0])) - 6, "text-anchor": "end", "class": "d-k" }, svg, g[1]);
+    });
+    var tikler = {};
+    [0, 1, 2, 3, 4, 6, 8, 10, 12, 20, 22].forEach(function (d) {
+      el("line", { x1: X(d), y1: 228, x2: X(d), y2: 234, "class": "dm-tik" }, svg);
+      tikler[d] = el("text", { x: X(d), y: 247, "text-anchor": "middle", "class": "d-k d1-tik-y" }, svg, d === 0 ? "gemi" : String(d));
+    });
+    el("text", { x: 676, y: 260, "text-anchor": "end", "class": "d-k" }, svg, "DME / NM (ölçeksiz)");
+    var imlec = el("circle", { cx: X(22), cy: Y(7000), r: 7, "class": "d1-imlec" }, svg);
+
+    /* adım düğmeleri */
+    var dugmeler = adimlar.map(function (a, i) {
+      var b = document.createElement("button");
+      b.type = "button"; b.textContent = String(i + 1); b.title = a.ad; b.setAttribute("aria-label", (i + 1) + ". " + a.ad);
+      b.addEventListener("click", function () { git(i); });
+      liste.appendChild(b);
+      return b;
+    });
+
+    var idx = 0;
+    function git(i) {
+      idx = (i + adimlar.length) % adimlar.length;
+      var a = adimlar[idx];
+      dugmeler.forEach(function (b, j) { b.classList.toggle("aktif", j === idx); });
+      imlec.setAttribute("cx", X(a.dme).toFixed(1));
+      imlec.setAttribute("cy", Y(alt(a.dme)).toFixed(1));
+      bant.classList.toggle("aktif", !!a.bant);
+      Object.keys(tikler).forEach(function (d) { tikler[d].classList.toggle("aktif", Number(d) === a.dme); });
+      var h = '<div class="d1-baslik"><span class="d1-no">' + (idx + 1) + "</span> " + esc(a.ad) + "</div>" +
+        '<p class="d1-kosul">' + esc(a.kosul) + "</p><ul>" +
+        a.eylem.map(function (e) { return "<li>" + esc(e) + "</li>"; }).join("") + "</ul>";
+      if (a.cagri.length) {
+        h += '<div class="d1-telsiz"><b>Telsiz (belgedeki örnek)</b><ul>' +
+          a.cagri.map(function (c) { return "<li>" + esc(c) + "</li>"; }).join("") + "</ul></div>";
+      }
+      kart.innerHTML = h;
+      sayac.textContent = (idx + 1) + " / " + adimlar.length;
+    }
+    q(".d1-geri", w).addEventListener("click", function () { git(idx - 1); });
+    q(".d1-ileri", w).addEventListener("click", function () { git(idx + 1); });
+    w.addEventListener("keydown", function (e) {
+      if (e.target && e.target.tagName === "INPUT") return;
+      if (e.key === "ArrowRight") { e.preventDefault(); git(idx + 1); }
+      if (e.key === "ArrowLeft") { e.preventDefault(); git(idx - 1); }
+    });
+    git(0);
+  });
+})();
+
+/* Bölüm 2, parça e — e_bingo: Şekil 2-10 / 2-11 bingo grafiği okuyucu (eğitim amaçlı, uçuşta kullanılmaz). */
+(function () {
+  "use strict";
+  /* Veri: kaynak/bolum2_sekil_birimleri_e.json ile aynı değerler.
+     Satır: [mesafe, yakıt rüzgârsız, yakıt baş rüzgârı, seyir irtifası, seyir hızı,
+             alçalma mesafesi rüzgârsız, alçalma mesafesi baş rüzgârı,
+             deniz seviyesi yakıt rüzgârsız, deniz seviyesi yakıt baş rüzgârı, deniz seviyesi seyir hızı]; null = "-" */
+  var VERI = {"temiz":{"hw":100,"konf":"GEAR UP - FLAPS UP","sekil":"Figure 2-10","bloklar":[{"di":0,"climb":"300/0,75","desc":180,"satirlar":[[25,420,515,5000,221,14,6,429,535,220],[50,528,682,10000,222,27,13,559,771,221],[75,625,815,15000,219,41,21,690,1006,221],[100,712,921,20000,218,55,29,820,1240,222],[125,795,1006,25000,225,69,37,952,1474,222],[150,869,1081,30000,224,83,46,1083,1707,223],[175,935,1150,35000,215,97,55,1216,1940,224],[200,999,1238,35000,216,97,55,1349,2172,224],[225,1063,1327,35000,216,97,55,1482,2404,225],[250,1127,1392,40000,213,111,65,1616,2635,226]]},{"di":50,"climb":"265/0,70","desc":170,"satirlar":[[25,433,542,5000,214,12,5,441,562,214],[50,551,731,10000,214,24,11,582,823,215],[75,656,875,15000,214,37,17,724,1085,216],[100,752,993,20000,213,49,24,867,1348,216],[125,840,1089,25000,215,61,31,1010,1610,216],[150,924,1175,30000,214,74,39,1153,1872,217],[175,1000,1259,35000,208,86,47,1297,2135,217],[200,1074,1361,35000,208,86,47,1442,2398,218],[225,1147,1464,35000,208,86,47,1587,2661,218],[250,1221,1568,35000,209,86,47,1733,null,219]]},{"di":100,"climb":"245/0,60","desc":165,"satirlar":[[25,444,566,5000,210,11,5,452,589,209],[50,572,773,10000,208,22,10,604,877,209],[75,685,993,15000,207,33,15,757,1165,210],[100,788,1060,20000,207,44,21,911,1454,211],[125,880,1132,30000,201,66,34,1066,1742,211],[150,965,1257,30000,201,66,34,1221,2030,212],[175,1051,1358,35000,195,77,41,1377,2318,212],[200,1133,1477,35000,195,77,41,1533,2606,213],[225,1216,1597,35000,196,77,41,1690,2893,213],[250,1299,1717,35000,196,77,41,1848,null,214]]}]},"kirli":{"hw":50,"konf":"GEAR DOWN - FULL FLAPS","sekil":"Figure 2-11","bloklar":[{"di":0,"climb":"120","desc":110,"satirlar":[[25,743,1001,8000,122,8,4,758,1074,123],[50,1142,1598,12500,118,12,7,1226,1858,124],[75,1541,2187,15000,117,15,9,1704,2652,126],[100,1950,2809,15000,118,15,9,2195,null,127],[125,2369,null,15000,119,15,null,2697,null,129],[150,2819,null,12500,120,12,null,null,null,null],[175,null,null,null,null,null,null,null,null,null],[200,null,null,null,null,null,null,null,null,null],[225,null,null,null,null,null,null,null,null,null],[250,null,null,null,null,null,null,null,null,null]]},{"di":50,"climb":"120","desc":110,"satirlar":[[25,749,1011,8000,121,8,4,764,1087,122],[50,1155,1620,12500,117,12,7,1239,1885,124],[75,1562,2221,15000,116,14,9,1725,2694,125],[100,1979,2854,15000,117,14,9,2222,null,127],[125,2406,null,15000,118,14,null,2732,null,128],[150,2866,null,12500,120,12,null,null,null,null],[175,null,null,null,null,null,null,null,null,null],[200,null,null,null,null,null,null,null,null,null],[225,null,null,null,null,null,null,null,null,null],[250,null,null,null,null,null,null,null,null,null]]},{"di":100,"climb":"120","desc":110,"satirlar":[[25,754,1022,8000,121,8,4,771,1100,122],[50,1169,1643,12500,116,12,7,1252,1912,123],[75,1583,2257,15000,116,14,8,1745,2737,125],[100,2007,null,15000,117,14,null,2250,null,126],[125,2442,null,15000,118,14,null,2766,null,127],[150,null,null,null,null,null,null,null,null,null],[175,null,null,null,null,null,null,null,null,null],[200,null,null,null,null,null,null,null,null,null],[225,null,null,null,null,null,null,null,null,null],[250,null,null,null,null,null,null,null,null,null]]}]}};
+  var SVGNS = "http://www.w3.org/2000/svg";
+
+  function sayi(n) {
+    if (n === null || n === undefined) return "–";
+    return String(n).replace(/\B(?=(\d{3})+(?!\d))/g, ".");
+  }
+  function el(tag, attrs, parent, text) {
+    var e = document.createElementNS(SVGNS, tag);
+    for (var k in attrs) e.setAttribute(k, attrs[k]);
+    if (text !== undefined) e.textContent = text;
+    if (parent) parent.appendChild(e);
+    return e;
+  }
+  function h(s) {
+    return String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+  }
+
+  Array.prototype.slice.call(document.querySelectorAll(".w-e-bingo")).forEach(function (kap) {
+    var durum = { konf: "temiz", di: 0, ruzgar: 0, mesafe: 100 };
+    var svg = kap.querySelector(".eb-profil");
+    var sonuc = kap.querySelector(".eb-sonuc");
+    var aralik = kap.querySelector('input[type="range"]');
+    var mesafeEt = kap.querySelector(".eb-mesafe-deger");
+    var ruzgarBtn = kap.querySelector('[data-eb-ruzgar="1"]');
+
+    function sec(attr, deger) {
+      Array.prototype.slice.call(kap.querySelectorAll("[" + attr + "]")).forEach(function (b) {
+        b.classList.toggle("aktif", b.getAttribute(attr) === String(deger));
+        b.setAttribute("aria-pressed", b.getAttribute(attr) === String(deger) ? "true" : "false");
+      });
+    }
+
+    function satirBul() {
+      var g = VERI[durum.konf], blok = null, satir = null;
+      g.bloklar.forEach(function (b) { if (b.di === durum.di) blok = b; });
+      blok.satirlar.forEach(function (r) { if (r[0] === durum.mesafe) satir = r; });
+      return { g: g, blok: blok, r: satir };
+    }
+
+    function olcu(xa, xb, y, metin) {
+      el("line", { x1: xa, y1: y, x2: xb, y2: y, "class": "eb-olcu" }, svg);
+      el("line", { x1: xa, y1: y - 5, x2: xa, y2: y + 5, "class": "eb-olcu-uc" }, svg);
+      el("line", { x1: xb, y1: y - 5, x2: xb, y2: y + 5, "class": "eb-olcu-uc" }, svg);
+      el("text", { x: (xa + xb) / 2, y: y + 14, "class": "hs-k", "text-anchor": "middle" }, svg, metin);
+    }
+
+    function ciz(s) {
+      while (svg.firstChild) svg.removeChild(svg.firstChild);
+      var r = s.r, bos = r.slice(1).every(function (v) { return v === null; });
+      var y0 = 165, x0 = 50, x1 = 200, x2 = 430, x3 = 600;
+      el("line", { x1: 20, y1: y0, x2: 620, y2: y0, "class": "eb-deniz" }, svg);
+      el("text", { x: 20, y: y0 + 16, "class": "hs-k", "text-anchor": "start" }, svg, "başlangıç: deniz seviyesi");
+      el("text", { x: 620, y: y0 + 16, "class": "hs-k", "text-anchor": "end" }, svg, "bingo sahası");
+      el("circle", { cx: x0, cy: y0, r: 5, "class": "eb-nokta" }, svg);
+      el("circle", { cx: x3, cy: y0, r: 5, "class": "eb-nokta" }, svg);
+      olcu(x0, x3, y0 + 56, "DIST TO BASE " + durum.mesafe + " NM");
+      if (bos) {
+        el("text", { x: 320, y: 95, "class": "hs-t" }, svg, "Grafikte bu mesafe için değer yok (–)");
+        return;
+      }
+      var alt = r[3], yc = y0 - 25 - (alt / 40000) * 115;
+      var dd = r[5 + durum.ruzgar];
+      el("polyline", { points: [x0, y0, x1, yc, x2, yc, x3, y0].join(" "), "class": "eb-yol" }, svg);
+      el("circle", { cx: x2, cy: yc, r: 5, "class": "eb-alcalma" }, svg);
+      el("text", { x: 160, y: y0 - 24, "class": "hs-k", "text-anchor": "start" }, svg, "tırmanış: maks. thrust (MRT)");
+      el("text", { x: 160, y: y0 - 8, "class": "hs-k", "text-anchor": "start" }, svg, "CLIMB SPEED " + s.blok.climb);
+      el("text", { x: (x1 + x2) / 2, y: yc - 10, "class": "hs-t" }, svg,
+        "seyir " + sayi(alt) + " ft · " + sayi(r[4]) + " KCAS");
+      el("text", { x: x2 + 8, y: yc - 10, "class": "hs-k", "text-anchor": "start" }, svg, "alçalma noktası");
+      el("text", { x: (x2 + x3) / 2 + 14, y: (y0 + yc) / 2 + 4, "class": "hs-k", "text-anchor": "start" }, svg,
+        "idle · " + s.blok.desc + " KCAS");
+      olcu(x2, x3, y0 + 28, (dd === null ? "–" : dd + " NM") + " (sahadan)");
+    }
+
+    function yaz(s) {
+      var r = s.r, hw = s.g.hw, w = durum.ruzgar;
+      var bos = r.slice(1).every(function (v) { return v === null; });
+      var ruzgarAd = w ? hw + " kt baş rüzgârı" : "rüzgârsız";
+      function cift(a, b) {
+        return (w ? sayi(a) + " / <b>" + sayi(b) + "</b>" : "<b>" + sayi(a) + "</b> / " + sayi(b));
+      }
+      if (bos) {
+        sonuc.innerHTML = "<p><b>" + h(s.g.sekil) + "</b>, DRAG INDEX = " + durum.di + ", " + durum.mesafe +
+          " NM: grafikte bu satırın tüm sütunlarında \"-\" var (değer verilmemiş).</p>";
+        return;
+      }
+      sonuc.innerHTML =
+        "<p class=\"eb-kaynak\">" + h(s.g.sekil) + " · " + h(s.g.konf) + " · DRAG INDEX = " + durum.di +
+        " · " + durum.mesafe + " NM · seçili: " + ruzgarAd + "</p>" +
+        "<table><thead><tr><th>Kalem</th><th>Değer (rüzgârsız / " + hw + " kt baş rüzgârı)</th></tr></thead><tbody>" +
+        "<tr><td>Gereken yakıt (FUEL REQD)</td><td>" + cift(r[1], r[2]) + " lb</td></tr>" +
+        "<tr><td>Tırmanış hızı (CLIMB SPEED)</td><td>" + h(s.blok.climb) + "</td></tr>" +
+        "<tr><td>Seyir irtifası / hızı (CRUISE)</td><td>" + sayi(r[3]) + " ft · " + sayi(r[4]) + " KCAS</td></tr>" +
+        "<tr><td>Alçalma hızı (DESCEND SPEED)</td><td>" + s.blok.desc + " KCAS</td></tr>" +
+        "<tr><td>Alçalma mesafesi (DIST)</td><td>" + cift(r[5], r[6]) + " NM</td></tr>" +
+        "<tr><td>Deniz seviyesi seyri: yakıt</td><td>" + cift(r[7], r[8]) + " lb</td></tr>" +
+        "<tr><td>Deniz seviyesi seyri: hız</td><td>" + sayi(r[9]) + (r[9] === null ? "" : " KCAS") + "</td></tr>" +
+        "</tbody></table>";
+    }
+
+    function guncelle() {
+      sec("data-eb-konf", durum.konf);
+      sec("data-eb-di", durum.di);
+      sec("data-eb-ruzgar", durum.ruzgar);
+      var s = satirBul();
+      ruzgarBtn.textContent = s.g.hw + " kt baş rüzgârı";
+      mesafeEt.textContent = durum.mesafe + " NM";
+      ciz(s);
+      yaz(s);
+    }
+
+    kap.addEventListener("click", function (e) {
+      var b = e.target.closest("button");
+      if (!b || !kap.contains(b)) return;
+      if (b.hasAttribute("data-eb-konf")) durum.konf = b.getAttribute("data-eb-konf");
+      else if (b.hasAttribute("data-eb-di")) durum.di = Number(b.getAttribute("data-eb-di"));
+      else if (b.hasAttribute("data-eb-ruzgar")) durum.ruzgar = Number(b.getAttribute("data-eb-ruzgar"));
+      else return;
+      guncelle();
+    });
+    aralik.addEventListener("input", function () {
+      durum.mesafe = Number(aralik.value);
+      guncelle();
+    });
+    guncelle();
+  });
+})();
+
+/* Ek A, parça a: ekA_sozluk (aranabilir sözlük) */
+(function () {
+  "use strict";
+  var kaplar = document.querySelectorAll(".w-ekA-sozluk");
+  if (!kaplar.length) return;
+
+  var ESC = { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" };
+  var kacis = function (s) { return String(s).replace(/[&<>"]/g, function (c) { return ESC[c]; }); };
+  /* **kalın** ve *italik* -> HTML (derle.py'deki satır içi biçimle aynı) */
+  var bicim = function (s) {
+    return kacis(s)
+      .replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>")
+      .replace(/(^|[^*\w])\*([^*\s](?:[^*]*?[^*\s])?)\*(?![*\w])/g, "$1<em>$2</em>");
+  };
+  var duz = function (s) { return String(s).replace(/\*\*/g, "").replace(/\*/g, ""); };
+  /* harf harf katlama: küçük harf, aksan yok, ı -> i; uzunluk korunur (vurgulama için) */
+  var katla1 = function (c) {
+    var k = c.toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "");
+    if (k === "ı") k = "i";
+    return k.length === 1 ? k : c.toLowerCase().charAt(0);
+  };
+  var katla = function (s) {
+    var o = "";
+    for (var i = 0; i < s.length; i++) o += katla1(s.charAt(i));
+    return o;
+  };
+  var vurgula = function (metin, katli, sorgu) {
+    if (!sorgu) return kacis(metin);
+    var j = katli.indexOf(sorgu);
+    if (j < 0) return kacis(metin);
+    return kacis(metin.slice(0, j)) + "<mark>" + kacis(metin.slice(j, j + sorgu.length)) + "</mark>" +
+      kacis(metin.slice(j + sorgu.length));
+  };
+
+  Array.prototype.forEach.call(kaplar, function (w) {
+    var veri;
+    try { veri = JSON.parse(w.querySelector(".w-veri").textContent); } catch (e) { return; }
+    var ara = w.querySelector(".ekA-sz-ara"), sayac = w.querySelector(".ekA-sz-sayac");
+    var liste = w.querySelector(".ekA-sz-liste"), detay = w.querySelector(".ekA-sz-detay");
+    var cipler = Array.prototype.slice.call(w.querySelectorAll(".ekA-sz-cip"));
+    var bolum = "", secili = -1, gorunen = [];
+    var adla = {};
+    veri.forEach(function (e, i) {
+      e.duz = duz(e.d);
+      e.kt = katla(e.t);
+      e.kd = katla(e.duz);
+      adla[e.t] = i;
+    });
+
+    var ozet = function (e, sorgu, adda) {
+      var m = e.duz, km = e.kd, j = sorgu && !adda ? km.indexOf(sorgu) : -1;
+      if (j < 0) return kacis(m.length > 90 ? m.slice(0, 88) + "…" : m);
+      var bas = Math.max(0, j - 30), son = Math.min(m.length, j + sorgu.length + 50);
+      return (bas > 0 ? "…" : "") + vurgula(m.slice(bas, son), km.slice(bas, son), sorgu) + (son < m.length ? "…" : "");
+    };
+
+    var detayCiz = function (i) {
+      var e = veri[i];
+      var h = '<h4 class="ekA-sz-baslik">' + kacis(e.t) + "</h4>" +
+        '<div class="ekA-sz-meta"><a href="#s-' + kacis(e.s) + '">' + kacis(e.s) + " tablosunda göster</a>" +
+        '<span class="ekA-sz-uid">' + e.u.map(kacis).join(", ") + "</span></div>" +
+        '<p class="ekA-sz-tanim">' + bicim(e.d) + "</p>";
+      if (e.n) h += '<div class="ekA-sz-not"><b>Kaynak notu</b> ' + kacis(e.n) + "</div>";
+      if (e.i && e.i.length) {
+        h += '<div class="ekA-sz-ilgili"><span>İlgili:</span> ' + e.i.map(function (t) {
+          return '<button type="button" class="ekA-sz-git" data-t="' + kacis(t) + '">' + kacis(t) + "</button>";
+        }).join(" ") + "</div>";
+      }
+      detay.innerHTML = h;
+    };
+
+    var sec = function (i, odakla) {
+      secili = i;
+      Array.prototype.forEach.call(liste.querySelectorAll(".ekA-sz-oge"), function (b) {
+        var on = Number(b.getAttribute("data-i")) === i;
+        b.classList.toggle("secili", on);
+        if (on) {
+          b.setAttribute("aria-current", "true");
+          var li = b.parentNode;
+          if (li.offsetTop < liste.scrollTop || li.offsetTop + li.offsetHeight > liste.scrollTop + liste.clientHeight) {
+            liste.scrollTop = li.offsetTop - 8;
+          }
+          if (odakla) b.focus();
+        } else {
+          b.removeAttribute("aria-current");
+        }
+      });
+      if (i >= 0) detayCiz(i);
+    };
+
+    var listele = function () {
+      var sorgu = katla(ara.value.trim());
+      var sonuc = [];
+      veri.forEach(function (e, i) {
+        if (bolum && e.s !== bolum) return;
+        var r;
+        if (!sorgu) r = 0;
+        else if (e.kt.indexOf(sorgu) === 0) r = 0;
+        else if ((" " + e.kt.replace(/[^a-z0-9]+/g, " ")).indexOf(" " + sorgu) >= 0) r = 1;
+        else if (e.kt.indexOf(sorgu) >= 0) r = 2;
+        else if (e.kd.indexOf(sorgu) >= 0) r = 3;
+        else return;
+        sonuc.push({ i: i, r: r });
+      });
+      sonuc.sort(function (a, b) { return a.r - b.r || a.i - b.i; });
+      gorunen = sonuc.map(function (x) { return x.i; });
+      if (!sonuc.length) {
+        liste.innerHTML = '<li class="ekA-sz-yok">Eşleşme yok.</li>';
+      } else {
+        liste.innerHTML = sonuc.map(function (x) {
+          var e = veri[x.i];
+          return '<li><button type="button" class="ekA-sz-oge" data-i="' + x.i + '">' +
+            '<span class="ekA-sz-t">' + vurgula(e.t, e.kt, sorgu) +
+            (e.n ? '<span class="ekA-sz-isaret" title="Kaynak notu var" aria-label="kaynak notu var">◆</span>' : "") +
+            '</span><span class="ekA-sz-oz">' + ozet(e, sorgu, x.r < 3) + "</span></button></li>";
+        }).join("");
+      }
+      sayac.textContent = sonuc.length + " / " + veri.length + " terim";
+      if (gorunen.indexOf(secili) >= 0) sec(secili, false);
+    };
+
+    var cipSec = function (s) {
+      bolum = s;
+      cipler.forEach(function (c) { c.setAttribute("aria-pressed", c.getAttribute("data-s") === s ? "true" : "false"); });
+    };
+
+    ara.addEventListener("input", listele);
+    ara.addEventListener("keydown", function (ev) {
+      if (ev.key === "Enter" && gorunen.length) { ev.preventDefault(); sec(gorunen[0], false); }
+      else if (ev.key === "ArrowDown" && gorunen.length) {
+        ev.preventDefault();
+        var b = liste.querySelector(".ekA-sz-oge");
+        if (b) b.focus();
+      } else if (ev.key === "Escape") { ara.value = ""; listele(); }
+    });
+    cipler.forEach(function (c) {
+      c.addEventListener("click", function () { cipSec(c.getAttribute("data-s")); listele(); });
+    });
+    liste.addEventListener("click", function (ev) {
+      var b = ev.target.closest(".ekA-sz-oge");
+      if (b) sec(Number(b.getAttribute("data-i")), false);
+    });
+    liste.addEventListener("keydown", function (ev) {
+      var b = ev.target.closest(".ekA-sz-oge");
+      if (!b || (ev.key !== "ArrowDown" && ev.key !== "ArrowUp")) return;
+      ev.preventDefault();
+      var li = ev.key === "ArrowDown" ? b.parentNode.nextElementSibling : b.parentNode.previousElementSibling;
+      if (li && li.querySelector(".ekA-sz-oge")) li.querySelector(".ekA-sz-oge").focus();
+      else if (ev.key === "ArrowUp") ara.focus();
+    });
+    detay.addEventListener("click", function (ev) {
+      var b = ev.target.closest(".ekA-sz-git");
+      if (!b) return;
+      var i = adla[b.getAttribute("data-t")];
+      if (i === undefined) return;
+      if (gorunen.indexOf(i) < 0) { ara.value = ""; cipSec(""); listele(); }
+      sec(i, true);
+    });
+
+    listele();
+  });
+})();
+
+/* Ek B, parça a: ekBa_tanima (B-1 – B-6 işaret çizimlerini tanıma alıştırması) */
+(function () {
+  "use strict";
+  var $ = function (s, r) { return (r || document).querySelector(s); };
+  var $$ = function (s, r) { return Array.prototype.slice.call((r || document).querySelectorAll(s)); };
+  var esc = function (t) { var d = document.createElement("div"); d.textContent = t; return d.innerHTML; };
+  var karistir = function (a) {
+    for (var i = a.length - 1; i > 0; i--) { var j = Math.floor(Math.random() * (i + 1)); var t = a[i]; a[i] = a[j]; a[j] = t; }
+    return a;
+  };
+
+  $$(".w-ekBa-tanima").forEach(function (w) {
+    var veri = $(".ekBa-veri", w);
+    if (!veri) return;
+    var data;
+    try { data = JSON.parse(veri.textContent); } catch (e) { return; }
+    if (!data.length) return;
+
+    var img = $(".ekBa-cizim img", w), siklar = $(".ekBa-siklar", w), geri = $(".ekBa-geri", w);
+    var ilerleme = $(".ekBa-ilerleme", w), sonraki = $('[data-ekba="sonraki"]', w);
+    var sira = [], konum = 0, dogru = 0, cevaplandi = false, bitti = false;
+
+    var yaz = function () {
+      ilerleme.textContent = "İşaret " + Math.min(konum + 1, sira.length) + " / " + sira.length + " · doğru " + dogru;
+    };
+
+    var ayrinti = function (d) {
+      var h = '<p class="ekBa-ad"><strong>' + esc(d.ad) + "</strong> <small>" + esc(d.tr) + " · s. " + esc(d.s) + "</small></p>" +
+        '<p class="ekBa-kim"><b>' + esc(d.kim) + "</b> → <b>" + esc(d.kime) + "</b></p>" +
+        '<dl class="ekBa-dl"><dt>Gündüz</dt><dd>' + esc(d.gunduz) + "</dd><dt>Gece</dt><dd>" + esc(d.gece) + "</dd></dl>";
+      (d.ek || []).forEach(function (t) { h += '<p class="ekBa-ek">' + esc(t) + "</p>"; });
+      return h;
+    };
+
+    var soruGoster = function () {
+      cevaplandi = false;
+      var d = sira[konum];
+      img.src = "img/" + d.img;
+      img.alt = "Ek B, s. " + d.s + " işaret çizimi (işaretin adı gizli)";
+      var diger = karistir(data.filter(function (x) { return x.ad !== d.ad; })).slice(0, 3);
+      siklar.innerHTML = "";
+      karistir([d].concat(diger)).forEach(function (s, i) {
+        var b = document.createElement("button");
+        b.type = "button";
+        b.className = "btn ekBa-sik";
+        b.setAttribute("data-ekba-ad", s.ad);
+        b.innerHTML = '<span class="ekBa-no">' + (i + 1) + "</span>" + esc(s.ad);
+        b.addEventListener("click", function () { cevapla(b, s); });
+        siklar.appendChild(b);
+      });
+      geri.hidden = true;
+      geri.innerHTML = "";
+      sonraki.hidden = true;
+      yaz();
+    };
+
+    var cevapla = function (b, s) {
+      if (cevaplandi) return;
+      cevaplandi = true;
+      var d = sira[konum], ok = s === d;
+      if (ok) dogru++;
+      $$(".ekBa-sik", siklar).forEach(function (x) { x.disabled = true; });
+      b.classList.add(ok ? "ekBa-dogru" : "ekBa-yanlis");
+      if (!ok) {
+        $$(".ekBa-sik", siklar).forEach(function (x) {
+          if (x.getAttribute("data-ekba-ad") === d.ad) x.classList.add("ekBa-dogru");
+        });
+      }
+      geri.innerHTML = '<p class="ekBa-sonuc ' + (ok ? "ekBa-iyi" : "ekBa-kotu") + '">' +
+        (ok ? "✓ Doğru" : "✗ Yanlış — doğrusu aşağıda") + "</p>" + ayrinti(d);
+      geri.hidden = false;
+      bitti = konum === sira.length - 1;
+      sonraki.textContent = bitti ? "Sonucu göster" : "Sonraki işaret →";
+      sonraki.hidden = false;
+      yaz();
+      sonraki.focus();
+    };
+
+    var ozet = function () {
+      siklar.innerHTML = "";
+      geri.innerHTML = '<p class="ekBa-sonuc">Tur bitti: ' + dogru + " / " + sira.length + " doğru.</p>" +
+        "<p>Yeni bir tur için “Baştan başla”ya basın.</p>";
+      geri.hidden = false;
+      sonraki.hidden = true;
+      ilerleme.textContent = "Tamamlandı · doğru " + dogru + " / " + sira.length;
+    };
+
+    var basla = function () {
+      sira = karistir(data.slice());
+      konum = 0; dogru = 0; bitti = false;
+      soruGoster();
+    };
+
+    sonraki.addEventListener("click", function () {
+      if (bitti) { ozet(); return; }
+      konum++;
+      soruGoster();
+    });
+    $('[data-ekba="bastan"]', w).addEventListener("click", basla);
+
+    w.setAttribute("tabindex", "-1");
+    w.addEventListener("keydown", function (e) {
+      if (e.target && /^(INPUT|TEXTAREA|SELECT)$/.test(e.target.tagName)) return;
+      var n = parseInt(e.key, 10);
+      if (n >= 1 && n <= 4 && !cevaplandi) {
+        var b = $$(".ekBa-sik", siklar)[n - 1];
+        if (b) { e.preventDefault(); b.click(); }
+      }
+    });
+
+    basla();
+  });
+})();
+
+/* Ek B, parça b: ekBb_tanima (s. B-7 – B-11 işaret tanıma alıştırması) */
+(function () {
+  "use strict";
+  var $ = function (s, r) { return (r || document).querySelector(s); };
+  var $$ = function (s, r) { return Array.prototype.slice.call((r || document).querySelectorAll(s)); };
+  var esc = function (t) { var d = document.createElement("div"); d.textContent = t; return d.innerHTML; };
+  var karistir = function (a) {
+    for (var i = a.length - 1; i > 0; i--) { var j = Math.floor(Math.random() * (i + 1)); var t = a[i]; a[i] = a[j]; a[j] = t; }
+    return a;
+  };
+  var lbs = function (n) { return String(n).replace(/\B(?=(\d{3})+(?!\d))/g, ".") + " lbs"; };
+
+  $$(".w-ekBb-tanima").forEach(function (w) {
+    var veriEl = $(".ekBb-veri", w);
+    if (!veriEl) return;
+    var veri = JSON.parse(veriEl.textContent);
+    var img = $(".ekBb-img", w), soru = $(".ekBb-soru", w), siklar = $(".ekBb-siklar", w);
+    var geri = $(".ekBb-geri", w), skorEl = $(".ekBb-skor", w), sonraki = $('[data-ekbb="sonraki"]', w);
+    var mod = "isaret", dogru = 0, toplam = 0, cevaplandi = false, son = null;
+    var torba = { isaret: [], yakit: [] };
+
+    /* aynı öğe art arda gelmesin; tüm öğeler bitmeden tekrar etmesin */
+    var sec = function (liste, ad) {
+      if (!torba[ad].length) torba[ad] = karistir(liste.slice());
+      var o = torba[ad].pop();
+      if (o === son && torba[ad].length) { torba[ad].unshift(o); o = torba[ad].pop(); }
+      son = o;
+      return o;
+    };
+
+    var skor = function () { skorEl.textContent = "Skor " + dogru + " / " + toplam; };
+
+    var sikKur = function (secenekler, dogruMetin, ayrinti) {
+      siklar.innerHTML = "";
+      geri.innerHTML = "";
+      cevaplandi = false;
+      secenekler.forEach(function (m) {
+        var b = document.createElement("button");
+        b.type = "button";
+        b.className = "btn";
+        b.textContent = m;
+        b.addEventListener("click", function () {
+          if (cevaplandi) return;
+          cevaplandi = true;
+          toplam++;
+          var ok = m === dogruMetin;
+          if (ok) dogru++;
+          $$(".btn", siklar).forEach(function (x) {
+            x.disabled = true;
+            if (x.textContent === dogruMetin) x.classList.add("ekBb-dogru");
+          });
+          if (!ok) b.classList.add("ekBb-yanlis");
+          geri.innerHTML = '<p class="ekBb-sonuc ' + (ok ? "ekBb-ok" : "ekBb-hata") + '">' +
+            (ok ? "✓ Doğru: " : "✗ Doğrusu: ") + "<b>" + esc(dogruMetin) + "</b></p>" + ayrinti;
+          skor();
+          sonraki.focus();
+        });
+        siklar.appendChild(b);
+      });
+    };
+
+    var isaretSoru = function () {
+      var d = sec(veri.isaret, "isaret");
+      img.src = "img/" + d.img;
+      img.alt = "Tanınacak işaret çizimi (s. " + d.s + ")";
+      soru.textContent = "Bu hangi işaret?";
+      var digerleri = karistir(veri.isaret.filter(function (x) { return x !== d; }));
+      /* çeldiricilerin en az biri aynı türden (güverte / ikmal) olsun */
+      var ayniTur = digerleri.filter(function (x) { return (x.s === "B-11") === (d.s === "B-11"); });
+      var secilen = ayniTur.slice(0, 2);
+      digerleri.forEach(function (x) { if (secilen.length < 3 && secilen.indexOf(x) < 0) secilen.push(x); });
+      var adlar = karistir([d].concat(secilen)).map(function (x) { return x.ad; });
+      var ayrinti = '<dl class="ekBb-ayrinti">' +
+        (d.kim ? "<dt>Veren → alan</dt><dd>" + esc(d.kim) + "</dd>" : "") +
+        "<dt>" + (d.s === "B-11" ? "Hareket" : (d.gece ? "Gündüz" : "Uygulama")) + "</dt><dd>" + esc(d.gun) + "</dd>" +
+        (d.gece ? "<dt>Gece</dt><dd>" + esc(d.gece) + "</dd>" : "") +
+        "<dt>Kaynak</dt><dd>s. " + esc(d.s) + "</dd></dl>";
+      sikKur(adlar, d.ad, ayrinti);
+    };
+
+    var yakitSoru = function () {
+      var d = sec(veri.yakit, "yakit");
+      var yuz = Math.random() < 0.5;
+      var carpan = yuz ? 100 : 1000;
+      img.src = "img/" + d.img;
+      img.alt = "Yakıt miktarı el işareti";
+      soru.innerHTML = yuz
+        ? "Önce <b>yumruk</b> (clenched fist), ardından bu el şekli verildi. Kaç lbs?"
+        : "Bu el şekli <b>tek başına</b> verildi (tam binler). Kaç lbs?";
+      var sayilar = karistir([1, 2, 3, 4, 5, 6, 7, 8, 9].filter(function (n) { return n !== d.n; })).slice(0, 2);
+      var secenekler = [d.n * carpan, d.n * (yuz ? 1000 : 100), sayilar[0] * carpan, sayilar[1] * carpan];
+      var metinler = karistir(secenekler).map(lbs);
+      var ayrinti = '<dl class="ekBb-ayrinti"><dt>El şekli</dt><dd>' + esc(d.el) + "</dd>" +
+        "<dt>Tek başına</dt><dd>" + lbs(d.n * 1000) + "</dd><dt>Yumruktan sonra</dt><dd>" + lbs(d.n * 100) + "</dd>" +
+        "<dt>Kaynak</dt><dd>s. B-11</dd></dl>";
+      sikKur(metinler, lbs(d.n * carpan), ayrinti);
+    };
+
+    var yeni = function () { if (mod === "yakit") yakitSoru(); else isaretSoru(); };
+
+    $$("[data-ekbb-sec]", w).forEach(function (b) {
+      b.addEventListener("click", function () {
+        mod = b.getAttribute("data-ekbb-sec");
+        w.setAttribute("data-ekbb-mod", mod);
+        $$("[data-ekbb-sec]", w).forEach(function (x) {
+          var on = x === b;
+          x.classList.toggle("aktif", on);
+          x.setAttribute("aria-pressed", on ? "true" : "false");
+        });
+        son = null;
+        yeni();
+      });
+    });
+    sonraki.addEventListener("click", yeni);
+    skor();
+    yeni();
+  });
+})();
+
+/* Ek C, parça a: ekC_cagri (LSO çağrı alıştırması). Veri: Şekil C-1 – C-4 satırları (kaynak/ekC_sekil_birimleri_a.json). */
+(function () {
+  "use strict";
+  var VERI = [{"id": "C-1.F2","g": "I","t": "“You’re (a little) high.”","a": "Uçak optimum glideslope'un (biraz) üstünde.","m": "Merkez topu (center ball) kurmak için batma oranını (sink rate) güç/burun duruşu (power/nose attitude) ile ayarla.","p": "Merkez topu kurmak için batma oranını burun duruşuyla ayarla. (In close kullanmaktan kaçının.)"},{"id": "C-1.F3","g": "I","t": "“You’re (a little) low.”","a": "Uçak optimum glideslope'un (biraz) altında.","m": "Glide slope'u hemen ayarla.","p": "Glide slope'u hemen ayarla."},{"id": "C-1.F4","g": "I","t": "“You’re going high (low).”","a": "Düzeltilmezse uçak optimum glideslope'un üstüne çıkacak (altına inecek).","m": "Merkez topu korumak için batma oranını güç/burun duruşu ile ayarla.","p": "Merkez topu korumak için batma oranını burun duruşuyla ayarla."},{"id": "C-1.F5","g": "I","t": "“You’re on centerline.”","a": "Açıklama gerektirmez (self-explanatory).","m": "Yok (N/A).","p": "Yok (N/A)."},{"id": "C-1.F6","g": "I","t": "“You’re on glideslope/glidepath.”","a": "Açıklama gerektirmez (self-explanatory).","m": "Yok (N/A).","p": "Yok (N/A)."},{"id": "C-1.F7","g": "I","t": "“You’re on speed.”","a": "Açıklama gerektirmez (self-explanatory).","m": "Yok (N/A).","p": "Yok (N/A)."},{"id": "C-1.F8","g": "I","t": "“You’re lined up left/right.”","a": "Uçak merkez hattını kısa geçmiş / aşmış (undershot/overshot).","m": "Ortalanmış hattı (centered lineup) yeniden kur.","p": "Ortalanmış hattı yeniden kur."},{"id": "C-1.F9","g": "I","t": "“You’re drifting left/right.”","a": "Uçak merkez hattının soluna/sağına kayıyor (drifting).","m": "Hattı merkez hattına düzelt.","p": "Hattı merkez hattına düzelt."},{"id": "C-1.F10","g": "I","t": "“You’re (a little fast/slow).” (To be followed by “Go manual” if auto.)","a": "Açıklama gerektirmez (self-explanatory). Uçak auto'daysa ardından “Go manual” gelir.","m": "Optimum AOA'yı kurmak için burun duruşunu/gücü ayarla.","p": "APC uçağı optimum AOA'da tutmuyor. APC'yi devreden çıkar (disengage) ve optimum AOA'yı korumak için gücü/duruşu ayarla."},{"id": "C-1.F11","g": "I","t": "“Roger Ball” (“Auto”/“Coupled” as appropriate).","a": "LSO, pilotun meatball'u gördüğünü (meatball acquisition), hat referansını (lineup reference) ve hücum açısını (angle of attack) aldığını onaylar. Duruma göre “Auto” / “Coupled” eklenir.","m": "Yok (N/A).","p": "Yok (N/A)."},{"id": "C-1.F12","g": "I","t": "“Paddles contact.”","a": "LSO kontrolü CCA'dan devralıyor.","m": "Yok (N/A).","p": "Yok (N/A)."},{"id": "C-1.F13","g": "I","t": "“Continue.”","a": "LSO CLARA çağrısını onaylar ama kontrolü CCA'dan devralamaz.","m": "Yaklaşmaya minimumlara kadar devam et.","p": "Yaklaşmaya minimumlara kadar devam et."},{"id": "C-1.F14","g": "I","t": "“The deck is moving down/up (a little).”","a": "OLS bilgisi geçersiz olabilir (ardından advisory/imperative çağrılar gelir).","m": "Gücü ve duruşu LSO'nun yönlendirmesiyle (under LSO guidance) ayarla.","p": "Duruşu LSO'nun yönlendirmesiyle ayarla."},{"id": "C-1.F15","g": "I","t": "“The deck is steady.”","a": "OLS bilgisi geçerli.","m": "Normal yaklaşma uç.","p": "Normal yaklaşma uç."},{"id": "C-1.F16","g": "I","t": "“Winds are (slightly) starboard/port/axial.”","a": "Açıklama gerektirmez (self-explanatory).","m": "Merkez hattını korumak için hattı izle (monitor lineup).","p": "Merkez hattını korumak için hattı izle."},{"id": "C-1.F17","g": "I","t": "“You’re underpowered/overpowered.”","a": "Açıklama gerektirmez (self-explanatory).","m": "Duruşu ve gücü gerektiği gibi ayarla.","p": "Kullanılmaz (not used)."},{"id": "C-1.F18","g": "I","t": "“Ship’s in a starboard/port turn.”","a": "Açıklama gerektirmez (self-explanatory).","m": "Hattı gerektiği gibi ayarla.","p": "Hattı gerektiği gibi ayarla."},{"id": "C-1.F19","g": "I","t": "“MOVLAS recovery.”","a": "MOVLAS kullanımda.","m": "“Roger ball” alınana kadar yayımlanmış patern irtifasını (published pattern altitude) uç.","p": "“Roger ball” alınana kadar yayımlanmış patern irtifasını uç."},{"id": "C-2.F2","g": "A","t": "“Keep your turn in.”","a": "Yatış açısı (angle of bank) ayarlanmazsa uçak merkez hattını aşacak (overshoot).","m": "Yatış açısını ayarla.","p": "Yatış açısını ayarla."},{"id": "C-2.F3","g": "A","t": "“Check your lineup.” (Start only.)","a": "(Yalnızca start'ta.) Uçağın hattı optimum değil.","m": "Uçağı merkez hattında tutmak için hat kaymasını (lineup drift) ya da konumu düzelt.","p": "Uçağı merkez hattında tutmak için hat kaymasını ya da konumu düzelt."},{"id": "C-2.F4","g": "A","t": "“Back to the right/left.”","a": "Uçak, kayma düzeltilmezse merkez hattını aşacak biçimde kayıyor.","m": "Merkez hattında kalmak için hat kaymasını düzelt.","p": "Merkez hattında kalmak için hat kaymasını düzelt."},{"id": "C-2.F5","g": "A","t": "“Don’t settle.” “Don’t go low.”","a": "Düzeltilmezse uçak optimum glideslope'un altına çökecek (settle).","m": "Glideslope'un altına çökmemek için batma oranını ve meatball'u kontrol et.","p": "Glideslope'un altına çökmemek için batma oranını ve meatball'u kontrol et."},{"id": "C-2.F6","g": "A","t": "“Don’t climb.” “Don’t go high.”","a": "Uçak optimum glideslope'ta ya da glideslope'un üstünde; sabit glideslope'u korumaya yetecek alçalma oranı (rate of descent) yok.","m": "Topun yükselmesini durdurmak için gücü/duruşu ayarla.","p": "Topun yükselmesini durdurmak için gücü/duruşu ayarla."},{"id": "C-2.F7","g": "A","t": "“Don’t go any lower (higher).”","a": "Uçak optimum glideslope'un epey altında (üstünde) kalıyor; düzeltme yetersiz ya da hiç yok.","m": "Optimum glideslope'a doğru pozitif düzeltme için gücü/duruşu ayarla.","p": "Optimum glideslope'a doğru pozitif düzeltme için duruşu ayarla."},{"id": "C-2.F8","g": "A","t": "“Don’t chase it”","a": "Pilotu, güvertenin aşağı/yukarı hareket ettiği ve bunun tırmanma ya da alçalma yanılsaması (illusion) yaratabileceği konusunda uyarır.","m": "Güverte hareketini dikkate alma; alçalma oranını ve optimum hava hızını korumak için gücü/duruşu ayarla.","p": "Güverte hareketini dikkate alma; alçalma oranını ve optimum hava hızını korumak için gücü/duruşu ayarla."},{"id": "C-2.F9","g": "A","t": "“Hold what you’ve got.”","a": "OLS bilgisi geçersiz. Mevcut alçalma oranı, uygun (proper) glideslope'u korumak için doğru.","m": "Gücü/duruşu ayarla. Mevcut alçalma oranını ve optimum hava hızını koru.","p": "Duruşu ayarla. Mevcut (optimum) alçalma oranını koru."},{"id": "C-2.F10","g": "A","t": "“Fly the ball.”","a": "OLS bilgisi geçerli.","m": "Lensi tara; optimum glideslope'u korumak için gücü/duruşu ayarla.","p": "Lensi tara; optimum glideslope'u korumak için duruşu ayarla."},{"id": "C-2.F11","g": "A","t": "“Easy with it.”","a": "Bu çağrıdan hemen önceki güç düzeltmesinin büyüklüğü aşırı.","m": "Optimum glideslope'u ve hava hızını yakalayıp yeniden kurmak için güç düzeltmesinin büyüklüğünü azalt.","p": "Optimum glideslope'u ve hava hızını yakalayıp yeniden kurmak için burun duruşu düzeltmesinin büyüklüğünü azalt."},{"id": "C-2.F12","g": "A","t": "“Easy with your nose.”","a": "Bu çağrıdan hemen önceki burun duruşu düzeltmesinin büyüklüğü aşırı.","m": "Optimum uçak duruşunu kurmak için burun duruşu düzeltmesinin büyüklüğünü azalt.","p": "Kullanılmaz (not used)."},{"id": "C-2.F13","g": "A","t": "“Easy with your wings.”","a": "Bu çağrıdan hemen önceki hat (lineup) düzeltmesinin büyüklüğü aşırı.","m": "Merkez hattını yakalayıp yeniden kurmak için hat düzeltmesinin büyüklüğünü azalt.","p": "Merkez hattını yakalayıp yeniden kurmak için hat düzeltmesinin büyüklüğünü azalt."},{"id": "C-3.F2","g": "E","t": "“A little power.”","a": "Uçak yavaşlıyor ya da çöküyor (settling).","m": "Güçle düzelt.","p": "Kullanılmaz (not used)."},{"id": "C-3.F3","g": "E","t": "“Power back on.”","a": "Pilot aşırı güç azaltması yaptı.","m": "Optimum glideslope/AOA'yı korumak için güç ekle.","p": "APC'yi devreden çıkar. Optimum glideslope/AOA'yı korumak için güç ekle."},{"id": "C-3.F4","g": "E","t": "“Power.”","a": "Uçak alçak/yavaş.","m": "Güç ekle.","p": "APC'yi devreden çıkar. Not'a bakın (Refer to Note)."},{"id": "C-3.F5","g": "E","t": "“Burner.”","a": "Uçağın gücü aşırı derecede yetersiz (extremely underpowered) ya da uçak in extremis.","m": "Afterburner gücünü seç.","p": "Afterburner gücünü seç."},{"id": "C-3.F6","g": "E","t": "“Go manual.”","a": "APC'yi devreden çıkar.","m": "Kullanılmaz (not used).","p": "APC'yi devreden çıkar. Not'a bakın (Refer to Note)."},{"id": "C-3.F7","g": "E","t": "“Attitude.” (“A little attitude.”)","a": "Manual: uçağın burnu alçak. Auto: uçak alçak/“setting” ya da burun alçak.","m": "İniş duruşunu (landing attitude) kurmak için burun duruşunu (biraz) artır.","p": "Batma oranını azaltmak ya da iniş duruşunu kurmak için burun duruşunu (biraz) artır."},{"id": "C-3.F8","g": "E","t": "“(A little) right/left rudder.”","a": "Uçakta yeterli sağ ya da sol rudder yok; düzeltilmezse sağa ya da sola yaw'lı (yawed) inecek.","m": "Uçağı dengeli uçuşa (balanced flight) döndürmek için rudder'ı ayarla.","p": "Uygulanmaz (not applicable)."},{"id": "C-3.F9","g": "E","t": "“(A little) Right for lineup.” “(A little) Come left.”","a": "Düzeltilmezse uçak merkez hattının soluna/sağına inecek.","m": "Hattı merkez hattına düzelt, sonra kanatları düzle.","p": "Hattı merkez hattına düzelt, sonra kanatları düzle."},{"id": "C-3.F10","g": "E","t": "“Bolter.”","a": "Açıklama gerektirmez (self-explanatory).","m": "Bolter'ı model NATOPS el kitabına göre uygula.","p": "Bolter'ı model NATOPS el kitabına göre uygula."},{"id": "C-3.F11","g": "E","t": "“Waveoff” or “Waveoff, foul deck.”","a": "Açıklama gerektirmez (self-explanatory).","m": "Waveoff'u model NATOPS el kitabına göre uygula.","p": "Waveoff'u model NATOPS el kitabına göre uygula."},{"id": "C-3.F12","g": "E","t": "“Waveoff up the starboard side.”","a": "İniş alanının üzerinden uçmaya yönelik dönüş girişimini bırak.","m": "Waveoff'u model NATOPS el kitabına göre, iniş alanının sancağında (island tarafı) uygula.","p": "Waveoff'u model NATOPS el kitabına göre, iniş alanının sancağında (island tarafı) uygula."},{"id": "C-3.F13","g": "E","t": "“Cut.”","a": "Uçak inmeye uygun konumda (in a position to land).","m": "Barricade recovery'de: güverteye emniyetle inince throttle(lar)ı idle'a çek ve motor(lar)ı kapat (secure).","p": "Barricade recovery'de: güverteye emniyetle inince throttle(lar)ı idle'a çek ve motor(lar)ı kapat (secure)."},{"id": "C-3.F14","g": "E","t": "“Speedbrakes.”","a": "Speedbrake'ler açık (extended).","m": "Speedbrake'leri kapat (retract).","p": "Speedbrake'leri kapat (retract)."},{"id": "C-3.F15","g": "E","t": "“Extend speedbrakes.”","a": "Açıklama gerektirmez (self-explanatory).","m": "Yerine getir (comply).","p": "Yerine getir (comply)."},{"id": "C-4.F2","g": "E","t": "“Drop your hook.”","a": "Açıklama gerektirmez (self-explanatory).","m": "Yerine getir (comply).","p": "Yerine getir (comply)."},{"id": "C-4.F3","g": "E","t": "“Drop your gear.”","a": "Açıklama gerektirmez (self-explanatory).","m": "Yerine getir (comply).","p": "Yerine getir (comply)."},{"id": "C-4.F4","g": "E","t": "“Drop your flaps.”","a": "Açıklama gerektirmez (self-explanatory).","m": "Yerine getir (comply).","p": "Yerine getir (comply)."},{"id": "C-4.F5","g": "E","t": "“Level your wings.”","a": "Uçak yatışta (in angle of bank).","m": "Yerine getir (comply).","p": "Yerine getir (comply)."},{"id": "C-4.F6","g": "E","t": "“Downgrade.”*","a": "ACLS'i devreden çıkar.","m": "ACLS'i devreden çıkar.","p": "ACLS'i devreden çıkar."},{"id": "C-4.F7","g": "E","t": "“Climb.”","a": "Uçak bolter yaptı / waveoff aldı ama pozitif tırmanma oranı için uygun duruşu/gücü kurmadı.","m": "Burun duruşunu optimuma ayarla, kanatları düzle ve pozitif tırmanma oranı kurmak için MRT'yi koru (gerekirse afterburner).","p": null}];
+  var GRUP = { I: "INFORMATIVE", A: "ADVISORY", E: "IMPERATIVE" };
+  var GRUP_TR = { I: "Informative (bilgilendirici)", A: "Advisory (tavsiye)", E: "Imperative (emir)" };
+  var SORU = {
+    a: "Bu çağrı ne anlama gelir (MEANING)?",
+    m: "Uçak manual moddayken pilotun yanıtı nedir?",
+    p: "Uçak APC modundayken pilotun yanıtı nedir?",
+    g: "Bu çağrı hangi gruptadır?"
+  };
+  var qa = function (s, r) { return Array.prototype.slice.call((r || document).querySelectorAll(s)); };
+  var q1 = function (s, r) { return (r || document).querySelector(s); };
+  var el = function (tag, cls, text) {
+    var e = document.createElement(tag);
+    if (cls) e.className = cls;
+    if (text != null) e.textContent = text;
+    return e;
+  };
+  var karistir = function (a) {
+    for (var i = a.length - 1; i > 0; i--) {
+      var j = Math.floor(Math.random() * (i + 1));
+      var t = a[i]; a[i] = a[j]; a[j] = t;
+    }
+    return a;
+  };
+  var alan = function (r, f) { return f === "p" && r.p == null ? r.m : r[f]; };
+
+  qa(".w-ekC-cagri").forEach(function (w) {
+    if (!VERI.length) return;
+    var gBtn = qa(".ekC-g", w), tip = q1(".ekC-tip", w);
+    var rozet = q1(".ekC-rozet", w), skorE = q1(".ekC-skor", w), cagri = q1(".ekC-cagri", w);
+    var soruE = q1(".ekC-soru", w), siklar = q1(".ekC-siklar", w), geri = q1(".ekC-geri", w);
+    var kalan = q1(".ekC-kalan", w), sonraki = q1(".ekC-sonraki", w);
+    var grup = "", deste = [], idx = 0, dogru = 0, toplam = 0, cevaplandi = false;
+
+    var havuz = function () { return VERI.filter(function (r) { return !grup || r.g === grup; }); };
+    var yeniDeste = function () { deste = karistir(havuz().slice()); idx = 0; };
+
+    var secenekler = function (r, f) {
+      if (f === "g") return ["I", "A", "E"].map(function (g) { return { t: GRUP_TR[g], ok: g === r.g }; });
+      var dogruT = alan(r, f), gorulen = {}, out = [{ t: dogruT, ok: true }];
+      gorulen[dogruT] = true;
+      var ekle = function (liste) {
+        karistir(liste.slice()).forEach(function (x) {
+          var t = alan(x, f);
+          if (out.length < 4 && !gorulen[t]) { gorulen[t] = true; out.push({ t: t, ok: false }); }
+        });
+      };
+      ekle(VERI.filter(function (x) { return x !== r && x.g === r.g; }));
+      ekle(VERI.filter(function (x) { return x !== r; }));
+      return karistir(out);
+    };
+
+    var satir = function (etiket, metin) {
+      var p = el("p", "ekC-satir");
+      p.appendChild(el("b", "", etiket + ": "));
+      p.appendChild(document.createTextNode(metin));
+      return p;
+    };
+
+    var geriBildirim = function (r, ok) {
+      geri.innerHTML = "";
+      geri.appendChild(el("p", "ekC-sonuc " + (ok ? "ekC-iyi" : "ekC-kotu"), ok ? "Doğru." : "Yanlış — doğru cevap yeşil işaretli."));
+      geri.appendChild(satir("Çağrı", r.t));
+      geri.appendChild(satir("Grup", GRUP_TR[r.g]));
+      geri.appendChild(satir("Anlamı", r.a));
+      if (r.p == null) {
+        geri.appendChild(satir("Manual ve APC (tek hücre)", r.m));
+      } else {
+        geri.appendChild(satir("Manual mod", r.m));
+        geri.appendChild(satir("APC modu", r.p));
+      }
+      geri.appendChild(el("p", "ekC-kaynak", "Kaynak: Şekil " + r.id.split(".")[0] + " · " + r.id));
+      geri.hidden = false;
+    };
+
+    var skor = function () { skorE.textContent = toplam ? ("Doğru: " + dogru + " / " + toplam) : ""; };
+
+    var goster = function () {
+      if (idx >= deste.length) yeniDeste();
+      var r = deste[idx];
+      var f = tip.value === "k" ? ["a", "m", "p", "g"][Math.floor(Math.random() * 4)] : tip.value;
+      cevaplandi = false;
+      cagri.textContent = r.t;
+      soruE.textContent = SORU[f];
+      rozet.textContent = f === "g" ? "GRUP?" : GRUP[r.g];
+      rozet.className = "ekC-rozet" + (f === "g" ? "" : " ekC-r" + r.g);
+      geri.hidden = true;
+      geri.innerHTML = "";
+      siklar.innerHTML = "";
+      kalan.textContent = (idx + 1) + " / " + deste.length;
+      secenekler(r, f).forEach(function (s) {
+        var b = el("button", "ekC-sik", s.t);
+        b.type = "button";
+        b.setAttribute("data-ok", s.ok ? "1" : "0");
+        b.addEventListener("click", function () {
+          if (cevaplandi) return;
+          cevaplandi = true;
+          toplam++;
+          if (s.ok) dogru++;
+          qa(".ekC-sik", siklar).forEach(function (x) {
+            x.disabled = true;
+            if (x.getAttribute("data-ok") === "1") x.classList.add("ekC-dogru");
+          });
+          if (!s.ok) b.classList.add("ekC-yanlis");
+          rozet.textContent = GRUP[r.g];
+          rozet.className = "ekC-rozet ekC-r" + r.g;
+          geriBildirim(r, s.ok);
+          skor();
+          sonraki.focus();
+        });
+        siklar.appendChild(b);
+      });
+    };
+
+    gBtn.forEach(function (b) {
+      b.addEventListener("click", function () {
+        grup = b.getAttribute("data-g");
+        gBtn.forEach(function (x) {
+          var a = x === b;
+          x.classList.toggle("aktif", a);
+          x.setAttribute("aria-pressed", a ? "true" : "false");
+        });
+        yeniDeste();
+        goster();
+      });
+    });
+    tip.addEventListener("change", goster);
+    sonraki.addEventListener("click", function () { idx++; goster(); });
+    yeniDeste();
+    skor();
+    goster();
+  });
+})();
+</script></body></html>

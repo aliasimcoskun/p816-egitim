@@ -1,0 +1,200 @@
+# Telaffuz sözlüğü — seslendirmede yazılışın yerine okunuş kullanılır (yalnızca Türkçe anlatım sesinde).
+# Biçim: yazılış<TAB>okunuş   (büyük/küçük harf duyarsız, tam kelime eşleşmesi; uzun ifadeler önce uygulanır)
+# Tırnak içindeki İngilizce ifadeler ("Roger ball" gibi) bu sözlükten geçmez, İngilizce sesle okunur.
+# Bir terim yanlış okunuyorsa okunuşunu burada Türkçe harflerle değiştirin, sonra: python araclar/ses_uret.py hepsi
+#
+# --- Kısaltmalar (harf harf) ---
+LSO	el es o
+LSOs	el es o'lar
+APC	ey pi si
+BRC	bi ar si
+DME	di em i
+KIAS	key ay ey es
+KCAS	key si ey es
+IMN	ay em en
+CCA	si si ey
+CCZ	si si zi
+MRT	em ar ti
+OLS	o el es
+ACLS	ey si el es
+ICLS	ay si el es
+AOA	ey o ey
+NWS	en dabılyu es
+IMC	ay em si
+VMC	vi em si
+VFR	vi ef ar
+IFR	ay ef ar
+CSPO	si es pi o
+ATO	ey ti o
+CSG	si es ci
+ICCS	ay si si es
+EAT	i ey ti
+EEAT	i i ey ti
+JBD	cey bi di
+CDC	si di si
+GCA	ci si ey
+CV-1	si vi van
+PCL	pi si el
+CVW	si vi dabılyu
+USS	yu es es
+CVIC	si vi ay si
+AGL	ey ci el
+AOB	ey o bi
+LPU	el pi yu
+FRP	ef ar pi
+VFA	vi ef ey
+VAQ	vi ey kyu
+VAW	vi ey dabılyu
+HSC	eyç es si
+HSM	eyç es em
+VRC	vi ar si
+FDC	ef di si
+GSE	ci es i
+LSE	el es i
+CIWS	si vız
+XO	eks o
+DCAG	di keg
+MSTR ALERT	master elört
+N/A	uygulanmaz
+NM	deniz mili
+# --- Kelime gibi okunan kısaltmalar ---
+NATOPS	neytops
+TACAN	tekın
+CATCC	kets
+CAG	keg
+EMCON	emkon
+EMALS	imals
+PALS	pals
+IFLOLS	ay flols
+FLOLS	flols
+MOVLAS	movlas
+CLARA	klera
+OPSO	opso
+GATOR	geytır
+TAC	tek
+MIL/MAX	mil maks
+# --- Case ve modlar ---
+Case III	keys tri
+Case II	keys tu
+Case I	keys van
+Case	keys
+Mode I Alpha	mod van alfa
+Mode III	mod tri
+Mode II	mod tu
+Mode I	mod van
+# --- Sık geçen terimler ---
+arresting gear	arresting gir
+arresting engine	arresting encin
+arresting cable	arresting keybıl
+cross deck pendants	kros dek pendınts
+cross deck pendant	kros dek pendınt
+purchase cables	pörçıs keybıls
+purchase cable	pörçıs keybıl
+Mk 7 Mod 3	mark yedi mod üç
+Mk 6 MOD 3	mark altı mod üç
+Roger ball	rocır bol
+add power	ed pavır
+Zip Lip	zip lip
+Air Boss	er bos
+Mini Boss	mini bos
+Pri-Fly	pray flay
+Tower Flower	tavır flavır
+Tower	tavır
+Air Plan	er plen
+Air Ops	er ops
+Air Operations	er operasyıns
+Strike Ops	strayk ops
+Strike Operations	strayk operasyıns
+Strike	strayk
+Ouija board	vici bord
+weight chit	veyt çit
+weight board	veyt bord
+Yellow Shirts	yelo şörts
+Handler	hendlır
+Shooters	şutırs
+Shooter	şutır
+Catapult Officer	katapult ofisır
+Marshal	marşıl
+Mother	madır
+Red Crown	red kravn
+Popeye	papay
+Angels	eyncıls
+Charlie	çarli
+Paddles	pedıls
+groove	gruv
+bolter	boltır
+waveoff	veyvof
+wave-off	veyvof
+touch and go	taç end go
+touchdown	taçdavn
+meatball	mitbol
+ball	bol
+ramp	remp
+break	breyk
+abeam	ıbim
+downwind	davnvind
+upwind	apvind
+crosswind	krosvind
+final bearing	faynıl beyring
+ready deck	redi dek
+foul deck	faul dek
+foul lines	faul layns
+foul	faul
+deck	dek
+flight deck	flayt dek
+hangar bay	hengır bey
+island	aylınd
+fantail	fenteyl
+Round Down	ravnd davn
+barricade	berikeyd
+shuttle	şatıl
+launch bar	lonç bar
+holdback	holdbek
+tension	tenşın
+untension	antenşın
+throttle back	trotıl bek
+throttle	trotıl
+wand	vand
+wands	vandz
+tiller bar	tilır bar
+tow bar	to bar
+tiedown	taydavn
+tiedowns	taydavnz
+hook	huk
+wire	vayır
+wires	vayırs
+Ace	eys
+divert	dayvört
+tanker	tenkır
+tanking	tenking
+bingo	bingo
+glideslope	glaydslop
+glidepath	glaydpes
+lineup	laynap
+datum	deytım
+cut	kat
+idle	aydıl
+afterburner	aftırbörnır
+taxi director	taksi dayrektır
+director	dayrektır
+plane captain	pleyn kepteyn
+Military Rated Thrust	militıri reytıd trast
+Event	ivent
+Station	steyşın
+Point	poynt
+spin	spin
+cycle	saykıl
+sortie	sorti
+squadron	skuadrın
+ready room	redi rum
+Air Wing	erving
+Ship's Company	şips kampıni
+Combat Direction Center	kombat dayrekşın sentır
+INFORMATIVE	informatif
+ADVISORY	edvayzıri
+IMPERATIVE	imperatif
+WARNING	uyarı
+CAUTION	dikkat
+NOTE	not
+Day	gündüz
+Night	gece

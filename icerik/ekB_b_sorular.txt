@@ -1,0 +1,180 @@
+# Ek B, parça b soruları (s. B-7 – B-11) — biçim:
+# ## <bölüm>   S: soru   - yanlış şık   + doğru şık   A: açıklama   K: kaynak birimleri
+
+## B-7
+
+S: CLEAR DECK ve FOUL DECK işaretlerini kim, kime verir?
++ Flight Deck Officer/Director → Arresting Gear Officer
+- Hook Runner → Director
+- Director → Pilot, Deckedge Operator
+- Arresting Gear Officer → Pilot
+A: Her iki satırda da FROM "Flight Deck Officer/Director", TO "Arresting Gear Officer"dır.
+K: B-7.F1, B-7.F2
+
+S: Gündüz kollar baş üstünde çaprazlanmış ve yumruklar sıkılı. Bu hangi işarettir?
++ FOUL DECK
+- CLEAR DECK
+- CEASE PULL BACK
+- WIRE RETRACT
+A: FOUL DECK: "Cross arms overhead, fists clenched." Gece: çaprazlanmış AMBER wand'lar baş üstünde. CEASE PULL BACK'te kollar belin altında çaprazlanır.
+K: B-7.F2, B-8.F1
+
+S: CLEAR DECK işareti gece nasıl verilir?
++ Gündüzle aynı (kol baş üstünden yana süpürülüp geri getirilir), AMBER wand ile
+- Gündüzle aynı, RED stubby wand ile
+- Çaprazlanmış iki AMBER wand baş üstünde tutulur
+- Wand belin altında yatay hareket ettirilir
+A: "Night: Same as day except with AMBER wand." Gündüz: "Sweep arm from overhead position to side position and return."
+K: B-7.F1
+
+S: PULL BACK işaretini gece Hook Runner Director'a nasıl verir?
++ İleriden geriye süpürme hareketi, RED stubby wand ile
+- İleriden geriye süpürme hareketi, iki AMBER wand ile
+- Kollar belin altında çapraz, AMBER wand ile
+- Bir yana uzatılmış kolla büyük daire, RED stubby wand ile
+A: Hook Runner → Director: gündüz kollar aşağı uzatılmış, avuçlar kıça; gece aynı hareket RED stubby wand ile. Director → Pilot, Deckedge Operator ise gece iki AMBER wand kullanır.
+K: B-7.F3
+
+S: PULL BACK işaretini Director'dan kimler alır?
++ Pilot ve Deckedge Operator
+- Yalnızca Hook Runner
+- Arresting Gear Officer
+- Pilot ve Brake Rider
+A: PULL BACK'in ikinci satırı: FROM Director, TO Pilot, Deckedge Operator; gündüz kollar uzatılmış, avuçlar ileri dönük.
+K: B-7.F3
+
+## B-8
+
+S: CEASE PULL BACK işaretinin veren → alan çiftleri hangileridir?
++ Director → Deckedge Operator ve Hook Runner → Director
+- Director → Pilot ve Hook Runner → Deckedge Operator
+- Flight Deck Officer/Director → Arresting Gear Officer
+- Hook Runner → Pilot ve Director → Arresting Gear Officer
+A: Tabloda iki FROM/TO çifti vardır, uygulama aynıdır: gündüz kollar belin altında çapraz, gece wand belin altında yatay hareket.
+K: B-8.F1
+
+S: RAISE HOOK işareti gündüz nasıl verilir?
++ Sol el vücudun önünde yatay, avuç aşağı; sağ el yukarı hareket ederek uzatılmış başparmağı sol avuca getirir
+- Sol el vücudun önünde yatay, avuç yukarı; sağ el aşağı hareket ederek uzatılmış başparmağı sol avuca getirir
+- Burnun ucuna işaret parmağıyla dokunulur, sonra thumbs up verilir
+- Kol, baş üstündeki konumdan yana süpürülür ve geri getirilir
+A: İkinci şık LOWER HOOK'tur (avuç yukarı, sağ el aşağı). RAISE HOOK: Director → Pilot.
+K: B-8.F2, B-9.F1
+
+## B-9
+
+S: Gece sol wand vücudun önünde yatay, sağ wand dikey tutularak ters bir "T" (inverted "T") oluşturuluyor. Bu hangi işarettir?
++ LOWER HOOK
+- RAISE HOOK
+- TIEDOWNS IN PLACE
+- CEASE PULL BACK
+A: RAISE HOOK gece "T", LOWER HOOK gece ters "T" ile verilir; ikisi de Director → Pilot.
+K: B-8.F2, B-9.F1
+
+S: WIRE CLEAR işaretini kim kime verir ve gündüz nasıl uygulanır?
++ Hook Runner → Director; taxi director'ı gösteren kolla dikey hareket
+- Director → Pilot; taxi director'ı gösteren kolla dikey hareket
+- Hook Runner → Deckedge Operator; bir yana uzatılmış kolla büyük daire
+- Deckedge Operator → Hook Runner; kollar belin altında çapraz
+A: WIRE CLEAR: "Make a vertical motion with arm pointed at the taxi director." Gece aynı, RED stubby wand ile.
+K: B-9.F2
+
+S: WIRE RETRACT işaretini Hook Runner kime verir?
++ Deckedge Operator
+- Director
+- Pilot
+- Arresting Gear Officer
+A: WIRE RETRACT: Hook Runner → Deckedge Operator; gündüz bir yana uzatılmış kolla büyük dairesel hareket, gece aynı hareket RED stubby wand ile.
+K: B-9.F3
+
+## B-10
+
+S: Director burnunun ucuna işaret parmağıyla dokunuyor, ardından kolunu uçağın hareket yönünde aşağı doğru süpürüyor. Bu hangi işarettir?
++ TILLER BAR REMOVED OR DISENGAGE NOSE WHEEL STEERING
+- TILLER BAR IN PLACE OR ENGAGE NOSEWHEEL STEERING
+- REVERSE THRUST TAXI
+- LOWER HOOK
+A: Burna dokunduktan sonra thumbs up (gece "up" işareti) verilirse TILLER BAR IN PLACE OR ENGAGE NOSEWHEEL STEERING'dir. Bölüm 2'deki (2-7.02) disengage NWS tarifi farklıdır (kaynak notu).
+K: B-10.F1, B-10.F2
+
+S: INSTALL TIEDOWNS işaretini kim alır ve gece nasıl verilir?
++ Pilot ve Brake Rider; gündüzle aynı (eller önde dikey daire), AMBER wand'larla
+- Yalnızca Pilot; eller önde dikey daire, RED stubby wand'larla
+- Deckedge Operator; bir yana uzatılmış kolla büyük daire, AMBER wand'larla
+- Pilot ve Brake Rider; kollar baş üstünde çapraz, AMBER wand'larla
+A: INSTALL TIEDOWNS: Director → Pilot, Brake Rider; gündüz "Rotate hands in a vertical circle in front of body", gece "Same as day except with AMBER wands".
+K: B-10.F3
+
+S: TIEDOWNS IN PLACE işareti nasıl verilir?
++ INSTALL TIEDOWNS işaretine bir thumbs up eklenerek
+- INSTALL TIEDOWNS işaretinden sonra yumruk sıkılarak
+- Burnun ucuna dokunup thumbs up verilerek
+- Kollar baş üstünde çaprazlanarak
+A: "Same as 'Install Tiedowns' adding a thumbs up signal." Director → Pilot, Brake Rider.
+K: B-10.F4
+
+S: REVERSE THRUST TAXI işaretinde dönüşler nasıl gösterilir?
++ Director, kuyruğun gitmesi gereken yönü gösterir
+- Director, burnun gitmesi gereken yönü gösterir
+- Director, başını dönüş yönüne doğru sallar
+- Dönüş için ayrı bir işaret yoktur
+A: Gündüz: avuçlar uçağa dönük, göz hizasında, pushback hareketi; "For turns, the director points in direction tail is to move." Gece aynı, wand'larla.
+K: B-10.F5
+
+## B-11
+
+S: Yakıt ikmali işaretlerinden "parmakla dirseği göstermek" neyi ifade eder?
++ CLOSE DUMP VALVE
+- CUT FUEL
+- PROBE IN
+- FUEL STATUS
+A: 5. CLOSE DUMP VALVE: "Point finger at elbow." CUT FUEL'de parmaklar boğazı gösterir ve el yana hareket eder.
+K: B-11.F5, B-11.F6
+
+S: Uçaktaki yakıt miktarını (fuel on board) istemek için hangi işaret kullanılır?
++ FUEL STATUS: başparmak ağza doğru hareket ettirilir
+- FUEL WEIGHT STATUS: başparmak ağza doğru hareket ettirilir
+- TOP OFF: başın tepesine hafifçe vurulur
+- FUEL STATUS: kollar avuçlar yukarı aşağı yukarı hareket ettirilir
+A: FUEL WEIGHT STATUS ise yakıt ağırlıklarını ister: kollar avuçlar yukarı dönük olarak aşağı yukarı hareket ettirilir.
+K: B-11.F2, B-11.F7
+
+S: "Kol yatay olarak dışarı uzatılır, sonra içeri alınıp göğsün önünde çaprazlanır." Bu hangi işarettir?
++ PROBE IN
+- PROBE OUT
+- CUT FUEL
+- TOP OFF
+A: PROBE OUT bunun tersidir: kol göğsün önünde çaprazlanır, sonra yatay olarak dışarı uzatılır. TOP OFF: başın tepesine hafifçe vurulur.
+K: B-11.F1, B-11.F3, B-11.F4
+
+S: Yakıt miktarı işaretlerinde önce yumruk (clenched fist), ardından yatay tutulan elde iki parmak gösteriliyor. Kaç lbs?
++ 700 lbs
+- 7.000 lbs
+- 200 lbs
+- 600 lbs
+A: Yüzler: önce yumruk, sonra 100–900 işareti. Çizimlere göre yatay 1–4 parmak = 6–9; yumruksuz verilirse 7.000 lbs olurdu.
+K: B-11.F8, B-11.F9
+
+S: 12.000 lbs yakıt nasıl gösterilir?
++ 10.000 lbs, ardından 2.000 lbs, ardından yumruk
+- Yumruk, ardından 10.000 lbs, ardından 2.000 lbs
+- 10.000 lbs, ardından 2.000 lbs, ardından 500 lbs
+- 1.000 lbs, ardından 200 lbs
+A: 10.000 lbs ve üstü: "double finger"ın ardından tam binler için yumruk, yüzler için üçüncü parmak işareti (ör. 12.500 = 10.000 + 2.000 + 500).
+K: B-11.F11
+
+S: 7.400 lbs yakıt nasıl gösterilir?
++ 7.000 lbs işareti, ardından 400 lbs işareti
+- Yumruk, ardından 7.000 lbs, ardından 400 lbs
+- 7.000 lbs işareti, ardından yumruk
+- 400 lbs işareti, ardından 7.000 lbs işareti
+A: Tam bine denk gelmeyen yükler: önce binler, sonra yüzler (ör. 1.500 = 1.000 + 500). Belge bunu "Double finger (a vertical signal followed by a horizontal one)" diye adlandırır.
+K: B-11.F10
+
+S: Sayfa B-11'deki dipnot, NATO yakıt işaretleri için hangi yere atıf yapar?
++ Figure 1-1 (9 of 9), s. 1-11 (bu belgede bu yerde NATO yakıt işaretleri yoktur)
+- Figure B-1, s. B-1
+- Figure 2-5, s. 2-16
+- Ek C, s. C-1
+A: Yıldızlı dipnot: "NATO fuel signals can be found in Figure 1-1 (9 of 9) p. 1-11". P-816'da Figure 1-1 forma renk çizelgesidir (s. 1-5), s. 1-11 FLOLS / IFLOLS'u anlatır.
+K: B-11.F12

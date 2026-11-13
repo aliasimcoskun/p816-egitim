@@ -1,0 +1,350 @@
+# Bölüm 2, parça b soruları — biçim:
+# ## <bölüm>   S: soru   - yanlış şık   + doğru şık   A: açıklama   K: kaynak birimleri
+
+## 203.2
+
+S: Taxi director'ın belinin ALTINDA verdiği işaretler kimin içindir?
+- Uçak ekibinin (aircrew)
++ Güverte ekibinin (deck crew)
+- Catapult Officer'ın
+- Air Boss'un
+A: "Signals given above the director's waist are for aircrew while signals given below the waist are for deck crew."
+K: 2-6.22, 2-6.23
+
+S: Belgedeki normal işaret sırasına göre "Tension" işaretinden hemen sonra hangi işaret gelir?
+- Brakes on
++ Retract launch bar
+- Engine runup
+- Launch signal
+A: Sıra: ... Brakes on → Tension → Retract launch bar → Engine runup → Acknowledge salute → Launch signal.
+K: 2-6.24, 2-7.05, 2-7.06, 2-7.08, 2-7.09
+
+S: Director sağ dirseğini bel hizasında sol avucuna dayayıp dikey tuttuğu sağ elini yatay konuma indiriyor. Bu hangi işarettir?
++ Extend launch bar
+- Retract launch bar
+- Brakes on
+- Disengage nose wheel steering
+A: Retract launch bar'da tersi yapılır: yatay uzanan sağ kol dikey konuma kaldırılır.
+K: 2-7.01, 2-7.08
+
+S: "Taxi ahead" işaretinde kol hareketinin hızı neyi gösterir?
++ İstenen taksi hızını
+- Katapulta kalan mesafeyi
+- Dönüş yönünü
+- Fren uygulama şiddetini
+A: Hafif dönüş için director, taxi ahead işaretini verirken başını dönüş yönüne sallar.
+K: 2-7.03, 2-7.04
+
+S: "Tension" işareti verildiğinde pilot ne yapar?
++ Frenleri bırakır, topuklarını güverteye koyar, runup işaretini beklerken idle'da kalır
+- Gücü MRT'ye getirir ve wipeout yapar
+- Frenleri uygular ve tutar
+- Launch bar switch'i RETRACT'a alır
+A: Gerdirme alındıkça uçak çöker (squat).
+K: 2-7.06, 2-7.07, 2-8.14, 2-8.15
+
+S: Catapult Officer / CSPO'nun baş hizasında işaret ve orta parmağıyla dairesel hareket yapması hangi işarettir?
++ Engine runup
+- Hang fire
+- Launch signal
+- Throttle back
+A: Pilot throttle'ı MRT'ye getirir, Control Check "wipeout" ve motor gösterge kontrolünü yapar.
+K: 2-7.09, 2-7.10
+
+S: Catapult Officer / CSPO kollarını bilekleri çaprazlanmış olarak başının üstüne kaldırıyor. Anlamı nedir?
+- Hang fire
++ Suspend: kalkış askıya alınacak
+- Throttle back
+- Selamı karşılama
+A: (l) Suspend. Hang fire'da sağ işaret parmağı başın üstüne uzatılır ve dikey sol avuç yatay gösterilir.
+K: 2-7.13, 2-7.14
+
+S: Launch signal nasıl verilir?
++ Catapult Officer / CSPO çömelir, güverteye dokunur ve elini kalkış yönünde yatay konuma getirir
+- Director kollarını başının üstüne uzatıp yumruklarını kapatır
+- Catapult Officer selamı iade eder
+- Catapult Officer başparmağını kavrayıp sallar
+A: Selamın iadesi "Acknowledge salute" işaretidir.
+K: 2-7.11, 2-7.12
+
+S: Askıya alınan (suspended) bir kalkışta gaz ne zaman geri alınır?
++ Catapult Officer uçağın önüne yürüyüp throttle back işaretini verdiğinde
+- Suspend işaretini görür görmez
+- Hang fire işareti verildiğinde
+- Launch bar toplandığında
+A: WARNING: "Do not throttle back until the catapult officer walks in front of the aircraft and gives the throttle back signal during suspended launches."
+K: 2-8.02, 2-7.15
+
+S: Launch bar EXTEND'e alındığında nose wheel steering'e (NWS) ne olur?
++ Otomatik olarak ayrılır
+- Pilot elle ayırmalıdır
+- Devrede kalır
+- Yalnızca Catapult Officer'ın işaretiyle ayrılır
+A: Yellow shirt, launch bar'ın katapult yarığına oturması için NWS'in yeniden devreye alınmasını işaret edebilir.
+K: 2-8.04..2-8.06
+
+S: Parking brake ile ilgili CAUTION nedir?
++ JBD'yi geçtikten sonra parking brake asla kullanılmaz
+- Holdback'e girerken parking brake çekilir
+- Tension alınırken parking brake çekilir
+- Parking brake yalnızca gece kullanılır
+A: Katapult parking brake çekiliyken ateşlenirse lastikler patlayabilir.
+K: 2-8.08
+
+S: Launch bar shuttle'ın üzerine düştüğünde uçağı ne durdurur?
++ Holdback'in katapult buffer'ına oturması
+- Pilotun fren uygulaması
+- JBD'nin kalkması
+- NWS'in ayrılması
+A: Launch bar'ı shuttle üzerine getirmek için yavaş taksi yapılır; ciddi güç gerekebilir.
+K: 2-8.09, 2-8.10
+
+S: Holdback link'in kırılmasını önlemek için ne yapılmalıdır?
++ Taksi hızı emekleme (crawl) düzeyinde tutulur
+- Parking brake çekili tutulur
+- Güç idle'ın altına alınır
+- NWS devrede tutulur
+A: CAUTION: "To prevent the possibility of breaking the holdback link, taxi speed must be kept to a crawl."
+K: 2-8.12
+
+S: Kalkış öncesi metne göre launch bar switch ne zaman RETRACT'a alınır?
+- Tension alındığı anda
++ Motor RPM'i %95'e ulaştığında
+- Selam verildikten sonra
+- Motor idle'dayken
+A: Launch bar bundan sonra shuttle gerginliğiyle aşağıda tutulur; topuklar güverteye konur.
+K: 2-8.17..2-8.19
+
+S: Aircraft director'dan retract işareti almadan RETRACT seçmenin sonucu ne olabilir?
++ Launch bar shuttle spreader assembly'ye düzgün oturmadan kalkar; launch bar yanlış konumlanır
+- ACCEL ışığı yanar ve kalkış iptal edilir
+- NWS yeniden devreye girer
+- Holdback link kırılır
+A: WARNING (s. 2-8): "mis-positioned launch bar".
+K: 2-8.21
+
+S: Catapult grip kullanılmazsa ne olabilir?
++ Cat stroke sırasında güç ayarı MRT'nin altına düşebilir
+- Launch bar kendiliğinden toplanır
+- Frenler istemeden uygulanır
+- ACCEL ışığı yanmaz
+A: CAUTION'ın 2. maddesi. 1. madde (launch bar max RPM'in altında toplanırsa ACCEL ışığı) belgede yarım kalmıştır.
+K: 2-9.01, 2-8.23
+
+S: Runup sırasında hangi motor göstergeleri kontrol edilir?
++ EGT, rpm, fuel flow; ayrıca CWS göstergeleri ve advisory ışıkları izlenir
+- Yalnızca yakıt miktarı
+- Hidrolik basınç ve oksijen
+- Yalnızca CWS ışıkları
+A: Kokpit wipeout'u gözlenir; stick ve rudder'ın her yönde tam hareketi doğrulanır.
+K: 2-9.03, 2-9.04
+
+S: Wipeout yapılırken metinde özellikle vurgulanan nedir?
++ Rudder dahil edilmesi
+- Yalnızca stick'in ileri-geri hareketi
+- Trim'in sıfırlanması
+- Flap'lerin toplanması
+A: "...power is advanced to MRT and the controls are wiped out (INCLUDING RUDDER!)."
+K: 2-8.16, 2-9.04
+
+S: Belgeye göre topuklar güvertedeyken bile katapult kalkışında hangi risk vardır?
++ Frenler istemeden uygulanıp lastik patlayabilir
+- Launch bar yanlış konumlanabilir
+- NWS devreye girebilir
+- Holdback kırılabilir
+A: WARNING (s. 2-9).
+K: 2-9.06, 2-8.19
+
+S: Belgede director'ın kontrolü devrettiği ve run-up'ı "MIL/MAX as appropriate" olarak işaret eden kişi kimdir?
++ Catapult Officer ya da Topside Safety Petty Officer
+- Taxi director
+- Air Boss
+- LSO
+A: Runup işaretini kimin verdiği belgede tutarsızdır: s. 2-7 Catapult Officer/CSPO, s. 2-8 catapult director, s. 2-9 Catapult Officer veya Topside Safety Petty Officer.
+K: 2-9.02, 2-7.09, 2-8.16
+
+S: Gece kalkışında pilotun selamının karşılığı nedir?
++ Uçağın dış ışıklarının yakılması
+- İniş ışığının yanıp söndürülmesi
+- Telsizle "ready" bildirilmesi
+- Kokpit ışıklarının söndürülmesi
+A: Gündüz pilot Catapult Officer / CSPO'ya sağ eliyle net bir selam verir.
+K: 2-9.08
+
+S: Catapult officer güverteye dokunduktan sonra ne olur?
++ Yaklaşık 1 saniye sonra katapult ateşlenir; end speed'e yaklaşık 2 saniyede ulaşılır
+- Katapult hemen ateşlenir; end speed'e 5 saniyede ulaşılır
+- Yaklaşık 3 saniye sonra katapult ateşlenir
+- Pilot ikinci bir selam verir
+A: Catapult officer önce ileri ve geriye bakarak son kontrolleri yapar.
+K: 2-9.09, 2-9.10
+
+S: "Bubble launch"ta selamı kim iade eder?
++ CSPO
+- Catapult Officer
+- Taxi director
+- Air Boss
+A: Catapult Officer ileriyi ve geriyi kontrol ettikten sonra kalkışı gerçekleştirir.
+K: 2-9.11, 2-9.12
+
+S: Uçuş güvertesinin kenarı uçağın burnunun altından hangi hızla geçmelidir?
++ En az 120 KIAS ya da "excess end airspeed", hangisi büyükse
+- En az 100 KIAS
+- En az 150 KIAS
+- End speed ne olursa olsun 120 KIAS
+A: Ayrıntı için NATOPS Chapter 8'deki Catapult Launch Minimum Endspeed Chart.
+K: 2-9.13, 2-9.14
+
+S: Uçak stroke'un sonunu geçerken pilot hangi duruşa döner?
++ 10–12 derece burun yukarı, pozitif tırmanma oranı
+- 5 derece burun yukarı
+- 15–20 derece burun yukarı
+- Yatay uçuş, hız kazanana kadar
+A: İniş takımı ve flap'ler NATOPS'a göre toplanır.
+K: 2-9.15, 2-9.16
+
+S: CARQUAL faaliyetlerinde clearing turn için kural nedir?
++ Normalde gerekmez
+- Her zaman sağa yapılır
+- Her zaman sola yapılır
+- Yalnızca gece yapılır
+A: Clearing turn istendiğinde geminin politikasına tabidir: bow cats sağa, waist cats sola.
+K: 2-9.17..2-9.19
+
+## 203.3
+
+S: Kalkış sonrası (departure) prosedürleri neye dayanır?
++ Case operasyonlarına
+- Uçağın yakıt durumuna
+- Katapult numarasına
+- Air Plan'daki görev tipine
+A: "Departure procedures are predicated on case operations."
+K: 2-9.21
+
+S: Case I kalkışı hangi koşullarda uçulur?
++ Gündüz VMC, WX 3.000-5 veya daha iyi
+- Gündüz, WX 1.000-5'ten fazla
+- Gece ve IMC
+- Gemide görsel koşul varken kontrollü tırmanış gerekirse
+A: Kontrollü tırmanış gerektiren durumlar Case II ve Case III'tür.
+K: 2-9.22
+
+S: Case I kalkışının ilk bacağı nasıl uçulur?
++ Clearing turn sonrası 500 ft ve 300 KIAS, BRC'ye paralel, 7 DME'ye kadar
+- 1.500 ft ve 300 KIAS, BRC'ye paralel, 5 DME'ye kadar
+- 500 ft ve 250 KIAS, BRC'ye paralel, 10 DME'ye kadar
+- Doğrudan rotaya tırmanış
+A: Pozitif tırmanma oranı kurulduktan sonra clearing turn yapılır, 500 ft'e tırmanılır.
+K: 2-9.23, 2-9.24, 2-10.F2
+
+S: Case I'de uçak ne zaman VMC olarak rotasına tırmanır?
++ Talimat verildiğinde ya da 7 DME'de
+- Yalnızca 10 DME arc'a ulaşınca
+- 18.000 ft'i geçince
+- Departure radial'a oturunca
+A: Şekil 2-1'de 7 DME'den sonraki bacak "Climb on course, VMC" olarak etiketlidir.
+K: 2-9.25, 2-10.F3, 2-10.F4
+
+S: Case II kalkışı hangi hava koşullarında uçulur?
++ Gemide görsel koşullar var ama kontrollü tırmanış gerekli; WX 3.000-5'ten az, 1.000-5'ten fazla
+- Gündüz VMC, WX 3.000-5 veya daha iyi
+- Gece ve WX 1.000-5'in altında
+- Yalnızca CARQUAL sırasında
+A: Belgedeki sınırlarla tam 1.000-5 değeri hiçbir tanıma girmiyor (kaynak notu).
+K: 2-10.02
+
+S: Case II'de 7 DME'de ne yapılır?
++ 10 DME arc'ı kesmek için dönülür; departure radial'a oturana kadar görsel koşullar korunur
+- VMC olarak doğrudan rotaya tırmanılır
+- 500 ft'te BRC'ye paralel devam edilir
+- "Popeye" bildirilir
+A: Şekil 2-2'de iz 10 DME Arc üzerinden "Departure Radial"a geçer.
+K: 2-10.05, 2-10.F7, 2-10.F8
+
+S: Case II'de 500 ft irtifa kısıtlaması ne zaman kalkar?
++ 7 DME'den sonra, tırmanış VMC'de sürdürülebiliyorsa
+- Clearing turn'den hemen sonra
+- 10 DME arc'a ulaşınca, hava ne olursa olsun
+- 18.000 ft'te
+A: Clearing turn'den sonra 7 DME'ye kadar 500 ft ve 300 KIAS'te BRC'ye paralel düz ileri uçulur.
+K: 2-10.04, 2-10.06
+
+S: Case II'de 300 KIAS ne zamana kadar korunur?
++ VMC on top'a kadar
+- 7 DME'ye kadar
+- 10 DME arc'a kadar
+- 18.000 ft'e kadar
+A: "Maintain 300 KIAS until VMC on top."
+K: 2-10.07
+
+S: Case II'de 18.000 ft'i geçerken hâlâ IMC iseniz ne yaparsınız?
++ Talimat almak için "Popeye" bildirirsiniz
+- "Kilo" bildirirsiniz
+- Gemiye dönersiniz
+- 500 ft'e alçalırsınız
+A: Örnek: "Departure, 405, Popeye, Angels eighteen".
+K: 2-10.08, 2-11.10
+
+S: Hangi Case'lerde kalkış Departure Control frekansında yapılır?
++ Case II ve Case III
+- Yalnızca Case I
+- Yalnızca Case III
+- Hiçbirinde, Tower frekansı kullanılır
+A: Case I için frekans belirtilmemiştir.
+K: 2-10.03, 2-11.02
+
+S: Case III kalkışında uçaklar arasındaki minimum kalkış aralığı nedir?
+- 15 saniye
++ 30 saniye
+- 60 saniye
+- 2 dakika
+A: Case III gece ve IMC'de (WX 1.000-5'in altında), kontrollü tırmanış gerektiğinde uçulur.
+K: 2-11.01, 2-11.02
+
+S: Case III'te 5 NM hangi irtifada geçilir?
++ 1.500 ft AGL veya üstünde
+- 500 ft
+- 2.500 ft veya üstünde
+- 1.000 ft AGL veya altında
+A: Kalkıştan sonra 300 kts ile düz ileri tırmanılır.
+K: 2-11.03
+
+S: Case III'te 10 NM arc'ı kesmek için nerede dönülür?
++ 7 NM'de
+- 5 NM'de
+- 10 NM'de
+- 2.500 ft'i geçince
+A: Sonra tırmanmaya devam edilir ve departure radial'a katılınır.
+K: 2-11.03, 2-11.04
+
+S: "Departure, 405, passing 2.5" raporu ne zaman verilir?
++ 2.500 ft'i geçerken
+- 25 NM'yi geçerken
+- 2,5 dakika sonra
+- 250 kts'e ulaşınca
+A: Case III'te yaygın kullanılan raporlardan biridir.
+K: 2-11.05, 2-11.07
+
+S: "Arcing" raporu ne zaman verilir?
++ 10 NM arc'a dönerken
+- Departure radial'a oturunca
+- Havalanınca
+- Bulutların üstüne çıkınca
+A: Atanan radial üzerinde ise "Established outbound" bildirilir.
+K: 2-11.08, 2-11.09
+
+S: "Kilo" raporu neyi belirtir?
++ Uçağın göreve hazır (mission-ready) olduğunu
+- Uçağın IMC'de olduğunu
+- Yakıtın bingo seviyesinde olduğunu
+- Uçağın havalandığını
+A: "Departure, 405, Kilo". IMC için "Popeye" kullanılır.
+K: 2-11.12
+
+S: Şekil 2-2'de kalkış izi düz bölümden sonra nereye bağlanır?
++ Sola ve sağa kıvrılarak "10 DME Arc"a, oradan sol üstte "Departure Radial"a
+- Doğrudan "Climb on course, VMC" bacağına
+- Gemiye geri dönen bir pattern'e
+- 7 DME'de bir holding'e
+A: Şekildeki düz bölümde irtifa/hız etiketi yoktur; yanında etiketsiz iki kısa yatay çizgi vardır.
+K: 2-10.F5..2-10.F8

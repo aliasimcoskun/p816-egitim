@@ -1,0 +1,32 @@
+/* Ek B, parça a: ekBa_tanima (işaret tanıma alıştırması) */
+.w-ekBa-tanima .ekBa-ust{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:8px;margin-bottom:10px}
+.w-ekBa-tanima .ekBa-ilerleme{font-size:13.5px;color:var(--soluk)}
+.w-ekBa-tanima .ekBa-govde{display:grid;grid-template-columns:minmax(150px,260px) 1fr;gap:14px;align-items:start}
+.w-ekBa-tanima .ekBa-cizim{margin:0;background:#fff;border:1px solid var(--cizgi);border-radius:10px;padding:10px;
+  display:flex;align-items:center;justify-content:center;min-height:200px}
+.w-ekBa-tanima .ekBa-cizim img{display:block;max-width:100%;max-height:420px;height:auto;width:auto}
+.w-ekBa-tanima .ekBa-soru{margin:0 0 8px;font-weight:600}
+.w-ekBa-tanima .ekBa-soru small{font-weight:400;color:var(--soluk);font-size:12.5px}
+.w-ekBa-tanima .ekBa-siklar{display:grid;grid-template-columns:1fr;gap:6px}
+.w-ekBa-tanima .ekBa-sik{text-align:left;display:flex;gap:8px;align-items:baseline}
+.w-ekBa-tanima .ekBa-no{flex:none;font-size:12px;font-weight:700;color:var(--soluk);min-width:1em}
+.w-ekBa-tanima .ekBa-sik.ekBa-dogru{background:var(--iyi-ac);border-color:var(--iyi);color:var(--iyi);font-weight:600}
+.w-ekBa-tanima .ekBa-sik.ekBa-yanlis{background:var(--kotu-ac);border-color:var(--kotu);color:var(--kotu)}
+.w-ekBa-tanima .ekBa-sik:disabled{cursor:default;opacity:1}
+.w-ekBa-tanima .ekBa-geri{background:var(--yuzey2);border-radius:10px;padding:8px 12px;margin-top:10px;font-size:14px}
+.w-ekBa-tanima .ekBa-geri p{margin:5px 0}
+.w-ekBa-tanima .ekBa-sonuc{font-weight:700}
+.w-ekBa-tanima .ekBa-iyi{color:var(--iyi)}
+.w-ekBa-tanima .ekBa-kotu{color:var(--kotu)}
+.w-ekBa-tanima .ekBa-ad strong{font-size:15px}
+.w-ekBa-tanima .ekBa-ad small{color:var(--soluk);margin-left:4px}
+.w-ekBa-tanima .ekBa-kim{color:var(--metin)}
+.w-ekBa-tanima .ekBa-dl{display:grid;grid-template-columns:auto 1fr;gap:4px 10px;margin:6px 0}
+.w-ekBa-tanima .ekBa-dl dt{font-weight:600;color:var(--soluk)}
+.w-ekBa-tanima .ekBa-dl dd{margin:0}
+.w-ekBa-tanima .ekBa-ek{font-size:13.5px;border-left:3px solid var(--uyari);padding-left:8px}
+.w-ekBa-tanima .ekBa-sonraki{margin-top:10px}
+@media (max-width:620px){
+  .w-ekBa-tanima .ekBa-govde{grid-template-columns:1fr}
+  .w-ekBa-tanima .ekBa-cizim img{max-height:300px}
+}

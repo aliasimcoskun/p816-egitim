@@ -1,0 +1,79 @@
+# Bölüm 2, parça c (204, 204.1) bilgi kartları — biçim:  bölüm || ön yüz || arka yüz || kaynak birimleri
+204 || Görevden sonra uçaklar ne zamana yetişecek şekilde Mother'a döner? || Planlanmış döngüsel iniş zamanlarına (scheduled cyclic land time). || 2-11.14
+204 || Red Crown kimdir, check-in'de ne bildirilir? || CSG hava savunma kontrolörü. Görev frekansından çıkınca aranır; çağrı adı, konum ve irtifa bildirilir. || 2-11.15
+204 || Red Crown ne yapar? || Talimatlarını verir, ardından uçağı Strike Control'e devreder; devir 50 NM CCA'ya girmeden önce olmalıdır. || 2-11.16, 2-11.17
+204 || Strike check-in'i neyi içerir? || Red Crown check-in'iyle aynı (çağrı adı, konum, irtifa) + koldaki low fuel state. Varsa alibis (bakım arızaları) de Strike'a bildirilir; Strike bunları ready room'a aktarır. || 2-11.18, 2-11.19
+204 || Strike zaman elverirse neler verir? || Güncel hava durumu, beklenen recovery Case'i ve recovery ile ilgili diğer genel bilgiler. || 2-11.20
+204 || HAIL-R nedir, neden uygulanır? || Ship-to-shore checklist. Gemiden karaya ya da karadan gemiye uçarken uçağın o recovery'nin özelliklerine göre ayarlandığından emin olmak için. || 2-11.21, 2-11.22
+204 || HAIL-R maddeleri? || H: Hook / Heats · A: Anti-Skid / Altimeter · I: Instruments · L: Landing Weight / Lights · R: Radios / RADALT. || 2-11.23..2-11.26, 2-12.01
+204 || HAIL-R'de madde atlamanın belgede sayılan sonuçları? || Pistte lastik patlaması, gemiye fazla ağır (overweight) iniş, karada (on the beach) istemeden tele takılma (trap). || 2-12.02
+204 || Marshal'a ne zaman geçilir, check-in'de ne bildirilir? || CCA içine girilince Strike devreder. Marshal frekansında çağrı adı, konum, irtifa ve low state bildirilir. || 2-12.03, 2-12.04
+204 || Marshal ilk check-in'de neler verir? || Recovery Case'ine göre holding talimatları (atanmış irtifa dahil); geminin hava durumu, altimetre ayarı, BRC ve bingo bilgisi. || 2-12.05
+204 || BRC nedir? || Recovery sırasında geminin heading'i. || 2-12.06
+204 || Case I'de Marshal'ın talimatı ve "see me" çağrısının anlamı? || Uçakları overhead holding'e gönderir, gemiden 10 NM'de "see me" çağrısı ister. Bu çağrı Mother ile görsel temas kurulduğunu gösterir. || 2-12.07, 2-12.08
+204 || Case II ve III'te Marshal neler verir? || Holding talimatları ve beklenen yaklaşma zamanı (expected approach time, "push time"). || 2-12.09
+204 || Örnek: 405'in Red Crown check-in'i ve cevap? || 405: "Red Crown, 405, Mother's 250 for 75, Angels 17" · Red Crown: "405, sweet/sweet, contact Strike". || 2-12.11
+204 || Örnek: 405'in Strike check-in'i ve Strike'ın cevabı? || 405: "Strike, 405, Mother's 250 for 55, Angels 12, State 2.4. No alibis" · Strike: "405, sweet/sweet, Mother is VFR, Case I. Contact Marshal". || 2-12.11..2-12.13
+204 || Örnek: 405'in Marshal check-in'i ve Case I cevabı? || 405: "Marshal, 405, 250 for 52, Angels 9, State 2.4" · Marshal: "405, Case I. BRC is 015, Expected Charlie time 22. Report see me". || 2-12.13..2-12.15
+204 || Örnek: Marshal'ın Case II (ya da III) cevabı? || "405, Case II (or III). BRC is 015. Marshal on the 245 radial at 25 DME, Angels 10. Expected approach time 22, Approach button 17, altimeter 29.94". || 2-12.15..2-12.18
+204 || Kaynak notu: örnekteki Marshal check-in mesafesi neden dikkat çekici? || Metne göre Marshal'a CCA (50 NM) içinde geçilir; örnekte Marshal check-in'i "250 for 52" ile CCA dışından yapılıyor. s. 2-17'deki örnekte "250 for 42". || 2-12.03, 2-12.13, 2-17.26
+204.1 || Case I recovery ne zaman kullanılır? || Hava 3.000/5'ten iyi olduğu sürece mümkün olan en geniş ölçüde. (s. 2-4 ve 2-9'da sınır 3.000/5 dahil olarak ifade edilir.) || 2-13.02
+204.1 || Marshal'a ilk check-in'den sonra Case I'de ne yapılır? || Doğrudan Mother'a gidilir, filonun holding irtifasında overhead holding'e girilir. Mother görülünce Marshal "see you" çağrısıyla bilgilendirilir. || 2-13.03, 2-13.04
+204.1 || Case I holding irtifasına en geç nerede yerleşilir, paterne nasıl girilir? || En geç 10 NM'de; paterne teğet (tangentially) girilir (Şekil 2-3). || 2-13.05, 2-13.06
+204.1 || Overhead holding paterninin geometrisi? || Sol el (left-hand); Point 1 geminin tam üstünde; Point 2, 3 ve 4 sırayla 90°'lik aralıklarla. "Stack" diye anılır. || 2-13.08..2-13.10
+204.1 || Stack'in sınırları ve holdingde yakıt akışı? || 5 NM içinde, 2.000 ft AGL'nin altına inmeden. Aksi brief edilmedikçe max conserve fuel flow. || 2-13.10, 2-13.11
+204.1 || Şekil 2-3: halkadaki noktalar ve akış? || 1 sağda, 2 üstte (BRC tarafı), 3 solda, 4 altta; "Pattern Flow" oku saat yönünün tersine (sol el). || 2-13.F1
+204.1 || Şekil 2-3: gemi ve BRC nasıl çizilmiş? || Gemi halkanın içinde, pruvası yukarıda, merkez ile 1 noktası arasında; pruvadan yukarı "BRC" oku. || 2-13.F2
+204.1 || Şekil 2-3 / 2-4: "5 NM" nasıl gösterilmiş? || Halkayı merkezden geçerek bir kenarından öbür kenarına kesen çift başlı ok. Metin "within 5 NM" der; yarıçap mı çap mı olduğu belgede kesin değildir. || 2-13.F3, 2-14.F1
+204.1 || Şekil 2-3: halkanın renkleri? || Üst yarı (3–2–1) yeşil, alt yarı (3–4–1) mavi; Şekil 2-3'te açıklama yok. Şekil 2-4'te yeşil = Pattern Climb Area, mavi = Pattern Descent Area. || 2-13.F4, 2-14.F2
+204.1 || Şekil 2-3: giriş hatları? || İki kesik çizgili hat halkaya akış yönünde teğet katılır: sol üstten 3 noktasında, soldan altta 4 noktası yakınında. Her biri "10 NM Establish Pattern Altitude" etiketli. || 2-13.F5
+204.1 || Kaynak notu: Point 1 metinde ve şekilde nerede? || Metin: "directly overhead the carrier" (ayrıca "point 1 (Mother)"). Şekil 2-3/2-4: 1 işareti halkanın sağ (sancak) kenarında, gemi halkanın içinde merkez ile 1 arasında. || 2-13.08, 2-15.09, 2-13.F2
+204.1 || Şekil 2-4: halka ve etiketleri? || Şekil 2-3'teki halka (1 sağ, 2 üst, 3 sol, 4 alt), saat yönünün tersine Pattern Flow, içinde gemi ve BRC oku, çift başlı "5 NM" oku; üst yarı "Pattern Climb Area", alt yarı "Pattern Descent Area". || 2-14.F1, 2-14.F2
+204.1 || Şekil 2-4: holding'den ayrılış hattı? || 3 noktasından sol alta ayrılır, geminin kıç tarafında dönüp geri gelir, sancak tarafı boyunca 1 noktasından geçerek BRC'ye paralel içeri uzanır. || 2-14.F3
+204.1 || Şekil 2-4: "3 NM" ölçüsü neyi gösterir? || Sağda, 1 noktasının hizasından içeri uçuş hattı üzerinde kıç taraftaki bir noktaya kadar olan mesafe (metindeki initial: geminin 3 NM gerisi). || 2-14.F4, 2-15.11
+204.1 || Şekil 2-4: geminin önündeki yaylar? || İçeri uçuş hattından art arda noktalarda sola kıvrılan dört etiketsiz kesik çizgili yay. || 2-14.F5
+204.1 || Stack'teki filo irtifaları? || Her filonun atanmış holding irtifası var; 2.000 ft AGL'den başlar, aralarında en az 1.000 ft, CVW SOP ile atanır. || 2-14.02, 2-14.03
+204.1 || Holdingde irtifa değişikliği kuralı? || Holding'e yerleştikten sonra: tırmanmalar Point 1 ile 3 arasında, alçalmalar Point 3 ile 1 arasında. || 2-14.04..2-14.06
+204.1 || Stack'teki en alçak uçağın görevi? || Beklenen ramp time'da groove'a varabilmek için kalkışları (launch) yakından izlemek. || 2-14.07
+204.1 || Holding'den ne zaman ve hangi heading ile ayrılınır? || Son uçak kalkarken ya da Tower'dan "Signal Charlie" alınınca; BRC'ye göre yaklaşık 210°. || 2-14.08
+204.1 || Stack'te irtifalar boşalınca ne olur? || Bir üst irtifadaki uçaklar bir alttaki boşalan irtifaya iner. || 2-14.09
+204.1 || Zip Lip nedir, ne zaman istisna olur? || Case I operasyonlarının çoğu Zip Lip'tir: telsiz konuşmaları en aza indirilir. İstisna: CQ, düşük görüş, uçuş emniyeti. || 2-15.01
+204.1 || Zip Lip'te holding'den ayrılma kararını kim verir? || Boss "99, Charlie" çağrısı yapmaz; holding'den ayrılma, initial'e uçma ve break zamanına overhead'de bekleyen uçaklar kendileri karar verir. || 2-15.02
+204.1 || "Breaking the deck" nedir? || Uçuş güvertesi recovery'ye hazır olduğu anda (ready deck) groove'a varmak; recovery verimini en üst düzeye çıkarmak için ustalaşılması gereken beceri. || 2-15.03, 2-15.04
+204.1 || Aynı irtifadaki kollar nasıl aralanır? || Tüm kollarla eşit aralık için stagger edilir: 2 kol 180°, 3 kol 120°, 4 kol 90°. Böylece Point 1 (Mother) düzenli aralıklarla geçilir. || 2-15.05..2-15.09
+204.1 || Her kol break kararını nasıl verir? || Kalkış (departure) operasyonlarını izler ve break için holding'den Point 3'te ayrılıp ayrılmayacağına karar verir. || 2-15.10
+204.1 || Holding'den break'e: alçalma ve initial? || Point 3'ün dışında 800 ft'e alçalınır, geminin 3 NM gerisindeki initial'e gidilir; sonra 800 ft'te sancak tarafının hemen dışından BRC'ye paralel içeri uçulur. || 2-15.11, 2-15.12
+204.1 || Break irtifası ve break aralığı? || 800 ft, tüm break'ler yatay. Aralığı iniş paternindeki son uçak belirler; 15–20 s break aralığı = 40–60 s iniş aralığı. || 2-15.13..2-15.15
+204.1 || Break için en uzak sınır ve aşılırsa? || Geminin 4 NM'den ilerisinde break yapılmaz. Yapamazsan: 5 NM'ye kadar 800 ft, sonra 1.200 ft'e tırman, sola yay ile initial'e dön; Tower'a niyetini bildir. || 2-15.16..2-15.19
+204.1 || Spin ne zaman ve nasıl? || Fantail'e varınca patern doluysa (altıdan fazla uçak). Aynı anda 1.200 ft'e tırman + 3 DME içinde sola dön; 270° sonra (aft of abeam) 800 ft'e alçal, break için içeri git. || 2-15.20..2-15.22
+204.1 || Spin'den dönen uçakların durumu ve upwind aralığı? || Break'te öncelikleri vardır. Upwind aralığı "first to the bow" ile belirlenir (break trafiği, waveoff, touch-and-go veya bolter); initial'e yeniden girerken break trafiğiyle çakışmamaya dikkat. || 2-15.23..2-15.25
+204.1 || Gemi iniş paterni sahadakinden nasıl farklıdır? || Neredeyse aynıdır; en büyük fark gemide 180 ve Abeam'in aynı yerde olması. Ayrıca downwind heading BRC'nin tersidir, landing heading'in (≈ BRC − 10°, açılı güverte) tersi değil. || 2-15.26..2-15.28
+204.1 || Downwind'de ne yapılır? || 600 ft patern irtifasına alçalınır, landing checks yapılır, abeam mesafesi yakından izlenir. || 2-15.29
+204.1 || Şekil 2-5: INITIAL ve BREAK etiketleri? || INITIAL: 3 nm astern, 800 ft, 300 KIAS. BREAK: "On Interval or No Earlier Than 1 nm", "Wingman: 15 sec Interval" (yanında büyük içi boş ok). || 2-16.F1, 2-16.F2
+204.1 || Şekil 2-5: TURN DOWNWIND ve DOWNWIND etiketleri? || TURN DOWNWIND: "Interval's Hook Down, 7 o'clock". DOWNWIND: 600 ft on-speed, Airspeed Check, Landing Checks, Trimmed Up. || 2-16.F3, 2-16.F4
+204.1 || Şekil 2-5: ABEAM değerleri ve abeam mesafesi? || 600 ft; Establish VSI 200–300 fpm, 27–30° AOB; ABEAM CALL. Abeam mesafesi .9 - 1.1 nm. || 2-16.F5, 2-16.F6
+204.1 || Şekil 2-5: 90 ve 45 pozisyonları? || 90: 450 ft, 27–30° AOB, VSI 500 fpm. 45: 325–375 ft. || 2-16.F7, 2-16.F8
+204.1 || Şekil 2-5: BALL CALL ve TOUCH AND GO/BOLTER? || BALL CALL: finalde, iniş alanı hizasındaki uçakta (uçaktan geminin kıçına kesik çizgi). TOUCH AND GO/BOLTER: "Climb, Turn to Parallel BRC". || 2-16.F9, 2-16.F10
+204.1 || Şekil 2-5: dıştaki ince eğri? || Abeam noktasından finale uzanır; üzerinde "90°" (altta) ve "45°" (sağda) işaretleri vardır. || 2-16.F11
+204.1 || Touch and go / bolter adımları? || Aynı prosedür. Topu teker değene kadar uç; temasta aynı anda MRT + speed brakes içeri + optimum AOA'ya rotate; kanatlar düz, pozitif tırmanma, optimum AOA. || 2-16.02..2-16.05
+204.1 || Touch and go / bolter sonrası? || Pozitif tırmanma + pruva hizası → hafif sağ dönüş, BRC'ye paralel. Pruvaya önce varana (break'e giren ya da katapulttan kalkan) aralık ver. 600 ft'e tırman, uygun aralıkla downwind'e dön. || 2-16.06..2-16.08
+204.1 || CAUTION (s. 2-17)? || Katapulttan kalkan ya da break'teki uçaklarla çakışmamak için geminin pruvasının önünden geçme. || 2-17.02
+204.1 || Waveoff kuralları? || ZORUNLUDUR. LSO/tower aksini söylemedikçe ("waveoff starboard side") açılı güverte boyunca yapılır. Sözlü ya da yalnızca lensteki waveoff ışıklarıyla verilse de uyulur. || 2-17.03..2-17.05
+204.1 || Waveoff'a yol açabilecek durumlar? || Fouled deck, limit dışı rüzgâr, uçağın emniyetli iniş için uygun durumda olmaması. || 2-17.06
+204.1 || Waveoff adımları? || Aynı anda MRT, speed brakes içeri, landing attitude (optimum AOA'yı aşmadan), kanatlar düz, açılı güverte boyunca tırman. Pozitif tırmanma + optimum AOA; pruva hizasında hafif sağ dönüşle BRC'ye paralel; 600 ft, uygun aralıkla downwind. || 2-17.07..2-17.10
+204.1 || Delta Easy ve Delta clean? || Delta (paterndeyken tower verir): patern irtifası ve aynı patern; on-speed, iniş konfigürasyonu, speed brakes içeride = Delta Easy. Delta clean = 200 KIAS ve atanan irtifa. || 2-17.11..2-17.13
+204.1 || Delta'dan çıkınca kim normal yaklaşmaya devam eder? || 180 pozisyonuna ilk varan uçak. || 2-17.14
+204.1 || Arrestment'ta temas ve MRT? || Yaklaşma touch and go gibi; topu teker değene kadar uç. Temasta MRT + speed brakes içeri; durdurmayı önceden bekleme. Tam duruş ve saat 1–2'deki yellow shirt'ün power back işaretine kadar MRT. || 2-17.15..2-17.18
+204.1 || Arrestment sonrası yellow shirt işaretleri ve pull-back? || Brake release + pull-back, sonra stop ve hook up. Pull-back telin kancadan kurtulmasını sağlar; fren yapılırsa uçak geriye yatar, kuyruk hasar görebilir. Yellow shirt'e uy. || 2-17.19..2-17.22
+204.1 || Case I'de Marshal ilk check-in'de ne verir ve ne ister? || Case, güncel BRC, beklenen Charlie time. Gemi görülünce (normalde ~10 NM) bildirilmesini ister. || 2-17.23, 2-17.24
+204.1 || Charlie time nedir? || Kalkış operasyonlarının bittiği ve recovery operasyonlarının başladığı zaman. || 2-17.24
+204.1 || (j) örneği: Marshal check-in sırası? || i. 405: "Marshal, 405, 250 for 42, Angels 9, State 2.4" · ii. Marshal: "405, Case I. BRC is 015, Report, see me" · iii. 405: "405, Wilco". || 2-17.26, 2-17.27, 2-18.01
+204.1 || (j) örneği: 10 NM'de ya da gemi görülünce? || iv. 405: "405, See you at 10" · v. Marshal: "405, Switch Tower". || 2-18.02..2-18.04
+204.1 || Kaynak notu: (j) örneğinde eksik olan? || Metin Marshal'ın ilk check-in'de expected Charlie time vereceğini söyler; (j) örneğinde yoktur, s. 2-12 örneğinde vardır ("Expected Charlie time 22"). || 2-17.23, 2-17.27, 2-12.14
+204.1 || Tower frekansında ne yapılır? || Yalnızca dinlenir. Case I'in çoğu "Zip Lip"tir: paternde telsiz çağrısı ne gerekir ne istenir; düşük görüşte belirli çağrılar yapılır. || 2-18.05..2-18.08
+204.1 || Düşük görüş çağrıları: holding'den çıkış ve initial? || Overhead holding'den initial'e alçalırken: "405, commencing". Initial (3 NM astern): "405, initial". || 2-18.09, 2-18.10
+204.1 || Düşük görüş çağrıları: spin? || Spin paternine girerken (gerekiyorsa): "405, spinning". Spin'de initial'den 90° sonra: "405, spin 90". || 2-18.11, 2-18.12
+204.1 || Düşük görüş çağrıları: paternden ayrılma ve break? || Port holding'e yeniden girmek için ayrılırken: "405, Departing _____ NM, upwind". Break: "405, breaking at X" (X = DME). || 2-18.13, 2-18.14
+204.1 || Ball call ve Clara? || Groove'a girerken top görülünce: "405, Goshawk Ball, 2.2" (2.2 = yakıt). Top görünmüyorsa: "405, Clara". || 2-18.15, 2-18.16
+204.1 || Zip Lip'te ball call ve emniyet çağrıları? || Ball call yapılmaz; LSO cut ışıklarını kısa yakarak onaylar ("roger ball" ile aynı). Top görünmüyorsa "clara" denir. Uçuş emniyeti durumlarında her an telsiz çağrısı yapılır. || 2-18.17..2-18.20
+204.1 || NOTE (s. 2-18)? || Başka uçak toptayken, uçuş emniyeti gerektirmedikçe asla telsizde konuşma. || 2-18.22

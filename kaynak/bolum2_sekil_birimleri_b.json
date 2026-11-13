@@ -1,0 +1,10 @@
+[
+ {"id": "2-10.F1", "page": "2-10", "kind": "sekil-icerik", "sec": "Figure 2-1", "text": "[Figure 2-1] Ship symbol at the bottom of the drawing with a black arrow labeled \"BRC\" pointing straight ahead (up the page)."},
+ {"id": "2-10.F2", "page": "2-10", "kind": "sekil-icerik", "sec": "Figure 2-1", "text": "[Figure 2-1] The departure track (orange line) runs straight ahead from the ship, parallel to the BRC arrow; this segment is labeled \"500' / 300 KIAS\"."},
+ {"id": "2-10.F3", "page": "2-10", "kind": "sekil-icerik", "sec": "Figure 2-1", "text": "[Figure 2-1] A cross-mark on the track at the end of the straight segment is labeled \"7 DME\"; at this point the track turns (drawn toward the upper right)."},
+ {"id": "2-10.F4", "page": "2-10", "kind": "sekil-icerik", "sec": "Figure 2-1", "text": "[Figure 2-1] The segment after the turn at 7 DME is labeled \"Climb on course, VMC\"."},
+ {"id": "2-10.F5", "page": "2-10", "kind": "sekil-icerik", "sec": "Figure 2-2", "text": "[Figure 2-2] Ship symbol at the bottom of the drawing with a black arrow labeled \"BRC\" pointing straight ahead; the departure track (orange line) runs straight ahead from the ship parallel to BRC. No altitude, airspeed or distance label is printed on this straight segment."},
+ {"id": "2-10.F6", "page": "2-10", "kind": "sekil-icerik", "sec": "Figure 2-2", "text": "[Figure 2-2] Two short horizontal orange lines are drawn beside (to the right of) the straight segment; they carry no label."},
+ {"id": "2-10.F7", "page": "2-10", "kind": "sekil-icerik", "sec": "Figure 2-2", "text": "[Figure 2-2] At the end of the straight segment there is an unlabeled cross-mark; from it the track splits and curves both left and right to join a large arc labeled \"10 DME Arc\"."},
+ {"id": "2-10.F8", "page": "2-10", "kind": "sekil-icerik", "sec": "Figure 2-2", "text": "[Figure 2-2] At the upper left, a line labeled \"Departure Radial\" leaves the 10 DME arc outbound."}
+]

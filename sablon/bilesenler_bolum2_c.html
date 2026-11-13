@@ -1,0 +1,127 @@
+<!-- Bölüm 2, parça c bileşenleri. Her biri "@@ c_ad" işaretiyle başlar; içerikte "@w c_ad" ile çağrılır. -->
+
+<!-- @@ c_inispaterni -->
+<div class="w w-c-inispaterni">
+  <div class="w-baslik">Case I iniş paterni, adım adım <small>üstten, şematik · ölçeksiz · bir pozisyon seçin</small></div>
+  <svg viewBox="0 0 600 520" role="img" aria-label="Initial, break, downwind, abeam, 90, 45, groove ve bolter pozisyonlarıyla Case I iniş paterni">
+    <defs>
+      <marker id="c-ip-ok" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+        <path d="M0,1 L9,5 L0,9 Z" class="c-ip-okucu"/>
+      </marker>
+    </defs>
+    <!-- içeri uçuş (initial → break), break dönüşü, downwind, yaklaşma dönüşü, groove -->
+    <path d="M470,505 L470,300" class="c-ip-iz" marker-end="url(#c-ip-ok)"/>
+    <path d="M470,300 L470,110" class="c-ip-iz"/>
+    <path d="M470,110 A85,85 0 0 0 300,110" class="c-ip-iz" marker-end="url(#c-ip-ok)"/>
+    <path d="M300,110 L300,265" class="c-ip-iz" marker-end="url(#c-ip-ok)"/>
+    <path d="M300,265 L300,330 A65,65 0 0 0 430,330" class="c-ip-iz"/>
+    <path d="M430,330 L416,256" class="c-ip-iz" marker-end="url(#c-ip-ok)"/>
+    <!-- touch and go / bolter / waveoff çıkışı -->
+    <path d="M410,236 L399,152 Q395,128 395,96 Q395,52 352,52 Q306,52 302,104" class="c-ip-bolter" marker-end="url(#c-ip-ok)"/>
+    <!-- gemi -->
+    <path d="M414,148 L426,148 L432,170 L432,252 L410,252 L404,212 L406,180 Z" class="c-ip-gemi"/>
+    <line x1="412" y1="250" x2="405" y2="196" class="c-ip-acili"/>
+    <rect x="433" y="196" width="6" height="18" class="c-ip-ada"/>
+    <!-- abeam mesafesi ve 3 NM -->
+    <line x1="300" y1="215" x2="403" y2="215" class="hs-olcu"/>
+    <text x="352" y="208" class="hs-k" text-anchor="middle">0,9–1,1 NM</text>
+    <line x1="540" y1="252" x2="540" y2="460" class="hs-olcu"/>
+    <line x1="532" y1="252" x2="548" y2="252" class="hs-olcu"/>
+    <line x1="532" y1="460" x2="548" y2="460" class="hs-olcu"/>
+    <text x="550" y="352" class="hs-k">3 NM</text>
+    <text x="550" y="367" class="hs-k">astern</text>
+    <!-- BRC göstergesi -->
+    <line x1="560" y1="80" x2="560" y2="30" class="c-ip-brc" marker-end="url(#c-ip-ok)"/>
+    <text x="560" y="98" class="hs-t">BRC</text>
+    <text x="290" y="300" class="hs-k" text-anchor="end">downwind heading</text>
+    <text x="290" y="315" class="hs-k" text-anchor="end">= BRC'nin tersi</text>
+    <!-- pozisyonlar -->
+    <g class="c-ip-nokta" data-n="1"><circle cx="470" cy="460" r="12"/><text x="470" y="465">1</text></g>
+    <g class="c-ip-nokta" data-n="2"><circle cx="470" cy="110" r="12"/><text x="470" y="115">2</text></g>
+    <g class="c-ip-nokta" data-n="3"><circle cx="300" cy="140" r="12"/><text x="300" y="145">3</text></g>
+    <g class="c-ip-nokta" data-n="4"><circle cx="300" cy="215" r="12"/><text x="300" y="220">4</text></g>
+    <g class="c-ip-nokta" data-n="5"><circle cx="365" cy="395" r="12"/><text x="365" y="400">5</text></g>
+    <g class="c-ip-nokta" data-n="6"><circle cx="411" cy="376" r="12"/><text x="411" y="381">6</text></g>
+    <g class="c-ip-nokta" data-n="7"><circle cx="427" cy="312" r="12"/><text x="427" y="317">7</text></g>
+    <g class="c-ip-nokta" data-n="8"><circle cx="395" cy="100" r="12"/><text x="395" y="105">8</text></g>
+    <text x="486" y="464" class="hs-k">Initial</text>
+    <text x="486" y="114" class="hs-k">Break</text>
+    <text x="284" y="144" class="hs-k" text-anchor="end">Downwind</text>
+    <text x="284" y="219" class="hs-k" text-anchor="end">Abeam = 180</text>
+    <text x="365" y="424" class="hs-k" text-anchor="middle">90</text>
+    <text x="430" y="400" class="hs-k">45</text>
+    <text x="410" y="316" class="hs-k" text-anchor="end">Groove</text>
+    <text x="292" y="58" class="hs-k" text-anchor="end">8: touch and go /</text>
+    <text x="292" y="73" class="hs-k" text-anchor="end">bolter / waveoff</text>
+  </svg>
+  <div class="c-ip-adimlar" role="group" aria-label="Pozisyonlar"></div>
+  <div class="c-ip-bilgi" aria-live="polite"><b>Bir pozisyon seçin</b> ya da düğmelerle sırayla ilerleyin.</div>
+  <div class="c-ip-nav"><button class="btn" data-yon="-1">← Önceki</button><button class="btn" data-yon="1">Sonraki →</button></div>
+  <script type="application/json" class="w-veri">[
+    {"k": "Initial", "i": "800 ft", "t": "<b>1 · Initial</b> — Geminin <b>3 NM gerisi</b> (astern), <b>800 ft</b>; Şekil 2-5'te ayrıca <b>300 KIAS</b>. Holding'den Point 3'ün dışında 800 ft'e alçalarak gelinir; sonra <b>sancak tarafının hemen dışından, 800 ft'te, BRC'ye paralel</b> içeri uçulur. Düşük görüşte çağrı: \"405, initial\"."},
+    {"k": "Break", "i": "800 ft", "t": "<b>2 · Break</b> — <b>800 ft, yatay (level)</b>. Aralığı iniş paternindeki son uçak belirler; <b>15–20 s</b> break aralığı = <b>40–60 s</b> iniş aralığı. Geminin <b>4 NM'den ilerisinde</b> break yapılmaz; yapamazsan 5 NM'ye kadar 800 ft, sonra 1.200 ft'e tırman, sola yayla initial'e dön, Tower'a bildir. Şekil 2-5: \"On Interval or No Earlier Than 1 nm\", \"Wingman: 15 sec Interval\". Düşük görüşte: \"405, breaking at X\" (X = DME)."},
+    {"k": "Downwind", "i": "600 ft", "t": "<b>3 · Downwind</b> — Heading <b>BRC'nin tersi</b> (landing heading'in değil; landing heading açılı güverte nedeniyle BRC'den ≈ 10° az). Downwind'e yerleşince <b>600 ft</b> patern irtifasına alçal, landing checks yap, abeam mesafesini yakından izle. Şekil 2-5: Turn downwind \"Interval's Hook Down, 7 o'clock\"; Downwind \"600 ft On-Speed, Airspeed Check, Landing Checks, Trimmed Up\"."},
+    {"k": "Abeam", "i": "600 ft", "t": "<b>4 · Abeam (= 180)</b> — Gemide 180 ve Abeam pozisyonları <b>aynı yerdedir</b>. Şekil 2-5: <b>600 ft</b>; \"Establish VSI: 200-300 fpm, 27-30° AOB\"; <b>ABEAM CALL</b>; abeam mesafesi <b>.9 - 1.1 nm</b>."},
+    {"k": "90", "i": "450 ft", "t": "<b>5 · 90</b> — Şekil 2-5: <b>450 ft</b>, <b>27–30° AOB</b>, <b>VSI 500 fpm</b>."},
+    {"k": "45", "i": "325–375 ft", "t": "<b>6 · 45</b> — Şekil 2-5: <b>325–375 ft</b>."},
+    {"k": "Groove", "i": "ball", "t": "<b>7 · Groove / ball call</b> — Groove'a girerken top görülünce: \"405, Goshawk Ball, 2.2\" (2.2 = yakıt durumu). <b>Zip Lip</b>'te ball call yapılmaz; LSO cut ışıklarını kısa yakarak onaylar (\"roger ball\" ile aynı). Top görünmüyorsa: \"405, Clara\". Top <b>teker değene kadar</b> uçulur."},
+    {"k": "Bolter", "i": "600 ft", "t": "<b>8 · Touch and go / bolter / waveoff</b> — Aynı anda <b>MRT</b> ve speed brake'ler içeri; touch and go / bolter'da optimum AOA'ya rotate, waveoff'ta landing attitude (optimum AOA'yı aşmadan) ve açılı güverte boyunca tırmanma. Pozitif tırmanma + <b>pruva hizası</b> → <b>hafif sağ</b> dönüşle BRC'ye paralel; pruvaya önce varana aralık ver; <b>600 ft</b>'e tırman, uygun aralıkla downwind'e dön. <b>CAUTION: pruvanın önünden geçme.</b>"}
+  ]</script>
+  <p class="w-not">Şematik ve ölçeksizdir; yalnızca metindeki ve Şekil 2-5'teki değerler kullanılmıştır. Çizimdeki uzaklıklar ve açılar gerçek oranları göstermez.</p>
+</div>
+
+<!-- @@ c_holding -->
+<div class="w w-c-holding">
+  <div class="w-baslik">Overhead holding: aynı irtifadaki kolların aralığı <small>üstten, şematik · ölçeksiz</small></div>
+  <svg viewBox="0 0 560 380" role="img" aria-label="Sol el overhead holding halkası, Point 1-4, tırmanma ve alçalma yarıları, aynı irtifadaki kolların eşit aralığı">
+    <defs>
+      <marker id="c-ho-ok" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+        <path d="M0,1 L9,5 L0,9 Z" class="c-ip-okucu"/>
+      </marker>
+    </defs>
+    <path d="M80,190 A120,120 0 0 1 320,190" class="c-ho-tirman"/>
+    <path d="M80,190 A120,120 0 0 0 320,190" class="c-ho-alcal"/>
+    <text x="200" y="128" class="hs-k" text-anchor="middle">tırmanma: 1 → 3</text>
+    <text x="200" y="143" class="hs-k" text-anchor="middle">(Pattern Climb Area)</text>
+    <text x="200" y="250" class="hs-k" text-anchor="middle">alçalma: 3 → 1</text>
+    <text x="200" y="265" class="hs-k" text-anchor="middle">(Pattern Descent Area)</text>
+    <path d="M148.7,49 A150,150 0 0 0 77.1,104" class="c-ho-akis" marker-end="url(#c-ho-ok)"/>
+    <text x="70" y="52" class="hs-k" text-anchor="middle">akış (sol el)</text>
+    <line x1="80" y1="190" x2="46" y2="249" class="c-ho-ayrilis" marker-end="url(#c-ho-ok)"/>
+    <text x="40" y="270" class="hs-k" text-anchor="middle">break için</text>
+    <text x="40" y="285" class="hs-k" text-anchor="middle">ayrılış (Point 3)</text>
+    <g class="c-ho-nokta"><line x1="320" y1="176" x2="320" y2="204"/><text x="346" y="186">1</text><text x="358" y="204" class="c-ho-alt">(Mother)</text></g>
+    <g class="c-ho-nokta"><line x1="186" y1="70" x2="214" y2="70"/><text x="200" y="60">2</text></g>
+    <g class="c-ho-nokta"><line x1="66" y1="190" x2="94" y2="190"/><text x="62" y="176">3</text></g>
+    <g class="c-ho-nokta"><line x1="186" y1="310" x2="214" y2="310"/><text x="200" y="330">4</text></g>
+    <g class="c-ho-ucaklar"></g>
+    <line x1="378" y1="96" x2="378" y2="40" class="c-ip-brc" marker-end="url(#c-ho-ok)"/>
+    <text x="378" y="112" class="hs-t">BRC</text>
+    <text x="200" y="364" class="hs-k" text-anchor="middle">"stack": 5 NM içinde, 2.000 ft AGL'nin altına inmeden</text>
+    <g class="c-ho-yan">
+      <text x="480" y="44" class="hs-t">stack (yandan)</text>
+      <line x1="420" y1="110" x2="540" y2="110"/>
+      <line x1="420" y1="170" x2="540" y2="170"/>
+      <line x1="420" y1="230" x2="540" y2="230"/>
+      <line x1="420" y1="300" x2="540" y2="300" class="c-ho-deniz"/>
+      <text x="480" y="104" class="hs-k" text-anchor="middle">+ en az 1.000 ft</text>
+      <text x="480" y="164" class="hs-k" text-anchor="middle">+ en az 1.000 ft</text>
+      <text x="480" y="224" class="hs-k" text-anchor="middle">2.000 ft AGL (en alçak)</text>
+      <text x="480" y="318" class="hs-k" text-anchor="middle">yüzey</text>
+      <path d="M548,116 L548,164" class="c-ho-inis" marker-end="url(#c-ho-ok)"/>
+      <path d="M548,176 L548,224" class="c-ho-inis" marker-end="url(#c-ho-ok)"/>
+      <text x="480" y="262" class="hs-k" text-anchor="middle">irtifa boşalınca bir</text>
+      <text x="480" y="277" class="hs-k" text-anchor="middle">üstteki oraya iner</text>
+    </g>
+  </svg>
+  <div class="c-ho-kontrol">
+    <div class="c-ho-sec" role="group" aria-label="Aynı irtifadaki kol sayısı">
+      <button class="btn" type="button" data-kol="2">2 kol</button>
+      <button class="btn" type="button" data-kol="3">3 kol</button>
+      <button class="btn" type="button" data-kol="4">4 kol</button>
+    </div>
+    <button class="btn c-ho-oynat" type="button" aria-pressed="false">Oynat</button>
+  </div>
+  <div class="c-ho-bilgi" aria-live="polite"></div>
+  <p class="w-not">Şematik ve ölçeksizdir. Gemi çizilmemiştir: metin Point 1'i geminin tam üstü ("point 1 (Mother)") olarak tanımlar, Şekil 2-3 ve 2-4 ise gemiyi halkanın içinde gösterir (kaynak notuna bakın). Holding'den ayrılış heading'i metne göre BRC'ye göre yaklaşık 210°'dir; animasyon hızı temsilidir.</p>
+</div>

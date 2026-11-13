@@ -1,0 +1,34 @@
+[
+ {"id": "2-20.F1", "page": "2-20", "kind": "sekil-icerik", "sec": "Figure 2-6", "text": "[Figure 2-6] Formula at the top of the figure: \"Alt (Angels) + 15 = Holding Fix Distance\"."},
+ {"id": "2-20.F2", "page": "2-20", "kind": "sekil-icerik", "sec": "Figure 2-6", "text": "[Figure 2-6] Green holding pattern labelled \"6000 ft / 21 NM\"."},
+ {"id": "2-20.F3", "page": "2-20", "kind": "sekil-icerik", "sec": "Figure 2-6", "text": "[Figure 2-6] Yellow holding pattern labelled \"7000 ft / 22 NM\"."},
+ {"id": "2-20.F4", "page": "2-20", "kind": "sekil-icerik", "sec": "Figure 2-6", "text": "[Figure 2-6] Red holding pattern labelled \"8000 ft / 23 NM\"."},
+ {"id": "2-20.F5", "page": "2-20", "kind": "sekil-icerik", "sec": "Figure 2-6", "text": "[Figure 2-6] Drawing: ship at the left with a line extending away from it; three overlapping racetrack holding patterns along this line, each higher pattern slightly farther from the ship; a vertical arrow points to the end of each pattern nearest the ship; T-45 aircraft drawn in the patterns."},
+
+ {"id": "2-21.F1", "page": "2-21", "kind": "sekil-icerik", "sec": "Figure 2-7", "text": "[Figure 2-7] \"Hold at assigned altitude, left turns.\""},
+ {"id": "2-21.F2", "page": "2-21", "kind": "sekil-icerik", "sec": "Figure 2-7", "text": "[Figure 2-7] \"Initial approach fix DME is angels plus 15.\""},
+ {"id": "2-21.F3", "page": "2-21", "kind": "sekil-icerik", "sec": "Figure 2-7", "text": "[Figure 2-7] \"Note: Below platform, rate of descent should not exceed altitude.\""},
+ {"id": "2-21.F4", "page": "2-21", "kind": "sekil-icerik", "sec": "Figure 2-7", "text": "[Figure 2-7] First descent segment from the holding altitude labelled \"250 KIAS 4,000-6,000 ft/min\"."},
+ {"id": "2-21.F5", "page": "2-21", "kind": "sekil-icerik", "sec": "Figure 2-7", "text": "[Figure 2-7] \"Platform 5,000 ft\"; descent segment below platform labelled \"250 KIAS 2,000 ft/min\"."},
+ {"id": "2-21.F6", "page": "2-21", "kind": "sekil-icerik", "sec": "Figure 2-7", "text": "[Figure 2-7] Level-off point marked \"1,200 ft/10 NM\"."},
+ {"id": "2-21.F7", "page": "2-21", "kind": "sekil-icerik", "sec": "Figure 2-7", "text": "[Figure 2-7] Level segment nearer the ship marked \"800 ft\"."},
+
+ {"id": "2-24.F1", "page": "2-24", "kind": "sekil-icerik", "sec": "Figure 2-8", "text": "[Figure 2-8 plan view] \"Marshal as assigned\": holding pattern at the (IAF) with the inbound leg labelled FB and the outbound leg labelled 180°, drawn with left turns."},
+ {"id": "2-24.F2", "page": "2-24", "kind": "sekil-icerik", "sec": "Figure 2-8", "text": "[Figure 2-8 plan view] From the (IAF) the track runs inbound on FB past 10 DME, 6 DME and 3 DME (3 DME marked with an X) to the ship."},
+ {"id": "2-24.F3", "page": "2-24", "kind": "sekil-icerik", "sec": "Figure 2-8", "text": "[Figure 2-8 plan view] Ship symbol with callout \"TACAN CH .......\"; final bearing arrow beyond the ship labelled \"FB .......\" (values left blank)."},
+ {"id": "2-24.F4", "page": "2-24", "kind": "sekil-icerik", "sec": "Figure 2-8", "text": "[Figure 2-8 plan view] Beyond the ship the FB line continues to a mark \"4 DME/2 Min\"; from there a dotted 180° turn is drawn back toward the ship (on the left of the FB line in the drawing)."},
+ {"id": "2-24.F5", "page": "2-24", "kind": "sekil-icerik", "sec": "Figure 2-8", "text": "[Figure 2-8] \"Note: Courses are relative to FB\"."},
+ {"id": "2-24.F6", "page": "2-24", "kind": "sekil-icerik", "sec": "Figure 2-8", "text": "[Figure 2-8] \"Platform 5000\"."},
+ {"id": "2-24.F7", "page": "2-24", "kind": "sekil-icerik", "sec": "Figure 2-8", "text": "[Figure 2-8] \"Avg deck elev 60 ft\"."},
+ {"id": "2-24.F8", "page": "2-24", "kind": "sekil-icerik", "sec": "Figure 2-8", "text": "[Figure 2-8 profile] BOLTER/WAVEOFF: \"If no instructions by 4 DME/2 Min, turn downwind, report abeam. If no COMM, commence turn to FB at 4 DME.\""},
+ {"id": "2-24.F9", "page": "2-24", "kind": "sekil-icerik", "sec": "Figure 2-8", "text": "[Figure 2-8 profile] From the (IAF) the path descends along FB to 10 DME, then is level to 3 DME; \"1200\" is shown at 10 DME and at 6 DME (altitude figures in the profile are drawn with horizontal bars above and/or below them)."},
+ {"id": "2-24.F10", "page": "2-24", "kind": "sekil-icerik", "sec": "Figure 2-8", "text": "[Figure 2-8 profile] At 3 DME (X): \"1200 PALS/ICLS\" above the path; \"1200 ASR/TAC\" with \"600\" beneath it below the path; from 3 DME the path descends along FB to the ship (TAC)."},
+ {"id": "2-24.F11", "page": "2-24", "kind": "sekil-icerik", "sec": "Figure 2-8", "text": "[Figure 2-8 profile] Past the ship a dotted climbing turn is drawn to \"4 DME/2 Min\", marked \"1200\"."},
+ {"id": "2-24.F12", "page": "2-24", "kind": "sekil-icerik", "sec": "Figure 2-8", "text": "[Figure 2-8 minimums table] Columns CATEGORY / JET / TURBOPROP. Row ICLS: JET 360-3/4; TURBOPROP 300 (300-3/4)."},
+ {"id": "2-24.F13", "page": "2-24", "kind": "sekil-icerik", "sec": "Figure 2-8", "text": "[Figure 2-8 minimums table] Rows \"ICLS/ILM with SPN-42/46 monitor\" and \"S—PALS\" share one undivided value area: \"(Mode 1 — As Certified)\" spanning both columns at the ICLS/ILM row; JET 260-1/2 and TURBOPROP 200 (200-1/2) at the S—PALS row."},
+ {"id": "2-24.F14", "page": "2-24", "kind": "sekil-icerik", "sec": "Figure 2-8", "text": "[Figure 2-8 minimums table] Rows \"S—ASR\" and \"S—TAC\" share one value area: JET 600-1-1/4 and 540 (600-1-1/4); TURBOPROP 400-1 and 340 (400-1); values aligned with the S—ASR row; the S—TAC row is cut off at the bottom edge of the image."},
+
+ {"id": "2-25.F1", "page": "2-25", "kind": "sekil-icerik", "sec": "Figure 2-9", "text": "[Figure 2-9] Straight glidepath drawn from the ship, with a distance scale marked .5, 1.0, 1.5, 2.0, 2.5, 3.0 (no unit printed)."},
+ {"id": "2-25.F2", "page": "2-25", "kind": "sekil-icerik", "sec": "Figure 2-9", "text": "[Figure 2-9] Altitudes on the glidepath: 200' at .5; 400' at 1.0; 600' at 1.5; 800' at 2.0; 1000' at 2.5; 1200' at 3.0."},
+ {"id": "2-25.F3", "page": "2-25", "kind": "sekil-icerik", "sec": "Figure 2-9", "text": "[Figure 2-9] \"Ball Transition\" arrow pointing to the glidepath between the .5 and 1.0 marks."}
+]

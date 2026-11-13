@@ -1,0 +1,161 @@
+# Bilgi kartları — biçim:  bölüm || ön yüz || arka yüz || kaynak birimleri
+100 || Deniz stratejisinin altı temel kabiliyeti nelerdir? || İleri varlık (forward presence), güç aktarımı (power projection), caydırıcılık (deterrence), deniz güvenliği (maritime security), insani yardım / afet müdahalesi, deniz kontrolü (sea control). || 1-1.08
+100 || Tipik bir CSG'nin bileşimi? || 1 uçak gemisi, en az 1 kruvazör, en az 2 muhrip/fırkateynlik muhrip filosu, ~70 uçaklık hava kanadı. Ayrıca hücum denizaltıları, lojistik gemileri ve ikmal gemisi bulunabilir. || 1-1.14
+100 || CSG içinde gemi ve hava kanadının ana rolü nedir? || Birincil taarruz ateş gücünü sağlamak. Gruptaki diğer gemiler savunma ve destek sağlar. || 1-1.15
+100 || "Edge of the envelope": gemi operasyonunun karadan farkları? || Sürekli yüksek Op Tempo, havaalanı ve uygun divert seçeneklerinin azlığı, istatistiksel olarak daha karmaşık ve tehlikeli ortam. || 1-1.19, 1-1.20
+100 || Kazasız ve başarılı gemi operasyonunun temel unsurları? || Emniyet ve takım çalışması. || 1-1.21
+101 || Uçak gemisinin (CVN) görevi nedir? || Müşterek ve koalisyon kuvvetlerini desteklemek için tüm hedef yelpazesine karşı taarruz, erken ihbar, gözetleme ve elektronik görevler yapan uçakları desteklemek. || 1-2.02
+101 || Gemideki toplam personel sayısı? || Yaklaşık 5.000 (4.660–5.680). || 1-2.03
+101 || Gemi personeli hangi iki sınıfa ayrılır? || Air Wing personeli ve gemi personeli (ship's company). || 1-2.04
+101 || Carrier Air Wing (CVW) büyüklüğü? || 7–8 filo, yaklaşık 70 döner ve sabit kanatlı uçak, yaklaşık 2.500 personel. || 1-2.07
+101 || VFA: tipik hava kanadında kaç filo, hangi uçak? || 4 filo, Hornet / Rhino. || 1-2.09
+101 || VAQ: kaç filo, hangi uçak? || 1 filo, Growler. || 1-2.10
+101 || VAW: kaç filo, hangi uçak? || 1 filo, Hawkeye. || 1-2.11
+101 || HSC / HSM: kaç filo? || 1–2 helikopter filosu. || 1-2.12
+101 || VRC nedir? || 1 lojistik destek müfrezesi (Logistic Support detachment), Greyhound. || 1-2.13
+101 || CAG kimdir, neyden sorumludur? || Air Wing Commander. Gemideki tüm hava kanadı uçaklarından ve personelinden genel olarak sorumludur. || 1-2.14, 1-2.15
+101 || DCAG kimdir? || Deputy CAG, CAG'ın executive officer'ı (XO). || 1-2.16
+101 || LSO'nun lakabı ve birincil sorumluluğu? || "Paddles". Sabit kanatlı uçakların gemiye emniyetli ve süratli indirilmesi (recovery). Hava kanadındaki kalifiye pilotlardır. || 1-2.17
+101 || LSO'nun eğitim sorumluluğu neleri kapsar? || Pilotların gemi iniş tekniği eğitiminden nihai sorumluluk: yer eğitimi, danışmanlık, bireysel performans debrief'i. || 1-2.18
+101 || LSO telsiz çağrılarının üç tipi? || INFORMATIVE, ADVISORY, IMPERATIVE. LSO'lar recovery'yi telsiz çağrılarıyla yürütür. || 1-2.19, 1-2.20
+101 || Filo başına kaç LSO olur, kime rapor verirler? || Genellikle 2 veya daha fazla. Farklı takımlara atanırlar ve pilotların iniş güncelliği ile performansını CAG LSO'ya raporlarlar. || 1-2.21, 1-2.22
+101 || LSO takımının nöbet süresi ve recovery sonrası görevi? || Her takım LSO platformunu 24 saat işletir. Her recovery'den sonra ready room'ları dolaşıp inen pilotlara debrief verir. || 1-2.23, 1-2.24
+101 || Ship's company: kaç kişi, kime bağlı? || Yaklaşık 3.200 kişi, doğrudan CO'ya bağlı, hiçbir filoya veya hava kanadına atanmamış. Üst liderlik pozisyonlarında ek eğitimden geçmiş havacılar görev yapar. || 1-3.02..1-3.04
+101 || BIG XO kimdir? || Geminin Executive Officer'ı. || 1-3.07
+101 || GATOR kimdir? || Navigator (seyir subayı). || 1-3.08
+101 || Air Boss ve Mini Boss kimlerdir? || Air Boss = Air Officer; Mini Boss = Assistant Air Officer. || 1-3.13, 1-3.14
+101 || "Shooters" kimlerdir? || Catapult Officers (katapult subayları). || 1-3.15
+101 || "Handler" kimdir? || Aircraft Handling Officer. || 1-3.16
+101 || Lakap dışındaki üst liderlik pozisyonları? || Commanding Officer (CO), Operations Officer (OPSO), Air Operations Officer, Strike Operations Officer, CDC Officer. || 1-3.06, 1-3.09..1-3.12
+101 || OPSO neyden sorumludur? || Havadaki uçakların kontrolünden (kontrol fiilî launch/recovery ile bağlantılı değilse). Strike Group Commander ile grup operasyonlarını planlar ve koordine eder. || 1-3.17, 1-3.18
+101 || Air Ops'un sorumlulukları? || OPSO'ya bağlı. Uçuş operasyonu koordinasyonu, CATCC'nin çalışması, yaklaşma tipi ve kontrol derecesinin belirlenmesi. Ayrıca gece / marjinal havada kontrol, divert eden uçaklar, kargo ve yolcu transferleri. || 1-3.19, 1-3.20
+101 || CATCC nedir, ne yapar? || Air Ops'a bağlı, güncel operasyonlardan sorumlu merkez (kara ATC benzeri). Tüm uçuşların durumunu izler, CCA'da kule kontrolü dışındaki uçakları kontrol eder, gece ve IMC'de departure / approach radar kontrolü verir. || 1-3.21, 1-3.22, 1-3.24, 1-3.25, 1-3.27
+101 || CCA (Carrier Control Area) nedir? || Geminin 50 NM çevresindeki tüm hava sahası. || 1-3.26
+101 || Strike Ops neyden sorumludur? || Gelecek operasyonlardan: ATO koordinasyonu, Air Plan'ın hazırlanması ve dağıtımı. || 1-3.28, 1-3.29
+101 || CDC'nin birincil sorumluluğu ve kontrol ettiği silahlar? || Geminin öz savunması. Füzelerin ve CIWS'in atış kontrolleri CDC'dedir. || 1-4.01, 1-4.02
+101 || CDC nerededir ve neden? || Air Ops ve CATCC'nin yanında: havadaki unsurların yakın koordinasyonu ve de-confliction için. || 1-4.03
+101 || CDC Officer'ın görevi ve CDC'nin özel bilgi verdiği konular? || Gemi savunması ve atanmış uçakların mission control'ü. CDC, air-to-surface silah atışları ve air-to-air füze atışları gibi özel operasyonlarda bilgi verir. || 1-4.04, 1-4.05
+101 || Air Boss neyi yönetir? || Pri-Fly'dan uçuş güvertesindeki tüm uçak faaliyetlerini ve CCZ'deki uçakları yönetir. Kalkış / iniş Case'ini belirler. || 1-4.06, 1-4.08
+101 || CCZ (Carrier Control Zone) sınırları? || Geminin 5 NM çevresinde, yüzeyden 2.500 ft'e kadar. || 1-4.07
+101 || Pri-Fly nedir, nerededir? || Havalimanı kulesinin karşılığı, launch ve recovery'yi izler. Uçuş güvertesinin 6 kat üstünde, ana köprünün üzerindedir; Air Boss'a bağlı personelle çalışır. || 1-4.09, 1-4.10
+101 || Tower Flower kimdir, ne yapar? || VFR operasyonlarında Pri-Fly'da bulunması zorunlu filo temsilcisi. Acil durumda yardım eder: ready room ile koordine eder, havadaki ekiple konuşur, Boss'un sorularını yanıtlar, Boss'un geri bildirimini ready room'a iletir. || 1-4.11..1-4.13
+101 || Gece / IMC'de filo temsilcisi nerede bulunur? || Air Ops'ta. || 1-4.14
+101 || FDC nerededir, orada kim çalışır? || Uçuş güvertesinde, adanın dibinde. Handler ve ekibi güverte ile hangardaki tüm uçakların durumunu izler. || 1-4.15, 1-4.16
+101 || Ouija board nedir? || Güverte ve hangar çizimli iki katlı şeffaf plastik masa. Uçakları temsil eden ölçekli maketler taşınır; bakımdaki uçağın maketi ters çevrilir. || 1-4.17..1-4.20
+101 || Weight chit nereye teslim edilir? || FDC'ye, uçuş öncesi kontrol / kalkıştan önce. FDC tüm güverte uçak hareketlerini koordine eder. || 1-4.21
+101 || Güverte personeli neden renkli forma giyer? || Güverte çok yoğun; herkesin görevini tanımak şart. Forma rengi görevi belirtir. || 1-5.01, 1-5.02
+101 || SARI forma kimler giyer? || Plane (taxi) directors, Flight Deck Officers, Arresting Gear Officers, Catapult Officers (Shooters), catapult spotters, Aircraft handling Officers. || 1-5.F1
+101 || YEŞİL forma kimler giyer? || Air Wing bakım personeli, katapult ve arresting gear ekipleri, helikopter LSE, kargo personeli, GSE arıza bakımcıları, hook runner'lar, fotoğrafçılar. || 1-5.F2
+101 || KAHVERENGİ forma kimler giyer? || Air Wing plane captain'ları ve Air Wing line Petty Officer'ları. || 1-5.F3
+101 || MAVİ forma kimler giyer? || Aircraft handler'lar (pusher, chocker, chainer vb.), traktör sürücüleri, haberciler ve phone talker'lar, asansör operatörleri. || 1-5.F4
+101 || MOR forma kimler giyer? || Yakıt (fueling) personeli. || 1-5.F5
+101 || BEYAZ forma kimler giyer? || Emniyet personeli, sağlık personeli, LSO'lar, final checker'lar, kalite güvence (QA) personeli, Air Transfer Officer (ATO). || 1-5.F6
+101 || KIRMIZI forma kimler giyer? || Mühimmat ekipleri, crash and salvage ekipleri, EOD. || 1-5.F7
+101 || Güvertede kimler haki pantolon giyer? || Yalnızca Flight Deck Officer'lar, Chief Warrant Officer'lar ve Chief Petty Officer'lar. || 1-5.06
+101 || Kaskında turuncu ve yeşil reflektif bant olanlar? || Katapult ve arresting gear subayları. || 1-5.07
+101 || Güvertede uçak hareketini kimler kontrol edebilir? || Yalnızca sarı formalılar (Yellow Shirts). || 1-5.08
+102.1 || Round Down nedir? || Şekil 1-2'de güvertenin kıç (stern / fantail) kenarı. || 1-6.F1
+102.1 || Şekil 1-2'de durdurma telleri nasıl gösterilir? || Arresting Gear Pendants (4) Mk 7 MOD 3: kıç iniş alanında P1–P4; Barricade tellerin yanında işaretli. || 1-6.F2
+102.1 || Şekil 1-2'de katapultların yeri? || No. 1 ve 2 pruvada (No. 1 sancakta); No. 3 ve 4 açılı güvertede (No. 4 en iskelede). || 1-6.F3
+102.1 || Asansörlerin yerleri? || No. 1, 2, 3 sancakta (1 ve 2 adanın önünde, 3 arkasında); No. 4 iskele kıçta. || 1-6.F4
+102.1 || Ada (island) hangi taraftadır? Foul lines ne gösterir? || Ada sancaktadır. Foul lines iniş alanını sınırlar. || 1-6.F5
+102.1 || Şekil 1-2'ye göre iskele tarafında neler var? || LSO Platform (kıçta), Integrated Catapult Control Station, Mk 6 MOD 3 Hinged Optical Landing System Platform. || 1-6.F6
+102.1 || Şekil 1-3: pruva bölgelerinin adları? || One Row, Two Row, Three Row, Four Row, Box, Crotch. || 1-6.F7
+102.1 || Şekil 1-3: sancak tarafındaki bölgeler (önden arkaya)? || Point, Corral, (ada), Junkyard, Patio. || 1-6.F8
+102.1 || SIXPAC, Street ve Finger nerededir? || SIXPAC ve Street iniş alanı boyunca orta güvertede; Finger iskele kıçta. || 1-6.F9
+102.1 || Arresting gear performansı? || 150 kts hızdaki uçağı 320 ft'te durdurur. "Gemi operasyonlarının kalbi"dir. || 1-7.02, 1-7.03
+102.1 || Mk 7 Mod 3 arresting gear'ın parçaları? || Cross deck pendants, purchase cables, arresting engine. Tüm ABD gemilerinde bulunur. || 1-7.05
+102.1 || Teller arası mesafe kaç ft? || Belge çelişkili: bir cümlede 20 ft, diğerinde 40 ft. Güncel kaynaktan doğrulayın. Tel sayısı 3 (veya 4). || 1-7.04, 1-7.06
+102.1 || Hangi gemilerde 4 tel, hangilerinde 3 tel var? || NIMITZ sınıfında 4 tel (REAGAN ve BUSH hariç). REAGAN, BUSH ve tüm FORD sınıfında 3 tel. || 1-7.07, 1-7.10
+102.1 || Teller nasıl numaralanır? "Ace" hangisi? || Kıçtan pruvaya 1–4. En kıçtaki 1 tel = "Ace". 3 tele takılmak genelde iyi yaklaşma göstergesidir. || 1-7.08, 1-7.09
+102.1 || Wire supports ne işe yarar? || Telleri birkaç inç yükseltir, kanca takılabilsin. || 1-7.11
+102.1 || Bir tel ne zaman değiştirilir? || 100 durdurmalı inişten sonra. || 1-7.12
+102.1 || Terminal couplings ve purchase cables? || Couplings, tellerin uçlarını purchase cable'lara bağlar. Purchase cable'lar güverte altından arresting engine'e gider; durdurmada boşalarak (pay out) kinetik enerjiyi aktarır. || 1-7.13..1-7.15
+102.1 || Arresting engine nasıl çalışır? || Hidro-pnömatik: silindir içinde ram ve sıvıyla enerjiyi emip dağıtır. || 1-7.16
+102.1 || Temas anında güç ne olur? || MRT'ye getirilir. E-2 ve C-2 ise yaklaşma gücünü korur. || 1-7.17
+102.1 || Kanca tele takılmazsa? || Uçak hızla yeniden havalanabilir. || 1-7.18
+102.1 || Başarılı durdurmadan sonra pilot ne yapar? || Uçak tamamen durunca gücü idle'a çeker, taxi director işaretleriyle iniş alanını süratle boşaltır. || 1-7.19
+102.1 || Optimum iniş aralığı ve sınırlayıcı faktör? || 40–60 saniye. Sınır: uçağı alandan çıkarıp gear'ı yeniden kurma süresi, yaklaşık 35 saniye. || 1-7.20..1-7.22
+102.1 || Barricade nedir, nerededir? || Normal durdurma yapılamadığında kullanılan acil durum iniş sistemi; 3 ve 4 telleri arasında, normalde katlı (stowed). || 1-7.23, 1-7.24
+102.1 || Barricade nasıl ve ne kadar sürede kurulur? || Güverteden kalkan dikmeler (stanchions) arasına gerilir. Düzenli tatbik edilir, 3 dakikanın altında kurulmalıdır. || 1-7.25, 1-7.26
+102.1 || Barricade ağının yapısı ve çalışması? || Üst-alt yatay yük kayışları ve dikey yakalama kayışları. Yaklaşık 20 ft'e kaldırılır, uçağın kanatlarını yakalar; enerji purchase cable üzerinden arresting engine'e gider. || 1-7.27..1-7.30
+102.1 || Bariyerli durdurmadan sonra ne olur? || Ağ ve güverte kabloları atılır, dikmeler yuvalarına indirilir. || 1-7.31
+102.1 || Bariyer gerektiren durumlar? || Blue water'da acil yakıt, kanca arızası, iniş takımı arızası, muharebe hasarı. || 1-7.32
+102.1 || Katapult performansı? || Uçağı 2 saniyenin altında 0'dan 150 KIAS'a hızlandırır; birincil kalkış sistemidir. || 1-8.01, 1-8.02
+102.1 || Katapultlar nasıl numaralanır? || Dört adet, sancaktan iskeleye 1–4. || 1-8.03
+102.1 || Bow cats ve waist cats hangileri? || Bow cats: 1 ve 2 (pruvada). Waist cats: 3 ve 4 (açılı güvertede). || 1-8.04, 1-8.05
+102.1 || NIMITZ ve FORD sınıflarının katapult tipi? || NIMITZ: buharlı. FORD: EMALS (Electromagnetic Aircraft Launch System). || 1-8.06
+102.1 || Buharlı katapultun yapısı? || Yaklaşık bir futbol sahası uzunluğunda iki silindir; serbest pistonlar cat track'ten çıkan shuttle'a bağlı. || 1-8.07, 1-8.08
+102.1 || Uçak shuttle'a nasıl bağlanır? || Burun tekerleğindeki launch bar ile. || 1-8.09
+102.1 || Buharlı katapult atışı nasıl gerçekleşir ve biter? || Yüksek basınçlı buhar silindirlere verilir, piston hızla ilerler. Sonunda water brake pistonu yavaşlatır, piston geri çekilir. || 1-8.10, 1-8.12
+102.1 || EMALS nasıl çalışır? || Lineer motor: elektrik akımlarının ürettiği manyetik alanlar carriage'ı cat track boyunca iter. || 1-8.13, 1-8.14
+102.1 || EMALS'ın avantajları? || Kademeli ivme sayesinde gövdeye daha az stres; daha hassas performans kontrolü sayesinde insansız dahil daha çok uçak tipi. || 1-8.15, 1-8.16
+102.1 || Clearing turn kuralları? || Gündüz çoklu katapult kalkışında gerekir: waist cats sola, bow cats sağa döner. || 1-8.17..1-8.19
+102.1 || ICCS ("bubble") nedir? || Integrated Catapult Control Station, katapult kontrolünün odağı. Shooter buradan emniyetli ve düzenli kalkışı sağlar; kalkıştan önce cat track'leri kontrol eder, recovery için emniyete alır. || 1-8.20..1-8.23
+102.1 || JBD'nin amacı, yapısı ve yeri? || Jet egzozunun zararını önler. Non-skid kaplı ağır hizmet metal paneller; katapultun arkasında. || 1-8.24..1-8.26
+102.1 || JBD nasıl çalışır? || Kullanılmazken güverteye gömülü. Uçak katapulta yerleşirken hidrolik silindirlerle kalkar, egzozu yukarı yönlendirir; arkadaki uçakta personel güvenle kontrol yapar. || 1-8.27..1-8.30
+102.1 || Hangar bay'in yeri ve boyutu? || Güvertenin 2 güverte altında, gemi boyunun ~2/3'ü, 3 kat yüksekliğinde, 4 bölgeye ayrılmış. || 1-9.01, 1-9.02
+102.1 || Hangar bay kapasitesi ve içeriği? || 60'tan fazla uçak; birincil bakım yeri. Yedek parçalar (motorlar dahil), yakıt tankları, ağır ekipman. || 1-9.04, 1-9.05
+102.1 || Asansörlerin sayısı ve kapasitesi? || 4 ana asansör; yüksek hızlı, hidrolik; 150.000 lb'nin üzerinde, iki tam yüklü jet. || 1-9.06, 1-9.07
+102.1 || Asansör emniyeti ve diğer asansörler? || Asansör hareket ederken korkuluk dikmeleri kalkar. Ayrıca birkaç silah asansörü bulunur. || 1-9.08, 1-9.09
+102.2 || "Topside" için temel kurallar? || Yukarıdaki zamanı en aza indir, uçuş operasyonunda dolaşma, "keep your head on a swivel", güvertedeki her şeyin farkında ol. || 1-9.11..1-9.14
+102.2 || Turning aircraft tehlikesi? || Jet egzozu personeli güverte boyunca yuvarlayabilir, denize atabilir; dönen pervane yavaşlamaz. || 1-9.16
+102.2 || GSE nedir? || Ground Support Equipment ("yellow gear"); uçuş operasyonlarında sürekli kullanımdadır. || 1-9.18
+102.2 || Takılıp düşme tehlikeleri? || Takozlar, zincirler, çeki demirleri, durdurma telleri; gece özellikle zor görülür. || 1-9.20
+102.2 || Aircraft armament tehlikesi? || Füze kanatçıklarına çarpma (birden fazla dikişli yaralanma). || 1-9.21
+102.2 || "The roof" ve en tehlikeli anlardan biri? || Uçuş güvertesi. En küçük dikkatsizlik felaket getirir; uçağa gidip gelmek, özellikle gece, en tehlikeli yanlardandır. || 1-9.22, 1-9.23
+102.3 || "Father" ve "mother" neyi ifade eder? || Father: geminin TACAN'ı. Mother: geminin kendisi. || 1-9.26, 1-9.29
+102.3 || Gemi TACAN'ı esas olarak ne için kullanılır? || Konum navigasyonu ve holding. || 1-9.27
+102.3 || "Mark your father" denince ne bildirilir? || Uçağın gemi TACAN'ına göre radial ve DME'si. || 1-9.28
+102.3 || ICLS nedir, hangi sistemi kullanır? || Sivil ILS benzeri, her havada aletli yaklaşma rehberliği. AN/SPN-41A ("spin 41"), ayrı azimut ve elevasyon vericileri. || 1-10.01, 1-10.02
+102.3 || ICLS vericileri nerededir? || Azimut: geminin kıçında, iniş alanı merkez hattının biraz altında. Elevasyon: uçuş güvertesi üstünde, adanın gerisinde. || 1-10.03, 1-10.04
+102.3 || ICLS crosshair göstergesi nasıl okunur? || Dikey iğne azimut, yatay iğne elevasyon (glideslope). || 1-10.05, 1-10.06
+102.3 || ICLS neden pitching deck'ten etkilenir? || Gemiden uçağa tek yönlü yayın kullandığı için. || 1-10.07
+102.3 || "Bullseye" nedir? || ICLS'in adı (ACLS yaklaşmalarından ayırt etmek için). || 1-10.08
+102.3 || ACLS hangi sistemi kullanır ve neden hassastır? || AN/SPN-46(V)3 PALS; ring laser gyro stabilizasyon ünitesi sayesinde neredeyse tüm deniz durumlarında stabilize glideslope / azimut bilgisi. İğneler gösterir. || 1-10.09..1-10.11
+102.3 || "Leapfrog" nedir? || Spin 46'nın iki çift bantlı radarıyla aynı anda iki uçağın kontrolü; her uçak inerken bir sonraki yakalanır. || 1-10.12, 1-10.13
+102.3 || ACLS Mode I? || Otomatik, kumandalar ACLS'e bağlı; komut / hata sinyalleri uçakta kumanda hareketine çevrilir: eller serbest yaklaşma ve iniş. || 1-10.15, 1-10.16
+102.3 || ACLS Mode I Alpha? || IFLOLS görsel yakalanana kadar otomatik; sonra pilot devralır. || 1-10.17
+102.3 || ACLS Mode II? || ILS benzeri; hata sinyalleri uçakta crosshair iğneleri olarak gösterilir. || 1-10.18
+102.3 || ACLS Mode III? || Carrier Controlled Approach (CCA), GCA benzeri; kontrolör azimut ve glideslope bilgisi verir. || 1-10.19, 1-10.20
+102.4 || OLS'in amacı? || Yaklaşmanın son safhasında pilota glidepath bilgisi vermek. || 1-10.22
+102.4 || İlk OLS nasıldı? || Jiroskop kontrollü içbükey ayna; iki yatay yeşil datum dizisi arasında; turuncu kaynak ışığı sarımsı-turuncu "ball" olarak görünür. || 1-10.23..1-10.25
+102.4 || High ball, low ball ve hizalı top ne anlama gelir? || High ball: glidepath'in üstü. Low ball: altı. Top ile datumlar yatayda hizalı: glidepath üzerinde. || 1-10.26..1-10.28
+102.4 || FLOLS nedir? || Fresnel mercekli OLS. Top pilota aynı görünür ama bilgi daha hassastır. Beş dikey kaynak ışığından oluşan eski nesil yardımcı. || 1-11.01..1-11.03
+102.4 || IFLOLS ile FLOLS'un ortak noktası? || Aynı temel prensip ve aynı genel bileşenler. || 1-11.04, 1-11.05
+102.4 || IFLOLS'ta kaç hücre var? || 12 (FLOLS'a göre 7 ek); daha yüksek çözünürlük, daha kesin glideslope. || 1-11.06, 1-11.07
+102.4 || IFLOLS menzili ve "hassas" görünmesi? || 1,5 NM'ye kadar kullanılabilir; artan hassasiyeti yüzünden çok daha "sensitive" görünür. || 1-11.08
+102.4 || IFLOLS kaynak ışığının özelliği? || Fiber optik, merceklerden yansıtılır, daha keskin. Ball gemiden daha uzakta uçulabilir, aletliden görsele geçiş yumuşar. || 1-11.09, 1-11.10
+102.4 || IFLOLS: datum sayısı, dikey kapsama, yakalama mesafesi? || 10 datum; 1,7° (FLOLS 1,5°); 1,5 NM (FLOLS 3/4 NM). || 1-11.11..1-11.13
+102.4 || IFLOLS bileşenleri? || Lens assembly, cut ışıkları, waveoff ışıkları, datum ışıkları. || 1-12.01
+102.4 || IFLOLS stabilizasyon modları? || Line: pitch ve roll. Inertial: Line + heave. Point: lensin 2.500 ft gerisindeki noktada sabit. Line ve Inertial sonsuza stabilize eder. || 1-12.02..1-12.06
+102.4 || IFLOLS normal ayarı? || 3,5° glideslope, 3 teli hedefler. || 1-12.07
+102.4 || IFLOLS varyantları? || Kara (Mk 14 Shore-Based) ve gemi (Mk 13 Shipboard). || 1-12.08, 1-12.F3
+102.4 || Şekil 1-4'te IFLOLS düzeni? || Dikey lens kolonu (amber, altta 2 kırmızı, turuncu ball); her yanda 10 yeşil datum; lens üstünde ikişer yeşil cut; iki yanda kırmızı waveoff grupları. || 1-12.F1, 1-12.F2
+102.4 || Lens assembly yapısı? || 12 dikey hücreli kutu, fiber optik ışık. Üst hücreler amber, en alttaki 2 kırmızı. || 1-12.10, 1-12.11
+102.4 || Pilot hangi hücreyi görür ve nasıl yorumlar? || Uçağın glidepath üzerindeki konumu belirler; görünen hücre datumlarla karşılaştırılır: üstünde, üzerinde, altında. || 1-12.12, 1-12.13
+102.4 || Kırmızı lens görünüyorsa? || Uçak tehlikeli derecede alçaktır. || 1-12.14
+102.4 || Cut ışıkları: sayı, yer, kullanım? || Lensin üstünde ortalanmış 4 yeşil ışık. LSO, Zip Lip veya EMCON operasyonlarında iletişim için kullanır. || 1-12.15, 1-12.16
+102.4 || Cut ışıklarının anlamları? || Groove'a yaklaşırken kısa yanma: "Roger ball". Sonraki yanmalar: "add power". || 1-12.17, 1-12.18
+102.4 || Zip Lip ve EMCON nedir? || Zip Lip: gündüz Case I filo operasyonlarında telsizi azaltmak. EMCON: tüm elektronik yayınların en aza indirildiği durum. || 1-12.19, 1-12.20
+102.4 || Waveoff ışıkları? || Lensin iki yanında dikey kırmızı ışıklar, LSO kontrol eder. Yanınca derhal waveoff yapılır. || 1-13.01..1-13.03
+102.4 || LSO ne zaman waveoff verir? || Güverte foul olduğunda (iniş alanında insan / ekipman) veya uçak emniyetli yaklaşma parametreleri dışındayken. || 1-13.04
+102.4 || "Bingo" IFLOLS'ta nasıl verilir? || Waveoff ve cut ışıkları dönüşümlü yakılır. || 1-13.05
+102.4 || Datum ışıkları? || Her yanda 10 yeşil, yatay. Top datumların üstünde yanıyorsa uçak yüksek, altında yanıyorsa alçak. || 1-13.06..1-13.08
+102.4 || Şekil 1-5 neyi gösterir? || Işık kamasının üç bölgesi: Above / On / Below Optimum Glideslope; toplam 1,5° etiketli (metinde IFLOLS 1,7°). || 1-13.F1
+102.4 || Lense yaklaştıkça düzeltmeler neden küçülür? || Işık kaması lense yaklaştıkça daralır. || 1-13.10
+102.4 || MOVLAS ışık kutusu ve datum box unit? || Alttaki 6 lamba kırmızı; parlaklık delikli kapaklarla azaltılır; datum box unit her yanda 5 datum, 4 waveoff, 1 cut lambası içerir. || 1-13.11..1-13.13, 1-14.F1
+102.4 || MOVLAS ne zaman kullanılır? || Yedek sistemdir: birincil sistem arızalıysa, IFLOLS stabilizasyon limitleri aşıldıysa, pilot / LSO eğitiminde. || 1-14.02
+102.4 || MOVLAS Station 1? || İskele, IFLOLS'un tam önü. Datum box unit kullanılmaz; IFLOLS'un waveoff, cut ve datum ışıkları kullanılır. || 1-14.04, 1-14.08, 1-14.09
+102.4 || MOVLAS Station 2? || İskele, IFLOLS'un 75–100 ft gerisi. Datum box unit ışık kutusunun iki yanına monte edilir. || 1-14.05, 1-14.10
+102.4 || MOVLAS Station 3? || Sancak: iniş alanının sancağı, adanın gerisi, safe parking line'ın dışı. Kesin yeri Air Officer / LSO belirler. Güvertedeki uçakların taşınması gerekebilir. || 1-14.06, 1-14.07, 1-14.11
+102.4 || MOVLAS'ta topu kim, nasıl kontrol eder? || LSO, hand controller'ı yukarı-aşağı oynatarak. Uçak yüksekse kaldırır (high ball), alçaksa indirir (low ball). || 1-15.01..1-15.03
+102.4 || MOVLAS'ın LSO'ya sağladığı imkân ve repeater? || LSO glidepath'i kontrol edip pitching deck'e göre değiştirebilir. LSO platformundaki MOVLAS repeater, pilota gösterilen glideslope'u izlemesini sağlar. || 1-15.04..1-15.06
+102.4 || Meatball Motherhood 1: hangi top uçulur? || "Cresting" ball: biraz yüksek, alçaktan iyidir. || 1-15.08
+102.4 || Low/slow ve high/fast için "lead" kuralı? || Low veya slow'u asla lead etme; high veya fast'i her zaman lead et. || 1-15.09, 1-15.10
+102.4 || Alçak+yavaş ve yüksek+hızlı düzeltme sırası? || Alçak ve yavaş: önce alçak, sonra yavaş. Yüksek ve hızlı: önce hızlı, sonra yüksek. || 1-15.11, 1-15.12
+102.4 || Topu ne zamana kadar uçarsın? Yakında yüksek top? || Teker değene kadar. Yakında yüksek topu asla yeniden ortalama, ama yükselen topu durdur. || 1-15.13, 1-15.14
+102.5 || Lineup kontrolü neden zordur? || İniş alanı küçük; açılı güvertede iniş alanı uçağın burnuna göre sürekli soldan sağa kayar. || 1-16.02, 1-16.03
+102.5 || Long Range Laser Lineup System'in özellikleri? || Göz için emniyetli, renk kodlu, düşük yoğunluklu lazerler; kıçtan geriye yansıtılır; gece 10 mile kadar görülür. || 1-16.04..1-16.06
+102.5 || Lazer sisteminde merkez sektör? || Sabit sarı, 0,50°: "On Centerline to Touchdown". || 1-16.F1
+102.5 || Lazer sisteminde merkez dışındaki sektörler (içten dışa)? || Sabit 0,75° (yeşil / kırmızı), yavaş yanıp sönen 4,0°, hızlı yanıp sönen 6,0°. || 1-16.F2..1-16.F4

@@ -1,0 +1,230 @@
+# Ek B, parça a soruları (B-1 – B-6) — biçim:
+# ## <bölüm>   S: soru   - yanlış şık   + doğru şık   A: açıklama   K: kaynak birimleri
+
+## B-1
+
+S: EXTEND or LOWER STRUT(S) işaretini kim kime verir?
++ Director → Pilot
+- Director → Deck Crew
+- Launching Officer → Pilot
+- Catapult Officer → Deckedge Operator
+A: "FROM: Director | TO: Pilot". Gündüz: kollar bir yanda, avuçlar birleşik ve yatay; sonra kollar açılır.
+K: B-1.F1
+
+S: EXTEND or LOWER STRUT(S) satırındaki nota göre strut nasıl indirilir (lowering)?
++ Strut uzatma prosedürünün tersi uygulanır
+- Kollar başın üstünde çaprazlanır
+- Wand'lar dikey tutulup yakılır
+- Sağ dirsek sol avuca dayanıp el yatay konuma indirilir
+A: "For lowering strut, reverse the procedure for extending strut." Gece işaret, wand'lar yatay tutularak verilir.
+K: B-1.F1
+
+S: RAISE LAUNCH BAR/TOW LINK işaretinin gece versiyonunu gündüzden ayıran nedir?
++ Sağ dirsek sol avuç yerine wand'ın üzerine dayanır
+- Wand'lar başın üstünde çapraz tutulur
+- GREEN wand yatay daire çizer
+- RED wand göğüs önünde kaldırılıp indirilir
+A: "Night: Same as day except rest right elbow on wand." Gündüz: sağ dirsek bel hizasında sol avuçta, sağ önkol yatayken sağ el omuz hizasına kaldırılır.
+K: B-1.F3
+
+S: Director sağ dirseğini bel hizasında sol avucuna dayayıp sağ elini aşağı, yatay konuma indiriyor. Ek B'ye göre bu hangi işarettir ve kime verilir?
++ LOWER LAUNCH BAR/TOW LINK — Deck Crew, Pilot
+- RAISE LAUNCH BAR/TOW LINK — Deck Crew, Pilot
+- EXTEND or LOWER STRUT(S) — Pilot
+- PUSH/PULL BACK — Deck Crew
+A: RAISE LAUNCH BAR/TOW LINK'te ise sağ önkol yatayken sağ el omuz hizasına kaldırılır. Gece LOWER işareti aynı şekilde wand'larla verilir.
+K: B-1.F2, B-1.F3
+
+S: TENSION AIRCRAFT ON CATAPULT işaretinde gece "frenleri bırak" nasıl gösterilir?
++ Başın üstünde çapraz tutulan wand'lar açılarak
+- GREEN wand dikey tutulup yukarı-aşağı hareket ettirilerek
+- RED wand başın üstünde yatay tutularak
+- Wand'lar vücudun önünde dikey tutulup yakılarak
+A: "Night: Same using wands except indicate pilot release brakes by opening crossed wands above head." Gündüz: sıkılı yumruklar avuçlar öne dönük açılır.
+K: B-1.F4
+
+S: Ek B'deki TENSION AIRCRAFT ON CATAPULT satırına göre pilot ne yapar?
++ Frenleri bırakır ve uçağın NATOPS Manual'ına göre uygun gücü uygular
+- Frenleri tutar ve gazı geri alır
+- Afterburner'ı seçer ve selam verir
+- Yalnızca running lights'ı yakar
+A: "Pilot will release brakes and apply appropriate power in accordance with aircraft NATOPS Manual." İşareti Director, Catapult Crew ve Pilot'a verir; sonra bir el göğüs önünden savrulup kalkış yönünü gösterir. (Bölüm 2'deki farklı ifade için kaynak notuna bakın.)
+K: B-1.F4
+
+## B-2
+
+S: UNTENSION AIRCRAFT ON CATAPULT (B-2) işaretinde göğüs önünden savrulan yumruk / wand neyi gösterir?
++ Kalkış yönünün tersini
+- Kalkış yönünü
+- Pilotun kokpitini
+- Deckedge Operator'ı
+A: "...sweep one fist across chest and point in opposite direction of launch. Pilot will hold brakes." İşaret Launching Officer'dan Catapult Crew ve Pilot'a verilir.
+K: B-2.F1
+
+S: UNTENSION AIRCRAFT ON CATAPULT (B-2) işaretinin ilk bölümü pilota ne bildirir ve gece nasıl verilir?
++ "Frenleri tut"; gece wand'lar başın üstünde çapraz tutulur
+- "Frenleri bırak"; gece çapraz wand'lar açılır
+- "Gazı geri al"; gece RED wand göğüs önünde yatay tutulur
+- "Kalkış iptal"; gece RED wand başın üstünde yüksekte tutulur
+A: Gündüz: kollar başın üstünde, yumruklar sıkılı ("to indicate pilot hold brakes"). Gece: "Hold wands crossed overhead to indicate pilot hold brakes."
+K: B-2.F1
+
+S: FIRST TURNUP işareti hakkında hangisi doğrudur?
++ İsteğe bağlıdır, pilotun isteği üzerine verilir; deck launch için de kullanılabilir
+- Her katapult kalkışında zorunludur ve Director tarafından verilir
+- Yalnızca gece verilir
+- Afterburner seçildikten sonra verilir
+A: "Remarks: Signal is optional, given at request of pilot. Also can be used for deck launch." İşareti Launching Officer pilota verir.
+K: B-2.F2
+
+S: FIRST TURNUP gündüz ve gece nasıl verilir?
++ Gündüz: kol yukarıda, işaret parmağı yukarı; duraksayıp el hızla yatay daire çizer. Gece: RED ve GREEN wand göğüs hizasında, GREEN wand yatay daire çizer
+- Gündüz: işaret ve orta parmakla baş hizasında daire. Gece: RED wand yatay daire çizer
+- Gündüz: açık el parmaklar dikey pilota doğru. Gece: GREEN wand yukarı-aşağı
+- Gündüz: yumruklar bel hizasında. Gece: wand'lar dikey ve yanık
+A: "Day: Extend arm overhead, forefinger pointing up. Hesitate, then rotate hand rapidly in a horizontal circle. Night: Hold RED and GREEN wands at chest level, rotating the green wand in a horizontal circle."
+K: B-2.F2
+
+## B-3
+
+S: AFTERBURNER işaretinde "final turnup" işaretinden sonra ne kadar beklenir ve bu sırada pilot ne yapar?
++ 2 veya 3 saniye; pilot military rated thrust'a güç verir ve göstergeleri kontrol eder
+- 1 saniye; pilot frenleri bırakır
+- 5 saniye; pilot selam verir
+- 2 veya 3 saniye; pilot başını headrest'e yerleştirir
+A: "Wait 2 or 3 seconds while pilot turns up to military rated thrust and checks instruments. Then, hold open hand toward pilot, fingers extended vertically." Gece: GREEN wand dikey tutulup yukarı-aşağı hareket ettirilir.
+K: B-3.F1
+
+S: AFTERBURNER satırının Remarks'ına göre pilot gece kalkışa hazır olduğunu nasıl bildirir?
++ Yalnızca running lights'ını sabit (STEADY) yakar ve gemiden uzaklaşana kadar açık tutar
+- Tüm dış ışıklarını yakıp söndürür
+- Selam verir
+- Telsizle "ready" çağrısı yapar
+A: Pilot afterburner'ı seçer, göstergeleri kontrol eder; gündüz kalkışa hazır olunca selam verir, gece "turn on only his running lights (STEADY), and keep them on until clear of the ship".
+K: B-3.F1
+
+S: FIRE/LAUNCH WARNING'ine göre launching officer çömelmiş konumda ne zamana kadar kalır?
++ Uçak onun konumunu geçene ya da bir suspend/hangfire durumu belirtilene kadar
+- Katapult ateşlenene kadar
+- Pilot selam verene kadar
+- Shuttle geri çekilene kadar
+A: Eli/wand'ı kalkış yönünde yatay tutarak "until the aircraft has passed his position or a suspend/hangfire situation is indicated".
+K: B-3.F2
+
+S: FIRE/LAUNCH işaretinin gece versiyonu için hangisi doğrudur?
++ GREEN wand dikey olarak başın üstüne kaldırılır; pilotun başını headrest'e yerleştirmesi için 2–3 saniye beklenir
+- RED wand başın üstünde yatay tutulur; GREEN wand kapatılır
+- RED ve GREEN wand göğüs hizasında tutulur; GREEN wand döndürülür
+- Wand'lar başın üstünde çapraz tutulup açılır
+A: Ardından güvertenin ileride boş olduğundan emin olunur, wand geniş yay çizerek savrulur, kalkış yönünü gösterip güverteye dokunur ve yatay konuma döner. Not: işaret free deck launch'larda da kullanılır.
+K: B-3.F2
+
+S: FIRE/LAUNCH işaretinin gündüz versiyonunda launching officer elini savurmadan önce neden emin olur?
++ Pilotun başının headrest'e dayalı ve güvertenin ileride boş olduğundan
+- Shuttle'ın geri çekildiğinden
+- GREEN wand'ın kapalı olduğundan
+- Deckedge Operator'ın hazır olduğundan
+A: "Extend arm overhead. Ensure that pilot's head is against headrest and deck is clear forward. Sweep up-raised hand downward in the direction of launch, touching the deck and returning hand to the horizontal in the direction of launch."
+K: B-3.F2
+
+## B-4
+
+S: SUSPEND işaretinden sonra pilot gazı ne zaman geri alabilir?
++ "Untension" ve "throttle back" işaretleri launching officer / catapult safety observer (ICCS) tarafından verildikten sonra
+- SUSPEND işaretini görür görmez
+- Yalnızca "untension" işaretinden sonra
+- Kendi takdirine göre, 5 saniye bekledikten sonra
+A: "After this signal, pilot must remain ready for launch and not throttle back until after the 'untension' and 'throttle back' signals are given..."
+K: B-4.F1
+
+S: SUSPEND satırındaki nota göre aşağıdakilerden hangisi doğrudur?
++ Herhangi bir uçuş güvertesi ya da katapult personeli launching officer'lara SUSPEND verebilir; gece işareti wand ya da ışığın yatay hareketidir
+- SUSPEND'i yalnızca Catapult Safety Observer (ICCS) verebilir
+- Personelin gündüz işareti launching officer'ınkinden farklıdır
+- Gece SUSPEND, GREEN wand'ın başın üstünde tutulmasıdır
+A: "The DAY signal is the same as the launching officer's. The NIGHT signal is a horizontal movement of a wand or light."
+K: B-4.F1
+
+S: Launching officer'ın gece SUSPEND işareti nasıldır?
++ RED wand başın üstünde yüksekte tutulur; GREEN wand kapatılır
+- RED wand başın üstünde yatay tutulur; GREEN wand kapalı kalır
+- GREEN wand dikey tutulup yukarı-aşağı hareket ettirilir
+- Wand'lar başın üstünde çapraz tutulur
+A: Gündüz: kollar başın üstünde çaprazlanır ("the launch is off"). Başın üstünde YATAY RED wand ise HANGFIRE'ın gece işaretidir.
+K: B-4.F1, B-4.F2
+
+S: HANGFIRE işareti gündüz nasıl verilir?
++ Önce "suspend" işareti verilir; sonra bir elin işaret parmağı diğer elin avucunu gösterir
+- Kollar başın üstünde çaprazlanır ve tutulur
+- Yumruk bel hizasında, başparmak yukarı; diğer el başparmağı kavrar
+- İki kol omuz hizasında bir yönü gösterir
+A: HANGFIRE'ı Launching Officer / Catapult Safety Observer (ICCS), Catapult Crew ve Pilot'a verir. Gece: suspend işaretinden sonra RED wand başın üstünde yatay tutulur, GREEN wand kapalı kalır.
+K: B-4.F2
+
+## B-5
+
+S: Suspend ya da hangfire'dan sonraki UNTENSION işaretinde Catapult Safety Observer (ICCS) işareti kime verir?
++ Launching Officer (ICCS)
+- Pilot
+- Deckedge Operator
+- Director
+A: FROM/TO sütunlarında iki satır yan yana: Launching Officer → Catapult Crew; Catapult Safety Observer (ICCS) → Launching Officer (ICCS). TO sütununda Pilot yoktur.
+K: B-5.F1
+
+S: Suspend / hangfire sonrası UNTENSION işareti nasıl verilir?
++ Kollar (gece RED wand) "suspend" ya da "hangfire" konumundayken bir el (wand) göğüs önünden savrulur ve kalkış yönünün tersi gösterilir
+- Sıkılı yumruklar avuçlar öne dönük açılır ve kalkış yönü gösterilir
+- Parmak pruvayı gösterir, kol büyük bir daire çizer
+- Kol başın üstüne kaldırılıp kalkış yönünde güverteye indirilir
+A: Day: "With arms in 'suspend' or 'hangfire' position, sweep one hand from above head across chest and point in opposite direction to launch." Night: aynı hareket RED wand ile.
+K: B-5.F1
+
+S: THROTTLE BACK işaretinin gece versiyonu hangisidir?
++ RED wand göğüs önünde yatay tutulur ve kaldırılıp indirilir; GREEN wand kapalıdır
+- RED wand başın üstünde yatay tutulur; GREEN wand kapalı kalır
+- GREEN wand göğüs hizasında yatay daire çizer
+- Wand'lar vücudun önünde dikey tutulup yakılır
+A: Gündüz: bir yumruk bel hizasında, başparmak yukarı; diğer el başparmağı kavrayıp throttle ayarlıyormuş gibi sallar. İşareti Launching Officer / Catapult Safety Observer (ICCS) pilota verir.
+K: B-5.F2
+
+S: PUSH/PULL BACK işaretini kim kime verir ve gündüz nasıl yapılır?
++ Director → Deck Crew; kollar aşağı uzanmış, avuçlar öne dönük, ileriden geriye süpürme
+- Director → Pilot; kollar omuz hizasında, avuçlar geriye dönük, "gel" hareketi
+- Catapult Officer → Deckedge Operator; parmak pruvadan kıça büyük daire
+- Launching Officer → Catapult Crew; yumruk göğüs önünden savrulur
+A: "Make for-to-aft sweeping motion with arms extended downward, palms forward." Gece: aynısı wand'larla.
+K: B-5.F3
+
+## B-6
+
+S: ACCEPT CONTROL işaretini kim kime verir?
++ Catapult Officer → Director
+- Director → Catapult Officer
+- Launching Officer → Pilot
+- Catapult Officer → Deckedge Operator
+A: Gündüz: iki el yumruk sıkılı, önde bel yüksekliğinde. Gece: wand'lar vücudun önünde dikey tutulur ve yakılır. Tersi yönde PASS CONTROL'ü Director, Catapult Officer'a verir.
+K: B-6.F1, B-6.F2
+
+S: PASS CONTROL işareti gündüz nasıl verilir?
++ İki kol omuz hizasında, kontrolü alacak kişinin yönünü gösterir
+- İki el yumruk sıkılı olarak önde bel yüksekliğinde tutulur
+- Kollar başın üstünde çaprazlanır
+- Kollar aşağı uzanmış, avuçlar öne dönük süpürme yapılır
+A: "With both arms at shoulder height, point in direction of person receiving control." Gece: aynısı, wand'larla gösterilir.
+K: B-6.F2
+
+S: RETRACT SHUTTLE işaretinde hareket nerede başlar ve nerede biter?
++ Parmak bel hizasında pruvayı gösterir, kol büyük bir daire çizer, parmak bel hizasında kıçı (aft) gösterirken durur
+- Parmak kıçı gösterir, kol büyük bir daire çizer, parmak pruvayı gösterirken durur
+- Kol başın üstünden kalkış yönünde güverteye iner
+- Bir el göğüs önünden savrulup kalkış yönünün tersini gösterir
+A: ADVANCE SHUTTLE'da yön terstir: aft'tan başlar, pruvayı gösterirken durur. Remarks: "Deckedge Operator retract shuttle."
+K: B-6.F3, B-6.F4
+
+S: RETRACT SHUTTLE ve ADVANCE SHUTTLE işaretleri kime verilir ve gece nasıl yapılır?
++ Deckedge Operator'a; gündüzle aynı, RED wand kullanılarak
+- Deck Crew'e; gündüzle aynı, GREEN wand kullanılarak
+- Pilot'a; RED ve GREEN wand birlikte
+- Director'a; wand'lar dikey tutulup yakılarak
+A: Her iki işareti Catapult Officer, Deckedge Operator'a verir; "Night: Same except use RED wand."
+K: B-6.F3, B-6.F4

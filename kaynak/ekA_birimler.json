@@ -1,0 +1,891 @@
+[
+ {
+  "id": "A-1.01",
+  "page": "A-1",
+  "kind": "metin",
+  "sec": "",
+  "text": "A100. GLOSSARY OF CV PROCEDURES FOR T-45C"
+ },
+ {
+  "id": "A-1.02",
+  "page": "A-1",
+  "kind": "metin",
+  "sec": "",
+  "text": "Air Boss: Officer (located in Pri-Fly) in charge of all flight deck and tower operations within 5 nautical miles of the ship"
+ },
+ {
+  "id": "A-1.03",
+  "page": "A-1",
+  "kind": "metin",
+  "sec": "",
+  "text": "Air Operations Officer: The officer who coordinates all matters pertaining to air operations including CATCC"
+ },
+ {
+  "id": "A-1.04",
+  "page": "A-1",
+  "kind": "metin",
+  "sec": "",
+  "text": "Air Plan: Schedule of carrier flight operations published daily but subject to change"
+ },
+ {
+  "id": "A-1.05",
+  "page": "A-1",
+  "kind": "metin",
+  "sec": "",
+  "text": "Angels: Altitude in thousands of feet. For example, Angels 1.5 = 1,500 feet"
+ },
+ {
+  "id": "A-1.06",
+  "page": "A-1",
+  "kind": "metin",
+  "sec": "",
+  "text": "Axial Winds: Winds down the longitudinal axis of the ship created by the ship’s forward movement."
+ },
+ {
+  "id": "A-1.07",
+  "page": "A-1",
+  "kind": "metin",
+  "sec": "",
+  "text": "This causes a right-to-left crosswind across the angled deck."
+ },
+ {
+  "id": "A-1.08",
+  "page": "A-1",
+  "kind": "metin",
+  "sec": "",
+  "text": "Ball: See “Meatball.”"
+ },
+ {
+  "id": "A-1.09",
+  "page": "A-1",
+  "kind": "metin",
+  "sec": "",
+  "text": "Bingo: Refers to the minimum fuel state required to divert safely to the nearest suitable field."
+ },
+ {
+  "id": "A-1.10",
+  "page": "A-1",
+  "kind": "metin",
+  "sec": "",
+  "text": "Bingo is an emergency situation."
+ },
+ {
+  "id": "A-1.11",
+  "page": "A-1",
+  "kind": "metin",
+  "sec": "",
+  "text": "Bingo Fuel: Aircraft fuel state in sufficient quantity necessary to fly to the bingo field with X lbs. remaining; depending on aircraft type."
+ },
+ {
+  "id": "A-1.12",
+  "page": "A-1",
+  "kind": "metin",
+  "sec": "",
+  "text": "Bolter: A touchdown on the carrier in which the arresting hook does not engage the arresting wires"
+ },
+ {
+  "id": "A-1.13",
+  "page": "A-1",
+  "kind": "metin",
+  "sec": "",
+  "text": "BRC: Base recovery course, which is the ship’s magnetic course"
+ },
+ {
+  "id": "A-1.14",
+  "page": "A-1",
+  "kind": "metin",
+  "sec": "",
+  "text": "Breaking the Deck: First aircraft to land for each cycle"
+ },
+ {
+  "id": "A-1.15",
+  "page": "A-1",
+  "kind": "metin",
+  "sec": "",
+  "text": "Buster: Proceed at maximum airspeed, generally for an immediate Charlie"
+ },
+ {
+  "id": "A-1.16",
+  "page": "A-1",
+  "kind": "metin",
+  "sec": "",
+  "text": "Carrier Air Traffic Control Center (CATCC): The centralized department responsible for the status-keeping of all carrier air operations and control of all airborne aircraft involved in launch and recovery"
+ },
+ {
+  "id": "A-1.17",
+  "page": "A-1",
+  "kind": "metin",
+  "sec": "",
+  "text": "Carrier Control Zone (CCZ): The airspace within a circular limit defined by a 5 mile radius around the ship surface up to and including 2,500 feet under the cognizance of the Air Boss during VFR conditions"
+ },
+ {
+  "id": "A-2.01",
+  "page": "A-2",
+  "kind": "metin",
+  "sec": "",
+  "text": "Case I: Refers to departure/recovery procedures and landing patterns conducted in VMC conditions when 3,000/5 or greater exist (3,000-foot ceiling and 5-NM visibility within the carrier control zone)."
+ },
+ {
+  "id": "A-2.02",
+  "page": "A-2",
+  "kind": "metin",
+  "sec": "",
+  "text": "Case I recoveries will marshal overhead the ship and enter the pattern via the break."
+ },
+ {
+  "id": "A-2.03",
+  "page": "A-2",
+  "kind": "metin",
+  "sec": "",
+  "text": "Case II: Weather less than 3,000/5 but greater than 1,000/5 exist at the ship."
+ },
+ {
+  "id": "A-2.04",
+  "page": "A-2",
+  "kind": "metin",
+  "sec": "",
+  "text": "Case II recovery is a controlled IMC descent to the break and the VFR pattern."
+ },
+ {
+  "id": "A-2.05",
+  "page": "A-2",
+  "kind": "metin",
+  "sec": "",
+  "text": "It is used when a VFR penetration cannot be made."
+ },
+ {
+  "id": "A-2.06",
+  "page": "A-2",
+  "kind": "metin",
+  "sec": "",
+  "text": "The approach may be via radar vectors or a TACAN or ADF approach."
+ },
+ {
+  "id": "A-2.07",
+  "page": "A-2",
+  "kind": "metin",
+  "sec": "",
+  "text": "In no case will more than a section of two aircraft execute a Case II recovery."
+ },
+ {
+  "id": "A-2.08",
+  "page": "A-2",
+  "kind": "metin",
+  "sec": "",
+  "text": "Case II departure is a procedure used to climb through IFR conditions to VMC."
+ },
+ {
+  "id": "A-2.09",
+  "page": "A-2",
+  "kind": "metin",
+  "sec": "",
+  "text": "Case III: Used for weather less than 1,000/5, or at night."
+ },
+ {
+  "id": "A-2.10",
+  "page": "A-2",
+  "kind": "metin",
+  "sec": "",
+  "text": "CCA: Carrier-controlled approach similar to a GCA"
+ },
+ {
+  "id": "A-2.11",
+  "page": "A-2",
+  "kind": "metin",
+  "sec": "",
+  "text": "Charlie: Refers to the time the first aircraft is expected at the ramp."
+ },
+ {
+  "id": "A-2.12",
+  "page": "A-2",
+  "kind": "metin",
+  "sec": "",
+  "text": "A “Charlie” or “Charlie on arrival” call is a directive to enter the pattern now."
+ },
+ {
+  "id": "A-2.13",
+  "page": "A-2",
+  "kind": "metin",
+  "sec": "",
+  "text": "“Charlie five” means be at the ramp in five minutes."
+ },
+ {
+  "id": "A-2.14",
+  "page": "A-2",
+  "kind": "metin",
+  "sec": "",
+  "text": "Cherubs: Altitude in hundreds of feet. For example, Cherubs 3 = 300 feet (Normally used for helicopters)."
+ },
+ {
+  "id": "A-2.15",
+  "page": "A-2",
+  "kind": "metin",
+  "sec": "",
+  "text": "Chicks: Wingmen in a flight"
+ },
+ {
+  "id": "A-2.16",
+  "page": "A-2",
+  "kind": "metin",
+  "sec": "",
+  "text": "Clara: Meatball is not in sight"
+ },
+ {
+  "id": "A-2.17",
+  "page": "A-2",
+  "kind": "metin",
+  "sec": "",
+  "text": "Clearing Turn: Associated with a Case I or II departure."
+ },
+ {
+  "id": "A-2.18",
+  "page": "A-2",
+  "kind": "metin",
+  "sec": "",
+  "text": "Immediately after launch, aircraft from bow cats initiate a right turn then a turn to parallel the BRC."
+ },
+ {
+  "id": "A-2.19",
+  "page": "A-2",
+  "kind": "metin",
+  "sec": "",
+  "text": "Aircraft launched from the waist cats initiate a left turn then a turn to parallel the BRC."
+ },
+ {
+  "id": "A-2.20",
+  "page": "A-2",
+  "kind": "metin",
+  "sec": "",
+  "text": "The purpose of these turns is to provide aircraft lateral separation on multiple launches from the carrier."
+ },
+ {
+  "id": "A-2.21",
+  "page": "A-2",
+  "kind": "metin",
+  "sec": "",
+  "text": "C.Q.: Carrier qualification"
+ },
+ {
+  "id": "A-2.22",
+  "page": "A-2",
+  "kind": "metin",
+  "sec": "",
+  "text": "Cross-Deck Pendant (CDP): Arresting gear wire"
+ },
+ {
+  "id": "A-2.23",
+  "page": "A-2",
+  "kind": "metin",
+  "sec": "",
+  "text": "Cut Lights: Green lights mounted horizontally and centered above the IFLOLS lens box (controlled by the LSO)."
+ },
+ {
+  "id": "A-2.24",
+  "page": "A-2",
+  "kind": "metin",
+  "sec": "",
+  "text": "Utilized during Zip Lip and EMCON conditions instead of UHF to give pilots clearance to land, i.e., “Roger Ball."
+ },
+ {
+  "id": "A-2.25",
+  "page": "A-2",
+  "kind": "metin",
+  "sec": "",
+  "text": "Subsequent cut lights mean “power."
+ },
+ {
+  "id": "A-2.26",
+  "page": "A-2",
+  "kind": "metin",
+  "sec": "",
+  "text": "Also, used in conjunction with waveoff lights to signal bingo."
+ },
+ {
+  "id": "A-2.27",
+  "page": "A-2",
+  "kind": "metin",
+  "sec": "",
+  "text": "Datum Lights: Green reference lights mounted horizontally on the IFLOLS, seen on each side of the centered cell"
+ },
+ {
+  "id": "A-2.28",
+  "page": "A-2",
+  "kind": "metin",
+  "sec": "",
+  "text": "Delta: Enter holding pattern as directed or continue to hold"
+ },
+ {
+  "id": "A-3.01",
+  "page": "A-3",
+  "kind": "metin",
+  "sec": "",
+  "text": "Delta Clean: Signal for aircraft in the pattern to raise gear and flaps/slats and hold as directed"
+ },
+ {
+  "id": "A-3.02",
+  "page": "A-3",
+  "kind": "metin",
+  "sec": "",
+  "text": "Delta Easy: Signal for aircraft to remain at pattern altitude with gear and flaps/slats down and speed brakes retracted"
+ },
+ {
+  "id": "A-3.03",
+  "page": "A-3",
+  "kind": "metin",
+  "sec": "",
+  "text": "Departure Reference Radial (DRR): Preassigned radial usually passed during the brief or as standing SOP"
+ },
+ {
+  "id": "A-3.04",
+  "page": "A-3",
+  "kind": "metin",
+  "sec": "",
+  "text": "Divert: An order for an aircraft to proceed and land at the field specified."
+ },
+ {
+  "id": "A-3.05",
+  "page": "A-3",
+  "kind": "metin",
+  "sec": "",
+  "text": "This is a non- emergency situation."
+ },
+ {
+  "id": "A-3.06",
+  "page": "A-3",
+  "kind": "metin",
+  "sec": "",
+  "text": "Emergency Expected Approach Time (EEAT): The future time, assigned prior to launch, at which time an aircraft is cleared to depart inbound or penetrate from a pre-assigned fix under lost communications conditions"
+ },
+ {
+  "id": "A-3.07",
+  "page": "A-3",
+  "kind": "metin",
+  "sec": "",
+  "text": "Emergency Marshal: A marshal established by CATCC and given to each pilot prior to launch with and altitude and EEAT."
+ },
+ {
+  "id": "A-3.08",
+  "page": "A-3",
+  "kind": "metin",
+  "sec": "",
+  "text": "The emergency marshal radial will have a minimum of 30 degrees of separation from the primary marshal radial."
+ },
+ {
+  "id": "A-3.09",
+  "page": "A-3",
+  "kind": "metin",
+  "sec": "",
+  "text": "Emission Control Procedures (EMCON): Electronic emission control procedures are in effect at the ship to avoid detection."
+ },
+ {
+  "id": "A-3.10",
+  "page": "A-3",
+  "kind": "metin",
+  "sec": "",
+  "text": "All radio, radar, and navigation equipment transmissions are eliminated except as required for safety of flight."
+ },
+ {
+  "id": "A-3.11",
+  "page": "A-3",
+  "kind": "metin",
+  "sec": "",
+  "text": "Expected Approach Time (EAT): The future time at which an aircraft is cleared to depart inbound or penetrate from a pre-assigned fix."
+ },
+ {
+  "id": "A-3.12",
+  "page": "A-3",
+  "kind": "metin",
+  "sec": "",
+  "text": "Aircraft depart and commence approach at assigned time if no further instructions are received."
+ },
+ {
+  "id": "A-3.13",
+  "page": "A-3",
+  "kind": "metin",
+  "sec": "",
+  "text": "Father: Code name for the ship’s TACAN"
+ },
+ {
+  "id": "A-3.14",
+  "page": "A-3",
+  "kind": "metin",
+  "sec": "",
+  "text": "Feet Wet or Feet Dry: Aircraft crossing the coastline enroute to or returning from the ship"
+ },
+ {
+  "id": "A-3.15",
+  "page": "A-3",
+  "kind": "metin",
+  "sec": "",
+  "text": "Field Carrier Landing Practice (FCLP): LSO-graded landings conducted at the field prior to any carrier evolution"
+ },
+ {
+  "id": "A-3.16",
+  "page": "A-3",
+  "kind": "metin",
+  "sec": "",
+  "text": "Final Bearing (FB): The magnetic bearing assigned by CATCC for final approach (an extension of the landing area centerline); usually BRC minus the landing area angle of 10°."
+ },
+ {
+  "id": "A-3.17",
+  "page": "A-3",
+  "kind": "metin",
+  "sec": "",
+  "text": "Foul Deck: Landing area is not free of all obstructions or the flight deck is not ready to recover aircraft."
+ },
+ {
+  "id": "A-3.18",
+  "page": "A-3",
+  "kind": "metin",
+  "sec": "",
+  "text": "Foul Line (ship only): A line painted on both sides of the landing area to define the minimum area that must be free of obstructions in order to consider the deck clear"
+ },
+ {
+  "id": "A-3.19",
+  "page": "A-3",
+  "kind": "metin",
+  "sec": "",
+  "text": "Fuel Ladder: A quick snapshot reference of total fuel breakdown and airborne time remaining used in the formulation of fuel requirement decision making"
+ },
+ {
+  "id": "A-4.01",
+  "page": "A-4",
+  "kind": "metin",
+  "sec": "",
+  "text": "Gadget: Radar"
+ },
+ {
+  "id": "A-4.02",
+  "page": "A-4",
+  "kind": "metin",
+  "sec": "",
+  "text": "Hangar Deck: Area below the flight deck used to store and repair aircraft"
+ },
+ {
+  "id": "A-4.03",
+  "page": "A-4",
+  "kind": "metin",
+  "sec": "",
+  "text": "Hawk: Term used for a lead safe. (Hawking chicks)"
+ },
+ {
+  "id": "A-4.04",
+  "page": "A-4",
+  "kind": "metin",
+  "sec": "",
+  "text": "Holdback: Metal fitting designed to break or release at a preset level of force during a catapult stroke"
+ },
+ {
+  "id": "A-4.05",
+  "page": "A-4",
+  "kind": "metin",
+  "sec": "",
+  "text": "Hold-Down: Fuel state at which an aircraft will be refueled on deck prior to launch"
+ },
+ {
+  "id": "A-4.06",
+  "page": "A-4",
+  "kind": "metin",
+  "sec": "",
+  "text": "Hook to Eye: The vertical distance measured between the pilot’s eye and the aircraft’s hook"
+ },
+ {
+  "id": "A-4.07",
+  "page": "A-4",
+  "kind": "metin",
+  "sec": "",
+  "text": "Hook to Ramp: The clearance distance between the aircraft’s hook point and the flight deck as it crosses the ramp"
+ },
+ {
+  "id": "A-4.08",
+  "page": "A-4",
+  "kind": "metin",
+  "sec": "",
+  "text": "Hot Refueling: Aircraft receives fuel with engine turning"
+ },
+ {
+  "id": "A-4.09",
+  "page": "A-4",
+  "kind": "metin",
+  "sec": "",
+  "text": "Hot Seat: The replacement of one pilot by another pilot while the engine is turning"
+ },
+ {
+  "id": "A-4.10",
+  "page": "A-4",
+  "kind": "metin",
+  "sec": "",
+  "text": "Improved Fresnel Lens Optical Landing System (IFLOLS): Pilot’s landing aid, i.e., meatball"
+ },
+ {
+  "id": "A-4.11",
+  "page": "A-4",
+  "kind": "metin",
+  "sec": "",
+  "text": "Interval: The time between you and the aircraft you are to follow"
+ },
+ {
+  "id": "A-4.12",
+  "page": "A-4",
+  "kind": "metin",
+  "sec": "",
+  "text": "In the Middle Position: A distance on the groove that is between the “start” and the “in close” position."
+ },
+ {
+  "id": "A-4.13",
+  "page": "A-4",
+  "kind": "metin",
+  "sec": "",
+  "text": "The middle-third of the groove."
+ },
+ {
+  "id": "A-4.14",
+  "page": "A-4",
+  "kind": "metin",
+  "sec": "",
+  "text": "Jet Blast Deflector (JBD): Hydraulically lifted deck plate mounted behind each catapult"
+ },
+ {
+  "id": "A-4.15",
+  "page": "A-4",
+  "kind": "metin",
+  "sec": "",
+  "text": "Kilo Report: An aircrew coded report indicating aircraft mission readiness"
+ },
+ {
+  "id": "A-4.16",
+  "page": "A-4",
+  "kind": "metin",
+  "sec": "",
+  "text": "Landing Signals Officer (LSO). Controls all fixed-wing aircraft off the 180 to touchdown during carrier and FCLP landings"
+ },
+ {
+  "id": "A-4.17",
+  "page": "A-4",
+  "kind": "metin",
+  "sec": "",
+  "text": "Launch Bar: Metal arm attached to the nose gear and used to launch the aircraft"
+ },
+ {
+  "id": "A-4.18",
+  "page": "A-4",
+  "kind": "metin",
+  "sec": "",
+  "text": "Mark your Father: State bearing and distance from ship"
+ },
+ {
+  "id": "A-4.19",
+  "page": "A-4",
+  "kind": "metin",
+  "sec": "",
+  "text": "Marshal:"
+ },
+ {
+  "id": "A-4.20",
+  "page": "A-4",
+  "kind": "metin",
+  "sec": "",
+  "text": "(1) Holding pattern during Case I, II, and III recoveries"
+ },
+ {
+  "id": "A-4.21",
+  "page": "A-4",
+  "kind": "metin",
+  "sec": "",
+  "text": "(2) The term used for the ship’s radar controller"
+ },
+ {
+  "id": "A-4.22",
+  "page": "A-4",
+  "kind": "metin",
+  "sec": "",
+  "text": "Meatball: Light projected by source lens on the IFLOLS"
+ },
+ {
+  "id": "A-5.01",
+  "page": "A-5",
+  "kind": "metin",
+  "sec": "",
+  "text": "Mirror: Landing aid used prior to the development of the Fresnel lens"
+ },
+ {
+  "id": "A-5.02",
+  "page": "A-5",
+  "kind": "metin",
+  "sec": "",
+  "text": "Mother: Code name used to signify the carrier"
+ },
+ {
+  "id": "A-5.03",
+  "page": "A-5",
+  "kind": "metin",
+  "sec": "",
+  "text": "Ninety-nine Aircraft: A collective call to all aircraft in the launch or recovery"
+ },
+ {
+  "id": "A-5.04",
+  "page": "A-5",
+  "kind": "metin",
+  "sec": "",
+  "text": "On the Ball: LSO call stating hold your transmission until aircraft in the groove has landed"
+ },
+ {
+  "id": "A-5.05",
+  "page": "A-5",
+  "kind": "metin",
+  "sec": "",
+  "text": "Overhead Time: The scheduled time a flight of aircraft is expected overhead the ship for pattern entry"
+ },
+ {
+  "id": "A-5.06",
+  "page": "A-5",
+  "kind": "metin",
+  "sec": "",
+  "text": "Paddles: The call sign for the LSO"
+ },
+ {
+  "id": "A-5.07",
+  "page": "A-5",
+  "kind": "metin",
+  "sec": "",
+  "text": "Parrot: IFF"
+ },
+ {
+  "id": "A-5.08",
+  "page": "A-5",
+  "kind": "metin",
+  "sec": "",
+  "text": "Pigeons: The magnetic bearing and distance to the divert field named"
+ },
+ {
+  "id": "A-5.09",
+  "page": "A-5",
+  "kind": "metin",
+  "sec": "",
+  "text": "Pilot Landing Assistance Television (PLAT): Video camera system used to record carrier operations"
+ },
+ {
+  "id": "A-5.10",
+  "page": "A-5",
+  "kind": "metin",
+  "sec": "",
+  "text": "PIM: Position of intended movement"
+ },
+ {
+  "id": "A-5.11",
+  "page": "A-5",
+  "kind": "metin",
+  "sec": "",
+  "text": "Plane Guard: SAR helicopter or ship assigned during aircraft launch and recovery, usually located in starboard Delta for a helicopter, three miles astern for a ship"
+ },
+ {
+  "id": "A-5.12",
+  "page": "A-5",
+  "kind": "metin",
+  "sec": "",
+  "text": "Platform: A reporting point in the ship’s TACAN approach (normally at 20 NM from the ship at 5,000 feet) at which the rate of descent is decreased to 2,000 feet per minute"
+ },
+ {
+  "id": "A-5.13",
+  "page": "A-5",
+  "kind": "metin",
+  "sec": "",
+  "text": "Pogo: Return to previous frequency if unable to establish communications on frequency assigned"
+ },
+ {
+  "id": "A-5.14",
+  "page": "A-5",
+  "kind": "metin",
+  "sec": "",
+  "text": "Popeye: Code word used to signify that aircraft is operating IMC"
+ },
+ {
+  "id": "A-5.15",
+  "page": "A-5",
+  "kind": "metin",
+  "sec": "",
+  "text": "Pri-Fly: Tower location where the Air Boss oversees the pattern and flight deck operations"
+ },
+ {
+  "id": "A-5.16",
+  "page": "A-5",
+  "kind": "metin",
+  "sec": "",
+  "text": "Primary Marshal Radial: The radial assigned by Marshal that is used as the primary if there is a requirement for more than one Marshal stack/radial (geopolitical constraints or additional battle groups operating in the same area)"
+ },
+ {
+  "id": "A-5.17",
+  "page": "A-5",
+  "kind": "metin",
+  "sec": "",
+  "text": "Pull Back: Action following arrestment whereby the wire is partially retracted to allow the pilot to raise the tailhook"
+ },
+ {
+  "id": "A-5.18",
+  "page": "A-5",
+  "kind": "metin",
+  "sec": "",
+  "text": "Push Back: Action taken anytime the aircraft needs to be moved back by deck personnel"
+ },
+ {
+  "id": "A-5.19",
+  "page": "A-5",
+  "kind": "metin",
+  "sec": "",
+  "text": "Ramp: The aft end of the flight deck."
+ },
+ {
+  "id": "A-6.01",
+  "page": "A-6",
+  "kind": "metin",
+  "sec": "",
+  "text": "Ramp Time (Ready Deck): Anticipated time specified by the Air Boss that the flight deck will be ready to recover aircraft."
+ },
+ {
+  "id": "A-6.02",
+  "page": "A-6",
+  "kind": "metin",
+  "sec": "",
+  "text": "Time the first aircraft in Case III recovery is expected to be at ramp."
+ },
+ {
+  "id": "A-6.03",
+  "page": "A-6",
+  "kind": "metin",
+  "sec": "",
+  "text": "Red Crown: Air Defense Unit generally located on a Destroyer (DDG) or CG that protects the battle group airspace, and verifies IFF checks"
+ },
+ {
+  "id": "A-6.04",
+  "page": "A-6",
+  "kind": "metin",
+  "sec": "",
+  "text": "Roger Ball: The call made by the LSO that indicates you are cleared to land and the LSO has positive control (call made less than a mile prior to landing)"
+ },
+ {
+  "id": "A-6.05",
+  "page": "A-6",
+  "kind": "metin",
+  "sec": "",
+  "text": "Roll Angle: Movement of the lens about the roll axis (set for each type of aircraft) to maintain a constant targeted hook touchdown point"
+ },
+ {
+  "id": "A-6.06",
+  "page": "A-6",
+  "kind": "metin",
+  "sec": "",
+  "text": "Round Down: The aft end of the landing area that is curved downward"
+ },
+ {
+  "id": "A-6.07",
+  "page": "A-6",
+  "kind": "metin",
+  "sec": "",
+  "text": "RTB: Signal to return to base"
+ },
+ {
+  "id": "A-6.08",
+  "page": "A-6",
+  "kind": "metin",
+  "sec": "",
+  "text": "See You: Communication used to indicate that flight lead has the ship in sight"
+ },
+ {
+  "id": "A-6.09",
+  "page": "A-6",
+  "kind": "metin",
+  "sec": "",
+  "text": "Shuttle: The portion of the catapult that attaches to the launch bar during catapult launches"
+ },
+ {
+  "id": "A-6.10",
+  "page": "A-6",
+  "kind": "metin",
+  "sec": "",
+  "text": "Spin: A delaying circle at 1200’, performed at the bow when the pattern is too full to allow all members of the flight to break by 4 NM."
+ },
+ {
+  "id": "A-6.11",
+  "page": "A-6",
+  "kind": "metin",
+  "sec": "",
+  "text": "Starboard Delta: Holding pattern used by the helicopters and COD aircraft flown on the starboard side of the ship and using right-hand turns at 500 feet"
+ },
+ {
+  "id": "A-6.12",
+  "page": "A-6",
+  "kind": "metin",
+  "sec": "",
+  "text": "Start: The first-third of the groove length"
+ },
+ {
+  "id": "A-6.13",
+  "page": "A-6",
+  "kind": "metin",
+  "sec": "",
+  "text": "Steer: A heading to an airfield for normal divert from the ship when not in bingo profile."
+ },
+ {
+  "id": "A-6.14",
+  "page": "A-6",
+  "kind": "metin",
+  "sec": "",
+  "text": "When directed, proceed to the field named."
+ },
+ {
+  "id": "A-6.15",
+  "page": "A-6",
+  "kind": "metin",
+  "sec": "",
+  "text": "Strangle Your Parrot: Turn off your IFF."
+ },
+ {
+  "id": "A-6.16",
+  "page": "A-6",
+  "kind": "metin",
+  "sec": "",
+  "text": "Suspend: Stop the catapult launch sequence."
+ },
+ {
+  "id": "A-6.17",
+  "page": "A-6",
+  "kind": "metin",
+  "sec": "",
+  "text": "Sweet Lock: Positive TACAN lock-on"
+ },
+ {
+  "id": "A-6.18",
+  "page": "A-6",
+  "kind": "metin",
+  "sec": "",
+  "text": "Tension: The portion of the catapult launch sequence when the shuttle is hydraulically moved forward to remove slack"
+ },
+ {
+  "id": "A-6.19",
+  "page": "A-6",
+  "kind": "metin",
+  "sec": "",
+  "text": "Tiedown: Chocks and chains used to secure aircraft on the flight deck"
+ },
+ {
+  "id": "A-6.20",
+  "page": "A-6",
+  "kind": "metin",
+  "sec": "",
+  "text": "Trick or Treat: Aircraft in pattern that has enough fuel for one more approach."
+ },
+ {
+  "id": "A-6.21",
+  "page": "A-6",
+  "kind": "metin",
+  "sec": "",
+  "text": "If the aircraft does not trap, it will have to bingo or in-flight refuel (if able)."
+ },
+ {
+  "id": "A-6.22",
+  "page": "A-6",
+  "kind": "metin",
+  "sec": "",
+  "text": "Zip Lip: Condition in which radio communications are minimized"
+ }
+]

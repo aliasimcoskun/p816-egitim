@@ -1,0 +1,422 @@
+# Bölüm 2, parça d soruları — biçim:
+# ## <bölüm>   S: soru   - yanlış şık   + doğru şık   A: açıklama   K: kaynak birimleri
+
+## 204.2
+
+S: Case II recovery hangi hava koşullarında kullanılır?
++ Uçuşun VFR paternine alçalırken IMC'ye girebileceği koşullarda
+- Tüm gece operasyonlarında
+- Yalnızca bir uçakta acil durum varsa
+- Yalnızca gündüz, hava ne olursa olsun
+A: Gece operasyonları ve gündüz Case II minimumlarının altı Case III'ün konusudur.
+K: 2-19.02, 2-22.23
+
+S: Case II'nin asgari hava şartları (s. 2-19) nelerdir?
++ 1.000 ft tavan ve 5 NM görüş
+- 1.000 ft tavan ve 3 NM görüş
+- 1.500 ft tavan ve 5 NM görüş
+- 800 ft tavan ve 3 NM görüş
+A: "The minimum weather requirements are 1,000 feet ceiling and 5 NM visibility." Case III paragrafı ise "1,000-3" yazar (kaynak notu).
+K: 2-19.03
+
+S: Case II recovery'de bir kol en fazla kaç uçaktan oluşabilir?
+- 1
++ 2
+- 3
+- 4
+A: İkiden büyük kollar daha küçük uçuşlara ayrılmalıdır. Case III'te yalnızca tek uçak vardır.
+K: 2-19.04, 2-19.05
+
+S: Case II sırasında hangi prosedürler nerede uygulanır?
++ 10 NM dışında Case III; 10 NM içinde ya da "see you" bildirildikten sonra Case I
+- 10 NM dışında Case I; 10 NM içinde Case III
+- 5 NM dışında Case III; 5 NM içinde Case I
+- Yaklaşmanın tamamında Case III
+A: Gemi görülünce uçuş Tower ile temas kurar ve Case I'deymiş gibi içeri devam eder.
+K: 2-19.06, 2-19.07
+
+S: Case II'de uçuş gemiyi 5 NM'ye kadar göremezse ne olur?
++ Bolter/waveoff paternine vektörlenir ve Case III recovery için talimat verilir
+- 800 ft'e alçalıp aramaya devam eder
+- Derhal divert eder
+- Marshal holding'e geri döner
+A: 800 ft'e alçalma izni, gemi 10 NM'ye kadar görülmezse verilir.
+K: 2-19.08, 2-21.07, 2-21.08
+
+S: Case II/III holding fix'i ideal olarak nerededir?
++ BRC'ye göre 180 radyali üzerinde
+- Beklenen final bearing'e göre 150° radyalde
+- Final bearing üzerinde, 10 DME'de
+- Geminin tam üstünde (overhead)
+A: Hava ve hava sahası buna izin vermeyebilir; holding radyali genellikle 180'in 30° içindedir. Final bearing'e göre 150°, emergency marshal radyalidir.
+K: 2-19.10..2-19.12
+
+S: Holding fix'in mesafesi nasıl bulunur?
++ Angels cinsinden holding irtifasına 15 eklenir
+- Angels cinsinden irtifa 2 ile çarpılır
+- Angels cinsinden irtifaya 10 eklenir
+- Her zaman 20 DME'dir
+A: Her 1.000 ft irtifa için 1 NM artı 15.
+K: 2-19.13, 2-19.14
+
+S: "220 radyalinde, angels 8"de beklemeniz istendi. Holding fix nerededir?
++ 220 radyali, 23 DME, 8.000 ft
+- 220 radyali, 18 DME, 8.000 ft
+- 040 radyali, 23 DME, 8.000 ft
+- 220 radyali, 23 DME, 15.000 ft
+A: Distance = Angels + 15 = 8 + 15 = 23.
+K: 2-19.15..2-19.17
+
+S: Turboprop ve jet uçaklarına atanabilecek en düşük marshal irtifası nedir?
+- 4.000 ft
+- 5.000 ft
++ 6.000 ft
+- 7.000 ft
+A: Bu sınır emergency marshal için de aynıdır.
+K: 2-19.19, 2-20.11
+
+S: Normal Case II/III holding paterni nasıldır?
++ 6 dakikalık, sola dönüşlü; normalde 2 dakikalık dönüşler ve 1 dakikalık bacaklar
+- 6 dakikalık, sağa dönüşlü racetrack
+- 4 dakikalık, sola dönüşlü; 1 dakikalık dönüşler ve 1 dakikalık bacaklar
+- 8 dakikalık, sola dönüşlü; 2 dakikalık dönüşler ve 2 dakikalık bacaklar
+A: Sağa dönüşlü 6 dakikalık racetrack, emergency holding paternidir.
+K: 2-20.02, 2-20.03, 2-20.13
+
+S: Uçaklar atanan holding irtifasına en geç ne zaman yerleşmiş olmalıdır?
++ Marshal stack'ine 10 NM kala
+- Marshal stack'ine 5 NM kala
+- Holding fix'e vardıklarında
+- Push time'dan 1 dakika önce
+A: "Aircraft must be established at assigned holding altitudes by 10 NM from the Marshal stack."
+K: 2-20.04
+
+S: Marshal stack'indeki uçaklar arasında dikey ayrım ne kadardır?
+- 500 ft
++ 1.000 ft
+- 2.000 ft
+- 1 NM
+A: Şekil 2-6'da da her 1.000 ft için fix 1 NM uzaklaşır: 6000 ft–21 NM, 7000 ft–22 NM, 8000 ft–23 NM.
+K: 2-20.05, 2-20.F2..2-20.F4
+
+S: Holding'e 16'da vardınız, push time 27. Belgedeki örneğe göre holding nasıl yönetilebilir?
++ Bir 6 dakikalık ve bir 5 dakikalık patern
+- İki 6 dakikalık patern
+- Tek bir 11 dakikalık patern
+- Üç 4 dakikalık patern
+A: Fix'e atanan yaklaşma zamanında (push time) varmak için holding sıkı yönetilmelidir.
+K: 2-20.06, 2-20.07
+
+S: Uçak holding fix'e hangi koşulda varmalıdır?
++ 250 kts'te, yaklaşmaya hazır, EAT ± 10 saniye içinde
+- 150 kts'te, iniş takımı inik, EAT ± 1 dakika içinde
+- 250 kts'te, EAT ± 1 dakika içinde
+- Max conserve hızında, EAT'ten en geç 10 saniye sonra
+A: Bunu yapamayacaksanız iniş aralığında zamanlama düzeltmesi için Marshal'a bildirin.
+K: 2-20.08, 2-20.09
+
+S: Acil durumda sabit kanatlı uçaklara verilen emergency marshal radyali nasıl belirlenir?
++ Beklenen final bearing'e göre 150°
+- BRC'ye göre 180°
+- BRC'ye göre 150°
+- Normal marshal radyalinin karşıtı
+A: Mesafe yine angels + 15; en düşük irtifa 6.000 ft.
+K: 2-20.10, 2-20.11
+
+S: Emergency marshal'da holding sırası ve paterni nasıldır?
++ Önce jetler, sonra turboproplar; sağa dönüşlü 6 dakikalık racetrack
+- Önce turboproplar, sonra jetler; sola dönüşlü 6 dakikalık patern
+- Önce jetler, sonra turboproplar; sola dönüşlü 4 dakikalık patern
+- Sıra yoktur; sağa dönüşlü 8 dakikalık racetrack
+A: Normal holding paterni sola dönüşlüdür.
+K: 2-20.12, 2-20.13
+
+S: Case II yaklaşmasına başlarken hangi alçalma kurulur (metne göre)?
++ 250 KIAS'te dakikada 4.000 ft
+- 250 KIAS'te dakikada 2.000 ft
+- 150 KIAS'te dakikada 4.000 ft
+- 300 KIAS'te dakikada 6.000 ft
+A: Push time'lar normalde 1 dakika arayla verilir. Şekil 2-7 bu bölüm için "4,000-6,000 ft/min" yazar (kaynak notu).
+K: 2-21.01, 2-21.02, 2-21.F4
+
+S: "Platform" hangi irtifadır ve orada ne yapılır?
++ 5.000 ft; alçalma oranı dakikada 2.000 ft'e düşürülür
+- 5.000 ft; level-off yapılır
+- 1.200 ft; alçalma oranı dakikada 2.000 ft'e düşürülür
+- 10 DME; iniş kontrollerine başlanır
+A: Dakikada 2.000 ft, 1.200 ft level-off irtifasına kadar korunur (Şekil 2-7: "250 KIAS 2,000 ft/min").
+K: 2-21.03, 2-21.04, 2-21.F5
+
+S: Case II yaklaşmasında gemi 10 NM'ye kadar görülmezse ne yapılabilir?
++ 800 ft'e alçalmaya izin verilir
+- 600 ft'e alçalmaya izin verilir
+- Derhal bolter/waveoff paternine girilir
+- 1.200 ft'te kalınır, alçalma yasaktır
+A: Şekil 2-7: level-off "1,200 ft/10 NM", gemiye yakın bölüm "800 ft". 5 NM'de hâlâ görülmüyorsa Marshal'a bildirilir.
+K: 2-21.07, 2-21.F6, 2-21.F7
+
+S: Şekil 2-7'deki nota göre platformun altında hangi kural geçerlidir?
++ Alçalma oranı irtifayı aşmamalıdır
+- Hız 150 KIAS'e düşürülmelidir
+- Alçalma oranı dakikada 4.000 ft olmalıdır
+- İniş takımı indirilmelidir
+A: Şekil ayrıca "Hold at assigned altitude, left turns" ve "Initial approach fix DME is angels plus 15" der.
+K: 2-21.F3, 2-21.F1, 2-21.F2
+
+S: Hangisi Case II check-in'inde Marshal'ın verdiği bilgiler arasında DEĞİLDİR?
+- Güncel hava durumu ve altimetre
+- Beklenen yaklaşma zamanı (EAT)
+- Beklenen BRC
++ Ball çağrısının yapılacağı mesafe
+A: Liste: hava ve altimetre, Case, marshal talimatları, gerekiyorsa final approach button, EAT, beklenen BRC, divert / yakıt / bingo bilgileri.
+K: 2-21.11..2-21.18
+
+S: "99" yayını (broadcast) ne için kullanılır?
++ Telsiz trafiğini azaltmak için genel ya da ortak ilgi konularını tüm uçaklara iletmek
+- Acil durum ilan etmek
+- Tek bir uçağa push time vermek
+- LSO'nun "roger ball" çağrısı için
+A: Marshal ya da approach control yapabilir. Örnek: "99, altimeter 29.88. BRC 020".
+K: 2-21.22, 2-22.10, 2-22.11
+
+S: Case II örneğinde Marshal "Marshal on the 160, 22, angels 7" der. Buradaki "22" neyi ifade eder?
++ Holding fix'in mesafesini (angels 7 + 15 = 22 DME)
+- Beklenen yaklaşma zamanını
+- BRC'yi
+- Altimetre ayarını
+A: EAT ayrıca "Expected approach time 22" diye verilir; BRC 015'tir.
+K: 2-22.04, 2-22.05, 2-19.14
+
+S: Case II'de gemi görüldüğünde çağrılar ve frekans değişimi nasıl olur?
++ "405, see you at 12" → Marshal "405, switch Tower" → "405, switching Tower"
+- "405 platform" → Approach "405, roger"
+- "405, see you at 12" → Marshal "405, switch Approach, button 18"
+- "405 commencing" → Tower "405, roger"
+A: Gemi görülünce ekip "see you" der ve Marshal onları Tower'a geçirir.
+K: 2-21.21, 2-22.14..2-22.17
+
+S: Case II'de initial'a yaklaşırken topta (on the ball) kimse yoksa hangi çağrı yapılır?
++ "Tower, 405 initial"
+- "Marshal, 405 initial"
+- "405, see you at 12"
+- "405 platform"
+A: Tower "405, roger" der; iniş paterninde normal Case I çağrıları yapılır.
+K: 2-22.18..2-22.21
+
+## 204.3
+
+S: Case III recovery ne zaman kullanılır?
++ Tüm gece operasyonlarında ve gündüz hava Case II minimumlarının altındayken
+- Yalnızca gece, hava iyiyse
+- Gündüz, alçalırken IMC'ye girilebilecek her durumda
+- Yalnızca acil durumlarda
+A: Belge Case II minimumlarının altını burada "less than 1,000-3" diye yazar (kaynak notu).
+K: 2-22.23
+
+S: Case III'te section yaklaşması ne zaman onaylanır?
++ Yalnızca bir uçakta acil durum varsa
+- Gündüz hava 1,000-3'ün üzerindeyse
+- İki uçak aynı tipteyse
+- Hiçbir zaman
+A: Case III yalnızca tek uçakladır; farklı tip uçakların kol penetrasyonu yalnızca daha emniyetli seçenek kalmayan aşırı durumlarda denenir.
+K: 2-22.24..2-22.26
+
+S: Case III'te uçak yaklaşmaya nereden başlar ve hangi yaklaşmayı uçar?
++ Marshal stack'inden; CV-1 Approach
+- Overhead holding'den; Case I break
+- 10 NM'den; ASR yaklaşması
+- Platformdan; TACAN arc
+A: Case III marshal holding paterni Case II ile aynıdır.
+K: 2-23.01, 2-23.02
+
+S: Final bearing, marshal radyalinin karşıtından 10°'den fazla farklıysa ne yapılır?
++ 20 DME'de 30° düzeltme
+- 20 DME'de kademeli düzeltme
+- 12 DME'de 30° düzeltme
+- 10 DME'de 10° düzeltme
+A: 10° içindeyse kademeli (gradual) düzeltme yapılır. Marshal radyali final bearing'in karşıtıysa düzeltme gerekmez.
+K: 2-23.06..2-23.08
+
+S: Case III örneğinde marshal radyali 160, beklenen final bearing 015'tir. Kural uygulanırsa 20 DME'de hangi düzeltme gerekir?
++ 30° düzeltme (fark 35°, yani 10°'den fazla)
+- Kademeli düzeltme (fark 10° içinde)
+- Düzeltme gerekmez
+- Yalnızca 12 millik yay
+A: 160'ın karşıtı 340'tır; 015 ile 340 arasındaki fark 35°'dir. (Hesaplanmış uygulama örneği; belgede bu hesap yer almaz.)
+K: 2-23.07, 2-23.08, 2-26.22, 2-26.23
+
+S: 12 mile kadar final bearing'e oturulamazsa ne yapılır?
++ Final bearing kesilene kadar 12 millik yay (12-mile arc) uçulur
+- Marshal'a geri dönülür
+- 20 DME'ye geri dönülür
+- Doğrudan gemiye yönelinir
+A: "If not established on the final bearing by 12 miles, fly the 12-mile arc until intercepting final bearing."
+K: 2-23.09
+
+S: CV-1 yaklaşmasında iniş kontrolleri nerede başlar ve 6 DME hangi hızda geçilir?
++ 10 DME; 150 kts
+- 12 DME; 150 kts
+- 10 DME; 250 kts
+- 8 DME; final yaklaşma hızı
+A: 6 DME'de uçak final yaklaşma hızına yavaşlar.
+K: 2-23.13, 2-23.15
+
+S: CV-1 yaklaşmasında iniş takımı en geç nerede inmiş olmalıdır?
+- 10 DME
++ 8 DME
+- 6 DME
+- 4 DME
+A: "Landing gear should be down no later than 8 DME."
+K: 2-23.14
+
+S: ACLS lock-on hangi aralıkta gerçekleşir?
++ 8 DME ile 4 DME arasında
+- 10 DME ile 6 DME arasında
+- 6 DME ile 3 DME arasında
+- 3 NM ile ¾ mil arasında
+A: Lock-on'da kilidin iyi olduğundan emin olmak için iğneler bullseye (ICLS) ile karşılaştırılır.
+K: 2-23.16, 2-23.17
+
+S: Approach "say needles" dediğinde pilot ne söyler?
++ Glideslope ve azimut iğnelerinin göreli konumunu, ör. "fly up, on"
+- Kalan yakıtı
+- DME'sini ve irtifasını
+- ICLS kanalını
+A: Örnekler: "fly up, fly right" ya da "fly up, on". Case III örneğinde 405 "405, fly up, on" der.
+K: 2-23.18, 2-23.19, 2-27.15, 2-27.16
+
+S: Pilotun iğne okuması approach radar ekranıyla uyuşmazsa kontrolör ne yapar?
++ Kilidi bozar, yeni kilit dener ve yeni kilide kadar "fly the bullseye" der
+- "fly the needles" der
+- Uçağı bolter/waveoff paternine alır
+- Yaklaşmayı ASR'ye çevirir
+A: Uyuşuyorsa "fly the needles" der. Bullseye = ICLS.
+K: 2-23.20..2-23.22
+
+S: Self-contained GCA'ya göre 2 NM'de hesaplanan irtifa nedir?
+- 600 ft
++ 800 ft
+- 1.000 ft
+- 1.200 ft
+A: 3 NM 1.200 ft, 2 NM 800 ft, 1 NM 400 ft, 0,5 NM 200 ft (Şekil 2-9 ayrıca 1,5 → 600' ve 2,5 → 1000' gösterir).
+K: 2-25.03..2-25.06, 2-25.F2
+
+S: Self-contained GCA ne zaman yapılır?
++ İyi bir ACLS kilidi olsa bile, yedek olarak her zaman
+- Yalnızca ACLS kilidi yoksa
+- Yalnızca gündüz
+- Yalnızca kontrolör isterse
+A: Gerçek irtifa, hesaplanan irtifayla karşılaştırılır; iyi kilit teyit edilince pilot iğneleri uçar.
+K: 2-25.01, 2-25.02
+
+S: CV-1 yaklaşmasında final kontrolörü ekibe topu çağırmasını ne zaman söyler?
+- 1,5 NM'de
+- 1 NM'de
++ ¾ mil'de
+- 0,5 NM'de
+A: LSO'lar ball çağrısını "roger"lar. Örnek: "405, ¾ mile, call the ball".
+K: 2-25.07, 2-25.08, 2-27.18, 2-27.19
+
+S: Case III'te waveoff ya da bolter sonrası ne yapılır?
++ 150 kts'te 1.200 ft'e tırman, iniş takımını topla, flapları aşağıda bırak
+- 250 kts'te 2.000 ft'e tırman, takımı ve flapları topla
+- 150 kts'te 800 ft'e tırman, takımı aşağıda bırak
+- Marshal'a geri dön ve yeni EAT iste
+A: Takım yakıt tasarrufu için toplanır; approach talimat verince downwind'e dönülür.
+K: 2-25.11, 2-25.12
+
+S: Bolter/waveoff paterninde başka bir yaklaşma için finale dönüş ne zaman beklenir?
++ Abeam'i 4–8 NM geçtikten sonra
+- Tam abeam'de
+- Upwind'de 4 DME'de
+- Abeam'i 10–12 NM geçtikten sonra
+A: Dönüşe başlarken iniş takımı indirilir; abeam'de approach'a yakıt durumu bildirilir.
+K: 2-25.13, 2-25.14
+
+S: Bolter/waveoff sonrası upwind'de 4 DME'ye kadar talimat gelmezse ilk adım nedir?
++ Approach ile temas kurmayı denemek
+- Hemen finale dönmek
+- Marshal stack'ine tırmanmak
+- 12 millik yayı uçmak
+A: Temas kurulamazsa downwind'e dönülür ve normal kontroller yapılır.
+K: 2-26.01, 2-26.02
+
+S: Approach ile temas yeniden kurulamazsa abeam çağrısından sonra ne zaman finale dönülür?
++ Abeam'i 4 NM (2 dakika) geçtikten sonra
+- Abeam'i 8 NM (4 dakika) geçtikten sonra
+- Hemen abeam'de
+- 12 DME'de
+A: Ardından ICLS yakalanır, normal yaklaşma uçulur ve top ¾ mil'de çağrılır.
+K: 2-26.03..2-26.05
+
+S: İletişim kaybında ¾ mil'deki ball çağrısı onaylanmazsa ne yapılır?
++ Cut ışıklarına bakılır
+- Derhal waveoff yapılır
+- Çağrı 1 NM'de tekrarlanır
+- MOVLAS istenir
+A: "If this call is not acknowledged, look for the cut lights."
+K: 2-26.06
+
+S: Case III check-in'inde, Case II'den farklı olarak hangi bilgi verilir?
++ Beklenen final bearing
+- Beklenen BRC
+- Güncel hava durumu ve altimetre
+- Divert ve bingo bilgileri
+A: Case II'de beklenen BRC ve "gerekiyorsa" final approach button verilir.
+K: 2-26.07, 2-26.13, 2-21.17
+
+S: Case III örneğinde Marshal'ın ilk talimatında olup Case II örneğinde olmayan ifade hangisidir?
++ "Approach button 18"
+- "Marshal on the 160, 22, angels 7"
+- "altimeter 29.87"
+- "expected approach time 22"
+A: Case III listesinde final approach button koşulsuz yer alır; Case II'de yalnızca gerekirse verilir.
+K: 2-26.24, 2-26.11, 2-21.15
+
+S: Marshal uçağı final kontrolörüne ideal olarak ne zaman devreder?
++ Penetrasyon sırasında, platforma varmadan önce
+- Holding'de, push'tan önce
+- Level-off'ta, 10 DME'de
+- ¾ mil'de
+A: Örnek: Marshal "405, switch Approach, button 18".
+K: 2-26.17, 2-27.06, 2-27.07
+
+S: Case III örneğinde platforma gelindiğinde 405 ne çağırır?
++ "405 platform"
+- "405 commencing"
+- "405 checking in"
+- "405, see you at 12"
+A: Platform 5.000 ft'tir.
+K: 2-27.12, 2-27.13
+
+S: Şekil 2-8 minimum tablosuna göre ICLS için jet minimumu nedir?
++ 360-3/4
+- 260-1/2
+- 600-1-1/4
+- 300 (300-3/4)
+A: 300 (300-3/4) ICLS turboprop değeridir; 260-1/2 S—PALS jet değeridir.
+K: 2-24.F12, 2-24.F13
+
+S: Şekil 2-8 profilinde 3 DME'de ASR/TAC için hangi değerler yazılıdır?
++ 1200 ve altında 600
+- Yalnızca 1200
+- 1200 ve altında 800
+- 600 ve altında 360
+A: PALS/ICLS için 3 DME'de yalnızca 1200 yazar.
+K: 2-24.F10
+
+S: Şekil 2-8'deki BOLTER/WAVEOFF notuna göre iletişim (COMM) yoksa FB'ye dönüşe nerede başlanır?
++ 4 DME'de
+- 3 DME'de
+- 6 DME'de
+- 10 DME'de
+A: "If no instructions by 4 DME/2 Min, turn downwind, report abeam. If no COMM, commence turn to FB at 4 DME."
+K: 2-24.F8
+
+S: Şekil 2-8'e göre ortalama güverte yüksekliği nedir?
+- 40 ft
++ 60 ft
+- 100 ft
+- 1.200 ft
+A: "Avg deck elev 60 ft"; şekilde ayrıca "Courses are relative to FB" ve "Platform 5000" yazar.
+K: 2-24.F7

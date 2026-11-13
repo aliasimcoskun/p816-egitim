@@ -1,0 +1,106 @@
+# Bilgi kartları — Ek A (sözlük), parça a. Biçim:  bölüm || ön yüz || arka yüz || kaynak birimleri
+# Her terim için en az bir kart; bazı kartlar ters yöndedir (tanımdan terime).
+A.1 || Air Boss (sözlük): nerede bulunur, neyden sorumludur? || Pri-Fly'da bulunan subay; geminin 5 NM çevresindeki tüm uçuş güvertesi ve kule (tower) operasyonlarından sorumludur. || A-1.02
+A.1 || Air Operations Officer kimdir? || CATCC dahil, hava operasyonlarına ilişkin tüm konuları koordine eden subay. || A-1.03
+A.1 || Air Plan nedir? || Gemi uçuş operasyonlarının çizelgesi; her gün yayımlanır ama değişebilir (subject to change). || A-1.04
+A.1 || "Angels" neyi ifade eder? Angels 1.5 kaç feet? || Bin feet cinsinden irtifa. Angels 1.5 = 1.500 ft. || A-1.05
+A.1 || Axial Winds nedir, açılı güvertede neye yol açar? || Geminin ileri hareketinin oluşturduğu, geminin boyuna ekseni boyunca esen rüzgâr. Açılı güverte üzerinde sağdan sola bir yan rüzgâr (crosswind) oluşturur. || A-1.06, A-1.07
+A.1 || Sözlükte "Ball" için ne denir? || "See Meatball": Ball = Meatball. || A-1.08
+A.1 || Bingo nedir? Acil durum mu? || En yakın uygun meydana emniyetle divert etmek için gereken asgari yakıt durumu. Evet: bingo bir acil durumdur. || A-1.09, A-1.10
+A.1 || Bingo Fuel nedir? || Bingo meydanına uçup orada X lbs. yakıt kalmasına yetecek yakıt durumu; uçak tipine bağlıdır (sözlük X için sayı vermez). || A-1.11
+A.1 || Bolter nedir? || Gemiye teker koyulan, ancak arresting hook'un arresting wire'lara takılmadığı iniş. || A-1.12
+A.1 || BRC nedir? || Base recovery course: geminin manyetik rotası. || A-1.13
+A.1 || Sözlükte "Breaking the Deck" kimdir / nedir? || Her cycle'da inen ilk uçak. || A-1.14
+A.1 || "Buster" ne demektir? || Azami hızla (maximum airspeed) ilerle; genellikle hemen Charlie (immediate Charlie) için. || A-1.15
+A.2 || CATCC (Carrier Air Traffic Control Center) neden sorumludur? || Merkezî birim: tüm gemi hava operasyonlarının durum takibi (status-keeping) ve kalkış/inişe katılan havadaki tüm uçakların kontrolü. || A-1.16
+A.2 || Carrier Control Zone (CCZ) sözlük tanımı? || Gemi çevresinde 5 mil yarıçaplı daire içinde, yüzeyden 2.500 ft'e kadar (dahil) hava sahası; VFR koşullarında Air Boss'un yetkisinde. || A-1.17
+A.2 || Case I (sözlük): hangi hava, nasıl marshal ve patern girişi? || VMC, 3.000/5 veya daha iyi (carrier control zone içinde 3.000 ft tavan, 5 NM görüş). Uçaklar geminin üzerinde (overhead) marshal eder ve paterne break ile girer. || A-2.01, A-2.02
+A.2 || Case II havası (sözlük)? || Gemide hava 3.000/5'in altında, ama 1.000/5'in üstünde. || A-2.03
+A.2 || Case II recovery nedir, ne zaman kullanılır? || Break'e ve VFR paternine kontrollü bir IMC alçalması; VFR penetration yapılamadığında kullanılır. || A-2.04, A-2.05
+A.2 || Case II recovery'de yaklaşma nasıl yapılabilir? Kaç uçak? || Radar vektörleriyle ya da TACAN veya ADF yaklaşmasıyla. Hiçbir durumda iki uçaklık bir section'dan fazlası Case II recovery yapmaz. || A-2.06, A-2.07
+A.2 || Case II departure nedir? || IFR koşullarından VMC'ye tırmanmak için kullanılan prosedür. || A-2.08
+A.2 || Case III ne zaman kullanılır (sözlük)? || Hava 1.000/5'in altında olduğunda ya da gece. || A-2.09
+A.2 || CCA (sözlük tanımı)? || Carrier-controlled approach: GCA'ya benzeyen gemi kontrollü yaklaşma. || A-2.10
+A.2 || Charlie (sözlük): ne demektir; "Charlie" / "Charlie on arrival" çağrısı ve "Charlie five"? || İlk uçağın ramp'te olmasının beklendiği zaman. "Charlie" / "Charlie on arrival" = paterne şimdi gir. "Charlie five" = beş dakika içinde ramp'te ol. || A-2.11, A-2.12, A-2.13
+A.2 || "Cherubs" neyi ifade eder? Cherubs 3 kaç feet? Kimler kullanır? || Yüz feet cinsinden irtifa. Cherubs 3 = 300 ft. Normalde helikopterler için kullanılır. || A-2.14
+A.2 || "Chicks" kimlerdir? || Bir uçuştaki (flight) wingman'ler. || A-2.15
+A.2 || Meatball'ın görünmediğini bildiren çağrı? || "Clara". || A-2.16
+A.2 || Clearing Turn: hangi departure'larla ilgili, bow ve waist cat'lerden yön, amaç? || Case I veya II departure. Bow cat: önce sağa, waist cat: önce sola; sonra BRC'ye paralel. Amaç: çoklu kalkışlarda yanal ayrım (lateral separation). || A-2.17, A-2.18, A-2.19, A-2.20
+A.2 || C.Q. neyin kısaltmasıdır? || Carrier qualification. || A-2.21
+A.2 || Cross-Deck Pendant (CDP) nedir? || Arresting gear teli (arresting gear wire). || A-2.22
+A.2 || Cut Lights: renk, yer, kim kontrol eder? || Yeşil; IFLOLS lens kutusunun üstünde, ortalanmış ve yatay monte edilmiş. LSO kontrol eder. || A-2.23
+A.2 || Zip Lip / EMCON'da cut lights ne için kullanılır; sonraki yanmalar ne demektir; waveoff lights ile birlikte? || UHF yerine iniş izni vermek için ("Roger Ball"). Sonraki cut lights = "power". Waveoff lights ile birlikte = bingo işareti. || A-2.24, A-2.25, A-2.26
+A.3 || Datum Lights nedir? || IFLOLS üzerinde yatay monte edilmiş, ortadaki hücrenin her iki yanında görülen yeşil referans ışıkları. || A-2.27
+A.3 || "Delta" ne demektir? || Talimat verildiği şekilde bekleme paternine gir ya da beklemeye devam et. || A-2.28
+A.3 || Delta Clean işareti ne ister? || Paterndeki uçaklar iniş takımını ve flaps/slats'ı toplar ve talimat verildiği şekilde bekler. || A-3.01
+A.3 || Delta Easy işareti ne ister? || Patern irtifasında kal; iniş takımı ve flaps/slats aşağıda, speed brakes içeride (retracted). || A-3.02
+A.3 || Departure Reference Radial (DRR) nedir? || Önceden atanmış radyal; genellikle brifingde ya da daimî SOP olarak bildirilir. || A-3.03
+A.3 || Divert nedir? Acil durum mu? || Uçağa belirtilen meydana gidip inmesi emri. Acil olmayan (non-emergency) bir durumdur. || A-3.04, A-3.05
+A.3 || EEAT (Emergency Expected Approach Time) nedir? || Kalkıştan önce atanan; haberleşme kaybında uçağın önceden atanmış fix'ten içeri doğru ayrılmaya ya da penetrasyona izinli olduğu ileri zaman. || A-3.06
+A.3 || Emergency Marshal: kim oluşturur, ne zaman verilir, primary radyalden ayrımı? || CATCC oluşturur; kalkıştan önce her pilota bir irtifa ve EEAT ile verilir. Radyali primary marshal radyalinden en az 30° ayrıktır. || A-3.07, A-3.08
+A.3 || EMCON nedir? || Gemide tespit edilmemek için elektronik yayın kontrol prosedürleri. Uçuş emniyeti için gerekenler dışında tüm telsiz, radar ve seyrüsefer yayınları kaldırılır. || A-3.09, A-3.10
+A.3 || EAT nedir; başka talimat gelmezse ne yapılır? || Uçağın önceden atanmış fix'ten içeri doğru ayrılmaya ya da penetrasyona izinli olduğu ileri zaman. Talimat gelmezse atanan zamanda ayrılıp yaklaşmaya başla. || A-3.11, A-3.12
+A.3 || "Father" neyin kod adıdır? || Geminin TACAN'ı. || A-3.13
+A.3 || Feet Wet / Feet Dry neyi bildirir? || Gemiye giderken ya da gemiden dönerken kıyı çizgisini geçen uçak. || A-3.14
+A.3 || FCLP nedir? || Field Carrier Landing Practice: herhangi bir gemi faaliyetinden önce meydanda yapılan, LSO'nun notlandırdığı inişler. || A-3.15
+A.3 || Final Bearing (FB): kim atar, genellikle nasıl bulunur? || CATCC atar; final yaklaşma için manyetik kerteriz (iniş alanı merkez hattının uzantısı). Genellikle BRC eksi 10° (iniş alanı açısı). || A-3.16
+A.3 || Foul Deck nedir? || İniş alanı tüm engellerden arınmış değil ya da uçuş güvertesi uçak indirmeye hazır değil. || A-3.17
+A.3 || Foul Line nedir? || (Yalnızca gemide) Güvertenin temiz sayılması için engelden arınmış olması gereken asgari alanı tanımlayan, iniş alanının her iki yanına boyanmış çizgi. || A-3.18
+A.3 || Fuel Ladder nedir? || Toplam yakıt dağılımı ve kalan havada kalış süresinin hızlı başvuru özeti; yakıt ihtiyacıyla ilgili karar vermede kullanılır. || A-3.19
+A.4 || "Gadget" neyin kod adıdır? || Radar. || A-4.01
+A.4 || Hangar Deck nedir? || Uçuş güvertesinin altında, uçakların depolandığı ve onarıldığı alan. || A-4.02
+A.4 || "Hawk" (sözlük)? || Bir "lead safe" için kullanılan terim ("Hawking chicks"). Sözlük "lead safe"i ayrıca açıklamaz. || A-4.03
+A.4 || Holdback nedir? || Katapult darbesi sırasında önceden ayarlanmış bir kuvvet düzeyinde kırılmak ya da bırakmak üzere tasarlanmış metal bağlantı parçası. || A-4.04
+A.4 || Hold-Down nedir? || Uçağa kalkıştan önce güvertede yakıt ikmali yapılacağı yakıt durumu. || A-4.05
+A.4 || Hook to Eye nedir? || Pilotun gözü ile uçağın kancası arasındaki dikey mesafe. || A-4.06
+A.4 || Hook to Ramp nedir? || Uçak ramp'in üzerinden geçerken kanca ucu ile uçuş güvertesi arasındaki açıklık mesafesi. || A-4.07
+A.4 || Hot Refueling nedir? || Uçağın motoru çalışırken yakıt alması. || A-4.08
+A.4 || Hot Seat nedir? || Motor çalışırken bir pilotun yerine başka bir pilotun geçmesi. || A-4.09
+A.4 || IFLOLS (sözlük tanımı)? || Improved Fresnel Lens Optical Landing System: pilotun iniş yardımcısı, yani meatball. || A-4.10
+A.4 || Interval nedir? || Sizinle takip edeceğiniz uçak arasındaki zaman. || A-4.11
+A.4 || "In the Middle" konumu nedir? || Groove'da "start" ile "in close" arasındaki mesafe; groove'un orta üçte biri. || A-4.12, A-4.13
+A.4 || Jet Blast Deflector (JBD) nedir? || Her katapultun arkasına monte edilmiş, hidrolikle kaldırılan güverte plakası. || A-4.14
+A.4 || Kilo Report nedir? || Uçağın görev hazırlığını bildiren, ekibin kodlu raporu. || A-4.15
+A.4 || LSO (sözlük): hangi uçakları, nereden nereye kontrol eder? || Gemi ve FCLP inişlerinde tüm sabit kanatlı uçakları 180'den teker koyuşa (touchdown) kadar. || A-4.16
+A.4 || Launch Bar nedir? || Burun iniş takımına bağlı, uçağı kaldırmak (launch) için kullanılan metal kol. || A-4.17
+A.4 || "Mark your Father" talimatı ne ister? || Gemiden kerterizini ve mesafeni bildir. || A-4.18
+A.4 || "Marshal" teriminin iki anlamı? || (1) Case I, II ve III inişlerindeki bekleme paterni. (2) Geminin radar kontrolörü. || A-4.19, A-4.20, A-4.21
+A.4 || Meatball nedir? || IFLOLS üzerinde kaynak lensin (source lens) yansıttığı ışık. || A-4.22
+A.4 || Mirror nedir? || Fresnel lensinin geliştirilmesinden önce kullanılan iniş yardımcısı. || A-5.01
+A.4 || "Mother" neyin kod adıdır? || Uçak gemisi. || A-5.02
+A.5 || "Ninety-nine Aircraft" nedir? || Kalkıştaki ya da inişteki tüm uçaklara yapılan toplu çağrı. || A-5.03
+A.5 || LSO'nun "On the Ball" çağrısı ne demektir? || Groove'daki uçak inene kadar yayınını (konuşmanı) beklet. || A-5.04
+A.5 || Overhead Time nedir? || Bir uçuş grubunun paterne girmek için geminin üzerinde olmasının beklendiği planlı zaman. || A-5.05
+A.5 || "Paddles" kimin çağrı adıdır? || LSO'nun. || A-5.06
+A.5 || "Parrot" neyin kod adıdır? || IFF. || A-5.07
+A.5 || "Pigeons" neyi verir? || Adı verilen divert meydanına manyetik kerteriz ve mesafe. || A-5.08
+A.5 || PLAT nedir? || Pilot Landing Assistance Television: gemi operasyonlarını kaydetmek için kullanılan video kamera sistemi. || A-5.09
+A.5 || PIM neyin kısaltmasıdır? || Position of intended movement. || A-5.10
+A.5 || Plane Guard nedir, genellikle nerede bulunur? || Kalkış ve iniş sırasında görevlendirilen SAR helikopteri ya da gemi. Helikopter genellikle starboard Delta'da, gemi 3 mil kıçta (astern). || A-5.11
+A.5 || Platform: nerede, ne değişir? || Gemi TACAN yaklaşmasında rapor noktası; normalde gemiden 20 NM'de, 5.000 ft'te. Alçalma oranı dakikada 2.000 ft'e düşürülür. || A-5.12
+A.5 || "Pogo" ne demektir? || Atanan frekansta haberleşme kurulamazsa önceki frekansa dön. || A-5.13
+A.5 || "Popeye" ne bildirir? || Uçağın IMC'de uçtuğunu. || A-5.14
+A.5 || Pri-Fly nedir? || Air Boss'un paterni ve uçuş güvertesi operasyonlarını denetlediği kule konumu. || A-5.15
+A.5 || Primary Marshal Radial nedir, ne zaman gerekir? || Marshal'ın atadığı, birden fazla Marshal stack'i/radyali gerektiğinde primary olarak kullanılan radyal (jeopolitik kısıtlamalar ya da aynı bölgede ek muharebe grupları). || A-5.16
+A.5 || Pull Back nedir? || Tele takılmadan sonra pilotun kuyruk kancasını kaldırabilmesi için telin kısmen geri çekilmesi. || A-5.17
+A.5 || Push Back nedir? || Uçağın güverte personeli tarafından geriye itilmesi gereken her durumda yapılan işlem. || A-5.18
+A.5 || Ramp nedir? || Uçuş güvertesinin kıç ucu (aft end). || A-5.19
+A.5 || Ramp Time (Ready Deck) nedir? || Air Boss'un belirttiği, uçuş güvertesinin uçak indirmeye hazır olacağı öngörülen zaman. Case III recovery'de ilk uçağın ramp'te olmasının beklendiği zaman. || A-6.01, A-6.02
+A.5 || Red Crown nedir? || Genellikle bir muhrip (DDG) ya da CG üzerinde bulunan, muharebe grubunun hava sahasını koruyan ve IFF kontrollerini doğrulayan hava savunma birimi. || A-6.03
+A.5 || "Roger Ball" çağrısı neyi belirtir, ne zaman yapılır? || LSO çağrısı: inişe izinlisiniz ve LSO pozitif kontrolde. İnişten bir milden az önce yapılır. || A-6.04
+A.5 || Roll Angle nedir? || Hedeflenen kanca temas noktasını sabit tutmak için lensin roll ekseni etrafındaki hareketi; her uçak tipi için ayarlanır. || A-6.05
+A.5 || Round Down nedir? || İniş alanının aşağı doğru kavisli kıç ucu. || A-6.06
+A.5 || RTB nedir? || Üsse dön (return to base) işareti. || A-6.07
+A.6 || "See You" çağrısı neyi belirtir? || Flight lead'in gemiyi gördüğünü. || A-6.08
+A.6 || Shuttle nedir? || Katapultla kalkışlarda launch bar'a bağlanan katapult parçası. || A-6.09
+A.6 || Spin (sözlük): ne, hangi irtifada, nerede, ne zaman? || 1.200 ft'te bir oyalama dairesi; pruvada (at the bow) yapılır; patern, flight'ın tüm üyelerinin 4 NM'ye kadar break yapmasına izin vermeyecek kadar doluyken. || A-6.10
+A.6 || Starboard Delta: kimler, nerede, kaç feet, hangi yöne dönüş? || Helikopterler ve COD uçakları; geminin sancak tarafında; 500 ft; sağ dönüşler. || A-6.11
+A.6 || "Start" konumu nedir? || Groove uzunluğunun ilk üçte biri. || A-6.12
+A.6 || "Steer" nedir? || Uçak bingo profilinde değilken gemiden normal divert için bir meydana verilen baş (heading). Talimat verildiğinde adı verilen meydana git. || A-6.13, A-6.14
+A.6 || "Strangle Your Parrot" ne demektir? || IFF'ini kapat. || A-6.15
+A.6 || "Suspend" ne demektir? || Katapult kalkış sırasını durdur. || A-6.16
+A.6 || "Sweet Lock" ne demektir? || Pozitif TACAN kilidi (lock-on). || A-6.17
+A.6 || Tension nedir? || Katapult kalkış sırasının, shuttle'ın boşluğu almak için hidrolikle ileri hareket ettirildiği bölümü. || A-6.18
+A.6 || Tiedown nedir? || Uçağı uçuş güvertesinde bağlamak için kullanılan takoz ve zincirler (chocks and chains). || A-6.19
+A.6 || Trick or Treat nedir; uçak trap yapmazsa? || Paternde bir yaklaşma daha yapacak kadar yakıtı olan uçak. Trap yapmazsa bingo yapmak ya da (yapabiliyorsa) havada yakıt ikmali almak zorundadır. || A-6.20, A-6.21
+A.6 || Zip Lip nedir? || Telsiz haberleşmesinin en aza indirildiği koşul. || A-6.22

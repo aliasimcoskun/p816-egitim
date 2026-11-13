@@ -1,0 +1,378 @@
+# Bölüm 2, parça a soruları — biçim:
+# ## <bölüm>   S: soru   - yanlış şık   + doğru şık   A: açıklama   K: kaynak birimleri
+
+## 200
+
+S: Belgeye göre tüm prosedürleri ne zamana kadar eksiksiz bilmelisiniz?
+- İlk gece inişinizden önce
++ Gemiye ilk uçuşunuzdan önce
+- İlk katapult kalkışınızdan sonra
+- Carrier qualification'ın sonunda
+A: "You must be thoroughly familiar with all procedures prior to your first flight to the carrier." Gemi çevresinde hata payı yoktur.
+K: 2-1.04, 2-1.05
+
+## 201
+
+S: Gemide uçuş operasyonlarının planlanmasından (scheduling) sorumlu olan, Operations Department içindeki iki birim hangileridir?
++ Air Operations ve Strike Operations
+- Air Operations ve CATCC
+- Strike Operations ve CDC
+- Air Department ve Flight Deck Control
+A: Bu iki birim günlük Air Plan'ın hazırlanmasında yakın koordinasyon içinde çalışır.
+K: 2-1.11..2-1.13
+
+S: Harekât alanında (in theater) Air Plan büyük ölçüde neye göre belirlenir?
++ JFACC'den gelen Air Tasking Order (ATO)
+- Air Boss'un günlük Case kararı
+- Filoların günlük uçuş programları
+- CVIC brifingi
+A: ATO, harekât alanındaki AOC tarafından hazırlanan ve tüm hava unsurlarını koordine eden ana belgedir.
+K: 2-1.16, 2-1.17
+
+S: ATO sortileri hangi dönem için belirler ve neye göre dağıtır?
+- Her cycle için, filo ve pilota göre
++ Her 24 saatlik dönem için, görev ve uçak tipine göre
+- Her hafta için, gemi ve hava kanadına göre
+- Her event için, katapult ve uçak tipine göre
+A: AOC personeli hedefleri ve görevleri tespit edip bileşenlere ve bağlı birliklere atar; ATO call sign, hedef ve controlling agency gibi özel görevlendirmeleri ve genel talimatları da içerir.
+K: 2-1.18..2-1.21
+
+S: Air Plan onay ve imza için kime sunulur?
+- Air Boss'a, CAG aracılığıyla
++ Operations Officer'a, Air Operations Officer aracılığıyla
+- Commanding Officer'a, Strike Operations aracılığıyla
+- JFACC'ye, AOC aracılığıyla
+A: Önce Strike Operations ATO'yu inceleyip gerekli bilgileri toplar; sonra Air Plan, Air Operations Officer aracılığıyla Operations Officer'a sunulur.
+K: 2-1.22, 2-1.23
+
+S: İmzalanan Air Plan normalde ne zaman dağıtılır?
++ Planlanan operasyonlardan önceki akşam
+- Operasyon günü sabahı, ilk brifingden önce
+- Bir hafta önceden
+- Her cycle başında
+A: Contingency operasyonlarının değişken doğası nedeniyle gece çok geç ya da ertesi sabah erken yayımlanabilir.
+K: 2-1.24
+
+S: Aşağıdakilerden hangisi belgede Air Plan'ın içerdiği bilgiler arasında SAYILMAZ?
+- Taktik frekanslar
+- Ay doğuşu, ay batışı ve ay evresi
+- Yedekler dahil uçak sayısı ve modeli
++ Her uçağın weight chit'i
+A: Weight chit, ekibin flight deck control'e teslim ettiği ağırlık formudur; Air Plan'ın a–o maddeleri arasında yoktur.
+K: 2-2.06, 2-2.08, 2-2.13
+
+S: Air Plan'daki notlar hangisini içermek ZORUNDA DEĞİLDİR?
+- EMCON / Zip Lip koşulları
+- Ready deck programı
+- Uçuşa yönelik diğer tehlikeler / kısıtlamalar
++ CVIC istihbarat analizi
+A: "Notes shall include": EMCON/Zip Lip conditions, ready deck schedule, any other hazards/restrictions to flight or other pertinent information.
+K: 2-2.16..2-2.19
+
+## 202
+
+S: LSO'ların kullandığı birincil referans hangisidir?
+- CV NATOPS
++ LSO NATOPS
+- Uçağın NATOPS el kitabı
+- Air Plan
+A: LSO NATOPS teknik bilgi ve rehberlik sağlar. CV NATOPS gemi çevresinde çalışmaya ilişkin prosedür ve uygulamaları verir.
+K: 2-3.09, 2-3.10
+
+S: Bir cycle normalde yaklaşık ne kadar sürer?
+- 45 dakika
+- 1 saat
++ 1 saat 30 dakika (1+30)
+- 1 saat 45 dakika (1+45)
+A: Cyclic operations, uçakların gruplar ("cycle") hâlinde sürekli kaldırılıp indirilmesidir. 1+45 ise brifingin kalkıştan ne kadar önce başladığıdır.
+K: 2-3.13..2-3.15
+
+S: Daha uzun cycle'ların etkisi hangisidir?
++ Daha fazla kalkış ve inişe imkân verir ama ek tanker ikmali (tanking) gerektirebilir
+- Kaldırılabilecek uçak sayısını sınırlar
+- Havadaki uçakların yakıtını etkilemez
+- Yalnızca gece operasyonlarında uygulanabilir
+A: Cycle uzunluğunu ATO gereksinimleri değiştirebilir; kısa cycle'lar kaldırılıp indirilebilecek uçak sayısını sınırlar.
+K: 2-3.16..2-3.19
+
+S: Bir cycle (event) genellikle kaç uçaktan oluşur?
+- 4–8
++ 12–20
+- 20–30
+- 30–40
+A: Event'ler sırayla numaralanır ve 24 saatlik uçuş günündeki ilgili cycle'a karşılık gelir.
+K: 2-3.20, 2-3.21
+
+S: Event 1 uçaklarının kalkışı genellikle ne kadar sürer?
+- 5 dakika
++ Yaklaşık 15 dakika
+- Yaklaşık 30 dakika
+- 1+30
+A: Ardından Event 2 uçakları bir sonraki cyclic kalkış için hazırlanır.
+K: 2-3.24
+
+S: Event 2 uçakları kalktıktan sonra ne olur?
++ Event 1 uçakları indirilir, yakıt alır, yeniden silahlanır, yeniden dizilir ve Event 3 için hazırlanır
+- Event 3 uçakları hemen kalkar, Event 1 uçakları havada bekler
+- Event 1 uçakları hangara indirilir ve ertesi güne kadar kullanılmaz
+- Tüm uçaklar pruvada toplanır
+A: Kalkışlar güvertede iniş için yer açar. Sonra Event 3 kalkar ve Event 2 iner; bu, gün / gece boyunca böyle sürer.
+K: 2-3.25..2-3.27
+
+S: Gecenin son kalkışından sonra uçaklar neden genellikle pruvada (bow) toplanır?
++ Son uçak inene kadar iniş alanını boş tutmak için
+- Ertesi sabah Event 1'i hızlı kaldırmak için
+- Yakıt ikmalini hızlandırmak için
+- Asansörlere yakın olmak için
+A: Ardından uçaklar güverte üzerinde yeniden dizilir ve ertesi sabahın ilk kalkışına kadar bağlanır.
+K: 2-3.28, 2-3.29
+
+S: Kalkış ve iniş operasyonlarının Case'ini belirlemekten kim sorumludur?
+- CATCC
+- Operations Officer
++ Air Boss
+- Strike lead
+A: Case I, II ve III'ün her biri mevcut hava koşullarına bağlıdır.
+K: 2-3.31..2-3.34
+
+S: Case I havası için asgari değerler nelerdir?
++ Tavan 3.000 ft'ten alçak değil, görüş 5 NM'den az değil
+- Tavan 1.000 ft veya üstü, görüş 5 NM
+- Tavan 3.000 ft'ten alçak değil, görüş 3 NM'den az değil
+- Tavan 2.500 ft, görüş 5 NM
+A: Case I gündüz operasyonlarında hava VMC iken kullanılır.
+K: 2-4.01, 2-4.02
+
+S: Case II ne zaman kullanılır ve normalde hangi durumda ilan edilir?
+- Gece, tavan 1.000 ft'in altındayken
++ Gündüz, uçağın IMC'ye girebileceği öngörüldüğünde; normalde overcast tabaka varken
+- Gündüz VMC'de, Zip Lip operasyonlarında
+- Her zaman gün batımından 30 dakika önce
+A: Case II havası: en alçak tavan 1.000 ft veya üstü ve 5 NM görüş.
+K: 2-4.03..2-4.05
+
+S: Gündüz, tavan 2.000 ft ve görüş 8 NM. Belgedeki kriterlere göre hangi Case havasıdır?
+- Case I
++ Case II
+- Case III
+- Hiçbiri; uçuş yapılmaz
+A: Case I için tavan en az 3.000 ft olmalı; Case II tavanın 1.000 ft veya üstü ve 5 NM görüş ister.
+K: 2-4.02, 2-4.04
+
+S: Belgeye göre Case III havası hangisidir?
++ Tavan 1.000 ft'in altında YA DA görüş 5 NM'den az
+- Tavan 3.000 ft'in altında VE görüş 5 NM'den az
+- Tavan 1.000 ft'in altında VE görüş 3 NM'den az
+- Yalnızca overcast tabaka varken
+A: "Case III weather is any ceiling below 1,000 feet or a visibility less than 5NM."
+K: 2-4.06
+
+S: Case III operasyonlarını belirlemek açısından "gece" nasıl tanımlanır?
+- Gün batımından gün doğumuna kadar
+- Gün batımından 30 dk sonra – gün doğumundan 30 dk önce
++ Gün batımından 30 dk önce – gün doğumundan 30 dk sonra
+- Gün batımından 1 saat sonra – gün doğumundan 1 saat önce
+A: Tüm gece operasyonları Case III ile yapılır.
+K: 2-4.07, 2-4.08
+
+## 203.1
+
+S: Görev brifingi tipik olarak planlanan kalkıştan ne kadar önce başlar?
+- 45 dakika (0+45)
+- 1 saat 30 dakika (1+30)
++ 1 saat 45 dakika (1+45)
+- 2 saat 30 dakika (2+30)
+A: Brifing genellikle genel bir bakıştan uçağa ve ekibe özgü konulara doğru ilerler.
+K: 2-4.11..2-4.13
+
+S: CVIC brifingi nasıl verilir ve ne kadar sürer?
++ Geminin TV'sinden yayınlanır, genellikle 5–10 dakika
+- Ready room'da strike lead verir, 30 dakika
+- Pri-Fly'dan 5 MC ile anons edilir, 2 dakika
+- Maintenance control'de verilir, 15–20 dakika
+A: CVIC = Carrier Intelligence Center; tüm uçuş operasyonlarını ilgilendiren bilgileri kapsar.
+K: 2-4.14, 2-4.15
+
+S: Aşağıdakilerden hangisi belgede CVIC brifinginin kapsadığı konular arasında SAYILMAZ?
+- Divert meydanı bilgileri
+- SAR / CSAR ayrıntıları
+- Geminin güncel ve tahmini konumu
++ Her uçağın katapult ayarı
+A: Sayılanlar: güncel ve tahmini hava, geminin güncel ve tahmini konumu, bölgedeki önemli operasyonlar, son istihbarat analizi, SAR (CSAR) ayrıntıları, divert meydanı bilgileri, bölgedeki güncel operasyon koşulları ("bunlarla sınırlı değil").
+K: 2-4.16
+
+S: Çok uçaklı görevlerde CVIC'ten sonraki brifing sırası hangisidir?
++ Overall strike lead → unsurlar kendi konularını → en son ekipler uçağa özgü konuları
+- Ekipler uçağa özgü konuları → unsurlar → strike lead
+- Unsurlar → strike lead → ekipler
+- Strike lead → ekipler → unsurlar
+A: Karmaşık görevlerde brifing uzayabilir; brifing saatindeki değişiklikleri mission lead tüm katılımcılara bildirir.
+K: 2-4.17..2-4.20
+
+S: A-sheet'teki temel ağırlık, yakıt ve dış yüklerin kontrolü gemide neden özellikle önemlidir?
+- Air Plan'a ağırlık yazılması gerektiği için
++ Katapultun doğru ayarlanması gerektiği için
+- Arresting gear'ın ayarı için
+- Yakıt ikmal miktarını belirlemek için
+A: Brifingden sonra ekip ADB'yi incelemek için maintenance control'e gider ve brüt ağırlık hesabının doğruluğunu kontrol eder.
+K: 2-4.22..2-4.24
+
+S: Weight chit flight deck control'e ne zaman teslim edilir?
++ ADB incelenip ağırlık doğrulandıktan sonra, uçağın uçuş öncesi kontrolünden önce
+- Motor çalıştırıldıktan sonra
+- Katapulta taksi ederken yeşil formalıya
+- Brifingden önce
+A: Bazı filolarda SDO, otomatik bir programla her jetin weight chit'ini her kalkış için flight deck control'e gönderir.
+K: 2-4.25, 2-4.26
+
+S: Weight chit'teki ağırlık neyle aynı olmalıdır?
+- A-sheet'teki temel ağırlıkla
++ Katapulta taksi ederken weight board'da görülen ağırlıkla
+- Air Plan'daki yakıt değeriyle
+- Plane captain'ın bildirdiği ağırlıkla
+A: "The weight annotated on the weight chit must match the weight you see on the weight board as you taxi up to the catapult."
+K: 2-4.27
+
+S: Ekip planlanan kalkıştan en geç ne zaman uçuş güvertesinde olmalıdır?
+- 1+45 önce
+- 1 saat önce
++ 45 dakika önce
+- 30 dakika önce
+A: Tam uçuş teçhizatıyla, eldivenler takılı ve vizörler indirilmiş olarak. 30 dakika ise kemerlerin bağlı ve çalıştırmaya hazır olunması gereken süredir.
+K: 2-4.28, 2-4.29
+
+S: Tüm ekipler planlanan kalkıştan en geç ne zaman kemerlerini bağlamış ve çalıştırmaya hazır olmalıdır?
+- 45 dakika önce
++ 30 dakika önce
+- 15 dakika önce
+- 10 dakika önce
+A: "All crews must be strapped in and ready to start no later than 30 minutes prior to scheduled launch."
+K: 2-5.14
+
+S: Uçağın kuyruğu suyun üzerindeyse ne yapılır?
++ O kısmın uçuş öncesi kontrolü yapılmaz; kancayı, kenardan uzaklaşacak şekilde taksi edildikten sonra hook check sırasında plane captain'lar kontrol eder
+- O kısım bir yeşil formalı eşliğinde kontrol edilir
+- Uçak kontrol için hangara indirilir
+- Kancayı katapultta LSO kontrol eder
+A: Uçuş öncesi kontrol boyunca jet egzozuna ve diğer tehlikelere karşı tetikte olun.
+K: 2-5.08..2-5.10
+
+S: Uçuş öncesi kontrolde tailhook için belgede özellikle ne istenir?
+- Kancanın yukarıda kilitli olması
++ Kanca ucunun gresli olması
+- Kanca ucunun temiz ve yağsız olması
+- HOOK BYP switch'inin FIELD olması
+A: "Inspect the tailhook and ensure the hook point is greased."
+K: 2-5.07
+
+S: Kokpit kontrollerinde ANTI-SKID switch'leri hangi konumda olmalıdır?
++ OFF
+- ON
+- CARRIER
+- Takeoff checklist'te ON, sonra OFF
+A: Kokpit kontrollerinde "both ANTI-SKID switches ... OFF"; takeoff checklist NOTE'unda da "ANTI-SKID switch to OFF".
+K: 2-5.11, 2-5.27
+
+S: Motor çalıştırma ne zaman başlar?
++ Air Boss 5 MC üzerinden "start engines" çağrısını yapıp sarı formalılar çalıştırma işaretini verdiğinde, daha önce değil
+- Ekip kemerlerini bağlar bağlamaz
+- Plane captain kanopiyi kapattığında
+- Kuleye "up and ready" çağrısı yapıldığında
+A: Ekipler plane captain işaretlerine uyarak normal çalıştırma sırasını uygular.
+K: 2-5.15, 2-5.16, 2-5.19
+
+S: Motor çalıştırmayı kimler izler?
+- Air Boss ve Mini Boss
++ Bir plane captain (kahverengi forma) ve filonun Flight Deck Chief'i
+- Yeşil formalı ve LSO
+- Handler ve Shooter
+A: "A plane captain (brown shirt) and squadron Flight Deck Chief will monitor engine start."
+K: 2-5.20
+
+S: NOTE'a göre takeoff checklist'te stabilator trim nasıl ayarlanır?
+- 0°
+- 3° burun aşağı
++ 3-1/2° (3,5°) burun yukarı
+- 5° burun yukarı
+A: JBD'yi geçmeden önce de trim'in 3,5° burun yukarı ve flaps/slats'ın FULL olduğundan emin olunur.
+K: 2-5.28, 2-6.19
+
+S: Takeoff checklist NOTE'una göre HOOK BYP switch'i hangi konumda olmalıdır?
++ CARRIER
+- FIELD
+- OFF
+- BYPASS
+A: Takeoff checklist karadakiyle aynıdır; vurgulanan maddeler: ANTI-SKID OFF, stabilator trim 3-1/2° burun yukarı, HOOK BYP CARRIER.
+K: 2-5.26, 2-6.01
+
+S: "Up and ready" çağrısı nasıl yapılır?
++ Taksiye hazır olunca kuleye uçağın brüt ağırlığıyla birlikte; önce kimsenin "on the ball" (inişte) olmadığından emin olunur
+- Motor çalıştırmadan önce Air Boss'a
+- Katapulta bağlandıktan sonra Shooter'a
+- Brifingden sonra flight deck control'e
+A: "On the ball", inişte olan (topu uçan) uçak için kullanılır.
+K: 2-6.02, 2-6.03
+
+S: NOTE'a göre oksijen maskesi ne zaman takılı olmalıdır?
+- Yalnızca katapultta
+- Yalnızca gece
++ Uçak takozlu ve zincirli olmadığı her an
+- Motor çalıştırılınca
+A: "Oxygen masks must be on whenever the aircraft is not chocked and chained."
+K: 2-6.05
+
+S: Katapulta taksi ederken weight board'u kim kaldırır?
+- Sarı formalı
++ Yeşil formalı
+- Kahverengi formalı (plane captain)
+- Beyaz formalı
+A: Çalıştırmadan sonra uçak "broken down" edilir, takozlar / zincirler alınır.
+K: 2-6.06, 2-6.07
+
+S: Gece, tahtadaki ağırlık weight chit'le aynıysa nasıl onaylanır?
+- Başparmak yukarı
++ El fenerini daire çizerek
+- El fenerini dikey hareket ettirerek
+- Telsizle "Roger" diyerek
+A: Gündüz başparmak yukarı (thumbs up), gece circling flashlight.
+K: 2-6.08
+
+S: Gündüz brüt ağırlığı ARTIRMAK için hangi el işareti verilir?
++ El düz, avuç yukarı; dikey hareket, yukarı hareket vurgulanır
+- El avuç aşağı; yatay hareket
+- Başparmak yukarı
+- El avuç yukarı; yatay hareket
+A: Azaltmak için el avuç aşağı tutulur ve yatay hareket ettirilir.
+K: 2-6.09, 2-6.11, 2-6.12
+
+S: Gece brüt ağırlığı AZALTMAK için hangi işaret verilir?
+- El fenerini dikey hareket ettir, yukarı hareketi vurgula
++ El fenerini yatay hareket ettir
+- El fenerini daire çizerek hareket ettir
+- El fenerini söndür
+A: Gece artırmak için el feneri dikey hareket ettirilir, yukarı hareket vurgulanır.
+K: 2-6.14, 2-6.15
+
+S: Ağırlık ne kadarlık adımlarla ayarlanır?
+- 100 ya da 250
++ 500 ya da 1.000 (ilgili launch bulletin'lere göre)
+- Yalnızca 2.000
+- Her seferinde tek adım, 1.500
+A: Belgede birim yazılmamıştır.
+K: 2-6.16
+
+S: Hangi durumda "Callsign, Gross weight is XX thousand X hundred" telsiz çağrısı yapılmalıdır?
++ Tahtadaki ağırlık iki ağırlık adımından fazla farklıysa ya da ayarlamalarda karışıklık varsa
+- Her kalkışta, ağırlık doğru olsa bile
+- Yalnızca gece kalkışlarında
+- Ağırlık bir adım farklıysa
+A: Daha küçük farklar el işaretleriyle (gece el feneriyle) yeşil formalıya bildirilir.
+K: 2-6.17
+
+S: NOTE'a göre JBD'yi geçmeden önce hangisinden emin olunmalıdır?
++ Takeoff checklist tamam, trim 3,5° burun yukarı, flaps/slats FULL
+- Kanopi açık, trim 0°, flaps UP
+- ANTI-SKID ON, HOOK BYP FIELD
+- Oksijen maskesi çıkarılmış, motor idle
+A: Aynı NOTE: "Roger the weight board."
+K: 2-6.19, 2-6.20

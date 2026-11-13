@@ -1,0 +1,5119 @@
+[
+ {
+  "id": "2-1.01",
+  "page": "2-1",
+  "kind": "baslik",
+  "sec": "200. INTRODUCTION",
+  "text": "200. INTRODUCTION"
+ },
+ {
+  "id": "2-1.02",
+  "page": "2-1",
+  "kind": "metin",
+  "sec": "200. INTRODUCTION",
+  "text": "The catapult launch and arrested landing separate the Naval Aviator from all other aviators."
+ },
+ {
+  "id": "2-1.03",
+  "page": "2-1",
+  "kind": "metin",
+  "sec": "200. INTRODUCTION",
+  "text": "The nature of shipboard operations demands extreme vigilance and standardization."
+ },
+ {
+  "id": "2-1.04",
+  "page": "2-1",
+  "kind": "metin",
+  "sec": "200. INTRODUCTION",
+  "text": "There is no margin for error when operating around the ship."
+ },
+ {
+  "id": "2-1.05",
+  "page": "2-1",
+  "kind": "metin",
+  "sec": "200. INTRODUCTION",
+  "text": "You must be thoroughly familiar with all procedures prior to your first flight to the carrier."
+ },
+ {
+  "id": "2-1.06",
+  "page": "2-1",
+  "kind": "metin",
+  "sec": "200. INTRODUCTION",
+  "text": "“In looking back over everything that I’ve done in the Navy and in the Space Program, I think absolutely nothing matched night carrier aviation."
+ },
+ {
+  "id": "2-1.07",
+  "page": "2-1",
+  "kind": "metin",
+  "sec": "200. INTRODUCTION",
+  "text": "I still think that separates the men from the boys."
+ },
+ {
+  "id": "2-1.08",
+  "page": "2-1",
+  "kind": "metin",
+  "sec": "200. INTRODUCTION",
+  "text": "It’s more difficult than any of the other things I did, including landing on the moon.”"
+ },
+ {
+  "id": "2-1.09",
+  "page": "2-1",
+  "kind": "metin",
+  "sec": "200. INTRODUCTION",
+  "text": "Charles “Pete” Conrad, Captain, USN"
+ },
+ {
+  "id": "2-1.10",
+  "page": "2-1",
+  "kind": "baslik",
+  "sec": "201. AIR PLAN",
+  "text": "201. AIR PLAN"
+ },
+ {
+  "id": "2-1.11",
+  "page": "2-1",
+  "kind": "metin",
+  "sec": "201. AIR PLAN",
+  "text": "In order to obtain maximum efficiency from personnel and equipment, flight operations on the carrier must be precisely scheduled in every respect."
+ },
+ {
+  "id": "2-1.12",
+  "page": "2-1",
+  "kind": "metin",
+  "sec": "201. AIR PLAN",
+  "text": "The two divisions, within the Operations Department, on the carrier that are responsible for providing this scheduling are Air Operations and Strike Operations."
+ },
+ {
+  "id": "2-1.13",
+  "page": "2-1",
+  "kind": "metin",
+  "sec": "201. AIR PLAN",
+  "text": "These two divisions coordinate closely in the preparation of the daily Air Plan."
+ },
+ {
+  "id": "2-1.14",
+  "page": "2-1",
+  "kind": "metin",
+  "sec": "201. AIR PLAN",
+  "text": "An Air Plan is used to organize the operations of the carrier air wing (CVW) within the Carrier Strike Group (CSG)."
+ },
+ {
+  "id": "2-1.15",
+  "page": "2-1",
+  "kind": "metin",
+  "sec": "201. AIR PLAN",
+  "text": "The Air Plan provides the daily scheduling for all air operations, ordnance loading, and EMCON condition."
+ },
+ {
+  "id": "2-1.16",
+  "page": "2-1",
+  "kind": "metin",
+  "sec": "201. AIR PLAN",
+  "text": "In theater, the Air Plan is largely driven by the Air Tasking Order (ATO), which is handed down from the Joint Force Air Component Commander (JFACC)."
+ },
+ {
+  "id": "2-1.17",
+  "page": "2-1",
+  "kind": "metin",
+  "sec": "201. AIR PLAN",
+  "text": "The ATO is the master document created by the theater Air Operations Center (AOC) that coordinates all air assets within a specific theater of operations."
+ },
+ {
+  "id": "2-1.18",
+  "page": "2-1",
+  "kind": "metin",
+  "sec": "201. AIR PLAN",
+  "text": "The ATO delineates all required sorties for each 24-hour period and assigns them by mission and aircraft type."
+ },
+ {
+  "id": "2-1.19",
+  "page": "2-1",
+  "kind": "metin",
+  "sec": "201. AIR PLAN",
+  "text": "The AOC personnel identify specific targets and missions and then assign them to individual components and subordinate units."
+ },
+ {
+  "id": "2-1.20",
+  "page": "2-1",
+  "kind": "metin",
+  "sec": "201. AIR PLAN",
+  "text": "The ATO typically provides specific tasking, including call signs, targets, and controlling agencies."
+ },
+ {
+  "id": "2-1.21",
+  "page": "2-1",
+  "kind": "metin",
+  "sec": "201. AIR PLAN",
+  "text": "The ATO will also include general instructions pertinent to theater flight operations."
+ },
+ {
+  "id": "2-1.22",
+  "page": "2-1",
+  "kind": "metin",
+  "sec": "201. AIR PLAN",
+  "text": "Strike Operations will review the ATO and collect all necessary information for the preparation of the Air Plan."
+ },
+ {
+  "id": "2-1.23",
+  "page": "2-1",
+  "kind": "metin",
+  "sec": "201. AIR PLAN",
+  "text": "The Air Plan will then be submitted to the Operations Officer, via the Air Operations Officer, for approval and signature."
+ },
+ {
+  "id": "2-1.24",
+  "page": "2-1",
+  "kind": "metin",
+  "sec": "201. AIR PLAN",
+  "text": "Once signed, the Air Plan will normally be distributed the evening before scheduled operations; however, due to the fluid nature of contingency operations, the Air Plan may not be promulgated until very late in the evening or early the next morning."
+ },
+ {
+  "id": "2-2.01",
+  "page": "2-2",
+  "kind": "metin",
+  "sec": "201. AIR PLAN",
+  "text": "The Air Plan will include the following information:"
+ },
+ {
+  "id": "2-2.02",
+  "page": "2-2",
+  "kind": "metin",
+  "sec": "201. AIR PLAN",
+  "text": "(a) Event numbers"
+ },
+ {
+  "id": "2-2.03",
+  "page": "2-2",
+  "kind": "metin",
+  "sec": "201. AIR PLAN",
+  "text": "(b) Launch times"
+ },
+ {
+  "id": "2-2.04",
+  "page": "2-2",
+  "kind": "metin",
+  "sec": "201. AIR PLAN",
+  "text": "(c) Recovery times"
+ },
+ {
+  "id": "2-2.05",
+  "page": "2-2",
+  "kind": "metin",
+  "sec": "201. AIR PLAN",
+  "text": "(d) Mission"
+ },
+ {
+  "id": "2-2.06",
+  "page": "2-2",
+  "kind": "metin",
+  "sec": "201. AIR PLAN",
+  "text": "(e) Number and model of aircraft, including spares"
+ },
+ {
+  "id": "2-2.07",
+  "page": "2-2",
+  "kind": "metin",
+  "sec": "201. AIR PLAN",
+  "text": "(f) Total sorties"
+ },
+ {
+  "id": "2-2.08",
+  "page": "2-2",
+  "kind": "metin",
+  "sec": "201. AIR PLAN",
+  "text": "(g) Sunrise, sunset, moonrise, moonset, moon phase"
+ },
+ {
+  "id": "2-2.09",
+  "page": "2-2",
+  "kind": "metin",
+  "sec": "201. AIR PLAN",
+  "text": "(h) Date"
+ },
+ {
+  "id": "2-2.10",
+  "page": "2-2",
+  "kind": "metin",
+  "sec": "201. AIR PLAN",
+  "text": "(i) Fuel"
+ },
+ {
+  "id": "2-2.11",
+  "page": "2-2",
+  "kind": "metin",
+  "sec": "201. AIR PLAN",
+  "text": "(j) Alert aircraft"
+ },
+ {
+  "id": "2-2.12",
+  "page": "2-2",
+  "kind": "metin",
+  "sec": "201. AIR PLAN",
+  "text": "(k) Logistics aircraft"
+ },
+ {
+  "id": "2-2.13",
+  "page": "2-2",
+  "kind": "metin",
+  "sec": "201. AIR PLAN",
+  "text": "(l) Tactical frequencies"
+ },
+ {
+  "id": "2-2.14",
+  "page": "2-2",
+  "kind": "metin",
+  "sec": "201. AIR PLAN",
+  "text": "(m) Ordnance loading"
+ },
+ {
+  "id": "2-2.15",
+  "page": "2-2",
+  "kind": "metin",
+  "sec": "201. AIR PLAN",
+  "text": "(n) Daily Air Plan Cartoon"
+ },
+ {
+  "id": "2-2.16",
+  "page": "2-2",
+  "kind": "metin",
+  "sec": "201. AIR PLAN",
+  "text": "(o) Notes as required. Notes shall include the following:"
+ },
+ {
+  "id": "2-2.17",
+  "page": "2-2",
+  "kind": "metin",
+  "sec": "201. AIR PLAN",
+  "text": "(i) EMCON/Zip Lip conditions"
+ },
+ {
+  "id": "2-2.18",
+  "page": "2-2",
+  "kind": "metin",
+  "sec": "201. AIR PLAN",
+  "text": "(ii) Ready deck schedule"
+ },
+ {
+  "id": "2-2.19",
+  "page": "2-2",
+  "kind": "metin",
+  "sec": "201. AIR PLAN",
+  "text": "(iii) Any other hazards/restrictions to flight or other pertinent information"
+ },
+ {
+  "id": "2-2.20",
+  "page": "2-2",
+  "kind": "metin",
+  "sec": "201. AIR PLAN",
+  "text": "Upon receipt of the daily air plan, each squadron will prepare and distribute its daily flight schedule."
+ },
+ {
+  "id": "2-2.21",
+  "page": "2-2",
+  "kind": "metin",
+  "sec": "201. AIR PLAN",
+  "text": "Individual squadron or unit requirements should be requested far enough in advance so that they are reflected on the Air Plan and can then be published on the schedule."
+ },
+ {
+  "id": "2-3.01",
+  "page": "2-3",
+  "kind": "baslik",
+  "sec": "202. FLIGHT DECK OPERATIONS",
+  "text": "202. FLIGHT DECK OPERATIONS"
+ },
+ {
+  "id": "2-3.02",
+  "page": "2-3",
+  "kind": "metin",
+  "sec": "202. FLIGHT DECK OPERATIONS",
+  "text": "Flight deck operations are very complicated and extremely hazardous."
+ },
+ {
+  "id": "2-3.03",
+  "page": "2-3",
+  "kind": "metin",
+  "sec": "202. FLIGHT DECK OPERATIONS",
+  "text": "This FTI only supplements more important, primary sources of information regarding carrier operations."
+ },
+ {
+  "id": "2-3.04",
+  "page": "2-3",
+  "kind": "metin",
+  "sec": "202. FLIGHT DECK OPERATIONS",
+  "text": "A thorough knowledge and understanding of these operations cannot be overemphasized."
+ },
+ {
+  "id": "2-3.05",
+  "page": "2-3",
+  "kind": "baslik",
+  "sec": "1. Reference Publications",
+  "text": "1. Reference Publications"
+ },
+ {
+  "id": "2-3.06",
+  "page": "2-3",
+  "kind": "metin",
+  "sec": "1. Reference Publications",
+  "text": "Your aircraft Naval Air Training and Operating Procedures Standardization (NATOPS) manual contains sections specifically dedicated to carrier operations."
+ },
+ {
+  "id": "2-3.07",
+  "page": "2-3",
+  "kind": "metin",
+  "sec": "1. Reference Publications",
+  "text": "You should also familiarize yourself with both the CV NATOPS and LSO NATOPS manuals."
+ },
+ {
+  "id": "2-3.08",
+  "page": "2-3",
+  "kind": "metin",
+  "sec": "1. Reference Publications",
+  "text": "These manuals govern aircraft operations around the ship, including launch, recovery and flight deck procedures."
+ },
+ {
+  "id": "2-3.09",
+  "page": "2-3",
+  "kind": "metin",
+  "sec": "1. Reference Publications",
+  "text": "The CV NATOPS provides information regarding procedures and practices for operating around the carrier."
+ },
+ {
+  "id": "2-3.10",
+  "page": "2-3",
+  "kind": "metin",
+  "sec": "1. Reference Publications",
+  "text": "The LSO NATOPS is the primary reference used by LSOs and provides technical information and guidance."
+ },
+ {
+  "id": "2-3.11",
+  "page": "2-3",
+  "kind": "metin",
+  "sec": "1. Reference Publications",
+  "text": "The primary focus of this manual is the recovery phase of operations."
+ },
+ {
+  "id": "2-3.12",
+  "page": "2-3",
+  "kind": "baslik",
+  "sec": "2. Cyclic Operations",
+  "text": "2. Cyclic Operations"
+ },
+ {
+  "id": "2-3.13",
+  "page": "2-3",
+  "kind": "metin",
+  "sec": "2. Cyclic Operations",
+  "text": "Cyclic Operations refers to the continuous process of launching and recovering aircraft."
+ },
+ {
+  "id": "2-3.14",
+  "page": "2-3",
+  "kind": "metin",
+  "sec": "2. Cyclic Operations",
+  "text": "In order to maximize efficiency, aircraft are launched and recovered in groups or \"cycles."
+ },
+ {
+  "id": "2-3.15",
+  "page": "2-3",
+  "kind": "metin",
+  "sec": "2. Cyclic Operations",
+  "text": "Each cycle is approximately one hour and thirty minutes long (1+30 cycle)."
+ },
+ {
+  "id": "2-3.16",
+  "page": "2-3",
+  "kind": "metin",
+  "sec": "2. Cyclic Operations",
+  "text": "ATO requirements may necessitate longer or shorter cycles."
+ },
+ {
+  "id": "2-3.17",
+  "page": "2-3",
+  "kind": "metin",
+  "sec": "2. Cyclic Operations",
+  "text": "Longer cycles can accommodate more launches and recoveries, while shorter cycles limit the number of aircraft that can be launched or recovered."
+ },
+ {
+  "id": "2-3.18",
+  "page": "2-3",
+  "kind": "metin",
+  "sec": "2. Cyclic Operations",
+  "text": "The cycle time also has an impact on fuel for airborne aircraft."
+ },
+ {
+  "id": "2-3.19",
+  "page": "2-3",
+  "kind": "metin",
+  "sec": "2. Cyclic Operations",
+  "text": "Longer cycles may necessitate additional tanking."
+ },
+ {
+  "id": "2-3.20",
+  "page": "2-3",
+  "kind": "metin",
+  "sec": "2. Cyclic Operations",
+  "text": "Each cycle, or event, is usually made up of 12-20 aircraft."
+ },
+ {
+  "id": "2-3.21",
+  "page": "2-3",
+  "kind": "metin",
+  "sec": "2. Cyclic Operations",
+  "text": "These events are sequentially numbered and correspond to the respective cycle in the 24-hour fly day."
+ },
+ {
+  "id": "2-3.22",
+  "page": "2-3",
+  "kind": "metin",
+  "sec": "2. Cyclic Operations",
+  "text": "Event 1 corresponds to the first cycle, Event 2 to the second cycle, and so on."
+ },
+ {
+  "id": "2-3.23",
+  "page": "2-3",
+  "kind": "metin",
+  "sec": "2. Cyclic Operations",
+  "text": "Prior to flight operations, the aircraft on the flight deck are arranged (\"spotted\") so that Event 1 aircraft can easily be taxied to the catapults once they have been started and inspected."
+ },
+ {
+  "id": "2-3.24",
+  "page": "2-3",
+  "kind": "metin",
+  "sec": "2. Cyclic Operations",
+  "text": "Once the Event 1 aircraft are launched, which generally takes about 15 minutes, Event 2 aircraft are readied for the next cyclic launch."
+ },
+ {
+  "id": "2-3.25",
+  "page": "2-3",
+  "kind": "metin",
+  "sec": "2. Cyclic Operations",
+  "text": "The launching of aircraft makes room on the flight deck to land aircraft."
+ },
+ {
+  "id": "2-3.26",
+  "page": "2-3",
+  "kind": "metin",
+  "sec": "2. Cyclic Operations",
+  "text": "Once Event 2 aircraft are launched, Event 1 aircraft are recovered, fueled, re-armed, re-spotted and readied to be used for Event 3."
+ },
+ {
+  "id": "2-3.27",
+  "page": "2-3",
+  "kind": "metin",
+  "sec": "2. Cyclic Operations",
+  "text": "Event 3 aircraft are launched, followed by the recovery of Event 2 aircraft (and so on throughout the fly day/night)."
+ },
+ {
+  "id": "2-3.28",
+  "page": "2-3",
+  "kind": "metin",
+  "sec": "2. Cyclic Operations",
+  "text": "After the last launch of the night, all of the aircraft are generally stored up on the bow in order to keep the landing area clear until the last aircraft lands."
+ },
+ {
+  "id": "2-3.29",
+  "page": "2-3",
+  "kind": "metin",
+  "sec": "2. Cyclic Operations",
+  "text": "They are then re-spotted about the flight deck and secured until the next morning's first launch."
+ },
+ {
+  "id": "2-3.30",
+  "page": "2-3",
+  "kind": "baslik",
+  "sec": "3. Weather Criteria",
+  "text": "3. Weather Criteria"
+ },
+ {
+  "id": "2-3.31",
+  "page": "2-3",
+  "kind": "metin",
+  "sec": "3. Weather Criteria",
+  "text": "In order to standardize flight operations in all weather conditions, day or night, carrier aviation utilizes three specific cases of operations."
+ },
+ {
+  "id": "2-3.32",
+  "page": "2-3",
+  "kind": "metin",
+  "sec": "3. Weather Criteria",
+  "text": "These are known as Case I, Case II and Case III."
+ },
+ {
+  "id": "2-3.33",
+  "page": "2-3",
+  "kind": "metin",
+  "sec": "3. Weather Criteria",
+  "text": "Each of these cases is dependent on existing weather conditions."
+ },
+ {
+  "id": "2-3.34",
+  "page": "2-3",
+  "kind": "metin",
+  "sec": "3. Weather Criteria",
+  "text": "The Air Boss is responsible for determining the case of launch and recovery operations."
+ },
+ {
+  "id": "2-4.01",
+  "page": "2-4",
+  "kind": "metin",
+  "sec": "3. Weather Criteria",
+  "text": "(a) Case I departures and recoveries are utilized during daytime operations (day ops) when weather conditions are VMC."
+ },
+ {
+  "id": "2-4.02",
+  "page": "2-4",
+  "kind": "metin",
+  "sec": "3. Weather Criteria",
+  "text": "Case I weather requires the ceiling to be no lower than 3,000 feet and not less than 5 NM visibility."
+ },
+ {
+  "id": "2-4.03",
+  "page": "2-4",
+  "kind": "metin",
+  "sec": "3. Weather Criteria",
+  "text": "(b) Case II operations are utilized during day ops when it is anticipated the aircraft may enter IMC."
+ },
+ {
+  "id": "2-4.04",
+  "page": "2-4",
+  "kind": "metin",
+  "sec": "3. Weather Criteria",
+  "text": "Case II weather requires the lowest ceiling to be 1,000 feet or above and 5 NM visibility."
+ },
+ {
+  "id": "2-4.05",
+  "page": "2-4",
+  "kind": "metin",
+  "sec": "3. Weather Criteria",
+  "text": "Case II is normally called for when an overcast layer is present."
+ },
+ {
+  "id": "2-4.06",
+  "page": "2-4",
+  "kind": "metin",
+  "sec": "3. Weather Criteria",
+  "text": "(c) Case III weather is any ceiling below 1,000 feet or a visibility less than 5NM."
+ },
+ {
+  "id": "2-4.07",
+  "page": "2-4",
+  "kind": "metin",
+  "sec": "3. Weather Criteria",
+  "text": "All night operations are conducted under Case III."
+ },
+ {
+  "id": "2-4.08",
+  "page": "2-4",
+  "kind": "metin",
+  "sec": "3. Weather Criteria",
+  "text": "For the purpose of determining Case III operations, night is defined as 30 minutes prior to sunset until 30 minutes after sunrise."
+ },
+ {
+  "id": "2-4.09",
+  "page": "2-4",
+  "kind": "baslik",
+  "sec": "203. LAUNCH AND DEPARTURE",
+  "text": "203. LAUNCH AND DEPARTURE"
+ },
+ {
+  "id": "2-4.10",
+  "page": "2-4",
+  "kind": "baslik",
+  "sec": "1. Briefing",
+  "text": "1. Briefing"
+ },
+ {
+  "id": "2-4.11",
+  "page": "2-4",
+  "kind": "metin",
+  "sec": "1. Briefing",
+  "text": "As with shore operations, all carrier flight operations begin with a thorough briefing."
+ },
+ {
+  "id": "2-4.12",
+  "page": "2-4",
+  "kind": "metin",
+  "sec": "1. Briefing",
+  "text": "Each mission will begin with a briefing that typically commences one-hour and forty-five minutes (1+45) prior to scheduled launch time."
+ },
+ {
+  "id": "2-4.13",
+  "page": "2-4",
+  "kind": "metin",
+  "sec": "1. Briefing",
+  "text": "The briefing process usually progresses from a generalized overview down to aircraft and aircrew specific items."
+ },
+ {
+  "id": "2-4.14",
+  "page": "2-4",
+  "kind": "metin",
+  "sec": "1. Briefing",
+  "text": "The preflight briefing will include a briefing from the Carrier Intelligence Center (CVIC), which will be broadcast over the ship’s TV."
+ },
+ {
+  "id": "2-4.15",
+  "page": "2-4",
+  "kind": "metin",
+  "sec": "1. Briefing",
+  "text": "The CVIC briefing will usually be five to ten minutes in duration, and will cover any information that is pertinent to all flight operations."
+ },
+ {
+  "id": "2-4.16",
+  "page": "2-4",
+  "kind": "metin",
+  "sec": "1. Briefing",
+  "text": "This includes, but is not limited to, current and forecasted weather, the ship’s current and forecasted position, significant operations in the area, recent intelligence analysis, SAR (or Combat Search and Rescue (CSAR)) specifics, divert airfield information and current operating conditions in the region."
+ },
+ {
+  "id": "2-4.17",
+  "page": "2-4",
+  "kind": "metin",
+  "sec": "1. Briefing",
+  "text": "For missions involving multiple aircraft and assets, the overall strike lead will then brief the mission."
+ },
+ {
+  "id": "2-4.18",
+  "page": "2-4",
+  "kind": "metin",
+  "sec": "1. Briefing",
+  "text": "Individual elements will separate and brief those items specific to their element; lastly, aircrew will brief aircraft-specific items."
+ },
+ {
+  "id": "2-4.19",
+  "page": "2-4",
+  "kind": "metin",
+  "sec": "1. Briefing",
+  "text": "Complex missions may require more time to accomplish the briefing due to the complexity of the tasking and the coordination of multiple assets."
+ },
+ {
+  "id": "2-4.20",
+  "page": "2-4",
+  "kind": "metin",
+  "sec": "1. Briefing",
+  "text": "In these cases, the mission lead will notify all players of any adjustments to the briefing time."
+ },
+ {
+  "id": "2-4.21",
+  "page": "2-4",
+  "kind": "baslik",
+  "sec": "2. Pre-Flight",
+  "text": "2. Pre-Flight"
+ },
+ {
+  "id": "2-4.22",
+  "page": "2-4",
+  "kind": "metin",
+  "sec": "2. Pre-Flight",
+  "text": "Following the briefing, aircrew will proceed to maintenance control to review the Aircraft Discrepancy Book (ADB)."
+ },
+ {
+  "id": "2-4.23",
+  "page": "2-4",
+  "kind": "metin",
+  "sec": "2. Pre-Flight",
+  "text": "Aircrew should pay particular attention to the A-sheet’s basic weight, fuel and store loads to ensure the gross weight calculation is correct."
+ },
+ {
+  "id": "2-4.24",
+  "page": "2-4",
+  "kind": "metin",
+  "sec": "2. Pre-Flight",
+  "text": "This is particularly important when launching from the boat because the catapult needs to be set correctly."
+ },
+ {
+  "id": "2-4.25",
+  "page": "2-4",
+  "kind": "metin",
+  "sec": "2. Pre-Flight",
+  "text": "Once the ADB is reviewed and the weight is verified, the crew will deliver the weight sheet (weight chit) to flight deck control prior to aircraft preflight."
+ },
+ {
+  "id": "2-4.26",
+  "page": "2-4",
+  "kind": "metin",
+  "sec": "2. Pre-Flight",
+  "text": "Some squadrons use an automated computer program by which the squadron SDO can send each jet’s weight chit down to flight deck control for each launch."
+ },
+ {
+  "id": "2-4.27",
+  "page": "2-4",
+  "kind": "metin",
+  "sec": "2. Pre-Flight",
+  "text": "The weight annotated on the weight chit must match the weight you see on the weight board as you taxi up to the catapult."
+ },
+ {
+  "id": "2-4.28",
+  "page": "2-4",
+  "kind": "metin",
+  "sec": "2. Pre-Flight",
+  "text": "After reviewing the ADB, aircrew will proceed to the paraloft to suit up."
+ },
+ {
+  "id": "2-4.29",
+  "page": "2-4",
+  "kind": "metin",
+  "sec": "2. Pre-Flight",
+  "text": "The aircrew will ensure that they arrive on the flight deck, in full flight gear with gloves on and visors down, no later than 45 minutes prior to the scheduled launch time."
+ },
+ {
+  "id": "2-4.30",
+  "page": "2-4",
+  "kind": "metin",
+  "sec": "2. Pre-Flight",
+  "text": "Your knowledge of the ship’s layout will help you select the flight deck entrance nearest your aircraft."
+ },
+ {
+  "id": "2-5.01",
+  "page": "2-5",
+  "kind": "metin",
+  "sec": "2. Pre-Flight",
+  "text": "Once at the aircraft, conduct a normal preflight in accordance with NATOPS."
+ },
+ {
+  "id": "2-5.02",
+  "page": "2-5",
+  "kind": "metin",
+  "sec": "2. Pre-Flight",
+  "text": "Begin the preflight by checking the area around the aircraft for FOD, leaking or pooling fluid (oil, hydraulic fluid, fuel, etc.) and the general condition of the aircraft."
+ },
+ {
+  "id": "2-5.03",
+  "page": "2-5",
+  "kind": "metin",
+  "sec": "2. Pre-Flight",
+  "text": "Take note of any intake/exhaust covers on the aircraft."
+ },
+ {
+  "id": "2-5.04",
+  "page": "2-5",
+  "kind": "metin",
+  "sec": "2. Pre-Flight",
+  "text": "Make sure tie down chains are not rubbing against any brake lines or hydraulic lines."
+ },
+ {
+  "id": "2-5.05",
+  "page": "2-5",
+  "kind": "metin",
+  "sec": "2. Pre-Flight",
+  "text": "Observe whether a tow bar is connected and that the nose wheel is centered."
+ },
+ {
+  "id": "2-5.06",
+  "page": "2-5",
+  "kind": "metin",
+  "sec": "2. Pre-Flight",
+  "text": "Check the landing gear struts, tire pressure and integrity, launch bar, and holdback."
+ },
+ {
+  "id": "2-5.07",
+  "page": "2-5",
+  "kind": "metin",
+  "sec": "2. Pre-Flight",
+  "text": "Inspect the tailhook and ensure the hook point is greased."
+ },
+ {
+  "id": "2-5.08",
+  "page": "2-5",
+  "kind": "metin",
+  "sec": "2. Pre-Flight",
+  "text": "If the tail of the aircraft is over water, do not attempt to preflight that portion of the aircraft."
+ },
+ {
+  "id": "2-5.09",
+  "page": "2-5",
+  "kind": "metin",
+  "sec": "2. Pre-Flight",
+  "text": "The plane captains will check your tailhook during the hook check after taxiing clear of the edge."
+ },
+ {
+  "id": "2-5.10",
+  "page": "2-5",
+  "kind": "metin",
+  "sec": "2. Pre-Flight",
+  "text": "During the preflight, remain vigilant of jet exhaust and other hazards."
+ },
+ {
+  "id": "2-5.11",
+  "page": "2-5",
+  "kind": "metin",
+  "sec": "2. Pre-Flight",
+  "text": "After manning up, conduct normal cockpit inspection and checks, ensuring both ANTI-SKID switches are set to OFF."
+ },
+ {
+  "id": "2-5.12",
+  "page": "2-5",
+  "kind": "metin",
+  "sec": "2. Pre-Flight",
+  "text": "Check that the cockpit panels, gauges and instruments are secure."
+ },
+ {
+  "id": "2-5.13",
+  "page": "2-5",
+  "kind": "metin",
+  "sec": "2. Pre-Flight",
+  "text": "Loose gauges or instruments can be dangerous during a catapult launch."
+ },
+ {
+  "id": "2-5.14",
+  "page": "2-5",
+  "kind": "metin",
+  "sec": "2. Pre-Flight",
+  "text": "All crews must be strapped in and ready to start no later than 30 minutes prior to scheduled launch."
+ },
+ {
+  "id": "2-5.15",
+  "page": "2-5",
+  "kind": "metin",
+  "sec": "2. Pre-Flight",
+  "text": "The Air Boss will make a “start engines” call over the flight deck announcing system (5 MC), and the start signal will be given by the yellow shirts."
+ },
+ {
+  "id": "2-5.16",
+  "page": "2-5",
+  "kind": "metin",
+  "sec": "2. Pre-Flight",
+  "text": "At that time, and not before, crews will run through the normal start sequence adhering to any plane captain signals."
+ },
+ {
+  "id": "2-5.17",
+  "page": "2-5",
+  "kind": "metin",
+  "sec": "2. Pre-Flight",
+  "text": "The normal sequence for engine start is:"
+ },
+ {
+  "id": "2-5.18",
+  "page": "2-5",
+  "kind": "metin",
+  "sec": "2. Pre-Flight",
+  "text": "(a) Perform the prestart checklist."
+ },
+ {
+  "id": "2-5.19",
+  "page": "2-5",
+  "kind": "metin",
+  "sec": "2. Pre-Flight",
+  "text": "(b) Start engine when authorized by the Air Boss via the 5MC."
+ },
+ {
+  "id": "2-5.20",
+  "page": "2-5",
+  "kind": "metin",
+  "sec": "2. Pre-Flight",
+  "text": "A plane captain (brown shirt) and squadron Flight Deck Chief will monitor engine start."
+ },
+ {
+  "id": "2-5.21",
+  "page": "2-5",
+  "kind": "metin",
+  "sec": "2. Pre-Flight",
+  "text": "(c) Close the canopy when appropriate."
+ },
+ {
+  "id": "2-5.22",
+  "page": "2-5",
+  "kind": "metin",
+  "sec": "2. Pre-Flight",
+  "text": "(d) Complete the post-start checklist."
+ },
+ {
+  "id": "2-5.23",
+  "page": "2-5",
+  "kind": "metin",
+  "sec": "2. Pre-Flight",
+  "text": "(e) Complete the plane captain’s checks."
+ },
+ {
+  "id": "2-5.24",
+  "page": "2-5",
+  "kind": "metin",
+  "sec": "2. Pre-Flight",
+  "text": "(f) Complete the taxi/takeoff checklist prior to taxiing."
+ },
+ {
+  "id": "2-5.25",
+  "page": "2-5",
+  "kind": "baslik",
+  "sec": "NOTE",
+  "text": "NOTE"
+ },
+ {
+  "id": "2-5.26",
+  "page": "2-5",
+  "kind": "metin",
+  "sec": "NOTE",
+  "text": "The takeoff checklist is the same as for shore-based procedures with emphasis placed on the following:"
+ },
+ {
+  "id": "2-5.27",
+  "page": "2-5",
+  "kind": "metin",
+  "sec": "NOTE",
+  "text": "(1) Position the ANTI-SKID switch to OFF."
+ },
+ {
+  "id": "2-5.28",
+  "page": "2-5",
+  "kind": "metin",
+  "sec": "NOTE",
+  "text": "(2) Ensure the stabilator trim is set to 3-1/2 degrees nose up."
+ },
+ {
+  "id": "2-6.01",
+  "page": "2-6",
+  "kind": "metin",
+  "sec": "NOTE",
+  "text": "(3) Check the HOOK BYP switch to CARRIER."
+ },
+ {
+  "id": "2-6.02",
+  "page": "2-6",
+  "kind": "metin",
+  "sec": "NOTE",
+  "text": "(g) When ready to taxi, give the “up and ready” call to tower with aircraft gross weight."
+ },
+ {
+  "id": "2-6.03",
+  "page": "2-6",
+  "kind": "metin",
+  "sec": "NOTE",
+  "text": "Ensure no one is landing (referred to as “on the ball”) prior to making the “up and ready” call."
+ },
+ {
+  "id": "2-6.04",
+  "page": "2-6",
+  "kind": "baslik",
+  "sec": "NOTE",
+  "text": "NOTE"
+ },
+ {
+  "id": "2-6.05",
+  "page": "2-6",
+  "kind": "metin",
+  "sec": "NOTE",
+  "text": "Oxygen masks must be on whenever the aircraft is not chocked and chained."
+ },
+ {
+  "id": "2-6.06",
+  "page": "2-6",
+  "kind": "metin",
+  "sec": "NOTE",
+  "text": "Following the start, the aircraft will be “broken down” and chocks/chains removed."
+ },
+ {
+  "id": "2-6.07",
+  "page": "2-6",
+  "kind": "metin",
+  "sec": "NOTE",
+  "text": "Taxiing up to the catapult, a green shirt will hold up the weight board."
+ },
+ {
+  "id": "2-6.08",
+  "page": "2-6",
+  "kind": "metin",
+  "sec": "NOTE",
+  "text": "If the weight on the board matches the weight on the weight chit, acknowledge with thumbs up (daylight) or circling flashlight (night)."
+ },
+ {
+  "id": "2-6.09",
+  "page": "2-6",
+  "kind": "metin",
+  "sec": "NOTE",
+  "text": "If the weight needs to be adjusted up or down, pass hand signals to the green shirt as follows:"
+ },
+ {
+  "id": "2-6.10",
+  "page": "2-6",
+  "kind": "metin",
+  "sec": "NOTE",
+  "text": "(a) During the day:"
+ },
+ {
+  "id": "2-6.11",
+  "page": "2-6",
+  "kind": "metin",
+  "sec": "NOTE",
+  "text": "(i) To raise the gross weight, hold hand flat with palm up and move in a vertical direction, emphasizing the upward motion."
+ },
+ {
+  "id": "2-6.12",
+  "page": "2-6",
+  "kind": "metin",
+  "sec": "NOTE",
+  "text": "(ii) To lower the gross weight, hold hand with palm down and move in a horizontal direction."
+ },
+ {
+  "id": "2-6.13",
+  "page": "2-6",
+  "kind": "metin",
+  "sec": "NOTE",
+  "text": "(b) At night:"
+ },
+ {
+  "id": "2-6.14",
+  "page": "2-6",
+  "kind": "metin",
+  "sec": "NOTE",
+  "text": "(i) To raise the gross weight, move flashlight in a vertical direction, emphasizing the upward motion."
+ },
+ {
+  "id": "2-6.15",
+  "page": "2-6",
+  "kind": "metin",
+  "sec": "NOTE",
+  "text": "(ii) To lower the gross weight, move flashlight in a horizontal direction."
+ },
+ {
+  "id": "2-6.16",
+  "page": "2-6",
+  "kind": "metin",
+  "sec": "NOTE",
+  "text": "The weight will be adjusted in 500 or 1000 increments in accordance with applicable launch bulletins."
+ },
+ {
+  "id": "2-6.17",
+  "page": "2-6",
+  "kind": "metin",
+  "sec": "NOTE",
+  "text": "If the weight on the board is off by more than two weight increments, or there is confusion regarding adjustments, a radio call stating “Callsign, Gross weight is XX thousand X hundred” shall be made."
+ },
+ {
+  "id": "2-6.18",
+  "page": "2-6",
+  "kind": "baslik",
+  "sec": "NOTE",
+  "text": "NOTE"
+ },
+ {
+  "id": "2-6.19",
+  "page": "2-6",
+  "kind": "metin",
+  "sec": "NOTE",
+  "text": "Ensure the takeoff checklist is completed and trim set to 3.5 degrees nose-up with flaps/slats set to FULL prior to crossing the JBD."
+ },
+ {
+  "id": "2-6.20",
+  "page": "2-6",
+  "kind": "metin",
+  "sec": "NOTE",
+  "text": "Roger the weight board."
+ },
+ {
+  "id": "2-6.21",
+  "page": "2-6",
+  "kind": "baslik",
+  "sec": "3. Catapult Procedures",
+  "text": "3. Catapult Procedures"
+ },
+ {
+  "id": "2-6.22",
+  "page": "2-6",
+  "kind": "metin",
+  "sec": "3. Catapult Procedures",
+  "text": "To ensure proper spotting on the catapult, aircrew must precisely follow the signals from the taxi director."
+ },
+ {
+  "id": "2-6.23",
+  "page": "2-6",
+  "kind": "metin",
+  "sec": "3. Catapult Procedures",
+  "text": "Signals given above the director’s waist are for aircrew while signals given below the waist are for deck crew."
+ },
+ {
+  "id": "2-6.24",
+  "page": "2-6",
+  "kind": "metin",
+  "sec": "3. Catapult Procedures",
+  "text": "The normal sequence of visual signals for catapult operations is as follows:"
+ },
+ {
+  "id": "2-7.01",
+  "page": "2-7",
+  "kind": "metin",
+  "sec": "3. Catapult Procedures",
+  "text": "(a) Extend launch bar: Director rests right elbow in left palm at waist level with right hand held up vertically and then brings right hand down to horizontal position."
+ },
+ {
+  "id": "2-7.02",
+  "page": "2-7",
+  "kind": "metin",
+  "sec": "3. Catapult Procedures",
+  "text": "(b) Disengage nose wheel steering: Director points right index finger to his nose and presents a lateral wave with open palm of the left hand at shoulder height."
+ },
+ {
+  "id": "2-7.03",
+  "page": "2-7",
+  "kind": "metin",
+  "sec": "3. Catapult Procedures",
+  "text": "(c) Taxi ahead: Director extends arms forward at shoulder level with hands up at eye level, palms facing backward and makes beckoning arm motion, speed of arm movement indicates desired speed."
+ },
+ {
+  "id": "2-7.04",
+  "page": "2-7",
+  "kind": "metin",
+  "sec": "3. Catapult Procedures",
+  "text": "(d) Slight turn left/right: Director will nod head in direction of turn while giving taxi ahead signal."
+ },
+ {
+  "id": "2-7.05",
+  "page": "2-7",
+  "kind": "metin",
+  "sec": "3. Catapult Procedures",
+  "text": "(e) Brakes on (when in holdback): Director extends arms above head with open palms toward aircraft and then closes fists."
+ },
+ {
+  "id": "2-7.06",
+  "page": "2-7",
+  "kind": "metin",
+  "sec": "3. Catapult Procedures",
+  "text": "(f) Tension: Director extends arms slightly overhead with fists closed and then opened with palms forward (indication to release brakes); then hand toward bow is swept down to a 45-degree position toward deck, while other hand is swept up 45 degrees toward sky."
+ },
+ {
+  "id": "2-7.07",
+  "page": "2-7",
+  "kind": "metin",
+  "sec": "3. Catapult Procedures",
+  "text": "Pilot releases brakes, heels to deck, stays at idle awaiting runup signal."
+ },
+ {
+  "id": "2-7.08",
+  "page": "2-7",
+  "kind": "metin",
+  "sec": "3. Catapult Procedures",
+  "text": "(g) Retract launch bar: Director rests right elbow in left palm with right arm extended horizontally at waist level and then raised to vertical."
+ },
+ {
+  "id": "2-7.09",
+  "page": "2-7",
+  "kind": "metin",
+  "sec": "3. Catapult Procedures",
+  "text": "(h) Engine runup: Catapult Officer/Catapult Safety Petty Officer (CSPO) makes circular motion with index and middle finger at head level."
+ },
+ {
+  "id": "2-7.10",
+  "page": "2-7",
+  "kind": "metin",
+  "sec": "3. Catapult Procedures",
+  "text": "Pilot advances throttle to MRT and executes Control Check “wipeout” and engine instrument check."
+ },
+ {
+  "id": "2-7.11",
+  "page": "2-7",
+  "kind": "metin",
+  "sec": "3. Catapult Procedures",
+  "text": "(i) Acknowledge salute: Catapult Officer/CSPO returns salute."
+ },
+ {
+  "id": "2-7.12",
+  "page": "2-7",
+  "kind": "metin",
+  "sec": "3. Catapult Procedures",
+  "text": "(j) Launch signal: Catapult Officer/CSPO squats, touches the deck and returns the hand to horizontal in the direction of the launch."
+ },
+ {
+  "id": "2-7.13",
+  "page": "2-7",
+  "kind": "metin",
+  "sec": "3. Catapult Procedures",
+  "text": "(k) Hang fire: Catapult Officer/CSPO extends right-hand index finger overhead and points horizontally at left palm extended vertically."
+ },
+ {
+  "id": "2-7.14",
+  "page": "2-7",
+  "kind": "metin",
+  "sec": "3. Catapult Procedures",
+  "text": "(l) Suspend: Catapult Officer/CSPO raises arms above head with wrists crossed (indicating the launch is to be suspended)."
+ },
+ {
+  "id": "2-7.15",
+  "page": "2-7",
+  "kind": "metin",
+  "sec": "3. Catapult Procedures",
+  "text": "(m) Throttle back: Catapult Officer/CSPO extends arm in front of body at waist level and thumb extended up, then grasps thumb with other hand and rocks as if pulling throttle back."
+ },
+ {
+  "id": "2-8.01",
+  "page": "2-8",
+  "kind": "baslik",
+  "sec": "WARNING",
+  "text": "WARNING"
+ },
+ {
+  "id": "2-8.02",
+  "page": "2-8",
+  "kind": "metin",
+  "sec": "WARNING",
+  "text": "Do not throttle back until the catapult officer walks in front of the aircraft and gives the throttle back signal during suspended launches."
+ },
+ {
+  "id": "2-8.03",
+  "page": "2-8",
+  "kind": "baslik",
+  "sec": "4. Prelaunch Procedures",
+  "text": "4. Prelaunch Procedures"
+ },
+ {
+  "id": "2-8.04",
+  "page": "2-8",
+  "kind": "metin",
+  "sec": "4. Prelaunch Procedures",
+  "text": "When directed by the catapult director (yellow shirt), the launch bar switch is placed to EXTEND."
+ },
+ {
+  "id": "2-8.05",
+  "page": "2-8",
+  "kind": "metin",
+  "sec": "4. Prelaunch Procedures",
+  "text": "The nose wheel steering (NWS) is automatically disengaged with the launch bar extended."
+ },
+ {
+  "id": "2-8.06",
+  "page": "2-8",
+  "kind": "metin",
+  "sec": "4. Prelaunch Procedures",
+  "text": "The yellow shirt may signal to reengage NWS to get the launch bar seated properly into the catapult track."
+ },
+ {
+  "id": "2-8.07",
+  "page": "2-8",
+  "kind": "baslik",
+  "sec": "CAUTION",
+  "text": "CAUTION"
+ },
+ {
+  "id": "2-8.08",
+  "page": "2-8",
+  "kind": "metin",
+  "sec": "CAUTION",
+  "text": "Never operate the parking brake beyond the JBD to prevent blowing tires if the catapult is fired with parking brake engaged."
+ },
+ {
+  "id": "2-8.09",
+  "page": "2-8",
+  "kind": "metin",
+  "sec": "CAUTION",
+  "text": "Following the taxi director’s signals, taxi forward slowly to position the launch bar over the shuttle (significant power may be required)."
+ },
+ {
+  "id": "2-8.10",
+  "page": "2-8",
+  "kind": "metin",
+  "sec": "CAUTION",
+  "text": "When the launch bar drops over the shuttle, the aircraft will be stopped as the holdback engages the catapult buffer."
+ },
+ {
+  "id": "2-8.11",
+  "page": "2-8",
+  "kind": "baslik",
+  "sec": "CAUTION",
+  "text": "CAUTION"
+ },
+ {
+  "id": "2-8.12",
+  "page": "2-8",
+  "kind": "metin",
+  "sec": "CAUTION",
+  "text": "To prevent the possibility of breaking the holdback link, taxi speed must be kept to a crawl."
+ },
+ {
+  "id": "2-8.13",
+  "page": "2-8",
+  "kind": "metin",
+  "sec": "CAUTION",
+  "text": "The pilot will apply and hold the brakes when signaled."
+ },
+ {
+  "id": "2-8.14",
+  "page": "2-8",
+  "kind": "metin",
+  "sec": "CAUTION",
+  "text": "When the take tension signal is given by the catapult director, the brakes are released."
+ },
+ {
+  "id": "2-8.15",
+  "page": "2-8",
+  "kind": "metin",
+  "sec": "CAUTION",
+  "text": "As tension is taken, the aircraft will squat."
+ },
+ {
+  "id": "2-8.16",
+  "page": "2-8",
+  "kind": "metin",
+  "sec": "CAUTION",
+  "text": "When engine Runup Signal is given by the catapult director, power is advanced to MRT and the controls are wiped out (INCLUDING RUDDER!)."
+ },
+ {
+  "id": "2-8.17",
+  "page": "2-8",
+  "kind": "metin",
+  "sec": "CAUTION",
+  "text": "The launch bar switch is placed to RETRACT once engine RPM reaches 95 percent."
+ },
+ {
+  "id": "2-8.18",
+  "page": "2-8",
+  "kind": "metin",
+  "sec": "CAUTION",
+  "text": "The launch bar will be held down by shuttle tension."
+ },
+ {
+  "id": "2-8.19",
+  "page": "2-8",
+  "kind": "metin",
+  "sec": "CAUTION",
+  "text": "Place your heels on the deck and assume the correct body position for launch."
+ },
+ {
+  "id": "2-8.20",
+  "page": "2-8",
+  "kind": "baslik",
+  "sec": "WARNING",
+  "text": "WARNING"
+ },
+ {
+  "id": "2-8.21",
+  "page": "2-8",
+  "kind": "metin",
+  "sec": "WARNING",
+  "text": "Selecting launch bar RETRACT before receiving the retract signal from the aircraft director may raise the launch bar before it is properly seated in the shuttle spreader assembly, resulting in a mis- positioned launch bar."
+ },
+ {
+  "id": "2-8.22",
+  "page": "2-8",
+  "kind": "baslik",
+  "sec": "CAUTION",
+  "text": "CAUTION"
+ },
+ {
+  "id": "2-8.23",
+  "page": "2-8",
+  "kind": "metin",
+  "sec": "CAUTION",
+  "text": "(1) If launch bar is retracted below max RPM, an ACCEL light may illumina"
+ },
+ {
+  "id": "2-9.01",
+  "page": "2-9",
+  "kind": "metin",
+  "sec": "CAUTION",
+  "text": "(2) Failing to use the catapult grip could result in power settings less than MRT during the cat stroke."
+ },
+ {
+  "id": "2-9.02",
+  "page": "2-9",
+  "kind": "metin",
+  "sec": "CAUTION",
+  "text": "The catapult director will pass control to the Catapult Officer or Topside Safety Petty Officer, who will signal engine run-up to MIL/MAX as appropriate."
+ },
+ {
+  "id": "2-9.03",
+  "page": "2-9",
+  "kind": "metin",
+  "sec": "CAUTION",
+  "text": "Check the engine instruments (EGT, rpm, fuel flow) and monitor the central warning system (CWS) indicators and advisory lights."
+ },
+ {
+  "id": "2-9.04",
+  "page": "2-9",
+  "kind": "metin",
+  "sec": "CAUTION",
+  "text": "Observe the cockpit wipeout and verify the full throw of the stick and rudder in all directions."
+ },
+ {
+  "id": "2-9.05",
+  "page": "2-9",
+  "kind": "baslik",
+  "sec": "WARNING",
+  "text": "WARNING"
+ },
+ {
+  "id": "2-9.06",
+  "page": "2-9",
+  "kind": "metin",
+  "sec": "WARNING",
+  "text": "Brakes may inadvertently be applied during a catapult launch, resulting in a blown tire, even with heels placed on the deck."
+ },
+ {
+  "id": "2-9.07",
+  "page": "2-9",
+  "kind": "baslik",
+  "sec": "5. Launch",
+  "text": "5. Launch"
+ },
+ {
+  "id": "2-9.08",
+  "page": "2-9",
+  "kind": "metin",
+  "sec": "5. Launch",
+  "text": "When ready for launch, the pilot will crisply give a right-handed salute to the Catapult Officer/CSPO (at night aircraft external lights are turned on meaning the same as the daytime hand salute)."
+ },
+ {
+  "id": "2-9.09",
+  "page": "2-9",
+  "kind": "metin",
+  "sec": "5. Launch",
+  "text": "The catapult officer will make final checks, looking fore and aft, and then touch the deck."
+ },
+ {
+  "id": "2-9.10",
+  "page": "2-9",
+  "kind": "metin",
+  "sec": "5. Launch",
+  "text": "After a delay of approximately one second, the catapult will fire and the aircraft will accelerate, reaching end speed in about two seconds."
+ },
+ {
+  "id": "2-9.11",
+  "page": "2-9",
+  "kind": "metin",
+  "sec": "5. Launch",
+  "text": "If the launch is a “bubble launch,” the CSPO will return salute."
+ },
+ {
+  "id": "2-9.12",
+  "page": "2-9",
+  "kind": "metin",
+  "sec": "5. Launch",
+  "text": "The Catapult Officer will affect the launch after clearing fore and aft."
+ },
+ {
+  "id": "2-9.13",
+  "page": "2-9",
+  "kind": "metin",
+  "sec": "5. Launch",
+  "text": "The edge of the flight deck should pass under the nose at 120 KIAS minimum, or excess end airspeed, whichever is greater."
+ },
+ {
+  "id": "2-9.14",
+  "page": "2-9",
+  "kind": "metin",
+  "sec": "5. Launch",
+  "text": "Refer to the Catapult Launch Minimum Endspeed Chart in NATOPS Chapter 8."
+ },
+ {
+  "id": "2-9.15",
+  "page": "2-9",
+  "kind": "metin",
+  "sec": "5. Launch",
+  "text": "As the aircraft clears the end of the stroke, the pilot will rotate to 10-12 degrees nose up attitude and establish a positive rate of climb."
+ },
+ {
+  "id": "2-9.16",
+  "page": "2-9",
+  "kind": "metin",
+  "sec": "5. Launch",
+  "text": "Gear and flaps will be raised in accordance with NATOPS."
+ },
+ {
+  "id": "2-9.17",
+  "page": "2-9",
+  "kind": "metin",
+  "sec": "5. Launch",
+  "text": "When clearing turns are called for, they are governed by the ship’s policy."
+ },
+ {
+  "id": "2-9.18",
+  "page": "2-9",
+  "kind": "metin",
+  "sec": "5. Launch",
+  "text": "Clearing turns will be made to the right for launches off the bow catapults and to the left for launches off the waist catapults."
+ },
+ {
+  "id": "2-9.19",
+  "page": "2-9",
+  "kind": "metin",
+  "sec": "5. Launch",
+  "text": "During Carrier Qualification (CARQUAL) evolutions, clearing turns will not normally be required."
+ },
+ {
+  "id": "2-9.20",
+  "page": "2-9",
+  "kind": "baslik",
+  "sec": "6. Departure Procedures",
+  "text": "6. Departure Procedures"
+ },
+ {
+  "id": "2-9.21",
+  "page": "2-9",
+  "kind": "metin",
+  "sec": "6. Departure Procedures",
+  "text": "Departure procedures are predicated on case operations."
+ },
+ {
+  "id": "2-9.22",
+  "page": "2-9",
+  "kind": "metin",
+  "sec": "6. Departure Procedures",
+  "text": "(a) Case I. Case I departures are flown during day VMC conditions (WX 3,000-5 or better)."
+ },
+ {
+  "id": "2-9.23",
+  "page": "2-9",
+  "kind": "metin",
+  "sec": "6. Departure Procedures",
+  "text": "Once the aircraft clears the catapult and a positive rate of climb is established, the pilot will execute a clearing turn, climb to 500’ and parallel base recovery course (BRC)."
+ },
+ {
+  "id": "2-9.24",
+  "page": "2-9",
+  "kind": "metin",
+  "sec": "6. Departure Procedures",
+  "text": "The Case I departure is flown at 500’ and 300 KIAS paralleling BRC until 7 DME."
+ },
+ {
+  "id": "2-9.25",
+  "page": "2-9",
+  "kind": "metin",
+  "sec": "6. Departure Procedures",
+  "text": "When directed, or at 7 DME, the aircraft shall climb VMC on course (Figure 2-1)."
+ },
+ {
+  "id": "2-10.01",
+  "page": "2-10",
+  "kind": "sekil",
+  "sec": "6. Departure Procedures",
+  "text": "Figure 2-1 Case I Departure"
+ },
+ {
+  "id": "2-10.02",
+  "page": "2-10",
+  "kind": "metin",
+  "sec": "6. Departure Procedures",
+  "text": "(b) Case II. Case II departures are flown when visual conditions are present at the ship, but a controlled climb is required (WX less than 3000-5, but greater than 1000-5)."
+ },
+ {
+  "id": "2-10.03",
+  "page": "2-10",
+  "kind": "metin",
+  "sec": "6. Departure Procedures",
+  "text": "Departure Control frequency will be used for the launch."
+ },
+ {
+  "id": "2-10.04",
+  "page": "2-10",
+  "kind": "metin",
+  "sec": "6. Departure Procedures",
+  "text": "After the clearing turn, proceed straight ahead at 500 feet and 300 KIAS paralleling BRC."
+ },
+ {
+  "id": "2-10.05",
+  "page": "2-10",
+  "kind": "metin",
+  "sec": "6. Departure Procedures",
+  "text": "At 7 DME, turn to intercept the 10 DME arc, maintaining visual conditions until established on the departure radial (Figure 2-2)."
+ },
+ {
+  "id": "2-10.06",
+  "page": "2-10",
+  "kind": "metin",
+  "sec": "6. Departure Procedures",
+  "text": "The 500-foot altitude restriction is lifted after 7 DME, if the climb can be continued in VMC."
+ },
+ {
+  "id": "2-10.07",
+  "page": "2-10",
+  "kind": "metin",
+  "sec": "6. Departure Procedures",
+  "text": "Maintain 300 KIAS until VMC on top."
+ },
+ {
+  "id": "2-10.08",
+  "page": "2-10",
+  "kind": "metin",
+  "sec": "6. Departure Procedures",
+  "text": "If you are still IMC passing 18,000 feet, report “Popeye” to receive instructions."
+ },
+ {
+  "id": "2-10.09",
+  "page": "2-10",
+  "kind": "sekil",
+  "sec": "6. Departure Procedures",
+  "text": "Figure 2-2 Case II Departure"
+ },
+ {
+  "id": "2-11.01",
+  "page": "2-11",
+  "kind": "metin",
+  "sec": "6. Departure Procedures",
+  "text": "(c) Case III. Case III departures are flown at night and when weather conditions are IMC (WX below 1000-5), and a controlled climb is required."
+ },
+ {
+  "id": "2-11.02",
+  "page": "2-11",
+  "kind": "metin",
+  "sec": "6. Departure Procedures",
+  "text": "The aircraft will launch on Departure Control frequency, with a minimum launch interval of 30 seconds between aircraft."
+ },
+ {
+  "id": "2-11.03",
+  "page": "2-11",
+  "kind": "metin",
+  "sec": "6. Departure Procedures",
+  "text": "Following the launch, climb straight ahead at 300 kts, crossing 5 NM at 1500 AGL or above; at 7 NM, turn to intercept the 10 NM arc."
+ },
+ {
+  "id": "2-11.04",
+  "page": "2-11",
+  "kind": "metin",
+  "sec": "6. Departure Procedures",
+  "text": "Continue climbing and join the departure radial."
+ },
+ {
+  "id": "2-11.05",
+  "page": "2-11",
+  "kind": "metin",
+  "sec": "6. Departure Procedures",
+  "text": "The following voice reports and examples are commonly used during Case III departures:"
+ },
+ {
+  "id": "2-11.06",
+  "page": "2-11",
+  "kind": "metin",
+  "sec": "6. Departure Procedures",
+  "text": "(i) Airborne - “Departure, 405, airborne”"
+ },
+ {
+  "id": "2-11.07",
+  "page": "2-11",
+  "kind": "metin",
+  "sec": "6. Departure Procedures",
+  "text": "(ii) Passing 2,500 feet - “Departure, 405, passing 2.5”"
+ },
+ {
+  "id": "2-11.08",
+  "page": "2-11",
+  "kind": "metin",
+  "sec": "6. Departure Procedures",
+  "text": "(iii) Arcing (turning onto the 10 NM arc) - “Departure, 405, Arcing”"
+ },
+ {
+  "id": "2-11.09",
+  "page": "2-11",
+  "kind": "metin",
+  "sec": "6. Departure Procedures",
+  "text": "(iv) Established outbound (on assigned radial) - “Departure, 405, Established outbound”"
+ },
+ {
+  "id": "2-11.10",
+  "page": "2-11",
+  "kind": "metin",
+  "sec": "6. Departure Procedures",
+  "text": "(v) Popeye, with altitude - “Departure, 405, Popeye, Angels eighteen”"
+ },
+ {
+  "id": "2-11.11",
+  "page": "2-11",
+  "kind": "metin",
+  "sec": "6. Departure Procedures",
+  "text": "(vi) On top, with altitude - “Departure, 405, On top, Angels twelve”"
+ },
+ {
+  "id": "2-11.12",
+  "page": "2-11",
+  "kind": "metin",
+  "sec": "6. Departure Procedures",
+  "text": "(vii) Kilo (indicates the aircraft is mission-ready) - “Departure, 405, Kilo”"
+ },
+ {
+  "id": "2-11.13",
+  "page": "2-11",
+  "kind": "baslik",
+  "sec": "204. ARRIVAL AND RECOVERY",
+  "text": "204. ARRIVAL AND RECOVERY"
+ },
+ {
+  "id": "2-11.14",
+  "page": "2-11",
+  "kind": "metin",
+  "sec": "204. ARRIVAL AND RECOVERY",
+  "text": "Following the mission, aircraft will proceed back to Mother to arrive at their scheduled cyclic land time."
+ },
+ {
+  "id": "2-11.15",
+  "page": "2-11",
+  "kind": "metin",
+  "sec": "204. ARRIVAL AND RECOVERY",
+  "text": "After checking out on the mission frequency, contact the CSG air defense controller (Red Crown) with your call sign, position and altitude."
+ },
+ {
+  "id": "2-11.16",
+  "page": "2-11",
+  "kind": "metin",
+  "sec": "204. ARRIVAL AND RECOVERY",
+  "text": "Red Crown will pass instructions, and then hand you off to Strike Control."
+ },
+ {
+  "id": "2-11.17",
+  "page": "2-11",
+  "kind": "metin",
+  "sec": "204. ARRIVAL AND RECOVERY",
+  "text": "This hand off should occur prior to entering the 50 NM Carrier Control Area (CCA)."
+ },
+ {
+  "id": "2-11.18",
+  "page": "2-11",
+  "kind": "metin",
+  "sec": "204. ARRIVAL AND RECOVERY",
+  "text": "The check in with Strike will be the same as for Red Crown except you will also include the low fuel state in your flight."
+ },
+ {
+  "id": "2-11.19",
+  "page": "2-11",
+  "kind": "metin",
+  "sec": "204. ARRIVAL AND RECOVERY",
+  "text": "If any aircraft in the flight have maintenance discrepancies (“alibis”), pass them to the Strike controller who will then relay them to the ready room."
+ },
+ {
+  "id": "2-11.20",
+  "page": "2-11",
+  "kind": "metin",
+  "sec": "204. ARRIVAL AND RECOVERY",
+  "text": "Time permitting; Strike will give the current weather, anticipated Case recovery and any other general information for the recovery."
+ },
+ {
+  "id": "2-11.21",
+  "page": "2-11",
+  "kind": "metin",
+  "sec": "204. ARRIVAL AND RECOVERY",
+  "text": "If flying from the ship to shore, or vice versa, it is important to ensure that the aircraft is setup for the particulars of that recovery."
+ },
+ {
+  "id": "2-11.22",
+  "page": "2-11",
+  "kind": "metin",
+  "sec": "204. ARRIVAL AND RECOVERY",
+  "text": "Go through the ship -to-shore checklist (HAIL-R) to ensure this is done."
+ },
+ {
+  "id": "2-11.23",
+  "page": "2-11",
+  "kind": "metin",
+  "sec": "204. ARRIVAL AND RECOVERY",
+  "text": "• H: Hook / Heats"
+ },
+ {
+  "id": "2-11.24",
+  "page": "2-11",
+  "kind": "metin",
+  "sec": "204. ARRIVAL AND RECOVERY",
+  "text": "• A: Anti-Skid / Altimeter"
+ },
+ {
+  "id": "2-11.25",
+  "page": "2-11",
+  "kind": "metin",
+  "sec": "204. ARRIVAL AND RECOVERY",
+  "text": "• I: Instruments"
+ },
+ {
+  "id": "2-11.26",
+  "page": "2-11",
+  "kind": "metin",
+  "sec": "204. ARRIVAL AND RECOVERY",
+  "text": "• L: Landing Weight / Lights"
+ },
+ {
+  "id": "2-12.01",
+  "page": "2-12",
+  "kind": "metin",
+  "sec": "204. ARRIVAL AND RECOVERY",
+  "text": "• R: Radios / RADALT"
+ },
+ {
+  "id": "2-12.02",
+  "page": "2-12",
+  "kind": "metin",
+  "sec": "204. ARRIVAL AND RECOVERY",
+  "text": "It is easy to see how missing an item on this checklist could result in a real problem; blown tires on the runway, landing overweight at the ship, or inadvertently taking a trap on the beach."
+ },
+ {
+  "id": "2-12.03",
+  "page": "2-12",
+  "kind": "metin",
+  "sec": "204. ARRIVAL AND RECOVERY",
+  "text": "Once inside the CCA, Strike will hand aircraft off to the Marshal controller."
+ },
+ {
+  "id": "2-12.04",
+  "page": "2-12",
+  "kind": "metin",
+  "sec": "204. ARRIVAL AND RECOVERY",
+  "text": "Check in on Marshal Frequency with call sign, position, altitude and low state."
+ },
+ {
+  "id": "2-12.05",
+  "page": "2-12",
+  "kind": "metin",
+  "sec": "204. ARRIVAL AND RECOVERY",
+  "text": "Marshal will assign case recovery holding instructions (including assigned altitude) and pass the ship’s weather, altimeter setting, BRC and bingo information."
+ },
+ {
+  "id": "2-12.06",
+  "page": "2-12",
+  "kind": "metin",
+  "sec": "204. ARRIVAL AND RECOVERY",
+  "text": "BRC is the ship’s heading during the recovery."
+ },
+ {
+  "id": "2-12.07",
+  "page": "2-12",
+  "kind": "metin",
+  "sec": "204. ARRIVAL AND RECOVERY",
+  "text": "For Case I recoveries, Marshal will clear aircraft to the overhead holding pattern and instruct you to call “see me” at 10NM from the ship."
+ },
+ {
+  "id": "2-12.08",
+  "page": "2-12",
+  "kind": "metin",
+  "sec": "204. ARRIVAL AND RECOVERY",
+  "text": "This call indicates you have visual contact with Mother."
+ },
+ {
+  "id": "2-12.09",
+  "page": "2-12",
+  "kind": "metin",
+  "sec": "204. ARRIVAL AND RECOVERY",
+  "text": "For Case II and III recoveries, Marshal will give holding instructions and an expected approach time (push time)."
+ },
+ {
+  "id": "2-12.10",
+  "page": "2-12",
+  "kind": "metin",
+  "sec": "204. ARRIVAL AND RECOVERY",
+  "text": "Example radio calls:"
+ },
+ {
+  "id": "2-12.11",
+  "page": "2-12",
+  "kind": "metin",
+  "sec": "204. ARRIVAL AND RECOVERY",
+  "text": "405 - “Red Crown, 405, Mother’s 250 for 75, Angels 17” Red Crown - “405, sweet/sweet, contact Strike” 405 - “Strike, 405, Mother’s 250 for 55, Angels 12, State 2.4."
+ },
+ {
+  "id": "2-12.12",
+  "page": "2-12",
+  "kind": "metin",
+  "sec": "204. ARRIVAL AND RECOVERY",
+  "text": "No alibis” Strike - “405, sweet/sweet, Mother is VFR, Case I."
+ },
+ {
+  "id": "2-12.13",
+  "page": "2-12",
+  "kind": "metin",
+  "sec": "204. ARRIVAL AND RECOVERY",
+  "text": "Contact Marshal” 405 - “Marshal, 405, 250 for 52, Angels 9, State 2.4” Marshal - “405, Case I."
+ },
+ {
+  "id": "2-12.14",
+  "page": "2-12",
+  "kind": "metin",
+  "sec": "204. ARRIVAL AND RECOVERY",
+  "text": "BRC is 015, Expected Charlie time 22."
+ },
+ {
+  "id": "2-12.15",
+  "page": "2-12",
+  "kind": "metin",
+  "sec": "204. ARRIVAL AND RECOVERY",
+  "text": "Report see me” Or “405, Case II (or III)."
+ },
+ {
+  "id": "2-12.16",
+  "page": "2-12",
+  "kind": "metin",
+  "sec": "204. ARRIVAL AND RECOVERY",
+  "text": "BRC is 015."
+ },
+ {
+  "id": "2-12.17",
+  "page": "2-12",
+  "kind": "metin",
+  "sec": "204. ARRIVAL AND RECOVERY",
+  "text": "Marshal on the 245 radial at 25 DME, Angels 10."
+ },
+ {
+  "id": "2-12.18",
+  "page": "2-12",
+  "kind": "metin",
+  "sec": "204. ARRIVAL AND RECOVERY",
+  "text": "Expected approach time 22, Approach button 17, altimeter 29.94”"
+ },
+ {
+  "id": "2-13.01",
+  "page": "2-13",
+  "kind": "baslik",
+  "sec": "1. Case I",
+  "text": "1. Case I"
+ },
+ {
+  "id": "2-13.02",
+  "page": "2-13",
+  "kind": "metin",
+  "sec": "1. Case I",
+  "text": "Case I recoveries are used to the maximum extent possible, provided the weather is better than 3,000/5."
+ },
+ {
+  "id": "2-13.03",
+  "page": "2-13",
+  "kind": "metin",
+  "sec": "1. Case I",
+  "text": "(a) Overhead (Port) Holding. After the initial check in with Marshal, proceed directly to Mother and enter overhead holding at your squadron’s holding altitude."
+ },
+ {
+  "id": "2-13.04",
+  "page": "2-13",
+  "kind": "metin",
+  "sec": "1. Case I",
+  "text": "When in visual contact with Mother, notify Marshal with the “see you” call."
+ },
+ {
+  "id": "2-13.05",
+  "page": "2-13",
+  "kind": "metin",
+  "sec": "1. Case I",
+  "text": "Aircraft returning for Case I recoveries must be established at their respective holding altitudes no later than 10 NM."
+ },
+ {
+  "id": "2-13.06",
+  "page": "2-13",
+  "kind": "metin",
+  "sec": "1. Case I",
+  "text": "Proceed to overhead holding, and enter the pattern tangentially (Figure 2-3)."
+ },
+ {
+  "id": "2-13.07",
+  "page": "2-13",
+  "kind": "sekil",
+  "sec": "1. Case I",
+  "text": "Figure 2-3 Case I Port Holding Pattern Entry"
+ },
+ {
+  "id": "2-13.08",
+  "page": "2-13",
+  "kind": "metin",
+  "sec": "1. Case I",
+  "text": "The overhead holding pattern is a left-hand pattern, with Point 1 located directly overhead the carrier."
+ },
+ {
+  "id": "2-13.09",
+  "page": "2-13",
+  "kind": "metin",
+  "sec": "1. Case I",
+  "text": "Points 2, 3 and 4 sequentially follow in 90-degree increments (Figure 2-4)."
+ },
+ {
+  "id": "2-13.10",
+  "page": "2-13",
+  "kind": "metin",
+  "sec": "1. Case I",
+  "text": "This holding pattern is often referred to as the “stack,” and all aircraft must remain within 5 NM and no lower than 2,000 feet AGL."
+ },
+ {
+  "id": "2-13.11",
+  "page": "2-13",
+  "kind": "metin",
+  "sec": "1. Case I",
+  "text": "While holding, the flight will remain at max conserve fuel flow unless briefed otherwise."
+ },
+ {
+  "id": "2-14.01",
+  "page": "2-14",
+  "kind": "sekil",
+  "sec": "1. Case I",
+  "text": "Figure 2-4 Case I Overhead Holding Pattern"
+ },
+ {
+  "id": "2-14.02",
+  "page": "2-14",
+  "kind": "metin",
+  "sec": "1. Case I",
+  "text": "Each squadron has an assigned holding altitude in the stack, beginning at 2,000 feet AGL."
+ },
+ {
+  "id": "2-14.03",
+  "page": "2-14",
+  "kind": "metin",
+  "sec": "1. Case I",
+  "text": "These assigned altitudes are separated vertically by a minimum of 1,000 feet and are assigned by the CVW SOP."
+ },
+ {
+  "id": "2-14.04",
+  "page": "2-14",
+  "kind": "metin",
+  "sec": "1. Case I",
+  "text": "Once established in holding, any altitude changes within the pattern are accomplished as follows:"
+ },
+ {
+  "id": "2-14.05",
+  "page": "2-14",
+  "kind": "metin",
+  "sec": "1. Case I",
+  "text": "(i) Climbs: Performed between points 1 and 3."
+ },
+ {
+  "id": "2-14.06",
+  "page": "2-14",
+  "kind": "metin",
+  "sec": "1. Case I",
+  "text": "(ii) Descents: Performed between points 3 and 1."
+ },
+ {
+  "id": "2-14.07",
+  "page": "2-14",
+  "kind": "metin",
+  "sec": "1. Case I",
+  "text": "The lowest aircraft in the stack must closely monitor the launch so as to arrive in the groove at the expected ramp time."
+ },
+ {
+  "id": "2-14.08",
+  "page": "2-14",
+  "kind": "metin",
+  "sec": "1. Case I",
+  "text": "When the last aircraft is launching, or when given a “Signal Charlie” call from Tower, the flight will depart the holding pattern on a heading of approximately 210 degrees relative to BRC."
+ },
+ {
+  "id": "2-14.09",
+  "page": "2-14",
+  "kind": "metin",
+  "sec": "1. Case I",
+  "text": "As altitudes in the stack are vacated, aircraft at the next highest altitude will descend to the next lower vacated altitude."
+ },
+ {
+  "id": "2-15.01",
+  "page": "2-15",
+  "kind": "metin",
+  "sec": "1. Case I",
+  "text": "(b) Breaking the Deck. The majority of Case I operations are conducted under Zip Lip conditions, meaning that radio communications are minimized (unless CQ, low visibility, or safety of flight)."
+ },
+ {
+  "id": "2-15.02",
+  "page": "2-15",
+  "kind": "metin",
+  "sec": "1. Case I",
+  "text": "In this situation, the Boss will not make a “99, Charlie” call on the radio; therefore, it is incumbent on aircraft holding overhead to determine when to depart holding, fly to the initial and break."
+ },
+ {
+  "id": "2-15.03",
+  "page": "2-15",
+  "kind": "metin",
+  "sec": "1. Case I",
+  "text": "The goal is to arrive in the groove just as the flight deck is made ready for recovery operations (ready deck)."
+ },
+ {
+  "id": "2-15.04",
+  "page": "2-15",
+  "kind": "metin",
+  "sec": "1. Case I",
+  "text": "This is called breaking the deck and is a skill that must be mastered in order to maximize the efficiency of recovery operations."
+ },
+ {
+  "id": "2-15.05",
+  "page": "2-15",
+  "kind": "metin",
+  "sec": "1. Case I",
+  "text": "To effectively break the deck, aircraft in overhead holding will stagger their intervals to ensure equal spacing from all flights at the same altitude."
+ },
+ {
+  "id": "2-15.06",
+  "page": "2-15",
+  "kind": "metin",
+  "sec": "1. Case I",
+  "text": "If there are two total flights, then they should be 180-degrees apart."
+ },
+ {
+  "id": "2-15.07",
+  "page": "2-15",
+  "kind": "metin",
+  "sec": "1. Case I",
+  "text": "Three flights should be 120-degrees apart."
+ },
+ {
+  "id": "2-15.08",
+  "page": "2-15",
+  "kind": "metin",
+  "sec": "1. Case I",
+  "text": "Four flights will be 90-degrees apart."
+ },
+ {
+  "id": "2-15.09",
+  "page": "2-15",
+  "kind": "metin",
+  "sec": "1. Case I",
+  "text": "This ensures aircraft are crossing point 1 (Mother) at regular intervals."
+ },
+ {
+  "id": "2-15.10",
+  "page": "2-15",
+  "kind": "metin",
+  "sec": "1. Case I",
+  "text": "Each flight will observe the departure operations and determine whether or not to depart holding for the break at point 3."
+ },
+ {
+  "id": "2-15.11",
+  "page": "2-15",
+  "kind": "metin",
+  "sec": "1. Case I",
+  "text": "(c) Break. When departing holding, the flight will descend outside of point 3 to 800 feet and proceed to the initial 3NM astern of the ship."
+ },
+ {
+  "id": "2-15.12",
+  "page": "2-15",
+  "kind": "metin",
+  "sec": "1. Case I",
+  "text": "The flight will continue inbound and fly just outboard the starboard side of the ship at 800 feet, paralleling BRC."
+ },
+ {
+  "id": "2-15.13",
+  "page": "2-15",
+  "kind": "metin",
+  "sec": "1. Case I",
+  "text": "Break altitude is 800 feet, and all breaks will be level."
+ },
+ {
+  "id": "2-15.14",
+  "page": "2-15",
+  "kind": "metin",
+  "sec": "1. Case I",
+  "text": "The break interval is determined by the last aircraft in the landing pattern."
+ },
+ {
+  "id": "2-15.15",
+  "page": "2-15",
+  "kind": "metin",
+  "sec": "1. Case I",
+  "text": "A 15-20 second break interval will correspond to a 40- 60 second landing interval."
+ },
+ {
+  "id": "2-15.16",
+  "page": "2-15",
+  "kind": "metin",
+  "sec": "1. Case I",
+  "text": "No breaks will be performed more than 4 NM ahead of the ship."
+ },
+ {
+  "id": "2-15.17",
+  "page": "2-15",
+  "kind": "metin",
+  "sec": "1. Case I",
+  "text": "If you are unable to break before 4 NM, you will have to depart and reenter the pattern."
+ },
+ {
+  "id": "2-15.18",
+  "page": "2-15",
+  "kind": "metin",
+  "sec": "1. Case I",
+  "text": "To accomplish this, maintain 800 feet until 5 NM, then climb to 1,200 feet and execute a left-hand arc back to the initial."
+ },
+ {
+  "id": "2-15.19",
+  "page": "2-15",
+  "kind": "metin",
+  "sec": "1. Case I",
+  "text": "Tower must be notified of your intentions."
+ },
+ {
+  "id": "2-15.20",
+  "page": "2-15",
+  "kind": "metin",
+  "sec": "1. Case I",
+  "text": "(d) Spin Procedures. If the pattern is full (more than six aircraft in the pattern) when the flight arrives at the fantail, the flight will have to “spin it."
+ },
+ {
+  "id": "2-15.21",
+  "page": "2-15",
+  "kind": "metin",
+  "sec": "1. Case I",
+  "text": "To perform a spin, the flight will simultaneously climb to 1,200 feet and perform a left-hand turn remaining within 3 DME."
+ },
+ {
+  "id": "2-15.22",
+  "page": "2-15",
+  "kind": "metin",
+  "sec": "1. Case I",
+  "text": "After 270 degrees of turn (aft of abeam), the flight will descend to 800 feet and proceed inbound for the break."
+ },
+ {
+  "id": "2-15.23",
+  "page": "2-15",
+  "kind": "metin",
+  "sec": "1. Case I",
+  "text": "Aircraft reentering the break from the spin pattern have priority in the break."
+ },
+ {
+  "id": "2-15.24",
+  "page": "2-15",
+  "kind": "metin",
+  "sec": "1. Case I",
+  "text": "Upwind interval is determined by “first to the bow,” whether that is break traffic, waveoff, touch-and-go, or bolter."
+ },
+ {
+  "id": "2-15.25",
+  "page": "2-15",
+  "kind": "metin",
+  "sec": "1. Case I",
+  "text": "However, caution must be exercised when reentering the initial so as to avoid conflict with other aircraft inbound for the break."
+ },
+ {
+  "id": "2-15.26",
+  "page": "2-15",
+  "kind": "metin",
+  "sec": "1. Case I",
+  "text": "(e) Carrier Landing Pattern. The carrier landing pattern is nearly identical to the landing pattern at the field."
+ },
+ {
+  "id": "2-15.27",
+  "page": "2-15",
+  "kind": "metin",
+  "sec": "1. Case I",
+  "text": "The biggest difference is that the 180 and Abeam positions are co- located at the carrier."
+ },
+ {
+  "id": "2-15.28",
+  "page": "2-15",
+  "kind": "metin",
+  "sec": "1. Case I",
+  "text": "Additionally, the downwind heading at the ship is the reciprocal of the BRC vice the landing heading (which will be approximately 10 degrees less than BRC due to the angled deck)."
+ },
+ {
+  "id": "2-15.29",
+  "page": "2-15",
+  "kind": "metin",
+  "sec": "1. Case I",
+  "text": "When established on downwind, individual aircraft will descend to pattern altitude of 600 feet, perform landing checks and closely monitor the abeam distance."
+ },
+ {
+  "id": "2-15.30",
+  "page": "2-15",
+  "kind": "metin",
+  "sec": "1. Case I",
+  "text": "The carrier landing pattern is illustrated in Figure 2-5."
+ },
+ {
+  "id": "2-16.01",
+  "page": "2-16",
+  "kind": "sekil",
+  "sec": "1. Case I",
+  "text": "Figure 2-5 Carrier Landing Pattern"
+ },
+ {
+  "id": "2-16.02",
+  "page": "2-16",
+  "kind": "metin",
+  "sec": "1. Case I",
+  "text": "(f) Touch and Go/Bolter. The procedures for touch and go landings and bolters are identical."
+ },
+ {
+  "id": "2-16.03",
+  "page": "2-16",
+  "kind": "metin",
+  "sec": "1. Case I",
+  "text": "Continue to fly the ball all the way to touchdown."
+ },
+ {
+  "id": "2-16.04",
+  "page": "2-16",
+  "kind": "metin",
+  "sec": "1. Case I",
+  "text": "Upon touchdown, simultaneously advance power to MRT, retract speed brakes, and rotate to optimum AOA."
+ },
+ {
+  "id": "2-16.05",
+  "page": "2-16",
+  "kind": "metin",
+  "sec": "1. Case I",
+  "text": "Maintain wings level and verify a positive rate of climb and maintain optimum AOA."
+ },
+ {
+  "id": "2-16.06",
+  "page": "2-16",
+  "kind": "metin",
+  "sec": "1. Case I",
+  "text": "Once a positive rate of climb is established and your aircraft is abeam the bow, use a shallow right turn to parallel the BRC."
+ },
+ {
+  "id": "2-16.07",
+  "page": "2-16",
+  "kind": "metin",
+  "sec": "1. Case I",
+  "text": "Take interval on any aircraft that reaches the bow prior to you, either entering the break or launching off the cat."
+ },
+ {
+  "id": "2-16.08",
+  "page": "2-16",
+  "kind": "metin",
+  "sec": "1. Case I",
+  "text": "Climb to pattern altitude (600 feet) and turn downwind with proper interval."
+ },
+ {
+  "id": "2-17.01",
+  "page": "2-17",
+  "kind": "baslik",
+  "sec": "CAUTION",
+  "text": "CAUTION"
+ },
+ {
+  "id": "2-17.02",
+  "page": "2-17",
+  "kind": "metin",
+  "sec": "CAUTION",
+  "text": "To avoid interfering with aircraft off the cat or in the break, do not cross the ship’s bow."
+ },
+ {
+  "id": "2-17.03",
+  "page": "2-17",
+  "kind": "metin",
+  "sec": "CAUTION",
+  "text": "(g) Waveoff. Waveoffs are MANDATORY."
+ },
+ {
+  "id": "2-17.04",
+  "page": "2-17",
+  "kind": "metin",
+  "sec": "CAUTION",
+  "text": "All waveoffs are made up the angled deck unless otherwise directed by the LSO or the tower (i.e. “waveoff starboard side”)."
+ },
+ {
+  "id": "2-17.05",
+  "page": "2-17",
+  "kind": "metin",
+  "sec": "CAUTION",
+  "text": "All aircraft must comply with waveoff signals, whether they are verbal or solely with the waveoff lights on the lens."
+ },
+ {
+  "id": "2-17.06",
+  "page": "2-17",
+  "kind": "metin",
+  "sec": "CAUTION",
+  "text": "Waveoffs may result from a fouled deck, winds out of limits, or aircraft not being set up for a safe landing."
+ },
+ {
+  "id": "2-17.07",
+  "page": "2-17",
+  "kind": "metin",
+  "sec": "CAUTION",
+  "text": "To perform a waveoff, simultaneously advance power to MRT, retract speed brakes, maintain landing attitude (not to exceed optimum AOA), level wings, and climb up the angled deck."
+ },
+ {
+  "id": "2-17.08",
+  "page": "2-17",
+  "kind": "metin",
+  "sec": "CAUTION",
+  "text": "Verify a positive rate of climb and maintain optimum AOA."
+ },
+ {
+  "id": "2-17.09",
+  "page": "2-17",
+  "kind": "metin",
+  "sec": "CAUTION",
+  "text": "Once you have established a positive rate of climb and you are abeam the bow, use a shallow right turn to parallel the ship’s BRC."
+ },
+ {
+  "id": "2-17.10",
+  "page": "2-17",
+  "kind": "metin",
+  "sec": "CAUTION",
+  "text": "Climb to 600 feet and turn downwind with proper interval."
+ },
+ {
+  "id": "2-17.11",
+  "page": "2-17",
+  "kind": "metin",
+  "sec": "CAUTION",
+  "text": "(h) Delta Procedures. If a signal Delta is given by the tower while in the pattern, maintain pattern altitude and fly the same landing pattern."
+ },
+ {
+  "id": "2-17.12",
+  "page": "2-17",
+  "kind": "metin",
+  "sec": "CAUTION",
+  "text": "Fly the pattern on-speed in the landing configuration with speed brakes retracted (Delta Easy)."
+ },
+ {
+  "id": "2-17.13",
+  "page": "2-17",
+  "kind": "metin",
+  "sec": "CAUTION",
+  "text": "Delta clean equals 200 KIAS and altitude as assigned."
+ },
+ {
+  "id": "2-17.14",
+  "page": "2-17",
+  "kind": "metin",
+  "sec": "CAUTION",
+  "text": "When cleared from the Delta pattern, the first aircraft to reach the 180 position resumes the normal approach."
+ },
+ {
+  "id": "2-17.15",
+  "page": "2-17",
+  "kind": "metin",
+  "sec": "CAUTION",
+  "text": "(i) Carrier Arrestment. Execute the approach exactly as a touch and go, flying the ball all the way to touchdown."
+ },
+ {
+  "id": "2-17.16",
+  "page": "2-17",
+  "kind": "metin",
+  "sec": "CAUTION",
+  "text": "When the aircraft touches down, advance the power to MRT and retract the speed brakes."
+ },
+ {
+  "id": "2-17.17",
+  "page": "2-17",
+  "kind": "metin",
+  "sec": "CAUTION",
+  "text": "Do not anticipate an arrested landing."
+ },
+ {
+  "id": "2-17.18",
+  "page": "2-17",
+  "kind": "metin",
+  "sec": "CAUTION",
+  "text": "Maintain MRT until the aircraft comes to a complete stop and the yellow shirt located at the 1 to 2 o’clock position signals for power back."
+ },
+ {
+  "id": "2-17.19",
+  "page": "2-17",
+  "kind": "metin",
+  "sec": "CAUTION",
+  "text": "The yellow shirt will then signal for brake release and a pull-back, followed by a stop signal and hook up signal."
+ },
+ {
+  "id": "2-17.20",
+  "page": "2-17",
+  "kind": "metin",
+  "sec": "CAUTION",
+  "text": "The pull- back allows for the wire to clear the hook."
+ },
+ {
+  "id": "2-17.21",
+  "page": "2-17",
+  "kind": "metin",
+  "sec": "CAUTION",
+  "text": "If the pilot applies the brakes during the evolution, the aircraft will tilt back, potentially damaging the tail section."
+ },
+ {
+  "id": "2-17.22",
+  "page": "2-17",
+  "kind": "metin",
+  "sec": "CAUTION",
+  "text": "Follow the yellow shirt’s instructions/commands."
+ },
+ {
+  "id": "2-17.23",
+  "page": "2-17",
+  "kind": "metin",
+  "sec": "CAUTION",
+  "text": "(j) Communications. For Case I recoveries, Marshal will provide the case recovery, current BRC and expected “Charlie” time upon initial check in."
+ },
+ {
+  "id": "2-17.24",
+  "page": "2-17",
+  "kind": "metin",
+  "sec": "CAUTION",
+  "text": "Charlie time is the time at which launch operations are complete and recovery operations begin; additionally, Marshal will request notification when the carrier is in sight, normally around 10 NM."
+ },
+ {
+  "id": "2-17.25",
+  "page": "2-17",
+  "kind": "metin",
+  "sec": "CAUTION",
+  "text": "Sample communications are as follows:"
+ },
+ {
+  "id": "2-17.26",
+  "page": "2-17",
+  "kind": "metin",
+  "sec": "CAUTION",
+  "text": "(i) 405 - “Marshal, 405, 250 for 42, Angels 9, State 2.4”"
+ },
+ {
+  "id": "2-17.27",
+  "page": "2-17",
+  "kind": "metin",
+  "sec": "CAUTION",
+  "text": "(ii) Marshal - “405, Case I. BRC is 015, Report, see me”"
+ },
+ {
+  "id": "2-18.01",
+  "page": "2-18",
+  "kind": "metin",
+  "sec": "CAUTION",
+  "text": "(iii) 405 - “405, Wilco”"
+ },
+ {
+  "id": "2-18.02",
+  "page": "2-18",
+  "kind": "metin",
+  "sec": "CAUTION",
+  "text": "At 10 NM or when visual with the ship:"
+ },
+ {
+  "id": "2-18.03",
+  "page": "2-18",
+  "kind": "metin",
+  "sec": "CAUTION",
+  "text": "(iv) 405 - “405, See you at 10”"
+ },
+ {
+  "id": "2-18.04",
+  "page": "2-18",
+  "kind": "metin",
+  "sec": "CAUTION",
+  "text": "(v) Marshal - “405, Switch Tower”"
+ },
+ {
+  "id": "2-18.05",
+  "page": "2-18",
+  "kind": "metin",
+  "sec": "CAUTION",
+  "text": "Once switched to Tower frequency, just monitor the frequency."
+ },
+ {
+  "id": "2-18.06",
+  "page": "2-18",
+  "kind": "metin",
+  "sec": "CAUTION",
+  "text": "The majority of Case I operations are conducted “Zip Lip."
+ },
+ {
+  "id": "2-18.07",
+  "page": "2-18",
+  "kind": "metin",
+  "sec": "CAUTION",
+  "text": "This means that radio calls in the pattern are neither required nor desired."
+ },
+ {
+  "id": "2-18.08",
+  "page": "2-18",
+  "kind": "metin",
+  "sec": "CAUTION",
+  "text": "However, in low-visibility situations, the following calls will be made:"
+ },
+ {
+  "id": "2-18.09",
+  "page": "2-18",
+  "kind": "metin",
+  "sec": "CAUTION",
+  "text": "(i) Descending out of overhead holding to the initial: “405, commencing”"
+ },
+ {
+  "id": "2-18.10",
+  "page": "2-18",
+  "kind": "metin",
+  "sec": "CAUTION",
+  "text": "(ii) Initial (3 NM astern): “405, initial”"
+ },
+ {
+  "id": "2-18.11",
+  "page": "2-18",
+  "kind": "metin",
+  "sec": "CAUTION",
+  "text": "(iii) Entering the spin pattern (when applicable): “405, spinning”"
+ },
+ {
+  "id": "2-18.12",
+  "page": "2-18",
+  "kind": "metin",
+  "sec": "CAUTION",
+  "text": "(iv) 90 degrees from initial when spinning: “405, spin 90”"
+ },
+ {
+  "id": "2-18.13",
+  "page": "2-18",
+  "kind": "metin",
+  "sec": "CAUTION",
+  "text": "(v) Departing the landing pattern to re-enter port holding: “405, Departing _____ NM, upwind”"
+ },
+ {
+  "id": "2-18.14",
+  "page": "2-18",
+  "kind": "metin",
+  "sec": "CAUTION",
+  "text": "(vi) Breaking: “405, breaking at X” where X is the DME"
+ },
+ {
+  "id": "2-18.15",
+  "page": "2-18",
+  "kind": "metin",
+  "sec": "CAUTION",
+  "text": "(vii) Ball call, when rolling into the groove, and the pilot sees the ball: “405, Goshawk Ball, 2.2” where 2.2 is the fuel state"
+ },
+ {
+  "id": "2-18.16",
+  "page": "2-18",
+  "kind": "metin",
+  "sec": "CAUTION",
+  "text": "(viii) Clara when the ball is not visible: “405, Clara”"
+ },
+ {
+  "id": "2-18.17",
+  "page": "2-18",
+  "kind": "metin",
+  "sec": "CAUTION",
+  "text": "During Zip Lip operations, the ball call will not be made."
+ },
+ {
+  "id": "2-18.18",
+  "page": "2-18",
+  "kind": "metin",
+  "sec": "CAUTION",
+  "text": "The LSO will acknowledge an implied ball call with a momentary flash of the cut lights (same as a “roger ball” call from the LSO) as the aircraft rolls into the groove."
+ },
+ {
+  "id": "2-18.19",
+  "page": "2-18",
+  "kind": "metin",
+  "sec": "CAUTION",
+  "text": "If the ball is not visible, a “clara” call will be made."
+ },
+ {
+  "id": "2-18.20",
+  "page": "2-18",
+  "kind": "metin",
+  "sec": "CAUTION",
+  "text": "At any time during Zip Lip operations, radio calls will be made for any safety of flight situations."
+ },
+ {
+  "id": "2-18.21",
+  "page": "2-18",
+  "kind": "baslik",
+  "sec": "NOTE",
+  "text": "NOTE"
+ },
+ {
+  "id": "2-18.22",
+  "page": "2-18",
+  "kind": "metin",
+  "sec": "NOTE",
+  "text": "Never transmit on the radio when another aircraft is on the ball, unless required for safety of flight."
+ },
+ {
+  "id": "2-19.01",
+  "page": "2-19",
+  "kind": "baslik",
+  "sec": "2. Case II",
+  "text": "2. Case II"
+ },
+ {
+  "id": "2-19.02",
+  "page": "2-19",
+  "kind": "metin",
+  "sec": "2. Case II",
+  "text": "Case II recoveries will be used when weather conditions are such that a flight may encounter IMC during the descent to the VFR pattern."
+ },
+ {
+  "id": "2-19.03",
+  "page": "2-19",
+  "kind": "metin",
+  "sec": "2. Case II",
+  "text": "The minimum weather requirements are 1,000 feet ceiling and 5 NM visibility."
+ },
+ {
+  "id": "2-19.04",
+  "page": "2-19",
+  "kind": "metin",
+  "sec": "2. Case II",
+  "text": "During Case II recoveries, formation flights are limited to two aircraft."
+ },
+ {
+  "id": "2-19.05",
+  "page": "2-19",
+  "kind": "metin",
+  "sec": "2. Case II",
+  "text": "Formations larger than two aircraft will have to be separated into smaller flights."
+ },
+ {
+  "id": "2-19.06",
+  "page": "2-19",
+  "kind": "metin",
+  "sec": "2. Case II",
+  "text": "During Case II, Case III procedures are used outside 10 NM and Case I procedures are used inside 10 NM, or after reporting “see you."
+ },
+ {
+  "id": "2-19.07",
+  "page": "2-19",
+  "kind": "metin",
+  "sec": "2. Case II",
+  "text": "This approach will be flown until the ship is in sight, at which point, the flight will contact tower and proceed inbound as if Case I."
+ },
+ {
+  "id": "2-19.08",
+  "page": "2-19",
+  "kind": "metin",
+  "sec": "2. Case II",
+  "text": "If the flight does not see the ship by 5 NM, the aircraft will be vectored into the bolter/waveoff pattern and instructions will be given for a Case III recovery."
+ },
+ {
+  "id": "2-19.09",
+  "page": "2-19",
+  "kind": "metin",
+  "sec": "2. Case II",
+  "text": "(a) Marshal Holding. If Marshal directs a Case II recovery, the flight will proceed to Case II/III marshal pattern holding fix."
+ },
+ {
+  "id": "2-19.10",
+  "page": "2-19",
+  "kind": "metin",
+  "sec": "2. Case II",
+  "text": "Ideally, the holding fix will be on the 180 radial relative to BRC."
+ },
+ {
+  "id": "2-19.11",
+  "page": "2-19",
+  "kind": "metin",
+  "sec": "2. Case II",
+  "text": "Weather and airspace considerations may not allow for this."
+ },
+ {
+  "id": "2-19.12",
+  "page": "2-19",
+  "kind": "metin",
+  "sec": "2. Case II",
+  "text": "Generally, the holding radial will be within 30 degrees of the 180 radial."
+ },
+ {
+  "id": "2-19.13",
+  "page": "2-19",
+  "kind": "metin",
+  "sec": "2. Case II",
+  "text": "Aircraft will hold on the assigned radial at a distance equal to 1 NM for every 1,000 feet of altitude plus 15."
+ },
+ {
+  "id": "2-19.14",
+  "page": "2-19",
+  "kind": "metin",
+  "sec": "2. Case II",
+  "text": "In other words, the distance of the holding fix is determined by adding 15 to the assigned holding altitude in angels."
+ },
+ {
+  "id": "2-19.15",
+  "page": "2-19",
+  "kind": "metin",
+  "sec": "2. Case II",
+  "text": "For example, if instructed to hold on the 220 radial at angels 8, the fix would be determined as follows:"
+ },
+ {
+  "id": "2-19.16",
+  "page": "2-19",
+  "kind": "metin",
+  "sec": "2. Case II",
+  "text": "(i) Distance = Angels + 15 = 8 +15 = 23"
+ },
+ {
+  "id": "2-19.17",
+  "page": "2-19",
+  "kind": "metin",
+  "sec": "2. Case II",
+  "text": "Therefore, hold on the 220 radial at 23 DME at 8,000 feet."
+ },
+ {
+  "id": "2-19.18",
+  "page": "2-19",
+  "kind": "metin",
+  "sec": "2. Case II",
+  "text": "Figure 2-6 illustrates the Case II/III Marshal pattern."
+ },
+ {
+  "id": "2-19.19",
+  "page": "2-19",
+  "kind": "metin",
+  "sec": "2. Case II",
+  "text": "The lowest altitude for assignment is 6,000 feet for turboprop and jet aircraft."
+ },
+ {
+  "id": "2-20.01",
+  "page": "2-20",
+  "kind": "sekil",
+  "sec": "2. Case II",
+  "text": "Figure 2-6 Case II/III Marshal Holding"
+ },
+ {
+  "id": "2-20.02",
+  "page": "2-20",
+  "kind": "metin",
+  "sec": "2. Case II",
+  "text": "The holding pattern is a six-minute left-hand pattern. Unless otherwise briefed, the pattern will be flown at max conserve fuel flow or NATOPS holding airspeed."
+ },
+ {
+  "id": "2-20.03",
+  "page": "2-20",
+  "kind": "metin",
+  "sec": "2. Case II",
+  "text": "Two- minute turns and one-minute legs are normally used for the pattern."
+ },
+ {
+  "id": "2-20.04",
+  "page": "2-20",
+  "kind": "metin",
+  "sec": "2. Case II",
+  "text": "Aircraft must be established at assigned holding altitudes by 10 NM from the Marshal “stack."
+ },
+ {
+  "id": "2-20.05",
+  "page": "2-20",
+  "kind": "metin",
+  "sec": "2. Case II",
+  "text": "Aircraft in the stack will be separated by 1,000 feet vertically."
+ },
+ {
+  "id": "2-20.06",
+  "page": "2-20",
+  "kind": "metin",
+  "sec": "2. Case II",
+  "text": "Strict management of the holding pattern is required to arrive at the fix, at the assigned approach time (push time)."
+ },
+ {
+  "id": "2-20.07",
+  "page": "2-20",
+  "kind": "metin",
+  "sec": "2. Case II",
+  "text": "For example, arriving in holding at time 16 with a push time of 27, one 6-minute pattern and one 5-minute pattern could be used."
+ },
+ {
+  "id": "2-20.08",
+  "page": "2-20",
+  "kind": "metin",
+  "sec": "2. Case II",
+  "text": "But regardless of how the pattern is managed, aircraft must arrive at the holding fix on airspeed (250 kts) and ready to commence the approach at the Expected Approach Time (EAT) plus or minus 10 seconds."
+ },
+ {
+  "id": "2-20.09",
+  "page": "2-20",
+  "kind": "metin",
+  "sec": "2. Case II",
+  "text": "If unable to do this, notify Marshal so that timing adjustments to the landing interval can be made."
+ },
+ {
+  "id": "2-20.10",
+  "page": "2-20",
+  "kind": "metin",
+  "sec": "2. Case II",
+  "text": "(b) Emergency Marshal Fixes. In the event of an emergency, fixed wing aircraft are issued an emergency marshal radial 150-degree relative to the expected final bearing at a distance of 1 mile for every 1,000 feet of altitude plus 15 miles (angels +15)."
+ },
+ {
+  "id": "2-20.11",
+  "page": "2-20",
+  "kind": "metin",
+  "sec": "2. Case II",
+  "text": "As with the normal Marshal pattern, the lowest altitude for assignment is 6,000 feet for turboprop and jet aircraft."
+ },
+ {
+  "id": "2-20.12",
+  "page": "2-20",
+  "kind": "metin",
+  "sec": "2. Case II",
+  "text": "The holding sequence is jets, then turboprops."
+ },
+ {
+  "id": "2-20.13",
+  "page": "2-20",
+  "kind": "metin",
+  "sec": "2. Case II",
+  "text": "The emergency holding pattern is a right-hand, 6-minute racetrack patterns."
+ },
+ {
+  "id": "2-21.01",
+  "page": "2-21",
+  "kind": "metin",
+  "sec": "2. Case II",
+  "text": "(c) Approach. Aircraft push times will normally be separated by one minute."
+ },
+ {
+  "id": "2-21.02",
+  "page": "2-21",
+  "kind": "metin",
+  "sec": "2. Case II",
+  "text": "Upon commencing the approach, aircraft will establish a 4,000 feet per minute rate of descent at 250 KIAS."
+ },
+ {
+  "id": "2-21.03",
+  "page": "2-21",
+  "kind": "metin",
+  "sec": "2. Case II",
+  "text": "At 5,000 feet (platform), the rate of descent will be reduced to 2,000 feet per minute."
+ },
+ {
+  "id": "2-21.04",
+  "page": "2-21",
+  "kind": "metin",
+  "sec": "2. Case II",
+  "text": "This will be maintained until reaching the level-off altitude of 1,200 feet."
+ },
+ {
+  "id": "2-21.05",
+  "page": "2-21",
+  "kind": "metin",
+  "sec": "2. Case II",
+  "text": "Aircraft will proceed inbound at 1,200 feet and report a “see me” when the ship is in sight."
+ },
+ {
+  "id": "2-21.06",
+  "page": "2-21",
+  "kind": "metin",
+  "sec": "2. Case II",
+  "text": "Marshal will switch the flight to Tower frequency for a normal Case I recovery."
+ },
+ {
+  "id": "2-21.07",
+  "page": "2-21",
+  "kind": "metin",
+  "sec": "2. Case II",
+  "text": "If the ship is not in sight by 10 NM, a descent to 800 feet is authorized."
+ },
+ {
+  "id": "2-21.08",
+  "page": "2-21",
+  "kind": "metin",
+  "sec": "2. Case II",
+  "text": "If the ship is still not in sight at 5 NM, notify Marshal for further instructions and vectors into the bolter/waveoff pattern for an instrument approach."
+ },
+ {
+  "id": "2-21.09",
+  "page": "2-21",
+  "kind": "metin",
+  "sec": "2. Case II",
+  "text": "The Case II approach profile is shown in Figure 2-7."
+ },
+ {
+  "id": "2-21.10",
+  "page": "2-21",
+  "kind": "sekil",
+  "sec": "2. Case II",
+  "text": "Figure 2-7 Case II Approach Profile"
+ },
+ {
+  "id": "2-21.11",
+  "page": "2-21",
+  "kind": "metin",
+  "sec": "2. Case II",
+  "text": "(d) Communications. For Case II recoveries, Marshal will provide the following information upon check in:"
+ },
+ {
+  "id": "2-21.12",
+  "page": "2-21",
+  "kind": "metin",
+  "sec": "2. Case II",
+  "text": "(i) Current weather and altimeter"
+ },
+ {
+  "id": "2-21.13",
+  "page": "2-21",
+  "kind": "metin",
+  "sec": "2. Case II",
+  "text": "(ii) Case recovery"
+ },
+ {
+  "id": "2-21.14",
+  "page": "2-21",
+  "kind": "metin",
+  "sec": "2. Case II",
+  "text": "(iii) Marshal instructions"
+ },
+ {
+  "id": "2-21.15",
+  "page": "2-21",
+  "kind": "metin",
+  "sec": "2. Case II",
+  "text": "(iv) Expected final approach button (frequency) if required"
+ },
+ {
+  "id": "2-21.16",
+  "page": "2-21",
+  "kind": "metin",
+  "sec": "2. Case II",
+  "text": "(v) Expected approach time (EAT)"
+ },
+ {
+  "id": "2-21.17",
+  "page": "2-21",
+  "kind": "metin",
+  "sec": "2. Case II",
+  "text": "(vi) Expected BRC"
+ },
+ {
+  "id": "2-21.18",
+  "page": "2-21",
+  "kind": "metin",
+  "sec": "2. Case II",
+  "text": "(vii) Additional information such as divert field, fuel data and bingo information."
+ },
+ {
+  "id": "2-21.19",
+  "page": "2-21",
+  "kind": "metin",
+  "sec": "2. Case II",
+  "text": "Notify Marshal when established in holding. Marshal may periodically update the weather and BRC."
+ },
+ {
+  "id": "2-21.20",
+  "page": "2-21",
+  "kind": "metin",
+  "sec": "2. Case II",
+  "text": "Notify Marshal when the approach is commenced."
+ },
+ {
+  "id": "2-21.21",
+  "page": "2-21",
+  "kind": "metin",
+  "sec": "2. Case II",
+  "text": "When the ship is in sight, aircrew will call “see you” and Marshal will switch them to Tower."
+ },
+ {
+  "id": "2-21.22",
+  "page": "2-21",
+  "kind": "metin",
+  "sec": "2. Case II",
+  "text": "To reduce radio traffic, items of general or collective interest may be transmitted as a “99” broadcast by Marshal or approach control."
+ },
+ {
+  "id": "2-21.23",
+  "page": "2-21",
+  "kind": "metin",
+  "sec": "2. Case II",
+  "text": "Sample communications are as follows:"
+ },
+ {
+  "id": "2-22.01",
+  "page": "2-22",
+  "kind": "metin",
+  "sec": "2. Case II",
+  "text": "(i) 405 - “Marshal, 405, 250 for 42, Angels 14, State 2.4”"
+ },
+ {
+  "id": "2-22.02",
+  "page": "2-22",
+  "kind": "metin",
+  "sec": "2. Case II",
+  "text": "(ii) Marshal - “405, Mother’s weather is 1,500 overcast, visibility 5 miles, altimeter 29.87."
+ },
+ {
+  "id": "2-22.03",
+  "page": "2-22",
+  "kind": "metin",
+  "sec": "2. Case II",
+  "text": "Case II recovery."
+ },
+ {
+  "id": "2-22.04",
+  "page": "2-22",
+  "kind": "metin",
+  "sec": "2. Case II",
+  "text": "Marshal on the 160, 22, angels 7."
+ },
+ {
+  "id": "2-22.05",
+  "page": "2-22",
+  "kind": "metin",
+  "sec": "2. Case II",
+  "text": "BRC is 015, Expected approach time 22.”"
+ },
+ {
+  "id": "2-22.06",
+  "page": "2-22",
+  "kind": "metin",
+  "sec": "2. Case II",
+  "text": "(iii) 405 - “405, altimeter 29.87. Marshal on the 160, 22, angels 7."
+ },
+ {
+  "id": "2-22.07",
+  "page": "2-22",
+  "kind": "metin",
+  "sec": "2. Case II",
+  "text": "Expected approach time 22.”"
+ },
+ {
+  "id": "2-22.08",
+  "page": "2-22",
+  "kind": "metin",
+  "sec": "2. Case II",
+  "text": "When established in holding:"
+ },
+ {
+  "id": "2-22.09",
+  "page": "2-22",
+  "kind": "metin",
+  "sec": "2. Case II",
+  "text": "(iv) 405 - “405, established angels 7. State 2.3”"
+ },
+ {
+  "id": "2-22.10",
+  "page": "2-22",
+  "kind": "metin",
+  "sec": "2. Case II",
+  "text": "While holding:"
+ },
+ {
+  "id": "2-22.11",
+  "page": "2-22",
+  "kind": "metin",
+  "sec": "2. Case II",
+  "text": "(v) Marshal - “99, altimeter 29.88. BRC 020”"
+ },
+ {
+  "id": "2-22.12",
+  "page": "2-22",
+  "kind": "metin",
+  "sec": "2. Case II",
+  "text": "When beginning the penetration:"
+ },
+ {
+  "id": "2-22.13",
+  "page": "2-22",
+  "kind": "metin",
+  "sec": "2. Case II",
+  "text": "(vi) 405 - “405 commencing, 29.88, State 2.2”"
+ },
+ {
+  "id": "2-22.14",
+  "page": "2-22",
+  "kind": "metin",
+  "sec": "2. Case II",
+  "text": "When visual with the ship:"
+ },
+ {
+  "id": "2-22.15",
+  "page": "2-22",
+  "kind": "metin",
+  "sec": "2. Case II",
+  "text": "(vii) 405 - “405, see you at 12”"
+ },
+ {
+  "id": "2-22.16",
+  "page": "2-22",
+  "kind": "metin",
+  "sec": "2. Case II",
+  "text": "(viii) Marshal - “405, switch Tower”"
+ },
+ {
+  "id": "2-22.17",
+  "page": "2-22",
+  "kind": "metin",
+  "sec": "2. Case II",
+  "text": "(ix) 405 - “405, switching Tower”"
+ },
+ {
+  "id": "2-22.18",
+  "page": "2-22",
+  "kind": "metin",
+  "sec": "2. Case II",
+  "text": "Approaching the initial with nobody on the ball:"
+ },
+ {
+  "id": "2-22.19",
+  "page": "2-22",
+  "kind": "metin",
+  "sec": "2. Case II",
+  "text": "(x) 405 - “Tower, 405 initial”"
+ },
+ {
+  "id": "2-22.20",
+  "page": "2-22",
+  "kind": "metin",
+  "sec": "2. Case II",
+  "text": "(xi) Tower - “405, roger”"
+ },
+ {
+  "id": "2-22.21",
+  "page": "2-22",
+  "kind": "metin",
+  "sec": "2. Case II",
+  "text": "Normal Case I calls will be made in the landing pattern."
+ },
+ {
+  "id": "2-22.22",
+  "page": "2-22",
+  "kind": "baslik",
+  "sec": "3. Case III",
+  "text": "3. Case III"
+ },
+ {
+  "id": "2-22.23",
+  "page": "2-22",
+  "kind": "metin",
+  "sec": "3. Case III",
+  "text": "The Case III recovery is used for all night operations, as well as during the day when the weather is below Case II minimums (less than 1,000-3)."
+ },
+ {
+  "id": "2-22.24",
+  "page": "2-22",
+  "kind": "metin",
+  "sec": "3. Case III",
+  "text": "Case III recoveries are limited to single aircraft only."
+ },
+ {
+  "id": "2-22.25",
+  "page": "2-22",
+  "kind": "metin",
+  "sec": "3. Case III",
+  "text": "Section approaches will be approved only when an aircraft emergency situation exists."
+ },
+ {
+  "id": "2-22.26",
+  "page": "2-22",
+  "kind": "metin",
+  "sec": "3. Case III",
+  "text": "Formation penetrations/approaches by dissimilar aircraft shall not be attempted except in extreme circumstances when no safer options are available for recovery."
+ },
+ {
+  "id": "2-23.01",
+  "page": "2-23",
+  "kind": "metin",
+  "sec": "3. Case III",
+  "text": "(a) Holding. The Case III marshal holding pattern is identical to Case II."
+ },
+ {
+  "id": "2-23.02",
+  "page": "2-23",
+  "kind": "metin",
+  "sec": "3. Case III",
+  "text": "During Case III recoveries, aircraft will commence from the Marshal stack and fly the CV-1 Approach."
+ },
+ {
+  "id": "2-23.03",
+  "page": "2-23",
+  "kind": "metin",
+  "sec": "3. Case III",
+  "text": "(b) Approach. The CV-1 Approach is illustrated in Figure 2-8."
+ },
+ {
+  "id": "2-23.04",
+  "page": "2-23",
+  "kind": "metin",
+  "sec": "3. Case III",
+  "text": "Aircraft push times will normally be separated by one minute."
+ },
+ {
+  "id": "2-23.05",
+  "page": "2-23",
+  "kind": "metin",
+  "sec": "3. Case III",
+  "text": "Upon commencing the approach, aircraft will establish a 4,000 feet per minute rate of descent at 250 KIAS."
+ },
+ {
+  "id": "2-23.06",
+  "page": "2-23",
+  "kind": "metin",
+  "sec": "3. Case III",
+  "text": "If the Marshal radial is not the reciprocal of the final bearing, a correction to final bearing will be required at 20 DME as follows:"
+ },
+ {
+  "id": "2-23.07",
+  "page": "2-23",
+  "kind": "metin",
+  "sec": "3. Case III",
+  "text": "(i) A gradual correction shall be made when the final bearing is within 10° of the reciprocal of the marshal radial."
+ },
+ {
+  "id": "2-23.08",
+  "page": "2-23",
+  "kind": "metin",
+  "sec": "3. Case III",
+  "text": "(ii) A 30° correction at 20 DME will be used when the final bearing is greater than 10° from the reciprocal of the marshal radial."
+ },
+ {
+  "id": "2-23.09",
+  "page": "2-23",
+  "kind": "metin",
+  "sec": "3. Case III",
+  "text": "If not established on the final bearing by 12 miles, fly the 12-mile arc until intercepting final bearing."
+ },
+ {
+  "id": "2-23.10",
+  "page": "2-23",
+  "kind": "metin",
+  "sec": "3. Case III",
+  "text": "At 5,000 feet (platform), the rate of descent will be reduced to 2,000 feet per minute."
+ },
+ {
+  "id": "2-23.11",
+  "page": "2-23",
+  "kind": "metin",
+  "sec": "3. Case III",
+  "text": "This will be maintained until reaching the level-off altitude of 1,200 feet."
+ },
+ {
+  "id": "2-23.12",
+  "page": "2-23",
+  "kind": "metin",
+  "sec": "3. Case III",
+  "text": "At some point during the penetration or level off, Marshal will switch the aircrew to the final approach control frequency and they will check in with altitude."
+ },
+ {
+  "id": "2-23.13",
+  "page": "2-23",
+  "kind": "metin",
+  "sec": "3. Case III",
+  "text": "Landing checks will be initiated at 10 DME, and aircraft will reduce speed to cross 6 DME at 150 kts."
+ },
+ {
+  "id": "2-23.14",
+  "page": "2-23",
+  "kind": "metin",
+  "sec": "3. Case III",
+  "text": "Landing gear should be down no later than 8 DME."
+ },
+ {
+  "id": "2-23.15",
+  "page": "2-23",
+  "kind": "metin",
+  "sec": "3. Case III",
+  "text": "At 6 DME, aircraft will slow to final approach speed."
+ },
+ {
+  "id": "2-23.16",
+  "page": "2-23",
+  "kind": "metin",
+  "sec": "3. Case III",
+  "text": "ACLS lock-on will occur sometime between 8 DME and 4 DME."
+ },
+ {
+  "id": "2-23.17",
+  "page": "2-23",
+  "kind": "metin",
+  "sec": "3. Case III",
+  "text": "At lock-on, compare the needles with bullseye (ACLS to ICLS) to ensure a good lock."
+ },
+ {
+  "id": "2-23.18",
+  "page": "2-23",
+  "kind": "metin",
+  "sec": "3. Case III",
+  "text": "Approach will ask the crew to “say needles."
+ },
+ {
+  "id": "2-23.19",
+  "page": "2-23",
+  "kind": "metin",
+  "sec": "3. Case III",
+  "text": "The pilot will reply with the relative position of both the glideslope needle and the azimuth needle, such as “fly up, fly right” or “fly up, on."
+ },
+ {
+  "id": "2-23.20",
+  "page": "2-23",
+  "kind": "metin",
+  "sec": "3. Case III",
+  "text": "If this concurs with the readout on the approach radar scope, the controller will direct, “fly the needles."
+ },
+ {
+  "id": "2-23.21",
+  "page": "2-23",
+  "kind": "metin",
+  "sec": "3. Case III",
+  "text": "If there is a disagreement, the controller will break lock and attempt a new lock."
+ },
+ {
+  "id": "2-23.22",
+  "page": "2-23",
+  "kind": "metin",
+  "sec": "3. Case III",
+  "text": "In this case, he will say “fly the bullseye” (ICLS) until he acquires a new ACLS lock."
+ },
+ {
+  "id": "2-24.01",
+  "page": "2-24",
+  "kind": "sekil",
+  "sec": "3. Case III",
+  "text": "Figure 2-8 CV 1 Approach"
+ },
+ {
+  "id": "2-25.01",
+  "page": "2-25",
+  "kind": "metin",
+  "sec": "3. Case III",
+  "text": "Once a good ACLS lock has been confirmed, the pilot will fly the needles."
+ },
+ {
+  "id": "2-25.02",
+  "page": "2-25",
+  "kind": "metin",
+  "sec": "3. Case III",
+  "text": "As a backup, always perform a self-contained GCA, comparing actual altitude with calculated altitude as follows:"
+ },
+ {
+  "id": "2-25.03",
+  "page": "2-25",
+  "kind": "metin",
+  "sec": "3. Case III",
+  "text": "(i) 3 NM 1,200 feet"
+ },
+ {
+  "id": "2-25.04",
+  "page": "2-25",
+  "kind": "metin",
+  "sec": "3. Case III",
+  "text": "(ii) 2 NM 800 feet"
+ },
+ {
+  "id": "2-25.05",
+  "page": "2-25",
+  "kind": "metin",
+  "sec": "3. Case III",
+  "text": "(iii) 1 NM 400 feet"
+ },
+ {
+  "id": "2-25.06",
+  "page": "2-25",
+  "kind": "metin",
+  "sec": "3. Case III",
+  "text": "(iv) 0.5 NM 200 feet"
+ },
+ {
+  "id": "2-25.07",
+  "page": "2-25",
+  "kind": "metin",
+  "sec": "3. Case III",
+  "text": "At 3/4-mile, the final controller will instruct aircrew to call the ball."
+ },
+ {
+  "id": "2-25.08",
+  "page": "2-25",
+  "kind": "metin",
+  "sec": "3. Case III",
+  "text": "The LSOs will roger the ball call."
+ },
+ {
+  "id": "2-25.09",
+  "page": "2-25",
+  "kind": "metin",
+  "sec": "3. Case III",
+  "text": "Continue to monitor the approach as the pilot transitions from an inside to outside scan."
+ },
+ {
+  "id": "2-25.10",
+  "page": "2-25",
+  "kind": "sekil",
+  "sec": "3. Case III",
+  "text": "Figure 2-9 Self-Contained GCA"
+ },
+ {
+  "id": "2-25.11",
+  "page": "2-25",
+  "kind": "metin",
+  "sec": "3. Case III",
+  "text": "(c) Bolter/Waveoff Pattern. In the event of a waveoff or bolter, climb to 1,200 feet at 150 kts and raise the gear to save fuel, leaving flaps down."
+ },
+ {
+  "id": "2-25.12",
+  "page": "2-25",
+  "kind": "metin",
+  "sec": "3. Case III",
+  "text": "When instructed by approach, turn downwind."
+ },
+ {
+  "id": "2-25.13",
+  "page": "2-25",
+  "kind": "metin",
+  "sec": "3. Case III",
+  "text": "Perform the landing checks on downwind, and notify approach with fuel state when abeam the ship."
+ },
+ {
+  "id": "2-25.14",
+  "page": "2-25",
+  "kind": "metin",
+  "sec": "3. Case III",
+  "text": "Expect a turn back to final 4-8 NM past abeam for another approach, lowering the landing gear as you start this turn to final."
+ },
+ {
+  "id": "2-26.01",
+  "page": "2-26",
+  "kind": "metin",
+  "sec": "3. Case III",
+  "text": "If no instructions are received by 4 DME upwind, attempt to contact approach."
+ },
+ {
+  "id": "2-26.02",
+  "page": "2-26",
+  "kind": "metin",
+  "sec": "3. Case III",
+  "text": "If unable to contact approach, turn downwind and perform the normal checks."
+ },
+ {
+  "id": "2-26.03",
+  "page": "2-26",
+  "kind": "metin",
+  "sec": "3. Case III",
+  "text": "Make the abeam call, and if contact has not been reestablished with approach by 4 NM (2 minutes) past abeam, turn final."
+ },
+ {
+  "id": "2-26.04",
+  "page": "2-26",
+  "kind": "metin",
+  "sec": "3. Case III",
+  "text": "Intercept the ICLS and fly a normal approach."
+ },
+ {
+  "id": "2-26.05",
+  "page": "2-26",
+  "kind": "metin",
+  "sec": "3. Case III",
+  "text": "Call the ball at 3/4-mile."
+ },
+ {
+  "id": "2-26.06",
+  "page": "2-26",
+  "kind": "metin",
+  "sec": "3. Case III",
+  "text": "If this call is not acknowledged, look for the cut lights."
+ },
+ {
+  "id": "2-26.07",
+  "page": "2-26",
+  "kind": "metin",
+  "sec": "3. Case III",
+  "text": "(d) Communications. For Case III recoveries, Marshal will provide the following information upon check in:"
+ },
+ {
+  "id": "2-26.08",
+  "page": "2-26",
+  "kind": "metin",
+  "sec": "3. Case III",
+  "text": "(i) Current weather and altimeter"
+ },
+ {
+  "id": "2-26.09",
+  "page": "2-26",
+  "kind": "metin",
+  "sec": "3. Case III",
+  "text": "(ii) Case recovery"
+ },
+ {
+  "id": "2-26.10",
+  "page": "2-26",
+  "kind": "metin",
+  "sec": "3. Case III",
+  "text": "(iii) Marshal instructions"
+ },
+ {
+  "id": "2-26.11",
+  "page": "2-26",
+  "kind": "metin",
+  "sec": "3. Case III",
+  "text": "(iv) Expected final approach button (frequency)"
+ },
+ {
+  "id": "2-26.12",
+  "page": "2-26",
+  "kind": "metin",
+  "sec": "3. Case III",
+  "text": "(v) Expected approach time (EAT)"
+ },
+ {
+  "id": "2-26.13",
+  "page": "2-26",
+  "kind": "metin",
+  "sec": "3. Case III",
+  "text": "(vi) Expected final bearing"
+ },
+ {
+  "id": "2-26.14",
+  "page": "2-26",
+  "kind": "metin",
+  "sec": "3. Case III",
+  "text": "(vii) Additional information such as divert field, fuel data and bingo information."
+ },
+ {
+  "id": "2-26.15",
+  "page": "2-26",
+  "kind": "metin",
+  "sec": "3. Case III",
+  "text": "Notify Marshal when established in holding. Marshal may periodically update the weather and BRC while in holding."
+ },
+ {
+  "id": "2-26.16",
+  "page": "2-26",
+  "kind": "metin",
+  "sec": "3. Case III",
+  "text": "Notify Marshal when the approach is commenced."
+ },
+ {
+  "id": "2-26.17",
+  "page": "2-26",
+  "kind": "metin",
+  "sec": "3. Case III",
+  "text": "Marshal will hand aircraft off to the final controller during the penetration, ideally before reaching platform."
+ },
+ {
+  "id": "2-26.18",
+  "page": "2-26",
+  "kind": "metin",
+  "sec": "3. Case III",
+  "text": "Sample communications are as follows:"
+ },
+ {
+  "id": "2-26.19",
+  "page": "2-26",
+  "kind": "metin",
+  "sec": "3. Case III",
+  "text": "(i) 405 - “Marshal, 405, 250 for 42, Angels 14, State 2.4”"
+ },
+ {
+  "id": "2-26.20",
+  "page": "2-26",
+  "kind": "metin",
+  "sec": "3. Case III",
+  "text": "(ii) Marshal - “405, Mother’s weather is 600 overcast, visibility 3 miles, altimeter 29.87."
+ },
+ {
+  "id": "2-26.21",
+  "page": "2-26",
+  "kind": "metin",
+  "sec": "3. Case III",
+  "text": "Case III recovery, CV-1 approach."
+ },
+ {
+  "id": "2-26.22",
+  "page": "2-26",
+  "kind": "metin",
+  "sec": "3. Case III",
+  "text": "Marshal on the 160, 22, angels 7."
+ },
+ {
+  "id": "2-26.23",
+  "page": "2-26",
+  "kind": "metin",
+  "sec": "3. Case III",
+  "text": "Expected final bearing 015, expected approach time 22."
+ },
+ {
+  "id": "2-26.24",
+  "page": "2-26",
+  "kind": "metin",
+  "sec": "3. Case III",
+  "text": "Approach button 18.”"
+ },
+ {
+  "id": "2-26.25",
+  "page": "2-26",
+  "kind": "metin",
+  "sec": "3. Case III",
+  "text": "(iii) 405 - “405, altimeter 29.87. Marshal on the 160, 22, angels 7."
+ },
+ {
+  "id": "2-26.26",
+  "page": "2-26",
+  "kind": "metin",
+  "sec": "3. Case III",
+  "text": "Expected approach time 22.”"
+ },
+ {
+  "id": "2-26.27",
+  "page": "2-26",
+  "kind": "metin",
+  "sec": "3. Case III",
+  "text": "When established in holding:"
+ },
+ {
+  "id": "2-26.28",
+  "page": "2-26",
+  "kind": "metin",
+  "sec": "3. Case III",
+  "text": "(iv) 405 - “405, established angels 7. State 2.3”"
+ },
+ {
+  "id": "2-27.01",
+  "page": "2-27",
+  "kind": "metin",
+  "sec": "3. Case III",
+  "text": "While holding:"
+ },
+ {
+  "id": "2-27.02",
+  "page": "2-27",
+  "kind": "metin",
+  "sec": "3. Case III",
+  "text": "(v) Marshal - “99, altimeter 29.88. New final bearing 020”"
+ },
+ {
+  "id": "2-27.03",
+  "page": "2-27",
+  "kind": "metin",
+  "sec": "3. Case III",
+  "text": "When beginning the penetration:"
+ },
+ {
+  "id": "2-27.04",
+  "page": "2-27",
+  "kind": "metin",
+  "sec": "3. Case III",
+  "text": "(vi) 405 - “405 commencing, 29.88, state 2.2”"
+ },
+ {
+  "id": "2-27.05",
+  "page": "2-27",
+  "kind": "metin",
+  "sec": "3. Case III",
+  "text": "(vii) Marshal - “405, roger”"
+ },
+ {
+  "id": "2-27.06",
+  "page": "2-27",
+  "kind": "metin",
+  "sec": "3. Case III",
+  "text": "Handoff to approach:"
+ },
+ {
+  "id": "2-27.07",
+  "page": "2-27",
+  "kind": "metin",
+  "sec": "3. Case III",
+  "text": "(viii) Marshal - “405, switch Approach, button 18”"
+ },
+ {
+  "id": "2-27.08",
+  "page": "2-27",
+  "kind": "metin",
+  "sec": "3. Case III",
+  "text": "(ix) 405 - “405 switching button 18"
+ },
+ {
+  "id": "2-27.09",
+  "page": "2-27",
+  "kind": "metin",
+  "sec": "3. Case III",
+  "text": "Check in with Approach:"
+ },
+ {
+  "id": "2-27.10",
+  "page": "2-27",
+  "kind": "metin",
+  "sec": "3. Case III",
+  "text": "(x) 405 - “405 checking in, state 1.5”"
+ },
+ {
+  "id": "2-27.11",
+  "page": "2-27",
+  "kind": "metin",
+  "sec": "3. Case III",
+  "text": "(xi) Approach - “405, final bearing 017”"
+ },
+ {
+  "id": "2-27.12",
+  "page": "2-27",
+  "kind": "metin",
+  "sec": "3. Case III",
+  "text": "At platform:"
+ },
+ {
+  "id": "2-27.13",
+  "page": "2-27",
+  "kind": "metin",
+  "sec": "3. Case III",
+  "text": "(xii) 405 - “405 platform”"
+ },
+ {
+  "id": "2-27.14",
+  "page": "2-27",
+  "kind": "metin",
+  "sec": "3. Case III",
+  "text": "At ACLS lock-on:"
+ },
+ {
+  "id": "2-27.15",
+  "page": "2-27",
+  "kind": "metin",
+  "sec": "3. Case III",
+  "text": "(xiii) Approach - “405, say needles”"
+ },
+ {
+  "id": "2-27.16",
+  "page": "2-27",
+  "kind": "metin",
+  "sec": "3. Case III",
+  "text": "(xiv) 405 - “405, fly up, on”"
+ },
+ {
+  "id": "2-27.17",
+  "page": "2-27",
+  "kind": "metin",
+  "sec": "3. Case III",
+  "text": "(xv) Approach - “405, fly your needles”"
+ },
+ {
+  "id": "2-27.18",
+  "page": "2-27",
+  "kind": "metin",
+  "sec": "3. Case III",
+  "text": "At ¾ mile:"
+ },
+ {
+  "id": "2-27.19",
+  "page": "2-27",
+  "kind": "metin",
+  "sec": "3. Case III",
+  "text": "(xvi) Approach - “405, ¾ mile, call the ball”"
+ },
+ {
+  "id": "2-27.20",
+  "page": "2-27",
+  "kind": "metin",
+  "sec": "3. Case III",
+  "text": "(xvii) 405 - “405, Goshawk ball, 2.0”"
+ },
+ {
+  "id": "2-27.21",
+  "page": "2-27",
+  "kind": "metin",
+  "sec": "3. Case III",
+  "text": "(xviii) LSO - “Roger ball”"
+ },
+ {
+  "id": "2-28.01",
+  "page": "2-28",
+  "kind": "baslik",
+  "sec": "205. EMERGENCIES",
+  "text": "205. EMERGENCIES"
+ },
+ {
+  "id": "2-28.02",
+  "page": "2-28",
+  "kind": "baslik",
+  "sec": "1. Aircraft Emergencies",
+  "text": "1. Aircraft Emergencies"
+ },
+ {
+  "id": "2-28.03",
+  "page": "2-28",
+  "kind": "metin",
+  "sec": "1. Aircraft Emergencies",
+  "text": "(a) Bingo. Bingo is an emergency situation."
+ },
+ {
+  "id": "2-28.04",
+  "page": "2-28",
+  "kind": "metin",
+  "sec": "1. Aircraft Emergencies",
+  "text": "It means the aircraft is at emergency fuel level, not minimum fuel."
+ },
+ {
+  "id": "2-28.05",
+  "page": "2-28",
+  "kind": "metin",
+  "sec": "1. Aircraft Emergencies",
+  "text": "The fuel state of every aircraft is constantly monitored by Air Ops and Tower."
+ },
+ {
+  "id": "2-28.06",
+  "page": "2-28",
+  "kind": "metin",
+  "sec": "1. Aircraft Emergencies",
+  "text": "When the fuel state reaches hold-down, as set by Air Ops, the aircraft will be held on deck for refueling."
+ },
+ {
+  "id": "2-28.07",
+  "page": "2-28",
+  "kind": "metin",
+  "sec": "1. Aircraft Emergencies",
+  "text": "If directed to taxi to the catapult with a fuel state at or below hold- down, make a call to Tower."
+ },
+ {
+  "id": "2-28.08",
+  "page": "2-28",
+  "kind": "metin",
+  "sec": "1. Aircraft Emergencies",
+  "text": "(b) Computing Bingo Profile (Clean). In a clean configuration, the computation of the bingo profile will be computed as follows (refer to Figure 2-10):"
+ },
+ {
+  "id": "2-28.09",
+  "page": "2-28",
+  "kind": "metin",
+  "sec": "1. Aircraft Emergencies",
+  "text": "(i) Determine the distance to base."
+ },
+ {
+  "id": "2-28.10",
+  "page": "2-28",
+  "kind": "baslik",
+  "sec": "NOTE",
+  "text": "NOTE"
+ },
+ {
+  "id": "2-28.11",
+  "page": "2-28",
+  "kind": "metin",
+  "sec": "NOTE",
+  "text": "Aircraft will receive information on bearing/distance (pigeons) to the divert field and bingo fuel state from Marshal on initial check- in."
+ },
+ {
+  "id": "2-28.12",
+  "page": "2-28",
+  "kind": "metin",
+  "sec": "NOTE",
+  "text": "This information is periodically updated and broadcast over Marshal and tower frequencies."
+ },
+ {
+  "id": "2-28.13",
+  "page": "2-28",
+  "kind": "metin",
+  "sec": "NOTE",
+  "text": "Always write down bingo and pigeons information."
+ },
+ {
+  "id": "2-28.14",
+  "page": "2-28",
+  "kind": "metin",
+  "sec": "NOTE",
+  "text": "(ii) Refer to the PCL to determine proper bingo information."
+ },
+ {
+  "id": "2-28.15",
+  "page": "2-28",
+  "kind": "metin",
+  "sec": "NOTE",
+  "text": "(a). Fuel required"
+ },
+ {
+  "id": "2-28.16",
+  "page": "2-28",
+  "kind": "metin",
+  "sec": "NOTE",
+  "text": "(b). Time required for bingo (total time required from start of climb to landing)"
+ },
+ {
+  "id": "2-28.17",
+  "page": "2-28",
+  "kind": "metin",
+  "sec": "NOTE",
+  "text": "(c). Speed (KIAS) for climb"
+ },
+ {
+  "id": "2-28.18",
+  "page": "2-28",
+  "kind": "metin",
+  "sec": "NOTE",
+  "text": "(d). Cruise altitude"
+ },
+ {
+  "id": "2-28.19",
+  "page": "2-28",
+  "kind": "metin",
+  "sec": "NOTE",
+  "text": "(e). Cruise (KIAS/IMN) speed at cruise altitude"
+ },
+ {
+  "id": "2-28.20",
+  "page": "2-28",
+  "kind": "metin",
+  "sec": "NOTE",
+  "text": "(f). Descent (KIAS) speed"
+ },
+ {
+  "id": "2-28.21",
+  "page": "2-28",
+  "kind": "metin",
+  "sec": "NOTE",
+  "text": "(g). Descent point"
+ },
+ {
+  "id": "2-28.22",
+  "page": "2-28",
+  "kind": "metin",
+  "sec": "NOTE",
+  "text": "Always verify the bingo figures passed by the ship with the bingo fuel chart based on the distance to the bingo field."
+ },
+ {
+  "id": "2-28.23",
+  "page": "2-28",
+  "kind": "metin",
+  "sec": "NOTE",
+  "text": "Refer to the PCL or NATOPS for current charts."
+ },
+ {
+  "id": "2-28.24",
+  "page": "2-28",
+  "kind": "metin",
+  "sec": "NOTE",
+  "text": "Example bingo profile computation problem:"
+ },
+ {
+  "id": "2-28.25",
+  "page": "2-28",
+  "kind": "metin",
+  "sec": "NOTE",
+  "text": "(i) Determine proper bingo information given the following:"
+ },
+ {
+  "id": "2-29.01",
+  "page": "2-29",
+  "kind": "metin",
+  "sec": "NOTE",
+  "text": "(a). Aircraft configuration: gear up, flaps up"
+ },
+ {
+  "id": "2-29.02",
+  "page": "2-29",
+  "kind": "metin",
+  "sec": "NOTE",
+  "text": "(b). Zero fuel weight: 10,500 lb."
+ },
+ {
+  "id": "2-29.03",
+  "page": "2-29",
+  "kind": "metin",
+  "sec": "NOTE",
+  "text": "(c). Drag index: 0"
+ },
+ {
+  "id": "2-29.04",
+  "page": "2-29",
+  "kind": "metin",
+  "sec": "NOTE",
+  "text": "(d). Distance to bingo field: 100 NM"
+ },
+ {
+  "id": "2-29.05",
+  "page": "2-29",
+  "kind": "metin",
+  "sec": "NOTE",
+  "text": "(ii) Solution:"
+ },
+ {
+  "id": "2-29.06",
+  "page": "2-29",
+  "kind": "metin",
+  "sec": "NOTE",
+  "text": "(a). DIST TO BASE = 100 NM"
+ },
+ {
+  "id": "2-29.07",
+  "page": "2-29",
+  "kind": "metin",
+  "sec": "NOTE",
+  "text": "(b). FUEL REQD = 712 lb."
+ },
+ {
+  "id": "2-29.08",
+  "page": "2-29",
+  "kind": "metin",
+  "sec": "NOTE",
+  "text": "(c). CLIMB SPEED = 300 KIAS/.75 IMN"
+ },
+ {
+  "id": "2-29.09",
+  "page": "2-29",
+  "kind": "metin",
+  "sec": "NOTE",
+  "text": "(d). CRUISE ALT = 20,000 feet"
+ },
+ {
+  "id": "2-29.10",
+  "page": "2-29",
+  "kind": "metin",
+  "sec": "NOTE",
+  "text": "(e). CRUISE SPEED = 218 KIAS .48 IMN"
+ },
+ {
+  "id": "2-29.11",
+  "page": "2-29",
+  "kind": "metin",
+  "sec": "NOTE",
+  "text": "(f). DESCENT SPEED = 180 KIAS"
+ },
+ {
+  "id": "2-29.12",
+  "page": "2-29",
+  "kind": "metin",
+  "sec": "NOTE",
+  "text": "(g). DESCENT DIST = 55 NM (from bingo field)"
+ },
+ {
+  "id": "2-29.13",
+  "page": "2-29",
+  "kind": "baslik",
+  "sec": "NOTE",
+  "text": "NOTE"
+ },
+ {
+  "id": "2-29.14",
+  "page": "2-29",
+  "kind": "metin",
+  "sec": "NOTE",
+  "text": "Fuel required includes 300 pounds reserve fuel, maximum thrust climb to indicated altitude, and idle thrust descent to sea level."
+ },
+ {
+  "id": "2-30.01",
+  "page": "2-30",
+  "kind": "sekil",
+  "sec": "NOTE",
+  "text": "Figure 2-10 Clean Bingo Chart"
+ },
+ {
+  "id": "2-31.01",
+  "page": "2-31",
+  "kind": "metin",
+  "sec": "NOTE",
+  "text": "(c) Bingo Flight Procedures (Clean). Upon reaching bingo fuel status, turn to bingo heading, clean up, accelerate to 300 KIAS, and fly the bingo profile (climb at MRT)."
+ },
+ {
+  "id": "2-31.02",
+  "page": "2-31",
+  "kind": "metin",
+  "sec": "NOTE",
+  "text": "Do not delay performing the turn or climb, but be aware of the ship’s position and other aircraft in the pattern."
+ },
+ {
+  "id": "2-31.03",
+  "page": "2-31",
+  "kind": "metin",
+  "sec": "NOTE",
+  "text": "Communicate intentions to the ship."
+ },
+ {
+  "id": "2-31.04",
+  "page": "2-31",
+  "kind": "metin",
+  "sec": "NOTE",
+  "text": "Do not delay in executing a bingo profile while awaiting Tower reply."
+ },
+ {
+  "id": "2-31.05",
+  "page": "2-31",
+  "kind": "metin",
+  "sec": "NOTE",
+  "text": "Squawk 7700 and communicate to any appropriate controlling agency."
+ },
+ {
+  "id": "2-31.06",
+  "page": "2-31",
+  "kind": "metin",
+  "sec": "NOTE",
+  "text": "At the descent point, begin idle descent to the bingo field at the descent airspeed."
+ },
+ {
+  "id": "2-31.07",
+  "page": "2-31",
+  "kind": "baslik",
+  "sec": "CAUTION",
+  "text": "CAUTION"
+ },
+ {
+  "id": "2-31.08",
+  "page": "2-31",
+  "kind": "metin",
+  "sec": "CAUTION",
+  "text": "Always cross-check your wet compass once established on a bingo."
+ },
+ {
+  "id": "2-31.09",
+  "page": "2-31",
+  "kind": "baslik",
+  "sec": "NOTE",
+  "text": "NOTE"
+ },
+ {
+  "id": "2-31.10",
+  "page": "2-31",
+  "kind": "metin",
+  "sec": "NOTE",
+  "text": "If the Bingo Profile is properly flown, aircraft should arrive overhead the field with 300-500 lbs. of fuel."
+ },
+ {
+  "id": "2-31.11",
+  "page": "2-31",
+  "kind": "metin",
+  "sec": "NOTE",
+  "text": "This allows enough fuel to make a turn downwind or a 360-degree turn in the event you are unable to make a safe approach on the first try."
+ },
+ {
+  "id": "2-31.12",
+  "page": "2-31",
+  "kind": "metin",
+  "sec": "NOTE",
+  "text": "Use good headwork."
+ },
+ {
+  "id": "2-31.13",
+  "page": "2-31",
+  "kind": "metin",
+  "sec": "NOTE",
+  "text": "(d) Computing Bingo Profile (Dirty). Since bingo profiles are normally flown in a clean configuration, bingo information calculated from the CV is for a clean bingo; however, if the aircraft has a gear and/or flap/slat malfunction resulting in a dirty configuration, the fuel requirements will be higher."
+ },
+ {
+  "id": "2-31.14",
+  "page": "2-31",
+  "kind": "metin",
+  "sec": "NOTE",
+  "text": "Dirty bingo information is computed in the same manner as clean bingo except that a different chart is used (Figure 2-11)."
+ },
+ {
+  "id": "2-31.15",
+  "page": "2-31",
+  "kind": "metin",
+  "sec": "NOTE",
+  "text": "Refer to the PCL or NATOPS for current charts."
+ },
+ {
+  "id": "2-31.16",
+  "page": "2-31",
+  "kind": "metin",
+  "sec": "NOTE",
+  "text": "When in a dirty configuration, compute the bingo profile as follows:"
+ },
+ {
+  "id": "2-31.17",
+  "page": "2-31",
+  "kind": "metin",
+  "sec": "NOTE",
+  "text": "(i) Determine the distance to base."
+ },
+ {
+  "id": "2-31.18",
+  "page": "2-31",
+  "kind": "metin",
+  "sec": "NOTE",
+  "text": "(ii) Refer to the PCL to determine proper bingo information."
+ },
+ {
+  "id": "2-31.19",
+  "page": "2-31",
+  "kind": "metin",
+  "sec": "NOTE",
+  "text": "(a). Fuel required"
+ },
+ {
+  "id": "2-31.20",
+  "page": "2-31",
+  "kind": "metin",
+  "sec": "NOTE",
+  "text": "(b). Speed (KIAS) for climb"
+ },
+ {
+  "id": "2-31.21",
+  "page": "2-31",
+  "kind": "metin",
+  "sec": "NOTE",
+  "text": "(c). Cruise altitude"
+ },
+ {
+  "id": "2-31.22",
+  "page": "2-31",
+  "kind": "metin",
+  "sec": "NOTE",
+  "text": "(d). Cruise (KIAS/IMN) speed at cruise altitude"
+ },
+ {
+  "id": "2-31.23",
+  "page": "2-31",
+  "kind": "metin",
+  "sec": "NOTE",
+  "text": "(e). Descent (KIAS) speed"
+ },
+ {
+  "id": "2-31.24",
+  "page": "2-31",
+  "kind": "metin",
+  "sec": "NOTE",
+  "text": "(f). Descent point"
+ },
+ {
+  "id": "2-32.01",
+  "page": "2-32",
+  "kind": "metin",
+  "sec": "NOTE",
+  "text": "Example bingo profile computation problem:"
+ },
+ {
+  "id": "2-32.02",
+  "page": "2-32",
+  "kind": "metin",
+  "sec": "NOTE",
+  "text": "(iii) Given the following information, determine proper bingo information:"
+ },
+ {
+  "id": "2-32.03",
+  "page": "2-32",
+  "kind": "metin",
+  "sec": "NOTE",
+  "text": "(a). Aircraft configuration: gear down, flaps full"
+ },
+ {
+  "id": "2-32.04",
+  "page": "2-32",
+  "kind": "metin",
+  "sec": "NOTE",
+  "text": "(b). Zero fuel weight: 10,500 lb."
+ },
+ {
+  "id": "2-32.05",
+  "page": "2-32",
+  "kind": "metin",
+  "sec": "NOTE",
+  "text": "(c). Drag index: 0 to calculate speed"
+ },
+ {
+  "id": "2-32.06",
+  "page": "2-32",
+  "kind": "metin",
+  "sec": "NOTE",
+  "text": "(d). Distance to bingo field: 100 NM"
+ },
+ {
+  "id": "2-32.07",
+  "page": "2-32",
+  "kind": "metin",
+  "sec": "NOTE",
+  "text": "(iv) Solution:"
+ },
+ {
+  "id": "2-32.08",
+  "page": "2-32",
+  "kind": "metin",
+  "sec": "NOTE",
+  "text": "(a). DIST TO BASE = 100 NM"
+ },
+ {
+  "id": "2-32.09",
+  "page": "2-32",
+  "kind": "metin",
+  "sec": "NOTE",
+  "text": "(b). FUEL REQD = 1,950 lb."
+ },
+ {
+  "id": "2-32.10",
+  "page": "2-32",
+  "kind": "metin",
+  "sec": "NOTE",
+  "text": "(c). CLIMB SPEED = 120 KIAS"
+ },
+ {
+  "id": "2-32.11",
+  "page": "2-32",
+  "kind": "metin",
+  "sec": "NOTE",
+  "text": "(d). CRUISE ALT = 15,000 feet"
+ },
+ {
+  "id": "2-32.12",
+  "page": "2-32",
+  "kind": "metin",
+  "sec": "NOTE",
+  "text": "(e). CRUISE SPEED = 118 KIAS/.24 IMN"
+ },
+ {
+  "id": "2-32.13",
+  "page": "2-32",
+  "kind": "metin",
+  "sec": "NOTE",
+  "text": "(f). DESCENT SPEED = 110 KIAS"
+ },
+ {
+  "id": "2-32.14",
+  "page": "2-32",
+  "kind": "metin",
+  "sec": "NOTE",
+  "text": "(g). DESCENT DIST = 15 NM (from bingo field)"
+ },
+ {
+  "id": "2-32.15",
+  "page": "2-32",
+  "kind": "baslik",
+  "sec": "NOTE",
+  "text": "NOTE"
+ },
+ {
+  "id": "2-32.16",
+  "page": "2-32",
+  "kind": "metin",
+  "sec": "NOTE",
+  "text": "Fuel required includes 300 pounds reserve fuel, maximum thrust climb to indicated altitude, and idle thrust descent to sea level."
+ },
+ {
+  "id": "2-32.17",
+  "page": "2-32",
+  "kind": "metin",
+  "sec": "NOTE",
+  "text": "(e) Bingo Flight Procedures (Dirty). Upon reaching bingo fuel status, turn to the bingo heading."
+ },
+ {
+  "id": "2-32.18",
+  "page": "2-32",
+  "kind": "metin",
+  "sec": "NOTE",
+  "text": "Do not delay performing the turn or climb, but be on the lookout for other aircraft."
+ },
+ {
+  "id": "2-32.19",
+  "page": "2-32",
+  "kind": "metin",
+  "sec": "NOTE",
+  "text": "Fly the computed bingo profile and climb at MRT."
+ },
+ {
+  "id": "2-32.20",
+  "page": "2-32",
+  "kind": "metin",
+  "sec": "NOTE",
+  "text": "Communicate the same information as if executing a clean bingo."
+ },
+ {
+  "id": "2-32.21",
+  "page": "2-32",
+  "kind": "metin",
+  "sec": "NOTE",
+  "text": "(f) Blown Tire. The most common reason for a dirty bingo is a blown tire."
+ },
+ {
+  "id": "2-32.22",
+  "page": "2-32",
+  "kind": "metin",
+  "sec": "NOTE",
+  "text": "If a wingman can visually inspect you and confirm no damage or debris in the flaps, you can raise the flaps and perform a gear down/flaps up dirty bingo to save fuel."
+ },
+ {
+  "id": "2-32.23",
+  "page": "2-32",
+  "kind": "metin",
+  "sec": "NOTE",
+  "text": "Procedures for handling a blown tire depend on the situation under which the malfunction occurs."
+ },
+ {
+  "id": "2-32.24",
+  "page": "2-32",
+  "kind": "metin",
+  "sec": "NOTE",
+  "text": "If the tire blows during a touch and go or after a catapult launch, aircraft may trap aboard or be directed to divert."
+ },
+ {
+  "id": "2-32.25",
+  "page": "2-32",
+  "kind": "metin",
+  "sec": "NOTE",
+  "text": "If it occurs after an arrestment, follow the yellow shirt’s signals to taxi or be towed out of the landing area."
+ },
+ {
+  "id": "2-32.26",
+  "page": "2-32",
+  "kind": "metin",
+  "sec": "NOTE",
+  "text": "If instructed to divert, fly the dirty profile; this will require careful fuel monitoring."
+ },
+ {
+  "id": "2-33.01",
+  "page": "2-33",
+  "kind": "sekil",
+  "sec": "NOTE",
+  "text": "Figure 2-11 Dirty Bingo Chart"
+ },
+ {
+  "id": "2-34.01",
+  "page": "2-34",
+  "kind": "metin",
+  "sec": "NOTE",
+  "text": "Even if well above bingo fuel, still fly the dirty bingo profile (the most fuel efficient profile)."
+ },
+ {
+  "id": "2-34.02",
+  "page": "2-34",
+  "kind": "metin",
+  "sec": "NOTE",
+  "text": "Refer to the PCL or NATOPS for proper field arrestment procedures."
+ },
+ {
+  "id": "2-34.03",
+  "page": "2-34",
+  "kind": "metin",
+  "sec": "NOTE",
+  "text": "Not following these procedures explicitly may result in a hook skip."
+ },
+ {
+  "id": "2-34.04",
+  "page": "2-34",
+  "kind": "baslik",
+  "sec": "WARNING",
+  "text": "WARNING"
+ },
+ {
+  "id": "2-34.05",
+  "page": "2-34",
+  "kind": "metin",
+  "sec": "WARNING",
+  "text": "Directional control on the runway will be extremely difficult with one or both main tires blown."
+ },
+ {
+  "id": "2-34.06",
+  "page": "2-34",
+  "kind": "metin",
+  "sec": "WARNING",
+  "text": "Upon touchdown, with a single blown main tire, the aircraft will begin an immediate and rapid yaw or swerve into the side of the blown tire; additionally, the aircraft will establish an Angle of Bank (AOB) of approximately 3-degrees opposite the direction of yaw (i.e., right yaw, left AOB)."
+ },
+ {
+  "id": "2-34.07",
+  "page": "2-34",
+  "kind": "metin",
+  "sec": "WARNING",
+  "text": "During the initial swerve, and subsequent pilot inputs to correct it, cockpit lateral accelerations (side-to-side) can reach up to 0.5 g; this can be very uncomfortable."
+ },
+ {
+  "id": "2-34.08",
+  "page": "2-34",
+  "kind": "metin",
+  "sec": "WARNING",
+  "text": "Landing area lateral deviations will vary depending on how rapidly correct control inputs (rudder inputs opposite the swerve) are applied."
+ },
+ {
+  "id": "2-34.09",
+  "page": "2-34",
+  "kind": "metin",
+  "sec": "WARNING",
+  "text": "For a shipboard arrested landing attempt, the LSO may elect to adjust the touchdown point by targeting the 2-wire."
+ },
+ {
+  "id": "2-34.10",
+  "page": "2-34",
+  "kind": "metin",
+  "sec": "WARNING",
+  "text": "The pilot should be prepared for the possibility of a bolter/hook skip."
+ },
+ {
+  "id": "2-34.11",
+  "page": "2-34",
+  "kind": "metin",
+  "sec": "WARNING",
+  "text": "Should this occur, aggressive and rapid rudder pedal deflection after touchdown (requiring up to 180-pounds of force within 0.25 seconds) is required to counter the swerve of a single blown tire to stay within the lateral confines of the landing area."
+ },
+ {
+  "id": "2-34.12",
+  "page": "2-34",
+  "kind": "metin",
+  "sec": "WARNING",
+  "text": "Once airborne, center the rudder pedals and establish a flyaway attitude."
+ },
+ {
+  "id": "2-34.13",
+  "page": "2-34",
+  "kind": "metin",
+  "sec": "WARNING",
+  "text": "(g) Cross-Deck Pendant/Hook Point Failure. Immediately determine if the aircraft can be stopped on the deck."
+ },
+ {
+  "id": "2-34.14",
+  "page": "2-34",
+  "kind": "metin",
+  "sec": "WARNING",
+  "text": "If the aircraft cannot be stopped on the deck, determine if there is adequate airspeed for flight."
+ },
+ {
+  "id": "2-34.15",
+  "page": "2-34",
+  "kind": "metin",
+  "sec": "WARNING",
+  "text": "If airspeed is not adequate, eject."
+ },
+ {
+  "id": "2-34.16",
+  "page": "2-34",
+  "kind": "metin",
+  "sec": "WARNING",
+  "text": "If airspeed is adequate, maintain MRT, check speed brakes retracted, and smoothly rotate to optimum AOA."
+ },
+ {
+  "id": "2-34.17",
+  "page": "2-34",
+  "kind": "metin",
+  "sec": "WARNING",
+  "text": "If the sink rate is not arrested, increase the AOA to 24 units, maintain wings level, and establish a positive rate of climb."
+ },
+ {
+  "id": "2-34.18",
+  "page": "2-34",
+  "kind": "metin",
+  "sec": "WARNING",
+  "text": "(h) NWS Failure On Flight Deck. The indications of a nose wheel steering failure are as follows:"
+ },
+ {
+  "id": "2-34.19",
+  "page": "2-34",
+  "kind": "metin",
+  "sec": "WARNING",
+  "text": "(i) MSTR ALERT light flashes"
+ },
+ {
+  "id": "2-34.20",
+  "page": "2-34",
+  "kind": "metin",
+  "sec": "WARNING",
+  "text": "(ii) Caution tone sounds in headset"
+ },
+ {
+  "id": "2-34.21",
+  "page": "2-34",
+  "kind": "metin",
+  "sec": "WARNING",
+  "text": "(iii) NOSE WHEEL STR amber caution light illuminated"
+ },
+ {
+  "id": "2-34.22",
+  "page": "2-34",
+  "kind": "metin",
+  "sec": "WARNING",
+  "text": "(iv) NOSE WHEEL STR green advisory light extinguished (if high gain selected)"
+ },
+ {
+  "id": "2-34.23",
+  "page": "2-34",
+  "kind": "metin",
+  "sec": "WARNING",
+  "text": "(v) Rudder pedals ineffective for steering"
+ },
+ {
+  "id": "2-34.24",
+  "page": "2-34",
+  "kind": "metin",
+  "sec": "WARNING",
+  "text": "If these indications are present, stop the aircraft. Do not taxi with inoperable NWS."
+ },
+ {
+  "id": "2-34.25",
+  "page": "2-34",
+  "kind": "metin",
+  "sec": "WARNING",
+  "text": "Inform the tower of NWS failure."
+ },
+ {
+  "id": "2-34.26",
+  "page": "2-34",
+  "kind": "metin",
+  "sec": "WARNING",
+  "text": "Confirm the pilot has pressed the paddle switch to disengage NWS and pressed the MSTR ALERT light (to cancel the light and tone)."
+ },
+ {
+  "id": "2-34.27",
+  "page": "2-34",
+  "kind": "metin",
+  "sec": "WARNING",
+  "text": "The deck crew will attach a tow bar."
+ },
+ {
+  "id": "2-34.28",
+  "page": "2-34",
+  "kind": "metin",
+  "sec": "WARNING",
+  "text": "While being towed, follow the flight director’s signals."
+ },
+ {
+  "id": "2-35.01",
+  "page": "2-35",
+  "kind": "baslik",
+  "sec": "WARNING",
+  "text": "WARNING"
+ },
+ {
+  "id": "2-35.02",
+  "page": "2-35",
+  "kind": "metin",
+  "sec": "WARNING",
+  "text": "Do not reengage NWS or use differential braking while the tow bar is attached."
+ },
+ {
+  "id": "2-35.03",
+  "page": "2-35",
+  "kind": "metin",
+  "sec": "WARNING",
+  "text": "(i) Brake Failure. The illumination of the HYD 1 PRESS caution light, a low indication of pressure on the brake pressure gauge, or a decrease or loss of brake pedal pressure are indications of brake failure."
+ },
+ {
+  "id": "2-35.04",
+  "page": "2-35",
+  "kind": "metin",
+  "sec": "WARNING",
+  "text": "If these indications occur, use high gain nose wheel steering and available braking to maintain directional control while stopping."
+ },
+ {
+  "id": "2-35.05",
+  "page": "2-35",
+  "kind": "metin",
+  "sec": "WARNING",
+  "text": "If only one brake fails, use NWS and the functioning brake to stop the aircraft."
+ },
+ {
+  "id": "2-35.06",
+  "page": "2-35",
+  "kind": "metin",
+  "sec": "WARNING",
+  "text": "Engage the parking brake if available and drop the arresting hook (to signal deck personnel that a brake failure has occurred), ensure that the ANTI-SKID switch is in the OFF position."
+ },
+ {
+  "id": "2-35.07",
+  "page": "2-35",
+  "kind": "metin",
+  "sec": "WARNING",
+  "text": "Advise the tower of the situation. Move the throttle to OFF only if a collision is unavoidable because shutting down the engine will lose NWS and any remaining hydraulic services."
+ },
+ {
+  "id": "2-35.08",
+  "page": "2-35",
+  "kind": "metin",
+  "sec": "WARNING",
+  "text": "Make every effort to keep the aircraft on the flight deck, even if it means running into the island or another aircraft."
+ },
+ {
+  "id": "2-35.09",
+  "page": "2-35",
+  "kind": "metin",
+  "sec": "WARNING",
+  "text": "If the aircraft is leaving the flight deck, eject."
+ },
+ {
+  "id": "2-35.10",
+  "page": "2-35",
+  "kind": "metin",
+  "sec": "WARNING",
+  "text": "Once a wheel is off the flight deck (i.e., aircraft is no longer level), the aircraft may be out of the ejection envelope and ejection is no longer recommended."
+ },
+ {
+  "id": "2-35.11",
+  "page": "2-35",
+  "kind": "metin",
+  "sec": "WARNING",
+  "text": "The following water egress procedures may be necessary:"
+ },
+ {
+  "id": "2-35.12",
+  "page": "2-35",
+  "kind": "metin",
+  "sec": "WARNING",
+  "text": "(i) Pull the Mild Detonating Cord (MDC) firing handle and activate emergency oxygen."
+ },
+ {
+  "id": "2-35.13",
+  "page": "2-35",
+  "kind": "metin",
+  "sec": "WARNING",
+  "text": "In the event of an underwater egress, it is possible to breathe under water with the oxygen equipment to a depth of 16 feet."
+ },
+ {
+  "id": "2-35.14",
+  "page": "2-35",
+  "kind": "metin",
+  "sec": "WARNING",
+  "text": "(ii) If possible, evacuate with the survival kit, release the upper Koch fittings, pull the emergency restraint release (to release leg restraints), evacuate the aircraft with the seatpack, and inflate the life preserver unit (LPU)."
+ },
+ {
+  "id": "2-35.15",
+  "page": "2-35",
+  "kind": "metin",
+  "sec": "WARNING",
+  "text": "(iii) When evacuating without the survival kit, release the upper Koch fittings, pull the emergency restraint release, release the lower Koch fittings, disconnect oxygen/communication connectors, and inflate the LPU."
+ },
+ {
+  "id": "2-35.16",
+  "page": "2-35",
+  "kind": "metin",
+  "sec": "WARNING",
+  "text": "(iv) If the cockpit has flooded, the LPU may have inflated due to the water-activated automatic inflation device."
+ },
+ {
+  "id": "2-35.17",
+  "page": "2-35",
+  "kind": "metin",
+  "sec": "WARNING",
+  "text": "If so, care must be taken during exit to avoid damage to the LPU."
+ },
+ {
+  "id": "2-35.18",
+  "page": "2-35",
+  "kind": "metin",
+  "sec": "WARNING",
+  "text": "(j) Launch Bar Malfunction (Airborne). A launch bar malfunction is indicated by the red L BAR warning light accompanied by the warning tone."
+ },
+ {
+  "id": "2-35.19",
+  "page": "2-35",
+  "kind": "metin",
+  "sec": "WARNING",
+  "text": "If these indications occur, verify that the launch bar switch is in the RETRACT position."
+ },
+ {
+  "id": "2-35.20",
+  "page": "2-35",
+  "kind": "metin",
+  "sec": "WARNING",
+  "text": "If the launch bar fails to retract, inform the LSO/tower and refer to the Landing Gear Malfunction- Landing Guide chart in your PCL."
+ },
+ {
+  "id": "2-35.21",
+  "page": "2-35",
+  "kind": "metin",
+  "sec": "WARNING",
+  "text": "If the launch bar is visually confirmed to be in the DOWN position, clean up, exit the pattern using standard procedures, and rendezvous overhead according to tower instructions."
+ },
+ {
+  "id": "2-35.22",
+  "page": "2-35",
+  "kind": "metin",
+  "sec": "WARNING",
+  "text": "Expect to divert and land ashore with the short-field arresting gear de-rigged."
+ },
+ {
+  "id": "2-36.01",
+  "page": "2-36",
+  "kind": "baslik",
+  "sec": "2. Catapult Malfunctions/Emergencies",
+  "text": "2. Catapult Malfunctions/Emergencies"
+ },
+ {
+  "id": "2-36.02",
+  "page": "2-36",
+  "kind": "metin",
+  "sec": "2. Catapult Malfunctions/Emergencies",
+  "text": "If an aircraft emergency occurs while on the catapult, perform catapult suspend procedures:"
+ },
+ {
+  "id": "2-36.03",
+  "page": "2-36",
+  "kind": "metin",
+  "sec": "2. Catapult Malfunctions/Emergencies",
+  "text": " Use a head shake as a negative signal and transmit, “Suspend, suspend, suspend.”  Maintain MRT until the catapult officer steps in front of the aircraft’s wing and gives the throttle back signal."
+ },
+ {
+  "id": "2-36.04",
+  "page": "2-36",
+  "kind": "baslik",
+  "sec": "CAUTION",
+  "text": "CAUTION"
+ },
+ {
+  "id": "2-36.05",
+  "page": "2-36",
+  "kind": "metin",
+  "sec": "CAUTION",
+  "text": "Keep both hands down in the cockpit and out of sight so that hand movements cannot be confused with a salute."
+ },
+ {
+  "id": "2-36.06",
+  "page": "2-36",
+  "kind": "metin",
+  "sec": "CAUTION",
+  "text": "(a) Hang Fire (Catapult Malfunction). A catapult hang fire occurs when the catapult officer has touched the deck, the button has been pushed to launch the aircraft, but the catapult does not fire."
+ },
+ {
+  "id": "2-36.07",
+  "page": "2-36",
+  "kind": "metin",
+  "sec": "CAUTION",
+  "text": "If a hang fire occurs, the catapult officer will give the suspend signal followed by the hang fire signal."
+ },
+ {
+  "id": "2-36.08",
+  "page": "2-36",
+  "kind": "metin",
+  "sec": "CAUTION",
+  "text": "Once the catapult is safe, he will step in front of the aircraft and give the throttle back signal."
+ },
+ {
+  "id": "2-36.09",
+  "page": "2-36",
+  "kind": "metin",
+  "sec": "CAUTION",
+  "text": "(b) Holdback Fitting Failure. Once the aircraft is in tension, a holdback fitting failure may occur."
+ },
+ {
+  "id": "2-36.10",
+  "page": "2-36",
+  "kind": "metin",
+  "sec": "CAUTION",
+  "text": "When a holdback fitting fails, the aircraft will begin rolling forward and feel like it is on a normal takeoff roll as opposed to a catapult stroke."
+ },
+ {
+  "id": "2-36.11",
+  "page": "2-36",
+  "kind": "metin",
+  "sec": "CAUTION",
+  "text": "If this happens, retard the throttle immediately to IDLE, extend speed brakes and apply maximum braking."
+ },
+ {
+  "id": "2-36.12",
+  "page": "2-36",
+  "kind": "metin",
+  "sec": "CAUTION",
+  "text": "If necessary, use NWS to remain on the deck."
+ },
+ {
+  "id": "2-36.13",
+  "page": "2-36",
+  "kind": "metin",
+  "sec": "CAUTION",
+  "text": "The launch bar must be retracted or the NWS button pressed to activate the NWS."
+ },
+ {
+  "id": "2-36.14",
+  "page": "2-36",
+  "kind": "baslik",
+  "sec": "CAUTION",
+  "text": "CAUTION"
+ },
+ {
+  "id": "2-36.15",
+  "page": "2-36",
+  "kind": "metin",
+  "sec": "CAUTION",
+  "text": "Failure to perform the above procedures immediately may make it impossible to keep the aircraft on the flight deck, requiring an ejection."
+ },
+ {
+  "id": "2-36.16",
+  "page": "2-36",
+  "kind": "metin",
+  "sec": "CAUTION",
+  "text": "If unable to eject, pull the MDC handle, activate emergency oxygen, ride the aircraft into the water, and perform a water egress."
+ },
+ {
+  "id": "2-36.17",
+  "page": "2-36",
+  "kind": "metin",
+  "sec": "CAUTION",
+  "text": "(c) Catapult Malfunction (Cold/Soft Catapult). Immediately determine if the aircraft can be stopped on the deck."
+ },
+ {
+  "id": "2-36.18",
+  "page": "2-36",
+  "kind": "metin",
+  "sec": "CAUTION",
+  "text": "If the aircraft cannot be stopped on the deck, determine if there is adequate airspeed for flight."
+ },
+ {
+  "id": "2-36.19",
+  "page": "2-36",
+  "kind": "metin",
+  "sec": "CAUTION",
+  "text": "If airspeed is not adequate, eject."
+ },
+ {
+  "id": "2-36.20",
+  "page": "2-36",
+  "kind": "metin",
+  "sec": "CAUTION",
+  "text": "If airspeed is adequate, maintain MRT and smoothly rotate aircraft to optimum AOA to stop sink rate."
+ },
+ {
+  "id": "2-36.21",
+  "page": "2-36",
+  "kind": "metin",
+  "sec": "CAUTION",
+  "text": "If the sink rate is not arrested, increase AOA to 24 units."
+ },
+ {
+  "id": "2-36.22",
+  "page": "2-36",
+  "kind": "metin",
+  "sec": "CAUTION",
+  "text": "Maintain wings level and establish a positive rate of climb."
+ },
+ {
+  "id": "2-37.01",
+  "page": "2-37",
+  "kind": "metin",
+  "sec": "CAUTION",
+  "text": "(d) Communication Failure. In the event of a communications failure, always troubleshoot the system by checking switches and looking for loose connections."
+ },
+ {
+  "id": "2-37.02",
+  "page": "2-37",
+  "kind": "metin",
+  "sec": "CAUTION",
+  "text": "(e) Lost Comm Enroute To Ship. Using hand signals, notify the lead of your NORDO condition and fuel state."
+ },
+ {
+  "id": "2-37.03",
+  "page": "2-37",
+  "kind": "metin",
+  "sec": "CAUTION",
+  "text": "The lead will contact Marshal and coordinate a recovery or a divert."
+ },
+ {
+  "id": "2-37.04",
+  "page": "2-37",
+  "kind": "metin",
+  "sec": "CAUTION",
+  "text": "(f) Lost Comm In The Pattern. Fly a normal pattern to the start and call the ball."
+ },
+ {
+  "id": "2-37.05",
+  "page": "2-37",
+  "kind": "metin",
+  "sec": "CAUTION",
+  "text": "If no cut lights are received, wave off the approach and do not descend below 300 ft."
+ },
+ {
+  "id": "2-37.06",
+  "page": "2-37",
+  "kind": "metin",
+  "sec": "CAUTION",
+  "text": "Fly up the angled deck, rocking the wings."
+ },
+ {
+  "id": "2-37.07",
+  "page": "2-37",
+  "kind": "metin",
+  "sec": "CAUTION",
+  "text": "When abeam the ship’s bow, turn to parallel BRC, then climb and maintain 500 feet, and accelerate to 150 KIAS."
+ },
+ {
+  "id": "2-37.08",
+  "page": "2-37",
+  "kind": "metin",
+  "sec": "CAUTION",
+  "text": "Continue in the pattern, turning on interval."
+ },
+ {
+  "id": "2-37.09",
+  "page": "2-37",
+  "kind": "baslik",
+  "sec": "CAUTION",
+  "text": "CAUTION"
+ },
+ {
+  "id": "2-37.10",
+  "page": "2-37",
+  "kind": "metin",
+  "sec": "CAUTION",
+  "text": "(1) When climbing, stay alert for other aircraft. Remain within 5 NM of the ship and do not lose sight of the ship."
+ },
+ {
+  "id": "2-37.11",
+  "page": "2-37",
+  "kind": "metin",
+  "sec": "CAUTION",
+  "text": "(2) If bingo fuel state is reached, or an emergency occurs that requires an immediate landing, proceed to the divert field and squawk 7700."
+ },
+ {
+  "id": "2-37.12",
+  "page": "2-37",
+  "kind": "metin",
+  "sec": "CAUTION",
+  "text": "Cross-check the wet compass and HSI to ensure that heading is properly aligned."
+ },
+ {
+  "id": "2-37.13",
+  "page": "2-37",
+  "kind": "metin",
+  "sec": "CAUTION",
+  "text": "Another aircraft may join as an escort to the bingo field."
+ },
+ {
+  "id": "2-37.14",
+  "page": "2-37",
+  "kind": "metin",
+  "sec": "CAUTION",
+  "text": "(g) Lost Comm On The Flight Deck. Never taxi to a catapult for launch with a known communication malfunction."
+ },
+ {
+  "id": "2-37.15",
+  "page": "2-37",
+  "kind": "metin",
+  "sec": "CAUTION",
+  "text": "Give the communication failure signal to the yellow shirt (point at ears or mask followed by a thumbs down) and follow the yellow shirt’s signals to a parking area."
+ },
+ {
+  "id": "2-37.16",
+  "page": "2-37",
+  "kind": "metin",
+  "sec": "CAUTION",
+  "text": "Troubleshoot the malfunction when practicable (cycle the switches and check the mask and helmet connections)."
+ },
+ {
+  "id": "2-38.01",
+  "page": "2-38",
+  "kind": "baslik",
+  "sec": "THIS PAGE INTENTIONALLY LEFT BLANK",
+  "text": "THIS PAGE INTENTIONALLY LEFT BLANK"
+ }
+]

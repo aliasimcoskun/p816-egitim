@@ -1,0 +1,623 @@
+# Bölüm 2, parça e (205 EMERGENCIES) soruları — biçim:
+# ## <bölüm>   S: soru   - yanlış şık   + doğru şık   A: açıklama   K: kaynak birimleri
+# Sorular boş satırla ayrılır.
+
+## 205.1
+
+S: Belgeye göre "bingo" ne anlama gelir?
+- Uçağın minimum fuel seviyesinde olduğu
++ Uçağın acil durum (emergency) yakıt seviyesinde olduğu; bingo bir acil durumdur
+- Uçağın hold-down yakıt seviyesine indiği
+- Divert için planlanan yakıtın tükendiği
+A: "Bingo is an emergency situation. It means the aircraft is at emergency fuel level, not minimum fuel."
+K: 2-28.03, 2-28.04
+
+S: Yakıt durumu Air Ops'un belirlediği hold-down seviyesine ulaşan uçağa ne olur?
++ Yakıt ikmali için güvertede tutulur
+- Derhal divert'e gönderilir
+- Bingo ilan edilir
+- Tanker'e yönlendirilir
+A: Her uçağın yakıt durumunu Air Ops ve Tower sürekli izler.
+K: 2-28.05, 2-28.06
+
+S: Yakıtınız hold-down seviyesinde veya altındayken katapulta taxi yapmanız yönlendirilirse ne yaparsınız?
++ Tower'a çağrı yaparsınız
+- Katapulta gidip Shooter'a el işareti verirsiniz
+- Marshal'ı ararsınız
+- Kalkışa devam edip havada bildirirsiniz
+A: "If directed to taxi to the catapult with a fuel state at or below hold-down, make a call to Tower."
+K: 2-28.07
+
+S: Divert sahasına kerteriz / mesafe bilgisi (pigeons) ve bingo fuel durumu ilk olarak nereden alınır?
++ İlk check-in'de Marshal'dan
+- Kalkıştan önce Flight Deck Control'den
+- Groove'da LSO'dan
+- Departure'dan, 2.500 ft geçerken
+A: Bilgi periyodik olarak güncellenir, Marshal ve tower frekanslarında yayınlanır; her zaman yazılmalıdır.
+K: 2-28.11, 2-28.12, 2-28.13
+
+S: Temiz bingo hesabında PCL'den bulunan "time required for bingo" neyi kapsar?
++ Tırmanışın başından inişe kadar geçen toplam süreyi
+- Yalnızca seyir süresini
+- Alçalma noktasından inişe kadar geçen süreyi
+- Bingo kararından tırmanışa kadar geçen süreyi
+A: "(total time required from start of climb to landing)". Kirli bingo listesinde bu madde yoktur.
+K: 2-28.16, 2-31.19..2-31.24
+
+S: Bingo profili hesabının (temiz ve kirli) ilk adımı nedir?
++ Üsse (base) olan mesafeyi belirlemek
+- PCL'den gereken yakıtı bulmak
+- Drag index'i hesaplamak
+- Tower'dan onay almak
+A: Adım i: distance to base. Adım ii: PCL'den doğru bingo bilgilerini belirlemek.
+K: 2-28.08, 2-28.09, 2-28.14, 2-31.17, 2-31.18
+
+S: Geminin bildirdiği bingo değerleri için kural nedir?
++ Her zaman bingo sahasına olan mesafeye göre bingo fuel grafiğiyle doğrulanır
+- Gemi değerleri kesindir, doğrulanmaz
+- Yalnızca kirli konfigürasyonda doğrulanır
+- LSO'ya teyit ettirilir
+A: Güncel grafikler için PCL veya NATOPS'a bakılır.
+K: 2-28.22, 2-28.23
+
+S: Temiz bingo örneğinde (gear up / flaps up, zero fuel weight 10.500 lb, drag index 0, 100 NM) gereken yakıt nedir?
+- 921 lb
++ 712 lb
+- 820 lb
+- 1.950 lb
+A: Şekil 2-10, DRAG INDEX = 0, 100 NM, rüzgârsız: 712 lb. 921 lb aynı satırın 100 kt baş rüzgârı değeri, 820 lb deniz seviyesi seyri değeri, 1.950 lb kirli örneğin sonucudur.
+K: 2-29.01..2-29.04, 2-29.06, 2-29.07, 2-30.F7
+
+S: Temiz bingo örneğinde seyir irtifası ve alçalma mesafesi nedir?
++ 20.000 ft; bingo sahasından 55 NM
+- 15.000 ft; 15 NM
+- 25.000 ft; 69 NM
+- 20.000 ft; 29 NM
+A: 29 NM, aynı satırın 100 kt baş rüzgârı alçalma mesafesidir.
+K: 2-29.09, 2-29.12, 2-30.F7
+
+S: Temiz bingo örneğinde tırmanış, seyir ve alçalma hızları nedir?
++ 300 KIAS / 0,75 IMN; 218 KIAS (0,48 IMN); 180 KIAS
+- 265 KIAS / 0,70 IMN; 213 KIAS; 170 KIAS
+- 120 KIAS; 118 KIAS; 110 KIAS
+- 300 KIAS; 300 KIAS; 250 KIAS
+A: Şekil 2-10'un DRAG INDEX = 0 bloğu: CLIMB SPEED 300/0.75, DESCEND SPEED 180 KCAS; 100 NM satırında CRUISE SPEED 218 KCAS.
+K: 2-29.08, 2-29.10, 2-29.11, 2-30.F3
+
+S: Bingo grafiklerindeki "fuel required" değerine hangisi dahil DEĞİLDİR?
+- 300 lb yedek yakıt
+- Maksimum thrust ile tırmanış
+- Deniz seviyesine idle thrust ile alçalma
++ Sahada 360 derecelik bir dönüş için ek 500 lb
+A: NOTE: "Fuel required includes 300 pounds reserve fuel, maximum thrust climb to indicated altitude, and idle thrust descent to sea level."
+K: 2-29.14, 2-32.16, 2-30.F36, 2-30.F38, 2-30.F39
+
+S: Bingo grafiklerinin notlarına göre başlangıç irtifası nedir?
++ Deniz seviyesi
+- 1.000 ft
+- Marshal holding irtifası
+- 2.500 ft
+A: Notlar: 300 lb yedek yakıt dahil; başlangıç irtifası deniz seviyesi; seyir irtifasına maksimum thrust tırmanış; deniz seviyesine idle thrust maksimum menzil alçalması (speedbrake'ler kapalı).
+K: 2-30.F37, 2-33.F27, 2-33.F26, 2-33.F28, 2-33.F29
+
+S: Baş rüzgârı (head wind) sütunları Şekil 2-10'da ve Şekil 2-11'de kaç knot içindir?
++ Şekil 2-10: 100 kt; Şekil 2-11: 50 kt
+- Şekil 2-10: 50 kt; Şekil 2-11: 100 kt
+- İkisinde de 100 kt
+- İkisinde de 50 kt
+A: Sütun düzeni iki grafikte aynıdır; yalnızca baş rüzgârı değeri farklıdır.
+K: 2-30.F2, 2-33.F2
+
+S: Şekil 2-10'da DRAG INDEX = 50 bloğunun tırmanış ve alçalma hızları nedir?
+- 300/0,75; 180 KCAS
++ 265/0,70; 170 KCAS
+- 245/0,60; 165 KCAS
+- 120; 110 KCAS
+A: DRAG INDEX = 0: 300/0,75 ve 180 KCAS; DRAG INDEX = 100: 245/0,60 ve 165 KCAS. 120 / 110 KCAS kirli grafiğin değerleridir.
+K: 2-30.F14, 2-30.F3, 2-30.F25
+
+S: Şekil 2-10'da DRAG INDEX = 100, 250 NM için rüzgârsız gereken yakıt nedir?
+- 1.127 lb
+- 1.221 lb
++ 1.299 lb
+- 1.717 lb
+A: 1.127 lb DI 0, 1.221 lb DI 50 değeridir; 1.717 lb aynı satırın 100 kt baş rüzgârı değeridir.
+K: 2-30.F35, 2-30.F13, 2-30.F24
+
+S: Şekil 2-10'da DRAG INDEX = 0 bloğunda seyir irtifası 40.000 ft olan mesafe hangisidir?
++ 250 NM
+- 175 NM
+- 200 NM
+- 225 NM
+A: DI 0'da 175, 200 ve 225 NM için seyir irtifası 35.000 ft, 250 NM için 40.000 ft'tir.
+K: 2-30.F10..2-30.F13
+
+S: Şekil 2-10'da DRAG INDEX = 100, 125 NM için seyir irtifası nedir?
+- 25.000 ft
++ 30.000 ft
+- 35.000 ft
+- 20.000 ft
+A: DI 0 ve DI 50'de 125 NM için 25.000 ft; DI 100'de 30.000 ft (150 NM ile aynı).
+K: 2-30.F30, 2-30.F8, 2-30.F19
+
+S: Şekil 2-10, DRAG INDEX = 0, 150 NM için rüzgârsız alçalma mesafesi nedir?
++ 83 NM
+- 69 NM
+- 97 NM
+- 46 NM
+A: 46 NM aynı satırın 100 kt baş rüzgârı değeridir; 69 NM 125 NM satırının, 97 NM 175 NM satırının değeridir.
+K: 2-30.F9
+
+S: Şekil 2-10'daki "SEA LEVEL CRUISE" grubu neyi verir?
++ Deniz seviyesinde seyir için gereken yakıt (rüzgârsız / 100 kt baş rüzgârı) ve seyir hızını
+- Deniz seviyesinden tırmanış hızını
+- Deniz seviyesine alçalma mesafesini
+- Yalnızca deniz seviyesindeki yedek yakıtı
+A: Diğer grup "MAXIMUM RANGE CRUISE"tır: yakıt, tırmanış hızı, seyir irtifası/hızı, alçalma hızı/mesafesi.
+K: 2-30.F2, 2-33.F2
+
+S: Temiz bingo yakıt durumuna ulaşınca ne yapılır?
++ Bingo heading'ine dönülür, temizlenilir, 300 KIAS'a hızlanılır ve bingo profili uçulur (tırmanış MRT ile)
+- Tower'ın onayı beklenir, sonra bingo heading'ine dönülür
+- Paterni tamamlayıp bir yaklaşma daha denenir
+- Deniz seviyesinde 300 KIAS ile sahaya gidilir
+A: Dönüş ve tırmanış geciktirilmez; Tower'ın cevabını beklerken de bingo profiline başlamak geciktirilmez.
+K: 2-31.01, 2-31.02, 2-31.04
+
+S: Bingoda transponder hangi koda ayarlanır?
++ 7700
+- 7600
+- 7500
+- 1200
+A: "Squawk 7700 and communicate to any appropriate controlling agency." Paternde NORDO iken bingo ya da derhal iniş gerektiren acil durumda da 7700 squawk edilir.
+K: 2-31.05, 2-37.11
+
+S: Temiz bingoda alçalma noktasına gelince ne yapılır?
++ Alçalma hızında bingo sahasına idle alçalmaya başlanır
+- MRT ile alçalınır
+- Speed brake açılarak hızla alçalınır
+- Önce sahanın üzerine gelinir, sonra alçalınır
+A: "At the descent point, begin idle descent to the bingo field at the descent airspeed."
+K: 2-31.06
+
+S: CAUTION: Bingo'ya yerleştikten sonra her zaman neyi çapraz kontrol edersiniz?
++ Wet compass'ı
+- Yakıt akış göstergesini
+- Radar altimetreyi
+- TACAN DME'yi
+A: "Always cross-check your wet compass once established on a bingo."
+K: 2-31.08
+
+S: Bingo profili doğru uçulursa uçak sahanın üzerine ne kadar yakıtla varmalıdır?
+- 100–200 lb
++ 300–500 lb
+- 500–700 lb
+- 1.000 lb
+A: Bu, ilk denemede emniyetli yaklaşma yapılamazsa downwind'e bir dönüş veya 360 derecelik dönüş için yeterlidir.
+K: 2-31.10, 2-31.11
+
+S: Gemiden (CV) hesaplanan bingo bilgisi hangi konfigürasyon içindir?
++ Temiz (clean) bingo
+- Kirli (dirty) bingo
+- Gear down / flaps up
+- Konfigürasyona göre ikisi birden
+A: Kirli konfigürasyonda yakıt gereksinimi daha yüksektir; aynı yöntemle ama farklı bir grafikten (Şekil 2-11) hesaplanır.
+K: 2-31.13, 2-31.14
+
+S: Kirli bingo örneğinde (gear down / flaps full, drag index 0, 100 NM) gereken yakıt nedir?
+- 712 lb
+- 2.809 lb
++ 1.950 lb
+- 2.195 lb
+A: Şekil 2-11, DRAG INDEX = 0, 100 NM, rüzgârsız. 2.809 lb 50 kt baş rüzgârı, 2.195 lb deniz seviyesi seyri değeridir.
+K: 2-32.03..2-32.06, 2-32.08, 2-32.09, 2-33.F7
+
+S: Kirli bingo örneğinde seyir irtifası ve alçalma mesafesi nedir?
++ 15.000 ft; bingo sahasından 15 NM
+- 20.000 ft; 55 NM
+- 12.500 ft; 12 NM
+- 15.000 ft; 9 NM
+A: 9 NM aynı satırın 50 kt baş rüzgârı alçalma mesafesidir.
+K: 2-32.11, 2-32.14, 2-33.F7
+
+S: Kirli bingo örneğinde tırmanış, seyir ve alçalma hızları nedir?
++ 120 KIAS; 118 KIAS (0,24 IMN); 110 KIAS
+- 300 KIAS; 218 KIAS; 180 KIAS
+- 150 KIAS; 120 KIAS; 110 KIAS
+- 120 KIAS; 150 KIAS; 120 KIAS
+A: Şekil 2-11'in üç bloğunda da CLIMB SPEED 120, DESCEND SPEED 110 KCAS'tır.
+K: 2-32.10, 2-32.12, 2-32.13, 2-33.F3
+
+S: Şekil 2-11'de DRAG INDEX = 0 için değer verilen en uzun mesafe hangisidir?
+- 100 NM
+- 125 NM
++ 150 NM
+- 250 NM
+A: DI 0 ve DI 50'de 175–250 NM satırları "-"dir; DI 100'de son değerli satır 125 NM'dir (150–250 NM "-").
+K: 2-33.F9, 2-33.F10, 2-33.F18, 2-33.F24, 2-33.F25
+
+S: Şekil 2-11'de tırmanış ve alçalma hızı drag index'e göre nasıl değişir?
++ Değişmez: üç blokta da 120 ve 110 KCAS
+- Drag index arttıkça azalır
+- Drag index arttıkça artar
+- Yalnızca DI 100'de 110 KCAS'tır
+A: Şekil 2-10'da ise hızlar drag index'e göre değişir (300/0,75–180, 265/0,70–170, 245/0,60–165).
+K: 2-33.F3, 2-33.F11, 2-33.F19
+
+S: Kirli bingo uçuş prosedüründe tırmanış nasıl yapılır?
++ Hesaplanan bingo profili uçulur ve MRT ile tırmanılır
+- Tırmanılmaz, deniz seviyesinde seyredilir
+- 300 KIAS korunarak tırmanılır
+- Tower onay verene kadar tırmanılmaz
+A: Bingo heading'ine dönülür; dönüş ve tırmanış geciktirilmez ama diğer uçaklara karşı tetikte olunur; temiz bingodaki bilgilerin aynısı bildirilir.
+K: 2-32.17, 2-32.18, 2-32.19, 2-32.20
+
+S: Kirli bingonun en yaygın nedeni nedir?
++ Patlak lastik
+- Flap/slat arızası
+- Kanca arızası
+- Launch bar arızası
+A: "The most common reason for a dirty bingo is a blown tire."
+K: 2-32.21
+
+S: Patlak lastikle "gear down / flaps up" kirli bingo yapabilmek için koşul nedir?
++ Bir wingman'in gözle kontrol edip flaplarda hasar veya parça (debris) olmadığını teyit etmesi
+- LSO'nun onayı
+- Bingo yakıtının üzerinde olmak
+- Tower'ın izni
+A: Amaç yakıt tasarrufudur.
+K: 2-32.22
+
+S: Lastik touch and go sırasında ya da katapult kalkışından sonra patlarsa ne olabilir?
++ Uçak gemiye trap yapabilir ya da divert'e yönlendirilebilir
+- Uçak mutlaka divert edilir
+- Barricade kurulur
+- Uçak mutlaka eject edilir
+A: Prosedür, arızanın hangi durumda meydana geldiğine bağlıdır.
+K: 2-32.23, 2-32.24
+
+S: Lastik arrestment'tan sonra patlarsa ne yapılır?
++ Yellow shirt'ün işaretleriyle taxi yapılır veya iniş alanından çekilir
+- Derhal motor kapatılıp kanopi açılır
+- Uçak kendi başına park alanına taxi yapar
+- Barricade kurulana kadar beklenir
+A: "...follow the yellow shirt's signals to taxi or be towed out of the landing area."
+K: 2-32.25
+
+S: Patlak lastikle divert talimatı aldınız ve bingo yakıtının çok üzerindesiniz. Hangi profili uçarsınız?
++ Kirli bingo profilini (en yakıt verimli profil)
+- Temiz bingo profilini
+- Deniz seviyesi seyrini
+- Bingo yakıtına inene kadar paterni
+A: Kirli profil dikkatli yakıt takibi gerektirir.
+K: 2-32.26, 2-34.01
+
+S: Saha arrestment prosedürlerine harfiyen uyulmazsa ne olabilir?
++ Hook skip
+- Lastik patlaması
+- NWS arızası
+- Launch bar arızası
+A: Prosedürler PCL veya NATOPS'tadır.
+K: 2-34.02, 2-34.03
+
+S: Tek ana lastik patlakken teker koyunca uçak ne yapar?
++ Patlak lastik tarafına yaw yapar / savrulur ve yaw'un tersine yaklaşık 3° AOB oluşur
+- Sağlam lastik tarafına savrulur ve aynı yöne AOB oluşur
+- Düz gider, yalnızca titreşim olur
+- Patlak lastik tarafına yaklaşık 10° AOB oluşur
+A: Örnek: sağa yaw, sola AOB. WARNING: bir veya iki ana lastik patlakken pistte yön kontrolü son derece zordur.
+K: 2-34.05, 2-34.06
+
+S: İlk savrulma ve düzeltme girdileri sırasında kokpitteki yanal ivme kaça kadar çıkabilir?
+- 0,1 g
++ 0,5 g
+- 1,5 g
+- 3 g
+A: Bu çok rahatsız edici olabilir. Yanal sapma, savrulmanın tersine rudder girdisinin ne kadar hızlı verildiğine bağlıdır.
+K: 2-34.07, 2-34.08
+
+S: Patlak lastikle gemiye arrested landing denemesinde LSO teker koyma noktasını hangi teli hedefleyerek ayarlayabilir?
+- 1 tel
++ 2 tel
+- 3 tel
+- 4 tel
+A: Pilot bolter / hook skip olasılığına hazırlıklı olmalıdır.
+K: 2-34.09, 2-34.10
+
+S: Patlak lastikle bolter / hook skip olursa savrulmayı karşılamak için ne gerekir?
++ Teker koyduktan sonra 0,25 saniye içinde 180 pound'a kadar kuvvetle agresif ve hızlı rudder pedalı
+- 1 saniye içinde 50 pound'luk yumuşak rudder
+- Yalnızca diferansiyel fren
+- Rudder'ı nötr tutup yalnızca NWS
+A: Havalanınca rudder pedalları ortalanır ve flyaway duruşu kurulur.
+K: 2-34.11, 2-34.12
+
+S: Cross-deck pendant / hook point arızasında uçak güvertede durdurulamıyor ve uçuş için hız yeterli değilse ne yapılır?
++ Eject
+- MRT ve optimum AOA
+- AOA 24 unit
+- Speed brake açılır
+A: Önce güvertede durdurulup durdurulamayacağı derhal belirlenir, sonra hızın yeterli olup olmadığı.
+K: 2-34.13, 2-34.14, 2-34.15
+
+S: Cross-deck pendant / hook point arızasında hız yeterliyse ne yapılır?
++ MRT korunur, speed brake'lerin kapalı olduğu kontrol edilir ve yumuşakça optimum AOA'ya rotate edilir
+- Throttle IDLE'a çekilir ve maksimum frenleme yapılır
+- Önce AOA 24 unit'e çekilir, sonra MRT verilir
+- Speed brake açılır ve eject'e hazırlanılır
+A: Cold / soft cat'te de aynı sıra izlenir; orada speed brake kontrolü sayılmaz.
+K: 2-34.16, 2-36.20
+
+S: Cross-deck pendant arızasından veya cold / soft cat'ten sonra batma (sink rate) durdurulamazsa AOA kaç unit'e artırılır?
+- 17 unit
+- 20 unit
++ 24 unit
+- 30 unit
+A: Kanatlar düz tutulur ve pozitif tırmanış hızı kurulur.
+K: 2-34.17, 2-36.21, 2-36.22
+
+S: Hangisi uçuş güvertesinde NWS arızasının belirtilerinden biri DEĞİLDİR?
+- MSTR ALERT ışığı yanıp söner
+- Amber NOSE WHEEL STR caution ışığı yanar
+- Rudder pedalları yönlendirmede etkisizdir
++ Kırmızı L BAR warning ışığı yanar
+A: Kırmızı L BAR ışığı launch bar arızasını gösterir. NWS belirtilerine kulaklıkta caution tone ve (high gain seçiliyse) yeşil NOSE WHEEL STR advisory ışığının sönmesi de dahildir.
+K: 2-34.18..2-34.23, 2-35.18
+
+S: NWS arızası belirtileri varsa ne yapılır?
++ Uçak durdurulur, çalışmayan NWS ile taxi yapılmaz ve Tower'a bildirilir
+- Diferansiyel frenle taxi'ye devam edilir
+- Katapulta gidilip kalkış yapılır
+- Motor kapatılıp yellow shirt beklenir
+A: Ardından güverte ekibi tow bar takar.
+K: 2-34.24, 2-34.25, 2-34.27
+
+S: NWS arızasında ne teyit edilir?
++ Pilotun NWS'i ayırmak için paddle switch'e ve ışığı/tonu iptal için MSTR ALERT ışığına bastığı
+- Pilotun park frenini çekip kancayı indirdiği
+- Pilotun ANTI-SKID switch'ini ON yaptığı
+- Pilotun launch bar'ı RETRACT konumuna aldığı
+A: "Confirm the pilot has pressed the paddle switch to disengage NWS and pressed the MSTR ALERT light (to cancel the light and tone)."
+K: 2-34.26
+
+S: WARNING: Tow bar takılıyken ne yapılmaz?
++ NWS yeniden devreye alınmaz ve diferansiyel fren kullanılmaz
+- Çekilirken işaretler izlenmez
+- Motor çalışır tutulmaz
+- Tower ile konuşulmaz
+A: Çekilirken "flight director"ın işaretleri izlenir.
+K: 2-35.02, 2-34.28
+
+S: Hangisi fren arızasının belirtilerinden biri DEĞİLDİR?
+- HYD 1 PRESS caution ışığının yanması
+- Fren basınç göstergesinde düşük basınç
+- Fren pedalı basıncının azalması veya kaybı
++ Amber NOSE WHEEL STR caution ışığının yanması
+A: NOSE WHEEL STR ışığı NWS arızasının belirtisidir.
+K: 2-35.03, 2-34.21
+
+S: Fren arızasında dururken yön kontrolü nasıl korunur? Yalnızca bir fren arızalıysa?
++ High gain NWS ve mevcut frenleme; tek fren arızasında NWS ve çalışan fren
+- Low gain NWS ve speed brake; tek fren arızasında yalnızca rudder
+- Yalnızca rudder; tek fren arızasında arresting hook
+- Park freni; tek fren arızasında diferansiyel fren
+A: "...use high gain nose wheel steering and available braking to maintain directional control while stopping."
+K: 2-35.04, 2-35.05
+
+S: Fren arızasında arresting hook neden indirilir?
++ Güverte personeline fren arızası olduğunu bildirmek için
+- Güverte teline takılıp durmak için
+- Barricade'e hazırlık için
+- Ağırlık merkezini değiştirmek için
+A: Ayrıca varsa park freni çekilir ve ANTI-SKID switch'inin OFF konumunda olduğundan emin olunur.
+K: 2-35.06
+
+S: Fren arızasında throttle ne zaman OFF'a alınır?
++ Yalnızca çarpışma kaçınılmazsa; çünkü motor kapanınca NWS ve kalan hidrolik hizmetler kaybolur
+- Fren arızası fark edilir edilmez
+- Uçak tamamen durunca
+- Tower talimat verdiğinde
+A: Durum Tower'a bildirilir.
+K: 2-35.07
+
+S: Fren arızasında uçak güverteden çıkıyorsa kural nedir?
++ Eject edilir; ancak bir teker güverteden çıktıysa (uçak düz değilse) uçak ejection zarfının dışında olabilir ve ejection artık önerilmez
+- Her durumda uçakla suya girilir
+- Throttle MRT'ye alınıp kalkış denenir
+- Teker durumundan bağımsız olarak her zaman eject edilir
+A: Ada'ya veya başka bir uçağa çarpmak anlamına gelse bile uçağı güvertede tutmak için her çaba gösterilir.
+K: 2-35.08, 2-35.09, 2-35.10
+
+S: Su altından çıkışta oksijen ekipmanıyla kaç ft derinliğe kadar nefes almak mümkündür?
+- 6 ft
++ 16 ft
+- 30 ft
+- 60 ft
+A: İlk adım: MDC ateşleme kolunu çek ve acil oksijeni devreye al.
+K: 2-35.12, 2-35.13
+
+S: Survival kit OLMADAN çıkışta, survival kit ile çıkıştan farklı olarak ne yapılır?
++ Alt Koch bağlantıları açılır ve oksijen / haberleşme bağlantıları ayrılır
+- Üst Koch bağlantıları açılmaz
+- LPU şişirilmez
+- Emergency restraint release çekilmez
+A: Kit ile: üst Koch, emergency restraint release, seatpack ile terk, LPU. Kit olmadan: üst Koch, emergency restraint release, alt Koch, oksijen/haberleşme bağlantıları, LPU.
+K: 2-35.14, 2-35.15
+
+S: Kokpit su dolduysa LPU ile ilgili neye dikkat edilir?
++ Suyla çalışan otomatik şişirme cihazı nedeniyle şişmiş olabilir; çıkışta LPU'ya zarar vermemeye dikkat edilir
+- LPU elle şişirilmeden çıkılmaz
+- LPU çıkarılıp kokpitte bırakılır
+- LPU çıkıştan önce söndürülür
+A: "If so, care must be taken during exit to avoid damage to the LPU."
+K: 2-35.16, 2-35.17
+
+S: Havada launch bar arızası nasıl belirtilir ve ilk ne kontrol edilir?
++ Warning tone ile birlikte kırmızı L BAR warning ışığı; launch bar switch'inin RETRACT konumunda olduğu doğrulanır
+- Amber L BAR caution ışığı; gear kolunun DOWN olduğu doğrulanır
+- MSTR ALERT ve caution tone; NWS'in high gain olduğu doğrulanır
+- HYD 1 PRESS ışığı; hook'un UP olduğu doğrulanır
+A: "A launch bar malfunction is indicated by the red L BAR warning light accompanied by the warning tone."
+K: 2-35.18, 2-35.19
+
+S: Launch bar geri çekilmezse ne yapılır?
++ LSO / tower bilgilendirilir ve PCL'deki Landing Gear Malfunction – Landing Guide grafiğine bakılır
+- Hemen eject edilir
+- Gemiye normal trap yapılır
+- Bingo ilan edilip 7700 squawk edilir
+A: Launch bar DOWN olarak görsel teyit edilirse uçak paterni terk eder ve divert beklenir.
+K: 2-35.20
+
+S: Launch bar'ın DOWN konumunda olduğu görsel olarak teyit edilirse ne beklenir?
++ Divert edip short-field arresting gear'ı sökülmüş (de-rigged) bir kara sahasına inmek
+- Gemiye barricade ile inmek
+- Gemiye normal trap yapmak
+- Kara sahasında short-field arrested landing yapmak
+A: Önce temizlenilir, standart prosedürlerle patern terk edilir ve tower talimatına göre overhead'de rendezvous yapılır.
+K: 2-35.21, 2-35.22
+
+## 205.2
+
+S: Katapulttayken uçak acil durumu olursa suspend nasıl istenir?
++ Başı sallayarak olumsuz işaret verilir ve "Suspend, suspend, suspend." yayınlanır
+- El sallanır ve "Abort, abort, abort." yayınlanır
+- Throttle IDLE'a çekilir ve selam verilir
+- Kanopi açılır
+A: Bunlar katapult suspend prosedürleridir.
+K: 2-36.02, 2-36.03
+
+S: Suspend istendikten sonra MRT ne zamana kadar korunur?
++ Katapult subayı uçağın kanadının önüne geçip throttle back işareti verene kadar
+- Suspend yayınlanır yayınlanmaz IDLE'a çekilir
+- Tower onay verene kadar
+- Yellow shirt takozları takana kadar
+A: "Maintain MRT until the catapult officer steps in front of the aircraft's wing and gives the throttle back signal."
+K: 2-36.03
+
+S: CAUTION: Suspend sırasında eller neden kokpitte aşağıda ve görünmez tutulur?
++ El hareketleri selamla (salute) karıştırılmasın diye
+- Ejection koluna yakın olmak için
+- Kumandaları korumak için
+- Throttle'ı tutmak için
+A: "...so that hand movements cannot be confused with a salute."
+K: 2-36.05
+
+S: Hang fire nedir?
++ Katapult subayı güverteye dokunmuş, düğmeye basılmış ama katapultun ateşlenmemesi
+- Katapultun zayıf (soft) ateşlenmesi
+- Holdback fitting'in kopması
+- Launch bar'ın shuttle'dan çıkması
+A: Cold / soft cat ve holdback fitting arızası ayrı durumlardır.
+K: 2-36.06
+
+S: Hang fire'da katapult subayının işaret sırası nedir?
++ Suspend → hang fire → katapult emniyete alınınca uçağın önüne geçip throttle back
+- Hang fire → suspend → launch
+- Throttle back → suspend → hang fire
+- Yalnızca throttle back
+A: "...the catapult officer will give the suspend signal followed by the hang fire signal."
+K: 2-36.07, 2-36.08
+
+S: Holdback fitting arızasını nasıl anlarsınız?
++ Uçak öne yuvarlanmaya başlar ve katapult darbesi yerine normal bir kalkış koşusundaymış gibi hissedilir
+- Katapult hiç ateşlenmez
+- Kırmızı L BAR ışığı yanar
+- Uçak kalkıştan sonra batmaya başlar
+A: Holdback fitting arızası uçak gerdirildikten (in tension) sonra olabilir.
+K: 2-36.09, 2-36.10
+
+S: Holdback fitting arızasında ne yapılır?
++ Throttle derhal IDLE'a çekilir, speed brake'ler açılır, maksimum frenleme uygulanır; gerekirse NWS kullanılır
+- MRT korunur ve optimum AOA'ya rotate edilir
+- Derhal eject edilir
+- Throttle OFF'a alınıp kanca indirilir
+A: Güvertede kalmak için gerekirse NWS kullanılır.
+K: 2-36.11, 2-36.12
+
+S: Holdback fitting arızasında NWS'i etkinleştirmek için ne gerekir?
++ Launch bar'ın geri çekilmesi ya da NWS düğmesine basılması
+- Park freninin çekilmesi
+- ANTI-SKID switch'inin OFF'a alınması
+- Paddle switch'e basılması
+A: Paddle switch NWS'i ayırmak (disengage) için kullanılır.
+K: 2-36.13, 2-34.26
+
+S: CAUTION: Holdback fitting arızasından sonra uçak güvertede tutulamıyor ve eject edilemiyorsa ne yapılır?
++ MDC kolu çekilir, acil oksijen devreye alınır, uçakla birlikte suya girilir ve water egress yapılır
+- Kanopi açılıp atlanır
+- Throttle MRT'ye alınıp kalkış denenir
+- Barricade beklenir
+A: Prosedürleri derhal uygulamamak uçağı güvertede tutmayı imkânsız hâle getirip ejection gerektirebilir.
+K: 2-36.15, 2-36.16
+
+S: Cold / soft catapult'ta uçak güvertede durdurulamıyor ve hız yeterliyse ne yapılır?
++ MRT korunur ve batmayı durdurmak için yumuşakça optimum AOA'ya rotate edilir
+- Throttle IDLE'a çekilip maksimum frenleme yapılır
+- Derhal AOA 24 unit'e çekilir
+- Eject edilir
+A: Hız yeterli değilse eject edilir. Batma durdurulamazsa AOA 24 unit, kanatlar düz, pozitif tırmanış.
+K: 2-36.17, 2-36.18, 2-36.19, 2-36.20
+
+S: İletişim arızasında her zaman ilk yapılan nedir?
++ Switch'leri kontrol edip gevşek bağlantı arayarak sistemi gidermeye (troubleshoot) çalışmak
+- 7600 squawk edip gemiye dönmek
+- Derhal divert etmek
+- Lidere başparmak aşağı işareti vermek
+A: "...always troubleshoot the system by checking switches and looking for loose connections."
+K: 2-37.01
+
+S: Gemiye giderken iletişiminiz kesilirse (NORDO) ne yaparsınız?
++ El işaretleriyle lidere NORDO durumunuzu ve yakıt durumunuzu bildirirsiniz; lider Marshal ile recovery ya da divert koordine eder
+- 7600 squawk edip doğrudan gemiye yaklaşırsınız
+- Marshal holding'e kendiniz girersiniz
+- Kendi başınıza divert sahasına gidersiniz
+A: "The lead will contact Marshal and coordinate a recovery or a divert."
+K: 2-37.02, 2-37.03
+
+S: Paternde iletişim kaybında topu çağırdıktan sonra cut ışıkları gelmezse ne yapılır?
++ Yaklaşma waveoff edilir ve 300 ft'in altına inilmez
+- İnişe devam edilir
+- Bolter beklenir
+- 500 ft'e tırmanıp holding'e girilir
+A: Normal patern start'a kadar uçulur ve top çağrılır; cut ışıkları gelmezse waveoff.
+K: 2-37.04, 2-37.05
+
+S: Paternde NORDO waveoff'tan sonra geminin pruvasının abeam'ine gelince ne yapılır?
++ BRC'ye paralel dönülür, 500 ft'e tırmanıp korunur ve 150 KIAS'a hızlanılır
+- 1.200 ft'e tırmanılıp 250 KIAS'a hızlanılır
+- 300 ft'te kalınıp 150 KIAS korunur
+- 800 ft'e tırmanılıp 300 KIAS'a hızlanılır
+A: Önce açılı güverte boyunca kanatlar sallanarak uçulur; sonra aralığa göre dönülerek paterne devam edilir.
+K: 2-37.06, 2-37.07, 2-37.08
+
+S: CAUTION: Paternde NORDO iken tırmanırken gemiye göre hangi sınıra uyulur?
++ Geminin 5 NM içinde kalınır ve gemi gözden kaybedilmez
+- Geminin 10 NM içinde kalınır
+- Geminin 3 NM dışına çıkılır
+- CCA'nın (50 NM) içinde kalınır
+A: Tırmanırken diğer uçaklara karşı tetikte olunur.
+K: 2-37.10
+
+S: CAUTION: Paternde NORDO iken bingo yakıtına ulaşılırsa ya da derhal iniş gerektiren bir acil durum olursa ne yapılır?
++ Divert sahasına gidilir, 7700 squawk edilir, heading için wet compass ve HSI çapraz kontrol edilir
+- Gemiye düz bir yaklaşma yapılır
+- 7600 squawk edilip Marshal holding'e girilir
+- Paternde kalıp cut ışıkları beklenir
+A: Bingo sahasına başka bir uçak eskort olarak katılabilir.
+K: 2-37.11, 2-37.12, 2-37.13
+
+S: Uçuş güvertesinde bilinen bir iletişim arızanız varsa ne yaparsınız?
++ Asla katapulta taxi yapmazsınız; yellow shirt'e iletişim arızası işaretini verip işaretleriyle park alanına gidersiniz
+- Katapulta gidip el işaretleriyle kalkarsınız
+- Tower'a ışıkla bildirip kalkarsınız
+- Motoru kapatıp güverte ekibini beklersiniz
+A: Uygun olduğunda arıza giderilir: switch'ler cycle edilir, maske ve kask bağlantıları kontrol edilir.
+K: 2-37.14, 2-37.15, 2-37.16
+
+S: Uçuş güvertesinde iletişim arızası işareti nasıl verilir?
++ Kulaklar veya maske gösterilip ardından başparmak aşağı yapılır
+- Baş sallanır
+- Selam verilir
+- Başparmak yukarı yapılır
+A: Baş sallama, katapultta suspend için olumsuz işarettir.
+K: 2-37.15, 2-36.03

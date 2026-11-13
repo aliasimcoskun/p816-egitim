@@ -1,0 +1,25 @@
+[
+ {"id": "2-13.F1", "page": "2-13", "kind": "sekil-icerik", "sec": "Figure 2-3", "text": "[Figure 2-3] Circular holding pattern (ring) with points marked 1 (right side), 2 (top, BRC side), 3 (left side) and 4 (bottom); a 'Pattern Flow' arrow shows counterclockwise (left-hand) flow."},
+ {"id": "2-13.F2", "page": "2-13", "kind": "sekil-icerik", "sec": "Figure 2-3", "text": "[Figure 2-3] The carrier is drawn inside the ring, bow toward the top, between the ring center and point 1; a 'BRC' arrow extends from the bow toward the top of the figure."},
+ {"id": "2-13.F3", "page": "2-13", "kind": "sekil-icerik", "sec": "Figure 2-3", "text": "[Figure 2-3] A double-headed arrow drawn across the ring through its center is labelled '5 NM'."},
+ {"id": "2-13.F4", "page": "2-13", "kind": "sekil-icerik", "sec": "Figure 2-3", "text": "[Figure 2-3] The upper half of the ring (from point 3 through 2 to 1) is shaded green and the lower half (from point 3 through 4 to 1) blue; this figure has no legend for the colors."},
+ {"id": "2-13.F5", "page": "2-13", "kind": "sekil-icerik", "sec": "Figure 2-3", "text": "[Figure 2-3] Two dashed entry tracks join the ring tangentially in the direction of pattern flow: one from the upper left joining at point 3, one from the left joining at the bottom near point 4; each is labelled '10 NM Establish Pattern Altitude'."},
+
+ {"id": "2-14.F1", "page": "2-14", "kind": "sekil-icerik", "sec": "Figure 2-4", "text": "[Figure 2-4] Same ring as Figure 2-3: points 1 (right), 2 (top), 3 (left), 4 (bottom); 'Pattern Flow' arrow counterclockwise; carrier inside the ring with a 'BRC' arrow toward the top; a '5 NM' double-headed arrow across the ring."},
+ {"id": "2-14.F2", "page": "2-14", "kind": "sekil-icerik", "sec": "Figure 2-4", "text": "[Figure 2-4] The upper (green) half of the ring, between points 1-2-3, is labelled 'Pattern Climb Area'; the lower (blue) half, between points 3-4-1, is labelled 'Pattern Descent Area'."},
+ {"id": "2-14.F3", "page": "2-14", "kind": "sekil-icerik", "sec": "Figure 2-4", "text": "[Figure 2-4] A dashed departure track leaves the ring at point 3 toward the lower left (arrow), loops around astern of the ship and comes back inbound along the starboard side, passing point 1 and paralleling BRC."},
+ {"id": "2-14.F4", "page": "2-14", "kind": "sekil-icerik", "sec": "Figure 2-4", "text": "[Figure 2-4] A '3 NM' dimension on the right side measures from the level of point 1 to a point astern on the inbound track."},
+ {"id": "2-14.F5", "page": "2-14", "kind": "sekil-icerik", "sec": "Figure 2-4", "text": "[Figure 2-4] Ahead of the ship, four unlabelled dashed arcs turn left off the inbound track at successive points."},
+
+ {"id": "2-16.F1", "page": "2-16", "kind": "sekil-icerik", "sec": "Figure 2-5", "text": "[Figure 2-5] INITIAL: 3 nm Astern; 800 ft; 300 KIAS."},
+ {"id": "2-16.F2", "page": "2-16", "kind": "sekil-icerik", "sec": "Figure 2-5", "text": "[Figure 2-5] BREAK: On Interval or No Earlier Than 1 nm; Wingman: 15 sec Interval (a large hollow arrow is drawn next to the label)."},
+ {"id": "2-16.F3", "page": "2-16", "kind": "sekil-icerik", "sec": "Figure 2-5", "text": "[Figure 2-5] TURN DOWNWIND: Interval's Hook Down, 7 o'clock."},
+ {"id": "2-16.F4", "page": "2-16", "kind": "sekil-icerik", "sec": "Figure 2-5", "text": "[Figure 2-5] DOWNWIND: 600 ft On-Speed; Airspeed Check; Landing Checks; Trimmed Up."},
+ {"id": "2-16.F5", "page": "2-16", "kind": "sekil-icerik", "sec": "Figure 2-5", "text": "[Figure 2-5] ABEAM: 600 ft; Establish VSI: 200-300 fpm, 27-30° AOB. 'ABEAM CALL' is marked at the abeam position."},
+ {"id": "2-16.F6", "page": "2-16", "kind": "sekil-icerik", "sec": "Figure 2-5", "text": "[Figure 2-5] A dashed line from the abeam position to the ship is labelled '.9 - 1.1 nm'."},
+ {"id": "2-16.F7", "page": "2-16", "kind": "sekil-icerik", "sec": "Figure 2-5", "text": "[Figure 2-5] 90: 450 ft; 27-30° AOB; VSI: 500 fpm."},
+ {"id": "2-16.F8", "page": "2-16", "kind": "sekil-icerik", "sec": "Figure 2-5", "text": "[Figure 2-5] 45: 325-375ft."},
+ {"id": "2-16.F9", "page": "2-16", "kind": "sekil-icerik", "sec": "Figure 2-5", "text": "[Figure 2-5] BALL CALL: marked at the aircraft on final in line with the ship's landing area, with a dashed line from the aircraft to the ship's stern."},
+ {"id": "2-16.F10", "page": "2-16", "kind": "sekil-icerik", "sec": "Figure 2-5", "text": "[Figure 2-5] TOUCH AND GO/BOLTER: Climb, Turn to Parallel BRC."},
+ {"id": "2-16.F11", "page": "2-16", "kind": "sekil-icerik", "sec": "Figure 2-5", "text": "[Figure 2-5] An outer curve running from the abeam position around to the final approach carries tick marks labelled '90°' (bottom) and '45°' (right side)."}
+]

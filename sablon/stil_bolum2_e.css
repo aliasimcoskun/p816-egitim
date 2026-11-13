@@ -1,0 +1,20 @@
+/* Bölüm 2, parça e — e_bingo bileşeni */
+.w-e-bingo .eb-secim{display:flex;flex-direction:column;gap:8px;margin-bottom:8px}
+.w-e-bingo .eb-grup{display:flex;flex-wrap:wrap;align-items:center;gap:6px}
+.w-e-bingo .eb-et{font-size:13px;color:var(--soluk);min-width:110px}
+.w-e-bingo .eb-grup .btn{padding:4px 10px;font-size:13.5px}
+.w-e-bingo .eb-mesafe{display:flex;flex-direction:column;gap:4px}
+.w-e-bingo .eb-mesafe b{color:var(--metin)}
+.w-e-bingo .eb-mesafe input[type=range]{width:100%;accent-color:var(--vurgu)}
+.w-e-bingo .eb-profil{max-width:640px;margin:4px auto 0;background:var(--yuzey2);border-radius:10px}
+.w-e-bingo .eb-deniz{stroke:var(--vurgu);stroke-width:2;opacity:.6}
+.w-e-bingo .eb-yol{fill:none;stroke:var(--vurgu);stroke-width:3;stroke-linejoin:round}
+.w-e-bingo .eb-nokta{fill:var(--metin)}
+.w-e-bingo .eb-alcalma{fill:var(--uyari)}
+.w-e-bingo .eb-olcu,.w-e-bingo .eb-olcu-uc{stroke:var(--soluk);stroke-width:1.2}
+.w-e-bingo .eb-olcu{stroke-dasharray:4 3}
+.w-e-bingo .eb-sonuc{margin-top:8px;font-size:14.5px}
+.w-e-bingo .eb-sonuc .eb-kaynak{margin:0 0 6px;color:var(--soluk);font-size:13px}
+.w-e-bingo .eb-sonuc table{font-size:14px}
+.w-e-bingo .eb-sonuc td b{color:var(--vurgu)}
+@media (max-width:520px){.w-e-bingo .eb-et{min-width:0;width:100%}}
