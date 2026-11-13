@@ -2,13 +2,15 @@
 
 CNATRA P-816 *CV Procedures (UMFO) T-45C* belgesinden üretilmiş, **kapsamı denetlenen** Türkçe eğitim paketi. Bölümler: Bölüm 1 (s. 1-1 – 1-16), Bölüm 2 (s. 2-1 – 2-38), Ek A sözlük (A-1 – A-6), Ek B uçuş güvertesi işaretleri (B-1 – B-12), Ek C LSO telsiz çağrıları (C-1 – C-4).
 
+**Çevrimiçi:** https://aliasimcoskun.github.io/p816-carrier-procedures-tr/ (kurulum gerekmez; ders sayfaları, sorular, kartlar ve seslendirme tarayıcıda çalışır).
+
 Ek B ve Ek C'nin PDF'te yalnızca görsel olarak bulunan tabloları satır satır aktarılmıştır. El işaretlerinin çizimleri kırpılıp resimli kartlara dönüştürülmüştür; kart ön yüzü `[img:dosya.png]` ile başlarsa derleyici görseli sayfada ve Anki destesinde gösterir.
 
 ## Çıktılar
 
 | Dosya | Ne işe yarar |
 |---|---|
-| `site/index.html` | Giriş sayfası: bölümler, kapsam özetleri. Çift tıklayıp tarayıcıda açılır; internet gerekmez. `site/` klasörü olduğu gibi intranete konabilir. |
+| `site/index.html` | Giriş sayfası: bölümler, kapsam özetleri. Çift tıklayıp tarayıcıda açılır; internet gerekmez. `site/` klasörü olduğu gibi intranete konabilir. `main` dalına gelen her `site/` değişikliği GitHub Pages'e otomatik yayınlanır (`.github/workflows/pages.yml`). |
 | `site/bolumN.html` | Bölümün etkileşimli ders sayfası (ders, bölüm sonu soruları, bilgi kartları). |
 | `site/ses/<bölüm>/*.mp3` | Ders bloklarının seslendirmesi (Türkçe anlatım: Ahmet; tırnak içindeki İngilizce ifadeler İngilizce sesle). Sayfadaki **🔊 Dinle** ya da blok başındaki **▶ Dinle** ile çalınır; hız 0,5×–2× arası ayarlanır. |
 | `site/kapsam_bolumN.html` | Belgedeki her cümlenin hangi ders paragrafında, hangi soru ve kartta işlendiğini gösteren rapor. |
